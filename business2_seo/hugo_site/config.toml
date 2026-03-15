@@ -1,0 +1,65 @@
+baseURL = "https://your-domain.com/"   # ← CHANGE THIS
+languageCode = "en-us"
+title = "AI Tools Insider"
+theme = "PaperMod"
+
+# ── SEO ────────────────────────────────────────────────────────────────────────
+[params]
+  description = "Honest AI tool comparisons, reviews, and guides for professionals"
+  author = "AI Tools Insider Team"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  defaultTheme = "light"
+  disableThemeToggle = false
+
+  [params.homeInfoParams]
+    Title = "Find the Right AI Tool for Your Work"
+    Content = "Independent reviews and comparisons of AI tools — no hype, just honest analysis and real use cases."
+
+# ── Menu ───────────────────────────────────────────────────────────────────────
+[[menus.main]]
+  name = "Reviews"
+  url = "/tags/review/"
+  weight = 10
+
+[[menus.main]]
+  name = "Comparisons"
+  url = "/tags/comparison/"
+  weight = 20
+
+[[menus.main]]
+  name = "Tutorials"
+  url = "/tags/tutorial/"
+  weight = 30
+
+# ── Sitemap ────────────────────────────────────────────────────────────────────
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# ── Build ──────────────────────────────────────────────────────────────────────
+[build]
+  writeStats = true
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+
+# ── Taxonomy ───────────────────────────────────────────────────────────────────
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# ── Affiliate Disclosure (global) ─────────────────────────────────────────────
+[params.editPost]
+  disabled = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true   # allows inline HTML (needed for affiliate link buttons)

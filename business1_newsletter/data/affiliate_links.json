@@ -1,0 +1,62 @@
+{
+  "_instructions": "Replace YOUR_REF_ID placeholders with your actual affiliate IDs before going live.",
+  "tools": {
+    "semrush": {
+      "name": "Semrush",
+      "display_name": "Semrush (All-in-one SEO + AI Content)",
+      "url": "https://www.semrush.com/",
+      "affiliate_url": "https://semrush.sjv.io/YOUR_REF_ID",
+      "commission": "$10/trial + $50-450/sale",
+      "cookie_days": 120,
+      "category": "SEO",
+      "cta": "Try Semrush free for 14 days →",
+      "one_liner": "The SEO tool 10M+ marketers use — now with AI content generation."
+    },
+    "notion": {
+      "name": "Notion",
+      "display_name": "Notion AI",
+      "url": "https://www.notion.so/",
+      "affiliate_url": "https://affiliate.notion.so/YOUR_REF_ID",
+      "commission": "$50/signup + 20% year-1 revenue",
+      "cookie_days": 180,
+      "category": "Productivity",
+      "cta": "Start free with Notion AI →",
+      "one_liner": "Your second brain — now with AI that actually knows your docs."
+    },
+    "writesonic": {
+      "name": "Writesonic",
+      "display_name": "Writesonic",
+      "url": "https://writesonic.com/",
+      "affiliate_url": "https://writesonic.com/?via=YOUR_REF_ID",
+      "commission": "30% recurring",
+      "cookie_days": 60,
+      "category": "AI Writing",
+      "cta": "Write 10x faster with Writesonic →",
+      "one_liner": "AI writer + SEO checker that actually ranks content on Google."
+    },
+    "getresponse": {
+      "name": "GetResponse",
+      "display_name": "GetResponse",
+      "url": "https://www.getresponse.com/",
+      "affiliate_url": "https://www.getresponse.com/referral/YOUR_REF_ID",
+      "commission": "40% recurring for 12 months",
+      "cookie_days": 90,
+      "category": "Email Marketing",
+      "cta": "Build your email list with GetResponse →",
+      "one_liner": "Email + automation + AI landing pages. Grow your audience on autopilot."
+    },
+    "surfer_seo": {
+      "name": "Surfer SEO",
+      "display_name": "Surfer SEO",
+      "url": "https://surferseo.com/",
+      "affiliate_url": "https://surferseo.com/?via=YOUR_REF_ID",
+      "commission": "25% recurring",
+      "cookie_days": 60,
+      "category": "SEO",
+      "cta": "Rank #1 with Surfer SEO →",
+      "one_liner": "Write content that ranks — Surfer scores every paragraph in real time."
+    }
+  },
+  "rotation_strategy": "weekly",
+  "featured_per_issue": 2
+}

@@ -1,0 +1,60 @@
+{
+  "_instructions": "Replace YOUR_REF_ID with your actual affiliate IDs before going live.",
+  "tools": {
+    "semrush": {
+      "name": "Semrush",
+      "affiliate_url": "https://semrush.sjv.io/YOUR_REF_ID",
+      "cta_text": "Try Semrush Free for 14 Days",
+      "cta_button": "<a href='https://semrush.sjv.io/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Semrush Free →</a>",
+      "badge": "Best for SEO",
+      "rating": 4.8,
+      "starting_price": "$117.33/month",
+      "free_trial": true,
+      "commission_note": "$10/trial + up to $450/sale, 120-day cookie"
+    },
+    "writesonic": {
+      "name": "Writesonic",
+      "affiliate_url": "https://writesonic.com/?via=YOUR_REF_ID",
+      "cta_text": "Try Writesonic Free",
+      "cta_button": "<a href='https://writesonic.com/?via=YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>",
+      "badge": "Best for Content",
+      "rating": 4.6,
+      "starting_price": "$16/month",
+      "free_trial": true,
+      "commission_note": "30% recurring commission"
+    },
+    "notion": {
+      "name": "Notion AI",
+      "affiliate_url": "https://affiliate.notion.so/YOUR_REF_ID",
+      "cta_text": "Try Notion AI Free",
+      "cta_button": "<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>",
+      "badge": "Best for Productivity",
+      "rating": 4.7,
+      "starting_price": "$10/month",
+      "free_trial": true,
+      "commission_note": "$50/signup + 20% revenue year 1, 180-day cookie"
+    },
+    "getresponse": {
+      "name": "GetResponse",
+      "affiliate_url": "https://www.getresponse.com/referral/YOUR_REF_ID",
+      "cta_text": "Try GetResponse Free",
+      "cta_button": "<a href='https://www.getresponse.com/referral/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try GetResponse Free →</a>",
+      "badge": "Best for Email",
+      "rating": 4.5,
+      "starting_price": "$19/month",
+      "free_trial": true,
+      "commission_note": "40% recurring for 12 months, 90-day cookie"
+    },
+    "surfer_seo": {
+      "name": "Surfer SEO",
+      "affiliate_url": "https://surferseo.com/?via=YOUR_REF_ID",
+      "cta_text": "Try Surfer SEO",
+      "cta_button": "<a href='https://surferseo.com/?via=YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Surfer SEO →</a>",
+      "badge": "Best for On-Page SEO",
+      "rating": 4.6,
+      "starting_price": "$89/month",
+      "free_trial": false,
+      "commission_note": "25% recurring commission"
+    }
+  }
+}

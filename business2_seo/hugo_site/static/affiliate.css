@@ -1,0 +1,24 @@
+/* Affiliate CTA button styles — email-safe and web-safe */
+.btn-affiliate,
+a.btn-affiliate {
+  display: inline-block;
+  background: #1a56db;
+  color: #ffffff !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 8px 0;
+  transition: background 0.2s ease;
+}
+.btn-affiliate:hover {
+  background: #1e429f;
+}
+.affiliate-disclosure {
+  font-size: 0.8rem;
+  color: #6b7280;
+  border-left: 3px solid #e5e7eb;
+  padding-left: 12px;
+  margin: 16px 0;
+}

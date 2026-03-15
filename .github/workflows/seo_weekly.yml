@@ -1,0 +1,65 @@
+name: SEO Site — Weekly Content Generation
+
+on:
+  # Every Sunday at 02:00 UTC (off-peak, minimizes CI contention)
+  schedule:
+    - cron: "0 2 * * 0"
+
+  # Manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      articles_count:
+        description: "Number of articles to generate (default: 5)"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write   # needed to commit new .md files + state updates
+
+jobs:
+  generate-content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: "business2_seo/requirements.txt"
+
+      - name: Install dependencies
+        run: pip install -r business2_seo/requirements.txt
+
+      - name: Run SEO content pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SITE_DOMAIN: ${{ secrets.SITE_DOMAIN }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ARTICLES_PER_RUN: ${{ inputs.articles_count || '5' }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        working-directory: business2_seo
+        run: python orchestrator.py
+
+      - name: Commit new articles and state updates
+        if: always()
+        run: |
+          git config user.name "SEO Content Bot"
+          git config user.email "bot@github-actions"
+          git add business2_seo/hugo_site/content/posts/ \
+                  business2_seo/data/state.json \
+                  business2_seo/data/keywords.csv \
+                  business2_seo/logs/ || true
+          git diff --staged --quiet || git commit -m "content: add $(date +%Y-%m-%d) batch [skip ci]"
+          git push
+
+      # Cloudflare Pages auto-deploys on push — no extra step needed!
+      # If you want to verify deploy status, add a step here to poll the CF API.
