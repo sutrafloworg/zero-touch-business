@@ -1,0 +1,29 @@
+2026-03-16 03:28:04,528 [INFO] orchestrator — ============================================================
+2026-03-16 03:28:04,528 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-03-16 03:28:04,528 [INFO] orchestrator — Timestamp: 2026-03-16T03:28:04.528396+00:00
+2026-03-16 03:28:04,528 [INFO] orchestrator — ============================================================
+2026-03-16 03:28:04,567 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-03-16 03:28:04,662 [INFO] agents.feed_agent —   TechCrunch AI: fetched 13 fresh items
+2026-03-16 03:28:05,281 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-03-16 03:28:05,957 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 4 fresh items
+2026-03-16 03:28:06,628 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-03-16 03:28:07,543 [INFO] agents.feed_agent —   Hacker News (Top): fetched 18 fresh items
+2026-03-16 03:28:08,269 [INFO] agents.feed_agent —   Product Hunt AI: fetched 33 fresh items
+2026-03-16 03:28:08,990 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: <unknown>:2:3549: not well-formed (invalid token)
+2026-03-16 03:28:10,179 [INFO] agents.feed_agent —   OpenAI Blog: fetched 1 fresh items
+2026-03-16 03:28:10,681 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 69 total
+2026-03-16 03:28:10,682 [INFO] orchestrator —       Got 10 items
+2026-03-16 03:28:10,682 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-03-16 03:28:10,683 [INFO] agents.content_agent — Generating newsletter with sponsors: Surfer SEO, Semrush
+2026-03-16 03:28:24,265 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-16 03:28:24,287 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'The AI Agent Infrastructure Play (And 3 Tools You Need)'
+2026-03-16 03:28:24,287 [INFO] orchestrator —       Subject: 'The AI Agent Infrastructure Play (And 3 Tools You Need)'
+2026-03-16 03:28:24,287 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-03-16 03:28:24,287 [INFO] agents.publisher_agent — Creating broadcast via Kit API v3...
+2026-03-16 03:28:24,781 [INFO] agents.publisher_agent — Publisher Agent: broadcast created, ID=23302782
+2026-03-16 03:28:24,869 [INFO] orchestrator —       Broadcast ID: 23302782, Subscribers: 1
+2026-03-16 03:28:24,869 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-03-16 03:28:24,869 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 23302782
+2026-03-16 03:28:24,869 [INFO] orchestrator — ============================================================
+2026-03-16 03:28:24,869 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-03-16 03:28:24,869 [INFO] orchestrator — ============================================================

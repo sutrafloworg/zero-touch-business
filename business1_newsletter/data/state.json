@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-03-16T02:54:36.650088+00:00",
-  "issues_published": 0,
-  "consecutive_failures": 2,
+  "last_run": "2026-03-16T03:28:24.869412+00:00",
+  "issues_published": 1,
+  "consecutive_failures": 0,
   "last_published_urls": [
     "https://openai.com/index/designing-agents-to-resist-prompt-injection",
     "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
@@ -22,13 +22,21 @@
     "https://openai.com/index/wayfair",
     "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
     "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
-    "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/"
+    "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+    "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
+    "https://www.producthunt.com/products/query-memory",
+    "https://www.producthunt.com/products/openmolt",
+    "https://www.producthunt.com/products/clawslist",
+    "https://www.producthunt.com/products/tokenzip",
+    "https://www.producthunt.com/products/raccoon-ai-cursor-for-anything",
+    "https://www.producthunt.com/products/prava-2",
+    "https://www.producthunt.com/products/signet",
+    "https://www.producthunt.com/products/huddle01-cloud-2",
+    "https://www.producthunt.com/products/neuralagent"
   ],
-  "affiliate_rotation_index": 4,
-  "pending_retry": [
-    "/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_024500.html",
-    "/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_025436.html"
-  ],
-  "total_subscribers_last_check": 0,
-  "last_status": "FAILED"
+  "affiliate_rotation_index": 6,
+  "pending_retry": [],
+  "total_subscribers_last_check": 1,
+  "last_status": "OK",
+  "last_broadcast_id": "23302782"
 }
