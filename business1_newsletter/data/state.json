@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-03-16T02:45:00.330247+00:00",
+  "last_run": "2026-03-16T02:54:36.650088+00:00",
   "issues_published": 0,
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last_published_urls": [
     "https://openai.com/index/designing-agents-to-resist-prompt-injection",
     "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
@@ -12,11 +12,22 @@
     "https://openai.com/index/instruction-hierarchy-challenge",
     "https://openai.com/index/openai-to-acquire-promptfoo",
     "https://github.com/fabraix/playground",
-    "https://www.producthunt.com/products/cal"
+    "https://www.producthunt.com/products/cal",
+    "https://github.com/EvanZhouDev/openai-oauth",
+    "https://techcrunch.com/2026/03/15/google-and-accel-cut-through-wrappers-in-4000-ai-startup-pitches-to-pick-five-tied-to-india/",
+    "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/",
+    "https://techcrunch.com/2026/03/13/the-wild-six-weeks-for-nanoclaws-creator-that-led-to-a-deal-with-docker/",
+    "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/",
+    "https://techcrunch.com/2026/03/12/before-quantum-computing-arrives-this-startup-wants-enterprises-already-running-on-it/",
+    "https://openai.com/index/wayfair",
+    "https://www.technologyreview.com/2026/03/13/1134184/why-physical-ai-is-becoming-manufacturings-next-advantage/",
+    "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+    "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/"
   ],
-  "affiliate_rotation_index": 2,
+  "affiliate_rotation_index": 4,
   "pending_retry": [
-    "/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_024500.html"
+    "/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_024500.html",
+    "/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_025436.html"
   ],
   "total_subscribers_last_check": 0,
   "last_status": "FAILED"

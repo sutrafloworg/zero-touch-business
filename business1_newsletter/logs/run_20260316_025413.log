@@ -1,0 +1,31 @@
+2026-03-16 02:54:15,006 [INFO] orchestrator — ============================================================
+2026-03-16 02:54:15,006 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-03-16 02:54:15,006 [INFO] orchestrator — Timestamp: 2026-03-16T02:54:15.006581+00:00
+2026-03-16 02:54:15,006 [INFO] orchestrator — ============================================================
+2026-03-16 02:54:15,044 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-03-16 02:54:15,130 [INFO] agents.feed_agent —   TechCrunch AI: fetched 18 fresh items
+2026-03-16 02:54:15,773 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-03-16 02:54:16,405 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 7 fresh items
+2026-03-16 02:54:17,065 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-03-16 02:54:17,968 [INFO] agents.feed_agent —   Hacker News (Top): fetched 19 fresh items
+2026-03-16 02:54:18,645 [INFO] agents.feed_agent —   Product Hunt AI: fetched 33 fresh items
+2026-03-16 02:54:20,889 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: <unknown>:2:3549: not well-formed (invalid token)
+2026-03-16 02:54:22,073 [INFO] agents.feed_agent —   OpenAI Blog: fetched 2 fresh items
+2026-03-16 02:54:22,575 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 79 total
+2026-03-16 02:54:22,576 [INFO] orchestrator —       Got 10 items
+2026-03-16 02:54:22,576 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-03-16 02:54:22,576 [INFO] agents.content_agent — Generating newsletter with sponsors: Writesonic, GetResponse
+2026-03-16 02:54:36,167 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-16 02:54:36,189 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'OpenAI's API is free now (sort of)'
+2026-03-16 02:54:36,189 [INFO] orchestrator —       Subject: 'OpenAI's API is free now (sort of)'
+2026-03-16 02:54:36,190 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-03-16 02:54:36,190 [INFO] agents.publisher_agent — Creating broadcast via Kit API v3...
+2026-03-16 02:54:36,570 [ERROR] agents.publisher_agent — Kit API error 422: {"error":"error","message":"Please ensure your selected send address is confirmed. Your broadcast\n      was saved as a draft; you can use an already confirmed email address,\n      or confirm the new address you'd like to use."}
+2026-03-16 02:54:36,570 [ERROR] agents.publisher_agent — Publisher Agent: FAILED to publish — 422 Client Error: Unprocessable Content for url: https://api.convertkit.com/v3/broadcasts
+2026-03-16 02:54:36,570 [WARNING] agents.publisher_agent — Newsletter saved to fallback file: /home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_025436.html
+2026-03-16 02:54:36,649 [INFO] orchestrator —       Broadcast ID: fallback:/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_025436.html, Subscribers: 0
+2026-03-16 02:54:36,649 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-03-16 02:54:37,660 [INFO] agents.monitor_agent — Alert email sent: [ACTION REQUIRED] AI Tools Weekly — Publish Failed
+2026-03-16 02:54:37,661 [INFO] orchestrator — ============================================================
+2026-03-16 02:54:37,661 [INFO] orchestrator — Pipeline complete. Status: FAILED
+2026-03-16 02:54:37,661 [INFO] orchestrator — ============================================================
