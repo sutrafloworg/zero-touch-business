@@ -1,4 +1,4 @@
-baseURL = "https://your-domain.com/"   # ← CHANGE THIS
+baseURL = "https://sutraflow.org/"
 languageCode = "en-us"
 title = "AI Tools Insider"
 theme = "PaperMod"
