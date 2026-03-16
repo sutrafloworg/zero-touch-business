@@ -1,7 +1,7 @@
 """
 Publisher Agent — sends the newsletter via ConvertKit (Kit) API.
 
-Kit API docs: https://developers.kit.com/v4
+Kit API v3 docs: https://developers.kit.com/v3
 Free tier: up to 10,000 subscribers, no monthly fee.
 
 Flow:
@@ -21,7 +21,7 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-KIT_BASE_URL = "https://api.kit.com/v4"
+KIT_BASE_URL = "https://api.convertkit.com/v3"
 
 
 class PublisherAgent:
@@ -34,7 +34,6 @@ class PublisherAgent:
         self.session.headers.update({
             "Content-Type": "application/json",
             "Accept": "application/json",
-            "X-Kit-Api-Key": api_secret,
         })
 
     def _save_fallback(self, subject: str, html_body: str) -> Path:
@@ -57,6 +56,14 @@ class PublisherAgent:
         url = f"{KIT_BASE_URL}/{endpoint}"
         for attempt in range(self.max_retries):
             try:
+                # Inject api_secret into every request
+                if payload is None:
+                    payload = {}
+                if method in ("POST", "PUT"):
+                    payload["api_secret"] = self.api_secret
+                else:
+                    payload["api_secret"] = self.api_secret
+
                 if method == "POST":
                     resp = self.session.post(url, json=payload, timeout=30)
                 elif method == "GET":
@@ -98,20 +105,18 @@ class PublisherAgent:
         Returns broadcast ID string, or 'fallback:<path>' on total failure.
         """
         payload = {
-            "broadcast": {
-                "subject": subject,
-                "preview_text": preview_text,
-                "content": html_body,
-                "email_layout_template": "plain",  # use plain layout, our HTML is self-contained
-                "send_at": None,  # None = send immediately
-                "public": False,
-            }
+            "subject": subject,
+            "description": preview_text,
+            "content": html_body,
+            "email_layout_template": "plain",
+            "public": False,
         }
 
         try:
-            logger.info("Creating broadcast via Kit API...")
+            logger.info("Creating broadcast via Kit API v3...")
             result = self._api_call("POST", "broadcasts", payload)
-            broadcast_id = str(result.get("broadcast", {}).get("id", "unknown"))
+            broadcast = result.get("broadcast", {})
+            broadcast_id = str(broadcast.get("id", "unknown"))
             logger.info(f"Publisher Agent: broadcast created, ID={broadcast_id}")
             return broadcast_id
 
@@ -121,10 +126,10 @@ class PublisherAgent:
             return f"fallback:{fallback}"
 
     def get_broadcast_stats(self, broadcast_id: str) -> dict:
-        """Fetch open rate, clicks etc. for a previous broadcast (for monitoring)."""
+        """Fetch stats for a previous broadcast."""
         try:
-            result = self._api_call("GET", f"broadcasts/{broadcast_id}")
-            stats = result.get("broadcast", {}).get("stats", {})
+            result = self._api_call("GET", f"broadcasts/{broadcast_id}/stats")
+            stats = result.get("broadcast", {})
             return {
                 "recipients": stats.get("recipients", 0),
                 "open_rate": stats.get("open_rate", 0),
@@ -135,10 +140,10 @@ class PublisherAgent:
             return {}
 
     def get_subscriber_count(self) -> int:
-        """Get current subscriber count."""
+        """Get current active subscriber count."""
         try:
-            result = self._api_call("GET", "subscribers", {"status": "active"})
-            return result.get("total_count", 0)
+            result = self._api_call("GET", "subscribers", {"sort_field": "created_at"})
+            return result.get("total_subscribers", 0)
         except Exception as e:
             logger.error(f"Could not fetch subscriber count: {e}")
             return -1
