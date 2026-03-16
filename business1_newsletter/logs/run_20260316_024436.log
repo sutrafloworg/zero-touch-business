@@ -1,0 +1,31 @@
+2026-03-16 02:44:37,383 [INFO] orchestrator — ============================================================
+2026-03-16 02:44:37,383 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-03-16 02:44:37,383 [INFO] orchestrator — Timestamp: 2026-03-16T02:44:37.383807+00:00
+2026-03-16 02:44:37,383 [INFO] orchestrator — ============================================================
+2026-03-16 02:44:37,422 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-03-16 02:44:37,516 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-03-16 02:44:38,185 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-03-16 02:44:38,789 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 7 fresh items
+2026-03-16 02:44:39,614 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-03-16 02:44:40,462 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-03-16 02:44:41,131 [INFO] agents.feed_agent —   Product Hunt AI: fetched 35 fresh items
+2026-03-16 02:44:42,073 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: <unknown>:2:3549: not well-formed (invalid token)
+2026-03-16 02:44:44,585 [INFO] agents.feed_agent —   OpenAI Blog: fetched 7 fresh items
+2026-03-16 02:44:45,087 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 89 total
+2026-03-16 02:44:45,088 [INFO] orchestrator —       Got 10 items
+2026-03-16 02:44:45,088 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-03-16 02:44:45,088 [INFO] agents.content_agent — Generating newsletter with sponsors: Semrush, Notion
+2026-03-16 02:44:59,990 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-16 02:45:00,012 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'AI agents just got a lot harder to fool'
+2026-03-16 02:45:00,013 [INFO] orchestrator —       Subject: 'AI agents just got a lot harder to fool'
+2026-03-16 02:45:00,013 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-03-16 02:45:00,013 [INFO] agents.publisher_agent — Creating broadcast via Kit API v3...
+2026-03-16 02:45:00,261 [ERROR] agents.publisher_agent — Kit API error 422: {"error":"error","message":"Email layout template not found"}
+2026-03-16 02:45:00,261 [ERROR] agents.publisher_agent — Publisher Agent: FAILED to publish — 422 Client Error: Unprocessable Content for url: https://api.convertkit.com/v3/broadcasts
+2026-03-16 02:45:00,261 [WARNING] agents.publisher_agent — Newsletter saved to fallback file: /home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_024500.html
+2026-03-16 02:45:00,329 [INFO] orchestrator —       Broadcast ID: fallback:/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_024500.html, Subscribers: 0
+2026-03-16 02:45:00,330 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-03-16 02:45:01,209 [INFO] agents.monitor_agent — Alert email sent: [ACTION REQUIRED] AI Tools Weekly — Publish Failed
+2026-03-16 02:45:01,209 [INFO] orchestrator — ============================================================
+2026-03-16 02:45:01,210 [INFO] orchestrator — Pipeline complete. Status: FAILED
+2026-03-16 02:45:01,210 [INFO] orchestrator — ============================================================

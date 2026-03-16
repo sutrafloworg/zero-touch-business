@@ -1,9 +1,23 @@
 {
-  "last_run": null,
+  "last_run": "2026-03-16T02:45:00.330247+00:00",
   "issues_published": 0,
-  "consecutive_failures": 0,
-  "last_published_urls": [],
-  "affiliate_rotation_index": 0,
-  "pending_retry": [],
-  "total_subscribers_last_check": 0
+  "consecutive_failures": 1,
+  "last_published_urls": [
+    "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+    "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
+    "https://openai.com/index/equip-responses-api-computer-environment",
+    "https://www.producthunt.com/products/mozzie",
+    "https://techcrunch.com/2026/03/13/nyne-founded-by-a-father-son-duo-gives-ai-agents-the-human-context-theyre-missing/",
+    "https://openai.com/index/rakuten",
+    "https://openai.com/index/instruction-hierarchy-challenge",
+    "https://openai.com/index/openai-to-acquire-promptfoo",
+    "https://github.com/fabraix/playground",
+    "https://www.producthunt.com/products/cal"
+  ],
+  "affiliate_rotation_index": 2,
+  "pending_retry": [
+    "/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260316_024500.html"
+  ],
+  "total_subscribers_last_check": 0,
+  "last_status": "FAILED"
 }
