@@ -1,0 +1,25 @@
+2026-03-16 03:04:20,228 [INFO] seo_orchestrator — ============================================================
+2026-03-16 03:04:20,228 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-03-16 03:04:20,228 [INFO] seo_orchestrator — Timestamp: 2026-03-16T03:04:20.228672+00:00
+2026-03-16 03:04:20,228 [INFO] seo_orchestrator — ============================================================
+2026-03-16 03:04:20,266 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 2 keywords...
+2026-03-16 03:04:20,267 [INFO] agents.keyword_agent — Keyword Agent: 2 keywords selected for this run
+2026-03-16 03:04:20,267 [INFO] seo_orchestrator —       Selected: ['surfer seo review', 'how to use claude ai for content marketing']
+2026-03-16 03:04:20,267 [INFO] seo_orchestrator — [2+3/4] Processing: 'surfer seo review' (1/2)
+2026-03-16 03:04:46,309 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-16 03:04:46,331 [INFO] agents.content_agent — Content Agent: generated 'surfer seo review' (1495 words, review)
+2026-03-16 03:04:46,331 [INFO] agents.publisher_agent — Publisher: saved surfer-seo-review.md
+2026-03-16 03:04:46,332 [INFO] seo_orchestrator — [2+3/4] Processing: 'how to use claude ai for content marketing' (2/2)
+2026-03-16 03:05:08,439 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-16 03:05:08,440 [INFO] agents.content_agent — Content Agent: generated 'how to use claude ai for content marketing' (1229 words, tutorial)
+2026-03-16 03:05:08,440 [INFO] agents.publisher_agent — Publisher: saved how-to-use-claude-ai-for-content-marketing.md
+2026-03-16 03:05:08,441 [INFO] seo_orchestrator —       Published 2/2 articles this run
+2026-03-16 03:05:08,564 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-03-16 03:05:08,565 [INFO] agents.publisher_agent — Publisher: total articles on site: 4
+2026-03-16 03:05:08,565 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-03-16 03:05:08,566 [INFO] agents.monitor_agent — Monitor: all 2 articles confirmed written
+2026-03-16 03:05:08,672 [ERROR] agents.monitor_agent — Site health: UNREACHABLE — sutraflow.org
+2026-03-16 03:05:09,515 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 4
+2026-03-16 03:05:09,515 [INFO] seo_orchestrator — ============================================================
+2026-03-16 03:05:09,515 [INFO] seo_orchestrator — Pipeline complete. Published: 2 articles
+2026-03-16 03:05:09,515 [INFO] seo_orchestrator — ============================================================
