@@ -108,7 +108,6 @@ class PublisherAgent:
             "subject": subject,
             "description": preview_text,
             "content": html_body,
-            "email_layout_template": "plain",
             "public": False,
         }
 

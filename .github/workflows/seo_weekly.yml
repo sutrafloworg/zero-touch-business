@@ -58,20 +58,24 @@ jobs:
                   business2_seo/data/keywords.csv \
                   business2_seo/logs/ || true
           git diff --staged --quiet || git commit -m "content: add $(date +%Y-%m-%d) batch [skip ci]"
-          git push
+          git pull --rebase origin main || true
+          git push || true
 
       - name: Setup Hugo
+        if: always()
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "0.128.0"
           extended: true
 
       - name: Build Hugo site
+        if: always()
         run: |
           cd business2_seo/hugo_site
           hugo --minify --baseURL "https://sutraflow.org/"
 
       - name: Deploy to Cloudflare Pages
+        if: always()
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}

@@ -58,4 +58,5 @@ jobs:
           git config user.email "bot@github-actions"
           git add business1_newsletter/data/state.json business1_newsletter/logs/ || true
           git diff --staged --quiet || git commit -m "chore: update newsletter state [skip ci]"
-          git push
+          git pull --rebase origin main || true
+          git push || true
