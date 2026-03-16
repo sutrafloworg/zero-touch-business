@@ -1,0 +1,25 @@
+2026-03-16 01:44:06,879 [INFO] seo_orchestrator — ============================================================
+2026-03-16 01:44:06,879 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-03-16 01:44:06,879 [INFO] seo_orchestrator — Timestamp: 2026-03-16T01:44:06.879380+00:00
+2026-03-16 01:44:06,879 [INFO] seo_orchestrator — ============================================================
+2026-03-16 01:44:06,917 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 2 keywords...
+2026-03-16 01:44:06,925 [INFO] agents.keyword_agent — Keyword Agent: 2 keywords selected for this run
+2026-03-16 01:44:06,925 [INFO] seo_orchestrator —       Selected: ['best ai writing tools for bloggers', 'jasper ai vs writesonic']
+2026-03-16 01:44:06,925 [INFO] seo_orchestrator — [2+3/4] Processing: 'best ai writing tools for bloggers' (1/2)
+2026-03-16 01:44:07,224 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-03-16 01:44:07,224 [ERROR] agents.content_agent — Content Agent: failed for 'best ai writing tools for bloggers': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ5urQBkjWJDQ4cqrHh5y'}
+2026-03-16 01:44:07,226 [WARNING] seo_orchestrator — Skipping 'best ai writing tools for bloggers' — content generation failed
+2026-03-16 01:44:07,226 [INFO] seo_orchestrator — [2+3/4] Processing: 'jasper ai vs writesonic' (2/2)
+2026-03-16 01:44:07,266 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2026-03-16 01:44:07,266 [ERROR] agents.content_agent — Content Agent: failed for 'jasper ai vs writesonic': Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CZ5urR9o1jVXzDniU7AnN'}
+2026-03-16 01:44:07,320 [WARNING] seo_orchestrator — Skipping 'jasper ai vs writesonic' — content generation failed
+2026-03-16 01:44:07,320 [INFO] seo_orchestrator —       Published 0/2 articles this run
+2026-03-16 01:44:07,320 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-03-16 01:44:07,321 [WARNING] agents.monitor_agent — Monitor: 2 articles failed to write this run
+2026-03-16 01:44:07,548 [ERROR] agents.monitor_agent — Site health: UNREACHABLE — sutraflow.org
+2026-03-16 01:44:08,116 [ERROR] agents.monitor_agent — Email send failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials af79cd13be357-8cda21100adsm1178650685a.31 - gsmtp')
+2026-03-16 01:44:08,116 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 0
+2026-03-16 01:44:08,640 [ERROR] agents.monitor_agent — Email send failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 6a1803df08f44-89c50bc0033sm12739286d6.28 - gsmtp')
+2026-03-16 01:44:08,640 [INFO] seo_orchestrator — ============================================================
+2026-03-16 01:44:08,640 [INFO] seo_orchestrator — Pipeline complete. Published: 0 articles
+2026-03-16 01:44:08,640 [INFO] seo_orchestrator — ============================================================

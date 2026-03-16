@@ -2,7 +2,8 @@
   "last_run": null,
   "articles_published": 0,
   "keywords_processed": [],
-  "consecutive_failures": 0,
-  "last_status": "never_run",
-  "pending_retry": []
+  "consecutive_failures": 1,
+  "last_status": "PARTIAL",
+  "pending_retry": [],
+  "total_articles_on_disk": 0
 }
