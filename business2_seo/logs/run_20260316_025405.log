@@ -1,0 +1,25 @@
+2026-03-16 02:54:06,824 [INFO] seo_orchestrator — ============================================================
+2026-03-16 02:54:06,824 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-03-16 02:54:06,824 [INFO] seo_orchestrator — Timestamp: 2026-03-16T02:54:06.824694+00:00
+2026-03-16 02:54:06,824 [INFO] seo_orchestrator — ============================================================
+2026-03-16 02:54:06,863 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 2 keywords...
+2026-03-16 02:54:06,864 [INFO] agents.keyword_agent — Keyword Agent: 2 keywords selected for this run
+2026-03-16 02:54:06,864 [INFO] seo_orchestrator —       Selected: ['chatgpt vs claude for writing', 'best ai seo tools 2026']
+2026-03-16 02:54:06,864 [INFO] seo_orchestrator — [2+3/4] Processing: 'chatgpt vs claude for writing' (1/2)
+2026-03-16 02:54:26,203 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-16 02:54:26,225 [INFO] agents.content_agent — Content Agent: generated 'chatgpt vs claude for writing' (1067 words, comparison)
+2026-03-16 02:54:26,225 [INFO] agents.publisher_agent — Publisher: saved chatgpt-vs-claude-for-writing.md
+2026-03-16 02:54:26,226 [INFO] seo_orchestrator — [2+3/4] Processing: 'best ai seo tools 2026' (2/2)
+2026-03-16 02:54:45,122 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-16 02:54:45,124 [INFO] agents.content_agent — Content Agent: generated 'best ai seo tools 2026' (1072 words, listicle)
+2026-03-16 02:54:45,124 [INFO] agents.publisher_agent — Publisher: saved best-ai-seo-tools-2026.md
+2026-03-16 02:54:45,125 [INFO] seo_orchestrator —       Published 2/2 articles this run
+2026-03-16 02:54:45,245 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-03-16 02:54:45,247 [INFO] agents.publisher_agent — Publisher: total articles on site: 2
+2026-03-16 02:54:45,247 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-03-16 02:54:45,247 [INFO] agents.monitor_agent — Monitor: all 2 articles confirmed written
+2026-03-16 02:54:45,451 [ERROR] agents.monitor_agent — Site health: UNREACHABLE — sutraflow.org
+2026-03-16 02:54:46,420 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 2
+2026-03-16 02:54:46,421 [INFO] seo_orchestrator — ============================================================
+2026-03-16 02:54:46,421 [INFO] seo_orchestrator — Pipeline complete. Published: 2 articles
+2026-03-16 02:54:46,421 [INFO] seo_orchestrator — ============================================================

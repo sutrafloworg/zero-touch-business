@@ -1,9 +1,17 @@
 {
-  "last_run": null,
-  "articles_published": 0,
-  "keywords_processed": [],
-  "consecutive_failures": 2,
-  "last_status": "PARTIAL",
+  "last_run": "2026-03-16T02:54:45.247503+00:00",
+  "articles_published": 2,
+  "keywords_processed": [
+    "chatgpt vs claude for writing",
+    "best ai seo tools 2026"
+  ],
+  "consecutive_failures": 0,
+  "last_status": "OK",
   "pending_retry": [],
-  "total_articles_on_disk": 0
+  "total_articles_on_disk": 2,
+  "last_publish_run": "2026-03-16T02:54:45.247145+00:00",
+  "published_this_run": [
+    "chatgpt-vs-claude-for-writing",
+    "best-ai-seo-tools-2026"
+  ]
 }
