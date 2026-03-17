@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-03-16T03:28:24.869412+00:00",
-  "issues_published": 1,
+  "last_run": "2026-03-17T10:11:01.605780+00:00",
+  "issues_published": 2,
   "consecutive_failures": 0,
   "last_published_urls": [
     "https://openai.com/index/designing-agents-to-resist-prompt-injection",
@@ -32,11 +32,21 @@
     "https://www.producthunt.com/products/prava-2",
     "https://www.producthunt.com/products/signet",
     "https://www.producthunt.com/products/huddle01-cloud-2",
-    "https://www.producthunt.com/products/neuralagent"
+    "https://www.producthunt.com/products/neuralagent",
+    "https://www.producthunt.com/products/jetbrains",
+    "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
+    "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
+    "https://www.producthunt.com/products/openai",
+    "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+    "https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/",
+    "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
+    "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+    "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
+    "https://www.producthunt.com/products/bolt-foundry"
   ],
-  "affiliate_rotation_index": 6,
+  "affiliate_rotation_index": 8,
   "pending_retry": [],
-  "total_subscribers_last_check": 1,
+  "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "23302782"
+  "last_broadcast_id": "23320855"
 }

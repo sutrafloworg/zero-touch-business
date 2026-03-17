@@ -1,0 +1,29 @@
+2026-03-17 10:10:41,143 [INFO] orchestrator — ============================================================
+2026-03-17 10:10:41,143 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-03-17 10:10:41,143 [INFO] orchestrator — Timestamp: 2026-03-17T10:10:41.143407+00:00
+2026-03-17 10:10:41,143 [INFO] orchestrator — ============================================================
+2026-03-17 10:10:41,181 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-03-17 10:10:41,352 [INFO] agents.feed_agent —   TechCrunch AI: fetched 17 fresh items
+2026-03-17 10:10:41,949 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-03-17 10:10:42,557 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 5 fresh items
+2026-03-17 10:10:43,340 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-03-17 10:10:44,027 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-03-17 10:10:44,684 [INFO] agents.feed_agent —   Product Hunt AI: fetched 34 fresh items
+2026-03-17 10:10:45,428 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: <unknown>:2:3549: not well-formed (invalid token)
+2026-03-17 10:10:46,693 [INFO] agents.feed_agent —   OpenAI Blog: fetched 1 fresh items
+2026-03-17 10:10:47,195 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 77 total
+2026-03-17 10:10:47,196 [INFO] orchestrator —       Got 10 items
+2026-03-17 10:10:47,196 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-03-17 10:10:47,197 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-03-17 10:11:01,210 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-17 10:11:01,232 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'AI agents just got way more powerful'
+2026-03-17 10:11:01,232 [INFO] orchestrator —       Subject: 'AI agents just got way more powerful'
+2026-03-17 10:11:01,233 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-03-17 10:11:01,233 [INFO] agents.publisher_agent — Creating broadcast via Kit API v3...
+2026-03-17 10:11:01,539 [INFO] agents.publisher_agent — Publisher Agent: broadcast created, ID=23320855
+2026-03-17 10:11:01,605 [INFO] orchestrator —       Broadcast ID: 23320855, Subscribers: 2
+2026-03-17 10:11:01,605 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-03-17 10:11:01,606 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 23320855
+2026-03-17 10:11:01,606 [INFO] orchestrator — ============================================================
+2026-03-17 10:11:01,606 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-03-17 10:11:01,606 [INFO] orchestrator — ============================================================
