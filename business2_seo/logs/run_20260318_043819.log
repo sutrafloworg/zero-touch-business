@@ -1,0 +1,8 @@
+2026-03-18 04:38:21,123 [INFO] seo_orchestrator — ============================================================
+2026-03-18 04:38:21,124 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-03-18 04:38:21,124 [INFO] seo_orchestrator — Timestamp: 2026-03-18T04:38:21.124201+00:00
+2026-03-18 04:38:21,124 [INFO] seo_orchestrator — ============================================================
+2026-03-18 04:38:21,162 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 0 keywords...
+2026-03-18 04:38:21,162 [INFO] agents.keyword_agent — Keyword Agent: 0 keywords selected for this run
+2026-03-18 04:38:21,163 [INFO] seo_orchestrator — No pending keywords — pipeline complete (all keywords processed!)
+2026-03-18 04:38:21,163 [INFO] seo_orchestrator — Keyword stats: {'failed': 4, 'done': 4, 'pending': 42}
