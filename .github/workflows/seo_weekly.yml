@@ -81,3 +81,19 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy business2_seo/hugo_site/public --project-name=sutraflow-seo --commit-dirty=true
+
+      - name: Submit new URLs to IndexNow (Bing + Yandex)
+        if: always()
+        run: |
+          URLS=$(find business2_seo/hugo_site/content/posts -name "*.md" \
+            | xargs grep -l "$(date +%Y-%m-%d)" 2>/dev/null \
+            | sed 's|business2_seo/hugo_site/content/posts/||;s|\.md||' \
+            | jq -R '"https://sutraflow.org/posts/" + . + "/"' | jq -s '.')
+          if [ -n "$URLS" ] && [ "$URLS" != "[]" ] && [ "$URLS" != "null" ]; then
+            curl -s -X POST "https://api.indexnow.org/indexnow" \
+              -H "Content-Type: application/json" \
+              -d "{\"host\":\"sutraflow.org\",\"key\":\"sutraflowd5258b61b819e04f\",\"keyLocation\":\"https://sutraflow.org/sutraflowd5258b61b819e04f.txt\",\"urlList\":$URLS}" \
+              -w "\nIndexNow: %{http_code}" || true
+          else
+            echo "No new URLs today"
+          fi
