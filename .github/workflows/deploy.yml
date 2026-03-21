@@ -1,0 +1,34 @@
+name: Deploy Hugo Site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "business2_seo/hugo_site/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.146.0"
+          extended: true
+
+      - name: Build Hugo site
+        run: |
+          cd business2_seo/hugo_site
+          hugo --minify --baseURL "https://sutraflow.org/"
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy business2_seo/hugo_site/public --project-name=sutraflow-seo --commit-dirty=true
