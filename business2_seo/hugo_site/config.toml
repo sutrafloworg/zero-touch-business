@@ -16,7 +16,7 @@ theme = "PaperMod"
   disableThemeToggle = false
 
   # Newsletter signup widget — set to your Kit landing page URL to enable on every post
-  kit_form_url = ""
+  kit_form_url = "https://sutraflow.kit.com/680775a61b"
 
   [params.homeInfoParams]
     Title = "Find the Right AI Tool for Your Work"
