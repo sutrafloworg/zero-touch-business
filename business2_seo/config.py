@@ -40,6 +40,14 @@ ALERT_EMAIL = os.environ.get("ALERT_EMAIL", "")
 GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
 
+# ── Cloudflare Analytics ───────────────────────────────────────────────────────
+CF_API_TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN", "")
+CF_ACCOUNT_ID = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
+
+# ── Stats Tracking ─────────────────────────────────────────────────────────────
+KIT_API_SECRET = os.environ.get("KIT_API_SECRET", "")
+STATS_HISTORY_FILE = DATA_DIR / "stats_history.json"
+
 # ── Self-Correction ────────────────────────────────────────────────────────────
 MAX_RETRIES = 3
 BACKOFF_BASE = 2

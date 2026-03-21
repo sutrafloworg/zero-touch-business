@@ -35,6 +35,7 @@ from agents.keyword_agent import KeywordAgent
 from agents.content_agent import ContentAgent
 from agents.publisher_agent import PublisherAgent
 from agents.monitor_agent import MonitorAgent
+from agents.stats_agent import StatsAgent
 
 
 def validate_config() -> list[str]:
@@ -128,15 +129,23 @@ def run_pipeline() -> bool:
     logger.info("[4/4] Monitor Agent: health checks...")
     success = monitor_agent.check_and_heal(published_slugs, expected_count=len(keywords))
 
-    # Monthly digest (every 20 articles published)
-    from json import load
+    # ── Step 5: Stats Agent ────────────────────────────────────────────────────
+    logger.info("[5/5] Stats Agent: collecting metrics + sending weekly report...")
     try:
-        with open(config.STATE_FILE) as f:
-            state = load(f)
-        if state.get("articles_published", 0) % 20 == 0:
-            monitor_agent.send_monthly_digest()
-    except Exception:
-        pass
+        stats_agent = StatsAgent(
+            kit_api_secret=config.KIT_API_SECRET,
+            cf_api_token=config.CF_API_TOKEN,
+            cf_account_id=config.CF_ACCOUNT_ID,
+            site_domain=config.SITE_DOMAIN,
+            state_file=config.STATE_FILE,
+            stats_file=config.STATS_HISTORY_FILE,
+            alert_email=config.ALERT_EMAIL,
+            gmail_user=config.GMAIL_USER,
+            gmail_app_password=config.GMAIL_APP_PASSWORD,
+        )
+        stats_agent.run_and_report()
+    except Exception as e:
+        logger.error(f"Stats Agent failed (non-critical): {e}")
 
     logger.info("=" * 60)
     logger.info(f"Pipeline complete. Published: {len(published_slugs)} articles")
