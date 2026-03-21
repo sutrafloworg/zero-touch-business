@@ -1,7 +1,7 @@
 ---
 title: Revenue Tracking Dashboard — Weekly Automated Report
 type: feat
-status: active
+status: completed
 date: 2026-03-21
 ---
 
