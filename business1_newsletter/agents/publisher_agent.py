@@ -101,22 +101,27 @@ class PublisherAgent:
 
     def publish(self, subject: str, preview_text: str, html_body: str) -> str:
         """
-        Create and send a newsletter broadcast.
+        Create and schedule a newsletter broadcast to send in 3 minutes.
         Returns broadcast ID string, or 'fallback:<path>' on total failure.
         """
+        send_at = datetime.fromtimestamp(
+            datetime.now(timezone.utc).timestamp() + 180, tz=timezone.utc
+        ).strftime("%Y-%m-%dT%H:%M:%S%z")
+
         payload = {
             "subject": subject,
             "description": preview_text,
             "content": html_body,
             "public": False,
+            "send_at": send_at,
         }
 
         try:
-            logger.info("Creating broadcast via Kit API v3...")
+            logger.info("Creating and scheduling broadcast via Kit API v3...")
             result = self._api_call("POST", "broadcasts", payload)
             broadcast = result.get("broadcast", {})
             broadcast_id = str(broadcast.get("id", "unknown"))
-            logger.info(f"Publisher Agent: broadcast created, ID={broadcast_id}")
+            logger.info(f"Publisher Agent: broadcast scheduled for {send_at}, ID={broadcast_id}")
             return broadcast_id
 
         except Exception as e:

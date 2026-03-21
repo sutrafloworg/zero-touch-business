@@ -192,6 +192,13 @@ class ContentAgent:
             meta = meta[:152] + "..."
         return meta
 
+    _TEMPLATE_TAGS = {
+        "review": ["review", "ai-tools"],
+        "comparison": ["comparison", "ai-tools"],
+        "tutorial": ["tutorial", "ai-tools"],
+        "listicle": ["review", "ai-tools"],
+    }
+
     def _build_frontmatter(
         self,
         keyword: dict,
@@ -199,7 +206,8 @@ class ContentAgent:
         primary_affiliate: str,
     ) -> str:
         now = datetime.now(timezone.utc)
-        tool = self.affiliates.get(primary_affiliate, {})
+        tags = self._TEMPLATE_TAGS.get(keyword.get("template", "listicle"), ["ai-tools"])
+        tags_yaml = ", ".join(f'"{t}"' for t in tags)
         return f"""---
 title: "{keyword['keyword'].title()}"
 slug: "{keyword['slug']}"
@@ -207,6 +215,7 @@ date: {now.strftime('%Y-%m-%dT%H:%M:%SZ')}
 lastmod: {now.strftime('%Y-%m-%dT%H:%M:%SZ')}
 description: "{meta_description}"
 keywords: ["{keyword['keyword']}", "ai tools", "review", "comparison"]
+tags: [{tags_yaml}]
 template: "{keyword['template']}"
 intent: "{keyword['intent']}"
 draft: false

@@ -9,6 +9,7 @@ Rating: 4.3/5
 
 Surfer SEO is a legitimately useful content optimization tool that delivers real ranking data w..."
 keywords: ["surfer seo review", "ai tools", "review", "comparison"]
+tags: ["review", "ai-tools"]
 template: "review"
 intent: "commercial"
 draft: false

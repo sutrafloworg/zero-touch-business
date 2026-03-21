@@ -15,6 +15,9 @@ theme = "PaperMod"
   defaultTheme = "light"
   disableThemeToggle = false
 
+  # Newsletter signup widget — set to your Kit landing page URL to enable on every post
+  kit_form_url = ""
+
   [params.homeInfoParams]
     Title = "Find the Right AI Tool for Your Work"
     Content = "Independent reviews and comparisons of AI tools — no hype, just honest analysis and real use cases."

@@ -183,10 +183,17 @@ class ContentAgent:
   <div style="padding: 24px; background: #fafafa; border: 1px solid #e5e5e5; border-top: none;">
     {html_body}
   </div>
+  <div style="padding: 16px 24px; background: #f5f5f5; border: 1px solid #e5e5e5; border-top: none; text-align: center;">
+    <p style="margin: 0 0 8px; font-size: 13px; color: #444;">
+      📖 Deep-dive reviews &amp; comparisons at
+      <a href="https://sutraflow.org" style="color: #0066cc;">sutraflow.org</a>
+    </p>
+  </div>
   <div style="padding: 16px 24px; background: #f0f0f0; border: 1px solid #e5e5e5; border-top: none; font-size: 11px; color: #888;">
     <p>You're receiving this because you subscribed to {self.newsletter_name}.</p>
     <p>Contains affiliate links. We only recommend tools we'd use ourselves.</p>
-    <p><a href="{{{{ unsubscribe_url }}}}" style="color: #888;">Unsubscribe</a></p>
+    <p>AI Tools Insider · 1111 S Figueroa St · Los Angeles, CA 90015</p>
+    <p><a href="{{{{ unsubscribe_url }}}}" style="color: #888;">Unsubscribe</a> · <a href="https://sutraflow.org" style="color: #888;">Website</a></p>
   </div>
 </div>
 """.strip()

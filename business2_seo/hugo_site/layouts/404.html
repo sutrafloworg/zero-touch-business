@@ -1,0 +1,38 @@
+{{- define "main" }}
+<div style="text-align: center; padding: 60px 20px; max-width: 600px; margin: 0 auto;">
+  <h1 style="font-size: 4rem; margin: 0; color: #e5e5e5;">404</h1>
+  <h2 style="margin: 8px 0 16px;">Page not found</h2>
+  <p style="color: #666; margin-bottom: 32px;">
+    This page doesn't exist yet — but the tools you're looking for probably do.
+  </p>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 40px;">
+    <a href="/tags/review/" style="display: inline-block; padding: 10px 20px; background: #0066cc; color: white; border-radius: 6px; text-decoration: none; font-size: 14px;">
+      🔍 Reviews
+    </a>
+    <a href="/tags/comparison/" style="display: inline-block; padding: 10px 20px; background: #0066cc; color: white; border-radius: 6px; text-decoration: none; font-size: 14px;">
+      ⚖️ Comparisons
+    </a>
+    <a href="/tags/tutorial/" style="display: inline-block; padding: 10px 20px; background: #0066cc; color: white; border-radius: 6px; text-decoration: none; font-size: 14px;">
+      📚 Tutorials
+    </a>
+    <a href="/" style="display: inline-block; padding: 10px 20px; background: #444; color: white; border-radius: 6px; text-decoration: none; font-size: 14px;">
+      🏠 Home
+    </a>
+  </div>
+
+  <div style="background: #f8f9fa; border: 1px solid #e5e5e5; border-radius: 8px; padding: 24px;">
+    <p style="margin: 0 0 8px; font-weight: bold;">Get the weekly AI tools briefing</p>
+    <p style="margin: 0; font-size: 13px; color: #666;">
+      Every Tuesday: the 5 best AI tools discovered that week — curated automatically.
+    </p>
+    {{- if site.Params.kit_form_url }}
+    <div style="margin-top: 16px;">
+      <a href="{{ site.Params.kit_form_url }}" style="display: inline-block; padding: 10px 24px; background: #0f0f0f; color: white; border-radius: 6px; text-decoration: none; font-size: 14px;">
+        Subscribe free →
+      </a>
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}

@@ -7,6 +7,7 @@ description: " How to Use Claude AI for Content Marketing: A Step-by-Step Guide
 
 You're about to cut your content creation time in half while maintaining quality that..."
 keywords: ["how to use claude ai for content marketing", "ai tools", "review", "comparison"]
+tags: ["tutorial", "ai-tools"]
 template: "tutorial"
 intent: "informational"
 draft: false
