@@ -58,6 +58,10 @@ theme = "PaperMod"
   disableHTML = false
   disableJS = false
 
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true
+
 # ── Taxonomy ───────────────────────────────────────────────────────────────────
 [taxonomies]
   tag = "tags"
