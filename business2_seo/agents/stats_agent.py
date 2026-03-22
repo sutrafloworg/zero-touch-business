@@ -39,6 +39,7 @@ class StatsAgent:
         gmail_user: str,
         gmail_app_password: str,
         newsletter_name: str = "AI Tools Weekly",
+        local_seo_state_file: Path | None = None,
     ):
         self.kit_api_secret = kit_api_secret
         self.cf_api_token = cf_api_token
@@ -50,6 +51,7 @@ class StatsAgent:
         self.gmail_user = gmail_user
         self.gmail_app_password = gmail_app_password
         self.newsletter_name = newsletter_name
+        self.local_seo_state_file = local_seo_state_file
 
     # ── Data Collection ────────────────────────────────────────────────────────
 
@@ -196,6 +198,17 @@ class StatsAgent:
             logger.warning(f"Cloudflare analytics fetch failed: {e}")
             return {}
 
+    def _get_local_seo_stats(self) -> dict:
+        """Load Business 3 (LocalRank Sentinel) state file for report."""
+        if not self.local_seo_state_file:
+            return {}
+        try:
+            with open(self.local_seo_state_file) as f:
+                return json.load(f)
+        except Exception as e:
+            logger.warning(f"Local SEO state fetch failed: {e}")
+            return {}
+
     # ── Report Building ────────────────────────────────────────────────────────
 
     def _build_html_report(
@@ -204,6 +217,7 @@ class StatsAgent:
         cf: dict,
         seo_state: dict,
         prev_snapshot: dict,
+        local_seo: dict | None = None,
     ) -> tuple[str, str]:
         """Build HTML email report. Returns (subject, html_body)."""
         now = datetime.now(timezone.utc)
@@ -300,8 +314,38 @@ class StatsAgent:
     </p>
   </div>
 
-  <!-- Affiliate -->
+  <!-- Local SEO Sentinel -->
   <div style="padding:20px 24px;background:#fafafa;border:1px solid #e5e5e5;border-top:none">
+    <h2 style="font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#888;margin:0 0 12px">Business 3 · LocalRank Sentinel</h2>
+    <table style="width:100%;border-collapse:collapse">
+      <tr>
+        <td style="padding:6px 0;color:#555;font-size:14px">Total pipeline runs</td>
+        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('total_runs', 0)}</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 0;color:#555;font-size:14px">Last run status</td>
+        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('last_status', 'NOT_RUN')}</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 0;color:#555;font-size:14px">Audit emails sent (all time)</td>
+        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('total_emails_sent', 0)}</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 0;color:#555;font-size:14px">Audit PDFs generated (all time)</td>
+        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('total_reports_generated', 0)}</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 0;color:#555;font-size:14px">Last alerts detected</td>
+        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('last_alerts', 0)}</td>
+      </tr>
+    </table>
+    <p style="margin:12px 0 0;font-size:12px;color:#999">
+      Runs every Monday 8am ET · Monitors Google Maps rankings in target cities
+    </p>
+  </div>
+
+  <!-- Affiliate -->
+  <div style="padding:20px 24px;background:#fff;border:1px solid #e5e5e5;border-top:none">
     <h2 style="font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#888;margin:0 0 12px">Affiliate Revenue Dashboards</h2>
     <ul style="margin:0;padding:0 0 0 16px;font-size:13px;color:#555;line-height:2">
       <li><a href="https://app.impact.com" style="color:#0066cc">Semrush → Impact.com</a></li>
@@ -351,6 +395,7 @@ class StatsAgent:
         kit = self._get_kit_stats()
         cf = self._get_cf_analytics()
         seo_state = self._load_state()
+        local_seo = self._get_local_seo_stats()
         history = self._load_history()
 
         # Previous snapshot for delta calculation
@@ -364,11 +409,13 @@ class StatsAgent:
             "click_rate": kit.get("click_rate"),
             "total_page_views_7d": cf.get("total_views", 0),
             "articles_published": seo_state.get("articles_published", 0),
+            "local_seo_runs": local_seo.get("total_runs", 0),
+            "local_seo_emails_sent": local_seo.get("total_emails_sent", 0),
         }
         history.append(snapshot)
         self._save_history(history)
         logger.info(f"Stats Agent: snapshot saved ({len(history)} total entries)")
 
         # Build and send report
-        subject, html_body = self._build_html_report(kit, cf, seo_state, prev)
+        subject, html_body = self._build_html_report(kit, cf, seo_state, prev, local_seo)
         self._send_email(subject, html_body)

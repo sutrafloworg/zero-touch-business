@@ -1,5 +1,5 @@
 {
-  "_instructions": "Add cities and business categories to monitor. Each city+category combo uses 1 SerpAPI search per week. Free tier = 100/month, so max ~25 combos.",
+  "_instructions": "Add cities and business categories to monitor. Each city+category combo uses 1 SerpAPI search per week. Free tier = 250/month, so max ~62 combos (~12 cities × 5 categories).",
   "targets": [
     {
       "city": "Austin",

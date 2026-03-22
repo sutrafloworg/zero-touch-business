@@ -48,6 +48,9 @@ CF_ACCOUNT_ID = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
 KIT_API_SECRET = os.environ.get("KIT_API_SECRET", "")
 STATS_HISTORY_FILE = DATA_DIR / "stats_history.json"
 
+# ── Cross-Business References ─────────────────────────────────────────────
+LOCAL_SEO_STATE_FILE = Path(__file__).parent.parent / "business3_local_seo" / "data" / "state.json"
+
 # ── Self-Correction ────────────────────────────────────────────────────────────
 MAX_RETRIES = 3
 BACKOFF_BASE = 2

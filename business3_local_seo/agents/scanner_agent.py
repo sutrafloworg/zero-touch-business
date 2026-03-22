@@ -7,8 +7,9 @@ For each city + category, returns:
   - Address, phone, website
   - Whether they have photos, hours listed
 
-SerpAPI free tier: 100 searches/month.
+SerpAPI free tier: 250 searches/month.
 At 5 categories × 1 city × 4 weeks = 20 searches/month — well within limits.
+Can scale to ~12 cities (12 × 5 × 4 = 240) before hitting the cap.
 """
 import json
 import logging

@@ -142,6 +142,7 @@ def run_pipeline() -> bool:
             alert_email=config.ALERT_EMAIL,
             gmail_user=config.GMAIL_USER,
             gmail_app_password=config.GMAIL_APP_PASSWORD,
+            local_seo_state_file=config.LOCAL_SEO_STATE_FILE,
         )
         stats_agent.run_and_report()
     except Exception as e:
