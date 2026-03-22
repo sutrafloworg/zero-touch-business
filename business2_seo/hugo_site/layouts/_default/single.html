@@ -44,6 +44,13 @@
 
   {{- partial "newsletter_signup.html" . }}
 
+  {{/* Affiliate disclosure banner */}}
+  {{ if .Params.affiliate_disclosure }}
+  <div style="background:#f8f9fa;border:1px solid #e9ecef;border-radius:4px;padding:12px 16px;margin:24px 0;font-size:13px;color:#6c757d;">
+    <strong>Disclosure:</strong> {{ .Params.affiliate_disclosure }}
+  </div>
+  {{ end }}
+
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
