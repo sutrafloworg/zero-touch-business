@@ -1,19 +1,27 @@
 {
-  "last_run": "2026-03-16T03:05:08.565660+00:00",
-  "articles_published": 4,
+  "last_run": "2026-03-22T05:43:11.376673+00:00",
+  "articles_published": 9,
   "keywords_processed": [
     "chatgpt vs claude for writing",
     "best ai seo tools 2026",
     "surfer seo review",
-    "how to use claude ai for content marketing"
+    "how to use claude ai for content marketing",
+    "ai tools for freelance writers",
+    "best ai tools for email marketing",
+    "writesonic review 2026",
+    "notion ai review",
+    "best ai tools for productivity 2026"
   ],
   "consecutive_failures": 0,
   "last_status": "OK",
   "pending_retry": [],
-  "total_articles_on_disk": 4,
-  "last_publish_run": "2026-03-16T03:05:08.565317+00:00",
+  "total_articles_on_disk": 9,
+  "last_publish_run": "2026-03-22T05:43:11.376258+00:00",
   "published_this_run": [
-    "surfer-seo-review",
-    "how-to-use-claude-ai-for-content-marketing"
+    "ai-tools-for-freelance-writers",
+    "best-ai-tools-for-email-marketing",
+    "writesonic-review-2026",
+    "notion-ai-review",
+    "best-ai-tools-for-productivity-2026"
   ]
 }

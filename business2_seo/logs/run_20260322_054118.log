@@ -1,0 +1,42 @@
+2026-03-22 05:41:19,982 [INFO] seo_orchestrator — ============================================================
+2026-03-22 05:41:19,982 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-03-22 05:41:19,982 [INFO] seo_orchestrator — Timestamp: 2026-03-22T05:41:19.982640+00:00
+2026-03-22 05:41:19,982 [INFO] seo_orchestrator — ============================================================
+2026-03-22 05:41:20,021 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 5 keywords...
+2026-03-22 05:41:20,022 [INFO] agents.keyword_agent — Keyword Agent: 5 keywords selected for this run
+2026-03-22 05:41:20,022 [INFO] seo_orchestrator —       Selected: ['ai tools for freelance writers', 'best ai tools for email marketing', 'writesonic review 2026', 'notion ai review', 'best ai tools for productivity 2026']
+2026-03-22 05:41:20,022 [INFO] seo_orchestrator — [2+3/7] Processing: 'ai tools for freelance writers' (1/5)
+2026-03-22 05:41:42,629 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-22 05:41:42,651 [INFO] agents.content_agent — Content Agent: generated 'ai tools for freelance writers' (1159 words, listicle)
+2026-03-22 05:41:42,651 [INFO] agents.publisher_agent — Publisher: saved ai-tools-for-freelance-writers.md
+2026-03-22 05:41:42,652 [INFO] seo_orchestrator — [2+3/7] Processing: 'best ai tools for email marketing' (2/5)
+2026-03-22 05:42:05,826 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-22 05:42:05,827 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for email marketing' (1325 words, listicle)
+2026-03-22 05:42:05,828 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-email-marketing.md
+2026-03-22 05:42:05,828 [INFO] seo_orchestrator — [2+3/7] Processing: 'writesonic review 2026' (3/5)
+2026-03-22 05:42:32,408 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-22 05:42:32,409 [INFO] agents.content_agent — Content Agent: generated 'writesonic review 2026' (1438 words, review)
+2026-03-22 05:42:32,410 [INFO] agents.publisher_agent — Publisher: saved writesonic-review-2026.md
+2026-03-22 05:42:32,410 [INFO] seo_orchestrator — [2+3/7] Processing: 'notion ai review' (4/5)
+2026-03-22 05:42:51,424 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-22 05:42:51,425 [INFO] agents.content_agent — Content Agent: generated 'notion ai review' (1092 words, review)
+2026-03-22 05:42:51,425 [INFO] agents.publisher_agent — Publisher: saved notion-ai-review.md
+2026-03-22 05:42:51,426 [INFO] seo_orchestrator — [2+3/7] Processing: 'best ai tools for productivity 2026' (5/5)
+2026-03-22 05:43:11,174 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-22 05:43:11,176 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for productivity 2026' (1118 words, listicle)
+2026-03-22 05:43:11,176 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-productivity-2026.md
+2026-03-22 05:43:11,177 [INFO] seo_orchestrator —       Published 5/5 articles this run
+2026-03-22 05:43:11,374 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-03-22 05:43:11,376 [INFO] agents.publisher_agent — Publisher: total articles on site: 9
+2026-03-22 05:43:11,376 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-03-22 05:43:11,377 [INFO] agents.monitor_agent — Monitor: all 5 articles confirmed written
+2026-03-22 05:43:11,501 [INFO] agents.monitor_agent — Site health: OK (200)
+2026-03-22 05:43:11,503 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 9
+2026-03-22 05:43:11,503 [INFO] seo_orchestrator — [5/5] Stats Agent: collecting metrics + sending weekly report...
+2026-03-22 05:43:11,503 [INFO] agents.stats_agent — Stats Agent: collecting weekly metrics...
+2026-03-22 05:43:11,678 [WARNING] agents.stats_agent — Kit stats fetch failed: 401 Client Error: Unauthorized for url: https://api.convertkit.com/v3/subscribers?api_secret=&sort_field=created_at
+2026-03-22 05:43:11,679 [INFO] agents.stats_agent — Stats Agent: snapshot saved (1 total entries)
+2026-03-22 05:43:12,722 [INFO] agents.stats_agent — Stats report sent to sutrafloworg@gmail.com
+2026-03-22 05:43:12,723 [INFO] seo_orchestrator — ============================================================
+2026-03-22 05:43:12,723 [INFO] seo_orchestrator — Pipeline complete. Published: 5 articles
+2026-03-22 05:43:12,723 [INFO] seo_orchestrator — ============================================================
