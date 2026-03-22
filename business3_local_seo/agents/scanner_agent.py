@@ -35,7 +35,6 @@ class ScannerAgent:
         params = {
             "engine": "google_maps",
             "q": search_query,
-            "ll": "",  # let SerpAPI geocode from the query
             "type": "search",
             "api_key": self.api_key,
         }
