@@ -6,7 +6,7 @@ theme = "PaperMod"
 # ── SEO ────────────────────────────────────────────────────────────────────────
 [params]
   description = "Honest AI tool comparisons, reviews, and guides for professionals"
-  author = "AI Tools Insider Team"
+  author = "Sutra Editorial"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -37,6 +37,11 @@ theme = "PaperMod"
   name = "Tutorials"
   url = "/tags/tutorial/"
   weight = 30
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 40
 
 # ── Sitemap ────────────────────────────────────────────────────────────────────
 [sitemap]

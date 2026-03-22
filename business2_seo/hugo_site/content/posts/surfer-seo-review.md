@@ -13,7 +13,8 @@ tags: ["review", "ai-tools"]
 template: "review"
 intent: "commercial"
 draft: false
-author: "AI Tools Insider Team"
+author: "Sutra Editorial"
+showToc: true
 affiliate_disclosure: "This article contains affiliate links. We may earn a commission at no extra cost to you."
 schema_type: "Article"
 ---
