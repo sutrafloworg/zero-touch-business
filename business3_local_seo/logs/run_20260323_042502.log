@@ -1,0 +1,130 @@
+2026-03-23 04:25:04,689 [INFO] local_seo_orchestrator — ============================================================
+2026-03-23 04:25:04,689 [INFO] local_seo_orchestrator — Starting LocalRank Sentinel pipeline
+2026-03-23 04:25:04,689 [INFO] local_seo_orchestrator — Timestamp: 2026-03-23T04:25:04.689375+00:00
+2026-03-23 04:25:04,689 [INFO] local_seo_orchestrator — ============================================================
+2026-03-23 04:25:04,689 [INFO] local_seo_orchestrator — [1/5] Scanner Agent: fetching Google Maps rankings...
+2026-03-23 04:25:04,689 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in New York NY' in New York, NY
+2026-03-23 04:25:05,981 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in New York NY'
+2026-03-23 04:25:07,982 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in New York NY' in New York, NY
+2026-03-23 04:25:09,744 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in New York NY'
+2026-03-23 04:25:11,745 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in New York NY' in New York, NY
+2026-03-23 04:25:14,128 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in New York NY'
+2026-03-23 04:25:16,129 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in New York NY' in New York, NY
+2026-03-23 04:25:17,260 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in New York NY'
+2026-03-23 04:25:19,261 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in New York NY' in New York, NY
+2026-03-23 04:25:20,529 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in New York NY'
+2026-03-23 04:25:22,530 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Los Angeles CA' in Los Angeles, CA
+2026-03-23 04:25:29,772 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Los Angeles CA'
+2026-03-23 04:25:31,773 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Los Angeles CA' in Los Angeles, CA
+2026-03-23 04:25:33,155 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Los Angeles CA'
+2026-03-23 04:25:35,156 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Los Angeles CA' in Los Angeles, CA
+2026-03-23 04:25:37,477 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Los Angeles CA'
+2026-03-23 04:25:39,478 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Los Angeles CA' in Los Angeles, CA
+2026-03-23 04:25:40,534 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Los Angeles CA'
+2026-03-23 04:25:42,535 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Los Angeles CA' in Los Angeles, CA
+2026-03-23 04:25:43,746 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Los Angeles CA'
+2026-03-23 04:25:45,747 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Chicago IL' in Chicago, IL
+2026-03-23 04:25:47,538 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Chicago IL'
+2026-03-23 04:25:49,539 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Chicago IL' in Chicago, IL
+2026-03-23 04:25:50,943 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Chicago IL'
+2026-03-23 04:25:52,944 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Chicago IL' in Chicago, IL
+2026-03-23 04:25:53,971 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Chicago IL'
+2026-03-23 04:25:55,972 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Chicago IL' in Chicago, IL
+2026-03-23 04:25:57,157 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Chicago IL'
+2026-03-23 04:25:59,158 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Chicago IL' in Chicago, IL
+2026-03-23 04:26:00,287 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Chicago IL'
+2026-03-23 04:26:02,289 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Austin TX' in Austin, TX
+2026-03-23 04:26:03,962 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Austin TX'
+2026-03-23 04:26:05,963 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Austin TX' in Austin, TX
+2026-03-23 04:26:07,003 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Austin TX'
+2026-03-23 04:26:09,004 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Austin TX' in Austin, TX
+2026-03-23 04:26:10,996 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Austin TX'
+2026-03-23 04:26:12,998 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Austin TX' in Austin, TX
+2026-03-23 04:26:14,341 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Austin TX'
+2026-03-23 04:26:16,342 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Austin TX' in Austin, TX
+2026-03-23 04:26:18,647 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Austin TX'
+2026-03-23 04:26:20,648 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Miami FL' in Miami, FL
+2026-03-23 04:26:22,411 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Miami FL'
+2026-03-23 04:26:24,413 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Miami FL' in Miami, FL
+2026-03-23 04:26:25,397 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Miami FL'
+2026-03-23 04:26:27,398 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Miami FL' in Miami, FL
+2026-03-23 04:26:28,654 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Miami FL'
+2026-03-23 04:26:30,655 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Miami FL' in Miami, FL
+2026-03-23 04:26:41,481 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Miami FL'
+2026-03-23 04:26:43,482 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Miami FL' in Miami, FL
+2026-03-23 04:26:44,964 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Miami FL'
+2026-03-23 04:26:46,965 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Dallas TX' in Dallas, TX
+2026-03-23 04:26:49,302 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Dallas TX'
+2026-03-23 04:26:51,303 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Dallas TX' in Dallas, TX
+2026-03-23 04:26:52,527 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Dallas TX'
+2026-03-23 04:26:54,528 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Dallas TX' in Dallas, TX
+2026-03-23 04:26:55,735 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Dallas TX'
+2026-03-23 04:26:57,736 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Dallas TX' in Dallas, TX
+2026-03-23 04:27:03,887 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Dallas TX'
+2026-03-23 04:27:05,888 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Dallas TX' in Dallas, TX
+2026-03-23 04:27:06,990 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Dallas TX'
+2026-03-23 04:27:08,991 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Phoenix AZ' in Phoenix, AZ
+2026-03-23 04:27:10,019 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Phoenix AZ'
+2026-03-23 04:27:12,020 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Phoenix AZ' in Phoenix, AZ
+2026-03-23 04:27:13,121 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Phoenix AZ'
+2026-03-23 04:27:15,122 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Phoenix AZ' in Phoenix, AZ
+2026-03-23 04:27:17,162 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Phoenix AZ'
+2026-03-23 04:27:19,163 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Phoenix AZ' in Phoenix, AZ
+2026-03-23 04:27:20,333 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Phoenix AZ'
+2026-03-23 04:27:22,334 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Phoenix AZ' in Phoenix, AZ
+2026-03-23 04:27:24,234 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Phoenix AZ'
+2026-03-23 04:27:26,235 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Denver CO' in Denver, CO
+2026-03-23 04:27:27,669 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Denver CO'
+2026-03-23 04:27:29,670 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Denver CO' in Denver, CO
+2026-03-23 04:27:31,319 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Denver CO'
+2026-03-23 04:27:33,320 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Denver CO' in Denver, CO
+2026-03-23 04:27:35,036 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Denver CO'
+2026-03-23 04:27:37,037 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Denver CO' in Denver, CO
+2026-03-23 04:27:38,364 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Denver CO'
+2026-03-23 04:27:40,365 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Denver CO' in Denver, CO
+2026-03-23 04:27:41,536 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Denver CO'
+2026-03-23 04:27:43,537 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Philadelphia PA' in Philadelphia, PA
+2026-03-23 04:27:44,759 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Philadelphia PA'
+2026-03-23 04:27:46,760 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Philadelphia PA' in Philadelphia, PA
+2026-03-23 04:27:47,568 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Philadelphia PA'
+2026-03-23 04:27:49,570 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Philadelphia PA' in Philadelphia, PA
+2026-03-23 04:27:50,393 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Philadelphia PA'
+2026-03-23 04:27:52,394 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Philadelphia PA' in Philadelphia, PA
+2026-03-23 04:27:58,303 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Philadelphia PA'
+2026-03-23 04:28:00,304 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Philadelphia PA' in Philadelphia, PA
+2026-03-23 04:28:01,474 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Philadelphia PA'
+2026-03-23 04:28:03,475 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Houston TX' in Houston, TX
+2026-03-23 04:28:04,870 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Houston TX'
+2026-03-23 04:28:06,871 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Houston TX' in Houston, TX
+2026-03-23 04:28:08,532 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Houston TX'
+2026-03-23 04:28:10,533 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Houston TX' in Houston, TX
+2026-03-23 04:28:12,916 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Houston TX'
+2026-03-23 04:28:14,917 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Houston TX' in Houston, TX
+2026-03-23 04:28:16,083 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Houston TX'
+2026-03-23 04:28:18,084 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Houston TX' in Houston, TX
+2026-03-23 04:28:19,392 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Houston TX'
+2026-03-23 04:28:21,393 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in San Francisco CA' in San Francisco, CA
+2026-03-23 04:28:22,815 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in San Francisco CA'
+2026-03-23 04:28:24,816 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in San Francisco CA' in San Francisco, CA
+2026-03-23 04:28:25,733 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in San Francisco CA'
+2026-03-23 04:28:27,734 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in San Francisco CA' in San Francisco, CA
+2026-03-23 04:28:34,147 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in San Francisco CA'
+2026-03-23 04:28:36,148 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in San Francisco CA' in San Francisco, CA
+2026-03-23 04:28:37,217 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in San Francisco CA'
+2026-03-23 04:28:39,218 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in San Francisco CA' in San Francisco, CA
+2026-03-23 04:28:40,128 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in San Francisco CA'
+2026-03-23 04:28:42,129 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Seattle WA' in Seattle, WA
+2026-03-23 04:28:43,876 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Seattle WA'
+2026-03-23 04:28:45,877 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Seattle WA' in Seattle, WA
+2026-03-23 04:28:47,498 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Seattle WA'
+2026-03-23 04:28:49,499 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Seattle WA' in Seattle, WA
+2026-03-23 04:28:50,818 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Seattle WA'
+2026-03-23 04:28:52,819 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Seattle WA' in Seattle, WA
+2026-03-23 04:28:55,062 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Seattle WA'
+2026-03-23 04:28:57,063 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Seattle WA' in Seattle, WA
+2026-03-23 04:28:57,996 [INFO] agents.scanner_agent — Scanner: found 10 results for 'regenerative medicine clinic in Seattle WA'
+2026-03-23 04:28:59,998 [INFO] local_seo_orchestrator —       Scanned 60 categories
+2026-03-23 04:28:59,998 [INFO] local_seo_orchestrator — [2/5] Analyzer Agent: detecting rank changes...
+2026-03-23 04:29:00,014 [INFO] agents.analyzer_agent — Analyzer: found 0 rank drop alerts across 60 categories
+2026-03-23 04:29:00,015 [INFO] local_seo_orchestrator —       Found 0 rank drop alerts
+2026-03-23 04:29:00,015 [INFO] local_seo_orchestrator — No rank drops detected this week — pipeline complete
