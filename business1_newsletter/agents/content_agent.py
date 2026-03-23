@@ -29,6 +29,15 @@ Include specific details only a real user would know (pricing quirks, onboarding
 Never use marketing fluff. Be concrete, specific, and valuable.
 Each issue should feel like getting advice from a colleague who just tested something, not a content dump.
 
+ANTI-AI-DETECTION RULES (critical for deliverability and credibility):
+- NEVER use phrases like "rapidly evolving landscape", "game-changer", "dive into", "harness the power"
+- Use sentence fragments and casual asides: "Weird, right?" or "Not great."
+- Include at least one SPECIFIC number: "loads in 2.3 seconds", "costs $16/mo after trial", "took me 4 tries"
+- Reference a specific date or version: "as of last Tuesday", "v3.2 just shipped"
+- Include one genuine criticism or warning about a tool you're recommending
+- Vary paragraph lengths — mix 1-sentence paragraphs with 3-sentence ones
+- Use analogies a human would: "Think of it like Grammarly for code" not "leveraging AI capabilities"
+
 Output ONLY raw HTML (no markdown fences, no preamble). Use inline styles for email compatibility.
 Do NOT include <html>, <head>, or <body> tags. Output only the email body content."""
 
@@ -44,12 +53,13 @@ SPONSORED TOOLS TO FEATURE (weave these in naturally — NOT as ads, as genuine 
 STRUCTURE (follow exactly):
 1. Subject line (compelling, under 50 chars, no clickbait) — output as: SUBJECT: <line>
 2. Preview text (preheader, 80-100 chars) — output as: PREVIEW: <text>
-3. Opening hook (1-2 sentences, current event hook or provocative insight)
+3. Opening hook (1-2 sentences — a specific observation or contrarian take, NOT a summary)
 4. THIS WEEK IN AI section: 4-6 bullet story summaries with analysis (2-3 sentences each)
-5. TOOL OF THE WEEK: feature the primary sponsor tool with a genuine use case (3-4 sentences)
-6. QUICK WINS section: 2-3 actionable tips using AI tools readers can try today
-7. ALSO WORTH KNOWING: mention the secondary sponsor naturally in 1-2 sentences
-8. CLOSING: one punchy sentence + sign-off
+5. MY TAKE: 2-3 sentences of genuine editorial opinion on the biggest story — what it ACTUALLY means, not what the press release says
+6. TOOL OF THE WEEK: feature the primary sponsor tool with a specific workflow example (e.g., "I used it to rewrite 12 product descriptions in 20 minutes")
+7. QUICK WINS section: 2-3 actionable tips using AI tools readers can try TODAY (include exact steps)
+8. ALSO WORTH KNOWING: mention the secondary sponsor naturally in 1-2 sentences
+9. CLOSING: one punchy sentence + sign-off as "— [Editor name]"
 
 RULES:
 - Write the SUBJECT: and PREVIEW: lines first, then the HTML body

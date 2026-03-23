@@ -37,6 +37,7 @@ jobs:
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          STRIPE_PAYMENT_URL: ${{ secrets.STRIPE_PAYMENT_URL }}
         working-directory: business3_local_seo
         run: python orchestrator.py
 

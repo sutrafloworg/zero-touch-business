@@ -39,11 +39,13 @@ class OutreachAgent:
         gmail_app_password: str,
         from_name: str = "LocalRank Sentinel",
         max_emails_per_run: int = 10,
+        payment_url: str = "",
     ):
         self.gmail_user = gmail_user
         self.gmail_app_password = gmail_app_password
         self.from_name = from_name
         self.max_emails_per_run = max_emails_per_run
+        self.payment_url = payment_url or "mailto:" + gmail_user
 
     def find_email_from_website(self, website_url: str) -> str | None:
         """Scrape a business website for a contact email address."""
@@ -118,26 +120,42 @@ class OutreachAgent:
 
         subject = f"Your {business_name} Google ranking dropped — free audit inside"
 
+        category_label = category_parts[2].replace("-", " ") if len(category_parts) > 2 else "your category"
+
         html_body = f"""
 <div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
   <p>Hi,</p>
 
-  <p>I noticed <strong>{business_name}</strong> dropped from
+  <p>I monitor Google Maps rankings across {city} every week.
+  This Monday, <strong>{business_name}</strong> dropped from
   <strong>#{alert['prev_rank']}</strong> to <strong>#{alert['curr_rank']}</strong>
-  in Google Maps for {category_parts[2] if len(category_parts) > 2 else 'your category'}
-  searches in {city}.</p>
+  for <em>{category_label}</em> searches.</p>
 
-  <p>I put together a quick audit (attached as PDF) that explains:</p>
+  <p>That likely means fewer calls this week. I've attached a free audit (PDF) that covers:</p>
   <ul>
-    <li>Why the drop likely happened</li>
-    <li>What your competitors did differently</li>
-    <li>3 specific actions you can take this week to recover</li>
+    <li>Why the drop happened (specific competitors and what they did)</li>
+    <li>3 actions you can take <strong>this week</strong> to recover</li>
   </ul>
 
-  <p>Take a look — it's genuinely useful even if we never speak again.</p>
+  <p>The audit is free — genuinely useful even if we never speak again.</p>
 
-  <p>If you'd like weekly monitoring so you catch these drops early,
-  just reply to this email and I'll set it up.</p>
+  <div style="background:#f8f9fa;border:1px solid #e0e0e0;border-radius:6px;padding:16px 20px;margin:20px 0">
+    <p style="font-weight:600;margin:0 0 8px;font-size:15px">If you want to stay ahead of this:</p>
+    <table style="width:100%;border-collapse:collapse;font-size:14px">
+      <tr>
+        <td style="padding:6px 0;color:#555">Deep-Dive Audit Report</td>
+        <td style="padding:6px 0;text-align:right;font-weight:600">$10 one-time</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 0;color:#555">Map Pack Guardian (weekly monitoring)</td>
+        <td style="padding:6px 0;text-align:right;font-weight:600">$5/month</td>
+      </tr>
+    </table>
+    <p style="margin:10px 0 0;font-size:13px;color:#666">
+      Reply to this email to get started, or
+      <a href="{self.payment_url}" style="color:#0066cc">pay securely online</a>.
+    </p>
+  </div>
 
   <p>Best,<br>
   LocalRank Sentinel</p>
