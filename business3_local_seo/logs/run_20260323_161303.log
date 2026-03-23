@@ -1,0 +1,164 @@
+2026-03-23 16:13:05,402 [INFO] local_seo_orchestrator — ============================================================
+2026-03-23 16:13:05,402 [INFO] local_seo_orchestrator — Starting LocalRank Sentinel pipeline
+2026-03-23 16:13:05,402 [INFO] local_seo_orchestrator — Timestamp: 2026-03-23T16:13:05.402667+00:00
+2026-03-23 16:13:05,402 [INFO] local_seo_orchestrator — ============================================================
+2026-03-23 16:13:05,403 [INFO] local_seo_orchestrator — [1/5] Scanner Agent: fetching Google Maps rankings...
+2026-03-23 16:13:05,403 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in New York NY' in New York, NY
+2026-03-23 16:13:07,038 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in New York NY'
+2026-03-23 16:13:09,039 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in New York NY' in New York, NY
+2026-03-23 16:13:10,407 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in New York NY'
+2026-03-23 16:13:12,409 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in New York NY' in New York, NY
+2026-03-23 16:13:14,057 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in New York NY'
+2026-03-23 16:13:16,059 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in New York NY' in New York, NY
+2026-03-23 16:13:17,648 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in New York NY'
+2026-03-23 16:13:19,650 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in New York NY' in New York, NY
+2026-03-23 16:13:21,384 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in New York NY'
+2026-03-23 16:13:23,385 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Los Angeles CA' in Los Angeles, CA
+2026-03-23 16:13:25,092 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Los Angeles CA'
+2026-03-23 16:13:27,093 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Los Angeles CA' in Los Angeles, CA
+2026-03-23 16:13:29,305 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Los Angeles CA'
+2026-03-23 16:13:31,306 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Los Angeles CA' in Los Angeles, CA
+2026-03-23 16:13:37,841 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Los Angeles CA'
+2026-03-23 16:13:39,842 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Los Angeles CA' in Los Angeles, CA
+2026-03-23 16:13:40,842 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Los Angeles CA'
+2026-03-23 16:13:42,844 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Los Angeles CA' in Los Angeles, CA
+2026-03-23 16:13:44,152 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Los Angeles CA'
+2026-03-23 16:13:46,154 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Chicago IL' in Chicago, IL
+2026-03-23 16:13:47,479 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Chicago IL'
+2026-03-23 16:13:49,481 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Chicago IL' in Chicago, IL
+2026-03-23 16:13:50,752 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Chicago IL'
+2026-03-23 16:13:52,754 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Chicago IL' in Chicago, IL
+2026-03-23 16:13:54,401 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Chicago IL'
+2026-03-23 16:13:56,402 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Chicago IL' in Chicago, IL
+2026-03-23 16:13:57,854 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Chicago IL'
+2026-03-23 16:13:59,855 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Chicago IL' in Chicago, IL
+2026-03-23 16:14:01,305 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Chicago IL'
+2026-03-23 16:14:03,306 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Austin TX' in Austin, TX
+2026-03-23 16:14:09,896 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Austin TX'
+2026-03-23 16:14:11,898 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Austin TX' in Austin, TX
+2026-03-23 16:14:13,651 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Austin TX'
+2026-03-23 16:14:15,653 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Austin TX' in Austin, TX
+2026-03-23 16:14:17,417 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Austin TX'
+2026-03-23 16:14:19,418 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Austin TX' in Austin, TX
+2026-03-23 16:14:21,489 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Austin TX'
+2026-03-23 16:14:23,490 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Austin TX' in Austin, TX
+2026-03-23 16:14:25,228 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Austin TX'
+2026-03-23 16:14:27,230 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Miami FL' in Miami, FL
+2026-03-23 16:14:34,078 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Miami FL'
+2026-03-23 16:14:36,079 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Miami FL' in Miami, FL
+2026-03-23 16:14:37,326 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Miami FL'
+2026-03-23 16:14:39,328 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Miami FL' in Miami, FL
+2026-03-23 16:14:41,131 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Miami FL'
+2026-03-23 16:14:43,133 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Miami FL' in Miami, FL
+2026-03-23 16:14:44,678 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Miami FL'
+2026-03-23 16:14:46,679 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Miami FL' in Miami, FL
+2026-03-23 16:14:48,064 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Miami FL'
+2026-03-23 16:14:50,065 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Dallas TX' in Dallas, TX
+2026-03-23 16:14:51,735 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Dallas TX'
+2026-03-23 16:14:53,736 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Dallas TX' in Dallas, TX
+2026-03-23 16:14:55,258 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Dallas TX'
+2026-03-23 16:14:57,259 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Dallas TX' in Dallas, TX
+2026-03-23 16:14:58,728 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Dallas TX'
+2026-03-23 16:15:00,729 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Dallas TX' in Dallas, TX
+2026-03-23 16:15:01,864 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Dallas TX'
+2026-03-23 16:15:03,865 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Dallas TX' in Dallas, TX
+2026-03-23 16:15:05,179 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Dallas TX'
+2026-03-23 16:15:07,180 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Phoenix AZ' in Phoenix, AZ
+2026-03-23 16:15:09,105 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Phoenix AZ'
+2026-03-23 16:15:11,106 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Phoenix AZ' in Phoenix, AZ
+2026-03-23 16:15:12,272 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Phoenix AZ'
+2026-03-23 16:15:14,273 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Phoenix AZ' in Phoenix, AZ
+2026-03-23 16:15:17,562 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Phoenix AZ'
+2026-03-23 16:15:19,563 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Phoenix AZ' in Phoenix, AZ
+2026-03-23 16:15:21,295 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Phoenix AZ'
+2026-03-23 16:15:23,296 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Phoenix AZ' in Phoenix, AZ
+2026-03-23 16:15:25,234 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Phoenix AZ'
+2026-03-23 16:15:27,235 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Denver CO' in Denver, CO
+2026-03-23 16:15:28,620 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Denver CO'
+2026-03-23 16:15:30,621 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Denver CO' in Denver, CO
+2026-03-23 16:15:32,438 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Denver CO'
+2026-03-23 16:15:34,439 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Denver CO' in Denver, CO
+2026-03-23 16:15:36,124 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Denver CO'
+2026-03-23 16:15:38,125 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Denver CO' in Denver, CO
+2026-03-23 16:15:39,682 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Denver CO'
+2026-03-23 16:15:41,683 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Denver CO' in Denver, CO
+2026-03-23 16:15:49,549 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Denver CO'
+2026-03-23 16:15:51,551 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Philadelphia PA' in Philadelphia, PA
+2026-03-23 16:15:54,286 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Philadelphia PA'
+2026-03-23 16:15:56,288 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Philadelphia PA' in Philadelphia, PA
+2026-03-23 16:15:57,781 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Philadelphia PA'
+2026-03-23 16:15:59,782 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Philadelphia PA' in Philadelphia, PA
+2026-03-23 16:16:01,124 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Philadelphia PA'
+2026-03-23 16:16:03,125 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Philadelphia PA' in Philadelphia, PA
+2026-03-23 16:16:04,170 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Philadelphia PA'
+2026-03-23 16:16:06,171 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Philadelphia PA' in Philadelphia, PA
+2026-03-23 16:16:07,488 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Philadelphia PA'
+2026-03-23 16:16:09,489 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Houston TX' in Houston, TX
+2026-03-23 16:16:11,074 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Houston TX'
+2026-03-23 16:16:13,075 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Houston TX' in Houston, TX
+2026-03-23 16:16:15,025 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Houston TX'
+2026-03-23 16:16:17,026 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Houston TX' in Houston, TX
+2026-03-23 16:16:18,397 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Houston TX'
+2026-03-23 16:16:20,398 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Houston TX' in Houston, TX
+2026-03-23 16:16:22,454 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Houston TX'
+2026-03-23 16:16:24,456 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Houston TX' in Houston, TX
+2026-03-23 16:16:26,467 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in Houston TX'
+2026-03-23 16:16:28,468 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in San Francisco CA' in San Francisco, CA
+2026-03-23 16:16:30,825 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in San Francisco CA'
+2026-03-23 16:16:32,826 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in San Francisco CA' in San Francisco, CA
+2026-03-23 16:16:34,985 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in San Francisco CA'
+2026-03-23 16:16:36,986 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in San Francisco CA' in San Francisco, CA
+2026-03-23 16:16:38,672 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in San Francisco CA'
+2026-03-23 16:16:40,673 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in San Francisco CA' in San Francisco, CA
+2026-03-23 16:16:42,132 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in San Francisco CA'
+2026-03-23 16:16:44,133 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in San Francisco CA' in San Francisco, CA
+2026-03-23 16:16:45,264 [INFO] agents.scanner_agent — Scanner: found 20 results for 'regenerative medicine clinic in San Francisco CA'
+2026-03-23 16:16:47,266 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Seattle WA' in Seattle, WA
+2026-03-23 16:16:49,109 [INFO] agents.scanner_agent — Scanner: found 20 results for 'personal injury lawyer in Seattle WA'
+2026-03-23 16:16:51,110 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Seattle WA' in Seattle, WA
+2026-03-23 16:16:53,853 [INFO] agents.scanner_agent — Scanner: found 20 results for 'emergency plumber in Seattle WA'
+2026-03-23 16:16:55,854 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Seattle WA' in Seattle, WA
+2026-03-23 16:16:58,190 [INFO] agents.scanner_agent — Scanner: found 20 results for 'cosmetic dentist in Seattle WA'
+2026-03-23 16:17:00,191 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Seattle WA' in Seattle, WA
+2026-03-23 16:17:02,136 [INFO] agents.scanner_agent — Scanner: found 20 results for 'luxury real estate agent in Seattle WA'
+2026-03-23 16:17:04,137 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Seattle WA' in Seattle, WA
+2026-03-23 16:17:05,386 [INFO] agents.scanner_agent — Scanner: found 14 results for 'regenerative medicine clinic in Seattle WA'
+2026-03-23 16:17:07,387 [INFO] local_seo_orchestrator —       Scanned 60 categories
+2026-03-23 16:17:07,387 [INFO] local_seo_orchestrator — [2/5] Analyzer Agent: detecting rank changes...
+2026-03-23 16:17:07,416 [INFO] agents.analyzer_agent — Analyzer: found 362 rank drop alerts across 60 categories
+2026-03-23 16:17:07,416 [INFO] local_seo_orchestrator —       Found 362 rank drop alerts
+2026-03-23 16:17:07,416 [INFO] local_seo_orchestrator — [3/5] Report Agent: generating 362 audit PDFs...
+2026-03-23 16:17:13,323 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-03-23 16:17:13,349 [ERROR] local_seo_orchestrator — Pipeline crashed: Character "—" at index 393 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/fpdf/fpdf.py", line 5681, in normalize_text
+    return text.encode(self.core_fonts_encoding).decode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u2014' in position 393: ordinal not in range(256)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/work/zero-touch-business/zero-touch-business/business3_local_seo/orchestrator.py", line 100, in run_pipeline
+    report_results = reporter.generate_batch(alerts)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/zero-touch-business/zero-touch-business/business3_local_seo/agents/report_agent.py", line 214, in generate_batch
+    pdf_path = self.generate_audit(alert)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/zero-touch-business/zero-touch-business/business3_local_seo/agents/report_agent.py", line 107, in generate_audit
+    return self._build_pdf(alert, audit_text, city, state, category)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/zero-touch-business/zero-touch-business/business3_local_seo/agents/report_agent.py", line 181, in _build_pdf
+    pdf.multi_cell(180, 5, line)
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/fpdf/fpdf.py", line 281, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/fpdf/deprecation.py", line 36, in wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/fpdf/fpdf.py", line 4891, in multi_cell
+    text = self.normalize_text(text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/fpdf/fpdf.py", line 5683, in normalize_text
+    raise FPDFUnicodeEncodingException(
+fpdf.errors.FPDFUnicodeEncodingException: Character "—" at index 393 in text is outside the range of characters supported by the font used: "helvetica". Please consider using a Unicode font.
