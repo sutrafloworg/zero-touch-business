@@ -1,20 +1,22 @@
 {
-  "_instructions": "Replace YOUR_REF_ID with your actual affiliate IDs before going live.",
+  "_instructions": "Replace YOUR_REF_ID with your actual affiliate IDs. Apply at the 'apply_url' for each program.",
   "tools": {
-    "semrush": {
-      "name": "Semrush",
-      "affiliate_url": "https://semrush.sjv.io/YOUR_REF_ID",
-      "cta_text": "Try Semrush Free for 14 Days",
-      "cta_button": "<a href='https://semrush.sjv.io/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Semrush Free →</a>",
-      "badge": "Best for SEO",
-      "rating": 4.8,
-      "starting_price": "$117.33/month",
+    "copy_ai": {
+      "name": "Copy.ai",
+      "affiliate_url": "https://www.copy.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
+      "apply_url": "https://www.copy.ai/partners",
+      "cta_text": "Try Copy.ai Free",
+      "cta_button": "<a href='https://www.copy.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Copy.ai Free →</a>",
+      "badge": "Best for AI Writing",
+      "rating": 4.7,
+      "starting_price": "$36/month",
       "free_trial": true,
-      "commission_note": "$10/trial + up to $450/sale, 120-day cookie"
+      "commission_note": "45% recurring commission — highest in AI tools"
     },
     "writesonic": {
       "name": "Writesonic",
       "affiliate_url": "https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
+      "apply_url": "https://writesonic.com/affiliates",
       "cta_text": "Try Writesonic Free",
       "cta_button": "<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>",
       "badge": "Best for Content",
@@ -26,6 +28,7 @@
     "notion": {
       "name": "Notion AI",
       "affiliate_url": "https://affiliate.notion.so/YOUR_REF_ID",
+      "apply_url": "https://www.notion.so/affiliates",
       "cta_text": "Try Notion AI Free",
       "cta_button": "<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>",
       "badge": "Best for Productivity",
@@ -34,20 +37,22 @@
       "free_trial": true,
       "commission_note": "$50/signup + 20% revenue year 1, 180-day cookie"
     },
-    "getresponse": {
-      "name": "GetResponse",
-      "affiliate_url": "https://www.getresponse.com/referral/YOUR_REF_ID?utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
-      "cta_text": "Try GetResponse Free",
-      "cta_button": "<a href='https://www.getresponse.com/referral/YOUR_REF_ID?utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try GetResponse Free →</a>",
-      "badge": "Best for Email",
+    "jasper": {
+      "name": "Jasper AI",
+      "affiliate_url": "https://jasper.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
+      "apply_url": "https://www.jasper.ai/partners",
+      "cta_text": "Try Jasper Free for 7 Days",
+      "cta_button": "<a href='https://jasper.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Jasper Free →</a>",
+      "badge": "Best for Teams",
       "rating": 4.5,
-      "starting_price": "$19/month",
+      "starting_price": "$39/month",
       "free_trial": true,
-      "commission_note": "40% recurring for 12 months, 90-day cookie"
+      "commission_note": "30% recurring for 12 months"
     },
     "surfer_seo": {
       "name": "Surfer SEO",
       "affiliate_url": "https://surferseo.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
+      "apply_url": "https://surferseo.com/affiliate-program/",
       "cta_text": "Try Surfer SEO",
       "cta_button": "<a href='https://surferseo.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Surfer SEO →</a>",
       "badge": "Best for On-Page SEO",

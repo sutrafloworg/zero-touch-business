@@ -43,6 +43,30 @@ Tone: direct, helpful, no jargon. Like a knowledgeable friend texting advice.
 Do NOT use markdown formatting — output plain text only."""
 
 
+def _sanitize_for_pdf(text: str) -> str:
+    """Replace Unicode characters that Helvetica/latin-1 can't render."""
+    replacements = {
+        "\u2014": "--",   # em dash
+        "\u2013": "-",    # en dash
+        "\u2018": "'",    # left single quote
+        "\u2019": "'",    # right single quote
+        "\u201c": '"',    # left double quote
+        "\u201d": '"',    # right double quote
+        "\u2026": "...",  # ellipsis
+        "\u2022": "-",    # bullet
+        "\u00a0": " ",    # non-breaking space
+        "\u2192": "->",   # right arrow
+        "\u2190": "<-",   # left arrow
+        "\u2023": ">",    # triangular bullet
+        "\u25cf": "*",    # black circle
+        "\u2605": "*",    # star
+    }
+    for char, replacement in replacements.items():
+        text = text.replace(char, replacement)
+    # Fallback: strip any remaining non-latin-1 characters
+    return text.encode("latin-1", errors="replace").decode("latin-1")
+
+
 class ReportAgent:
     def __init__(
         self,
@@ -99,6 +123,7 @@ class ReportAgent:
 
         try:
             audit_text = self._call_claude(prompt)
+            audit_text = _sanitize_for_pdf(audit_text)
         except Exception as e:
             logger.error(f"Report Agent: Claude failed for {alert['business_name']}: {e}")
             return None
@@ -115,6 +140,12 @@ class ReportAgent:
         category: str,
     ) -> Path:
         """Build a clean, branded PDF audit report."""
+        # Sanitize all text fields for latin-1 compatibility
+        city = _sanitize_for_pdf(city)
+        state = _sanitize_for_pdf(state)
+        category = _sanitize_for_pdf(category)
+        alert = {k: _sanitize_for_pdf(str(v)) if isinstance(v, str) else v for k, v in alert.items()}
+
         pdf = FPDF()
         pdf.add_page()
         pdf.set_auto_page_break(auto=True, margin=20)

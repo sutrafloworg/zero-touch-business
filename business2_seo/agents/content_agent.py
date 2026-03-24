@@ -263,10 +263,12 @@ schema_type: "Article"
         Returns: (markdown_content, success_bool)
         """
         template_key = keyword.get("template", "listicle")
-        primary_key = keyword.get("primary_affiliate", "semrush")
+        primary_key = keyword.get("primary_affiliate", "copy_ai")
         secondary_key = keyword.get("secondary_affiliate", "notion")
 
-        primary = self.affiliates.get(primary_key, self.affiliates["semrush"])
+        # Fallback to first available affiliate if key not found
+        fallback = next(iter(self.affiliates.values()))
+        primary = self.affiliates.get(primary_key, fallback)
         secondary = self.affiliates.get(secondary_key, self.affiliates["notion"])
 
         template = TEMPLATE_MAP.get(template_key, LISTICLE_PROMPT)

@@ -1,22 +1,24 @@
 {
-  "_instructions": "Replace YOUR_REF_ID placeholders with your actual affiliate IDs before going live.",
+  "_instructions": "Replace YOUR_REF_ID placeholders with your actual affiliate IDs before going live. Apply at the URLs listed in 'apply_url' for each program.",
   "tools": {
-    "semrush": {
-      "name": "Semrush",
-      "display_name": "Semrush (All-in-one SEO + AI Content)",
-      "url": "https://www.semrush.com/",
-      "affiliate_url": "https://semrush.sjv.io/YOUR_REF_ID",
-      "commission": "$10/trial + $50-450/sale",
-      "cookie_days": 120,
-      "category": "SEO",
-      "cta": "Try Semrush free for 14 days →",
-      "one_liner": "The SEO tool 10M+ marketers use — now with AI content generation."
+    "copy_ai": {
+      "name": "Copy.ai",
+      "display_name": "Copy.ai (AI Writing + Workflows)",
+      "url": "https://www.copy.ai/",
+      "affiliate_url": "https://www.copy.ai/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
+      "apply_url": "https://www.copy.ai/partners",
+      "commission": "45% recurring",
+      "cookie_days": 60,
+      "category": "AI Writing",
+      "cta": "Try Copy.ai free →",
+      "one_liner": "AI writing + workflow automation. 45% commission — the highest in AI tools."
     },
     "notion": {
       "name": "Notion",
       "display_name": "Notion AI",
       "url": "https://www.notion.so/",
-      "affiliate_url": "https://affiliate.notion.so/YOUR_REF_ID",
+      "affiliate_url": "https://affiliate.notion.so/YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
+      "apply_url": "https://www.notion.so/affiliates",
       "commission": "$50/signup + 20% year-1 revenue",
       "cookie_days": 180,
       "category": "Productivity",
@@ -28,28 +30,31 @@
       "display_name": "Writesonic",
       "url": "https://writesonic.com/",
       "affiliate_url": "https://writesonic.com/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
+      "apply_url": "https://writesonic.com/affiliates",
       "commission": "30% recurring",
       "cookie_days": 60,
       "category": "AI Writing",
       "cta": "Write 10x faster with Writesonic →",
       "one_liner": "AI writer + SEO checker that actually ranks content on Google."
     },
-    "getresponse": {
-      "name": "GetResponse",
-      "display_name": "GetResponse",
-      "url": "https://www.getresponse.com/",
-      "affiliate_url": "https://www.getresponse.com/referral/YOUR_REF_ID?utm_source=aitoolsweekly&utm_medium=email",
-      "commission": "40% recurring for 12 months",
-      "cookie_days": 90,
-      "category": "Email Marketing",
-      "cta": "Build your email list with GetResponse →",
-      "one_liner": "Email + automation + AI landing pages. Grow your audience on autopilot."
+    "jasper": {
+      "name": "Jasper",
+      "display_name": "Jasper AI",
+      "url": "https://www.jasper.ai/",
+      "affiliate_url": "https://jasper.ai/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
+      "apply_url": "https://www.jasper.ai/partners",
+      "commission": "30% recurring for 12 months",
+      "cookie_days": 45,
+      "category": "AI Writing",
+      "cta": "Try Jasper AI free for 7 days →",
+      "one_liner": "Enterprise AI writing that keeps your brand voice. Used by 100K+ teams."
     },
     "surfer_seo": {
       "name": "Surfer SEO",
       "display_name": "Surfer SEO",
       "url": "https://surferseo.com/",
       "affiliate_url": "https://surferseo.com/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
+      "apply_url": "https://surferseo.com/affiliate-program/",
       "commission": "25% recurring",
       "cookie_days": 60,
       "category": "SEO",

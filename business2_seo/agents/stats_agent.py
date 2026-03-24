@@ -348,9 +348,8 @@ class StatsAgent:
   <div style="padding:20px 24px;background:#fff;border:1px solid #e5e5e5;border-top:none">
     <h2 style="font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#888;margin:0 0 12px">Affiliate Revenue Dashboards</h2>
     <ul style="margin:0;padding:0 0 0 16px;font-size:13px;color:#555;line-height:2">
-      <li><a href="https://app.impact.com" style="color:#0066cc">Semrush → Impact.com</a></li>
-      <li><a href="https://app.partnerstack.com" style="color:#0066cc">Surfer SEO + Writesonic → PartnerStack</a></li>
-      <li><a href="https://app.getresponse.com/affiliate" style="color:#0066cc">GetResponse → Direct dashboard</a></li>
+      <li><a href="https://app.partnerstack.com" style="color:#0066cc">Copy.ai + Surfer SEO + Writesonic → PartnerStack</a></li>
+      <li><a href="https://www.jasper.ai/partners" style="color:#0066cc">Jasper AI → Partner dashboard</a></li>
       <li><a href="https://www.notion.so/affiliates" style="color:#0066cc">Notion → Direct dashboard</a></li>
     </ul>
   </div>
