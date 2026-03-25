@@ -37,15 +37,15 @@
       "free_trial": true,
       "commission_note": "$50/signup + 20% revenue year 1, 180-day cookie"
     },
-    "jasper": {
-      "name": "Jasper AI",
-      "affiliate_url": "https://jasper.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
-      "apply_url": "https://www.jasper.ai/partners",
-      "cta_text": "Try Jasper Free for 7 Days",
-      "cta_button": "<a href='https://jasper.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Jasper Free →</a>",
-      "badge": "Best for Teams",
+    "rytr": {
+      "name": "Rytr",
+      "affiliate_url": "https://rytr.me/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
+      "apply_url": "https://rytr.me/affiliate",
+      "cta_text": "Try Rytr Free",
+      "cta_button": "<a href='https://rytr.me/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Rytr Free →</a>",
+      "badge": "Best Budget AI Writer",
       "rating": 4.5,
-      "starting_price": "$39/month",
+      "starting_price": "$9/month",
       "free_trial": true,
       "commission_note": "30% recurring for 12 months"
     },

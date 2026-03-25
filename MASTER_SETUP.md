@@ -20,9 +20,13 @@ GitHub Actions (free scheduler)
        ├── Business 1: EVERY TUESDAY 7am UTC
        │      Feed Agent → Content Agent (Claude Haiku) → Publisher Agent (Kit API) → Monitor Agent
        │
-       └── Business 2: EVERY SUNDAY 2am UTC
-              Keyword Agent → Content Agent (Claude Haiku) → Publisher Agent (→ Git commit) → Monitor Agent
-                                                                          └── Cloudflare Pages auto-deploys Hugo site
+       ├── Business 2: EVERY SUNDAY + WEDNESDAY 2am UTC
+       │      Keyword Agent → Content Agent (Claude Haiku) → Publisher Agent (→ Git commit) → Monitor Agent
+       │                                                                  └── Cloudflare Pages auto-deploys Hugo site
+       │
+       └── Business 3: EVERY MONDAY 3am UTC (LocalRank Sentinel)
+              Scanner Agent (SerpAPI) → Analyzer Agent → Report Agent (Claude + PDF) → Outreach Agent (Gmail)
+              12 cities × 5 categories = 60 searches/week (240/month within 250 free limit)
 ```
 
 **Monthly operating cost:**
@@ -119,13 +123,15 @@ git push
 
 Apply to these programs — most approve instantly or within 24 hours:
 
-| Program | Apply at | Commission |
-|---|---|---|
-| Semrush | https://www.semrush.com/partner/affiliates/ | $10/trial + $50-450/sale |
-| Surfer SEO | https://surferseo.com/affiliate/ | 25% recurring |
-| Writesonic | https://writesonic.com/affiliate | 30% recurring |
-| Notion | https://www.notion.so/affiliates | $50 signup + 20% yr1 |
-| GetResponse | https://www.getresponse.com/affiliate-program | 40% for 12 months |
+| Program | Apply at | Commission | Status |
+|---|---|---|---|
+| Copy.ai | https://www.copy.ai/partners | 45% recurring | Apply first — no traffic minimum |
+| Rytr | https://rytr.me/affiliate | 30% recurring 12mo | Easy approval, beginner-friendly |
+| Writesonic | https://writesonic.com/affiliate | 30% recurring | Moderate — needs platform review |
+| Surfer SEO | https://surferseo.com/affiliate/ | 25% recurring | Harder — apply after 25+ articles |
+| Notion | https://www.notion.so/affiliates | $50 signup + 20% yr1 | Currently paused — check periodically |
+
+**Note:** Semrush declined (low reach), GetResponse declined (audience alignment), Jasper AI program permanently shut down (Jan 2025). The programs above are verified active and accessible for new publishers.
 
 - [ ] After approval, replace `YOUR_REF_ID` in `business1_newsletter/data/affiliate_links.json`
 - [ ] Replace `YOUR_REF_ID` in `business2_seo/data/affiliate_links.json`

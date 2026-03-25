@@ -49,7 +49,7 @@ GetResponse combines email marketing with AI-powered automation sequences, landi
 - Premium pricing jumps significantly at 5,000+ contacts ($99/month)
 - Limited advanced segmentation compared to enterprise platforms
 
-GetResponse's automation sequences save 10+ hours monthly by eliminating manual follow-ups. The platform's AI generates subject lines that typically outperform manual ones by 15-25% in open rates. <a href="https://www.getresponse.com/referral/YOUR_REF_ID?utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try GetResponse Free</a> to test the full platform—no credit card required.
+GetResponse's automation sequences save 10+ hours monthly by eliminating manual follow-ups. The platform's AI generates subject lines that typically outperform manual ones by 15-25% in open rates. <a href="https://rytr.me/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Rytr Free</a> to test the full platform—no credit card required.
 
 ## Brevo (Sendinblue): Best for Budget-First Teams
 

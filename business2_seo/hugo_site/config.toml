@@ -39,6 +39,11 @@ theme = "PaperMod"
   weight = 30
 
 [[menus.main]]
+  name = "Resources"
+  url = "/products/"
+  weight = 35
+
+[[menus.main]]
   name = "About"
   url = "/about/"
   weight = 40

@@ -8,3 +8,7 @@ dist/
 build/
 .DS_Store
 logs/*.log
+business2_seo/hugo_site/public/
+business2_seo/hugo_site/.hugo_build.lock
+business2_seo/hugo_site/hugo_stats.json
+sample_audit_report.pdf

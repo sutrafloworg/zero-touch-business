@@ -1,9 +1,77 @@
 /mnt/c/Users/samik/Documents/claude_busines
 
+Revenue -  GitHub → Actions → "Stats Report (On Demand)" → Run workflow → Run workflow 
+
 GITHUB
 -------
 sutrafloworg
 9@J
+
+Business-3:
+---------------
+With 250 searches/month, you can monitor up to 12 cities × 5 categories. Right now it's just Austin — you can add more cities to
+  business3_local_seo/data/cities.json anytime.
+  
+   To see it in action right now:
+
+  1. Go to GitHub → Actions → "LocalRank Sentinel — Weekly Scan" → Run workflow → Run workflow
+  2. Watch the run (takes ~2-3 minutes)
+  3. It will scan 5 categories, save baseline rankings, and email you a summary
+  4. Check business3_local_seo/data/rankings_history.json after — it'll have all 100 businesses ranked
+---------------------------------------
+
+ YOUR ACTION ITEMS (Updated 2026-03-25):
+ ==========================================
+
+ PHASE 0 — REVENUE ACTIVATION (do this week):
+
+  1. APPLY TO AFFILIATES (in this order):
+     a. Copy.ai   → https://www.copy.ai/partners     (45% recurring, no traffic min)
+     b. Rytr       → https://rytr.me/affiliate         (30% recurring, easiest approval)
+     c. Writesonic → https://writesonic.com/affiliates  (30% recurring, needs platform review)
+     d. Surfer SEO → https://surferseo.com/affiliate-program/ (25% recurring, wait until 25+ articles)
+     e. Notion     → https://www.notion.so/affiliates   (PAUSED — check back monthly)
+
+     NOTE: Jasper AI affiliate program is PERMANENTLY DEAD (shut down Jan 2025).
+     NOTE: Semrush declined (low reach). GetResponse declined (audience alignment).
+
+  2. SET UP STRIPE:
+     a. Create account at https://stripe.com
+     b. Create Payment Link: "LocalRank SEO Audit" — $10 one-time
+     c. Create Payment Link: "Map Pack Guardian" — $5/month subscription
+     d. Add STRIPE_PAYMENT_URL to GitHub Secrets
+
+  3. REPLACE YOUR_REF_ID:
+     After affiliate approval, replace YOUR_REF_ID in BOTH files:
+     - business1_newsletter/data/affiliate_links.json
+     - business2_seo/data/affiliate_links.json
+     Also update cta_button HTML in the SEO file.
+     Then commit + push.
+
+  4. RUN CONTENT PIPELINE NOW:
+     GitHub → Actions → "SEO Site — Content Generation" → Run workflow
+     This will generate Copy.ai review, Rytr review (priority articles for affiliate apps).
+
+  5. GOOGLE SEARCH CONSOLE (if not done):
+     a. https://search.google.com/search-console/
+     b. Add property: https://sutraflow.org
+     c. Verify with HTML tag method
+     d. Submit sitemap: sitemap.xml
+
+  6. KIT RECOMMENDATIONS:
+     Kit → Settings → Recommendations → Enable → Category: Technology/AI
+
+  7. CREATE GUMROAD ACCOUNT:
+     https://gumroad.com — for selling digital products (products page already on sutraflow.org)
+
+ WHAT'S ALREADY AUTOMATED:
+  - Content generates 2x/week (Sun + Wed), 8 articles per run
+  - IndexNow auto-submits new URLs to Bing/Yandex
+  - LocalRank scans 12 cities × 5 categories weekly
+  - Weekly stats report emails to you every Sunday
+  - Newsletter sends every Tuesday
+  
+  
 
 Your role Act as an elite Autonomous Business Architect and Senior Automation Engineer specializing in 2026 agentic workflows. Your goal is to
 design and provide the implementation logic for a "Zero-Touch" business that generates consistent passive income. The Objective: do some research,

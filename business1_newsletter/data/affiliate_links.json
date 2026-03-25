@@ -37,17 +37,17 @@
       "cta": "Write 10x faster with Writesonic →",
       "one_liner": "AI writer + SEO checker that actually ranks content on Google."
     },
-    "jasper": {
-      "name": "Jasper",
-      "display_name": "Jasper AI",
-      "url": "https://www.jasper.ai/",
-      "affiliate_url": "https://jasper.ai/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
-      "apply_url": "https://www.jasper.ai/partners",
+    "rytr": {
+      "name": "Rytr",
+      "display_name": "Rytr AI Writer",
+      "url": "https://rytr.me/",
+      "affiliate_url": "https://rytr.me/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
+      "apply_url": "https://rytr.me/affiliate",
       "commission": "30% recurring for 12 months",
-      "cookie_days": 45,
+      "cookie_days": 60,
       "category": "AI Writing",
-      "cta": "Try Jasper AI free for 7 days →",
-      "one_liner": "Enterprise AI writing that keeps your brand voice. Used by 100K+ teams."
+      "cta": "Try Rytr free — no credit card needed →",
+      "one_liner": "AI writing assistant with 40+ templates. Starts at $9/month — best value in AI writing."
     },
     "surfer_seo": {
       "name": "Surfer SEO",

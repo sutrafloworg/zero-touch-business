@@ -53,7 +53,7 @@ Semrush dominates the 2026 SEO landscape with its AI-powered content assistant a
 
 The competitive positioning reports save hours on manual analysis. Semrush's AI identifies which keywords competitors rank for but you don't—then scores them by opportunity and feasibility.
 
-<a href="https://semrush.sjv.io/YOUR_REF_ID" rel="nofollow sponsored">Try Semrush Free for 14 Days</a>
+<a href="https://www.copy.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Copy.ai Free</a>
 
 ## Surfer SEO: Best for AI-Powered Content Optimization
 

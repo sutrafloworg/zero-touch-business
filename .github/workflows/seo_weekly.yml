@@ -1,8 +1,9 @@
-name: SEO Site — Weekly Content Generation
+name: SEO Site — Content Generation
 
 on:
   schedule:
     - cron: "0 2 * * 0"   # Every Sunday 02:00 UTC
+    - cron: "0 2 * * 3"   # Every Wednesday 02:00 UTC
   workflow_dispatch:
     inputs:
       articles_count:
@@ -43,7 +44,7 @@ jobs:
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          ARTICLES_PER_RUN: ${{ inputs.articles_count || '5' }}
+          ARTICLES_PER_RUN: ${{ inputs.articles_count || '8' }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         working-directory: business2_seo
         run: python orchestrator.py
