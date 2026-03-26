@@ -36,6 +36,7 @@ from agents.analyzer_agent import AnalyzerAgent
 from agents.report_agent import ReportAgent
 from agents.outreach_agent import OutreachAgent
 from agents.monitor_agent import MonitorAgent
+from agents.fulfillment_agent import FulfillmentAgent
 
 
 def run_pipeline() -> bool:
@@ -100,8 +101,8 @@ def run_pipeline() -> bool:
         report_results = reporter.generate_batch(alerts)
         logger.info(f"      Generated {len(report_results)} PDFs")
 
-        # ── Step 4: Outreach ───────────────────────────────────────────────────
-        logger.info("[4/5] Outreach Agent: finding emails + sending audits...")
+        # ── Step 4: Outreach (teaser emails — no PDF attached) ────────────────
+        logger.info("[4/6] Outreach Agent: finding emails + sending teaser alerts...")
         outreach = OutreachAgent(
             gmail_user=config.GMAIL_USER,
             gmail_app_password=config.GMAIL_APP_PASSWORD,
@@ -110,8 +111,20 @@ def run_pipeline() -> bool:
         )
         outreach_summary = outreach.process_batch(report_results)
 
-        # ── Step 5: Monitor ────────────────────────────────────────────────────
-        logger.info("[5/5] Monitor Agent: recording stats...")
+        # ── Step 5: Register reports for post-payment delivery ───────────────
+        contacted = outreach_summary.get("contacted", [])
+        if contacted:
+            logger.info(f"[5/6] Fulfillment: registering {len(contacted)} reports for delivery...")
+            fulfillment = FulfillmentAgent(
+                index_file=config.PENDING_REPORTS_FILE,
+                outreach=outreach,
+            )
+            fulfillment.register_reports(contacted)
+        else:
+            logger.info("[5/6] Fulfillment: no contacts to register")
+
+        # ── Step 6: Monitor ────────────────────────────────────────────────────
+        logger.info("[6/6] Monitor Agent: recording stats...")
         monitor.record_run(
             scans=total_scans,
             alerts=len(alerts),

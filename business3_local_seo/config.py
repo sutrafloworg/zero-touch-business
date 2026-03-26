@@ -26,6 +26,7 @@ CITIES_FILE = DATA_DIR / "cities.json"
 RANKINGS_FILE = DATA_DIR / "rankings_history.json"
 CONTACTS_FILE = DATA_DIR / "contacts.json"
 STATE_FILE = DATA_DIR / "state.json"
+PENDING_REPORTS_FILE = DATA_DIR / "pending_reports.json"
 
 # ── Email (reuses existing Gmail SMTP) ────────────────────────────────────────
 ALERT_EMAIL = os.environ.get("ALERT_EMAIL", "")
@@ -46,6 +47,10 @@ PAYMENT_URL_AUDIT = os.environ.get(
     "STRIPE_PAYMENT_URL_AUDIT",
     "https://buy.stripe.com/7sYaEYdY10jifTtdXi6kg00",
 )
+
+# ── Stripe (webhook server) ──────────────────────────────────────────────────
+STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY", "")
+STRIPE_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET", "")
 
 # ── Self-Correction ───────────────────────────────────────────────────────────
 MAX_RETRIES = 3

@@ -1,0 +1,28 @@
+version: "3.8"
+
+# LocalRank Sentinel — Webhook Server
+# Designed for Oracle Cloud Always Free (4 ARM OCPUs, 24GB RAM, $0/month)
+# or Hetzner CX22 ($6/month)
+
+services:
+  webhook:
+    build: ..
+    container_name: localrank-webhook
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    volumes:
+      # Persist report index and generated PDFs across restarts
+      - report-data:/app/data
+      - report-pdfs:/app/reports
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  report-data:
+  report-pdfs:

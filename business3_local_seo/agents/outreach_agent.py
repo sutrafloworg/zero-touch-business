@@ -1,5 +1,12 @@
 """
-Outreach Agent — sends personalized audit emails to businesses that dropped rank.
+Outreach Agent — sends teaser rank-drop emails to businesses.
+
+The full PDF audit report is NOT attached to the initial email.
+It is delivered only after payment via the fulfillment agent.
+
+Flow:
+  1. Initial outreach: teaser email with rank drop details + Stripe payment links
+  2. After payment: fulfillment_agent.py delivers the full PDF
 
 Extracts contact info from:
   1. Google Business Profile data (phone, website from SerpAPI)
@@ -21,7 +28,6 @@ from email.mime.text import MIMEText
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
@@ -135,58 +141,97 @@ class OutreachAgent:
 
         return None
 
-    def send_audit_email(
+    def send_teaser_email(
         self,
         to_email: str,
         business_name: str,
         alert: dict,
-        pdf_path: Path,
     ) -> bool:
-        """Send personalized audit email with PDF attachment. CAN-SPAM compliant."""
+        """Send teaser rank-drop email WITHOUT the full PDF. CAN-SPAM compliant.
+
+        The email highlights the rank drop, shows key insights as a preview,
+        and includes Stripe payment links to purchase the full audit or
+        subscribe to weekly monitoring.
+        """
         if not all([self.gmail_user, self.gmail_app_password, to_email]):
             return False
 
         category_parts = alert["category_key"].split("_")
         city = category_parts[0].title() if category_parts else "your city"
-
-        subject = f"Your {business_name} Google ranking dropped — free audit inside"
-
         category_label = category_parts[2].replace("-", " ") if len(category_parts) > 2 else "your category"
+
+        subject = f"{business_name}: your Google ranking dropped this week"
+
+        insight_bullets = self._insight_bullets(alert)
+
+        # Build reasons preview (show first 2 reasons as teaser)
+        reasons = alert.get("reasons", [])
+        reasons_html = ""
+        if reasons:
+            reasons_items = "\n".join(f"    <li>{r}</li>" for r in reasons[:2])
+            reasons_html = f"""
+  <p style="font-weight:600;margin:16px 0 6px">What's causing the drop:</p>
+  <ul style="margin:0;padding-left:20px;color:#555">
+{reasons_items}
+  </ul>"""
 
         html_body = f"""
 <div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
   <p>Hi,</p>
 
-  <p>I monitor Google Maps rankings across {city} every week.
-  This Monday, <strong>{business_name}</strong> dropped from
-  <strong>#{alert['prev_rank']}</strong> to <strong>#{alert['curr_rank']}</strong>
-  for <em>{category_label}</em> searches.</p>
+  <p>I track Google Maps rankings for <em>{category_label}</em> businesses across {city} every week.</p>
 
-  <p>That likely means fewer calls this week. I've attached a free audit (PDF) that covers:</p>
-  <ul>
-    <li>Why the drop happened (specific competitors and what they did)</li>
-    <li>3 actions you can take <strong>this week</strong> to recover</li>
-{self._insight_bullets(alert)}
-  </ul>
+  <p>This week, <strong>{business_name}</strong> dropped from
+  <strong style="color:#0066cc">#{alert['prev_rank']}</strong> to
+  <strong style="color:#c0392b">#{alert['curr_rank']}</strong> —
+  that's <strong>{alert['rank_change']} positions lost</strong>.</p>
 
-  <p>The audit is free — genuinely useful even if we never speak again.</p>
+  <p>When you drop out of the top 3, Google Maps stops showing your business
+  without scrolling. That means fewer calls, fewer walk-ins, fewer customers.</p>
+{reasons_html}
 
-  <div style="background:#f8f9fa;border:1px solid #e0e0e0;border-radius:6px;padding:16px 20px;margin:20px 0">
-    <p style="font-weight:600;margin:0 0 8px;font-size:15px">If you want to stay ahead of this:</p>
-    <table style="width:100%;border-collapse:collapse;font-size:14px">
-      <tr>
-        <td style="padding:6px 0;color:#555">Deep-Dive Audit Report</td>
-        <td style="padding:6px 0;text-align:right;font-weight:600"><a href="{self.payment_url_audit}" style="color:#0066cc">$10 one-time</a></td>
-      </tr>
-      <tr>
-        <td style="padding:6px 0;color:#555">Map Pack Guardian (weekly monitoring)</td>
-        <td style="padding:6px 0;text-align:right;font-weight:600"><a href="{self.payment_url}" style="color:#0066cc">$5/month</a></td>
-      </tr>
-    </table>
-    <p style="margin:10px 0 0;font-size:13px;color:#666">
-      Click a link above to pay securely via Stripe, or reply to this email.
+  <div style="background:#fff8f0;border-left:4px solid #e67e22;padding:12px 16px;margin:20px 0">
+    <p style="margin:0;font-size:14px;color:#333">
+      <strong>I've prepared a full audit report</strong> for {business_name} — it covers
+      exactly why this happened, which competitors passed you, and 3 specific actions
+      you can take <em>this week</em> to recover your ranking.
     </p>
   </div>
+
+  <ul style="color:#555;font-size:14px">
+    <li>Detailed root cause analysis with competitor data</li>
+    <li>3 concrete recovery actions customized to your business</li>
+{insight_bullets}
+  </ul>
+
+  <div style="background:#f8f9fa;border:1px solid #e0e0e0;border-radius:6px;padding:16px 20px;margin:20px 0">
+    <p style="font-weight:600;margin:0 0 10px;font-size:15px">Get your report:</p>
+    <table style="width:100%;border-collapse:collapse;font-size:14px">
+      <tr>
+        <td style="padding:8px 0;color:#333">
+          <strong>Full Audit Report</strong><br>
+          <span style="color:#777;font-size:13px">Complete competitive analysis + action plan (PDF)</span>
+        </td>
+        <td style="padding:8px 0;text-align:right;vertical-align:middle">
+          <a href="{self.payment_url_audit}" style="background:#0066cc;color:#fff;padding:8px 18px;border-radius:4px;text-decoration:none;font-weight:600;font-size:14px">$10 — Get Report</a>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="padding:4px 0"><hr style="border:none;border-top:1px solid #eee"></td>
+      </tr>
+      <tr>
+        <td style="padding:8px 0;color:#333">
+          <strong>Weekly Monitoring</strong><br>
+          <span style="color:#777;font-size:13px">Rank tracking + alerts + monthly trend reports</span>
+        </td>
+        <td style="padding:8px 0;text-align:right;vertical-align:middle">
+          <a href="{self.payment_url}" style="background:#fff;color:#0066cc;padding:7px 18px;border-radius:4px;text-decoration:none;font-weight:600;font-size:14px;border:1px solid #0066cc">$5/month</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <p style="font-size:13px;color:#777">Or just reply to this email — happy to answer questions.</p>
 
   <p>Best,<br>
   LocalRank Sentinel</p>
@@ -201,18 +246,77 @@ class OutreachAgent:
 """.strip()
 
         try:
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = subject
+            msg["From"] = f"{self.from_name} <{self.gmail_user}>"
+            msg["To"] = to_email
+            msg["Reply-To"] = self.gmail_user
+
+            msg.attach(MIMEText(html_body, "html"))
+
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(self.gmail_user, self.gmail_app_password)
+                server.sendmail(self.gmail_user, [to_email], msg.as_string())
+
+            logger.info(f"Outreach: teaser email sent to {to_email} ({business_name})")
+            return True
+
+        except Exception as e:
+            logger.error(f"Outreach: failed to send to {to_email}: {e}")
+            return False
+
+    def send_fulfillment_email(
+        self,
+        to_email: str,
+        business_name: str,
+        pdf_path: Path,
+    ) -> bool:
+        """Send the full PDF audit after payment confirmation."""
+        if not all([self.gmail_user, self.gmail_app_password, to_email]):
+            return False
+
+        subject = f"Your SEO Audit Report for {business_name}"
+
+        html_body = f"""
+<div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
+  <p>Hi,</p>
+
+  <p>Thank you for your purchase! Your full audit report for
+  <strong>{business_name}</strong> is attached to this email.</p>
+
+  <p>The report includes:</p>
+  <ul>
+    <li>Detailed root cause analysis of your ranking drop</li>
+    <li>Competitor intelligence — who passed you and how</li>
+    <li>3 specific recovery actions you can take this week</li>
+    <li>Performance trends and market position score</li>
+  </ul>
+
+  <p>If you have any questions about the report or want help implementing
+  the recommendations, just reply to this email.</p>
+
+  <p>Best,<br>
+  LocalRank Sentinel</p>
+
+  <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
+  <p style="font-size:11px;color:#999">
+    LocalRank Sentinel · 1111 S Figueroa St · Los Angeles, CA 90015<br>
+    sutraflow.org
+  </p>
+</div>
+""".strip()
+
+        try:
             msg = MIMEMultipart("mixed")
             msg["Subject"] = subject
             msg["From"] = f"{self.from_name} <{self.gmail_user}>"
             msg["To"] = to_email
             msg["Reply-To"] = self.gmail_user
 
-            # HTML body
             body_part = MIMEMultipart("alternative")
             body_part.attach(MIMEText(html_body, "html"))
             msg.attach(body_part)
 
-            # PDF attachment
             with open(pdf_path, "rb") as f:
                 pdf_part = MIMEApplication(f.read(), _subtype="pdf")
                 pdf_part.add_header(
@@ -225,21 +329,22 @@ class OutreachAgent:
                 server.login(self.gmail_user, self.gmail_app_password)
                 server.sendmail(self.gmail_user, [to_email], msg.as_string())
 
-            logger.info(f"Outreach: audit email sent to {to_email} ({business_name})")
+            logger.info(f"Fulfillment: PDF delivered to {to_email} ({business_name})")
             return True
 
         except Exception as e:
-            logger.error(f"Outreach: failed to send to {to_email}: {e}")
+            logger.error(f"Fulfillment: failed to deliver to {to_email}: {e}")
             return False
 
     def process_batch(self, report_results: list[dict]) -> dict:
         """
-        For each generated audit PDF, find email and send.
-        Returns summary stats.
+        For each generated audit, find contact email and send teaser.
+        Returns summary stats + list of contacted businesses for the report index.
         """
         sent = 0
         no_email = 0
         failed = 0
+        contacted = []
 
         for item in report_results[:self.max_emails_per_run]:
             alert = item["alert"]
@@ -252,14 +357,25 @@ class OutreachAgent:
                 logger.info(f"Outreach: no email found for {alert['business_name']}")
                 continue
 
-            success = self.send_audit_email(email, alert["business_name"], alert, Path(pdf_path))
+            success = self.send_teaser_email(email, alert["business_name"], alert)
             if success:
                 sent += 1
+                contacted.append({
+                    "email": email,
+                    "business_name": alert["business_name"],
+                    "pdf_path": str(pdf_path),
+                    "category_key": alert["category_key"],
+                })
             else:
                 failed += 1
 
             time.sleep(3)  # rate limit between emails
 
-        summary = {"sent": sent, "no_email": no_email, "failed": failed}
-        logger.info(f"Outreach batch complete: {summary}")
+        summary = {
+            "sent": sent,
+            "no_email": no_email,
+            "failed": failed,
+            "contacted": contacted,
+        }
+        logger.info(f"Outreach batch complete: sent={sent}, no_email={no_email}, failed={failed}")
         return summary
