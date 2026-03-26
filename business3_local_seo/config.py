@@ -37,12 +37,15 @@ BUSINESS_NAME = "LocalRank Sentinel"
 FROM_NAME = "LocalRank Sentinel"
 SITE_URL = "https://sutraflow.org"  # cross-promote
 
-# ── Payment (Stripe Payment Links — no code needed) ──────────────────────
-# Create at: https://dashboard.stripe.com/payment-links
-# 1. Create a $10 one-time product: "LocalRank Deep-Dive Audit"
-# 2. Create a $5/month subscription: "Map Pack Guardian"
-# 3. Use the $5/month link as the default (higher LTV)
-PAYMENT_URL = os.environ.get("STRIPE_PAYMENT_URL", "")
+# ── Payment (Stripe Payment Links) ───────────────────────────────────────
+PAYMENT_URL_MONITORING = os.environ.get(
+    "STRIPE_PAYMENT_URL_MONITORING",
+    "https://buy.stripe.com/eVq9AUf253vu36Hg5q6kg01",
+)
+PAYMENT_URL_AUDIT = os.environ.get(
+    "STRIPE_PAYMENT_URL_AUDIT",
+    "https://buy.stripe.com/7sYaEYdY10jifTtdXi6kg00",
+)
 
 # ── Self-Correction ───────────────────────────────────────────────────────────
 MAX_RETRIES = 3

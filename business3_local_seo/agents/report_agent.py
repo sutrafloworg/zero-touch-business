@@ -147,8 +147,12 @@ class ReportAgent:
         alert = {k: _sanitize_for_pdf(str(v)) if isinstance(v, str) else v for k, v in alert.items()}
 
         pdf = FPDF()
+        pdf.set_left_margin(15)
+        pdf.set_right_margin(15)
         pdf.add_page()
         pdf.set_auto_page_break(auto=True, margin=20)
+
+        content_width = 180  # 210 - 15 left - 15 right
 
         # Header bar
         pdf.set_fill_color(15, 15, 15)
@@ -156,10 +160,10 @@ class ReportAgent:
         pdf.set_text_color(255, 255, 255)
         pdf.set_font("Helvetica", "B", 16)
         pdf.set_xy(15, 10)
-        pdf.cell(0, 10, "LocalRank Sentinel", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(content_width, 10, "LocalRank Sentinel", new_x="LMARGIN", new_y="NEXT")
         pdf.set_font("Helvetica", "", 9)
         pdf.set_xy(15, 20)
-        pdf.cell(0, 5, f"Local SEO Audit Report  |  {datetime.now().strftime('%B %d, %Y')}")
+        pdf.cell(content_width, 5, f"Local SEO Audit Report  |  {datetime.now().strftime('%B %d, %Y')}")
 
         # Business name
         pdf.set_text_color(0, 0, 0)
@@ -179,8 +183,7 @@ class ReportAgent:
         rank_text = f"Rank dropped: #{alert['prev_rank']}  ->  #{alert['curr_rank']}  ({alert['rank_change']} positions lost)"
         pdf.set_font("Helvetica", "B", 11)
         pdf.set_text_color(180, 30, 30)
-        pdf.set_x(15)
-        pdf.cell(180, 12, rank_text, border=1, fill=True, align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(content_width, 12, rank_text, border=1, fill=True, align="C", new_x="LMARGIN", new_y="NEXT")
 
         # Stats row
         pdf.ln(6)
@@ -205,19 +208,18 @@ class ReportAgent:
                 pdf.ln(3)
                 pdf.set_font("Helvetica", "B", 11)
                 pdf.set_text_color(0, 0, 0)
-                pdf.multi_cell(180, 6, line)
+                pdf.multi_cell(0, 6, line, new_x="LMARGIN", new_y="NEXT")
                 pdf.set_font("Helvetica", "", 10)
                 pdf.set_text_color(30, 30, 30)
             else:
-                pdf.multi_cell(180, 5, line)
+                pdf.multi_cell(0, 5, line, new_x="LMARGIN", new_y="NEXT")
 
         # Footer CTA
         pdf.ln(10)
         pdf.set_fill_color(15, 15, 15)
         pdf.set_text_color(255, 255, 255)
         pdf.set_font("Helvetica", "B", 10)
-        pdf.set_x(15)
-        pdf.cell(180, 10, "Want weekly monitoring? Reply to this email for details.", fill=True, align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(content_width, 10, "Want weekly monitoring? $5/month -- reply to this email or visit sutraflow.org", fill=True, align="C", new_x="LMARGIN", new_y="NEXT")
 
         pdf.set_text_color(120, 120, 120)
         pdf.set_font("Helvetica", "", 8)

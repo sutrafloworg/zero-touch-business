@@ -105,7 +105,8 @@ def run_pipeline() -> bool:
         outreach = OutreachAgent(
             gmail_user=config.GMAIL_USER,
             gmail_app_password=config.GMAIL_APP_PASSWORD,
-            payment_url=config.PAYMENT_URL,
+            payment_url=config.PAYMENT_URL_MONITORING,
+            payment_url_audit=config.PAYMENT_URL_AUDIT,
         )
         outreach_summary = outreach.process_batch(report_results)
 

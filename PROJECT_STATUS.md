@@ -41,7 +41,8 @@ An autonomous passive-income portfolio of AI-powered businesses that run on GitH
 - **Coverage:** 12 cities x 5 categories = 60 searches/week (240/month within free limit)
 - **Revenue model:** Sell SEO audit reports ($10) + ongoing monitoring subscriptions ($5/month)
 - **Agent flow:** Scanner Agent (SerpAPI) → Analyzer Agent → Report Agent (Claude + PDF) → Outreach Agent (Gmail)
-- **Status:** LIVE — scanning, but Stripe payment links not yet set up
+- **Stripe links:** Monitoring $5/mo: https://buy.stripe.com/eVq9AUf253vu36Hg5q6kg01 | Audit $10: https://buy.stripe.com/7sYaEYdY10jifTtdXi6kg00
+- **Status:** LIVE — scanning and payment links configured
 
 ---
 
@@ -92,7 +93,7 @@ An autonomous passive-income portfolio of AI-powered businesses that run on GitH
 ### HIGH PRIORITY (revenue-blocking):
 1. **Apply to Writesonic affiliate** → https://writesonic.com/affiliates (30% recurring)
 2. **Replace YOUR_REF_ID** in published articles for Writesonic/Surfer/Notion after approval
-3. **Set up Stripe** → create payment links: "$10 SEO Audit" + "$5/month Map Pack Guardian" → add STRIPE_PAYMENT_URL to GitHub Secrets
+3. ~~Set up Stripe~~ DONE — links hardcoded in config.py
 4. **Run content pipeline** → GitHub → Actions → "SEO Site — Content Generation" → Run workflow (generates Rytr review + comparison articles)
 
 ### MEDIUM PRIORITY:

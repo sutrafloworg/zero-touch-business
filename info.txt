@@ -37,7 +37,7 @@ WHAT'S AUTOMATED (no action needed)
 YOUR TODO (one-time setup, in priority order)
 =============================================
 1. Apply to Writesonic affiliate → https://writesonic.com/affiliates
-2. Set up Stripe payment links ($10 audit, $5/month guardian) → add STRIPE_PAYMENT_URL to GitHub Secrets
+2. ~~Stripe~~ DONE — Monitoring: https://buy.stripe.com/eVq9AUf253vu36Hg5q6kg01 | Audit: https://buy.stripe.com/7sYaEYdY10jifTtdXi6kg00
 3. Replace YOUR_REF_ID in articles + configs after affiliate approvals
 4. Run content pipeline → GitHub → Actions → "SEO Site — Content Generation" → Run workflow
 5. Google Search Console → verify sutraflow.org + submit sitemap.xml

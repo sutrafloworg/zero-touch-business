@@ -40,12 +40,14 @@ class OutreachAgent:
         from_name: str = "LocalRank Sentinel",
         max_emails_per_run: int = 10,
         payment_url: str = "",
+        payment_url_audit: str = "",
     ):
         self.gmail_user = gmail_user
         self.gmail_app_password = gmail_app_password
         self.from_name = from_name
         self.max_emails_per_run = max_emails_per_run
         self.payment_url = payment_url or "mailto:" + gmail_user
+        self.payment_url_audit = payment_url_audit or self.payment_url
 
     def find_email_from_website(self, website_url: str) -> str | None:
         """Scrape a business website for a contact email address."""
@@ -144,16 +146,15 @@ class OutreachAgent:
     <table style="width:100%;border-collapse:collapse;font-size:14px">
       <tr>
         <td style="padding:6px 0;color:#555">Deep-Dive Audit Report</td>
-        <td style="padding:6px 0;text-align:right;font-weight:600">$10 one-time</td>
+        <td style="padding:6px 0;text-align:right;font-weight:600"><a href="{self.payment_url_audit}" style="color:#0066cc">$10 one-time</a></td>
       </tr>
       <tr>
         <td style="padding:6px 0;color:#555">Map Pack Guardian (weekly monitoring)</td>
-        <td style="padding:6px 0;text-align:right;font-weight:600">$5/month</td>
+        <td style="padding:6px 0;text-align:right;font-weight:600"><a href="{self.payment_url}" style="color:#0066cc">$5/month</a></td>
       </tr>
     </table>
     <p style="margin:10px 0 0;font-size:13px;color:#666">
-      Reply to this email to get started, or
-      <a href="{self.payment_url}" style="color:#0066cc">pay securely online</a>.
+      Click a link above to pay securely via Stripe, or reply to this email.
     </p>
   </div>
 
