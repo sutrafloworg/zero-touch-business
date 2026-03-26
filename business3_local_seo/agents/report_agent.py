@@ -27,10 +27,12 @@ CITY: {city}
 PREVIOUS RANK: #{prev_rank} in Google Maps
 CURRENT RANK: #{curr_rank} in Google Maps (dropped {rank_change} positions)
 RATING: {rating} stars ({reviews} reviews)
+WEEKS TRACKED: {weeks_tracked}
 DETECTED ISSUES:
 {reasons}
+{insights_text}
 
-Write a SHORT, actionable audit (250 words max). Use this structure:
+Write a SHORT, actionable audit (300 words max). Use this structure:
 
 1. WHAT HAPPENED — one sentence stating the rank drop factually
 2. WHY — 2-3 bullet points explaining the likely causes (use the detected issues above)
@@ -39,8 +41,66 @@ Write a SHORT, actionable audit (250 words max). Use this structure:
    - Include one tip about Google Business Profile optimization
    - Include one tip about their website (if they have one) or getting one (if they don't)
 
+{insights_section}
+
 Tone: direct, helpful, no jargon. Like a knowledgeable friend texting advice.
 Do NOT use markdown formatting — output plain text only."""
+
+
+def _format_insights_for_prompt(alert: dict) -> tuple[str, str]:
+    """Format progressive insights into text for the Claude prompt.
+    Returns (insights_text, insights_section) — extra data and extra instructions."""
+    insights = alert.get("insights", {})
+    weeks = alert.get("weeks_tracked", 1)
+    text_parts = []
+    section_parts = []
+
+    if "review_velocity" in insights:
+        rv = insights["review_velocity"]
+        text_parts.append(
+            f"REVIEW VELOCITY: {rv['reviews_per_week']} reviews/week over {rv['over_weeks']} weeks "
+            f"({rv['verdict']}). Total gained: {rv['total_gained']}."
+        )
+
+    if "rank_trend" in insights:
+        rt = insights["rank_trend"]
+        text_parts.append(
+            f"RANK TREND: {rt['direction']} over last {len(rt['history'])} weeks. "
+            f"Best: #{rt['best_rank']}, Worst: #{rt['worst_rank']}. "
+            f"Weekly positions: {', '.join(f'#{r}' for r in rt['history'])}"
+        )
+        section_parts.append(
+            "4. YOUR TREND — one sentence summarizing whether their ranking is improving, "
+            "declining, or volatile based on the rank history data."
+        )
+
+    if "competitor_spotlight" in insights:
+        cs = insights["competitor_spotlight"]
+        text_parts.append(
+            f"COMPETITOR SPOTLIGHT: {cs['fastest_climber']} climbed {cs['climbed_positions']} positions "
+            f"(now #{cs['their_current_rank']}), gained {cs['their_review_gain']} reviews, "
+            f"rated {cs['their_rating']} stars."
+        )
+        section_parts.append(
+            "5. COMPETITOR TO WATCH — one sentence about who is climbing fastest and what "
+            "they are doing differently (based on competitor spotlight data)."
+        )
+
+    if "category_health" in insights:
+        ch = insights["category_health"]
+        text_parts.append(
+            f"CATEGORY HEALTH SCORE: {ch['score']}/10 ({ch['position_summary']}). "
+            f"Your reviews: {ch['your_reviews']} vs category avg: {ch['category_avg_reviews']}. "
+            f"Your rating: {ch['your_rating']} vs category avg: {ch['category_avg_rating']}."
+        )
+        section_parts.append(
+            "6. YOUR STANDING — one sentence giving their health score (X/10) and what it means "
+            "relative to their local competition."
+        )
+
+    insights_text = "\n".join(text_parts) if text_parts else ""
+    insights_section = "\n".join(section_parts) if section_parts else ""
+    return insights_text, insights_section
 
 
 def _sanitize_for_pdf(text: str) -> str:
@@ -108,6 +168,7 @@ class ReportAgent:
         category = parts[2].title() if len(parts) > 2 else "Business"
 
         reasons_text = "\n".join(f"- {r}" for r in alert.get("reasons", []))
+        insights_text, insights_section = _format_insights_for_prompt(alert)
 
         prompt = AUDIT_PROMPT.format(
             business_name=alert["business_name"],
@@ -118,7 +179,10 @@ class ReportAgent:
             rank_change=alert["rank_change"],
             rating=alert.get("rating", "N/A"),
             reviews=alert.get("reviews", 0),
+            weeks_tracked=alert.get("weeks_tracked", 1),
             reasons=reasons_text,
+            insights_text=insights_text,
+            insights_section=insights_section,
         )
 
         try:
@@ -139,12 +203,19 @@ class ReportAgent:
         state: str,
         category: str,
     ) -> Path:
-        """Build a clean, branded PDF audit report."""
+        """Build a clean, branded PDF audit report with progressive insights."""
         # Sanitize all text fields for latin-1 compatibility
         city = _sanitize_for_pdf(city)
         state = _sanitize_for_pdf(state)
         category = _sanitize_for_pdf(category)
-        alert = {k: _sanitize_for_pdf(str(v)) if isinstance(v, str) else v for k, v in alert.items()}
+        # Don't sanitize the whole alert dict — it contains nested dicts (insights)
+        alert_safe = {}
+        for k, v in alert.items():
+            if isinstance(v, str):
+                alert_safe[k] = _sanitize_for_pdf(v)
+            else:
+                alert_safe[k] = v
+        alert = alert_safe
 
         pdf = FPDF()
         pdf.set_left_margin(15)
@@ -189,8 +260,26 @@ class ReportAgent:
         pdf.ln(6)
         pdf.set_text_color(0, 0, 0)
         pdf.set_font("Helvetica", "", 10)
+        weeks = alert.get("weeks_tracked", 1)
         stats = f"Rating: {alert.get('rating', 'N/A')} stars  |  Reviews: {alert.get('reviews', 0)}  |  Previous reviews: {alert.get('prev_reviews', 0)}"
         pdf.cell(0, 6, stats, new_x="LMARGIN", new_y="NEXT")
+
+        # Tracking badge — shows how long we've monitored this business
+        if weeks > 1:
+            pdf.set_font("Helvetica", "I", 9)
+            pdf.set_text_color(80, 80, 80)
+            insights = alert.get("insights", {})
+            badge_parts = [f"Week {weeks} of monitoring"]
+            if "review_velocity" in insights:
+                rv = insights["review_velocity"]
+                badge_parts.append(f"{rv['reviews_per_week']} reviews/week")
+            if "rank_trend" in insights:
+                badge_parts.append(f"Trend: {insights['rank_trend']['direction']}")
+            if "category_health" in insights:
+                badge_parts.append(f"Health: {insights['category_health']['score']}/10")
+            pdf.cell(0, 5, "  |  ".join(badge_parts), new_x="LMARGIN", new_y="NEXT")
+            pdf.set_font("Helvetica", "", 10)
+            pdf.set_text_color(30, 30, 30)
 
         # Audit content
         pdf.ln(6)

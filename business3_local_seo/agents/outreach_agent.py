@@ -49,6 +49,35 @@ class OutreachAgent:
         self.payment_url = payment_url or "mailto:" + gmail_user
         self.payment_url_audit = payment_url_audit or self.payment_url
 
+    def _insight_bullets(self, alert: dict) -> str:
+        """Generate extra email bullet points based on progressive insights."""
+        insights = alert.get("insights", {})
+        bullets = []
+
+        if "review_velocity" in insights:
+            rv = insights["review_velocity"]
+            if rv["verdict"] == "stagnant":
+                bullets.append("    <li>Your review growth has stalled — competitors are pulling ahead</li>")
+            elif rv["verdict"] == "strong":
+                bullets.append(f"    <li>Good news: you're averaging {rv['reviews_per_week']} new reviews/week</li>")
+
+        if "rank_trend" in insights:
+            rt = insights["rank_trend"]
+            if rt["direction"] == "declining":
+                bullets.append(f"    <li>Your ranking trend is declining (best: #{rt['best_rank']}, worst: #{rt['worst_rank']})</li>")
+            elif rt["direction"] == "volatile":
+                bullets.append(f"    <li>Your ranking has been volatile — swinging between #{rt['best_rank']} and #{rt['worst_rank']}</li>")
+
+        if "competitor_spotlight" in insights:
+            cs = insights["competitor_spotlight"]
+            bullets.append(f"    <li>Watch out: <strong>{cs['fastest_climber']}</strong> climbed {cs['climbed_positions']} spots recently</li>")
+
+        if "category_health" in insights:
+            ch = insights["category_health"]
+            bullets.append(f"    <li>Your market health score: <strong>{ch['score']}/10</strong> ({ch['position_summary']})</li>")
+
+        return "\n".join(bullets)
+
     def find_email_from_website(self, website_url: str) -> str | None:
         """Scrape a business website for a contact email address."""
         if not website_url:
@@ -137,6 +166,7 @@ class OutreachAgent:
   <ul>
     <li>Why the drop happened (specific competitors and what they did)</li>
     <li>3 actions you can take <strong>this week</strong> to recover</li>
+{self._insight_bullets(alert)}
   </ul>
 
   <p>The audit is free — genuinely useful even if we never speak again.</p>
