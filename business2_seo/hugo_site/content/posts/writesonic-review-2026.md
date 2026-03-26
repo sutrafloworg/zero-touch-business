@@ -94,7 +94,7 @@ Freelance content agencies and in-house teams needing to scale blog production f
 
 ### SaaS & B2B Companies Writing Marketing Copy
 
-Landing page copy, email sequences, and ad variations benefit most from AI assistance. The copywriting templates are strong enough that you get 40-50% usable material per generation. For testing multiple messaging angles quickly, Writesonic's speed is unmatched. Pair it with <a href="https://surferseo.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Surfer SEO's content optimization tools</a> for full funnel optimization.
+Landing page copy, email sequences, and ad variations benefit most from AI assistance. The copywriting templates are strong enough that you get 40-50% usable material per generation. For testing multiple messaging angles quickly, Writesonic's speed is unmatched. Pair it with <a href="https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Rytr's AI writing tools</a> for full funnel optimization.
 
 ## Writesonic Alternatives
 

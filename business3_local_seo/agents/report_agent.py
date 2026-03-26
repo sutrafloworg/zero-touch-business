@@ -195,6 +195,19 @@ class ReportAgent:
         # Generate PDF
         return self._build_pdf(alert, audit_text, city, state, category)
 
+    # ── PDF color constants ────────────────────────────────────────────────
+    BLACK = (15, 15, 15)
+    WHITE = (255, 255, 255)
+    DARK_GRAY = (50, 50, 50)
+    MID_GRAY = (100, 100, 100)
+    LIGHT_GRAY = (200, 200, 200)
+    ACCENT = (0, 102, 204)        # professional blue
+    RED_TEXT = (180, 30, 30)
+    RED_BG = (255, 243, 243)
+    GREEN_TEXT = (30, 130, 50)
+    GREEN_BG = (240, 255, 244)
+    SECTION_BG = (247, 248, 250)  # light gray for card backgrounds
+
     def _build_pdf(
         self,
         alert: dict,
@@ -203,12 +216,10 @@ class ReportAgent:
         state: str,
         category: str,
     ) -> Path:
-        """Build a clean, branded PDF audit report with progressive insights."""
-        # Sanitize all text fields for latin-1 compatibility
+        """Build a professional multi-page PDF audit report."""
         city = _sanitize_for_pdf(city)
         state = _sanitize_for_pdf(state)
         category = _sanitize_for_pdf(category)
-        # Don't sanitize the whole alert dict — it contains nested dicts (insights)
         alert_safe = {}
         for k, v in alert.items():
             if isinstance(v, str):
@@ -216,104 +227,424 @@ class ReportAgent:
             else:
                 alert_safe[k] = v
         alert = alert_safe
+        insights = alert.get("insights", {})
+        weeks = alert.get("weeks_tracked", 1)
+        report_date = datetime.now().strftime("%B %d, %Y")
 
         pdf = FPDF()
-        pdf.set_left_margin(15)
-        pdf.set_right_margin(15)
+        pdf.set_left_margin(20)
+        pdf.set_right_margin(20)
+        pdf.set_auto_page_break(auto=True, margin=25)
+        w = 170  # content width = 210 - 20 - 20
+
+        # ═══════════════════════════════════════════════════════════════════
+        # PAGE 1 — COVER
+        # ═══════════════════════════════════════════════════════════════════
         pdf.add_page()
-        pdf.set_auto_page_break(auto=True, margin=20)
 
-        content_width = 180  # 210 - 15 left - 15 right
+        # Full-width dark header block
+        pdf.set_fill_color(*self.BLACK)
+        pdf.rect(0, 0, 210, 80, "F")
 
-        # Header bar
-        pdf.set_fill_color(15, 15, 15)
-        pdf.rect(0, 0, 210, 35, "F")
-        pdf.set_text_color(255, 255, 255)
-        pdf.set_font("Helvetica", "B", 16)
-        pdf.set_xy(15, 10)
-        pdf.cell(content_width, 10, "LocalRank Sentinel", new_x="LMARGIN", new_y="NEXT")
-        pdf.set_font("Helvetica", "", 9)
-        pdf.set_xy(15, 20)
-        pdf.cell(content_width, 5, f"Local SEO Audit Report  |  {datetime.now().strftime('%B %d, %Y')}")
+        # Accent stripe
+        pdf.set_fill_color(*self.ACCENT)
+        pdf.rect(0, 80, 210, 3, "F")
 
-        # Business name
-        pdf.set_text_color(0, 0, 0)
-        pdf.set_xy(15, 45)
+        # Brand name
+        pdf.set_text_color(*self.WHITE)
+        pdf.set_font("Helvetica", "B", 28)
+        pdf.set_xy(20, 18)
+        pdf.cell(w, 12, "LocalRank Sentinel", new_x="LMARGIN", new_y="NEXT")
+
+        # Tagline
+        pdf.set_font("Helvetica", "", 12)
+        pdf.set_xy(20, 35)
+        pdf.set_text_color(180, 190, 200)
+        pdf.cell(w, 7, "Local SEO Intelligence & Monitoring", new_x="LMARGIN", new_y="NEXT")
+
+        # Report type
         pdf.set_font("Helvetica", "B", 14)
-        pdf.cell(0, 8, alert["business_name"], new_x="LMARGIN", new_y="NEXT")
+        pdf.set_xy(20, 52)
+        pdf.set_text_color(*self.WHITE)
+        pdf.cell(w, 8, "Ranking Audit Report", new_x="LMARGIN", new_y="NEXT")
 
-        # Category + location
+        # Date
         pdf.set_font("Helvetica", "", 10)
-        pdf.set_text_color(100, 100, 100)
-        pdf.cell(0, 6, f"{category} in {city}, {state}", new_x="LMARGIN", new_y="NEXT")
+        pdf.set_xy(20, 64)
+        pdf.set_text_color(160, 170, 180)
+        pdf.cell(w, 6, report_date, new_x="LMARGIN", new_y="NEXT")
 
-        # Rank change highlight box
-        pdf.ln(6)
-        pdf.set_fill_color(255, 243, 243)
-        pdf.set_draw_color(239, 68, 68)
-        rank_text = f"Rank dropped: #{alert['prev_rank']}  ->  #{alert['curr_rank']}  ({alert['rank_change']} positions lost)"
-        pdf.set_font("Helvetica", "B", 11)
-        pdf.set_text_color(180, 30, 30)
-        pdf.cell(content_width, 12, rank_text, border=1, fill=True, align="C", new_x="LMARGIN", new_y="NEXT")
-
-        # Stats row
-        pdf.ln(6)
-        pdf.set_text_color(0, 0, 0)
+        # ── Cover body: business details ──
+        pdf.set_xy(20, 100)
+        pdf.set_text_color(*self.DARK_GRAY)
         pdf.set_font("Helvetica", "", 10)
-        weeks = alert.get("weeks_tracked", 1)
-        stats = f"Rating: {alert.get('rating', 'N/A')} stars  |  Reviews: {alert.get('reviews', 0)}  |  Previous reviews: {alert.get('prev_reviews', 0)}"
-        pdf.cell(0, 6, stats, new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 6, "PREPARED FOR", new_x="LMARGIN", new_y="NEXT")
+        pdf.set_font("Helvetica", "B", 22)
+        pdf.set_text_color(*self.BLACK)
+        pdf.multi_cell(w, 10, alert["business_name"], new_x="LMARGIN", new_y="NEXT")
 
-        # Tracking badge — shows how long we've monitored this business
-        if weeks > 1:
-            pdf.set_font("Helvetica", "I", 9)
-            pdf.set_text_color(80, 80, 80)
-            insights = alert.get("insights", {})
+        pdf.ln(4)
+        pdf.set_font("Helvetica", "", 11)
+        pdf.set_text_color(*self.MID_GRAY)
+        location_str = f"{category}  |  {city}, {state}"
+        pdf.cell(w, 7, location_str, new_x="LMARGIN", new_y="NEXT")
+
+        # ── Key metrics cards ──
+        pdf.ln(12)
+        self._metric_card_row(pdf, w, [
+            ("Current Rank", f"#{alert['curr_rank']}", self.RED_TEXT),
+            ("Previous Rank", f"#{alert['prev_rank']}", self.DARK_GRAY),
+            ("Positions Lost", str(alert["rank_change"]), self.RED_TEXT),
+        ])
+
+        pdf.ln(8)
+        self._metric_card_row(pdf, w, [
+            ("Rating", f"{alert.get('rating', 'N/A')} stars", self.DARK_GRAY),
+            ("Reviews", str(alert.get("reviews", 0)), self.DARK_GRAY),
+            ("Weeks Tracked", str(weeks), self.ACCENT),
+        ])
+
+        # ── Bottom status bar ──
+        pdf.ln(12)
+        if weeks > 1 and insights:
             badge_parts = [f"Week {weeks} of monitoring"]
             if "review_velocity" in insights:
-                rv = insights["review_velocity"]
-                badge_parts.append(f"{rv['reviews_per_week']} reviews/week")
+                badge_parts.append(f"{insights['review_velocity']['reviews_per_week']} reviews/week")
             if "rank_trend" in insights:
                 badge_parts.append(f"Trend: {insights['rank_trend']['direction']}")
             if "category_health" in insights:
-                badge_parts.append(f"Health: {insights['category_health']['score']}/10")
-            pdf.cell(0, 5, "  |  ".join(badge_parts), new_x="LMARGIN", new_y="NEXT")
+                badge_parts.append(f"Health score: {insights['category_health']['score']}/10")
+            pdf.set_fill_color(*self.SECTION_BG)
+            pdf.set_draw_color(*self.LIGHT_GRAY)
+            pdf.set_font("Helvetica", "I", 9)
+            pdf.set_text_color(*self.MID_GRAY)
+            pdf.cell(w, 10, "   ".join(badge_parts), border=1, fill=True, align="C",
+                     new_x="LMARGIN", new_y="NEXT")
+
+        # Confidentiality note
+        pdf.set_y(-40)
+        pdf.set_font("Helvetica", "I", 8)
+        pdf.set_text_color(*self.LIGHT_GRAY)
+        pdf.cell(w, 5, "CONFIDENTIAL -- Prepared exclusively for the business named above.",
+                 align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 5, "sutraflow.org", align="C")
+
+        # ═══════════════════════════════════════════════════════════════════
+        # PAGE 2 — EXECUTIVE SUMMARY & ANALYSIS
+        # ═══════════════════════════════════════════════════════════════════
+        pdf.add_page()
+        self._page_header(pdf, w, "Executive Summary", report_date)
+
+        # Parse audit text into sections
+        sections = self._parse_audit_sections(audit_text)
+
+        # What Happened — alert box
+        if "what happened" in sections:
+            pdf.ln(4)
+            pdf.set_fill_color(*self.RED_BG)
+            pdf.set_draw_color(239, 68, 68)
+            pdf.set_text_color(*self.RED_TEXT)
+            pdf.set_font("Helvetica", "B", 10)
+            pdf.cell(w, 8, "  ALERT: RANKING DECLINE DETECTED", fill=True, border=1,
+                     new_x="LMARGIN", new_y="NEXT")
+            pdf.set_text_color(*self.DARK_GRAY)
             pdf.set_font("Helvetica", "", 10)
-            pdf.set_text_color(30, 30, 30)
+            pdf.ln(2)
+            for line in sections["what happened"]:
+                if line.strip():
+                    pdf.multi_cell(w, 5.5, line.strip(), new_x="LMARGIN", new_y="NEXT")
+            pdf.ln(4)
 
-        # Audit content
-        pdf.ln(6)
-        pdf.set_font("Helvetica", "", 10)
-        pdf.set_text_color(30, 30, 30)
+        # Why — root cause analysis
+        if "why" in sections:
+            self._section_heading(pdf, w, "Root Cause Analysis")
+            pdf.set_font("Helvetica", "", 10)
+            pdf.set_text_color(*self.DARK_GRAY)
+            for line in sections["why"]:
+                line = line.strip()
+                if not line:
+                    continue
+                if line.startswith("-"):
+                    # Bullet point with indent
+                    pdf.set_x(25)
+                    pdf.multi_cell(w - 5, 5.5, line, new_x="LMARGIN", new_y="NEXT")
+                else:
+                    pdf.multi_cell(w, 5.5, line, new_x="LMARGIN", new_y="NEXT")
+            pdf.ln(4)
 
-        for line in audit_text.split("\n"):
-            line = line.strip()
-            if not line:
+        # Quick Wins — numbered action items in a card
+        if "quick wins" in sections:
+            self._section_heading(pdf, w, "Recommended Actions")
+            pdf.set_fill_color(*self.SECTION_BG)
+            pdf.set_draw_color(*self.LIGHT_GRAY)
+            card_y = pdf.get_y()
+            # Draw background card
+            pdf.set_font("Helvetica", "", 10)
+            pdf.set_text_color(*self.DARK_GRAY)
+            for line in sections["quick wins"]:
+                line = line.strip()
+                if not line:
+                    continue
+                pdf.set_x(25)
+                pdf.multi_cell(w - 5, 5.5, line, new_x="LMARGIN", new_y="NEXT")
+                pdf.ln(2)
+            pdf.ln(2)
+
+        # ═══════════════════════════════════════════════════════════════════
+        # PAGE 3 — PROGRESSIVE INSIGHTS (if available)
+        # ═══════════════════════════════════════════════════════════════════
+        has_insights = any(k in insights for k in
+                          ("review_velocity", "rank_trend", "competitor_spotlight", "category_health"))
+
+        if has_insights or weeks > 1:
+            pdf.add_page()
+            self._page_header(pdf, w, "Performance Intelligence", report_date)
+
+            # Review Velocity
+            if "review_velocity" in insights:
+                rv = insights["review_velocity"]
+                self._section_heading(pdf, w, "Review Velocity Analysis")
+                color = self.GREEN_TEXT if rv["verdict"] == "strong" else self.RED_TEXT if rv["verdict"] == "stagnant" else self.DARK_GRAY
+                self._metric_card_row(pdf, w, [
+                    ("Reviews/Week", str(rv["reviews_per_week"]), color),
+                    ("Total Gained", str(rv["total_gained"]), self.DARK_GRAY),
+                    ("Status", rv["verdict"].upper(), color),
+                ])
                 pdf.ln(3)
-                continue
+                if rv["verdict"] == "stagnant":
+                    pdf.set_font("Helvetica", "", 10)
+                    pdf.set_text_color(*self.DARK_GRAY)
+                    pdf.multi_cell(w, 5.5,
+                        "Your review growth has stalled. Businesses averaging 3+ reviews/week "
+                        "consistently outrank those below 1/week. Consider implementing a review "
+                        "request workflow via text message after each service completion.",
+                        new_x="LMARGIN", new_y="NEXT")
+                elif rv["verdict"] == "strong":
+                    pdf.set_font("Helvetica", "", 10)
+                    pdf.set_text_color(*self.DARK_GRAY)
+                    pdf.multi_cell(w, 5.5,
+                        "Strong review velocity. You are building social proof faster than most "
+                        "competitors. Maintain this pace -- it is one of the top 3 local ranking factors.",
+                        new_x="LMARGIN", new_y="NEXT")
+                pdf.ln(6)
 
-            # Bold section headers
-            if line.upper().startswith(("WHAT HAPPENED", "WHY", "QUICK WINS")):
+            # Rank Trend
+            if "rank_trend" in insights:
+                rt = insights["rank_trend"]
+                self._section_heading(pdf, w, "Ranking Trend")
+
+                # Text-based rank history visualization
+                history = rt.get("history", [])
+                if history:
+                    pdf.set_fill_color(*self.SECTION_BG)
+                    pdf.set_draw_color(*self.LIGHT_GRAY)
+                    pdf.set_font("Helvetica", "", 9)
+                    pdf.set_text_color(*self.MID_GRAY)
+
+                    # Header row
+                    col_w = w / max(len(history), 1)
+                    for i, _ in enumerate(history):
+                        label = f"Wk {i + 1}"
+                        pdf.cell(col_w, 7, label, border=1, fill=True, align="C")
+                    pdf.ln()
+
+                    # Value row
+                    for rank in history:
+                        color = self.GREEN_TEXT if rank <= 3 else self.RED_TEXT if rank >= 7 else self.DARK_GRAY
+                        pdf.set_text_color(*color)
+                        pdf.set_font("Helvetica", "B", 11)
+                        pdf.cell(col_w, 9, f"#{rank}", border=1, align="C")
+                    pdf.ln()
+
+                    pdf.set_text_color(*self.DARK_GRAY)
+                    pdf.set_font("Helvetica", "", 10)
+                    pdf.ln(4)
+
+                    trend_desc = {
+                        "improving": "Your ranking is trending upward. Keep doing what you are doing.",
+                        "declining": "Your ranking is in a sustained decline. Immediate action is needed to reverse this trend before it becomes the new normal.",
+                        "volatile": "Your ranking is fluctuating significantly. This often indicates that Google is testing your listing against competitors. Consistent activity on your profile can stabilize this.",
+                        "stable": "Your ranking has been relatively stable. Focus on incremental improvements to move up.",
+                    }
+                    pdf.multi_cell(w, 5.5, trend_desc.get(rt["direction"], ""), new_x="LMARGIN", new_y="NEXT")
+                pdf.ln(6)
+
+            # Competitor Spotlight
+            if "competitor_spotlight" in insights:
+                cs = insights["competitor_spotlight"]
+                self._section_heading(pdf, w, "Competitor Intelligence")
+
+                pdf.set_fill_color(*self.SECTION_BG)
+                pdf.set_draw_color(*self.LIGHT_GRAY)
+
+                # Competitor comparison table header
+                pdf.set_font("Helvetica", "B", 9)
+                pdf.set_text_color(*self.WHITE)
+                pdf.set_fill_color(*self.ACCENT)
+                pdf.cell(70, 8, "  Metric", fill=True, border=1)
+                pdf.cell(50, 8, "You", fill=True, border=1, align="C")
+                pdf.cell(50, 8, _sanitize_for_pdf(cs["fastest_climber"][:20]), fill=True, border=1, align="C")
+                pdf.ln()
+
+                # Table rows
+                rows = [
+                    ("Current Rank", f"#{alert['curr_rank']}", f"#{cs['their_current_rank']}"),
+                    ("Rating", f"{alert.get('rating', 'N/A')}", f"{cs['their_rating']}"),
+                    ("Recent Review Gain", f"+{alert.get('reviews', 0) - alert.get('prev_reviews', 0)}",
+                     f"+{cs['their_review_gain']}"),
+                    ("Momentum", "Declining", f"Climbing (+{cs['climbed_positions']} pos)"),
+                ]
+                pdf.set_fill_color(*self.SECTION_BG)
+                for label, you_val, comp_val in rows:
+                    pdf.set_font("Helvetica", "", 9)
+                    pdf.set_text_color(*self.DARK_GRAY)
+                    pdf.cell(70, 7, f"  {label}", fill=True, border=1)
+                    pdf.set_text_color(*self.BLACK)
+                    pdf.cell(50, 7, you_val, fill=True, border=1, align="C")
+                    pdf.set_text_color(*self.ACCENT)
+                    pdf.cell(50, 7, comp_val, fill=True, border=1, align="C")
+                    pdf.ln()
+
+                pdf.ln(6)
+
+            # Category Health Score
+            if "category_health" in insights:
+                ch = insights["category_health"]
+                self._section_heading(pdf, w, "Market Position Score")
+
+                score = ch["score"]
+                color = self.GREEN_TEXT if score >= 7 else self.RED_TEXT if score < 5 else self.DARK_GRAY
+
+                self._metric_card_row(pdf, w, [
+                    ("Your Score", f"{score}/10", color),
+                    ("Category Avg Reviews", str(ch["category_avg_reviews"]), self.DARK_GRAY),
+                    ("Category Avg Rating", str(ch["category_avg_rating"]), self.DARK_GRAY),
+                ])
                 pdf.ln(3)
-                pdf.set_font("Helvetica", "B", 11)
-                pdf.set_text_color(0, 0, 0)
-                pdf.multi_cell(0, 6, line, new_x="LMARGIN", new_y="NEXT")
                 pdf.set_font("Helvetica", "", 10)
-                pdf.set_text_color(30, 30, 30)
-            else:
-                pdf.multi_cell(0, 5, line, new_x="LMARGIN", new_y="NEXT")
+                pdf.set_text_color(*self.DARK_GRAY)
+                summary = ch["position_summary"]
+                if summary == "needs attention":
+                    pdf.multi_cell(w, 5.5,
+                        "Your market position needs attention. You are below the category average "
+                        "in key metrics. Focus on closing the review gap first -- it is the fastest "
+                        "lever to pull.",
+                        new_x="LMARGIN", new_y="NEXT")
+                elif summary == "above average":
+                    pdf.multi_cell(w, 5.5,
+                        "You are performing above the category average. Your drop is likely due to "
+                        "a specific competitor action rather than a systemic issue. The recommended "
+                        "actions should be sufficient to recover.",
+                        new_x="LMARGIN", new_y="NEXT")
+                else:
+                    pdf.multi_cell(w, 5.5,
+                        "You are competitive but not dominant. Small improvements in reviews and "
+                        "profile completeness can move you into the top tier.",
+                        new_x="LMARGIN", new_y="NEXT")
 
-        # Footer CTA
+        # Trend / Competitor sections from Claude text (if present)
+        extra_sections = {k: v for k, v in sections.items()
+                         if k not in ("what happened", "why", "quick wins")}
+        if extra_sections and not has_insights:
+            # Only render Claude text sections if we don't have structured insights
+            pdf.add_page()
+            self._page_header(pdf, w, "Additional Analysis", report_date)
+            for title, lines in extra_sections.items():
+                self._section_heading(pdf, w, title.title())
+                pdf.set_font("Helvetica", "", 10)
+                pdf.set_text_color(*self.DARK_GRAY)
+                for line in lines:
+                    if line.strip():
+                        pdf.multi_cell(w, 5.5, line.strip(), new_x="LMARGIN", new_y="NEXT")
+                pdf.ln(4)
+
+        # ═══════════════════════════════════════════════════════════════════
+        # FINAL PAGE — CTA / PRICING
+        # ═══════════════════════════════════════════════════════════════════
+        pdf.add_page()
+        self._page_header(pdf, w, "Next Steps", report_date)
+
+        pdf.ln(6)
+        pdf.set_font("Helvetica", "", 11)
+        pdf.set_text_color(*self.DARK_GRAY)
+        pdf.multi_cell(w, 6,
+            "This audit identified specific, actionable steps to recover your ranking. "
+            "Local SEO is a continuous process -- businesses that monitor weekly and "
+            "respond quickly to changes consistently outperform those that react only "
+            "after significant drops.",
+            new_x="LMARGIN", new_y="NEXT")
+
+        pdf.ln(8)
+
+        # Pricing cards
+        self._section_heading(pdf, w, "Our Services")
+        pdf.ln(2)
+
+        # Service 1: One-time audit
+        pdf.set_fill_color(*self.SECTION_BG)
+        pdf.set_draw_color(*self.LIGHT_GRAY)
+        pdf.set_font("Helvetica", "B", 11)
+        pdf.set_text_color(*self.BLACK)
+        pdf.cell(w, 9, "  Deep-Dive SEO Audit Report", fill=True, border="LTR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.set_font("Helvetica", "", 10)
+        pdf.set_text_color(*self.DARK_GRAY)
+        pdf.cell(w, 7, "  Complete competitive analysis with 10+ specific recommendations", fill=True, border="LR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 7, "  Google Business Profile optimization checklist", fill=True, border="LR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 7, "  Review strategy tailored to your market", fill=True, border="LR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.set_font("Helvetica", "B", 14)
+        pdf.set_text_color(*self.ACCENT)
+        pdf.cell(w, 10, "  $10 one-time", fill=True, border="LBR",
+                 new_x="LMARGIN", new_y="NEXT")
+
+        pdf.ln(6)
+
+        # Service 2: Weekly monitoring
+        pdf.set_fill_color(*self.WHITE)
+        pdf.set_draw_color(*self.ACCENT)
+        pdf.set_font("Helvetica", "B", 11)
+        pdf.set_text_color(*self.WHITE)
+        pdf.set_fill_color(*self.ACCENT)
+        pdf.cell(w, 9, "  Map Pack Guardian -- Weekly Monitoring", fill=True, border="LTR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.set_fill_color(235, 245, 255)
+        pdf.set_text_color(*self.DARK_GRAY)
+        pdf.set_font("Helvetica", "", 10)
+        pdf.cell(w, 7, "  Weekly rank tracking with instant drop alerts", fill=True, border="LR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 7, "  Competitor movement intelligence", fill=True, border="LR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 7, "  Review velocity monitoring", fill=True, border="LR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 7, "  Monthly trend reports with actionable insights", fill=True, border="LR",
+                 new_x="LMARGIN", new_y="NEXT")
+        pdf.set_font("Helvetica", "B", 14)
+        pdf.set_text_color(*self.ACCENT)
+        pdf.cell(w, 10, "  $5/month", fill=True, border="LBR",
+                 new_x="LMARGIN", new_y="NEXT")
+
         pdf.ln(10)
-        pdf.set_fill_color(15, 15, 15)
-        pdf.set_text_color(255, 255, 255)
-        pdf.set_font("Helvetica", "B", 10)
-        pdf.cell(content_width, 10, "Want weekly monitoring? $5/month -- reply to this email or visit sutraflow.org", fill=True, align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.set_font("Helvetica", "", 10)
+        pdf.set_text_color(*self.MID_GRAY)
+        pdf.multi_cell(w, 5.5,
+            "Reply to this email to get started, or visit sutraflow.org to learn more. "
+            "Cancel anytime -- no contracts, no commitments.",
+            new_x="LMARGIN", new_y="NEXT")
 
-        pdf.set_text_color(120, 120, 120)
-        pdf.set_font("Helvetica", "", 8)
+        # Footer on same page
+        pdf.ln(12)
+        pdf.set_draw_color(*self.LIGHT_GRAY)
+        pdf.line(20, pdf.get_y(), 190, pdf.get_y())
         pdf.ln(4)
-        pdf.cell(0, 5, "Generated by LocalRank Sentinel  |  sutraflow.org", align="C")
+        pdf.set_font("Helvetica", "", 8)
+        pdf.set_text_color(*self.LIGHT_GRAY)
+        pdf.cell(w, 4, "LocalRank Sentinel  |  sutraflow.org  |  Automated Local SEO Intelligence",
+                 align="C", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 4, f"Report generated {report_date}. Data sourced from Google Maps.",
+                 align="C")
 
         # Save PDF
         safe_name = "".join(c if c.isalnum() or c in "-_ " else "" for c in alert["business_name"])
@@ -325,6 +656,87 @@ class ReportAgent:
 
         logger.info(f"Report Agent: generated {filepath}")
         return filepath
+
+    # ── PDF helper methods ───────────────────────────────────────────────
+
+    def _page_header(self, pdf: FPDF, w: float, title: str, date: str):
+        """Render a consistent page header with line separator."""
+        pdf.set_font("Helvetica", "B", 14)
+        pdf.set_text_color(*self.BLACK)
+        pdf.cell(w * 0.7, 8, title, new_x="RIGHT")
+        pdf.set_font("Helvetica", "", 9)
+        pdf.set_text_color(*self.MID_GRAY)
+        pdf.cell(w * 0.3, 8, date, align="R", new_x="LMARGIN", new_y="NEXT")
+        pdf.set_draw_color(*self.ACCENT)
+        pdf.set_line_width(0.5)
+        pdf.line(20, pdf.get_y(), 190, pdf.get_y())
+        pdf.set_line_width(0.2)
+        pdf.ln(6)
+
+    def _section_heading(self, pdf: FPDF, w: float, title: str):
+        """Render a section heading with left accent bar."""
+        y = pdf.get_y()
+        pdf.set_fill_color(*self.ACCENT)
+        pdf.rect(20, y, 3, 7, "F")
+        pdf.set_xy(26, y)
+        pdf.set_font("Helvetica", "B", 11)
+        pdf.set_text_color(*self.BLACK)
+        pdf.cell(w - 6, 7, title.upper(), new_x="LMARGIN", new_y="NEXT")
+        pdf.ln(3)
+
+    def _metric_card_row(self, pdf: FPDF, w: float, cards: list[tuple]):
+        """Render a row of 3 metric cards. Each card: (label, value, color_tuple)."""
+        card_w = w / 3 - 2
+        start_x = pdf.l_margin
+        y = pdf.get_y()
+
+        for i, (label, value, color) in enumerate(cards):
+            x = start_x + i * (card_w + 3)
+            # Card background
+            pdf.set_fill_color(*self.SECTION_BG)
+            pdf.set_draw_color(*self.LIGHT_GRAY)
+            pdf.rect(x, y, card_w, 22, "DF")
+            # Label
+            pdf.set_xy(x + 4, y + 3)
+            pdf.set_font("Helvetica", "", 8)
+            pdf.set_text_color(*self.MID_GRAY)
+            pdf.cell(card_w - 8, 4, label)
+            # Value
+            pdf.set_xy(x + 4, y + 10)
+            pdf.set_font("Helvetica", "B", 14)
+            pdf.set_text_color(*color)
+            pdf.cell(card_w - 8, 8, value)
+
+        pdf.set_y(y + 25)
+
+    def _parse_audit_sections(self, audit_text: str) -> dict:
+        """Parse Claude's audit text into named sections."""
+        sections = {}
+        current_key = None
+        current_lines = []
+        section_headers = ("what happened", "why", "quick wins", "your trend",
+                           "competitor to watch", "your standing")
+
+        for line in audit_text.split("\n"):
+            stripped = line.strip()
+            matched = False
+            for header in section_headers:
+                if stripped.upper().startswith(header.upper()):
+                    if current_key is not None:
+                        sections[current_key] = current_lines
+                    current_key = header
+                    # Don't include the header line itself as content
+                    remainder = stripped[len(header):].strip().lstrip(":").lstrip("-").strip()
+                    current_lines = [remainder] if remainder else []
+                    matched = True
+                    break
+            if not matched and current_key is not None:
+                current_lines.append(line)
+
+        if current_key is not None:
+            sections[current_key] = current_lines
+
+        return sections
 
     def generate_batch(self, alerts: list[dict]) -> list[dict]:
         """

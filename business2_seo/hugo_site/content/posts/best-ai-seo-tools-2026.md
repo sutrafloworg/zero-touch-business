@@ -72,7 +72,7 @@ Surfer SEO stripped away bloat and focused on one mission: AI-driven on-page opt
 
 Surfer's strength lies in speed. You paste a keyword, get competitor content analysis in 10 seconds, and start optimizing. The AI catches semantic gaps traditional tools miss—think related keywords, question entities, and latent semantic indexing signals.
 
-<a href="https://surferseo.com/?via=YOUR_REF_ID" rel="nofollow sponsored">Try Surfer SEO</a>
+<a href="https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Rytr Free</a>
 
 ## Ahrefs: Best for Backlink Strategy & Content Planning
 

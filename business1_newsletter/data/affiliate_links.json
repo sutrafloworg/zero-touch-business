@@ -38,18 +38,7 @@
       "cta": "Try Rytr free — no credit card needed →",
       "one_liner": "AI writing assistant with 40+ templates. Starts at $9/month — best value in AI writing."
     },
-    "surfer_seo": {
-      "name": "Surfer SEO",
-      "display_name": "Surfer SEO",
-      "url": "https://surferseo.com/",
-      "affiliate_url": "https://surferseo.com/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
-      "apply_url": "https://surferseo.com/affiliate-program/",
-      "commission": "25% recurring",
-      "cookie_days": 60,
-      "category": "SEO",
-      "cta": "Rank #1 with Surfer SEO →",
-      "one_liner": "Write content that ranks — Surfer scores every paragraph in real time."
-    }
+    "_deprecated_surfer_seo": "REMOVED — Surfer SEO affiliate application declined March 2026"
   },
   "rotation_strategy": "weekly",
   "featured_per_issue": 2

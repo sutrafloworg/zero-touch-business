@@ -38,17 +38,6 @@
       "free_trial": true,
       "commission_note": "30% recurring for 12 months"
     },
-    "surfer_seo": {
-      "name": "Surfer SEO",
-      "affiliate_url": "https://surferseo.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
-      "apply_url": "https://surferseo.com/affiliate-program/",
-      "cta_text": "Try Surfer SEO",
-      "cta_button": "<a href='https://surferseo.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Surfer SEO →</a>",
-      "badge": "Best for On-Page SEO",
-      "rating": 4.6,
-      "starting_price": "$89/month",
-      "free_trial": false,
-      "commission_note": "25% recurring commission"
-    }
+    "_deprecated_surfer_seo": "REMOVED — Surfer SEO affiliate application declined March 2026"
   }
 }

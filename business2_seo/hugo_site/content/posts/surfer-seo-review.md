@@ -83,7 +83,7 @@ Annual billing knocks 40% off. The Starter plan is tight—10 projects and 5 key
 
 **Freelance SEO Writers & Content Agencies**
 
-If you're writing content for multiple clients or managing a content calendar, Surfer cuts your research and optimization time significantly. The SERP analysis and content editor handle the mechanical side of optimization, letting you focus on depth, angle, and insight. Writers often report 15-20% faster article production with Surfer's guidance. <a href="https://surferseo.com/?via=YOUR_REF_ID" rel="nofollow sponsored">Try Surfer SEO</a> if you're billing by the hour or managing multiple projects—the efficiency gains justify the $49/month cost immediately.
+If you're writing content for multiple clients or managing a content calendar, Surfer cuts your research and optimization time significantly. The SERP analysis and content editor handle the mechanical side of optimization, letting you focus on depth, angle, and insight. Writers often report 15-20% faster article production with Surfer's guidance. <a href="https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Rytr Free</a> if you're billing by the hour or managing multiple projects—the efficiency gains justify the $49/month cost immediately.
 
 **In-House SEO Teams with Content Focus**
 
@@ -91,7 +91,7 @@ Teams managing content operations (not full SEO departments handling technical S
 
 **Small e-Commerce & SaaS Businesses Writing Own Content**
 
-Bootstrapped companies writing their own content can skip the $300+ monthly SEO tool subscriptions. Surfer focuses on the one thing that moves the needle for new sites: publishing better-optimized content. If you have 1-2 people writing blog posts or product content, Surfer gives you the competitor insights and optimization guidance that used to require hiring an SEO consultant. <a href="https://surferseo.com/?via=YOUR_REF_ID" rel="nofollow sponsored">Try Surfer SEO</a> and allocate the tool cost savings toward content creation itself.
+Bootstrapped companies writing their own content can skip the $300+ monthly SEO tool subscriptions. Surfer focuses on the one thing that moves the needle for new sites: publishing better-optimized content. If you have 1-2 people writing blog posts or product content, Surfer gives you the competitor insights and optimization guidance that used to require hiring an SEO consultant. <a href="https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Rytr Free</a> and allocate the tool cost savings toward content creation itself.
 
 ## Surfer SEO Alternatives
 

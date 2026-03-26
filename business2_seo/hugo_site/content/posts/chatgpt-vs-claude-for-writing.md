@@ -105,7 +105,7 @@ If you want a middle ground or need systematic content workflows, <a href="https
 
 **Perplexity:** Excels at research and citing sources; better for fact-checking articles before publication.
 
-**SEO and content planning tools** like <a href="https://surferseo.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Surfer SEO</a> combine AI writing with keyword research, content optimization, and performance tracking—essential if you're writing for visibility, not just quality.
+**SEO and content planning tools** like <a href="https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Rytr Free</a> combine AI writing with keyword research, content optimization, and performance tracking—essential if you're writing for visibility, not just quality.
 
 ## FAQ
 
