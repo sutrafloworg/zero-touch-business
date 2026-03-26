@@ -1,18 +1,7 @@
 {
   "_instructions": "Replace YOUR_REF_ID with your actual affiliate IDs. Apply at the 'apply_url' for each program.",
   "tools": {
-    "copy_ai": {
-      "name": "Copy.ai",
-      "affiliate_url": "https://www.copy.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
-      "apply_url": "https://www.copy.ai/partners",
-      "cta_text": "Try Copy.ai Free",
-      "cta_button": "<a href='https://www.copy.ai/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Copy.ai Free →</a>",
-      "badge": "Best for AI Writing",
-      "rating": 4.7,
-      "starting_price": "$36/month",
-      "free_trial": true,
-      "commission_note": "45% recurring commission — highest in AI tools"
-    },
+    "_deprecated_copy_ai": "REMOVED — Copy.ai affiliate program deprecated March 2026",
     "writesonic": {
       "name": "Writesonic",
       "affiliate_url": "https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
@@ -39,10 +28,10 @@
     },
     "rytr": {
       "name": "Rytr",
-      "affiliate_url": "https://rytr.me/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
+      "affiliate_url": "https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
       "apply_url": "https://rytr.me/affiliate",
       "cta_text": "Try Rytr Free",
-      "cta_button": "<a href='https://rytr.me/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Rytr Free →</a>",
+      "cta_button": "<a href='https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Rytr Free →</a>",
       "badge": "Best Budget AI Writer",
       "rating": 4.5,
       "starting_price": "$9/month",

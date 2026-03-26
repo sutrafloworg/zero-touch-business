@@ -1,18 +1,7 @@
 {
   "_instructions": "Replace YOUR_REF_ID placeholders with your actual affiliate IDs before going live. Apply at the URLs listed in 'apply_url' for each program.",
   "tools": {
-    "copy_ai": {
-      "name": "Copy.ai",
-      "display_name": "Copy.ai (AI Writing + Workflows)",
-      "url": "https://www.copy.ai/",
-      "affiliate_url": "https://www.copy.ai/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
-      "apply_url": "https://www.copy.ai/partners",
-      "commission": "45% recurring",
-      "cookie_days": 60,
-      "category": "AI Writing",
-      "cta": "Try Copy.ai free →",
-      "one_liner": "AI writing + workflow automation. 45% commission — the highest in AI tools."
-    },
+    "_deprecated_copy_ai": "REMOVED — Copy.ai affiliate program deprecated March 2026",
     "notion": {
       "name": "Notion",
       "display_name": "Notion AI",
@@ -41,7 +30,7 @@
       "name": "Rytr",
       "display_name": "Rytr AI Writer",
       "url": "https://rytr.me/",
-      "affiliate_url": "https://rytr.me/?via=YOUR_REF_ID&utm_source=aitoolsweekly&utm_medium=email",
+      "affiliate_url": "https://rytr.me/?via=sutraflow&utm_source=aitoolsweekly&utm_medium=email",
       "apply_url": "https://rytr.me/affiliate",
       "commission": "30% recurring for 12 months",
       "cookie_days": 60,

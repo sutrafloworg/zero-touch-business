@@ -125,13 +125,12 @@ Apply to these programs — most approve instantly or within 24 hours:
 
 | Program | Apply at | Commission | Status |
 |---|---|---|---|
-| Copy.ai | https://www.copy.ai/partners | 45% recurring | Apply first — no traffic minimum |
-| Rytr | https://rytr.me/affiliate | 30% recurring 12mo | Easy approval, beginner-friendly |
-| Writesonic | https://writesonic.com/affiliate | 30% recurring | Moderate — needs platform review |
-| Surfer SEO | https://surferseo.com/affiliate/ | 25% recurring | Harder — apply after 25+ articles |
-| Notion | https://www.notion.so/affiliates | $50 signup + 20% yr1 | Currently paused — check periodically |
+| Rytr | https://rytr.me/affiliate | 30% recurring 12mo | APPROVED — `?via=sutraflow` |
+| Writesonic | https://writesonic.com/affiliates | 30% recurring | Not yet applied |
+| Surfer SEO | https://surferseo.com/affiliate-program/ | 25% recurring | Apply after 25+ articles |
+| Notion | https://www.notion.so/affiliates | $50 signup + 20% yr1 | Currently paused by Notion |
 
-**Note:** Semrush declined (low reach), GetResponse declined (audience alignment), Jasper AI program permanently shut down (Jan 2025). The programs above are verified active and accessible for new publishers.
+**Dead programs:** Copy.ai (deprecated March 2026), Jasper AI (shut down Jan 2025), Semrush (declined — low reach), GetResponse (declined — audience alignment).
 
 - [ ] After approval, replace `YOUR_REF_ID` in `business1_newsletter/data/affiliate_links.json`
 - [ ] Replace `YOUR_REF_ID` in `business2_seo/data/affiliate_links.json`
