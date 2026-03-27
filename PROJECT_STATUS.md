@@ -1,6 +1,6 @@
 # Zero-Touch Business Portfolio — Project Status
 
-**Last updated:** 2026-03-25
+**Last updated:** 2026-03-27
 **Owner:** Samik (sutrafloworg on GitHub)
 **Site:** https://sutraflow.org
 **Repo:** GitHub (private) — sutrafloworg
@@ -40,9 +40,12 @@ An autonomous passive-income portfolio of AI-powered businesses that run on GitH
 - **Schedule:** Every Monday 3am UTC via GitHub Actions
 - **Coverage:** 12 cities x 5 categories = 60 searches/week (240/month within free limit)
 - **Revenue model:** Sell SEO audit reports ($10) + ongoing monitoring subscriptions ($5/month)
-- **Agent flow:** Scanner Agent (SerpAPI) → Analyzer Agent → Report Agent (Claude + PDF) → Outreach Agent (Gmail)
+- **Agent flow:** Scanner Agent (SerpAPI) → Analyzer Agent → Report Agent (Claude + 4-page PDF) → Outreach Agent (teaser email) → Fulfillment Agent (PDF after payment)
+- **Progressive insights:** Reports evolve over time — Week 2+: review velocity, Week 3+: rank trends, Week 4+: competitor spotlight, Week 6+: category health score
+- **Payment flow:** Teaser email (no PDF) → Stripe payment ($10 audit / $5/mo monitoring) → Stripe webhook → fulfillment agent emails full PDF
+- **Webhook server:** Flask app on Oracle Cloud free tier, Docker-deployed
 - **Stripe links:** Monitoring $5/mo: https://buy.stripe.com/eVq9AUf253vu36Hg5q6kg01 | Audit $10: https://buy.stripe.com/7sYaEYdY10jifTtdXi6kg00
-- **Status:** LIVE — scanning and payment links configured
+- **Status:** LIVE — scanning, payment flow, and webhook server deployed
 
 ---
 
@@ -56,6 +59,8 @@ An autonomous passive-income portfolio of AI-powered businesses that run on GitH
 | Site hosting | Cloudflare Pages | $0 |
 | Site framework | Hugo + PaperMod theme | $0 |
 | Local SEO data | SerpAPI (250/month free) | $0 |
+| Webhook server | Oracle Cloud Always Free (Docker) | $0 |
+| Payment | Stripe Payment Links | $0 (2.9% + $0.30/txn) |
 | Error alerts | Gmail SMTP | $0 |
 | Domain | sutraflow.org | ~$12/year |
 | **Total** | | **~$5–10/month** |
@@ -68,7 +73,7 @@ An autonomous passive-income portfolio of AI-powered businesses that run on GitH
 |---------|--------|------------|--------------|
 | **Rytr** | ACTIVE | 30% recurring 12mo | `?via=sutraflow` |
 | Writesonic | NOT YET APPLIED | 30% recurring | YOUR_REF_ID |
-| Surfer SEO | NOT YET APPLIED (wait for 25+ articles) | 25% recurring | YOUR_REF_ID |
+| ~~Surfer SEO~~ | DECLINED March 2026 | — | — |
 | Notion | PAUSED by Notion | $50/signup + 20% yr1 | YOUR_REF_ID |
 | ~~Copy.ai~~ | DEPRECATED March 2026 | — | — |
 | ~~Jasper AI~~ | PERMANENTLY DEAD Jan 2025 | — | — |
@@ -91,16 +96,16 @@ An autonomous passive-income portfolio of AI-powered businesses that run on GitH
 ## Remaining Manual Actions (One-Time Setup)
 
 ### HIGH PRIORITY (revenue-blocking):
-1. **Apply to Writesonic affiliate** → https://writesonic.com/affiliates (30% recurring)
-2. **Replace YOUR_REF_ID** in published articles for Writesonic/Surfer/Notion after approval
-3. ~~Set up Stripe~~ DONE — links hardcoded in config.py
-4. **Run content pipeline** → GitHub → Actions → "SEO Site — Content Generation" → Run workflow (generates Rytr review + comparison articles)
+1. **Apply to Writesonic affiliate** → https://writesonic.com/affiliates (30% recurring) — PENDING
+2. **Replace YOUR_REF_ID** in published articles for Writesonic/Notion after approval (16 placeholders)
+3. ~~Set up Stripe~~ DONE
+4. ~~Google Search Console~~ DONE — sitemap submitted
+5. ~~Stripe webhook server~~ DONE — deployed on Oracle Cloud free tier
 
 ### MEDIUM PRIORITY:
-5. **Google Search Console** → verify sutraflow.org + submit sitemap.xml
 6. **Kit Recommendations** → Kit → Settings → Recommendations → Enable
 7. **Create Gumroad account** → https://gumroad.com (for selling digital products on /products/ page)
-8. **Apply to Surfer SEO affiliate** after reaching 25+ published articles
+8. **Run content pipeline** → GitHub → Actions → "SEO Site — Content Generation" → Run workflow
 
 ### LOW PRIORITY:
 9. Submit sitemap to Bing Webmaster Tools
@@ -114,11 +119,11 @@ Full plan: `docs/plans/2026-03-24-001-feat-autonomous-business-portfolio-expansi
 
 | Phase | What | When | Status |
 |-------|------|------|--------|
-| **Phase 0** | Revenue Activation — fix affiliate links, products page, content velocity | Week 1 | DONE (automated parts) |
-| **Phase 1** | Content Acceleration — E-E-A-T hardening, content quality scoring | Weeks 2–3 | NOT STARTED |
-| **Phase 2** | Digital Products — create ebooks/templates, Gumroad storefront | Weeks 3–5 | NOT STARTED |
-| **Phase 3** | VPS + n8n — self-hosted orchestration on Hetzner CX22 ($6/mo) | Weeks 5–8 | NOT STARTED |
-| **Phase 4** | Vertical Micro-SaaS — highest-ceiling revenue model | Weeks 8–14 | NOT STARTED |
+| **Phase 0** | Revenue Activation — affiliate links, Stripe, payment flow, webhook server | Week 1 | DONE |
+| **Phase 1** | Content Quality + E-E-A-T — scoring gate, expertise signals, content hardening | Weeks 2–3 | NEXT |
+| **Phase 2** | Digital Products — ebooks/templates/prompt packs on Gumroad | Weeks 3–5 | NOT STARTED |
+| **Phase 3** | n8n Orchestration — migrate from GitHub Actions to n8n on Oracle Cloud free tier | Weeks 5–8 | NOT STARTED |
+| **Phase 4** | Vertical Micro-SaaS — highest-ceiling recurring revenue model | Weeks 8–14 | NOT STARTED |
 | **Phase 5** | Advanced Models — API-as-a-Service, lead gen, industry reports | Weeks 14+ | NOT STARTED |
 
 ---
