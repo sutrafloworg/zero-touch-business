@@ -1,7 +1,7 @@
 ---
 title: "feat: Content Quality Gate + E-E-A-T Hardening"
 type: feat
-status: active
+status: completed
 date: 2026-03-27
 ---
 
@@ -119,7 +119,7 @@ Filter out `_deprecated_*` keys in ContentAgent's affiliate loading so they can'
 - [x] Add revision flow to `content_agent.py`:
   - New method `revise_article(content: str, feedback: dict) -> str`
   - Takes original article + scoring feedback, asks Claude to fix specific issues
-- [ ] Update keyword_agent to support `failed` status for rejected articles
+- [x] Update keyword_agent to support `failed` status for rejected articles
 
 ### Phase 3: E-E-A-T Signals
 
@@ -140,9 +140,9 @@ Filter out `_deprecated_*` keys in ContentAgent's affiliate loading so they can'
 ### Phase 5: Quality Metrics + Testing
 
 - [x] Implement quality log writing to `data/quality_log.json`
-- [ ] Test full pipeline with mock data: generate → score → revise → re-score → publish
-- [ ] Test rejection flow: article fails twice → logged + keyword marked failed
-- [ ] Verify E-E-A-T frontmatter renders correctly in Hugo/PaperMod
+- [x] Test full pipeline with mock data: generate → score → revise → re-score → publish
+- [x] Test rejection flow: article fails twice → logged + keyword marked failed
+- [x] Verify E-E-A-T frontmatter renders correctly in Hugo/PaperMod
 
 ## Acceptance Criteria
 
