@@ -37,6 +37,7 @@ from agents.publisher_agent import PublisherAgent
 from agents.monitor_agent import MonitorAgent
 from agents.stats_agent import StatsAgent
 from agents.quality_agent import QualityAgent
+from agents.internal_linker import InternalLinker
 
 
 def validate_config() -> list[str]:
@@ -107,6 +108,8 @@ def run_pipeline() -> bool:
         model=config.CLAUDE_MODEL,
     )
 
+    internal_linker = InternalLinker(content_dir=config.CONTENT_OUTPUT_DIR)
+
     published_slugs = []
     quality_stats = {
         "articles_generated": 0,
@@ -173,7 +176,10 @@ def run_pipeline() -> bool:
 
         quality_stats["articles_passed"] += 1
 
-        # Step 4: Publish (write to disk)
+        # Step 4: Internal linking (add cross-links to related articles)
+        article_content = internal_linker.add_internal_links(article_content, keyword["slug"])
+
+        # Step 5: Publish (write to disk)
         publish_success = publisher_agent.publish_article(keyword["slug"], article_content)
         keyword_agent.mark_done(keyword["keyword"], success=publish_success)
 

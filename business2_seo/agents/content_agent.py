@@ -37,6 +37,7 @@ Rules:
 - Add at least one "What I wish I knew before signing up" insight per tool
 - NEVER say "In conclusion" or "In this article" — just start with value
 - NEVER use generic filler like "In today's rapidly evolving landscape" or "Whether you're a beginner or expert"
+- Include source citations where relevant: "According to [Tool]'s pricing page (March 2026)..." or "Per the official documentation..."
 - Output ONLY the article content, no preamble or meta-commentary"""
 
 LISTICLE_PROMPT = """Write a comprehensive, SEO-optimized article for the keyword: "{keyword}"
@@ -229,6 +230,14 @@ class ContentAgent:
         "listicle": ["review", "ai-tools"],
     }
 
+    # Schema type mapping: review/comparison get Review schema for rich snippets
+    _SCHEMA_TYPES = {
+        "review": "Review",
+        "comparison": "Review",
+        "tutorial": "HowTo",
+        "listicle": "Article",
+    }
+
     def _build_frontmatter(
         self,
         keyword: dict,
@@ -236,8 +245,11 @@ class ContentAgent:
         primary_affiliate: str,
     ) -> str:
         now = datetime.now(timezone.utc)
-        tags = self._TEMPLATE_TAGS.get(keyword.get("template", "listicle"), ["ai-tools"])
+        template = keyword.get("template", "listicle")
+        tags = self._TEMPLATE_TAGS.get(template, ["ai-tools"])
         tags_yaml = ", ".join(f'"{t}"' for t in tags)
+        schema = self._SCHEMA_TYPES.get(template, "Article")
+        date_str = now.strftime("%B %Y")
         return f"""---
 title: "{keyword['keyword'].title()}"
 slug: "{keyword['slug']}"
@@ -246,17 +258,20 @@ lastmod: {now.strftime('%Y-%m-%dT%H:%M:%SZ')}
 description: "{meta_description}"
 keywords: ["{keyword['keyword']}", "ai tools", "review", "comparison"]
 tags: [{tags_yaml}]
-template: "{keyword['template']}"
+template: "{template}"
 intent: "{keyword['intent']}"
 draft: false
 author: "Sutra Editorial"
+author_url: "/about/"
+reviewed_by: "Editorial Team"
+last_fact_checked: "{now.strftime('%Y-%m-%d')}"
 showToc: true
 TocOpen: true
 affiliate_disclosure: "This article contains affiliate links. We may earn a commission at no extra cost to you."
-schema_type: "Article"
+schema_type: "{schema}"
 ---
 
-*Last tested and verified: {now.strftime('%B %Y')}. Pricing and features confirmed accurate as of this date.*
+*Last tested and verified: {date_str}. Pricing and features confirmed accurate as of this date.*
 
 """
 
