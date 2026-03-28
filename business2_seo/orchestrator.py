@@ -36,6 +36,8 @@ from agents.content_agent import ContentAgent
 from agents.publisher_agent import PublisherAgent
 from agents.monitor_agent import MonitorAgent
 from agents.stats_agent import StatsAgent
+from agents.quality_agent import QualityAgent
+from agents.internal_linker import InternalLinker
 
 
 def validate_config() -> list[str]:
@@ -98,12 +100,30 @@ def run_pipeline() -> bool:
 
     logger.info(f"      Selected: {[kw['keyword'] for kw in keywords]}")
 
-    # ── Step 2+3: Content + Publish (per keyword) ──────────────────────────────
-    published_slugs = []
-    for i, keyword in enumerate(keywords, 1):
-        logger.info(f"[2+3/{len(keywords)+2}] Processing: '{keyword['keyword']}' ({i}/{len(keywords)})")
+    # ── Step 2-4: Generate → Score → Publish (per keyword) ─────────────────────
+    quality_agent = QualityAgent(
+        api_key=config.ANTHROPIC_API_KEY,
+        threshold=config.QUALITY_THRESHOLD,
+        log_file=config.QUALITY_LOG_FILE,
+        model=config.CLAUDE_MODEL,
+    )
 
-        # Generate article
+    internal_linker = InternalLinker(content_dir=config.CONTENT_OUTPUT_DIR)
+
+    published_slugs = []
+    quality_stats = {
+        "articles_generated": 0,
+        "articles_passed": 0,
+        "articles_revised": 0,
+        "articles_rejected": 0,
+        "all_scores": [],
+        "rejected_keywords": [],
+    }
+
+    for i, keyword in enumerate(keywords, 1):
+        logger.info(f"[2-4/{len(keywords)+2}] Processing: '{keyword['keyword']}' ({i}/{len(keywords)})")
+
+        # Step 2: Generate article
         article_content, success = content_agent.generate_article(keyword)
 
         if not success:
@@ -111,14 +131,80 @@ def run_pipeline() -> bool:
             logger.warning(f"Skipping '{keyword['keyword']}' — content generation failed")
             continue
 
-        # Publish (write to disk)
+        quality_stats["articles_generated"] += 1
+
+        # Step 3: Quality gate
+        score_result = quality_agent.score_article(article_content, keyword)
+        quality_stats["all_scores"].append(score_result["scores"])
+
+        if not score_result["passed"]:
+            # One revision attempt
+            logger.info(
+                f"Quality gate: '{keyword['keyword']}' failed "
+                f"(lowest: {score_result['lowest_criteria']}). Revising..."
+            )
+            revised_content, rev_success = content_agent.revise_article(
+                article_content, keyword, score_result
+            )
+
+            if rev_success:
+                quality_stats["articles_revised"] += 1
+                # Re-score revised article
+                score_result = quality_agent.score_article(revised_content, keyword)
+                quality_stats["all_scores"].append(score_result["scores"])
+
+                if score_result["passed"]:
+                    article_content = revised_content
+                    logger.info(f"Quality gate: '{keyword['keyword']}' passed after revision")
+                else:
+                    # Still failing — reject
+                    quality_stats["articles_rejected"] += 1
+                    quality_stats["rejected_keywords"].append(keyword["keyword"])
+                    keyword_agent.mark_done(keyword["keyword"], success=False)
+                    logger.warning(
+                        f"Quality gate: '{keyword['keyword']}' rejected after revision "
+                        f"(lowest: {score_result['lowest_criteria']})"
+                    )
+                    continue
+            else:
+                # Revision itself failed — reject
+                quality_stats["articles_rejected"] += 1
+                quality_stats["rejected_keywords"].append(keyword["keyword"])
+                keyword_agent.mark_done(keyword["keyword"], success=False)
+                logger.warning(f"Quality gate: revision failed for '{keyword['keyword']}'")
+                continue
+
+        quality_stats["articles_passed"] += 1
+
+        # Step 4: Internal linking (add cross-links to related articles)
+        article_content = internal_linker.add_internal_links(article_content, keyword["slug"])
+
+        # Step 5: Publish (write to disk)
         publish_success = publisher_agent.publish_article(keyword["slug"], article_content)
         keyword_agent.mark_done(keyword["keyword"], success=publish_success)
 
         if publish_success:
             published_slugs.append(keyword["slug"])
 
-    logger.info(f"      Published {len(published_slugs)}/{len(keywords)} articles this run")
+    logger.info(
+        f"      Published {len(published_slugs)}/{len(keywords)} articles "
+        f"(revised={quality_stats['articles_revised']}, rejected={quality_stats['articles_rejected']})"
+    )
+
+    # Log quality metrics
+    if quality_stats["all_scores"]:
+        avg_scores = {}
+        for key in ("structure", "eeat", "seo", "readability", "affiliate", "originality"):
+            vals = [s.get(key, 0) for s in quality_stats["all_scores"]]
+            avg_scores[key] = round(sum(vals) / len(vals), 1)
+        quality_agent.log_run({
+            "articles_generated": quality_stats["articles_generated"],
+            "articles_passed": quality_stats["articles_passed"],
+            "articles_revised": quality_stats["articles_revised"],
+            "articles_rejected": quality_stats["articles_rejected"],
+            "avg_scores": avg_scores,
+            "rejected_keywords": quality_stats["rejected_keywords"],
+        })
 
     # Ping Google sitemap
     if published_slugs:

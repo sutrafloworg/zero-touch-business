@@ -51,6 +51,10 @@ STATS_HISTORY_FILE = DATA_DIR / "stats_history.json"
 # ── Cross-Business References ─────────────────────────────────────────────
 LOCAL_SEO_STATE_FILE = Path(__file__).parent.parent / "business3_local_seo" / "data" / "state.json"
 
+# ── Content Quality Gate ───────────────────────────────────────────────────────
+QUALITY_THRESHOLD = 7          # minimum score (1-10) on each criterion to publish
+QUALITY_LOG_FILE = DATA_DIR / "quality_log.json"
+
 # ── Self-Correction ────────────────────────────────────────────────────────────
 MAX_RETRIES = 3
 BACKOFF_BASE = 2
