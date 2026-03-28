@@ -17,7 +17,7 @@ permissions:
 jobs:
   generate-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repository
@@ -55,8 +55,10 @@ jobs:
           git config user.name "SEO Content Bot"
           git config user.email "bot@github-actions"
           git add business2_seo/hugo_site/content/posts/ \
+                  business2_seo/hugo_site/content/about.md \
                   business2_seo/data/state.json \
                   business2_seo/data/keywords.csv \
+                  business2_seo/data/quality_log.json \
                   business2_seo/logs/ || true
           git diff --staged --quiet || git commit -m "content: add $(date +%Y-%m-%d) batch [skip ci]"
           git pull --rebase origin main || true
