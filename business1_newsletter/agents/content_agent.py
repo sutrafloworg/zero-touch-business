@@ -111,7 +111,7 @@ class ContentAgent:
 
     def _get_weekly_sponsors(self) -> tuple[dict, dict]:
         """Rotate through affiliate tools weekly."""
-        tools = list(self.affiliates["tools"].values())
+        tools = [v for v in self.affiliates["tools"].values() if isinstance(v, dict)]
         state = self._load_state()
         idx = state.get("affiliate_rotation_index", 0)
 

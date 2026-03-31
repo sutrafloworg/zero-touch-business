@@ -44,11 +44,12 @@ jobs:
 
             echo "=== [1/4] Pulling latest code from feat branch ==="
             cd "$APP_DIR"
-            # Fix git safe.directory (repo is owned by root, ubuntu user needs this)
-            git config --global --add safe.directory "$APP_DIR"
-            git fetch origin feat/content-quality-eeat
-            git checkout feat/content-quality-eeat 2>/dev/null || true
-            git reset --hard origin/feat/content-quality-eeat
+            # Repo is owned by root — run all git commands with sudo so they can
+            # write to .git/FETCH_HEAD and other root-owned git metadata files.
+            sudo git config --global --add safe.directory "$APP_DIR"
+            sudo git fetch origin feat/content-quality-eeat
+            sudo git checkout feat/content-quality-eeat 2>/dev/null || true
+            sudo git reset --hard origin/feat/content-quality-eeat
 
             echo "=== [2/4] Rebuilding Docker image ==="
             # Use raw docker build/run (docker-compose v1 has a KeyError:'ContainerConfig'
