@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Coverage — Search Sentinel</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue: #2563eb;
+      --blue-dark: #1d4ed8;
+      --blue-light: #eff6ff;
+      --green: #16a34a;
+      --green-light: #f0fdf4;
+      --amber: #d97706;
+      --amber-light: #fffbeb;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --radius: 16px;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── NAV ── */
+    nav {
+      background: #0f172a;
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-logo {
+      display: flex; align-items: center; gap: 8px;
+      text-decoration: none;
+      font-size: 0.95rem; font-weight: 700; color: #fff;
+    }
+    .nav-dot {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #2563eb;
+      box-shadow: 0 0 8px #2563eb;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1}50%{opacity:0.5} }
+    .nav-home {
+      font-size: 0.82rem; color: rgba(255,255,255,0.5);
+      text-decoration: none; transition: color 0.15s;
+    }
+    .nav-home:hover { color: #fff; }
+
+    /* ── MAIN LAYOUT ── */
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 24px;
+    }
+
+    .verify-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 48px;
+      max-width: 560px;
+      width: 100%;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    }
+
+    /* ── STEP INDICATOR ── */
+    .steps-indicator {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      margin-bottom: 36px;
+    }
+    .step-dot {
+      width: 28px; height: 28px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; font-weight: 700;
+      background: var(--blue-light); color: var(--blue);
+      border: 2px solid #bfdbfe;
+      flex-shrink: 0;
+    }
+    .step-dot.active { background: var(--blue); color: #fff; border-color: var(--blue); }
+    .step-dot.done { background: var(--green); color: #fff; border-color: var(--green); }
+    .step-line {
+      flex: 1; height: 2px;
+      background: var(--border);
+    }
+    .step-line.done { background: var(--green); }
+
+    /* ── PANEL ── */
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    .panel-label {
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--blue);
+      margin-bottom: 12px;
+    }
+    .panel h1 {
+      font-size: 1.55rem; font-weight: 800; color: var(--text);
+      line-height: 1.25; margin-bottom: 10px;
+    }
+    .panel h2 {
+      font-size: 1.35rem; font-weight: 800; color: var(--text);
+      line-height: 1.3; margin-bottom: 10px;
+    }
+    .panel > p {
+      font-size: 0.92rem; color: var(--text-muted); line-height: 1.65;
+      margin-bottom: 28px;
+    }
+
+    /* ── SELECTS ── */
+    .field { margin-bottom: 16px; }
+    .field label {
+      display: block; font-size: 0.8rem; font-weight: 600;
+      color: var(--text); margin-bottom: 6px;
+    }
+    .field select, .field input[type="text"] {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-size: 0.92rem;
+      font-family: inherit;
+      color: var(--text);
+      background: #fff;
+      appearance: none;
+      -webkit-appearance: none;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+      cursor: pointer;
+    }
+    .field select:focus, .field input[type="text"]:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+    }
+    .select-wrap { position: relative; }
+    .select-wrap::after {
+      content: '▾';
+      position: absolute; right: 14px; top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted); pointer-events: none;
+      font-size: 0.8rem;
+    }
+    .field input::placeholder { color: #94a3b8; }
+
+    /* ── BUTTONS ── */
+    .btn-check {
+      width: 100%; padding: 14px 24px;
+      background: var(--blue); color: #fff;
+      border: none; border-radius: 10px;
+      font-size: 0.95rem; font-weight: 700;
+      font-family: inherit; cursor: pointer;
+      transition: background 0.15s, transform 0.1s;
+      margin-top: 8px;
+    }
+    .btn-check:hover { background: var(--blue-dark); transform: translateY(-1px); }
+    .btn-check:active { transform: translateY(0); }
+
+    .btn-pay {
+      display: block; width: 100%; padding: 15px 24px;
+      background: var(--blue); color: #fff;
+      border: none; border-radius: 10px;
+      font-size: 1rem; font-weight: 700;
+      font-family: inherit; cursor: pointer;
+      text-decoration: none; text-align: center;
+      transition: background 0.15s, transform 0.1s;
+      margin-top: 24px;
+    }
+    .btn-pay:hover { background: var(--blue-dark); transform: translateY(-1px); }
+
+    .btn-secondary-link {
+      display: block; text-align: center;
+      margin-top: 14px;
+      font-size: 0.85rem; color: var(--text-muted);
+      text-decoration: none;
+    }
+    .btn-secondary-link:hover { color: var(--blue); }
+
+    .btn-submit-feedback {
+      width: 100%; padding: 13px 24px;
+      background: #0f172a; color: #fff;
+      border: none; border-radius: 10px;
+      font-size: 0.92rem; font-weight: 700;
+      font-family: inherit; cursor: pointer;
+      transition: background 0.15s;
+      margin-top: 8px;
+    }
+    .btn-submit-feedback:hover { background: #1e293b; }
+
+    /* ── STATUS BADGES ── */
+    .status-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 8px 16px; border-radius: 999px;
+      font-size: 0.82rem; font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .status-badge.success {
+      background: var(--green-light);
+      color: var(--green);
+      border: 1px solid #bbf7d0;
+    }
+    .status-badge.pending {
+      background: var(--amber-light);
+      color: var(--amber);
+      border: 1px solid #fcd34d;
+    }
+
+    /* ── COVERAGE DETAIL ── */
+    .coverage-detail {
+      background: var(--blue-light);
+      border: 1px solid #bfdbfe;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+      font-size: 0.85rem; color: #1e40af;
+    }
+    .coverage-detail strong { display: block; font-weight: 700; margin-bottom: 4px; color: var(--blue-dark); }
+
+    .coming-soon-detail {
+      background: var(--amber-light);
+      border: 1px solid #fcd34d;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      font-size: 0.85rem; color: #92400e;
+    }
+    .coming-soon-detail strong { display: block; font-weight: 700; margin-bottom: 4px; }
+
+    /* ── WHAT'S INCLUDED LIST ── */
+    .includes-list {
+      list-style: none;
+      margin-bottom: 8px;
+    }
+    .includes-list li {
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 0.88rem; color: var(--text-muted);
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .includes-list li:last-child { border-bottom: none; }
+    .includes-list .tick { color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+    /* ── PLAN BADGE ── */
+    .plan-meta {
+      font-size: 0.78rem; color: var(--text-muted);
+      text-align: center; margin-top: 14px;
+    }
+
+    /* ── FEEDBACK SENT ── */
+    .feedback-sent {
+      text-align: center; padding: 24px 0;
+    }
+    .feedback-sent .big-icon { font-size: 2.5rem; margin-bottom: 12px; }
+    .feedback-sent h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+    .feedback-sent p { font-size: 0.88rem; color: var(--text-muted); }
+
+    /* ── DIVIDER ── */
+    .divider {
+      display: flex; align-items: center; gap: 12px;
+      margin: 20px 0;
+      color: var(--text-muted); font-size: 0.78rem;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px; background: var(--border);
+    }
+
+    /* ── SECURITY NOTE ── */
+    .security-note {
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+      font-size: 0.75rem; color: #94a3b8;
+      margin-top: 16px;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center; padding: 20px;
+      font-size: 0.78rem; color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 580px) {
+      .verify-card { padding: 28px 20px; }
+      .panel h1 { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/sentinel/" class="nav-logo">
+    <div class="nav-dot"></div>
+    Search Sentinel
+  </a>
+  <a href="/" class="nav-home">← Back to SutraFlow</a>
+</nav>
+
+<main>
+  <div class="verify-card">
+
+    <!-- STEP INDICATOR -->
+    <div class="steps-indicator" id="step-indicator">
+      <div class="step-dot active" id="dot-1">1</div>
+      <div class="step-line" id="line-1"></div>
+      <div class="step-dot" id="dot-2">2</div>
+    </div>
+
+    <!-- ── PANEL 1: CHECK COVERAGE ── -->
+    <div class="panel active" id="panel-check">
+      <div class="panel-label">Coverage Verification</div>
+      <h1>Is your business in our active market?</h1>
+      <p>Search Sentinel monitors select US cities and business categories. Confirm your market before proceeding — takes 10 seconds.</p>
+
+      <div class="field">
+        <label for="city-select">Your city</label>
+        <div class="select-wrap">
+          <select id="city-select">
+            <option value="">Select your city…</option>
+            <option value="covered">New York City, NY</option>
+            <option value="covered">Los Angeles, CA</option>
+            <option value="covered">Austin, TX</option>
+            <option value="covered">Miami, FL</option>
+            <option value="covered">Denver, CO</option>
+            <option value="other">My city isn't listed</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="cat-select">Your business type</label>
+        <div class="select-wrap">
+          <select id="cat-select">
+            <option value="">Select your business type…</option>
+            <option value="covered">Personal Injury Law Firm</option>
+            <option value="covered">Emergency Plumber</option>
+            <option value="covered">Cosmetic Dentist</option>
+            <option value="covered">Luxury Real Estate Agent</option>
+            <option value="covered">Regenerative Medicine Clinic</option>
+            <option value="other">My business type isn't listed</option>
+          </select>
+        </div>
+      </div>
+
+      <button class="btn-check" onclick="checkCoverage()">Check Coverage →</button>
+    </div>
+
+    <!-- ── PANEL 2A: COVERED ── -->
+    <div class="panel" id="panel-covered">
+      <span class="status-badge success">✓ &nbsp;Active coverage confirmed</span>
+      <h2>You're in our monitoring network.</h2>
+      <p>Search Sentinel actively tracks your city and business category every week. Here's what happens next based on your plan:</p>
+
+      <div class="coverage-detail">
+        <strong>What this means for you</strong>
+        Your Google Maps ranking is checked on a regular cadence. If your position drops, you'll be notified — no action needed on your end.
+      </div>
+
+      <!-- CTA: Alert (free) -->
+      <div id="cta-alert" style="display:none">
+        <ul class="includes-list">
+          <li><span class="tick">✓</span> Automatic drop detection — no signup needed</li>
+          <li><span class="tick">✓</span> Alert email with your position change</li>
+          <li><span class="tick">✓</span> Which competitor passed you</li>
+          <li><span class="tick">✓</span> Preview of root-cause analysis</li>
+        </ul>
+        <div class="divider">drop alerts are fully automatic</div>
+        <p style="font-size:0.88rem;color:#64748b;text-align:center">If your ranking drops within our monitored market, you'll receive an alert automatically — there's nothing to purchase or sign up for.</p>
+        <a href="/sentinel/" class="btn-pay" style="background:#0f172a">← Return to Search Sentinel</a>
+        <div class="plan-meta">Questions? <a href="mailto:sutrafloworg@gmail.com" style="color:var(--blue)">sutrafloworg@gmail.com</a></div>
+      </div>
+
+      <!-- CTA: Audit ($10) -->
+      <div id="cta-audit" style="display:none">
+        <ul class="includes-list">
+          <li><span class="tick">✓</span> Full multi-page PDF audit report</li>
+          <li><span class="tick">✓</span> Root cause analysis with ranking charts</li>
+          <li><span class="tick">✓</span> Head-to-head competitor breakdown</li>
+          <li><span class="tick">✓</span> GBP attribute gap analysis</li>
+          <li><span class="tick">✓</span> Step-by-step recovery checklist</li>
+          <li><span class="tick">✓</span> Emailed to you within minutes of payment</li>
+        </ul>
+        <a href="https://buy.stripe.com/7sYaEYdY10jifTtdXi6kg00" class="btn-pay">Get Your Audit Report — $10 →</a>
+        <div class="security-note">🔒 Secured by Stripe · One-time · No subscription</div>
+        <a href="/sentinel/" class="btn-secondary-link">← Back to Search Sentinel</a>
+      </div>
+
+      <!-- CTA: Monitor ($5/mo) -->
+      <div id="cta-monitor" style="display:none">
+        <ul class="includes-list">
+          <li><span class="tick">✓</span> Weekly automated rank monitoring</li>
+          <li><span class="tick">✓</span> Instant alert + full report on any drop</li>
+          <li><span class="tick">✓</span> Competitor movement notifications</li>
+          <li><span class="tick">✓</span> "All clear" weekly confirmation email</li>
+          <li><span class="tick">✓</span> Trend analysis over time</li>
+          <li><span class="tick">✓</span> Cancel anytime — no contracts</li>
+        </ul>
+        <a href="https://buy.stripe.com/eVq9AUf253vu36Hg5q6kg01" class="btn-pay">Start Weekly Monitoring — $5/mo →</a>
+        <div class="security-note">🔒 Secured by Stripe · Cancel anytime by email</div>
+        <a href="/sentinel/" class="btn-secondary-link">← Back to Search Sentinel</a>
+      </div>
+    </div>
+
+    <!-- ── PANEL 2B: NOT COVERED ── -->
+    <div class="panel" id="panel-coming-soon">
+      <span class="status-badge pending">⏳ &nbsp;Not yet in our coverage area</span>
+      <h2>We're expanding — your market is next.</h2>
+      <p>We don't currently monitor your city or business category, but we're growing our coverage based on demand. Leave your details and we'll reach out when your market goes live.</p>
+
+      <div class="coming-soon-detail">
+        <strong>Why we're not there yet</strong>
+        We prioritize markets where we can deliver the most accurate, actionable data. Your submission helps us decide which city and category to add next.
+      </div>
+
+      <div id="feedback-form">
+        <div class="field">
+          <label for="biz-name">Business name</label>
+          <input type="text" id="biz-name" placeholder="e.g. Sunrise Dental Studio">
+        </div>
+        <div class="field">
+          <label for="biz-city">City &amp; state</label>
+          <input type="text" id="biz-city" placeholder="e.g. Chicago, IL">
+        </div>
+        <button class="btn-submit-feedback" onclick="submitFeedback(event)">Notify Me When You Cover My Area →</button>
+        <p style="font-size:0.75rem;color:#94a3b8;text-align:center;margin-top:10px">Business name and city only. No spam, ever.</p>
+      </div>
+
+      <div id="feedback-sent" class="feedback-sent" style="display:none">
+        <div class="big-icon">🎉</div>
+        <h3>You're on the list!</h3>
+        <p>We've logged your market. We'll reach out to <strong id="sent-biz"></strong> in <strong id="sent-city"></strong> as soon as your area goes live.</p>
+      </div>
+
+      <a href="/sentinel/" class="btn-secondary-link" style="margin-top:20px">← Back to Search Sentinel</a>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  © 2026 Search Sentinel · A product of <a href="/" style="color:var(--blue)">SutraFlow</a> · Questions? <a href="mailto:sutrafloworg@gmail.com" style="color:var(--blue)">sutrafloworg@gmail.com</a>
+</footer>
+
+<script>
+  // Read plan from URL: ?plan=alert | audit | monitor
+  function getPlan() {
+    const p = new URLSearchParams(window.location.search).get('plan') || 'audit';
+    return p;
+  }
+
+  function setStep(step) {
+    const dot1 = document.getElementById('dot-1');
+    const dot2 = document.getElementById('dot-2');
+    const line1 = document.getElementById('line-1');
+
+    if (step === 2) {
+      dot1.classList.remove('active');
+      dot1.classList.add('done');
+      dot1.textContent = '✓';
+      line1.classList.add('done');
+      dot2.classList.add('active');
+    }
+  }
+
+  function showPanel(id) {
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
+
+  function checkCoverage() {
+    const city = document.getElementById('city-select').value;
+    const cat = document.getElementById('cat-select').value;
+
+    if (!city || !cat) {
+      alert('Please select both your city and business type to continue.');
+      return;
+    }
+
+    setStep(2);
+
+    if (city === 'covered' && cat === 'covered') {
+      // Show covered panel with correct CTA
+      showPanel('panel-covered');
+      const plan = getPlan();
+      document.getElementById('cta-alert').style.display   = plan === 'alert'   ? 'block' : 'none';
+      document.getElementById('cta-audit').style.display   = plan === 'audit'   ? 'block' : 'none';
+      document.getElementById('cta-monitor').style.display = plan === 'monitor' ? 'block' : 'none';
+      // Fallback: if plan unknown, show audit
+      if (!['alert','audit','monitor'].includes(plan)) {
+        document.getElementById('cta-audit').style.display = 'block';
+      }
+    } else {
+      showPanel('panel-coming-soon');
+    }
+  }
+
+  function submitFeedback(e) {
+    e.preventDefault();
+    const name = document.getElementById('biz-name').value.trim();
+    const city = document.getElementById('biz-city').value.trim();
+
+    if (!name || !city) {
+      alert('Please enter your business name and city to continue.');
+      return;
+    }
+
+    // Open mailto: with the details pre-filled
+    const subject = encodeURIComponent('Search Sentinel Coverage Request');
+    const body = encodeURIComponent(
+      'Business Name: ' + name + '\n' +
+      'City: ' + city + '\n\n' +
+      'Please notify me when Search Sentinel covers my area.'
+    );
+    window.location.href = 'mailto:sutrafloworg@gmail.com?subject=' + subject + '&body=' + body;
+
+    // Show confirmation
+    document.getElementById('feedback-form').style.display = 'none';
+    document.getElementById('feedback-sent').style.display = 'block';
+    document.getElementById('sent-biz').textContent = name;
+    document.getElementById('sent-city').textContent = city;
+  }
+</script>
+
+</body>
+</html>

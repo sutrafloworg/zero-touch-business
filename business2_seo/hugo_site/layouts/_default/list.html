@@ -1,0 +1,405 @@
+{{- define "main" }}
+
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "index_profile.html" . }}
+{{- else }}
+
+{{- $pages := union .RegularPages .Sections }}
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+{{- end }}
+{{- $paginator := .Paginate $pages }}
+
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+{{- if not .IsHome }}
+<style>
+  /* ── BLOG LIST OVERRIDE ─────────────────────────────────── */
+  .blog-list-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
+  }
+
+  /* Section header */
+  .blog-list-header {
+    padding: 48px 0 40px;
+    border-bottom: 1px solid #e8ecf0;
+    margin-bottom: 40px;
+  }
+  .blog-list-header .section-eyebrow {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2563eb;
+    margin-bottom: 10px;
+  }
+  .blog-list-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.15;
+    margin: 0 0 12px;
+    letter-spacing: -0.03em;
+  }
+  .blog-list-header p {
+    font-size: 1rem;
+    color: #64748b;
+    max-width: 520px;
+    line-height: 1.65;
+    margin: 0;
+  }
+  .blog-count {
+    display: inline-block;
+    background: #eff6ff;
+    color: #2563eb;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-top: 14px;
+    border: 1px solid #bfdbfe;
+  }
+
+  /* Posts grid */
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+
+  /* Post card */
+  .blog-card {
+    background: #fff;
+    border: 1px solid #e8ecf0;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.09);
+    border-color: #cbd5e1;
+  }
+
+  /* Card accent bar */
+  .blog-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
+    opacity: 0;
+    transition: opacity 0.18s;
+  }
+  .blog-card:hover::before { opacity: 1; }
+
+  /* Card cover image */
+  .blog-card-cover {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  }
+  .blog-card-cover-placeholder {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  /* Card body */
+  .blog-card-body {
+    padding: 22px 24px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Tags */
+  .blog-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .blog-card-tag {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: #f1f5f9;
+    color: #475569;
+    text-decoration: none;
+    transition: background 0.12s, color 0.12s;
+  }
+  .blog-card-tag:hover {
+    background: #dbeafe;
+    color: #1d4ed8;
+  }
+  .blog-card-tag.tag-review { background: #ecfdf5; color: #059669; }
+  .blog-card-tag.tag-comparison { background: #fef3c7; color: #d97706; }
+  .blog-card-tag.tag-tutorial { background: #ede9fe; color: #7c3aed; }
+  .blog-card-tag.tag-review:hover { background: #d1fae5; }
+  .blog-card-tag.tag-comparison:hover { background: #fde68a; }
+  .blog-card-tag.tag-tutorial:hover { background: #ddd6fe; }
+
+  /* Card title */
+  .blog-card-title {
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.35;
+    margin: 0 0 10px;
+    letter-spacing: -0.015em;
+  }
+  .blog-card-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.12s;
+  }
+  .blog-card-title a:hover { color: #2563eb; }
+
+  /* Card excerpt */
+  .blog-card-excerpt {
+    font-size: 0.875rem;
+    color: #64748b;
+    line-height: 1.65;
+    flex: 1;
+    margin-bottom: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Card footer */
+  .blog-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
+    border-top: 1px solid #f1f5f9;
+    margin-top: auto;
+  }
+  .blog-card-meta {
+    font-size: 0.76rem;
+    color: #94a3b8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .blog-card-meta-dot {
+    width: 3px; height: 3px;
+    border-radius: 50%;
+    background: #cbd5e1;
+    flex-shrink: 0;
+  }
+  .blog-card-read-link {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: gap 0.15s;
+  }
+  .blog-card-read-link:hover { gap: 8px; }
+
+  /* Full-width first card */
+  .blog-grid .blog-card.featured-card {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .featured-card .blog-card-cover-placeholder,
+  .featured-card .blog-card-cover {
+    width: 40%;
+    aspect-ratio: unset;
+    min-height: 220px;
+    flex-shrink: 0;
+  }
+  .featured-card .blog-card-body { padding: 28px 32px; }
+  .featured-card .blog-card-title { font-size: 1.3rem; }
+  .featured-card .blog-card-excerpt { -webkit-line-clamp: 4; }
+  .featured-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #2563eb;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+
+  /* Pagination */
+  .blog-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 48px;
+  }
+  .blog-pagination a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 9px 20px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 9px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #475569;
+    text-decoration: none;
+    background: #fff;
+    transition: all 0.15s;
+  }
+  .blog-pagination a:hover {
+    border-color: #2563eb;
+    color: #2563eb;
+    background: #eff6ff;
+  }
+  .blog-pagination .page-info {
+    font-size: 0.82rem;
+    color: #94a3b8;
+    padding: 0 8px;
+  }
+
+  /* Empty state */
+  .blog-empty {
+    text-align: center;
+    padding: 64px 0;
+    color: #94a3b8;
+  }
+  .blog-empty h3 { font-size: 1.1rem; font-weight: 600; color: #64748b; margin-bottom: 8px; }
+
+  @media (max-width: 700px) {
+    .blog-grid { grid-template-columns: 1fr; }
+    .blog-grid .blog-card.featured-card { flex-direction: column; }
+    .featured-card .blog-card-cover-placeholder,
+    .featured-card .blog-card-cover { width: 100%; aspect-ratio: 16/9; min-height: unset; }
+    .blog-list-header h1 { font-size: 1.65rem; }
+  }
+</style>
+
+<div class="blog-list-wrap">
+  <div class="blog-list-header">
+    <div class="section-eyebrow">{{ if eq .Kind "term" }}Tagged: {{ .Title }}{{ else if eq .Kind "taxonomy" }}Browse Topics{{ else }}The SutraFlow Blog{{ end }}</div>
+    <h1>
+      {{- if eq .Kind "term" }}Posts tagged "{{ .Title }}"
+      {{- else if eq .Kind "taxonomy" }}Browse All Topics
+      {{- else }}AI Tools, Reviews & Guides
+      {{- end }}
+    </h1>
+    <p>
+      {{- if .Description }}{{ .Description | markdownify }}
+      {{- else }}Independent reviews, comparisons, and tutorials to help you find the right AI tool for your work.
+      {{- end }}
+    </p>
+    <span class="blog-count">{{ len $paginator.Pages }} {{ if eq (len $paginator.Pages) 1 }}article{{ else }}articles{{ end }}{{ if gt $paginator.TotalPages 1 }} · Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}{{ end }}</span>
+  </div>
+
+  {{- if $paginator.Pages }}
+  <div class="blog-grid">
+    {{- range $index, $page := $paginator.Pages }}
+    {{- $isFeatured := and (eq $index 0) (eq $paginator.PageNumber 1) }}
+
+    <article class="blog-card{{ if $isFeatured }} featured-card{{ end }}">
+
+      {{/* Cover image or placeholder */}}
+      {{- $coverSrc := "" }}
+      {{- with $page.Params.cover }}{{ with .image }}{{ $coverSrc = . }}{{ end }}{{ end }}
+      {{- if $coverSrc }}
+        <img src="{{ $coverSrc }}" alt="{{ $page.Title }}" class="blog-card-cover" loading="lazy">
+      {{- else }}
+        {{- $icons := slice "📊" "🤖" "✍️" "🔍" "⚡" "📈" "🛠️" "💡" "🧠" "📝" }}
+        {{- $icon := index $icons (mod $index (len $icons)) }}
+        <div class="blog-card-cover-placeholder" aria-hidden="true">{{ $icon }}</div>
+      {{- end }}
+
+      <div class="blog-card-body">
+        {{- if $isFeatured }}<div class="featured-label">★ &nbsp;Latest Article</div>{{ end }}
+
+        {{/* Tags */}}
+        {{- with $page.Params.tags }}
+        <div class="blog-card-tags">
+          {{- range first 3 . }}
+          {{- $tagSlug := . | urlize }}
+          <a href="/tags/{{ $tagSlug }}/" class="blog-card-tag tag-{{ $tagSlug }}">{{ . }}</a>
+          {{- end }}
+        </div>
+        {{- end }}
+
+        {{/* Title */}}
+        <h2 class="blog-card-title">
+          <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+        </h2>
+
+        {{/* Excerpt */}}
+        {{- if not ($page.Param "hideSummary") }}
+        <p class="blog-card-excerpt">{{ $page.Summary | plainify | htmlUnescape }}</p>
+        {{- end }}
+
+        {{/* Footer: meta + read link */}}
+        <div class="blog-card-footer">
+          <div class="blog-card-meta">
+            <span>{{ $page.Date.Format "Jan 2, 2006" }}</span>
+            {{- with $page.ReadingTime }}
+            <div class="blog-card-meta-dot"></div>
+            <span>{{ . }} min read</span>
+            {{- end }}
+          </div>
+          <a href="{{ $page.Permalink }}" class="blog-card-read-link">
+            Read <span>→</span>
+          </a>
+        </div>
+      </div>
+    </article>
+    {{- end }}
+  </div>
+
+  {{/* Pagination */}}
+  {{- if gt $paginator.TotalPages 1 }}
+  <div class="blog-pagination">
+    {{- if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL | absURL }}">← Newer</a>
+    {{- end }}
+    <span class="page-info">{{ $paginator.PageNumber }} / {{ $paginator.TotalPages }}</span>
+    {{- if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL | absURL }}">Older →</a>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- else }}
+  <div class="blog-empty">
+    <h3>No posts yet</h3>
+    <p>Check back soon — content is on its way.</p>
+  </div>
+  {{- end }}
+
+</div>
+{{- end }}{{/* end not .IsHome */}}
+
+{{- end }}{{/* end profileMode */}}
+{{- end }}{{- /* end main */ -}}
