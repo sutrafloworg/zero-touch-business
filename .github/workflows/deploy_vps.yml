@@ -1,0 +1,89 @@
+name: Deploy Webhook Server to VPS
+
+# Rebuilds and restarts the Docker container on the Oracle Cloud VPS
+# whenever new code is pushed to feat/content-quality-eeat, or triggered manually.
+#
+# IMPORTANT: VPS tracks feat/content-quality-eeat (NOT main) so that the bind-mounted
+# data directory (/opt/localrank/business3_local_seo/data/) is on the same branch
+# that the weekly GitHub Actions scanner reads and commits subscribers.json and
+# pending_reports.json to.  Without this, subscribers registered via the website
+# are written to one branch and read by the scanner from another — they never meet.
+#
+# Required GitHub Secrets (add once in repo Settings → Secrets → Actions):
+#   VPS_HOST    — public IP of the Oracle Cloud instance (e.g. 152.x.x.x)
+#   VPS_USER    — SSH username (typically "ubuntu" or "opc")
+#   VPS_SSH_KEY — contents of your Oracle Cloud SSH private key (.pem file)
+#
+# Setup: paste the .pem file contents as VPS_SSH_KEY secret, then this
+# workflow auto-deploys every time business3_local_seo/ changes on feat branch.
+
+on:
+  push:
+    branches: [feat/content-quality-eeat]
+    paths:
+      - 'business3_local_seo/**'
+      - '.github/workflows/deploy_vps.yml'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy to Oracle Cloud VPS
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Pull latest code + rebuild Docker on VPS
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            set -euo pipefail
+            APP_DIR="/opt/localrank"
+
+            echo "=== [1/4] Pulling latest code from feat branch ==="
+            cd "$APP_DIR"
+            # Fix git safe.directory (repo is owned by root, ubuntu user needs this)
+            git config --global --add safe.directory "$APP_DIR"
+            git fetch origin feat/content-quality-eeat
+            git checkout feat/content-quality-eeat 2>/dev/null || true
+            git reset --hard origin/feat/content-quality-eeat
+
+            echo "=== [2/4] Rebuilding Docker image ==="
+            # Use raw docker build/run (docker-compose v1 has a KeyError:'ContainerConfig'
+            # bug with newer Docker daemon versions on Ubuntu 22.04)
+            sudo docker build -t localrank-webhook "$APP_DIR/business3_local_seo/"
+
+            echo "=== [3/4] Restarting container ==="
+            sudo docker stop localrank-webhook 2>/dev/null || true
+            sudo docker rm   localrank-webhook 2>/dev/null || true
+            sudo docker run -d \
+              --name localrank-webhook \
+              --restart unless-stopped \
+              -p 8080:8080 \
+              --env-file "$APP_DIR/business3_local_seo/deploy/.env" \
+              -v "$APP_DIR/business3_local_seo/data:/app/data" \
+              -v "$APP_DIR/business3_local_seo/reports:/app/reports" \
+              localrank-webhook
+
+            echo "=== [4/4] Health check + endpoint verify ==="
+            sleep 5
+            STATUS=$(curl -sf http://localhost:8080/health \
+              | python3 -c "import sys,json; print(json.load(sys.stdin)['status'])" \
+              2>/dev/null || echo "unreachable")
+            echo "Health status: $STATUS"
+
+            for EP in "/api/pre-register" "/api/city-request"; do
+              CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+                -X OPTIONS "http://localhost:8080${EP}" 2>/dev/null || echo "000")
+              echo "  OPTIONS ${EP} → HTTP ${CODE}"
+            done
+
+            if [ "$STATUS" = "ok" ]; then
+              echo "✅ Deployment successful"
+            else
+              echo "⚠️  Server unhealthy — dumping container logs"
+              sudo docker logs localrank-webhook --tail=40
+              exit 1
+            fi
