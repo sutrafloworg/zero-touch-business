@@ -68,23 +68,21 @@ jobs:
               -v "$APP_DIR/business3_local_seo/reports:/app/reports" \
               localrank-webhook
 
-            echo "=== [4/4] Health check + endpoint verify ==="
-            sleep 5
-            STATUS=$(curl -sf http://localhost:8080/health \
-              | python3 -c "import sys,json; print(json.load(sys.stdin)['status'])" \
-              2>/dev/null || echo "unreachable")
-            echo "Health status: $STATUS"
+            echo "=== [4/4] Health check ==="
+            sleep 8
+            # Use 127.0.0.1 explicitly (avoids IPv6/[::1] resolution issues with Docker)
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+              http://127.0.0.1:8080/health 2>/dev/null || echo "000")
+            echo "Health endpoint HTTP status: $HTTP_CODE"
 
-            for EP in "/api/pre-register" "/api/city-request"; do
-              CODE=$(curl -s -o /dev/null -w "%{http_code}" \
-                -X OPTIONS "http://localhost:8080${EP}" 2>/dev/null || echo "000")
-              echo "  OPTIONS ${EP} → HTTP ${CODE}"
-            done
+            # Also confirm container is still running
+            RUNNING=$(sudo docker ps --filter name=localrank-webhook --format "{{.Status}}" 2>/dev/null || echo "not found")
+            echo "Container status: $RUNNING"
 
-            if [ "$STATUS" = "ok" ]; then
+            if [ "$HTTP_CODE" = "200" ]; then
               echo "✅ Deployment successful"
             else
-              echo "⚠️  Server unhealthy — dumping container logs"
+              echo "⚠️  Health check returned $HTTP_CODE — dumping container logs"
               sudo docker logs localrank-webhook --tail=40
               exit 1
             fi
