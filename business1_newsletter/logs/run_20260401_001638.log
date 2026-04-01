@@ -1,0 +1,34 @@
+2026-04-01 00:16:39,137 [INFO] orchestrator — ============================================================
+2026-04-01 00:16:39,137 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-04-01 00:16:39,138 [INFO] orchestrator — Timestamp: 2026-04-01T00:16:39.138013+00:00
+2026-04-01 00:16:39,138 [INFO] orchestrator — ============================================================
+2026-04-01 00:16:39,175 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-04-01 00:16:39,235 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-04-01 00:16:39,876 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-04-01 00:16:40,531 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 7 fresh items
+2026-04-01 00:16:41,330 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-04-01 00:16:41,923 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-04-01 00:16:42,840 [INFO] agents.feed_agent —   Product Hunt AI: fetched 37 fresh items
+2026-04-01 00:16:48,205 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: <unknown>:2:3549: not well-formed (invalid token)
+2026-04-01 00:16:50,082 [INFO] agents.feed_agent —   OpenAI Blog: fetched 4 fresh items
+2026-04-01 00:16:50,584 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 88 total
+2026-04-01 00:16:50,585 [INFO] orchestrator —       Got 10 items
+2026-04-01 00:16:50,585 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-04-01 00:16:50,585 [INFO] agents.content_agent — Generating newsletter with sponsors: Writesonic, Rytr
+2026-04-01 00:17:05,797 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-01 00:17:05,819 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'OpenAI just blew $122B. Here's what actually matters.'
+2026-04-01 00:17:05,819 [INFO] orchestrator —       Subject: 'OpenAI just blew $122B. Here's what actually matters.'
+2026-04-01 00:17:05,819 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-04-01 00:17:05,819 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-04-01 00:17:05,997 [ERROR] agents.publisher_agent — Kit API error 401: {"error":"Authorization Failed","message":"You do not have sufficient permissions to access this resource"}
+2026-04-01 00:17:05,997 [ERROR] agents.publisher_agent — Publisher Agent: FAILED to publish — 401 Client Error: Unauthorized for url: https://api.convertkit.com/v3/broadcasts
+2026-04-01 00:17:05,997 [WARNING] agents.publisher_agent — Newsletter saved to fallback file: /home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260401_001705.html
+2026-04-01 00:17:06,030 [ERROR] agents.publisher_agent — Kit API error 401: {"error":"Authorization Failed","message":"You do not have sufficient permissions to access this resource"}
+2026-04-01 00:17:06,030 [ERROR] agents.publisher_agent — Could not fetch subscriber count: 401 Client Error: Unauthorized for url: https://api.convertkit.com/v3/subscribers?sort_field=created_at&api_secret=AEzSnPN8swBdxJH2Yudm1WIGMA30qoMJ6XfJ2itfDBo
+2026-04-01 00:17:06,031 [INFO] orchestrator —       Broadcast ID: fallback:/home/runner/work/zero-touch-business/zero-touch-business/business1_newsletter/logs/unsent_newsletter_20260401_001705.html, Subscribers: -1
+2026-04-01 00:17:06,031 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-04-01 00:17:07,024 [INFO] agents.monitor_agent — Alert email sent: [ACTION REQUIRED] AI Tools Weekly — Publish Failed
+2026-04-01 00:17:08,239 [INFO] agents.monitor_agent — Alert email sent: [WARNING] AI Tools Weekly — API Auth Issue
+2026-04-01 00:17:08,240 [INFO] orchestrator — ============================================================
+2026-04-01 00:17:08,240 [INFO] orchestrator — Pipeline complete. Status: FAILED
+2026-04-01 00:17:08,240 [INFO] orchestrator — ============================================================
