@@ -38,6 +38,12 @@ BLOCKLIST_PATTERNS = [
     "admin@", "webmaster@", "support@",
 ]
 
+# Fake "emails" that are actually image/asset filenames (e.g. cropped-Favicon@512px-32x32.png)
+FAKE_EMAIL_TLDS = {
+    "png", "jpg", "jpeg", "gif", "webp", "svg", "ico", "bmp",
+    "css", "js", "json", "xml", "txt", "pdf", "zip", "woff", "woff2",
+}
+
 
 class OutreachAgent:
     def __init__(
@@ -126,10 +132,13 @@ class OutreachAgent:
                     except Exception:
                         continue
 
-            # Filter out blocklisted patterns
+            # Filter out blocklisted patterns and asset filenames (e.g. image@512px.png)
             valid_emails = [
                 e for e in emails
                 if not any(p in e.lower() for p in BLOCKLIST_PATTERNS)
+                and e.rsplit(".", 1)[-1].lower() not in FAKE_EMAIL_TLDS
+                and "@" in e
+                and len(e.split("@")[0]) >= 2
             ]
 
             if valid_emails:
@@ -180,7 +189,7 @@ class OutreachAgent:
 <div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
   <p>Hi,</p>
 
-  <p>I track Google Maps rankings for <em>{category_label}</em> businesses across {city} every week.</p>
+  <p>We track Google Maps rankings for <em>{category_label}</em> businesses across {city} every week.</p>
 
   <p>This week, <strong>{business_name}</strong> dropped from
   <strong style="color:#0066cc">#{alert['prev_rank']}</strong> to
@@ -240,7 +249,7 @@ class OutreachAgent:
   <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
   <p style="font-size:11px;color:#999">
     This is a one-time commercial message from Search Sentinel.<br>
-    Search Sentinel · 1111 S Figueroa St · Los Angeles, CA 90015<br>
+    Search Sentinel · Hillsborough, NJ 08844<br>
     To opt out of future emails, reply with "unsubscribe".
   </p>
 </div>
@@ -301,7 +310,7 @@ class OutreachAgent:
 
   <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
   <p style="font-size:11px;color:#999">
-    Search Sentinel · 1111 S Figueroa St · Los Angeles, CA 90015<br>
+    Search Sentinel · Hillsborough, NJ 08844<br>
     sutraflow.org
   </p>
 </div>
