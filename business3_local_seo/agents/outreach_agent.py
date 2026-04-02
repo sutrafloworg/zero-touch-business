@@ -530,24 +530,27 @@ class OutreachAgent:
             logger.error(f"All-clear email failed for {to_email}: {e}")
             return False
 
-    def process_batch(self, report_results: list[dict]) -> dict:
+    def process_batch_teasers(self, alerts: list[dict]) -> dict:
         """
-        For each generated audit, find contact email and send appropriate email:
-        - Active subscriber → send full PDF report for FREE (no payment needed)
-        - Non-subscriber → send teaser email with payment links
+        Send teaser emails for rank drops — NO PDF generation.
 
-        Returns summary stats + list of contacted businesses for the report index.
+        For each alert:
+        - Active subscriber → send a subscriber drop-notification email (no PDF attached;
+          the subscriber can reply or will get a PDF from the webhook if they want one)
+        - Non-subscriber → send teaser email with Stripe payment links
+
+        PDFs are generated on-demand AFTER payment via webhook_server.py.
+        This keeps the weekly pipeline fast and avoids burning Claude API quota.
+
+        Returns summary stats + list of contacted businesses.
         """
         sent = 0
         no_email = 0
         failed = 0
-        subscriber_reports = 0
+        subscriber_notified = 0
         contacted = []
 
-        for item in report_results[:self.max_emails_per_run]:
-            alert = item["alert"]
-            pdf_path = item["pdf_path"]
-
+        for alert in alerts[:self.max_emails_per_run]:
             email = self.find_email_from_website(alert.get("website", ""))
 
             if not email:
@@ -555,19 +558,20 @@ class OutreachAgent:
                 logger.info(f"Outreach: no email found for {alert['business_name']}")
                 continue
 
-            # CHECK: Is this an active subscriber? If so, send free report instead of teaser
+            # CHECK: Is this an active subscriber?
             if self.is_active_subscriber(email):
-                success = self.send_subscriber_report_email(
-                    email, alert["business_name"], alert, Path(pdf_path)
+                # Subscribers get a drop-notification email (no PDF — generated on demand)
+                success = self.send_subscriber_drop_notification(
+                    email, alert["business_name"], alert
                 )
                 if success:
-                    subscriber_reports += 1
+                    subscriber_notified += 1
                     sent += 1
                     contacted.append({
                         "email": email,
                         "business_name": alert["business_name"],
-                        "pdf_path": str(pdf_path),
                         "category_key": alert["category_key"],
+                        "alert_data": alert,
                         "type": "subscriber_report",
                     })
                 else:
@@ -579,8 +583,8 @@ class OutreachAgent:
                     contacted.append({
                         "email": email,
                         "business_name": alert["business_name"],
-                        "pdf_path": str(pdf_path),
                         "category_key": alert["category_key"],
+                        "alert_data": alert,
                         "type": "teaser",
                     })
                 else:
@@ -592,11 +596,90 @@ class OutreachAgent:
             "sent": sent,
             "no_email": no_email,
             "failed": failed,
-            "subscriber_reports": subscriber_reports,
+            "subscriber_notified": subscriber_notified,
             "contacted": contacted,
         }
         logger.info(
-            f"Outreach batch complete: sent={sent} (subscribers={subscriber_reports}), "
+            f"Outreach batch complete: sent={sent} (subscribers={subscriber_notified}), "
             f"no_email={no_email}, failed={failed}"
         )
         return summary
+
+    def send_subscriber_drop_notification(
+        self,
+        to_email: str,
+        business_name: str,
+        alert: dict,
+    ) -> bool:
+        """Send drop notification to active subscriber — no PDF attached.
+        The full PDF will be generated and sent automatically (subscriber benefit)
+        by a background job or on-demand request."""
+        if not all([self.gmail_user, self.gmail_app_password, to_email]):
+            return False
+
+        category_parts = alert["category_key"].split("_")
+        city = category_parts[0].title() if category_parts else "your city"
+
+        subject = f"Rank Drop Alert: {business_name} — #{alert['prev_rank']} to #{alert['curr_rank']}"
+
+        reasons = alert.get("reasons", [])
+        reasons_html = ""
+        if reasons:
+            reasons_items = "\n".join(f"    <li>{r}</li>" for r in reasons[:3])
+            reasons_html = f"""
+  <p style="font-weight:600;margin:16px 0 6px">Detected signals:</p>
+  <ul style="margin:0;padding-left:20px;color:#555">
+{reasons_items}
+  </ul>"""
+
+        html_body = f"""
+<div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
+  <p>Hi,</p>
+
+  <p>Your weekly monitoring detected a ranking change for <strong>{business_name}</strong>:</p>
+
+  <div style="background:#fff8f0;border-left:4px solid #e67e22;padding:12px 16px;margin:16px 0">
+    <p style="margin:0;font-size:15px">
+      Ranking moved from <strong style="color:#0066cc">#{alert['prev_rank']}</strong> to
+      <strong style="color:#c0392b">#{alert['curr_rank']}</strong>
+      — <strong>{alert['rank_change']} position{'s' if alert['rank_change'] != 1 else ''} lost</strong>
+    </p>
+  </div>
+{reasons_html}
+
+  <p><strong>Your full audit report is being generated</strong> and will be emailed
+  to you shortly. As an active subscriber, this is included at no extra cost.</p>
+
+  <p style="font-size:13px;color:#555">If you need the report urgently, reply to
+  this email and we'll prioritize delivery.</p>
+
+  <p>Best,<br>
+  Search Sentinel</p>
+
+  <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
+  <p style="font-size:11px;color:#999">
+    Search Sentinel · Weekly Monitoring Report<br>
+    sutraflow.org/sentinel<br>
+    To manage your subscription, reply with "manage".
+  </p>
+</div>
+""".strip()
+
+        try:
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = subject
+            msg["From"] = f"{self.from_name} <{self.gmail_user}>"
+            msg["To"] = to_email
+            msg["Reply-To"] = self.gmail_user
+            msg.attach(MIMEText(html_body, "html"))
+
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(self.gmail_user, self.gmail_app_password)
+                server.sendmail(self.gmail_user, [to_email], msg.as_string())
+
+            logger.info(f"Subscriber drop notification sent to {to_email} ({business_name})")
+            return True
+
+        except Exception as e:
+            logger.error(f"Subscriber notification failed for {to_email}: {e}")
+            return False

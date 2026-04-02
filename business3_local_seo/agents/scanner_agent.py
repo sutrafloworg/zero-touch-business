@@ -1,18 +1,18 @@
 """
-Scanner Agent — fetches Google Local Pack results via SerpAPI (primary)
-with automatic fallback to ValueSERP when the monthly SerpAPI quota is near exhausted.
+Scanner Agent — fetches Google Local Pack results via a rotary array of search APIs.
 
-Monthly search budget:
-  - SerpAPI   : 245 searches (free tier cap 250, buffer of 5)
-  - ValueSERP : 95 searches  (free tier cap 100, buffer of 5)
-  - Total     : 340 searches/month combined
+Provider rotation (exhausts each free tier before moving to next):
+  1. SerpAPI     : 245 searches/month (free tier cap 250, buffer of 5)
+  2. Outscraper  : 95 searches/month  (free tier ~100 Google Maps requests, buffer of 5)
+  3. ValueSERP   : 95 searches/month  (free tier cap 100, buffer of 5)
+  Total budget   : 435 searches/month combined
 
 Provider selection logic (per calendar month):
   1. Use SerpAPI until SERPAPI_MONTHLY_LIMIT is reached.
-  2. Automatically switch to ValueSERP for the remainder of the month.
-  3. If both quotas are exhausted, log a warning and return an empty result
-     (pipeline continues without crashing).
-  4. Usage counts reset on the 1st of each calendar month.
+  2. Switch to Outscraper for the next batch.
+  3. If Outscraper is exhausted, fall back to ValueSERP.
+  4. If all quotas are exhausted, log a warning and return an empty result.
+  5. Usage counts reset on the 1st of each calendar month.
 
 Usage is persisted to data/search_usage.json so counts survive between
 pipeline runs (GitHub Actions cold-starts each time).
@@ -27,8 +27,9 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-SERPAPI_URL    = "https://serpapi.com/search.json"
+SERPAPI_URL     = "https://serpapi.com/search.json"
 VALUESERP_URL  = "https://api.valueserp.com/search"
+OUTSCRAPER_URL = "https://api.app.outscraper.com/maps/search-v3"
 
 USAGE_FILE_NAME = "search_usage.json"
 
@@ -36,20 +37,23 @@ USAGE_FILE_NAME = "search_usage.json"
 class ScannerAgent:
     def __init__(
         self,
-        api_key: str,                   # SerpAPI key (primary)
-        valueserp_key: str = "",        # ValueSERP key (fallback)
+        api_key: str,                        # SerpAPI key (primary)
+        valueserp_key: str = "",             # ValueSERP key (fallback 2)
+        outscraper_key: str = "",            # Outscraper key (fallback 1)
         serpapi_monthly_limit: int = 245,
+        outscraper_monthly_limit: int = 95,
         valueserp_monthly_limit: int = 95,
         max_retries: int = 3,
         usage_file: Path | None = None,
     ):
         self.serpapi_key              = api_key
         self.valueserp_key            = valueserp_key
+        self.outscraper_key           = outscraper_key
         self.serpapi_monthly_limit    = serpapi_monthly_limit
+        self.outscraper_monthly_limit = outscraper_monthly_limit
         self.valueserp_monthly_limit  = valueserp_monthly_limit
         self.max_retries              = max_retries
 
-        # usage_file lives in the same data/ dir as other state files
         if usage_file is None:
             usage_file = Path(__file__).parent.parent / "data" / USAGE_FILE_NAME
         self.usage_file = usage_file
@@ -57,11 +61,9 @@ class ScannerAgent:
     # ── Usage tracking ────────────────────────────────────────────────────────
 
     def _current_month(self) -> str:
-        """Return YYYY-MM string for the current UTC month."""
         return datetime.now(timezone.utc).strftime("%Y-%m")
 
     def _load_usage(self) -> dict:
-        """Load usage counters, resetting if a new calendar month has started."""
         current_month = self._current_month()
         try:
             with open(self.usage_file) as f:
@@ -69,13 +71,16 @@ class ScannerAgent:
         except (FileNotFoundError, json.JSONDecodeError):
             data = {}
 
-        # Reset counters if we've rolled into a new month
         if data.get("month") != current_month:
             logger.info(
                 f"Scanner: new month ({current_month}) — resetting search usage counters"
             )
-            data = {"month": current_month, "serpapi": 0, "valueserp": 0}
+            data = {"month": current_month, "serpapi": 0, "outscraper": 0, "valueserp": 0}
             self._save_usage(data)
+
+        # Ensure outscraper key exists in older usage files
+        if "outscraper" not in data:
+            data["outscraper"] = 0
 
         return data
 
@@ -95,33 +100,44 @@ class ScannerAgent:
     def _choose_provider(self) -> str | None:
         """
         Decide which provider to use for the next search.
-        Returns 'serpapi', 'valueserp', or None if both are exhausted.
+        Returns 'serpapi', 'outscraper', 'valueserp', or None if all exhausted.
         """
         usage = self._load_usage()
-        serpapi_used   = usage.get("serpapi",   0)
+        serpapi_used    = usage.get("serpapi", 0)
+        outscraper_used = usage.get("outscraper", 0)
         valueserp_used = usage.get("valueserp", 0)
 
+        # Priority 1: SerpAPI
         if serpapi_used < self.serpapi_monthly_limit and self.serpapi_key:
-            remaining_serp = self.serpapi_monthly_limit - serpapi_used
-            remaining_vs   = self.valueserp_monthly_limit - valueserp_used
+            remaining = self.serpapi_monthly_limit - serpapi_used
             logger.debug(
                 f"Scanner: SerpAPI {serpapi_used}/{self.serpapi_monthly_limit} used "
-                f"| ValueSERP {valueserp_used}/{self.valueserp_monthly_limit} used "
-                f"| Using SerpAPI ({remaining_serp} left this month)"
+                f"| Using SerpAPI ({remaining} left)"
             )
             return "serpapi"
 
+        # Priority 2: Outscraper
+        if outscraper_used < self.outscraper_monthly_limit and self.outscraper_key:
+            remaining = self.outscraper_monthly_limit - outscraper_used
+            logger.info(
+                f"Scanner: SerpAPI quota reached ({serpapi_used} used). "
+                f"Switching to Outscraper ({remaining} searches remaining)."
+            )
+            return "outscraper"
+
+        # Priority 3: ValueSERP
         if valueserp_used < self.valueserp_monthly_limit and self.valueserp_key:
             remaining = self.valueserp_monthly_limit - valueserp_used
             logger.info(
-                f"Scanner: SerpAPI quota reached ({serpapi_used} searches used). "
-                f"Switching to ValueSERP ({remaining} searches remaining this month)."
+                f"Scanner: SerpAPI + Outscraper quotas reached. "
+                f"Switching to ValueSERP ({remaining} searches remaining)."
             )
             return "valueserp"
 
         logger.warning(
-            f"Scanner: BOTH providers exhausted for {self._current_month()}. "
+            f"Scanner: ALL providers exhausted for {self._current_month()}. "
             f"SerpAPI: {serpapi_used}/{self.serpapi_monthly_limit}, "
+            f"Outscraper: {outscraper_used}/{self.outscraper_monthly_limit}, "
             f"ValueSERP: {valueserp_used}/{self.valueserp_monthly_limit}. "
             f"Skipping search — quotas reset on the 1st of next month."
         )
@@ -130,7 +146,6 @@ class ScannerAgent:
     # ── Provider-specific search calls ────────────────────────────────────────
 
     def _search_serpapi(self, search_query: str) -> list[dict]:
-        """Call SerpAPI google_maps engine and normalize the response."""
         params = {
             "engine":  "google_maps",
             "q":       search_query,
@@ -142,12 +157,31 @@ class ScannerAgent:
         data = resp.json()
         return self._normalize_serpapi(data)
 
+    def _search_outscraper(self, search_query: str) -> list[dict]:
+        """Call Outscraper Google Maps Search API v3 and normalize the response.
+
+        Outscraper's free tier gives ~25 requests/month with 20 results each.
+        We set a conservative limit and normalize to our standard schema.
+        """
+        headers = {
+            "X-API-KEY": self.outscraper_key,
+            "Accept": "application/json",
+        }
+        params = {
+            "query": search_query,
+            "limit": 20,          # top 20 results like SerpAPI
+            "async": "false",     # synchronous request
+        }
+        resp = requests.get(OUTSCRAPER_URL, params=params, headers=headers, timeout=60)
+        resp.raise_for_status()
+        data = resp.json()
+        return self._normalize_outscraper(data)
+
     def _search_valueserp(self, search_query: str) -> list[dict]:
-        """Call ValueSERP places search and normalize the response."""
         params = {
             "api_key":     self.valueserp_key,
             "q":           search_query,
-            "search_type": "places",   # ValueSERP uses 'places' for Google Maps/local results
+            "search_type": "places",
         }
         resp = requests.get(VALUESERP_URL, params=params, timeout=30)
         resp.raise_for_status()
@@ -157,7 +191,6 @@ class ScannerAgent:
     # ── Response normalizers ──────────────────────────────────────────────────
 
     def _normalize_serpapi(self, data: dict) -> list[dict]:
-        """Extract the fields we care about from a SerpAPI google_maps response."""
         results = []
         for i, place in enumerate(data.get("local_results", [])[:20], 1):
             results.append({
@@ -176,28 +209,40 @@ class ScannerAgent:
             })
         return results
 
-    def _normalize_valueserp(self, data: dict) -> list[dict]:
+    def _normalize_outscraper(self, data: dict) -> list[dict]:
         """
-        Extract the fields we care about from a ValueSERP places response.
-        ValueSERP returns places_results[] with different field names than SerpAPI;
-        we map them to the same schema so the rest of the pipeline is completely
-        unaware of which provider was used.
+        Normalize Outscraper Google Maps Search v3 response.
 
-        ValueSERP field mapping:
-          places_results  → list of places (not 'local_results')
-          title           → name
-          data_cid        → place_id
-          rating          → rating
-          reviews         → reviews
-          address         → address
-          phone           → phone
-          link            → website (not 'website')
-          category        → type (not 'type')
-          thumbnail       → thumbnail
-          hours           → hours
-          description     → description
-          position        → rank (1-based, provided by ValueSERP)
+        Outscraper returns a nested list: [[{place1}, {place2}, ...]]
+        Each place has fields like:
+          name, place_id, rating, reviews, full_address, phone, site,
+          type, photo, working_hours, description, etc.
         """
+        results = []
+        # Outscraper wraps results in a list of lists
+        places_list = data if isinstance(data, list) else data.get("data", [])
+        places = places_list[0] if places_list and isinstance(places_list[0], list) else places_list
+
+        for i, place in enumerate(places[:20], 1):
+            if not isinstance(place, dict):
+                continue
+            results.append({
+                "rank":        i,
+                "name":        place.get("name", ""),
+                "place_id":    place.get("place_id", ""),
+                "rating":      float(place.get("rating", 0) or 0),
+                "reviews":     int(place.get("reviews", 0) or 0),
+                "address":     place.get("full_address", place.get("address", "")),
+                "phone":       place.get("phone", ""),
+                "website":     place.get("site", place.get("website", "")),
+                "type":        place.get("type", place.get("subtypes", [""])[0] if place.get("subtypes") else ""),
+                "thumbnail":   place.get("photo", ""),
+                "hours":       place.get("working_hours", ""),
+                "description": place.get("description", ""),
+            })
+        return results
+
+    def _normalize_valueserp(self, data: dict) -> list[dict]:
         results = []
         for i, place in enumerate(data.get("places_results", [])[:20], 1):
             results.append({
@@ -222,16 +267,17 @@ class ScannerAgent:
         """
         Search Google Maps rankings for a single query.
         Automatically selects the right provider based on monthly quota usage.
-        Returns list of businesses with rank, rating, reviews, etc.
         """
         provider = self._choose_provider()
         if provider is None:
-            return []  # both quotas exhausted — skip gracefully
+            return []
 
         for attempt in range(self.max_retries):
             try:
                 if provider == "serpapi":
                     results = self._search_serpapi(search_query)
+                elif provider == "outscraper":
+                    results = self._search_outscraper(search_query)
                 else:
                     results = self._search_valueserp(search_query)
 
@@ -245,7 +291,7 @@ class ScannerAgent:
                 wait = (2 ** attempt) * 5
                 logger.warning(
                     f"Scanner [{provider}] error (attempt {attempt + 1}/{self.max_retries}): "
-                    f"{e}. Retrying in {wait}s…"
+                    f"{e}. Retrying in {wait}s..."
                 )
                 time.sleep(wait)
 
@@ -255,14 +301,7 @@ class ScannerAgent:
         return []
 
     def scan_all_targets(self, cities_data: dict) -> dict:
-        """
-        Scan all city + category combinations.
-        Returns: {
-            "austin_tx_plumber": [list of businesses],
-            "austin_tx_dentist": [list of businesses],
-            ...
-        }
-        """
+        """Scan all city + category combinations."""
         all_results = {}
 
         for city_config in cities_data.get("targets", []):
@@ -278,14 +317,13 @@ class ScannerAgent:
                 results = self.scan_local_pack(query, location)
                 all_results[key] = results
 
-                # Rate limit: 1 request per 2 seconds
-                time.sleep(2)
+                time.sleep(2)  # rate limit
 
-        # Log end-of-run usage summary
         usage = self._load_usage()
         logger.info(
             f"Scanner: monthly usage after this run — "
             f"SerpAPI {usage.get('serpapi', 0)}/{self.serpapi_monthly_limit}, "
+            f"Outscraper {usage.get('outscraper', 0)}/{self.outscraper_monthly_limit}, "
             f"ValueSERP {usage.get('valueserp', 0)}/{self.valueserp_monthly_limit}"
         )
 

@@ -18,8 +18,9 @@ CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 CLAUDE_MAX_TOKENS = 4096
 CLAUDE_RETRY_ATTEMPTS = 3
 
-# ── SerpAPI (free tier: 100 searches/month) ────────────────────────────────────
+# ── Search API Keys (rotary: SerpAPI → Outscraper → ValueSERP) ───────────────
 SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "")
+OUTSCRAPER_API_KEY = os.environ.get("OUTSCRAPER_API_KEY", "")
 
 # ── Target Configuration ──────────────────────────────────────────────────────
 CITIES_FILE = DATA_DIR / "cities.json"

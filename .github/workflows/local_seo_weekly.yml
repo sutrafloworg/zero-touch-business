@@ -11,7 +11,7 @@ permissions:
 jobs:
   scan-and-outreach:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15  # No PDF generation in pipeline — scan + teasers only
 
     steps:
       - name: Checkout repository
@@ -34,6 +34,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          OUTSCRAPER_API_KEY: ${{ secrets.OUTSCRAPER_API_KEY }}
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}

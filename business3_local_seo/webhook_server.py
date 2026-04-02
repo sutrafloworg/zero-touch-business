@@ -26,6 +26,9 @@ Customer registry (customers.json):
   ]
 }
 
+PDF reports are generated on-demand when a customer pays (not pre-generated).
+The fulfillment agent handles PDF generation + email delivery in one step.
+
 Designed to run on Oracle Cloud Always Free tier or Hetzner VPS.
 """
 import json

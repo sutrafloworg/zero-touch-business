@@ -2,11 +2,16 @@
 Local SEO Sentinel Orchestrator — entry point for GitHub Actions weekly run.
 
 Every Monday:
-  1. Scanner Agent  → fetch Google Maps rankings via SerpAPI
+  1. Scanner Agent  → fetch Google Maps rankings via SerpAPI / Outscraper
   2. Analyzer Agent → compare to last week, detect rank drops
-  3. Report Agent   → generate personalized audit PDFs with Claude
-  4. Outreach Agent → find emails, send audit PDFs to affected businesses
+  3. Outreach Agent → send teaser emails to businesses with rank drops
+  4. Fulfillment    → register alerts for PDF delivery after payment
   5. Monitor Agent  → record stats, send summary to owner
+
+PDF reports are NOT generated during the weekly scan.  They are generated
+on-demand by the webhook server only after a customer pays via Stripe.
+This keeps the pipeline fast (<5 min) and avoids burning API quota on
+free leads.
 
 Zero-touch after initial setup.
 """
@@ -33,7 +38,6 @@ logger = logging.getLogger("local_seo_orchestrator")
 import config
 from agents.scanner_agent import ScannerAgent
 from agents.analyzer_agent import AnalyzerAgent
-from agents.report_agent import ReportAgent
 from agents.outreach_agent import OutreachAgent
 from agents.monitor_agent import MonitorAgent
 from agents.fulfillment_agent import FulfillmentAgent
@@ -135,7 +139,10 @@ def run_pipeline() -> bool:
     try:
         # ── Step 1: Scan ───────────────────────────────────────────────────────
         logger.info("[1/5] Scanner Agent: fetching Google Maps rankings...")
-        scanner = ScannerAgent(api_key=config.SERPAPI_KEY)
+        scanner = ScannerAgent(
+            api_key=config.SERPAPI_KEY,
+            outscraper_key=config.OUTSCRAPER_API_KEY,
+        )
         scan_results = scanner.scan_all_targets(cities_data)
         total_scans = len(scan_results)
         logger.info(f"      Scanned {total_scans} categories")
@@ -178,46 +185,39 @@ def run_pipeline() -> bool:
             monitor.record_run(total_scans, 0, 0, allclear_sent, {})
             return True
 
-        # ── Step 3: Generate Reports ───────────────────────────────────────────
-        logger.info(f"[3/5] Report Agent: generating {len(alerts)} audit PDFs...")
-        reporter = ReportAgent(
-            api_key=config.ANTHROPIC_API_KEY,
-            reports_dir=config.REPORTS_DIR,
-            model=config.CLAUDE_MODEL,
-        )
-        report_results = reporter.generate_batch(alerts)
-        logger.info(f"      Generated {len(report_results)} PDFs")
-
-        # ── Step 4: Outreach (teaser emails — no PDF attached) ────────────────
-        logger.info("[4/6] Outreach Agent: finding emails + sending teaser alerts...")
+        # ── Step 3: Outreach (teaser emails only — NO PDF generation) ────────
+        # PDFs are generated on-demand AFTER payment via webhook_server.py.
+        # This keeps the pipeline fast and avoids burning Claude/SerpAPI quota.
+        logger.info(f"[3/5] Outreach Agent: sending teaser emails for {len(alerts)} drops...")
         outreach = OutreachAgent(
             gmail_user=config.GMAIL_USER,
             gmail_app_password=config.GMAIL_APP_PASSWORD,
             payment_url=config.PAYMENT_URL_MONITORING,
             payment_url_audit=config.PAYMENT_URL_AUDIT,
         )
-        outreach_summary = outreach.process_batch(report_results)
+        outreach_summary = outreach.process_batch_teasers(alerts)
 
-        # ── Step 5: Register reports for post-payment delivery ───────────────
-        # Only register non-subscriber contacts (subscribers already got their PDF)
+        # ── Step 4: Register alerts for post-payment PDF delivery ────────────
+        # Store the alert data so webhook_server can generate + deliver PDFs
+        # after customer pays.  Only register non-subscriber contacts.
         contacted = outreach_summary.get("contacted", [])
         teaser_contacts = [c for c in contacted if c.get("type") != "subscriber_report"]
         if teaser_contacts:
-            logger.info(f"[5/6] Fulfillment: registering {len(teaser_contacts)} reports for delivery...")
+            logger.info(f"[4/5] Fulfillment: registering {len(teaser_contacts)} alerts for payment...")
             fulfillment = FulfillmentAgent(
                 index_file=config.PENDING_REPORTS_FILE,
                 outreach=outreach,
             )
-            fulfillment.register_reports(teaser_contacts)
+            fulfillment.register_alerts(teaser_contacts)
         else:
-            logger.info("[5/6] Fulfillment: no non-subscriber contacts to register")
+            logger.info("[4/5] Fulfillment: no non-subscriber contacts to register")
 
-        # ── Step 6: Monitor ────────────────────────────────────────────────────
-        logger.info("[6/6] Monitor Agent: recording stats...")
+        # ── Step 5: Monitor ────────────────────────────────────────────────────
+        logger.info("[5/5] Monitor Agent: recording stats...")
         monitor.record_run(
             scans=total_scans,
             alerts=len(alerts),
-            reports_generated=len(report_results),
+            reports_generated=0,  # no PDFs generated in pipeline — only after payment
             emails_sent=outreach_summary.get("sent", 0),
             outreach_summary=outreach_summary,
         )
@@ -228,7 +228,7 @@ def run_pipeline() -> bool:
         return False
 
     logger.info("=" * 60)
-    logger.info(f"Pipeline complete. {len(alerts)} drops, {outreach_summary.get('sent', 0)} emails sent")
+    logger.info(f"Pipeline complete. {len(alerts)} drops, {outreach_summary.get('sent', 0)} teasers sent (0 PDFs — generated on payment only)")
     logger.info("=" * 60)
     return True
 

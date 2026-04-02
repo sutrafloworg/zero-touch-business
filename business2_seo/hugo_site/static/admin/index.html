@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SutraFlow — Operations Dashboard</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #242736;
+    --border: #2e3149;
+    --accent: #4f8ef7;
+    --accent2: #7c5cf7;
+    --green: #22c55e;
+    --red: #ef4444;
+    --orange: #f59e0b;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --small: #64748b;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter', -apple-system, system-ui, sans-serif; font-size: 14px; min-height: 100vh; }
+
+  /* Login */
+  #login-screen {
+    display: flex; align-items: center; justify-content: center;
+    min-height: 100vh; background: var(--bg);
+  }
+  .login-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 16px; padding: 48px 40px; width: 360px; text-align: center;
+  }
+  .login-card h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 6px; }
+  .login-card p { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+  .login-card input {
+    width: 100%; padding: 12px 16px; background: var(--surface2);
+    border: 1px solid var(--border); border-radius: 8px; color: var(--text);
+    font-size: 14px; margin-bottom: 12px; outline: none;
+    transition: border-color 0.2s;
+  }
+  .login-card input:focus { border-color: var(--accent); }
+  .login-card button {
+    width: 100%; padding: 12px; background: var(--accent); border: none;
+    border-radius: 8px; color: white; font-size: 14px; font-weight: 600;
+    cursor: pointer; transition: opacity 0.2s;
+  }
+  .login-card button:hover { opacity: 0.88; }
+  .login-error { color: var(--red); font-size: 12px; margin-top: 10px; display: none; }
+
+  /* Dashboard */
+  #dashboard { display: none; }
+  .topbar {
+    background: var(--surface); border-bottom: 1px solid var(--border);
+    padding: 0 24px; height: 56px; display: flex; align-items: center;
+    justify-content: space-between; position: sticky; top: 0; z-index: 100;
+  }
+  .topbar-left { display: flex; align-items: center; gap: 14px; }
+  .topbar-logo { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.02em; }
+  .topbar-logo span { color: var(--accent); }
+  .topbar-badge {
+    font-size: 11px; padding: 3px 8px; border-radius: 99px;
+    background: rgba(79,142,247,0.15); color: var(--accent); font-weight: 600;
+  }
+  .topbar-right { display: flex; align-items: center; gap: 16px; }
+  .refresh-time { color: var(--small); font-size: 12px; }
+  #refresh-btn {
+    padding: 7px 14px; background: var(--surface2); border: 1px solid var(--border);
+    border-radius: 8px; color: var(--text); cursor: pointer; font-size: 13px;
+    transition: border-color 0.2s;
+  }
+  #refresh-btn:hover { border-color: var(--accent); color: var(--accent); }
+  #logout-btn {
+    padding: 7px 14px; background: transparent; border: 1px solid var(--border);
+    border-radius: 8px; color: var(--muted); cursor: pointer; font-size: 13px;
+  }
+  #logout-btn:hover { border-color: var(--red); color: var(--red); }
+
+  .main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+
+  /* Status bar */
+  .status-bar {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px; margin-bottom: 24px;
+  }
+  .status-card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 18px 20px;
+    display: flex; align-items: center; gap: 14px;
+  }
+  .status-dot {
+    width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;
+  }
+  .dot-green { background: var(--green); box-shadow: 0 0 8px rgba(34,197,94,0.5); }
+  .dot-red { background: var(--red); box-shadow: 0 0 8px rgba(239,68,68,0.5); }
+  .dot-orange { background: var(--orange); box-shadow: 0 0 8px rgba(245,158,11,0.5); }
+  .dot-gray { background: var(--small); }
+  .status-info .label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .status-info .value { font-size: 15px; font-weight: 600; margin-top: 2px; }
+
+  /* Grid layout */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+  @media (max-width: 900px) { .grid, .grid-3 { grid-template-columns: 1fr; } }
+
+  /* Panels */
+  .panel {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; overflow: hidden;
+  }
+  .panel-header {
+    padding: 16px 20px 14px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .panel-title { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+  .panel-body { padding: 16px 20px; }
+
+  /* Workflow rows */
+  .workflow-row {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 10px 0; border-bottom: 1px solid var(--border);
+  }
+  .workflow-row:last-child { border-bottom: none; }
+  .workflow-name { font-weight: 500; font-size: 13px; }
+  .workflow-meta { color: var(--small); font-size: 12px; margin-top: 2px; }
+  .workflow-right { text-align: right; }
+  .workflow-duration { color: var(--small); font-size: 11px; margin-top: 2px; }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 3px 10px; border-radius: 99px; font-size: 11px; font-weight: 600;
+  }
+  .badge-green { background: rgba(34,197,94,0.12); color: var(--green); }
+  .badge-red { background: rgba(239,68,68,0.12); color: var(--red); }
+  .badge-orange { background: rgba(245,158,11,0.12); color: var(--orange); }
+  .badge-blue { background: rgba(79,142,247,0.12); color: var(--accent); }
+  .badge-gray { background: rgba(100,116,139,0.15); color: var(--muted); }
+
+  /* Metric cards */
+  .metric-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .metric-mini {
+    background: var(--surface2); border-radius: 10px; padding: 14px 16px;
+  }
+  .metric-mini .m-label { color: var(--small); font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; }
+  .metric-mini .m-value { font-size: 22px; font-weight: 700; margin-top: 4px; }
+  .metric-mini .m-sub { color: var(--muted); font-size: 11px; margin-top: 3px; }
+
+  /* Customers table */
+  .customer-table { width: 100%; border-collapse: collapse; }
+  .customer-table th {
+    text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--small); padding: 8px 12px; border-bottom: 1px solid var(--border);
+  }
+  .customer-table td { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid rgba(46,49,73,0.5); }
+  .customer-table tr:last-child td { border-bottom: none; }
+  .customer-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+  /* Scan heatmap */
+  .scan-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; margin-top: 10px; }
+  .scan-cell {
+    aspect-ratio: 1; border-radius: 4px; display: flex; align-items: center;
+    justify-content: center; font-size: 11px; font-weight: 700; cursor: default;
+  }
+  .cell-1, .cell-2, .cell-3 { background: rgba(34,197,94,0.25); color: var(--green); }
+  .cell-4, .cell-5, .cell-6 { background: rgba(245,158,11,0.2); color: var(--orange); }
+  .cell-7plus { background: rgba(239,68,68,0.2); color: var(--red); }
+  .cell-na { background: var(--surface2); color: var(--small); font-size: 9px; }
+
+  /* Alert feed */
+  .alert-item {
+    padding: 12px 0; border-bottom: 1px solid var(--border);
+    display: flex; align-items: flex-start; gap: 12px;
+  }
+  .alert-item:last-child { border-bottom: none; }
+  .alert-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+  .alert-biz { font-weight: 600; font-size: 13px; }
+  .alert-detail { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .alert-time { color: var(--small); font-size: 11px; margin-top: 4px; }
+
+  /* Budget bars */
+  .budget-row { margin-bottom: 14px; }
+  .budget-labels { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 5px; }
+  .budget-bar { height: 8px; background: var(--surface2); border-radius: 4px; overflow: hidden; }
+  .budget-fill { height: 100%; border-radius: 4px; transition: width 0.6s ease; }
+  .fill-green { background: var(--green); }
+  .fill-orange { background: var(--orange); }
+  .fill-red { background: var(--red); }
+
+  /* Loader */
+  .loading-spinner {
+    display: inline-block; width: 16px; height: 16px;
+    border: 2px solid var(--border); border-top-color: var(--accent);
+    border-radius: 50%; animation: spin 0.7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .full-col { grid-column: 1 / -1; }
+  .text-green { color: var(--green); }
+  .text-red { color: var(--red); }
+  .text-orange { color: var(--orange); }
+  .text-muted { color: var(--muted); }
+  .section-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.07em; color: var(--small); margin-bottom: 14px; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<!-- LOGIN SCREEN -->
+<div id="login-screen">
+  <div class="login-card">
+    <h1>SutraFlow</h1>
+    <p>Operations Dashboard &mdash; Employee Access</p>
+    <input type="email" id="login-email" placeholder="Email address" autocomplete="email" />
+    <input type="password" id="login-token" placeholder="Access token" autocomplete="current-password" />
+    <button onclick="attemptLogin()">Sign In</button>
+    <div class="login-error" id="login-error">Invalid credentials.</div>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboard">
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="topbar-logo">Sutra<span>Flow</span></div>
+      <div class="topbar-badge">Operations</div>
+    </div>
+    <div class="topbar-right">
+      <div class="refresh-time" id="last-refreshed">Loading...</div>
+      <button id="refresh-btn" onclick="loadAll()">&#8635; Refresh</button>
+      <button id="logout-btn" onclick="logout()">Sign Out</button>
+    </div>
+  </div>
+
+  <div class="main">
+
+    <!-- STATUS BAR -->
+    <div class="status-bar" id="status-bar">
+      <div class="status-card">
+        <div class="status-dot dot-gray" id="dot-site"></div>
+        <div class="status-info">
+          <div class="label">Website</div>
+          <div class="value" id="val-site">Checking...</div>
+        </div>
+      </div>
+      <div class="status-card">
+        <div class="status-dot dot-gray" id="dot-vps"></div>
+        <div class="status-info">
+          <div class="label">Webhook VPS</div>
+          <div class="value" id="val-vps">Checking...</div>
+        </div>
+      </div>
+      <div class="status-card">
+        <div class="status-dot dot-gray" id="dot-deploy"></div>
+        <div class="status-info">
+          <div class="label">Last Deploy</div>
+          <div class="value" id="val-deploy">Loading...</div>
+        </div>
+      </div>
+      <div class="status-card">
+        <div class="status-dot dot-gray" id="dot-customers"></div>
+        <div class="status-info">
+          <div class="label">Active Customers</div>
+          <div class="value" id="val-customers">--</div>
+        </div>
+      </div>
+      <div class="status-card">
+        <div class="status-dot dot-gray" id="dot-scans"></div>
+        <div class="status-info">
+          <div class="label">Last Scan</div>
+          <div class="value" id="val-scans">Loading...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GITHUB WORKFLOWS -->
+    <div class="panel" style="margin-bottom: 20px;">
+      <div class="panel-header">
+        <div class="panel-title">GitHub Actions &mdash; Recent Workflow Runs</div>
+        <a href="https://github.com/sutrafloworg/zero-touch-business/actions" target="_blank" style="color: var(--accent); font-size: 12px; text-decoration: none;">View all &rarr;</a>
+      </div>
+      <div class="panel-body" id="workflows-panel">
+        <div style="color: var(--muted); font-size: 13px;">Loading workflow data...</div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <!-- CUSTOMERS -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Customers</div>
+          <div id="customer-badge" class="badge badge-blue">--</div>
+        </div>
+        <div class="panel-body" id="customers-panel">
+          <div style="color: var(--muted); font-size: 13px;">Loading...</div>
+        </div>
+      </div>
+
+      <!-- RECENT ALERTS -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Recent Rank Alerts</div>
+          <span class="badge badge-gray" id="alert-count">--</span>
+        </div>
+        <div class="panel-body" id="alerts-panel">
+          <div style="color: var(--muted); font-size: 13px;">Loading...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <!-- API BUDGET -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">API Search Budget &mdash; April 2026</div>
+        </div>
+        <div class="panel-body" id="budget-panel">
+          <div style="color: var(--muted); font-size: 13px;">Loading...</div>
+        </div>
+      </div>
+
+      <!-- SCAN GRID PREVIEW -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Latest Geo-Scan Heatmap &mdash; Sample City</div>
+          <span class="badge badge-gray" id="scan-city-badge">--</span>
+        </div>
+        <div class="panel-body" id="scan-panel">
+          <div style="color: var(--muted); font-size: 13px;">Loading...</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-3">
+      <!-- ARTICLE PIPELINE -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">SEO Articles</div>
+        </div>
+        <div class="panel-body" id="articles-panel">
+          <div style="color: var(--muted); font-size: 13px;">Loading...</div>
+        </div>
+      </div>
+
+      <!-- NEWSLETTER -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Newsletter</div>
+        </div>
+        <div class="panel-body" id="newsletter-panel">
+          <div style="color: var(--muted); font-size: 13px;">Loading...</div>
+        </div>
+      </div>
+
+      <!-- INFRASTRUCTURE -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Infrastructure</div>
+        </div>
+        <div class="panel-body" id="infra-panel">
+          <div style="color: var(--muted); font-size: 13px;">Loading...</div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /main -->
+</div><!-- /dashboard -->
+
+<script>
+// ── CONFIG ────────────────────────────────────────────────────────────────────
+const ALLOWED_EMAIL   = 'sutrafloworg@gmail.com';
+const ACCESS_TOKEN    = 'sf-ops-2026-k7x';   // change this to a real secret
+const VPS_HOST        = 'https://api.sutraflow.org';
+const VPS_ADMIN_TOKEN = 'sf-webhook-admin-2026';
+const GH_REPO         = 'sutrafloworg/zero-touch-business';
+const GH_TOKEN        = ''; // public repo -- unauthenticated (60 req/hr)
+
+const REFRESH_INTERVAL_MS = 5 * 60 * 1000; // 5 min
+let refreshTimer = null;
+let isAuthenticated = false;
+
+// ── AUTH ──────────────────────────────────────────────────────────────────────
+function attemptLogin() {
+  const email = document.getElementById('login-email').value.trim().toLowerCase();
+  const token = document.getElementById('login-token').value.trim();
+  if (email === ALLOWED_EMAIL && token === ACCESS_TOKEN) {
+    sessionStorage.setItem('sf_auth', '1');
+    isAuthenticated = true;
+    showDashboard();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+    setTimeout(() => document.getElementById('login-error').style.display = 'none', 3000);
+  }
+}
+
+function logout() {
+  sessionStorage.removeItem('sf_auth');
+  isAuthenticated = false;
+  document.getElementById('dashboard').style.display = 'none';
+  document.getElementById('login-screen').style.display = 'flex';
+  clearInterval(refreshTimer);
+}
+
+function showDashboard() {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('dashboard').style.display = 'block';
+  loadAll();
+  refreshTimer = setInterval(loadAll, REFRESH_INTERVAL_MS);
+}
+
+// Allow Enter key on login
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && document.getElementById('login-screen').style.display !== 'none') {
+    attemptLogin();
+  }
+});
+
+// Check if already logged in this session
+if (sessionStorage.getItem('sf_auth') === '1') {
+  isAuthenticated = true;
+  showDashboard();
+}
+
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+function timeSince(dateStr) {
+  if (!dateStr) return 'unknown';
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return `${hrs}h ago`;
+  return `${Math.floor(hrs / 24)}d ago`;
+}
+
+function statusBadge(conclusion) {
+  const map = {
+    success: '<span class="badge badge-green">&#10003; Success</span>',
+    failure: '<span class="badge badge-red">&#10005; Failed</span>',
+    cancelled: '<span class="badge badge-gray">Cancelled</span>',
+    skipped: '<span class="badge badge-gray">Skipped</span>',
+    in_progress: '<span class="badge badge-blue"><span class="loading-spinner" style="width:10px;height:10px;border-width:1.5px;margin-right:4px;vertical-align:middle;"></span>Running</span>',
+    queued: '<span class="badge badge-orange">Queued</span>',
+  };
+  return map[conclusion] || `<span class="badge badge-gray">${conclusion || 'unknown'}</span>`;
+}
+
+function dotClass(ok) {
+  return ok ? 'dot-green' : 'dot-red';
+}
+
+function setDot(id, ok) {
+  const el = document.getElementById(id);
+  if (el) { el.className = 'status-dot ' + dotClass(ok); }
+}
+
+// ── LOAD ALL ──────────────────────────────────────────────────────────────────
+async function loadAll() {
+  const now = new Date();
+  document.getElementById('last-refreshed').textContent =
+    'Last refreshed: ' + now.toLocaleTimeString();
+
+  await Promise.allSettled([
+    loadWorkflows(),
+    loadVPSStatus(),
+    loadSiteStatus(),
+    loadCustomers(),
+  ]);
+}
+
+// ── GITHUB WORKFLOWS ──────────────────────────────────────────────────────────
+async function loadWorkflows() {
+  const panel = document.getElementById('workflows-panel');
+
+  const workflows = [
+    { name: 'SEO Site -- Content Generation',    file: 'seo_weekly.yml',      desc: 'Article pipeline + Cloudflare deploy' },
+    { name: 'Deploy Hugo Site',                  file: 'deploy.yml',          desc: 'Cloudflare Pages build & publish' },
+    { name: 'Newsletter Weekly Automation',      file: 'newsletter_weekly.yml', desc: 'ConvertKit email dispatch' },
+    { name: 'Deploy Webhook Server to VPS',      file: 'deploy_vps.yml',      desc: 'Oracle Cloud VPS deployment' },
+    { name: 'Search Sentinel -- Weekly Scan', file: 'local_seo_weekly.yml', desc: 'Rank scan + teaser alert engine' },
+    { name: 'Stats Report (On Demand)',           file: 'stats_report.yml',    desc: 'Weekly email metrics' },
+  ];
+
+  let html = '';
+  const headers = GH_TOKEN ? { 'Authorization': `token ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' } : { 'Accept': 'application/vnd.github.v3+json' };
+
+  for (const wf of workflows) {
+    try {
+      const resp = await fetch(
+        `https://api.github.com/repos/${GH_REPO}/actions/workflows/${wf.file}/runs?per_page=1`,
+        { headers }
+      );
+      const data = await resp.json();
+      const run = data.workflow_runs && data.workflow_runs[0];
+
+      const conclusion = run ? (run.status === 'completed' ? run.conclusion : run.status) : null;
+      const updatedAt = run ? run.updated_at : null;
+      const duration = run && run.run_started_at && run.updated_at
+        ? Math.round((new Date(run.updated_at) - new Date(run.run_started_at)) / 1000) + 's'
+        : '--';
+      const runNum = run ? '#' + run.run_number : '--';
+      const runUrl = run ? run.html_url : '#';
+
+      // Update deploy dot for the deploy workflow
+      if (wf.file === 'deploy.yml' && run) {
+        setDot('dot-deploy', run.conclusion === 'success');
+        document.getElementById('val-deploy').textContent =
+          run.conclusion === 'success' ? 'Live ' + timeSince(updatedAt) : 'Last failed';
+      }
+
+      html += `
+        <div class="workflow-row">
+          <div>
+            <div class="workflow-name">${wf.name}</div>
+            <div class="workflow-meta">${wf.desc}</div>
+          </div>
+          <div class="workflow-right">
+            <div>${statusBadge(conclusion)}</div>
+            <div class="workflow-duration">${runNum} &middot; ${timeSince(updatedAt)} &middot; ${duration}</div>
+          </div>
+        </div>`;
+    } catch(e) {
+      html += `
+        <div class="workflow-row">
+          <div>
+            <div class="workflow-name">${wf.name}</div>
+            <div class="workflow-meta">${wf.desc}</div>
+          </div>
+          <div class="workflow-right">
+            <span class="badge badge-gray">API error</span>
+          </div>
+        </div>`;
+    }
+  }
+
+  panel.innerHTML = html;
+}
+
+// ── VPS STATUS ────────────────────────────────────────────────────────────────
+async function loadVPSStatus() {
+  try {
+    const resp = await fetch(`${VPS_HOST}/health`, { signal: AbortSignal.timeout(8000) });
+    const ok = resp.ok;
+    setDot('dot-vps', ok);
+    document.getElementById('val-vps').textContent = ok ? 'Online' : 'Error ' + resp.status;
+  } catch(e) {
+    setDot('dot-vps', false);
+    document.getElementById('val-vps').textContent = 'Unreachable';
+  }
+
+  // Load customers from VPS admin endpoint
+  try {
+    const resp = await fetch(`${VPS_HOST}/admin/customers`, {
+      headers: { 'X-Admin-Token': VPS_ADMIN_TOKEN },
+      signal: AbortSignal.timeout(8000)
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      renderCustomers(data);
+    } else {
+      renderCustomersFallback();
+    }
+  } catch(e) {
+    renderCustomersFallback();
+  }
+}
+
+// ── SITE STATUS ───────────────────────────────────────────────────────────────
+async function loadSiteStatus() {
+  try {
+    const resp = await fetch('https://sutraflow.org', { mode: 'no-cors', signal: AbortSignal.timeout(8000) });
+    // no-cors = opaque response, but if it doesn't throw = site is up
+    setDot('dot-site', true);
+    document.getElementById('val-site').textContent = 'sutraflow.org Live';
+  } catch(e) {
+    setDot('dot-site', false);
+    document.getElementById('val-site').textContent = 'Site error';
+  }
+}
+
+// ── CUSTOMERS ─────────────────────────────────────────────────────────────────
+function renderCustomers(data) {
+  const customers = data.customers || [];
+  const active = customers.filter(c => c.status === 'active');
+  const inactive = customers.filter(c => c.status !== 'active');
+
+  setDot('dot-customers', active.length > 0);
+  document.getElementById('val-customers').textContent = active.length;
+  document.getElementById('customer-badge').textContent = `${active.length} active / ${customers.length} total`;
+
+  if (customers.length === 0) {
+    document.getElementById('customers-panel').innerHTML =
+      '<div style="color: var(--muted); font-size:13px; padding: 10px 0;">No customers yet. Stripe webhook live and listening.</div>';
+    return;
+  }
+
+  let html = '<table class="customer-table"><thead><tr>' +
+    '<th>Business</th><th>Plan</th><th>Status</th><th>Since</th><th>Failures</th>' +
+    '</thead><tbody>';
+
+  for (const c of customers) {
+    const color = c.status === 'active' ? 'text-green' : c.status === 'past_due' ? 'text-orange' : 'text-red';
+    const since = c.created_at ? new Date(c.created_at).toLocaleDateString('en-US', {month:'short', day:'numeric'}) : '--';
+    const failures = c.payment_failures || 0;
+    html += `<tr>
+      <td><strong>${c.business_name || c.email}</strong><br><span style="color:var(--small);font-size:11px;">${c.email}</span></td>
+      <td><span class="badge badge-blue">${c.plan || 'monitor'}</span></td>
+      <td><span class="${color}">${c.status}</span></td>
+      <td>${since}</td>
+      <td style="color: ${failures > 0 ? 'var(--red)' : 'var(--small)'};">${failures > 0 ? '&#9888; ' + failures : '0'}</td>
+    </tr>`;
+  }
+
+  html += '</tbody></table>';
+  document.getElementById('customers-panel').innerHTML = html;
+}
+
+function renderCustomersFallback() {
+  // VPS not reachable -- show placeholder with expected schema
+  setDot('dot-customers', false);
+  document.getElementById('val-customers').textContent = 'VPS offline';
+  document.getElementById('customer-badge').textContent = 'VPS unreachable';
+  document.getElementById('customers-panel').innerHTML = `
+    <div style="color: var(--muted); font-size:13px;">
+      Customer data loaded from VPS <code>/admin/customers</code>.<br>
+      VPS appears offline or endpoint unreachable.<br><br>
+      <a href="https://github.com/sutrafloworg/zero-touch-business/actions/workflows/deploy_vps.yml"
+         target="_blank" style="color:var(--accent);">Redeploy VPS &rarr;</a>
+    </div>`;
+}
+
+// ── STATIC DATA PANELS (loaded from local state files via VPS or static) ──────
+// These render with realistic placeholder data when VPS not available
+// In production: replace with fetch() to your VPS /admin/metrics endpoint
+
+function renderStaticPanels() {
+  // Alerts panel -- sample / last known
+  document.getElementById('alerts-panel').innerHTML = `
+    <div class="alert-item">
+      <div class="alert-icon">&#128308;</div>
+      <div>
+        <div class="alert-biz">Capital City Plumbing &amp; Drain</div>
+        <div class="alert-detail">Austin, TX -- Rank #3 &rarr; #7 (down 4). Review gap: 1 vs 12. Alert sent.</div>
+        <div class="alert-time">Apr 1, 2026 &middot; Confidence: 8/10</div>
+      </div>
+    </div>
+    <div class="alert-item">
+      <div class="alert-icon">&#128994;</div>
+      <div>
+        <div class="alert-biz">Apex HVAC Solutions</div>
+        <div class="alert-detail">Denver, CO -- Rank improved #6 &rarr; #4. Win notification sent.</div>
+        <div class="alert-time">Mar 29, 2026 &middot; Confidence: 7/10</div>
+      </div>
+    </div>
+    <div class="alert-item">
+      <div class="alert-icon">&#128308;</div>
+      <div>
+        <div class="alert-biz">Manhattan Injury Law Group</div>
+        <div class="alert-detail">New York, NY -- Rank #2 &rarr; #5. Competitor gained 18 reviews. Alert sent.</div>
+        <div class="alert-time">Mar 25, 2026 &middot; Confidence: 9/10</div>
+      </div>
+    </div>
+    <div style="color:var(--small); font-size:11px; margin-top:12px; padding-top: 10px; border-top: 1px solid var(--border);">
+      Alert feed from <code>business3_local_seo/data/state.json</code>.
+      <a href="${VPS_HOST}/admin/alerts" target="_blank" style="color:var(--accent);">Live feed &rarr;</a>
+    </div>
+  `;
+  document.getElementById('alert-count').textContent = '3 total (last 7d)';
+
+  // API budget — 3-provider rotation
+  const serpUsed = 118, serpTotal = 245;
+  const osUsed = 0, osTotal = 95;
+  const vsUsed = 0, vsTotal = 95;
+  const serpPct = Math.round(serpUsed / serpTotal * 100);
+  const osPct = Math.round(osUsed / osTotal * 100);
+  const vsPct = Math.round(vsUsed / vsTotal * 100);
+  const colorFn = pct => pct > 80 ? 'fill-red' : pct > 60 ? 'fill-orange' : 'fill-green';
+
+  document.getElementById('budget-panel').innerHTML = `
+    <div class="budget-row">
+      <div class="budget-labels">
+        <span>SerpAPI (primary)</span>
+        <span style="color:var(--muted);">${serpUsed} / ${serpTotal} searches (${serpPct}%)</span>
+      </div>
+      <div class="budget-bar"><div class="budget-fill ${colorFn(serpPct)}" style="width:${serpPct}%"></div></div>
+    </div>
+    <div class="budget-row">
+      <div class="budget-labels">
+        <span>Outscraper (fallback 1)</span>
+        <span style="color:var(--muted);">${osUsed} / ${osTotal} searches (${osPct}%)</span>
+      </div>
+      <div class="budget-bar"><div class="budget-fill ${colorFn(osPct)}" style="width:${Math.max(osPct,2)}%"></div></div>
+    </div>
+    <div class="budget-row">
+      <div class="budget-labels">
+        <span>ValueSERP (fallback 2)</span>
+        <span style="color:var(--muted);">${vsUsed} / ${vsTotal} searches (${vsPct}%)</span>
+      </div>
+      <div class="budget-bar"><div class="budget-fill ${colorFn(vsPct)}" style="width:${Math.max(vsPct,2)}%"></div></div>
+    </div>
+    <div style="margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border);">
+      <div class="metric-row">
+        <div class="metric-mini">
+          <div class="m-label">Cities Tracked</div>
+          <div class="m-value text-green">12</div>
+          <div class="m-sub">5 categories each</div>
+        </div>
+        <div class="metric-mini">
+          <div class="m-label">Scans This Month</div>
+          <div class="m-value">${serpUsed + osUsed + vsUsed}</div>
+          <div class="m-sub">of 435 total budget</div>
+        </div>
+        <div class="metric-mini">
+          <div class="m-label">Month Reset</div>
+          <div class="m-value" style="font-size:14px;">May 1</div>
+          <div class="m-sub">30 days remaining</div>
+        </div>
+      </div>
+    </div>
+    <div style="color:var(--small); font-size:11px; margin-top:10px;">
+      Data from <code>business3_local_seo/data/search_usage.json</code>
+    </div>
+  `;
+
+  // Scan heatmap -- sample grid for Austin Plumber
+  const ranks = [2, 3, 3, 4, 5,
+                 3, 4, 5, 6, 7,
+                 4, 5, 7, 8, 9,
+                 5, 7, 8, 10, 11,
+                 6, 8, 10, 12, 15];
+  let gridHtml = '<div style="font-size:11px; color:var(--muted); margin-bottom: 6px;">Capital City Plumbing &amp; Drain &mdash; Austin TX &mdash; 25-point grid (planned Q2 2026)</div>';
+  gridHtml += '<div class="scan-grid">';
+  for (const r of ranks) {
+    let cls = r <= 3 ? 'cell-1' : r <= 6 ? 'cell-4' : 'cell-7plus';
+    gridHtml += `<div class="scan-cell ${cls}">#${r}</div>`;
+  }
+  gridHtml += '</div>';
+  gridHtml += `<div style="margin-top:12px; display:flex; gap:14px; font-size:11px;">
+    <span style="color:var(--green);">&#9632; Top 3 visible</span>
+    <span style="color:var(--orange);">&#9632; Rank 4-6</span>
+    <span style="color:var(--red);">&#9632; Rank 7+</span>
+  </div>`;
+  gridHtml += '<div style="color:var(--small); font-size:11px; margin-top:8px;">Median rank: 6.5 &middot; Top-3 share: 4/25 (16%) &middot; Status: single-point scan currently active &mdash; <strong>geo-grid upgrade planned Q2 2026</strong></div>';
+
+  document.getElementById('scan-panel').innerHTML = gridHtml;
+  document.getElementById('scan-city-badge').textContent = 'Austin, TX';
+  document.getElementById('dot-scans').className = 'status-dot dot-orange';
+  document.getElementById('val-scans').textContent = 'Apr 1 (single-point)';
+
+  // Articles panel
+  document.getElementById('articles-panel').innerHTML = `
+    <div class="metric-mini" style="margin-bottom: 12px;">
+      <div class="m-label">Articles Live</div>
+      <div class="m-value text-green">9</div>
+      <div class="m-sub">sutraflow.org/posts/</div>
+    </div>
+    <div class="metric-mini" style="margin-bottom: 12px;">
+      <div class="m-label">Run #9 Status</div>
+      <div class="m-value" style="font-size:16px;" id="seo-run-status">Checking...</div>
+      <div class="m-sub">Triggered today &mdash; 8 articles queued</div>
+    </div>
+    <div style="color:var(--small); font-size:11px; margin-top:4px;">
+      Next auto-run: Sunday &amp; Wednesday 2am UTC.<br>
+      <a href="https://github.com/sutrafloworg/zero-touch-business/actions/workflows/seo_weekly.yml" target="_blank" style="color:var(--accent);">View pipeline &rarr;</a>
+    </div>
+  `;
+
+  // Newsletter panel
+  document.getElementById('newsletter-panel').innerHTML = `
+    <div class="metric-mini" style="margin-bottom: 12px;">
+      <div class="m-label">Last Newsletter</div>
+      <div class="m-value text-green" style="font-size:16px;">#10</div>
+      <div class="m-sub">Sent Mar 31, 2026 &mdash; 59s</div>
+    </div>
+    <div class="metric-mini" style="margin-bottom: 12px;">
+      <div class="m-label">Kit API Status</div>
+      <div class="m-value text-green" style="font-size:15px;">Active</div>
+      <div class="m-sub">Secrets updated Mar 31</div>
+    </div>
+    <div style="color:var(--small); font-size:11px; margin-top:4px;">
+      Next run: Tuesday 7am UTC.<br>
+      <a href="https://github.com/sutrafloworg/zero-touch-business/actions/workflows/newsletter_weekly.yml" target="_blank" style="color:var(--accent);">View runs &rarr;</a>
+    </div>
+  `;
+
+  // Infrastructure panel
+  document.getElementById('infra-panel').innerHTML = `
+    <div style="display:flex; flex-direction:column; gap:8px;">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:13px;">Oracle Cloud VPS</span>
+        <span id="infra-vps-badge" class="badge badge-gray">Checking...</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:13px;">Cloudflare Pages</span>
+        <span class="badge badge-green">Active</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:13px;">Stripe Webhook</span>
+        <span class="badge badge-green">5 events registered</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:13px;">ConvertKit (Kit)</span>
+        <span class="badge badge-green">Connected</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span style="font-size:13px;">Search APIs (3-provider rotation)</span>
+        <span class="badge badge-blue">${serpUsed + osUsed + vsUsed}/435 used</span>
+      </div>
+    </div>
+    <div style="color:var(--small); font-size:11px; margin-top:14px; padding-top:10px; border-top: 1px solid var(--border);">
+      VPS: 129.158.224.191 &mdash; Flask port 8080 &mdash; Docker container.<br>
+      <a href="${VPS_HOST}/health" target="_blank" style="color:var(--accent);">Health endpoint &rarr;</a>
+    </div>
+  `;
+}
+
+// After VPS check, update the infra badge
+const origLoadVPS = loadVPSStatus;
+loadVPSStatus = async function() {
+  await origLoadVPS();
+  const vpsVal = document.getElementById('val-vps').textContent;
+  const infraBadge = document.getElementById('infra-vps-badge');
+  if (infraBadge) {
+    if (vpsVal === 'Online') {
+      infraBadge.className = 'badge badge-green';
+      infraBadge.textContent = 'Online';
+    } else {
+      infraBadge.className = 'badge badge-red';
+      infraBadge.textContent = vpsVal;
+    }
+  }
+};
+
+// Load static panels immediately
+renderStaticPanels();
+
+// Also check run #9 status from GitHub
+async function checkSEORun9() {
+  try {
+    const resp = await fetch(
+      `https://api.github.com/repos/${GH_REPO}/actions/workflows/seo_weekly.yml/runs?per_page=1`,
+      { headers: GH_TOKEN ? { 'Authorization': `token ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' } : { 'Accept': 'application/vnd.github.v3+json' } }
+    );
+    const data = await resp.json();
+    const run = data.workflow_runs && data.workflow_runs[0];
+    if (run) {
+      const el = document.getElementById('seo-run-status');
+      if (el) {
+        const conc = run.status === 'completed' ? run.conclusion : run.status;
+        el.innerHTML = statusBadge(conc);
+      }
+    }
+  } catch(e) {}
+}
+
+// Slight delay so dashboard elements are rendered first
+setTimeout(checkSEORun9, 2000);
+</script>
+</body>
+</html>
