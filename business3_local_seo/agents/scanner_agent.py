@@ -263,24 +263,46 @@ class ScannerAgent:
 
     # ── Public interface ──────────────────────────────────────────────────────
 
+    def _get_provider_order(self) -> list[str]:
+        """Return ordered list of available providers based on monthly quota."""
+        usage = self._load_usage()
+        order = []
+        if usage.get("serpapi", 0) < self.serpapi_monthly_limit and self.serpapi_key:
+            order.append("serpapi")
+        if usage.get("outscraper", 0) < self.outscraper_monthly_limit and self.outscraper_key:
+            order.append("outscraper")
+        if usage.get("valueserp", 0) < self.valueserp_monthly_limit and self.valueserp_key:
+            order.append("valueserp")
+        return order
+
+    def _search_with_provider(self, provider: str, search_query: str) -> list[dict]:
+        """Execute search on a specific provider. Raises on failure."""
+        if provider == "serpapi":
+            return self._search_serpapi(search_query)
+        elif provider == "outscraper":
+            return self._search_outscraper(search_query)
+        else:
+            return self._search_valueserp(search_query)
+
     def scan_local_pack(self, search_query: str, location: str = "") -> list[dict]:
         """
         Search Google Maps rankings for a single query.
-        Automatically selects the right provider based on monthly quota usage.
+
+        Uses smart failover: if primary provider returns 429 (rate limit)
+        or other errors, automatically tries the next provider instead of
+        burning retries on the same one. This is critical because SerpAPI's
+        free tier has aggressive per-second rate limits.
+
+        Provider priority: SerpAPI → Outscraper → ValueSERP
         """
-        provider = self._choose_provider()
-        if provider is None:
+        providers = self._get_provider_order()
+        if not providers:
+            logger.warning(f"Scanner: all providers exhausted — skipping '{search_query}'")
             return []
 
-        for attempt in range(self.max_retries):
+        for provider in providers:
             try:
-                if provider == "serpapi":
-                    results = self._search_serpapi(search_query)
-                elif provider == "outscraper":
-                    results = self._search_outscraper(search_query)
-                else:
-                    results = self._search_valueserp(search_query)
-
+                results = self._search_with_provider(provider, search_query)
                 self._increment_usage(provider)
                 logger.info(
                     f"Scanner [{provider}]: {len(results)} results for '{search_query}'"
@@ -288,16 +310,42 @@ class ScannerAgent:
                 return results
 
             except requests.RequestException as e:
-                wait = (2 ** attempt) * 5
-                logger.warning(
-                    f"Scanner [{provider}] error (attempt {attempt + 1}/{self.max_retries}): "
-                    f"{e}. Retrying in {wait}s..."
-                )
-                time.sleep(wait)
+                status_code = getattr(e.response, 'status_code', 0) if hasattr(e, 'response') else 0
+                is_rate_limit = status_code == 429 or "429" in str(e) or "Too Many Requests" in str(e)
 
-        logger.error(
-            f"Scanner [{provider}]: failed after {self.max_retries} attempts for '{search_query}'"
-        )
+                if is_rate_limit and len(providers) > 1:
+                    # Rate limited — immediately try next provider (don't waste time retrying)
+                    logger.warning(
+                        f"Scanner [{provider}]: 429 rate limit for '{search_query}'. "
+                        f"Falling back to next provider..."
+                    )
+                    continue
+                else:
+                    # Non-rate-limit error — retry with backoff on same provider
+                    for attempt in range(self.max_retries - 1):
+                        wait = (2 ** attempt) * 5
+                        logger.warning(
+                            f"Scanner [{provider}] error (attempt {attempt + 2}/{self.max_retries}): "
+                            f"{e}. Retrying in {wait}s..."
+                        )
+                        time.sleep(wait)
+                        try:
+                            results = self._search_with_provider(provider, search_query)
+                            self._increment_usage(provider)
+                            logger.info(
+                                f"Scanner [{provider}]: {len(results)} results for '{search_query}'"
+                            )
+                            return results
+                        except requests.RequestException:
+                            continue
+
+                    logger.warning(
+                        f"Scanner [{provider}]: exhausted retries for '{search_query}'. "
+                        f"Trying next provider..."
+                    )
+                    continue
+
+        logger.error(f"Scanner: all providers failed for '{search_query}'")
         return []
 
     def scan_all_targets(self, cities_data: dict) -> dict:
@@ -317,7 +365,7 @@ class ScannerAgent:
                 results = self.scan_local_pack(query, location)
                 all_results[key] = results
 
-                time.sleep(2)  # rate limit
+                time.sleep(4)  # rate limit — SerpAPI free tier needs ~4s between requests
 
         usage = self._load_usage()
         logger.info(

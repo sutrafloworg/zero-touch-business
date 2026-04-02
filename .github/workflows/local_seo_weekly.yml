@@ -11,7 +11,7 @@ permissions:
 jobs:
   scan-and-outreach:
     runs-on: ubuntu-latest
-    timeout-minutes: 15  # No PDF generation in pipeline — scan + teasers only
+    timeout-minutes: 20  # Scan (60 queries × 4s = 4min) + analysis + teasers
 
     steps:
       - name: Checkout repository
