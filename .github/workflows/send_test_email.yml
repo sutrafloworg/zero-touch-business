@@ -1,0 +1,137 @@
+name: Search Sentinel — Send Test Email
+
+on:
+  workflow_dispatch:
+    inputs:
+      to_email:
+        description: "Recipient email address"
+        required: true
+        default: "sutrafloworg@gmail.com"
+
+jobs:
+  send-test-email:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Send sample teaser email
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          STRIPE_PAYMENT_URL_MONITORING: ${{ secrets.STRIPE_PAYMENT_URL_MONITORING }}
+          STRIPE_PAYMENT_URL_AUDIT: ${{ secrets.STRIPE_PAYMENT_URL_AUDIT }}
+          TO_EMAIL: ${{ github.event.inputs.to_email }}
+        run: |
+          python - <<'EOF'
+          import os, smtplib
+          from email.mime.multipart import MIMEMultipart
+          from email.mime.text import MIMEText
+
+          gmail_user      = os.environ["GMAIL_USER"]
+          gmail_password  = os.environ["GMAIL_APP_PASSWORD"]
+          to_email        = os.environ["TO_EMAIL"]
+          pay_monitor     = os.environ.get("STRIPE_PAYMENT_URL_MONITORING", "#")
+          pay_audit       = os.environ.get("STRIPE_PAYMENT_URL_AUDIT", "#")
+          from_name       = "Search Sentinel"
+
+          subject = "Capital City Plumbing: your Google ranking dropped this week"
+
+          html_body = f"""
+          <div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
+            <p>Hi,</p>
+
+            <p>I track Google Maps rankings for <em>plumber</em> businesses across Austin every week.</p>
+
+            <p>This week, <strong>Capital City Plumbing &amp; Drain</strong> dropped from
+            <strong style="color:#0066cc">#3</strong> to
+            <strong style="color:#c0392b">#7</strong> —
+            that's <strong>4 positions lost</strong>.</p>
+
+            <p>When you drop out of the top 3, Google Maps stops showing your business
+            without scrolling. That means fewer calls, fewer walk-ins, fewer customers.</p>
+
+            <p style="font-weight:600;margin:16px 0 6px">What's causing the drop:</p>
+            <ul style="margin:0;padding-left:20px;color:#555">
+              <li>Austin ProFlow Services gained 12 new reviews in 14 days, jumping from #6 to #2</li>
+              <li>No new reviews this week — Google favors actively reviewed businesses</li>
+            </ul>
+
+            <div style="background:#fff8f0;border-left:4px solid #e67e22;padding:12px 16px;margin:20px 0">
+              <p style="margin:0;font-size:14px;color:#333">
+                <strong>I've prepared a full audit report</strong> for Capital City Plumbing &amp; Drain — it covers
+                exactly why this happened, which competitors passed you, and 3 specific actions
+                you can take <em>this week</em> to recover your ranking.
+              </p>
+            </div>
+
+            <ul style="color:#555;font-size:14px">
+              <li>Detailed root cause analysis with competitor data</li>
+              <li>3 concrete recovery actions customised to your business</li>
+              <li>Your review velocity vs. market average (0.2/wk vs 3.2/wk)</li>
+              <li>Business Visibility Scorecard: 2.5/10 — Critical</li>
+            </ul>
+
+            <div style="background:#f8f9fa;border:1px solid #e0e0e0;border-radius:6px;padding:16px 20px;margin:20px 0">
+              <p style="font-weight:600;margin:0 0 10px;font-size:15px">Get your report:</p>
+              <table style="width:100%;border-collapse:collapse;font-size:14px">
+                <tr>
+                  <td style="padding:8px 0;color:#333">
+                    <strong>Full Audit Report</strong><br>
+                    <span style="color:#777;font-size:13px">Complete competitive analysis + action plan (PDF)</span>
+                  </td>
+                  <td style="padding:8px 0;text-align:right;vertical-align:middle">
+                    <a href="{pay_audit}" style="background:#0066cc;color:#fff;padding:8px 18px;border-radius:4px;text-decoration:none;font-weight:600;font-size:14px">$10 — Get Report</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2" style="padding:4px 0"><hr style="border:none;border-top:1px solid #eee"></td>
+                </tr>
+                <tr>
+                  <td style="padding:8px 0;color:#333">
+                    <strong>Weekly Monitoring</strong><br>
+                    <span style="color:#777;font-size:13px">Rank tracking + alerts + full reports every drop</span>
+                  </td>
+                  <td style="padding:8px 0;text-align:right;vertical-align:middle">
+                    <a href="{pay_monitor}" style="background:#fff;color:#0066cc;padding:7px 18px;border-radius:4px;text-decoration:none;font-weight:600;font-size:14px;border:1px solid #0066cc">$5/month</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <p style="font-size:13px;color:#777">Or just reply to this email — happy to answer questions.</p>
+
+            <p>Best,<br>Search Sentinel</p>
+
+            <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
+            <p style="font-size:11px;color:#999">
+              This is a one-time commercial message from Search Sentinel.<br>
+              Search Sentinel · sutraflow.org/sentinel<br>
+              To opt out of future emails, reply with "unsubscribe".
+            </p>
+          </div>
+          """.strip()
+
+          msg = MIMEMultipart("alternative")
+          msg["Subject"] = subject
+          msg["From"]    = f"{from_name} <{gmail_user}>"
+          msg["To"]      = to_email
+          msg["Reply-To"] = gmail_user
+          msg.attach(MIMEText(html_body, "html"))
+
+          with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+              server.login(gmail_user, gmail_password)
+              server.sendmail(gmail_user, [to_email], msg.as_string())
+
+          print(f"✓ Test email sent to {to_email}")
+          EOF

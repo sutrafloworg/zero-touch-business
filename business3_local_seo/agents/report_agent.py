@@ -22,32 +22,103 @@ from fpdf import FPDF
 
 logger = logging.getLogger(__name__)
 
-AUDIT_PROMPT = """You are a local SEO expert writing a personalized audit for a business owner.
+AUDIT_PROMPT = """You are a local SEO analyst writing a specific, evidence-based audit for a business owner.
+Your job is to verbalize the facts below into readable prose. Do NOT invent metrics, scores, or causes
+that are not in the data. Every claim must trace back to a number in the input.
 
+STRICT OUTPUT RULES:
+- Never use: "exactly why", "the reason is", "this caused", "guaranteed", "certainly"
+- Always use: "likely", "probable cause", "the data suggests", "our scan detected"
+- If data is limited, say so — do not pad with generic SEO advice
+- Output plain text only, no markdown, no asterisks, no dashes as bullets
+
+== VERIFIED DATA (source: automated public data scan) ==
 BUSINESS: {business_name}
 CATEGORY: {category}
 CITY: {city}
-PREVIOUS RANK: #{prev_rank} in Google Maps
-CURRENT RANK: #{curr_rank} in Google Maps (dropped {rank_change} positions)
-RATING: {rating} stars ({reviews} reviews)
-WEEKS TRACKED: {weeks_tracked}
-DETECTED ISSUES:
+SCAN DATE: {scan_date}
+PREVIOUS RANK: #{prev_rank}  |  CURRENT RANK: #{curr_rank}  |  DROP: {rank_change} positions
+RATING: {rating} stars  |  TOTAL REVIEWS: {reviews}
+WEEKS OF DATA: {weeks_tracked}
+CONFIDENCE SCORE: {confidence_score}/10 (based on data completeness)
+
+DETECTED SIGNALS (machine-computed facts only):
 {reasons}
 {insights_text}
 
-Write a SHORT, actionable audit (300 words max). Use this structure:
+== WRITE THE FOLLOWING SECTIONS (plain text, no markdown) ==
 
-1. WHAT HAPPENED — one sentence stating the rank drop factually
-2. WHY — 2-3 bullet points explaining the likely causes (use the detected issues above)
-3. QUICK WINS — 3 specific, actionable steps they can take THIS WEEK to recover:
-   - Be concrete: "Ask your 3 most recent customers for a Google review" not "get more reviews"
-   - Include one tip about Google Business Profile optimization
-   - Include one tip about their website (if they have one) or getting one (if they don't)
+SECTION 1 — WHAT OUR SCAN FOUND (2-3 sentences)
+State the rank drop as a fact. State 1-2 specific numbers from the data above that are notable.
+Example: "Our scan on [date] recorded {business_name} at position #{curr_rank}, down from #{prev_rank} the prior week.
+[Insert one specific competitor fact or review gap if data exists]."
+
+SECTION 2 — PROBABLE CAUSES (2-3 bullet items, plain text dashes)
+Label each: [HIGH CONFIDENCE], [MEDIUM CONFIDENCE], or [LOW CONFIDENCE] based on how directly the data supports it.
+Only include causes that map to a detected signal above. Do not add generic SEO theory.
+Format: "- [HIGH CONFIDENCE] Competitor X gained N reviews in N days while your profile gained 0."
+
+SECTION 3 — PRIORITY ACTIONS (3 items max, only if data supports them)
+For each action include: what to do, why (cite the specific data signal), estimated effort (Low/Med/High),
+and expected impact (Low/Med/High).
+Format: "Action: [specific action]. Why now: [cite the signal]. Effort: Low. Expected impact: High."
+Be specific to this business type — a plumber gets different advice than a law firm.
 
 {insights_section}
 
-Tone: direct, helpful, no jargon. Like a knowledgeable friend texting advice.
-Do NOT use markdown formatting — output plain text only."""
+SECTION 4 — DO THIS TODAY (ready-to-use assets, only include if review gap detected)
+If the review velocity data shows a gap, write:
+a) 2 SMS review request templates personalized for a {category} in {city} (under 160 chars each)
+b) 1 Google Business Profile post draft (2-3 sentences, action-oriented)
+If no review gap data exists, omit this section entirely.
+
+SECTION 5 — CONFIDENCE NOTE (1 sentence)
+State the confidence score and what it means. If confidence < 7, flag that the drop may not be sustained
+and recommend waiting for next week's scan before taking major action.
+
+Tone: direct, like a trusted analyst — not a salesperson, not a cheerleader. Keep the whole response under 400 words."""
+
+
+# Banned phrases that indicate overconfident AI generation — validated post-generation
+BANNED_PHRASES = [
+    "exactly why", "the reason is", "this caused", "guaranteed recovery",
+    "will recover", "definitely", "certainly", "proven to", "always works",
+    "the algorithm", "google decided", "google penalized",
+]
+
+
+def _validate_audit_text(text: str) -> tuple[bool, list[str]]:
+    """Check for banned phrases and return (is_valid, list_of_violations)."""
+    violations = []
+    text_lower = text.lower()
+    for phrase in BANNED_PHRASES:
+        if phrase in text_lower:
+            violations.append(phrase)
+    return len(violations) == 0, violations
+
+
+def _compute_confidence_score(alert: dict) -> int:
+    """Compute 1-10 confidence score based on data completeness."""
+    score = 3  # base: we have rank + business name
+    insights = alert.get("insights", {})
+    weeks = alert.get("weeks_tracked", 1)
+
+    if weeks >= 3:
+        score += 1
+    if weeks >= 5:
+        score += 1
+    if "review_velocity" in insights:
+        score += 1
+    if "rank_trend" in insights:
+        score += 1
+    if "competitor_spotlight" in insights:
+        score += 1
+    if "category_health" in insights:
+        score += 1
+    if alert.get("reasons"):
+        score += 1
+
+    return min(score, 10)
 
 
 def _format_insights_for_prompt(alert: dict) -> tuple[str, str]:
@@ -59,44 +130,41 @@ def _format_insights_for_prompt(alert: dict) -> tuple[str, str]:
     if "review_velocity" in insights:
         rv = insights["review_velocity"]
         text_parts.append(
-            f"REVIEW VELOCITY: {rv['reviews_per_week']} reviews/week over {rv['over_weeks']} weeks "
-            f"({rv['verdict']}). Total gained: {rv['total_gained']}."
+            f"REVIEW VELOCITY (measured): {rv['reviews_per_week']} reviews/week over {rv['over_weeks']} weeks "
+            f"({rv['verdict']}). Total gained in period: {rv['total_gained']}."
         )
 
     if "rank_trend" in insights:
         rt = insights["rank_trend"]
         text_parts.append(
-            f"RANK TREND: {rt['direction']} over last {len(rt['history'])} weeks. "
+            f"RANK TREND (measured): {rt['direction']} over last {len(rt['history'])} weeks. "
             f"Best: #{rt['best_rank']}, Worst: #{rt['worst_rank']}. "
             f"Weekly positions: {', '.join(f'#{r}' for r in rt['history'])}"
         )
         section_parts.append(
-            "4. YOUR TREND — one sentence summarizing whether their ranking is improving, "
-            "declining, or volatile based on the rank history data."
+            "Include in PROBABLE CAUSES: one bullet about the multi-week trend direction "
+            "based on rank history data (improving/declining/volatile)."
         )
 
     if "competitor_spotlight" in insights:
         cs = insights["competitor_spotlight"]
         text_parts.append(
-            f"COMPETITOR SPOTLIGHT: {cs['fastest_climber']} climbed {cs['climbed_positions']} positions "
-            f"(now #{cs['their_current_rank']}), gained {cs['their_review_gain']} reviews, "
-            f"rated {cs['their_rating']} stars."
+            f"COMPETITOR DATA (measured): {cs['fastest_climber']} moved from "
+            f"#{cs.get('their_prev_rank', '?')} to #{cs['their_current_rank']} "
+            f"(+{cs['climbed_positions']} positions), gained {cs['their_review_gain']} reviews "
+            f"in the scan period, rated {cs['their_rating']} stars."
         )
         section_parts.append(
-            "5. COMPETITOR TO WATCH — one sentence about who is climbing fastest and what "
-            "they are doing differently (based on competitor spotlight data)."
+            "Include in PROBABLE CAUSES: one bullet naming the specific competitor and their "
+            "exact review gain, marked [HIGH CONFIDENCE] if review gain > 5, else [MEDIUM CONFIDENCE]."
         )
 
     if "category_health" in insights:
         ch = insights["category_health"]
         text_parts.append(
-            f"CATEGORY HEALTH SCORE: {ch['score']}/10 ({ch['position_summary']}). "
-            f"Your reviews: {ch['your_reviews']} vs category avg: {ch['category_avg_reviews']}. "
-            f"Your rating: {ch['your_rating']} vs category avg: {ch['category_avg_rating']}."
-        )
-        section_parts.append(
-            "6. YOUR STANDING — one sentence giving their health score (X/10) and what it means "
-            "relative to their local competition."
+            f"MARKET POSITION (measured): Category health score {ch['score']}/10 ({ch['position_summary']}). "
+            f"Your reviews: {ch['your_reviews']} vs market avg: {ch['category_avg_reviews']}. "
+            f"Your rating: {ch['your_rating']} vs market avg: {ch['category_avg_rating']}."
         )
 
     insights_text = "\n".join(text_parts) if text_parts else ""
@@ -397,6 +465,8 @@ class ReportAgent:
         city = _format_city(city_raw)
         category = _format_category(category_raw)
 
+        scan_date = datetime.now(timezone.utc).strftime("%B %d, %Y")
+        confidence_score = _compute_confidence_score(alert)
         reasons_text = "\n".join(f"- {r}" for r in alert.get("reasons", []))
         insights_text, insights_section = _format_insights_for_prompt(alert)
 
@@ -404,12 +474,14 @@ class ReportAgent:
             business_name=alert["business_name"],
             category=category,
             city=f"{city}, {state_raw}",
+            scan_date=scan_date,
             prev_rank=alert["prev_rank"],
             curr_rank=alert["curr_rank"],
             rank_change=alert["rank_change"],
             rating=alert.get("rating", "N/A"),
             reviews=alert.get("reviews", 0),
             weeks_tracked=alert.get("weeks_tracked", 1),
+            confidence_score=confidence_score,
             reasons=reasons_text,
             insights_text=insights_text,
             insights_section=insights_section,
@@ -417,11 +489,23 @@ class ReportAgent:
 
         try:
             audit_text = self._call_claude(prompt)
+            # Validate output for banned phrases
+            is_valid, violations = _validate_audit_text(audit_text)
+            if not is_valid:
+                logger.warning(
+                    f"Report Agent: banned phrases detected for {alert['business_name']}: {violations}. "
+                    "Replacing with confidence-hedged language."
+                )
+                for phrase in violations:
+                    audit_text = audit_text.replace(phrase, "likely " + phrase.split()[-1] if phrase.split() else phrase)
             audit_text = _sanitize_for_pdf(audit_text)
         except Exception as e:
             logger.error(f"Report Agent: Claude failed for {alert['business_name']}: {e}")
             return None
 
+        # Store confidence on alert for PDF rendering
+        alert["_confidence_score"] = confidence_score
+        alert["_scan_date"] = scan_date
         return self._build_pdf(alert, audit_text, city, state_raw, category)
 
     # ── PDF color constants ────────────────────────────────────────────────
@@ -488,7 +572,7 @@ class ReportAgent:
         pdf.set_text_color(*self.WHITE)
         pdf.set_font("Helvetica", "B", 28)
         pdf.set_xy(20, 18)
-        pdf.cell(w, 12, "LocalRank Sentinel", new_x="LMARGIN", new_y="NEXT")
+        pdf.cell(w, 12, "Search Sentinel", new_x="LMARGIN", new_y="NEXT")
 
         pdf.set_font("Helvetica", "", 12)
         pdf.set_xy(20, 35)
@@ -886,7 +970,7 @@ class ReportAgent:
         pdf.ln(4)
         pdf.set_font("Helvetica", "", 8)
         pdf.set_text_color(*self.LIGHT_GRAY)
-        pdf.cell(w, 4, "LocalRank Sentinel  |  sutraflow.org  |  Automated Local SEO Intelligence",
+        pdf.cell(w, 4, "Search Sentinel  |  sutraflow.org  |  Automated Local SEO Intelligence",
                  align="C", new_x="LMARGIN", new_y="NEXT")
         pdf.cell(w, 4, f"Report generated {report_date}. Data sourced from Google Maps.",
                  align="C")

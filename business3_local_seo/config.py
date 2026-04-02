@@ -34,8 +34,8 @@ GMAIL_USER = os.environ.get("GMAIL_USER", "")
 GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD", "")
 
 # ── Business Settings ─────────────────────────────────────────────────────────
-BUSINESS_NAME = "LocalRank Sentinel"
-FROM_NAME = "LocalRank Sentinel"
+BUSINESS_NAME = "Search Sentinel"
+FROM_NAME = "Search Sentinel"
 SITE_URL = "https://sutraflow.org"  # cross-promote
 
 # ── Payment (Stripe Payment Links) ───────────────────────────────────────

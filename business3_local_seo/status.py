@@ -1,5 +1,5 @@
 """
-LocalRank Sentinel — Status Dashboard
+Search Sentinel — Status Dashboard
 
 Run: python3 business3_local_seo/status.py
 

@@ -60,7 +60,7 @@ class MonitorAgent:
         try:
             msg = MIMEMultipart("alternative")
             msg["Subject"] = subject
-            msg["From"] = f"LocalRank Sentinel <{self.gmail_user}>"
+            msg["From"] = f"Search Sentinel <{self.gmail_user}>"
             msg["To"] = self.alert_email
             msg.attach(MIMEText(body, "html"))
             with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
@@ -173,7 +173,7 @@ class MonitorAgent:
 <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:600px;margin:0 auto;color:#333">
     <!-- Header -->
     <div style="background:#0f0f0f;padding:20px 24px;border-radius:8px 8px 0 0">
-        <h1 style="color:#fff;font-size:20px;margin:0">LocalRank Sentinel</h1>
+        <h1 style="color:#fff;font-size:20px;margin:0">Search Sentinel</h1>
         <p style="color:#999;font-size:12px;margin:4px 0 0">Pipeline Run Complete</p>
     </div>
     <div style="background:#0066cc;height:3px"></div>
@@ -262,13 +262,13 @@ class MonitorAgent:
     <!-- Footer -->
     <div style="padding:16px 24px;background:#f7f8fa;border-top:1px solid #e0e0e0;border-radius:0 0 8px 8px">
         <p style="color:#999;font-size:11px;margin:0">
-            LocalRank Sentinel | sutraflow.org | Next run: Monday 1pm UTC<br>
+            Search Sentinel | sutraflow.org | Next run: Monday 1pm UTC<br>
             Runs automatically via GitHub Actions. No action needed unless you see failures.
         </p>
     </div>
 </div>"""
         self._send_email(
-            f"[LocalRank] {alerts} drops, {emails_sent} teasers sent, {pending_count} awaiting payment",
+            f"[SearchSentinel] {alerts} drops, {emails_sent} teasers sent, {pending_count} awaiting payment",
             body,
         )
 
@@ -284,7 +284,7 @@ class MonitorAgent:
 
         if failures >= 3:
             self._send_email(
-                f"[CRITICAL] LocalRank Sentinel -- {failures} consecutive failures",
+                f"[CRITICAL] Search Sentinel -- {failures} consecutive failures",
                 f"""
 <div style="font-family:-apple-system,sans-serif;max-width:500px;margin:0 auto">
     <div style="background:#b41e1e;padding:16px 24px;border-radius:8px 8px 0 0">

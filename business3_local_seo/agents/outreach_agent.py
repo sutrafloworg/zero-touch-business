@@ -18,6 +18,7 @@ CAN-SPAM compliant:
   - Includes opt-out mechanism
   - Honest subject line
 """
+import json
 import logging
 import re
 import smtplib
@@ -43,7 +44,7 @@ class OutreachAgent:
         self,
         gmail_user: str,
         gmail_app_password: str,
-        from_name: str = "LocalRank Sentinel",
+        from_name: str = "Search Sentinel",
         max_emails_per_run: int = 10,
         payment_url: str = "",
         payment_url_audit: str = "",
@@ -97,7 +98,7 @@ class OutreachAgent:
             resp = requests.get(
                 website_url,
                 timeout=10,
-                headers={"User-Agent": "Mozilla/5.0 (compatible; LocalRankBot/1.0)"},
+                headers={"User-Agent": "Mozilla/5.0 (compatible; SearchSentinelBot/1.0)"},
                 allow_redirects=True,
             )
             resp.raise_for_status()
@@ -115,7 +116,7 @@ class OutreachAgent:
                         contact_resp = requests.get(
                             f"{website_url.rstrip('/')}{path}",
                             timeout=8,
-                            headers={"User-Agent": "Mozilla/5.0 (compatible; LocalRankBot/1.0)"},
+                            headers={"User-Agent": "Mozilla/5.0 (compatible; SearchSentinelBot/1.0)"},
                         )
                         if contact_resp.status_code == 200:
                             emails += re.findall(
@@ -234,12 +235,12 @@ class OutreachAgent:
   <p style="font-size:13px;color:#777">Or just reply to this email — happy to answer questions.</p>
 
   <p>Best,<br>
-  LocalRank Sentinel</p>
+  Search Sentinel</p>
 
   <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
   <p style="font-size:11px;color:#999">
-    This is a one-time commercial message from LocalRank Sentinel.<br>
-    LocalRank Sentinel · 1111 S Figueroa St · Los Angeles, CA 90015<br>
+    This is a one-time commercial message from Search Sentinel.<br>
+    Search Sentinel · 1111 S Figueroa St · Los Angeles, CA 90015<br>
     To opt out of future emails, reply with "unsubscribe".
   </p>
 </div>
@@ -296,11 +297,11 @@ class OutreachAgent:
   the recommendations, just reply to this email.</p>
 
   <p>Best,<br>
-  LocalRank Sentinel</p>
+  Search Sentinel</p>
 
   <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
   <p style="font-size:11px;color:#999">
-    LocalRank Sentinel · 1111 S Figueroa St · Los Angeles, CA 90015<br>
+    Search Sentinel · 1111 S Figueroa St · Los Angeles, CA 90015<br>
     sutraflow.org
   </p>
 </div>
@@ -336,14 +337,211 @@ class OutreachAgent:
             logger.error(f"Fulfillment: failed to deliver to {to_email}: {e}")
             return False
 
+    def _send_email(self, to_email: str, subject: str, body_text: str) -> bool:
+        """Send a plain-text transactional email (for payment reminders, notifications)."""
+        if not all([self.gmail_user, self.gmail_app_password, to_email]):
+            return False
+        try:
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = subject
+            msg["From"] = f"{self.from_name} <{self.gmail_user}>"
+            msg["To"] = to_email
+            msg["Reply-To"] = self.gmail_user
+            msg.attach(MIMEText(body_text, "plain"))
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(self.gmail_user, self.gmail_app_password)
+                server.sendmail(self.gmail_user, [to_email], msg.as_string())
+            logger.info(f"Transactional email sent to {to_email}: {subject}")
+            return True
+        except Exception as e:
+            logger.error(f"Transactional email failed to {to_email}: {e}")
+            return False
+
+    def _load_customers(self) -> dict:
+        """Load the customer registry to check subscription status."""
+        customers_file = Path(__file__).parent.parent / "data" / "customers.json"
+        try:
+            with open(customers_file) as f:
+                return json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            return {"customers": []}
+
+    def is_active_subscriber(self, email: str) -> bool:
+        """Check if an email belongs to an active paying subscriber."""
+        data = self._load_customers()
+        email_lower = email.lower().strip()
+        for c in data["customers"]:
+            if c["email"].lower().strip() == email_lower and c["status"] == "active":
+                return True
+        return False
+
+    def get_subscriber_info(self, email: str) -> dict | None:
+        """Get subscriber record if they are active."""
+        data = self._load_customers()
+        email_lower = email.lower().strip()
+        for c in data["customers"]:
+            if c["email"].lower().strip() == email_lower and c["status"] == "active":
+                return c
+        return None
+
+    def send_subscriber_report_email(
+        self,
+        to_email: str,
+        business_name: str,
+        alert: dict,
+        pdf_path: Path,
+    ) -> bool:
+        """Send full PDF report to active subscriber for FREE (no payment needed).
+        This is the key differentiator: subscribers get reports automatically."""
+        if not all([self.gmail_user, self.gmail_app_password, to_email]):
+            return False
+
+        category_parts = alert["category_key"].split("_")
+        city = category_parts[0].title() if category_parts else "your city"
+
+        subject = f"Rank Drop Alert: {business_name} — full report attached"
+
+        html_body = f"""
+<div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
+  <p>Hi,</p>
+
+  <p>Your weekly monitoring detected a change for <strong>{business_name}</strong>:</p>
+
+  <div style="background:#fff8f0;border-left:4px solid #e67e22;padding:12px 16px;margin:16px 0">
+    <p style="margin:0;font-size:15px">
+      Ranking moved from <strong style="color:#0066cc">#{alert['prev_rank']}</strong> to
+      <strong style="color:#c0392b">#{alert['curr_rank']}</strong>
+      — <strong>{alert['rank_change']} position{'s' if alert['rank_change'] != 1 else ''} lost</strong>
+    </p>
+  </div>
+
+  <p><strong>Your full audit report is attached to this email</strong> — it includes
+  root cause analysis, competitor intelligence, and specific recovery actions.</p>
+
+  <p style="font-size:13px;color:#555">As an active subscriber, you receive this
+  report automatically at no additional cost. Your monitoring continues weekly.</p>
+
+  <p>Best,<br>
+  Search Sentinel</p>
+
+  <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
+  <p style="font-size:11px;color:#999">
+    Search Sentinel · Weekly Monitoring Report<br>
+    sutraflow.org/sentinel<br>
+    To manage your subscription, reply with "manage".
+  </p>
+</div>
+""".strip()
+
+        try:
+            msg = MIMEMultipart("mixed")
+            msg["Subject"] = subject
+            msg["From"] = f"{self.from_name} <{self.gmail_user}>"
+            msg["To"] = to_email
+            msg["Reply-To"] = self.gmail_user
+
+            body_part = MIMEMultipart("alternative")
+            body_part.attach(MIMEText(html_body, "html"))
+            msg.attach(body_part)
+
+            with open(pdf_path, "rb") as f:
+                pdf_part = MIMEApplication(f.read(), _subtype="pdf")
+                pdf_part.add_header(
+                    "Content-Disposition", "attachment",
+                    filename=f"SearchSentinel-Audit-{business_name.replace(' ', '-')}.pdf",
+                )
+                msg.attach(pdf_part)
+
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(self.gmail_user, self.gmail_app_password)
+                server.sendmail(self.gmail_user, [to_email], msg.as_string())
+
+            logger.info(f"Subscriber report sent to {to_email} ({business_name})")
+            return True
+
+        except Exception as e:
+            logger.error(f"Subscriber report failed for {to_email}: {e}")
+            return False
+
+    def send_allclear_email(
+        self,
+        to_email: str,
+        business_name: str,
+        current_rank: int,
+        category: str,
+        city: str,
+    ) -> bool:
+        """Send weekly all-clear email to subscriber when rank is stable.
+        This keeps subscribers engaged even when nothing changes."""
+        if not all([self.gmail_user, self.gmail_app_password, to_email]):
+            return False
+
+        subject = f"Weekly Update: {business_name} — ranking stable at #{current_rank}"
+
+        rank_status = "in the top 3" if current_rank <= 3 else f"at #{current_rank}"
+
+        html_body = f"""
+<div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
+  <p>Hi,</p>
+
+  <p>Your weekly scan for <strong>{business_name}</strong> is complete.</p>
+
+  <div style="background:#f0fdf4;border-left:4px solid #16a34a;padding:12px 16px;margin:16px 0">
+    <p style="margin:0;font-size:15px;color:#166534">
+      <strong>All clear</strong> — your Google Maps ranking held steady
+      {rank_status} for <em>{category}</em> in {city}.
+    </p>
+  </div>
+
+  <p>No changes detected this week. Your competitors' positions remained stable
+  and no significant review activity was flagged.</p>
+
+  <p style="font-size:14px;color:#555"><strong>We're still watching.</strong> If anything
+  changes next week, you'll get a full alert with detailed analysis.</p>
+
+  <p>Best,<br>
+  Search Sentinel</p>
+
+  <hr style="border:none;border-top:1px solid #e5e5e5;margin:24px 0">
+  <p style="font-size:11px;color:#999">
+    Search Sentinel · Weekly Monitoring Report<br>
+    sutraflow.org/sentinel<br>
+    To manage your subscription, reply with "manage".
+  </p>
+</div>
+""".strip()
+
+        try:
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = subject
+            msg["From"] = f"{self.from_name} <{self.gmail_user}>"
+            msg["To"] = to_email
+            msg["Reply-To"] = self.gmail_user
+            msg.attach(MIMEText(html_body, "html"))
+
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(self.gmail_user, self.gmail_app_password)
+                server.sendmail(self.gmail_user, [to_email], msg.as_string())
+
+            logger.info(f"All-clear email sent to {to_email} ({business_name})")
+            return True
+
+        except Exception as e:
+            logger.error(f"All-clear email failed for {to_email}: {e}")
+            return False
+
     def process_batch(self, report_results: list[dict]) -> dict:
         """
-        For each generated audit, find contact email and send teaser.
+        For each generated audit, find contact email and send appropriate email:
+        - Active subscriber → send full PDF report for FREE (no payment needed)
+        - Non-subscriber → send teaser email with payment links
+
         Returns summary stats + list of contacted businesses for the report index.
         """
         sent = 0
         no_email = 0
         failed = 0
+        subscriber_reports = 0
         contacted = []
 
         for item in report_results[:self.max_emails_per_run]:
@@ -357,17 +555,36 @@ class OutreachAgent:
                 logger.info(f"Outreach: no email found for {alert['business_name']}")
                 continue
 
-            success = self.send_teaser_email(email, alert["business_name"], alert)
-            if success:
-                sent += 1
-                contacted.append({
-                    "email": email,
-                    "business_name": alert["business_name"],
-                    "pdf_path": str(pdf_path),
-                    "category_key": alert["category_key"],
-                })
+            # CHECK: Is this an active subscriber? If so, send free report instead of teaser
+            if self.is_active_subscriber(email):
+                success = self.send_subscriber_report_email(
+                    email, alert["business_name"], alert, Path(pdf_path)
+                )
+                if success:
+                    subscriber_reports += 1
+                    sent += 1
+                    contacted.append({
+                        "email": email,
+                        "business_name": alert["business_name"],
+                        "pdf_path": str(pdf_path),
+                        "category_key": alert["category_key"],
+                        "type": "subscriber_report",
+                    })
+                else:
+                    failed += 1
             else:
-                failed += 1
+                success = self.send_teaser_email(email, alert["business_name"], alert)
+                if success:
+                    sent += 1
+                    contacted.append({
+                        "email": email,
+                        "business_name": alert["business_name"],
+                        "pdf_path": str(pdf_path),
+                        "category_key": alert["category_key"],
+                        "type": "teaser",
+                    })
+                else:
+                    failed += 1
 
             time.sleep(3)  # rate limit between emails
 
@@ -375,7 +592,11 @@ class OutreachAgent:
             "sent": sent,
             "no_email": no_email,
             "failed": failed,
+            "subscriber_reports": subscriber_reports,
             "contacted": contacted,
         }
-        logger.info(f"Outreach batch complete: sent={sent}, no_email={no_email}, failed={failed}")
+        logger.info(
+            f"Outreach batch complete: sent={sent} (subscribers={subscriber_reports}), "
+            f"no_email={no_email}, failed={failed}"
+        )
         return summary
