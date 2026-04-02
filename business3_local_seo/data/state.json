@@ -1,12 +1,12 @@
 {
-  "total_runs": 1,
-  "total_emails_sent": 0,
+  "total_runs": 2,
+  "total_emails_sent": 2,
   "total_reports_generated": 0,
-  "consecutive_failures": 1,
-  "last_status": "FAILED: Character \"\u2014\" at index 393 in text is outside the range of characters supported by the font used: \"helvetica\". Please consider using a Unicode font.",
-  "last_run": "2026-03-23T16:17:13.352135+00:00",
+  "consecutive_failures": 0,
+  "last_status": "OK",
+  "last_run": "2026-04-02T20:18:19.210893+00:00",
   "last_scans": 60,
-  "last_alerts": 0,
+  "last_alerts": 376,
   "last_reports": 0,
-  "last_emails_sent": 0
+  "last_emails_sent": 2
 }

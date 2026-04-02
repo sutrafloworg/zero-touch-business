@@ -1,0 +1,63 @@
+{
+  "reports": [
+    {
+      "id": "555abc328c75",
+      "email": "info@hillmoin.com",
+      "business_name": "Hill & Moin LLP - Accident Attorneys",
+      "category_key": "new york_ny_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "new york_ny_personal-injury-lawyer",
+        "business_name": "Hill & Moin LLP - Accident Attorneys",
+        "address": "111 Broadway # 810, New York, NY 10006",
+        "phone": "+1 212-668-6000",
+        "website": "https://hillmoin.com/",
+        "prev_rank": 2,
+        "curr_rank": 3,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 170,
+        "prev_reviews": 169,
+        "reasons": [
+          "Competitors above you gained reviews: The Law Office of Richard M. Kenny gained 1 new review",
+          "1 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-04-02T20:17:37.158191+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-02T20:18:19.210512+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "47d9bcb97563",
+      "email": "cropped-Favicon@512px-32x32.png",
+      "business_name": "The Law Offices of Eric Richman",
+      "category_key": "new york_ny_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "new york_ny_personal-injury-lawyer",
+        "business_name": "The Law Offices of Eric Richman",
+        "address": "641 Lexington Ave 14th Floor, New York, NY 10022",
+        "phone": "+1 212-688-3965",
+        "website": "https://richman-law.com/",
+        "prev_rank": 10,
+        "curr_rank": 12,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 184,
+        "prev_reviews": 182,
+        "reasons": [
+          "Competitors above you gained reviews: The Law Office of Richard M. Kenny gained 1 new review; Hill & Moin LLP - Accident Attorneys gained 1 new review; Rosenbaum Personal Injury Lawyers gained 2 new reviews"
+        ],
+        "scan_date": "2026-04-02T20:17:37.158191+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-02T20:18:19.210543+00:00",
+      "status": "pending",
+      "delivered_at": null
+    }
+  ]
+}
