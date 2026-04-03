@@ -559,7 +559,7 @@ class OutreachAgent:
         subscriber_notified = 0
         contacted = []
 
-        for alert in alerts[:self.max_emails_per_run]:
+        for alert in alerts:
             email = self.find_email_from_website(alert.get("website", ""))
 
             if not email:
