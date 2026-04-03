@@ -358,8 +358,7 @@ def _send_payment_reminder(customer: dict, attempt_count: int) -> None:
 
 @app.route("/admin/customers", methods=["GET"])
 def list_customers():
-    """List all customers with their subscription status."""
-    # Simple token check — set ADMIN_TOKEN env var
+    """List all customers and general pipeline funnel metrics."""
     token = request.headers.get("X-Admin-Token", "")
     expected = os.environ.get("ADMIN_TOKEN", "")
     if expected and token != expected:
@@ -367,7 +366,20 @@ def list_customers():
 
     data = _load_customers()
     customers = data.get("customers", [])
+    
+    # Calculate conversion funnel metrics
+    pending_data = load_json_safe(config.PENDING_REPORTS_FILE, {"reports": []})
+    reports = pending_data.get("reports", [])
+    total_leads_contacted = len(reports)
+    
     summary = {
+        "pipeline": {
+            "total_leads_emailed": total_leads_contacted,
+            "converted_customers": len(customers),
+            "conversion_rate_pct": round((len(customers) / max(1, total_leads_contacted)) * 100, 1),
+            "monthly_recurring_revenue": sum(5 for c in customers if c["status"] == "active" and c["plan"] == "monitor"),
+            "one_time_revenue": sum(10 for c in customers if c["plan"] == "audit")
+        },
         "total": len(customers),
         "active": sum(1 for c in customers if c["status"] == "active"),
         "past_due": sum(1 for c in customers if c["status"] == "past_due"),
@@ -375,6 +387,78 @@ def list_customers():
         "customers": customers,
     }
     return jsonify(summary)
+
+def load_json_safe(path: Path, default=None):
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return default if default is not None else {}
+
+@app.route("/admin/alerts", methods=["GET"])
+def get_recent_alerts():
+    """Returns the most recent rank drop alerts sent out to leads."""
+    token = request.headers.get("X-Admin-Token", "")
+    expected = os.environ.get("ADMIN_TOKEN", "")
+    if expected and token != expected:
+        return jsonify({"error": "unauthorized"}), 401
+
+    pending_data = load_json_safe(config.PENDING_REPORTS_FILE, {"reports": []})
+    reports = pending_data.get("reports", [])
+    
+    # Sort by created_at descending and grab top 10
+    recent = sorted(reports, key=lambda x: x.get("created_at", ""), reverse=True)[:10]
+    
+    return jsonify({
+        "total_alerts_tracked": len(reports),
+        "recent_alerts": recent
+    })
+
+@app.route("/admin/budget", methods=["GET"])
+def get_budget():
+    """Returns the API usage budget for SerpAPI, Outscraper, etc."""
+    token = request.headers.get("X-Admin-Token", "")
+    expected = os.environ.get("ADMIN_TOKEN", "")
+    if expected and token != expected:
+        return jsonify({"error": "unauthorized"}), 401
+
+    usage_file = Path(__file__).parent / "data" / "search_usage.json"
+    usage = load_json_safe(usage_file, {
+        "month": datetime.now(timezone.utc).strftime("%Y-%m"),
+        "serpapi": 0,
+        "valueserp": 0,
+        "outscraper": 0
+    })
+    
+    # Send budget limits down to frontend
+    usage["limits"] = {
+        "serpapi": 245,     # SerpAPI free tier is usually 100-250
+        "valueserp": 95, 
+        "outscraper": 500   # Outscraper gives $2 monthly free
+    }
+    return jsonify(usage)
+    
+@app.route("/admin/heatmap", methods=["GET"])
+def get_heatmap():
+    """Stubbed endpoint for geographic ranking multi-point grids."""
+    token = request.headers.get("X-Admin-Token", "")
+    expected = os.environ.get("ADMIN_TOKEN", "")
+    if expected and token != expected:
+        return jsonify({"error": "unauthorized"}), 401
+
+    # Returns frontend mock data to gracefully render "Planned Q2 2026" UI
+    return jsonify({
+        "status": "planned",
+        "release": "Q2 2026",
+        "description": "25-point geographic mesh resolution across target radius.",
+        "stub_grid": [
+            [2, 3, 3, 4, 5],
+            [3, 4, 5, 6, 7],
+            [4, 5, 7, 8, 9],
+            [5, 6, 8, 9, 10],
+            [6, 7, 9, 10, 11]
+        ]
+    })
 
 
 if __name__ == "__main__":
