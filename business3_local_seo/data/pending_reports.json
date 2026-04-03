@@ -58,6 +58,4037 @@
       "created_at": "2026-04-02T20:18:19.210543+00:00",
       "status": "pending",
       "delivered_at": null
+    },
+    {
+      "id": "b42c056fa264",
+      "email": "info@hillmoin.com",
+      "business_name": "Hill & Moin LLP - Accident Attorneys",
+      "category_key": "new york_ny_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "new york_ny_personal-injury-lawyer",
+        "business_name": "Hill & Moin LLP - Accident Attorneys",
+        "address": "111 Broadway # 810, New York, NY 10006",
+        "phone": "+1 212-668-6000",
+        "website": "https://hillmoin.com/",
+        "prev_rank": 2,
+        "curr_rank": 3,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 170,
+        "prev_reviews": 169,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892886+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "95f7ab5b386f",
+      "email": "myattorney@friedlandlaw.com",
+      "business_name": "Friedland Law",
+      "category_key": "new york_ny_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "new york_ny_personal-injury-lawyer",
+        "business_name": "Friedland Law",
+        "address": "50 Broad St # 1502, New York, NY 10004",
+        "phone": "+1 800-210-4878",
+        "website": "https://yourfightourbattle.com/",
+        "prev_rank": 19,
+        "curr_rank": 20,
+        "rank_change": 1,
+        "rating": 4.8,
+        "reviews": 92,
+        "prev_reviews": 91,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892910+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a7fadf9d9c76",
+      "email": "24hoursPlumbingny@gmail.com",
+      "business_name": "24 Hours Plumbing",
+      "category_key": "new york_ny_emergency-plumber",
+      "alert_data": {
+        "category_key": "new york_ny_emergency-plumber",
+        "business_name": "24 Hours Plumbing",
+        "address": "103-10 Queens Blvd, Queens, NY 11375",
+        "phone": "+1 917-965-8298",
+        "website": "http://24hoursplumbing.com/",
+        "prev_rank": 5,
+        "curr_rank": 7,
+        "rank_change": 2,
+        "rating": 4.5,
+        "reviews": 268,
+        "prev_reviews": 267,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892923+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "50e8d7ba3725",
+      "email": "clomoteyseo@gmail.com",
+      "business_name": "24 HR Emergency Plumber Brooklyn INC",
+      "category_key": "new york_ny_emergency-plumber",
+      "alert_data": {
+        "category_key": "new york_ny_emergency-plumber",
+        "business_name": "24 HR Emergency Plumber Brooklyn INC",
+        "address": "2950 W 24th St APT 3N, Brooklyn, NY 11224",
+        "phone": "+1 516-407-8375",
+        "website": "https://24hremergencyplumberbrooklyn2.com/",
+        "prev_rank": 10,
+        "curr_rank": 17,
+        "rank_change": 7,
+        "rating": 4.8,
+        "reviews": 41,
+        "prev_reviews": 43,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892934+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "4b4f0c833ab1",
+      "email": "help@247plumbinghq.com",
+      "business_name": "A1 24 Hour Plumbings",
+      "category_key": "new york_ny_emergency-plumber",
+      "alert_data": {
+        "category_key": "new york_ny_emergency-plumber",
+        "business_name": "A1 24 Hour Plumbings",
+        "address": null,
+        "phone": "+1 347-458-6180",
+        "website": "https://247plumbinghq.com/%3Futm_source%3Dgmb%26utm_medium%3Dorganic",
+        "prev_rank": 16,
+        "curr_rank": 19,
+        "rank_change": 3,
+        "rating": 5.0,
+        "reviews": 87,
+        "prev_reviews": 87,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892944+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b34a55544c3a",
+      "email": "info@parksmilesnyc.com",
+      "business_name": "Park Smiles NYC Cosmetic Dentistry",
+      "category_key": "new york_ny_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "new york_ny_cosmetic-dentist",
+        "business_name": "Park Smiles NYC Cosmetic Dentistry",
+        "address": "1175 Park Ave # 1d, New York, NY 10128",
+        "phone": "+1 212-988-6724",
+        "website": "https://www.parksmilesnyc.com/our-locations/cargenie-hill-dentist/",
+        "prev_rank": 12,
+        "curr_rank": 13,
+        "rank_change": 1,
+        "rating": 4.7,
+        "reviews": 524,
+        "prev_reviews": 517,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892954+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "6fb2c582915c",
+      "email": "Sere.conde@elliman.com",
+      "business_name": "Sere Conde Luxury Realtor",
+      "category_key": "new york_ny_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "new york_ny_luxury-real-estate-agent",
+        "business_name": "Sere Conde Luxury Realtor",
+        "address": "936 Broadway, New York, NY 10010",
+        "phone": "+1 917-238-0350",
+        "website": "https://www.sereluxuryrealestate.com/",
+        "prev_rank": 2,
+        "curr_rank": 3,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 26,
+        "prev_reviews": 26,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892964+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "9538e0bb8b4b",
+      "email": "sblumstein@corcoran.com",
+      "business_name": "Sydney Blumstein New York Real Estate Expert",
+      "category_key": "new york_ny_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "new york_ny_luxury-real-estate-agent",
+        "business_name": "Sydney Blumstein New York Real Estate Expert",
+        "address": "The Corcoran Group, 220 W 19th St 5TH floor C/O, New York, NY 10011",
+        "phone": "+1 917-435-3697",
+        "website": "https://www.corcoran.com/real-estate-agents/detail/sydney-blumstein/8719/regionId/1",
+        "prev_rank": 4,
+        "curr_rank": 6,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 58,
+        "prev_reviews": 58,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892974+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b9f114349578",
+      "email": "rachel@serhant.com",
+      "business_name": "SERHANT. Real Estate | Long Island & NYC | Rachel King, Broker",
+      "category_key": "new york_ny_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "new york_ny_luxury-real-estate-agent",
+        "business_name": "SERHANT. Real Estate | Long Island & NYC | Rachel King, Broker",
+        "address": "372 W Broadway, New York, NY 10012",
+        "phone": "+1 914-643-5724",
+        "website": "https://serhant.com/agents/rachel-king",
+        "prev_rank": 9,
+        "curr_rank": 14,
+        "rank_change": 5,
+        "rating": 5.0,
+        "reviews": 69,
+        "prev_reviews": 66,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892983+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "0778a0fdc8cc",
+      "email": "dan@digsrealtynyc.com",
+      "business_name": "Digs Realty Group",
+      "category_key": "new york_ny_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "new york_ny_luxury-real-estate-agent",
+        "business_name": "Digs Realty Group",
+        "address": "161 W 75th St Apt 8d, New York, NY 10023",
+        "phone": "+1 917-675-0037",
+        "website": "https://digsrealtynyc.com/",
+        "prev_rank": 13,
+        "curr_rank": 17,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 174,
+        "prev_reviews": 174,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.892994+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b263f6450bc0",
+      "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+      "business_name": "Regenerative SportsCare Institute (RSI+)",
+      "category_key": "new york_ny_regenerative-medicine",
+      "alert_data": {
+        "category_key": "new york_ny_regenerative-medicine",
+        "business_name": "Regenerative SportsCare Institute (RSI+)",
+        "address": "62 E 88th St, New York, NY 10128",
+        "phone": "+1 646-870-7997",
+        "website": "http://www.regensportscare.com/",
+        "prev_rank": 5,
+        "curr_rank": 6,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 51,
+        "prev_reviews": 51,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893004+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3cea0301a944",
+      "email": "info@regenerateny.com",
+      "business_name": "Regenerate NewYork",
+      "category_key": "new york_ny_regenerative-medicine",
+      "alert_data": {
+        "category_key": "new york_ny_regenerative-medicine",
+        "business_name": "Regenerate NewYork",
+        "address": "171-21 Jamaica Ave, Jamaica, NY 11432",
+        "phone": "+1 718-521-4442",
+        "website": "https://www.regenerateny.com/",
+        "prev_rank": 11,
+        "curr_rank": 13,
+        "rank_change": 2,
+        "rating": 4.6,
+        "reviews": 9,
+        "prev_reviews": 8,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893014+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "f8a1393930b3",
+      "email": "info@jacobyandmeyers.com",
+      "business_name": "Jacoby & Meyers Accident & Injury Lawyers - Los Angeles",
+      "category_key": "los angeles_ca_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "los angeles_ca_personal-injury-lawyer",
+        "business_name": "Jacoby & Meyers Accident & Injury Lawyers - Los Angeles",
+        "address": "2000 Ave of the Stars 1150 s, Los Angeles, CA 90067",
+        "phone": "+1 213-296-0792",
+        "website": "https://www.jacobyandmeyers.com/los-angeles-personal-injury-lawyer/",
+        "prev_rank": 9,
+        "curr_rank": 19,
+        "rank_change": 10,
+        "rating": 4.8,
+        "reviews": 2204,
+        "prev_reviews": 2242,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893024+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "7a6dab1748b7",
+      "email": "example@domain.com",
+      "business_name": "Red Lilly Plumbing",
+      "category_key": "los angeles_ca_emergency-plumber",
+      "alert_data": {
+        "category_key": "los angeles_ca_emergency-plumber",
+        "business_name": "Red Lilly Plumbing",
+        "address": "1647 Beverly Blvd, Los Angeles, CA 90026",
+        "phone": "+1 323-319-4102",
+        "website": "https://www.redlillyplumbing.com/",
+        "prev_rank": 3,
+        "curr_rank": 11,
+        "rank_change": 8,
+        "rating": 4.8,
+        "reviews": 521,
+        "prev_reviews": 516,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893035+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "888728ce13b3",
+      "email": "playadistrictdental@gmail.com",
+      "business_name": "Playa District Dental",
+      "category_key": "los angeles_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "los angeles_ca_cosmetic-dentist",
+        "business_name": "Playa District Dental",
+        "address": "6801 Park Terrace UNIT 330, Los Angeles, CA 90045",
+        "phone": "+1 310-777-1373",
+        "website": "https://www.playadistrictdental.com/",
+        "prev_rank": 7,
+        "curr_rank": 12,
+        "rank_change": 5,
+        "rating": 5.0,
+        "reviews": 590,
+        "prev_reviews": 590,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893045+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d9afd7e809bc",
+      "email": "info@exquisitedentistryla.com",
+      "business_name": "Exquisite Dentistry",
+      "category_key": "los angeles_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "los angeles_ca_cosmetic-dentist",
+        "business_name": "Exquisite Dentistry",
+        "address": "6227 Wilshire Blvd, Los Angeles, CA 90048",
+        "phone": "+1 323-272-2388",
+        "website": "https://exquisitedentistryla.com/",
+        "prev_rank": 13,
+        "curr_rank": 20,
+        "rank_change": 7,
+        "rating": 4.9,
+        "reviews": 263,
+        "prev_reviews": 259,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893055+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "eec6b91bcc6f",
+      "email": "info@keyesLA.com",
+      "business_name": "Keyes Real Estate",
+      "category_key": "los angeles_ca_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "los angeles_ca_luxury-real-estate-agent",
+        "business_name": "Keyes Real Estate",
+        "address": "1412 Colorado Blvd, Los Angeles, CA 90041",
+        "phone": "+1 310-486-9417",
+        "website": "https://keyesla.com/",
+        "prev_rank": 1,
+        "curr_rank": 2,
+        "rank_change": 1,
+        "rating": 4.8,
+        "reviews": 209,
+        "prev_reviews": 213,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893065+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5633edc8ac51",
+      "email": "angela@angelabond.com",
+      "business_name": "Angela Bond Group | Los Angeles Realtor @ KW Larchmont",
+      "category_key": "los angeles_ca_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "los angeles_ca_luxury-real-estate-agent",
+        "business_name": "Angela Bond Group | Los Angeles Realtor @ KW Larchmont",
+        "address": "118 N Larchmont Blvd, Los Angeles, CA 90004",
+        "phone": "+1 310-666-5052",
+        "website": "http://www.angelabondgroup.com/",
+        "prev_rank": 15,
+        "curr_rank": 16,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 33,
+        "prev_reviews": 33,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893076+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ed0c3be17211",
+      "email": "info@r3stemcell.com",
+      "business_name": "R3 Stem Cell Beverly Hills",
+      "category_key": "los angeles_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "los angeles_ca_regenerative-medicine",
+        "business_name": "R3 Stem Cell Beverly Hills",
+        "address": "9301 Wilshire Blvd Penthouse, Beverly Hills, CA 90210",
+        "phone": "+1 424-382-1074",
+        "website": "https://r3stemcell.com/stem-cell-therapy-treatment-center-beverly-hills-ca/",
+        "prev_rank": 3,
+        "curr_rank": 4,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 48,
+        "prev_reviews": 48,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893085+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "18884165dc1f",
+      "email": "info@metromd.net",
+      "business_name": "Metro Med Institute of Integrative Medicine",
+      "category_key": "los angeles_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "los angeles_ca_regenerative-medicine",
+        "business_name": "Metro Med Institute of Integrative Medicine",
+        "address": "11650 Riverside Dr, Los Angeles, CA 91602",
+        "phone": "+1 323-285-5300",
+        "website": "http://www.metromd.net/",
+        "prev_rank": 10,
+        "curr_rank": 12,
+        "rank_change": 2,
+        "rating": 4.8,
+        "reviews": 33,
+        "prev_reviews": 33,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893094+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b5dfc0927183",
+      "email": "info@drlox.com",
+      "business_name": "Dennis M. Lox, M.D. - Sports and Regenerative Medicine Centers",
+      "category_key": "los angeles_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "los angeles_ca_regenerative-medicine",
+        "business_name": "Dennis M. Lox, M.D. - Sports and Regenerative Medicine Centers",
+        "address": "450 N Roxbury Dr #602, Beverly Hills, CA 90210",
+        "phone": "+1 310-975-7033",
+        "website": "https://www.drlox.com/los-angeles-california/",
+        "prev_rank": 7,
+        "curr_rank": 14,
+        "rank_change": 7,
+        "rating": 3.7,
+        "reviews": 3,
+        "prev_reviews": 3,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893104+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "1c2513080c64",
+      "email": "pcc@drfields.com",
+      "business_name": "Peter A. Fields, MD, DC",
+      "category_key": "los angeles_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "los angeles_ca_regenerative-medicine",
+        "business_name": "Peter A. Fields, MD, DC",
+        "address": "2730 Wilshire Blvd #220, Santa Monica, CA 90403",
+        "phone": "+1 310-453-1234",
+        "website": "https://www.drfields.com/",
+        "prev_rank": 15,
+        "curr_rank": 16,
+        "rank_change": 1,
+        "rating": 4.7,
+        "reviews": 34,
+        "prev_reviews": 34,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893114+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a0c9d9c29fde",
+      "email": "info@malmanlaw.com",
+      "business_name": "Malman Law",
+      "category_key": "chicago_il_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "chicago_il_personal-injury-lawyer",
+        "business_name": "Malman Law",
+        "address": "205 W Randolph St # 1700, Chicago, IL 60606",
+        "phone": "+1 312-629-0099",
+        "website": "https://www.malmanlaw.com/",
+        "prev_rank": 1,
+        "curr_rank": 5,
+        "rank_change": 4,
+        "rating": 4.8,
+        "reviews": 4673,
+        "prev_reviews": 4636,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893123+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "9609fef5bbad",
+      "email": "questions@levinperconti.com",
+      "business_name": "Levin & Perconti",
+      "category_key": "chicago_il_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "chicago_il_personal-injury-lawyer",
+        "business_name": "Levin & Perconti",
+        "address": "325 N La Salle Dr Suite 300, Chicago, IL 60654",
+        "phone": "+1 312-847-2615",
+        "website": "https://www.levinperconti.com/medical-malpractice/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgbp-chicago",
+        "prev_rank": 3,
+        "curr_rank": 7,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 562,
+        "prev_reviews": 562,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893133+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8c3250f5b422",
+      "email": "joseph_shea@shealawgroup.com",
+      "business_name": "Shea Law Group",
+      "category_key": "chicago_il_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "chicago_il_personal-injury-lawyer",
+        "business_name": "Shea Law Group",
+        "address": "2400 N Western Ave 2nd Floor, Chicago, IL 60647",
+        "phone": "+1 877-365-0040",
+        "website": "https://www.shealawgroup.com/",
+        "prev_rank": 13,
+        "curr_rank": 16,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 283,
+        "prev_reviews": 279,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893143+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "68aa35c459b3",
+      "email": "office@myrescueplumbing.com",
+      "business_name": "Rescue Plumbing",
+      "category_key": "chicago_il_emergency-plumber",
+      "alert_data": {
+        "category_key": "chicago_il_emergency-plumber",
+        "business_name": "Rescue Plumbing",
+        "address": "1137 W Webster Ave, Chicago, IL 60614",
+        "phone": "+1 773-219-6071",
+        "website": "https://www.myrescueplumbing.com/",
+        "prev_rank": 1,
+        "curr_rank": 8,
+        "rank_change": 7,
+        "rating": 4.9,
+        "reviews": 1524,
+        "prev_reviews": 1522,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893153+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ca436e390b9b",
+      "email": "office@myrescueplumbing.com",
+      "business_name": "Rescue Plumbing",
+      "category_key": "chicago_il_emergency-plumber",
+      "alert_data": {
+        "category_key": "chicago_il_emergency-plumber",
+        "business_name": "Rescue Plumbing",
+        "address": "839 N Winchester Ave #2r, Chicago, IL 60622",
+        "phone": "+1 773-219-6265",
+        "website": "https://www.myrescueplumbing.com/locations/mccormick-blvd-lincolnwood/",
+        "prev_rank": 9,
+        "curr_rank": 11,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 120,
+        "prev_reviews": 120,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893163+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "e0d4f96ecca4",
+      "email": "clomoteyseo@gmail.com",
+      "business_name": "24 HR Emergency Plumber Chicago INC",
+      "category_key": "chicago_il_emergency-plumber",
+      "alert_data": {
+        "category_key": "chicago_il_emergency-plumber",
+        "business_name": "24 HR Emergency Plumber Chicago INC",
+        "address": "5444 S California Ave #2, Chicago, IL 60632",
+        "phone": "+1 708-847-5349",
+        "website": "https://24hremergencyplumberchicago1.com/",
+        "prev_rank": 2,
+        "curr_rank": 14,
+        "rank_change": 12,
+        "rating": 4.9,
+        "reviews": 42,
+        "prev_reviews": 45,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893173+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "2e6717c26a8c",
+      "email": "office@apexplumbingchicago.com",
+      "business_name": "Apex Plumbing & Sewer Inc.",
+      "category_key": "chicago_il_emergency-plumber",
+      "alert_data": {
+        "category_key": "chicago_il_emergency-plumber",
+        "business_name": "Apex Plumbing & Sewer Inc.",
+        "address": "1452 W Irving Park Rd #1, Chicago, IL 60613",
+        "phone": "+1 773-477-7714",
+        "website": "https://www.apexplumbingchicago.com/",
+        "prev_rank": 6,
+        "curr_rank": 19,
+        "rank_change": 13,
+        "rating": 4.6,
+        "reviews": 235,
+        "prev_reviews": 232,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893183+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "e433079a0daa",
+      "email": "smile@thechicagodentalstudio.com",
+      "business_name": "The Chicago Dental Studio, River North",
+      "category_key": "chicago_il_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "chicago_il_cosmetic-dentist",
+        "business_name": "The Chicago Dental Studio, River North",
+        "address": "443 W Huron St, Chicago, IL 60654",
+        "phone": "+1 312-267-1917",
+        "website": "https://thechicagodentalstudio.com/chicago-river-north/",
+        "prev_rank": 3,
+        "curr_rank": 5,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 721,
+        "prev_reviews": 721,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893193+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "2afb2becc2dc",
+      "email": "ApptLanders@gmail.com",
+      "business_name": "Advanced Cosmetic & Implant Dentistry",
+      "category_key": "chicago_il_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "chicago_il_cosmetic-dentist",
+        "business_name": "Advanced Cosmetic & Implant Dentistry",
+        "address": "30 S Michigan Ave #300, Chicago, IL 60603",
+        "phone": "+1 312-263-7823",
+        "website": "https://www.cosmeticdentistchicago.com/",
+        "prev_rank": 2,
+        "curr_rank": 6,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 73,
+        "prev_reviews": 73,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893203+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "4d9db388ba59",
+      "email": "info@chicagostylesmiles.com",
+      "business_name": "Chicago Style Smiles",
+      "category_key": "chicago_il_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "chicago_il_cosmetic-dentist",
+        "business_name": "Chicago Style Smiles",
+        "address": "30 N Michigan Ave #1506, Chicago, IL 60602",
+        "phone": "+1 312-372-4845",
+        "website": "https://chicagostylesmiles.com/",
+        "prev_rank": 4,
+        "curr_rank": 8,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 577,
+        "prev_reviews": 572,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893212+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b7f5826eb0b7",
+      "email": "sharon.gillman@compass.com",
+      "business_name": "Gillman Group Luxury Real Estate | Compass Chicago",
+      "category_key": "chicago_il_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "chicago_il_luxury-real-estate-agent",
+        "business_name": "Gillman Group Luxury Real Estate | Compass Chicago",
+        "address": "55 E Erie St #1C, Chicago, IL 60611",
+        "phone": "+1 312-925-2700",
+        "website": "https://gillmangroupchicago.com/",
+        "prev_rank": 1,
+        "curr_rank": 2,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 32,
+        "prev_reviews": 31,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893222+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a36e10af24cc",
+      "email": "user@domain.com",
+      "business_name": "Janie Luxury Realty",
+      "category_key": "chicago_il_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "chicago_il_luxury-real-estate-agent",
+        "business_name": "Janie Luxury Realty",
+        "address": "515 N State St, Chicago, IL 60654",
+        "phone": "+1 773-599-0509",
+        "website": "https://janieluxuryrealty.com/",
+        "prev_rank": 9,
+        "curr_rank": 10,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 33,
+        "prev_reviews": 33,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893232+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ef0c492d0ca7",
+      "email": "info@sohailrealestate.com",
+      "business_name": "Sohail Real Estate Team, eXp Realty | Chicago and NorthShore Realtor",
+      "category_key": "chicago_il_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "chicago_il_luxury-real-estate-agent",
+        "business_name": "Sohail Real Estate Team, eXp Realty | Chicago and NorthShore Realtor",
+        "address": "6348 N Cicero Ave #202, Chicago, IL 60646",
+        "phone": "+1 312-818-2978",
+        "website": "https://sohailrealestate.com/",
+        "prev_rank": 16,
+        "curr_rank": 19,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 229,
+        "prev_reviews": 229,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893242+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "340617dc21c8",
+      "email": "info@regeneveda.com",
+      "business_name": "Regeneveda Chicago",
+      "category_key": "chicago_il_regenerative-medicine",
+      "alert_data": {
+        "category_key": "chicago_il_regenerative-medicine",
+        "business_name": "Regeneveda Chicago",
+        "address": "1 E Delaware Pl #306, Chicago, IL 60611",
+        "phone": "+1 855-734-3638",
+        "website": "http://www.regeneveda.com/",
+        "prev_rank": 4,
+        "curr_rank": 7,
+        "rank_change": 3,
+        "rating": 4.5,
+        "reviews": 25,
+        "prev_reviews": 25,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893251+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "f5e029025188",
+      "email": "webdev@drivinglocalleads.com",
+      "business_name": "Wayne Wright, LLP",
+      "category_key": "austin_tx_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "austin_tx_personal-injury-lawyer",
+        "business_name": "Wayne Wright, LLP",
+        "address": "2550 S I-35 Frontage Rd #152, Austin, TX 78704",
+        "phone": "+1 512-402-3795",
+        "website": "https://waynewright.com/austin/",
+        "prev_rank": 13,
+        "curr_rank": 17,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 380,
+        "prev_reviews": 380,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893262+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "950e322b5935",
+      "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+      "business_name": "Sneed & Mitchell LLP - Trucking Accident & Wrongful Death Lawyers\u00ae",
+      "category_key": "austin_tx_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "austin_tx_personal-injury-lawyer",
+        "business_name": "Sneed & Mitchell LLP - Trucking Accident & Wrongful Death Lawyers\u00ae",
+        "address": "5540 N Lamar Blvd Suite #46, Austin, TX 78756",
+        "phone": "+1 512-253-4440",
+        "website": "https://www.sneedmitchell.com/",
+        "prev_rank": 11,
+        "curr_rank": 18,
+        "rank_change": 7,
+        "rating": 5.0,
+        "reviews": 80,
+        "prev_reviews": 81,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893271+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "1909821660a5",
+      "email": "user@domain.com",
+      "business_name": "1st Home & Commercial Services",
+      "category_key": "austin_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "austin_tx_emergency-plumber",
+        "business_name": "1st Home & Commercial Services",
+        "address": "630 Ralph Ablanedo Dr Bldg 1, Austin, TX 78748",
+        "phone": "+1 512-282-7787",
+        "website": "https://www.1sthomeandcommercialservices.com/",
+        "prev_rank": 14,
+        "curr_rank": 15,
+        "rank_change": 1,
+        "rating": 4.8,
+        "reviews": 800,
+        "prev_reviews": 799,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893281+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "05e8503d531c",
+      "email": "hello@austinplumbery.com",
+      "business_name": "Austin Plumbery",
+      "category_key": "austin_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "austin_tx_emergency-plumber",
+        "business_name": "Austin Plumbery",
+        "address": null,
+        "phone": "+1 512-766-1519",
+        "website": "http://www.austinplumbery.com/",
+        "prev_rank": 7,
+        "curr_rank": 17,
+        "rank_change": 10,
+        "rating": 4.8,
+        "reviews": 225,
+        "prev_reviews": 224,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893291+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5e84b4e7df06",
+      "email": "hello@plumbersthatcare.com",
+      "business_name": "Economy Plumbing Services, LLC",
+      "category_key": "austin_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "austin_tx_emergency-plumber",
+        "business_name": "Economy Plumbing Services, LLC",
+        "address": "701 Tillery St, Austin, TX 78702",
+        "phone": "+1 512-233-6590",
+        "website": "https://www.plumbersthatcare.com/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgmb",
+        "prev_rank": 11,
+        "curr_rank": 18,
+        "rank_change": 7,
+        "rating": 4.6,
+        "reviews": 592,
+        "prev_reviews": 589,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893300+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ac7e19d792fd",
+      "email": "contact@drjss.com",
+      "business_name": "Dr. John Schmid, D.D.S. LVIF - Contemporary Cosmetic Dentistry",
+      "category_key": "austin_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "austin_tx_cosmetic-dentist",
+        "business_name": "Dr. John Schmid, D.D.S. LVIF - Contemporary Cosmetic Dentistry",
+        "address": "3355 Bee Caves Rd Suite 201, Austin, TX 78746",
+        "phone": "+1 512-329-5967",
+        "website": "https://cosmeticdentistryaustin.com/",
+        "prev_rank": 3,
+        "curr_rank": 5,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 105,
+        "prev_reviews": 105,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893310+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "53e0ef1e7d56",
+      "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+      "business_name": "Moossy General & Cosmetic Dentistry - Michael Moossy DDS",
+      "category_key": "austin_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "austin_tx_cosmetic-dentist",
+        "business_name": "Moossy General & Cosmetic Dentistry - Michael Moossy DDS",
+        "address": "4200 N Lamar Blvd #145, Austin, TX 78756",
+        "phone": "+1 512-459-5437",
+        "website": "http://www.drmoossy.com/",
+        "prev_rank": 5,
+        "curr_rank": 13,
+        "rank_change": 8,
+        "rating": 4.9,
+        "reviews": 242,
+        "prev_reviews": 241,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893320+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "e6c0fc5d8577",
+      "email": "hello@enmeldentistry.com",
+      "business_name": "Enamel Dentistry South Lamar",
+      "category_key": "austin_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "austin_tx_cosmetic-dentist",
+        "business_name": "Enamel Dentistry South Lamar",
+        "address": "2717 S Lamar Blvd #1086, Austin, TX 78704",
+        "phone": "+1 512-588-5231",
+        "website": "https://enameldentistry.com/south-lamar-dentist/",
+        "prev_rank": 15,
+        "curr_rank": 16,
+        "rank_change": 1,
+        "rating": 4.8,
+        "reviews": 1037,
+        "prev_reviews": 1032,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893330+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "81a1cb67ba2f",
+      "email": "info@springsrejuvenation.com",
+      "business_name": "Springs Rejuvenation",
+      "category_key": "austin_tx_regenerative-medicine",
+      "alert_data": {
+        "category_key": "austin_tx_regenerative-medicine",
+        "business_name": "Springs Rejuvenation",
+        "address": "8700 Menchaca Rd Suite 602, Austin, TX 78748",
+        "phone": "+1 512-866-1655",
+        "website": "https://springsrejuvenation.com/",
+        "prev_rank": 3,
+        "curr_rank": 4,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 70,
+        "prev_reviews": 73,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893340+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d37a4a8250ee",
+      "email": "info@proloaustin.com",
+      "business_name": "ProloAustin",
+      "category_key": "austin_tx_regenerative-medicine",
+      "alert_data": {
+        "category_key": "austin_tx_regenerative-medicine",
+        "business_name": "ProloAustin",
+        "address": "2714 Bee Caves Rd #106, Austin, TX 78746",
+        "phone": "+1 512-347-7246",
+        "website": "http://www.proloaustin.com/",
+        "prev_rank": 9,
+        "curr_rank": 11,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 7,
+        "prev_reviews": 7,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893350+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "9346ae6f5a6d",
+      "email": "info@gslawusa.com",
+      "business_name": "Gerson and Schwartz Accident & Injury Lawyers",
+      "category_key": "miami_fl_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "miami_fl_personal-injury-lawyer",
+        "business_name": "Gerson and Schwartz Accident & Injury Lawyers",
+        "address": "1980 Coral Wy, Miami, FL 33145",
+        "phone": "+1 877-475-2905",
+        "website": "https://www.injuryattorneyfla.com/",
+        "prev_rank": 2,
+        "curr_rank": 7,
+        "rank_change": 5,
+        "rating": 4.8,
+        "reviews": 273,
+        "prev_reviews": 272,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893361+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "c56eeec7d7ee",
+      "email": "perkins@perkinslawoffices.com",
+      "business_name": "Perkins Personal Injury Lawyers",
+      "category_key": "miami_fl_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "miami_fl_personal-injury-lawyer",
+        "business_name": "Perkins Personal Injury Lawyers",
+        "address": "1728 Coral Wy Suite 702, Miami, FL 33145",
+        "phone": "+1 305-741-5297",
+        "website": "https://www.perkinslawoffices.com/",
+        "prev_rank": 11,
+        "curr_rank": 15,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 92,
+        "prev_reviews": 91,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893371+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "67be89684114",
+      "email": "do@solvedpuzzle.com",
+      "business_name": "DLE Lawyers | Abogados De Accidentes Miami",
+      "category_key": "miami_fl_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "miami_fl_personal-injury-lawyer",
+        "business_name": "DLE Lawyers | Abogados De Accidentes Miami",
+        "address": "2151 S Le Jeune Rd UNIT 305, Miami, FL 33134",
+        "phone": "+1 305-363-7855",
+        "website": "https://www.dlelawyers.com/",
+        "prev_rank": 5,
+        "curr_rank": 18,
+        "rank_change": 13,
+        "rating": 4.8,
+        "reviews": 170,
+        "prev_reviews": 170,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893381+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "2213360ba9e2",
+      "email": "service@miamiserviceplumbers.com",
+      "business_name": "MIAMI SERVICE PLUMBERS | Emergency Plumbers in Miami",
+      "category_key": "miami_fl_emergency-plumber",
+      "alert_data": {
+        "category_key": "miami_fl_emergency-plumber",
+        "business_name": "MIAMI SERVICE PLUMBERS | Emergency Plumbers in Miami",
+        "address": "5390 NW 72nd Ave, Miami, FL 33166",
+        "phone": "+1 305-851-8853",
+        "website": "https://emergencyplumbersmiami.com/",
+        "prev_rank": 2,
+        "curr_rank": 3,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 48,
+        "prev_reviews": 48,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893388+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "0a54e0853539",
+      "email": "info@drmartos.com",
+      "business_name": "My Smile Miami",
+      "category_key": "miami_fl_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "miami_fl_cosmetic-dentist",
+        "business_name": "My Smile Miami",
+        "address": "782 NW 42nd Ave #633, Miami, FL 33126",
+        "phone": "+1 305-444-0808",
+        "website": "http://www.mysmilemiami.com/",
+        "prev_rank": 1,
+        "curr_rank": 5,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 1555,
+        "prev_reviews": 1552,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893393+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "41222dca8777",
+      "email": "escape@miamidentalsedationspa.com",
+      "business_name": "Miami Dental Sedation Spa - Miami",
+      "category_key": "miami_fl_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "miami_fl_cosmetic-dentist",
+        "business_name": "Miami Dental Sedation Spa - Miami",
+        "address": "401 SW 42nd Ave #302, Miami, FL 33134",
+        "phone": "+1 305-445-4646",
+        "website": "https://miamidentalsedationspa.com/",
+        "prev_rank": 5,
+        "curr_rank": 9,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 1236,
+        "prev_reviews": 1228,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893399+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "aa8f02616d06",
+      "email": "info@hqdontics.com",
+      "business_name": "Dentists in Brickell - HQ Dontics Dental Centre",
+      "category_key": "miami_fl_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "miami_fl_cosmetic-dentist",
+        "business_name": "Dentists in Brickell - HQ Dontics Dental Centre",
+        "address": "1060 Brickell Ave Suite 103/M2, Miami, FL 33131",
+        "phone": "+1 229-508-0551",
+        "website": "https://www.hqdontics.com/",
+        "prev_rank": 8,
+        "curr_rank": 11,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 674,
+        "prev_reviews": 668,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893404+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "aebc3c4dfc2a",
+      "email": "info@ultrasmilemiami.com",
+      "business_name": "Ultra Smile Miami",
+      "category_key": "miami_fl_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "miami_fl_cosmetic-dentist",
+        "business_name": "Ultra Smile Miami",
+        "address": "168 SE 1st St, Miami, FL 33131",
+        "phone": "+1 305-372-1020",
+        "website": "http://ultrasmilemiami.com/",
+        "prev_rank": 13,
+        "curr_rank": 20,
+        "rank_change": 7,
+        "rating": 4.8,
+        "reviews": 817,
+        "prev_reviews": 814,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893409+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "febaa97301df",
+      "email": "info@lgrealtygroup.com",
+      "business_name": "LG Realty Group Inc. Miami Luxury Real Estate",
+      "category_key": "miami_fl_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "miami_fl_luxury-real-estate-agent",
+        "business_name": "LG Realty Group Inc. Miami Luxury Real Estate",
+        "address": "3250 NE 1st Ave Unit 305, Miami, FL 33137",
+        "phone": "+1 305-890-6226",
+        "website": "https://www.lgrealtygroup.com/",
+        "prev_rank": 1,
+        "curr_rank": 5,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 33,
+        "prev_reviews": 33,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893414+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "35ef76643420",
+      "email": "info@miamiluxuryhomes.com",
+      "business_name": "Miami Luxury Homes",
+      "category_key": "miami_fl_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "miami_fl_luxury-real-estate-agent",
+        "business_name": "Miami Luxury Homes",
+        "address": "3059 Grand Ave Suite 340, Coconut Grove, FL 33133",
+        "phone": "+1 305-350-9842",
+        "website": "https://www.miamiluxuryhomes.com/",
+        "prev_rank": 5,
+        "curr_rank": 6,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 68,
+        "prev_reviews": 68,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893419+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a6319ae4d5eb",
+      "email": "jennygonzalezre@gmail.com",
+      "business_name": "Luxury Real Estate | Miami | Jenny Gonzalez",
+      "category_key": "miami_fl_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "miami_fl_luxury-real-estate-agent",
+        "business_name": "Luxury Real Estate | Miami | Jenny Gonzalez",
+        "address": "625 Brickell Key Dr, Miami, FL 33131",
+        "phone": "+1 786-486-1617",
+        "website": "https://www.jennygonzalezre.com/",
+        "prev_rank": 12,
+        "curr_rank": 13,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 1,
+        "prev_reviews": 1,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893424+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d279e6efc349",
+      "email": "ag@miamiluxuryproperties.com",
+      "business_name": "Miami Luxury Properties",
+      "category_key": "miami_fl_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "miami_fl_luxury-real-estate-agent",
+        "business_name": "Miami Luxury Properties",
+        "address": "15050 NW 79th Ct #105, Miami Lakes, FL 33016",
+        "phone": "+1 305-395-5757",
+        "website": "https://www.miamiluxuryproperties.com/",
+        "prev_rank": 13,
+        "curr_rank": 17,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 15,
+        "prev_reviews": 15,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893429+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8ab27b172c21",
+      "email": "cat@catrodstein.com",
+      "business_name": "Catherine Rodstein Real Estate Agent Miami Beach - Luxury Homes & Condos",
+      "category_key": "miami_fl_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "miami_fl_luxury-real-estate-agent",
+        "business_name": "Catherine Rodstein Real Estate Agent Miami Beach - Luxury Homes & Condos",
+        "address": "119 Washington Ave, Miami Beach, FL 33139",
+        "phone": "+1 786-417-9257",
+        "website": "http://www.catrodstein.com/",
+        "prev_rank": 10,
+        "curr_rank": 18,
+        "rank_change": 8,
+        "rating": 5.0,
+        "reviews": 11,
+        "prev_reviews": 11,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893462+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "6176e63637d4",
+      "email": "info@stemcellmia.com",
+      "business_name": "Miami Stem Cell",
+      "category_key": "miami_fl_regenerative-medicine",
+      "alert_data": {
+        "category_key": "miami_fl_regenerative-medicine",
+        "business_name": "Miami Stem Cell",
+        "address": "7330 SW 62nd Pl Suite 320-A, South Miami, FL 33143",
+        "phone": "+1 305-598-7777",
+        "website": "http://stemcellmia.com/",
+        "prev_rank": 3,
+        "curr_rank": 4,
+        "rank_change": 1,
+        "rating": 4.7,
+        "reviews": 193,
+        "prev_reviews": 190,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893471+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a72b24adedee",
+      "email": "info@floridaregen.com",
+      "business_name": "Florida Regen- Dr. Tad P. DeWald",
+      "category_key": "miami_fl_regenerative-medicine",
+      "alert_data": {
+        "category_key": "miami_fl_regenerative-medicine",
+        "business_name": "Florida Regen- Dr. Tad P. DeWald",
+        "address": "162 NE 25th St #103, Miami, FL 33137",
+        "phone": "+1 305-813-4188",
+        "website": "https://floridaregen.com/",
+        "prev_rank": 6,
+        "curr_rank": 7,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 224,
+        "prev_reviews": 224,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893476+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "542a351f4f46",
+      "email": "aliciarcarter007@gmail.com",
+      "business_name": "Regenerative Medicine & Orthopedics, Alicia R. Carter, MD",
+      "category_key": "miami_fl_regenerative-medicine",
+      "alert_data": {
+        "category_key": "miami_fl_regenerative-medicine",
+        "business_name": "Regenerative Medicine & Orthopedics, Alicia R. Carter, MD",
+        "address": "4770 Biscayne Blvd Suite #1100, Miami, FL 33137",
+        "phone": "+1 305-680-3527",
+        "website": "http://www.miamispineandsportsdoctor.com/",
+        "prev_rank": 9,
+        "curr_rank": 10,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 68,
+        "prev_reviews": 67,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893481+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "9dfcb10c54ea",
+      "email": "info@karlihealth.com",
+      "business_name": "Karli Health Institute",
+      "category_key": "miami_fl_regenerative-medicine",
+      "alert_data": {
+        "category_key": "miami_fl_regenerative-medicine",
+        "business_name": "Karli Health Institute",
+        "address": "3683 S Miami Ave Suite 460, Miami, FL 33133",
+        "phone": "+1 305-459-3377",
+        "website": "http://www.karlihealth.com/",
+        "prev_rank": 16,
+        "curr_rank": 19,
+        "rank_change": 3,
+        "rating": 5.0,
+        "reviews": 18,
+        "prev_reviews": 18,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893486+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "4248c7019f1b",
+      "email": "my_email@gmail.com",
+      "business_name": "Mullen & Mullen Law Firm",
+      "category_key": "dallas_tx_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "dallas_tx_personal-injury-lawyer",
+        "business_name": "Mullen & Mullen Law Firm",
+        "address": "1825 Market Center Blvd #200, Dallas, TX 75207",
+        "phone": "+1 214-747-5240",
+        "website": "https://www.mullenandmullen.com/",
+        "prev_rank": 1,
+        "curr_rank": 4,
+        "rank_change": 3,
+        "rating": 5.0,
+        "reviews": 456,
+        "prev_reviews": 451,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893492+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ca48a17ee456",
+      "email": "service@mrrooterdfw.com",
+      "business_name": "Mr. Rooter Plumbing of Dallas",
+      "category_key": "dallas_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "dallas_tx_emergency-plumber",
+        "business_name": "Mr. Rooter Plumbing of Dallas",
+        "address": "10155 Plano Rd #104, Dallas, TX 75238",
+        "phone": "+1 214-339-9027",
+        "website": "https://www.mrrooterdallas.com/",
+        "prev_rank": 5,
+        "curr_rank": 6,
+        "rank_change": 1,
+        "rating": 4.8,
+        "reviews": 576,
+        "prev_reviews": 566,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893497+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "1db2c15d4add",
+      "email": "alfonsoh3@yahoo.com",
+      "business_name": "Rise Plumbing Systems",
+      "category_key": "dallas_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "dallas_tx_emergency-plumber",
+        "business_name": "Rise Plumbing Systems",
+        "address": null,
+        "phone": "+1 469-825-9053",
+        "website": "https://www.riseplumbingsystems.com/",
+        "prev_rank": 14,
+        "curr_rank": 17,
+        "rank_change": 3,
+        "rating": 5.0,
+        "reviews": 85,
+        "prev_reviews": 82,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893502+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a626936ffe37",
+      "email": "info@dallascosmeticdental.com",
+      "business_name": "Dallas Cosmetic Dental",
+      "category_key": "dallas_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "dallas_tx_cosmetic-dentist",
+        "business_name": "Dallas Cosmetic Dental",
+        "address": "8226 Douglas Ave SUITE 753, Dallas, TX 75225",
+        "phone": "+1 214-915-2086",
+        "website": "https://dallascosmeticdental.com/",
+        "prev_rank": 1,
+        "curr_rank": 2,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 61,
+        "prev_reviews": 61,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893507+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "376b57214b50",
+      "email": "info@dallasdesignersmiles.com",
+      "business_name": "Dallas Designer Smiles",
+      "category_key": "dallas_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "dallas_tx_cosmetic-dentist",
+        "business_name": "Dallas Designer Smiles",
+        "address": "8222 Douglas Ave #810, Dallas, TX 75225",
+        "phone": "+1 214-363-7777",
+        "website": "http://www.dallasdesignersmiles.com/",
+        "prev_rank": 8,
+        "curr_rank": 9,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 208,
+        "prev_reviews": 207,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893512+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5fed1aaa3742",
+      "email": "dallas@thedentalmethod.com",
+      "business_name": "The Dental Method - Dentist of Dallas",
+      "category_key": "dallas_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "dallas_tx_cosmetic-dentist",
+        "business_name": "The Dental Method - Dentist of Dallas",
+        "address": "5757 W Lovers Ln #109, Dallas, TX 75209",
+        "phone": "+1 214-227-6775",
+        "website": "https://thedentalmethod.com/",
+        "prev_rank": 6,
+        "curr_rank": 15,
+        "rank_change": 9,
+        "rating": 4.9,
+        "reviews": 289,
+        "prev_reviews": 290,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893517+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "59713e3c227b",
+      "email": "info@confidentsmilestudiotx.com",
+      "business_name": "ConfiDent Smile Studio",
+      "category_key": "dallas_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "dallas_tx_cosmetic-dentist",
+        "business_name": "ConfiDent Smile Studio",
+        "address": "6780 Abrams Rd suite 111, Dallas, TX 75231",
+        "phone": "+1 214-888-6726",
+        "website": "https://www.confidentsmilestudiotx.com/",
+        "prev_rank": 9,
+        "curr_rank": 18,
+        "rank_change": 9,
+        "rating": 5.0,
+        "reviews": 175,
+        "prev_reviews": 173,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893522+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "1c956f15d0c2",
+      "email": "susan@susangeorgeson.com",
+      "business_name": "Susan Georgeson | Dallas Luxury Real Estate | Compass",
+      "category_key": "dallas_tx_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "dallas_tx_luxury-real-estate-agent",
+        "business_name": "Susan Georgeson | Dallas Luxury Real Estate | Compass",
+        "address": null,
+        "phone": "+1 972-832-1943",
+        "website": "http://www.dallasluxuryliving.com/",
+        "prev_rank": 2,
+        "curr_rank": 5,
+        "rank_change": 3,
+        "rating": 5.0,
+        "reviews": 14,
+        "prev_reviews": 14,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893527+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "04f2a93a6eee",
+      "email": "DMCAnotice@MLSGrid.com",
+      "business_name": "Eakin Group, Luxury Real Estate Advisor - Dallas",
+      "category_key": "dallas_tx_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "dallas_tx_luxury-real-estate-agent",
+        "business_name": "Eakin Group, Luxury Real Estate Advisor - Dallas",
+        "address": "5960 Berkshire Ln Suite 700, Dallas, TX 75225",
+        "phone": "+1 214-801-3495",
+        "website": "http://www.eakingroup.com/",
+        "prev_rank": 4,
+        "curr_rank": 7,
+        "rank_change": 3,
+        "rating": 5.0,
+        "reviews": 134,
+        "prev_reviews": 134,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893532+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "cc56bfba21e0",
+      "email": "impallari@gmail.com",
+      "business_name": "DLG REALTY ADVISORS | Dallas-Fort Worth Realtors",
+      "category_key": "dallas_tx_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "dallas_tx_luxury-real-estate-agent",
+        "business_name": "DLG REALTY ADVISORS | Dallas-Fort Worth Realtors",
+        "address": "4131 N Central Expy Suite 975, Dallas, TX 75204",
+        "phone": "+1 972-804-6800",
+        "website": "https://dlgrealtyadvisors.com/",
+        "prev_rank": 8,
+        "curr_rank": 10,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 110,
+        "prev_reviews": 110,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893537+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "31f09a74fdd9",
+      "email": "info@briggsfreeman.com",
+      "business_name": "Briggs Freeman Sotheby's International Realty",
+      "category_key": "dallas_tx_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "dallas_tx_luxury-real-estate-agent",
+        "business_name": "Briggs Freeman Sotheby's International Realty",
+        "address": "3131 Turtle Creek Blvd 5th Floor, Dallas, TX 75219",
+        "phone": "+1 214-350-0400",
+        "website": "http://briggsfreeman.com/",
+        "prev_rank": 12,
+        "curr_rank": 13,
+        "rank_change": 1,
+        "rating": 4.8,
+        "reviews": 245,
+        "prev_reviews": 242,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893542+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3197ce4ae143",
+      "email": "info@mesquitechiro.com",
+      "business_name": "Regenerative Medicine of Texas",
+      "category_key": "dallas_tx_regenerative-medicine",
+      "alert_data": {
+        "category_key": "dallas_tx_regenerative-medicine",
+        "business_name": "Regenerative Medicine of Texas",
+        "address": "1420 N Galloway Ave, Mesquite, TX 75149",
+        "phone": "+1 972-285-6703",
+        "website": "http://www.mesquitechiro.com/",
+        "prev_rank": 8,
+        "curr_rank": 11,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 95,
+        "prev_reviews": 95,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893547+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ef89fa284df7",
+      "email": "regeniv@regenivwellness.com",
+      "business_name": "Regen Wellness",
+      "category_key": "dallas_tx_regenerative-medicine",
+      "alert_data": {
+        "category_key": "dallas_tx_regenerative-medicine",
+        "business_name": "Regen Wellness",
+        "address": "5510 Abrams Rd Ste 126, Dallas, TX 75214",
+        "phone": "+1 214-326-0033",
+        "website": "https://www.regenivwellness.com/",
+        "prev_rank": 7,
+        "curr_rank": 15,
+        "rank_change": 8,
+        "rating": 4.8,
+        "reviews": 57,
+        "prev_reviews": 56,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893552+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "732e22f41d2b",
+      "email": "BStephens1502@gmail.com",
+      "business_name": "Riordan Medical Institute",
+      "category_key": "dallas_tx_regenerative-medicine",
+      "alert_data": {
+        "category_key": "dallas_tx_regenerative-medicine",
+        "business_name": "Riordan Medical Institute",
+        "address": "801 E Southlake Blvd, Southlake, TX 76092",
+        "phone": "+1 877-899-7836",
+        "website": "http://www.rmiclinic.com/",
+        "prev_rank": 17,
+        "curr_rank": 19,
+        "rank_change": 2,
+        "rating": 4.8,
+        "reviews": 52,
+        "prev_reviews": 52,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893557+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "4ab45df4fc35",
+      "email": "info@robinsplumbing.com",
+      "business_name": "Robins Plumbing, Inc",
+      "category_key": "phoenix_az_emergency-plumber",
+      "alert_data": {
+        "category_key": "phoenix_az_emergency-plumber",
+        "business_name": "Robins Plumbing, Inc",
+        "address": "2802 N 37th Ave, Phoenix, AZ 85009",
+        "phone": "+1 623-486-4657",
+        "website": "https://www.robinsplumbing.com/",
+        "prev_rank": 5,
+        "curr_rank": 6,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 1296,
+        "prev_reviews": 1292,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893562+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "71c3fb308707",
+      "email": "office@theaussieplumber.com",
+      "business_name": "The Aussie Plumber",
+      "category_key": "phoenix_az_emergency-plumber",
+      "alert_data": {
+        "category_key": "phoenix_az_emergency-plumber",
+        "business_name": "The Aussie Plumber",
+        "address": "4600 E Shea Blvd Ste 203, Phoenix, AZ 85028",
+        "phone": "+1 602-820-5551",
+        "website": "https://www.theaussieplumber.com/",
+        "prev_rank": 13,
+        "curr_rank": 17,
+        "rank_change": 4,
+        "rating": 5.0,
+        "reviews": 956,
+        "prev_reviews": 971,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893567+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "e68ec15cbd6d",
+      "email": "example@domain.com",
+      "business_name": "Rooter Hero Plumbing & Air of Phoenix",
+      "category_key": "phoenix_az_emergency-plumber",
+      "alert_data": {
+        "category_key": "phoenix_az_emergency-plumber",
+        "business_name": "Rooter Hero Plumbing & Air of Phoenix",
+        "address": "5424 S 40th St, Phoenix, AZ 85040",
+        "phone": "+1 480-351-0043",
+        "website": "https://rooterhero.com/plumber-phoenix-az-plumbing-repair-service",
+        "prev_rank": 16,
+        "curr_rank": 18,
+        "rank_change": 2,
+        "rating": 4.7,
+        "reviews": 1381,
+        "prev_reviews": 1372,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893573+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8fa67f375a4b",
+      "email": "user@domain.com",
+      "business_name": "Scott Bryant - Bryant Real Estate",
+      "category_key": "phoenix_az_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "phoenix_az_luxury-real-estate-agent",
+        "business_name": "Scott Bryant - Bryant Real Estate",
+        "address": "2720 E Camelback Rd #101, Phoenix, AZ 85016",
+        "phone": "+1 480-482-7031",
+        "website": "http://bryantrealestatephoenix.com/",
+        "prev_rank": 4,
+        "curr_rank": 6,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 104,
+        "prev_reviews": 104,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893578+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a0b849f55fef",
+      "email": "drjwfrost64@protonmail.com",
+      "business_name": "AZ Regenerative Medicine",
+      "category_key": "phoenix_az_regenerative-medicine",
+      "alert_data": {
+        "category_key": "phoenix_az_regenerative-medicine",
+        "business_name": "AZ Regenerative Medicine",
+        "address": "16620 N 40th St G2, Phoenix, AZ 85032",
+        "phone": "+1 602-992-2656",
+        "website": "https://www.azregenmed.com/",
+        "prev_rank": 1,
+        "curr_rank": 2,
+        "rank_change": 1,
+        "rating": 4.8,
+        "reviews": 35,
+        "prev_reviews": 35,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893582+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ca80201fb71c",
+      "email": "psr@sonoran.edu",
+      "business_name": "Neil Riordan Center for Regenerative Medicine",
+      "category_key": "phoenix_az_regenerative-medicine",
+      "alert_data": {
+        "category_key": "phoenix_az_regenerative-medicine",
+        "business_name": "Neil Riordan Center for Regenerative Medicine",
+        "address": "2152 E Broadway Rd, Tempe, AZ 85282",
+        "phone": "+1 480-970-0000",
+        "website": "https://patients.sonoran.edu/neil-riordan-center/",
+        "prev_rank": 6,
+        "curr_rank": 8,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 52,
+        "prev_reviews": 52,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893587+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "6e92fb7ed788",
+      "email": "info@stemcelltherapypro.com",
+      "business_name": "Stem Cell Therapy Professionals - Regenerative & Anti-Aging Medicine",
+      "category_key": "phoenix_az_regenerative-medicine",
+      "alert_data": {
+        "category_key": "phoenix_az_regenerative-medicine",
+        "business_name": "Stem Cell Therapy Professionals - Regenerative & Anti-Aging Medicine",
+        "address": "11000 N Scottsdale Rd Ste 135, Scottsdale, AZ 85254",
+        "phone": "+1 480-267-7856",
+        "website": "http://stemcelltherapypro.com/",
+        "prev_rank": 12,
+        "curr_rank": 15,
+        "rank_change": 3,
+        "rating": 4.7,
+        "reviews": 34,
+        "prev_reviews": 34,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893592+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a0990bae301a",
+      "email": "service@303plumber.com",
+      "business_name": "Time Plumbing, Heating & Electric Denver",
+      "category_key": "denver_co_emergency-plumber",
+      "alert_data": {
+        "category_key": "denver_co_emergency-plumber",
+        "business_name": "Time Plumbing, Heating & Electric Denver",
+        "address": "2525 W 6th Ave, Denver, CO 80204",
+        "phone": "+1 303-758-6237",
+        "website": "https://www.303plumber.com/",
+        "prev_rank": 2,
+        "curr_rank": 3,
+        "rank_change": 1,
+        "rating": 4.6,
+        "reviews": 778,
+        "prev_reviews": 778,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893597+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d0c2aa0c7920",
+      "email": "service@brothersplumbing.com",
+      "business_name": "Brothers Plumbing, Heating & Electric",
+      "category_key": "denver_co_emergency-plumber",
+      "alert_data": {
+        "category_key": "denver_co_emergency-plumber",
+        "business_name": "Brothers Plumbing, Heating & Electric",
+        "address": "6201 Broadway, Denver, CO 80216",
+        "phone": "+1 303-451-5057",
+        "website": "http://www.brothersplumbing.com/",
+        "prev_rank": 6,
+        "curr_rank": 12,
+        "rank_change": 6,
+        "rating": 4.7,
+        "reviews": 8611,
+        "prev_reviews": 8569,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893602+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "c04c9c783e0b",
+      "email": "custservice@applewoodfixit.com",
+      "business_name": "Applewood Plumbing Heating & Electric",
+      "category_key": "denver_co_emergency-plumber",
+      "alert_data": {
+        "category_key": "denver_co_emergency-plumber",
+        "business_name": "Applewood Plumbing Heating & Electric",
+        "address": "5000 W 29th Ave, Denver, CO 80212",
+        "phone": "+1 303-444-1633",
+        "website": "https://www.applewoodfixit.com/",
+        "prev_rank": 11,
+        "curr_rank": 17,
+        "rank_change": 6,
+        "rating": 4.8,
+        "reviews": 16851,
+        "prev_reviews": 16793,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893607+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "025483eb2c62",
+      "email": "office@denverdreamdentistry.com",
+      "business_name": "Denver Dream Dentistry",
+      "category_key": "denver_co_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "denver_co_cosmetic-dentist",
+        "business_name": "Denver Dream Dentistry",
+        "address": "820 Clermont St # 310, Denver, CO 80220",
+        "phone": "+1 303-377-9278",
+        "website": "https://denverdreamdentistry.com/",
+        "prev_rank": 5,
+        "curr_rank": 11,
+        "rank_change": 6,
+        "rating": 5.0,
+        "reviews": 545,
+        "prev_reviews": 542,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893612+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5077c5e15e10",
+      "email": "hollyajaros@gmail.com",
+      "business_name": "Denver Luxury Real Estate",
+      "category_key": "denver_co_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "denver_co_luxury-real-estate-agent",
+        "business_name": "Denver Luxury Real Estate",
+        "address": "2921 W 38th Ave Suite 459, Denver, CO 80211",
+        "phone": "+1 303-949-1512",
+        "website": "http://www.denverluxuryrealestate.net/",
+        "prev_rank": 1,
+        "curr_rank": 2,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 14,
+        "prev_reviews": 14,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893617+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5d2b9704fe7b",
+      "email": "porter@findinghomewithporter.com",
+      "business_name": "Porter Ergon Rothman, Denver Colorado Luxury Realtor",
+      "category_key": "denver_co_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "denver_co_luxury-real-estate-agent",
+        "business_name": "Porter Ergon Rothman, Denver Colorado Luxury Realtor",
+        "address": "Keller Williams Realty Urban Elite, 4045 N Pecos St #201, Denver, CO 80211",
+        "phone": null,
+        "website": "https://findinghomewithporter.com/letsconnect",
+        "prev_rank": 4,
+        "curr_rank": 5,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 97,
+        "prev_reviews": 96,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893622+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ac8fff88d9b9",
+      "email": "rickjansondenver@gmail.com",
+      "business_name": "Rick Janson Luxury Properties at Compass Real Estate",
+      "category_key": "denver_co_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "denver_co_luxury-real-estate-agent",
+        "business_name": "Rick Janson Luxury Properties at Compass Real Estate",
+        "address": "233 Clayton St, Denver, CO 80206",
+        "phone": "+1 303-589-2320",
+        "website": "https://www.rickjanson.com/",
+        "prev_rank": 5,
+        "curr_rank": 8,
+        "rank_change": 3,
+        "rating": 4.8,
+        "reviews": 46,
+        "prev_reviews": 45,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893627+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "c0d608ac4e68",
+      "email": "karina@denverluxeteam.com",
+      "business_name": "Denver Luxe Team",
+      "category_key": "denver_co_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "denver_co_luxury-real-estate-agent",
+        "business_name": "Denver Luxe Team",
+        "address": "50 S Steele St Suite 700, Denver, CO 80209",
+        "phone": "+1 720-440-2640",
+        "website": "http://www.denverluxeteam.com/",
+        "prev_rank": 7,
+        "curr_rank": 9,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 11,
+        "prev_reviews": 11,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893632+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "2745c58e19e1",
+      "email": "user@domain.com",
+      "business_name": "The Luxe Group",
+      "category_key": "denver_co_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "denver_co_luxury-real-estate-agent",
+        "business_name": "The Luxe Group",
+        "address": "201 Columbine St, Denver, CO 80206",
+        "phone": "+1 303-827-6360",
+        "website": "http://theluxegroupcolorado.com/",
+        "prev_rank": 16,
+        "curr_rank": 17,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 18,
+        "prev_reviews": 18,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893637+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "912295f0b06c",
+      "email": "vivi@teamvivi.com",
+      "business_name": "Team Vivi at eXp Realty Denver",
+      "category_key": "denver_co_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "denver_co_luxury-real-estate-agent",
+        "business_name": "Team Vivi at eXp Realty Denver",
+        "address": "26 S Broadway, Denver, CO 80209",
+        "phone": "+1 303-847-1868",
+        "website": "https://www.teamvivi.com/",
+        "prev_rank": 8,
+        "curr_rank": 18,
+        "rank_change": 10,
+        "rating": 4.7,
+        "reviews": 159,
+        "prev_reviews": 158,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893642+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "58bb685a8f8b",
+      "email": "example@gmail.com",
+      "business_name": "Advanced Regenerative Health",
+      "category_key": "denver_co_regenerative-medicine",
+      "alert_data": {
+        "category_key": "denver_co_regenerative-medicine",
+        "business_name": "Advanced Regenerative Health",
+        "address": "9351 Grant St # 100, Thornton, CO 80229",
+        "phone": "+1 720-726-4523",
+        "website": "https://advancedregenhealth.com/",
+        "prev_rank": 11,
+        "curr_rank": 14,
+        "rank_change": 3,
+        "rating": 4.8,
+        "reviews": 90,
+        "prev_reviews": 87,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893647+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "808b723fcf05",
+      "email": "plumbing.ross@gmail.com",
+      "business_name": "Roger Ross Plumbing & Heating, Inc",
+      "category_key": "philadelphia_pa_emergency-plumber",
+      "alert_data": {
+        "category_key": "philadelphia_pa_emergency-plumber",
+        "business_name": "Roger Ross Plumbing & Heating, Inc",
+        "address": "Storefront, 4260 Manayunk Ave, Philadelphia, PA 19128",
+        "phone": "+1 215-482-2969",
+        "website": "http://www.rogerrossplumbing.com/",
+        "prev_rank": 10,
+        "curr_rank": 12,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 850,
+        "prev_reviews": 842,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893652+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "81dc621f0ce5",
+      "email": "service@gworksplumbing.com",
+      "business_name": "Greater Works Plumbing",
+      "category_key": "philadelphia_pa_emergency-plumber",
+      "alert_data": {
+        "category_key": "philadelphia_pa_emergency-plumber",
+        "business_name": "Greater Works Plumbing",
+        "address": "744 South St #957, Philadelphia, PA 19147",
+        "phone": "+1 267-826-6578",
+        "website": "https://www.gworksplumbing.com/",
+        "prev_rank": 12,
+        "curr_rank": 14,
+        "rank_change": 2,
+        "rating": 4.7,
+        "reviews": 235,
+        "prev_reviews": 239,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893657+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "1b9a9ef92a1e",
+      "email": "kcs.plumbing@gmail.com",
+      "business_name": "KCS Plumbing",
+      "category_key": "philadelphia_pa_emergency-plumber",
+      "alert_data": {
+        "category_key": "philadelphia_pa_emergency-plumber",
+        "business_name": "KCS Plumbing",
+        "address": "3239 W Norris St, Philadelphia, PA 19121",
+        "phone": "+1 445-942-4431",
+        "website": "http://www.kcs-plumbing.com/",
+        "prev_rank": 13,
+        "curr_rank": 18,
+        "rank_change": 5,
+        "rating": 4.8,
+        "reviews": 325,
+        "prev_reviews": 317,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893662+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "62f7a3b98762",
+      "email": "service@plumberphila.com",
+      "business_name": "Plumber Phila",
+      "category_key": "philadelphia_pa_emergency-plumber",
+      "alert_data": {
+        "category_key": "philadelphia_pa_emergency-plumber",
+        "business_name": "Plumber Phila",
+        "address": "9744 Chapelcroft St UNIT A, Philadelphia, PA 19115",
+        "phone": "+1 267-460-4006",
+        "website": "http://www.plumberphila.com/",
+        "prev_rank": 16,
+        "curr_rank": 19,
+        "rank_change": 3,
+        "rating": 5.0,
+        "reviews": 34,
+        "prev_reviews": 34,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893666+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8d813842f0b9",
+      "email": "user@domain.com",
+      "business_name": "WELNOX Studio | Philadelphia Dental & Facial Esthetics",
+      "category_key": "philadelphia_pa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "philadelphia_pa_cosmetic-dentist",
+        "business_name": "WELNOX Studio | Philadelphia Dental & Facial Esthetics",
+        "address": "1512 Sansom St Suite 200, Philadelphia, PA 19102",
+        "phone": "+1 267-534-4938",
+        "website": "https://www.welnoxstudio.com/",
+        "prev_rank": 4,
+        "curr_rank": 5,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 245,
+        "prev_reviews": 242,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893671+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8c86e07fcad0",
+      "email": "askus@razavidental.com",
+      "business_name": "Razavi Dental",
+      "category_key": "philadelphia_pa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "philadelphia_pa_cosmetic-dentist",
+        "business_name": "Razavi Dental",
+        "address": "1352 South St C2, Philadelphia, PA 19147",
+        "phone": "+1 215-996-7030",
+        "website": "https://razavidental.com/",
+        "prev_rank": 11,
+        "curr_rank": 13,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 162,
+        "prev_reviews": 161,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893676+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a575f1bcd21a",
+      "email": "veronika@pcde.com",
+      "business_name": "Pennsylvania Center for Dental Excellence",
+      "category_key": "philadelphia_pa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "philadelphia_pa_cosmetic-dentist",
+        "business_name": "Pennsylvania Center for Dental Excellence",
+        "address": "11905 Bustleton Ave, Philadelphia, PA 19116",
+        "phone": "+1 215-969-4400",
+        "website": "https://philadelphiapa.dentist/",
+        "prev_rank": 15,
+        "curr_rank": 18,
+        "rank_change": 3,
+        "rating": 4.8,
+        "reviews": 520,
+        "prev_reviews": 516,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893681+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "770a95b8a4f6",
+      "email": "allen@kravitzteam.com",
+      "business_name": "The Kravitz Team | Philadelphia & South Jersey Real Estate Agent | Kurfiss Sotheby's International Realty",
+      "category_key": "philadelphia_pa_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "philadelphia_pa_luxury-real-estate-agent",
+        "business_name": "The Kravitz Team | Philadelphia & South Jersey Real Estate Agent | Kurfiss Sotheby's International Realty",
+        "address": "1631 Locust St suite 300, Philadelphia, PA 19103",
+        "phone": "+1 609-477-2056",
+        "website": "https://thekravitzteam.com/",
+        "prev_rank": 8,
+        "curr_rank": 9,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 129,
+        "prev_reviews": 127,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893686+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "04037d25d856",
+      "email": "email@email.com",
+      "business_name": "Philly Luxury by The Daly Group",
+      "category_key": "philadelphia_pa_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "philadelphia_pa_luxury-real-estate-agent",
+        "business_name": "Philly Luxury by The Daly Group",
+        "address": "728 S Broad St 3rd floor, Philadelphia, PA 19146",
+        "phone": "+1 267-266-8629",
+        "website": "http://www.dalyluxuryhomes.com/",
+        "prev_rank": 11,
+        "curr_rank": 16,
+        "rank_change": 5,
+        "rating": 3.7,
+        "reviews": 3,
+        "prev_reviews": 3,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893691+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "567ab2f49cb6",
+      "email": "user@domain.com",
+      "business_name": "Philadelphia Real Estate Agent-The Phil Cavalcanto Real Estate Team, Coldwell Banker Realty",
+      "category_key": "philadelphia_pa_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "philadelphia_pa_luxury-real-estate-agent",
+        "business_name": "Philadelphia Real Estate Agent-The Phil Cavalcanto Real Estate Team, Coldwell Banker Realty",
+        "address": "325 Chestnut St, Philadelphia, PA 19106",
+        "phone": "+1 215-681-6610",
+        "website": "http://www.littlebigcitygroup.com/",
+        "prev_rank": 15,
+        "curr_rank": 17,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 79,
+        "prev_reviews": 79,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893696+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d650b5db48ac",
+      "email": "cherise@thewynnegroupre.com",
+      "business_name": "The Cherise Wynne Team / Compass RE: Wynne Group Realtors",
+      "category_key": "philadelphia_pa_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "philadelphia_pa_luxury-real-estate-agent",
+        "business_name": "The Cherise Wynne Team / Compass RE: Wynne Group Realtors",
+        "address": "1430 Walnut St FLOOR 3, Philadelphia, PA 19102",
+        "phone": "+1 267-979-9669",
+        "website": "https://www.thewynnegroupre.com/",
+        "prev_rank": 17,
+        "curr_rank": 20,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 50,
+        "prev_reviews": 49,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893701+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "f9689b3bd1c4",
+      "email": "user@domain.com",
+      "business_name": "Nucell Regenerative Health",
+      "category_key": "philadelphia_pa_regenerative-medicine",
+      "alert_data": {
+        "category_key": "philadelphia_pa_regenerative-medicine",
+        "business_name": "Nucell Regenerative Health",
+        "address": "632 Montgomery Ave 3rd Floor, Narberth, PA 19072",
+        "phone": "+1 267-603-3140",
+        "website": "http://www.nucellregen.com/",
+        "prev_rank": 2,
+        "curr_rank": 4,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 231,
+        "prev_reviews": 230,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893705+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "f4f051f8cff3",
+      "email": "jerry@stemcellsphiladelphia.com",
+      "business_name": "Art of Pain Management & Regenerative Medicine",
+      "category_key": "philadelphia_pa_regenerative-medicine",
+      "alert_data": {
+        "category_key": "philadelphia_pa_regenerative-medicine",
+        "business_name": "Art of Pain Management & Regenerative Medicine",
+        "address": "324 Darby Rd, Havertown, PA 19083",
+        "phone": "+1 215-375-7107",
+        "website": "https://philadelphiapainmanagement.com/",
+        "prev_rank": 10,
+        "curr_rank": 16,
+        "rank_change": 6,
+        "rating": 3.3,
+        "reviews": 34,
+        "prev_reviews": 34,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893711+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "1c905fd18490",
+      "email": "managepainpa@gmail.com",
+      "business_name": "Art of Pain Management",
+      "category_key": "philadelphia_pa_regenerative-medicine",
+      "alert_data": {
+        "category_key": "philadelphia_pa_regenerative-medicine",
+        "business_name": "Art of Pain Management",
+        "address": "9622 Bustleton Ave, Philadelphia, PA 19115",
+        "phone": "+1 215-375-7107",
+        "website": "https://philadelphiapainmanagement.com/philadelphia-location/%3Futm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dgoogle-my-business",
+        "prev_rank": 17,
+        "curr_rank": 18,
+        "rank_change": 1,
+        "rating": 4.0,
+        "reviews": 21,
+        "prev_reviews": 21,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893716+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a31e2c7cc6f6",
+      "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+      "business_name": "Sneed & Mitchell LLP - Catastrophic & Wrongful Death Lawyers\u00ae",
+      "category_key": "houston_tx_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "houston_tx_personal-injury-lawyer",
+        "business_name": "Sneed & Mitchell LLP - Catastrophic & Wrongful Death Lawyers\u00ae",
+        "address": "2525 Robinhood St #1100, Houston, TX 77005",
+        "phone": "+1 713-800-6676",
+        "website": "http://sneedmitchell.com/",
+        "prev_rank": 7,
+        "curr_rank": 9,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 443,
+        "prev_reviews": 443,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893721+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "dee17fbe1cfe",
+      "email": "info@hlalawfirm.com",
+      "business_name": "Husain Law",
+      "category_key": "houston_tx_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "houston_tx_personal-injury-lawyer",
+        "business_name": "Husain Law",
+        "address": "5916 Winsome Ln #400, Houston, TX 77057",
+        "phone": "+1 713-804-8149",
+        "website": "https://hlalawfirm.com/es/",
+        "prev_rank": 18,
+        "curr_rank": 20,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 0,
+        "prev_reviews": 478,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893726+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3568902bf07a",
+      "email": "office@htownplumbers.com",
+      "business_name": "H-Town Plumbers",
+      "category_key": "houston_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "houston_tx_emergency-plumber",
+        "business_name": "H-Town Plumbers",
+        "address": "12145 Stone E Dr, Houston, TX 77035",
+        "phone": "+1 832-318-0390",
+        "website": "https://www.htownplumbers.com/",
+        "prev_rank": 1,
+        "curr_rank": 5,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 281,
+        "prev_reviews": 275,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893730+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ab3ff80ab1f9",
+      "email": "Team@geiretail.com",
+      "business_name": "GEI Plumbing Services Houston",
+      "category_key": "houston_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "houston_tx_emergency-plumber",
+        "business_name": "GEI Plumbing Services Houston",
+        "address": "10101 Fondren Rd #330, Houston, TX 77096",
+        "phone": "+1 832-402-8312",
+        "website": "https://www.geiplumbingservices.com/",
+        "prev_rank": 9,
+        "curr_rank": 13,
+        "rank_change": 4,
+        "rating": 4.8,
+        "reviews": 674,
+        "prev_reviews": 659,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893735+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "9656f807c584",
+      "email": "ybplumbing@hotmail.com",
+      "business_name": "YB Plumbing & Hydro Jetting Services",
+      "category_key": "houston_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "houston_tx_emergency-plumber",
+        "business_name": "YB Plumbing & Hydro Jetting Services",
+        "address": "7613 Claridge Dr, Houston, TX 77071",
+        "phone": "+1 713-766-6663",
+        "website": "https://ybplumbing.com/",
+        "prev_rank": 17,
+        "curr_rank": 18,
+        "rank_change": 1,
+        "rating": 4.6,
+        "reviews": 626,
+        "prev_reviews": 623,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893740+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d3701143f76d",
+      "email": "marnie.greenwood@compass.com",
+      "business_name": "Marnie Greenwood | Houston Luxury Real Estate",
+      "category_key": "houston_tx_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "houston_tx_luxury-real-estate-agent",
+        "business_name": "Marnie Greenwood | Houston Luxury Real Estate",
+        "address": "4200 Westheimer Rd Suite 1000, Houston, TX 77027",
+        "phone": "+1 713-416-8402",
+        "website": "https://www.marnierocks.com/",
+        "prev_rank": 4,
+        "curr_rank": 5,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 34,
+        "prev_reviews": 34,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893745+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "21eedd8c577a",
+      "email": "johnsmith@example.com",
+      "business_name": "Bay Area Integrative Medicine \"Houston's #1 Regenerative Medicine Clinic\"",
+      "category_key": "houston_tx_regenerative-medicine",
+      "alert_data": {
+        "category_key": "houston_tx_regenerative-medicine",
+        "business_name": "Bay Area Integrative Medicine \"Houston's #1 Regenerative Medicine Clinic\"",
+        "address": "1100 E NASA Pkwy STE 401, Houston, TX 77058",
+        "phone": "+1 281-710-2220",
+        "website": "https://bayareamedicinetx.com/",
+        "prev_rank": 3,
+        "curr_rank": 6,
+        "rank_change": 3,
+        "rating": 4.6,
+        "reviews": 10,
+        "prev_reviews": 10,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893750+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "9501e7b35905",
+      "email": "info@sugarlandregenerative.com",
+      "business_name": "Sugarland Interventional Orthopedics and Regenerative Medicine",
+      "category_key": "houston_tx_regenerative-medicine",
+      "alert_data": {
+        "category_key": "houston_tx_regenerative-medicine",
+        "business_name": "Sugarland Interventional Orthopedics and Regenerative Medicine",
+        "address": "9000 Southwest Fwy #260, Houston, TX 77074",
+        "phone": "+1 832-400-2253",
+        "website": "https://www.sugarlandregenerative.com/",
+        "prev_rank": 9,
+        "curr_rank": 17,
+        "rank_change": 8,
+        "rating": 5.0,
+        "reviews": 31,
+        "prev_reviews": 28,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893755+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "fbd97278584c",
+      "email": "contact@andersonfranco.com",
+      "business_name": "Anderson Franco, Esq.",
+      "category_key": "san francisco_ca_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "san francisco_ca_personal-injury-lawyer",
+        "business_name": "Anderson Franco, Esq.",
+        "address": "One Embarcadero Ctr #2860, San Francisco, CA 94111",
+        "phone": "+1 415-727-1832",
+        "website": "http://www.andersonfranco.com/",
+        "prev_rank": 10,
+        "curr_rank": 12,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 98,
+        "prev_reviews": 98,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893760+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "55579640db40",
+      "email": "info@scarlettlawgroup.com",
+      "business_name": "Scarlett Law Group Injury and Accident Attorneys",
+      "category_key": "san francisco_ca_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "san francisco_ca_personal-injury-lawyer",
+        "business_name": "Scarlett Law Group Injury and Accident Attorneys",
+        "address": "540 Pacific Ave, San Francisco, CA 94133",
+        "phone": "+1 415-352-6264",
+        "website": "https://www.scarlettlawgroup.com/",
+        "prev_rank": 13,
+        "curr_rank": 14,
+        "rank_change": 1,
+        "rating": 4.7,
+        "reviews": 33,
+        "prev_reviews": 36,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893765+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "6c3bd1db1b83",
+      "email": "jonathan@mendatech.com",
+      "business_name": "Ace Plumbing & Rooter, Inc.",
+      "category_key": "san francisco_ca_emergency-plumber",
+      "alert_data": {
+        "category_key": "san francisco_ca_emergency-plumber",
+        "business_name": "Ace Plumbing & Rooter, Inc.",
+        "address": "1090 Bryant St, San Francisco, CA 94103",
+        "phone": "+1 415-824-6444",
+        "website": "https://www.aceplumbingandrooter.com/",
+        "prev_rank": 2,
+        "curr_rank": 3,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 983,
+        "prev_reviews": 977,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893770+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "7fa3eb085881",
+      "email": "jtfastresponseplumbing@gmail.com",
+      "business_name": "Fast Response Plumbing & Rooter",
+      "category_key": "san francisco_ca_emergency-plumber",
+      "alert_data": {
+        "category_key": "san francisco_ca_emergency-plumber",
+        "business_name": "Fast Response Plumbing & Rooter",
+        "address": "4444 Geary Blvd # 203, San Francisco, CA 94118",
+        "phone": "+1 415-596-6115",
+        "website": "https://fastresponseplumbingsf.com/",
+        "prev_rank": 3,
+        "curr_rank": 14,
+        "rank_change": 11,
+        "rating": 4.9,
+        "reviews": 546,
+        "prev_reviews": 540,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893774+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ffc2814fd383",
+      "email": "user@domain.com",
+      "business_name": "Lutz Plumbing Inc",
+      "category_key": "san francisco_ca_emergency-plumber",
+      "alert_data": {
+        "category_key": "san francisco_ca_emergency-plumber",
+        "business_name": "Lutz Plumbing Inc",
+        "address": "3123 17th St, San Francisco, CA 94110",
+        "phone": "+1 415-621-4292",
+        "website": "http://www.lutzplumbingsf.com/",
+        "prev_rank": 15,
+        "curr_rank": 17,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 109,
+        "prev_reviews": 108,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893779+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "e19df9151d5d",
+      "email": "drrose@sfcdg.com",
+      "business_name": "SF Cosmetic Dental Group",
+      "category_key": "san francisco_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "san francisco_ca_cosmetic-dentist",
+        "business_name": "SF Cosmetic Dental Group",
+        "address": "1475 Sansome St, San Francisco, CA 94111",
+        "phone": "+1 415-398-2582",
+        "website": "http://www.sfcdg.com/",
+        "prev_rank": 2,
+        "curr_rank": 4,
+        "rank_change": 2,
+        "rating": 5.0,
+        "reviews": 194,
+        "prev_reviews": 193,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893784+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8709a3c327a9",
+      "email": "info@sfadentistry.com",
+      "business_name": "San Francisco Aesthetic Dentistry, Dr. Aja Hall DDS | San Francisco Dentist | Cosmetic Dentist San Francisco CA",
+      "category_key": "san francisco_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "san francisco_ca_cosmetic-dentist",
+        "business_name": "San Francisco Aesthetic Dentistry, Dr. Aja Hall DDS | San Francisco Dentist | Cosmetic Dentist San Francisco CA",
+        "address": "500 Sutter St Suite 302, San Francisco, CA 94102",
+        "phone": "+1 415-781-2227",
+        "website": "https://sanfranciscoaestheticdentistry.com/",
+        "prev_rank": 5,
+        "curr_rank": 7,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 106,
+        "prev_reviews": 106,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893789+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "feeae3ae82b0",
+      "email": "info@medentalsf.com",
+      "business_name": "Olivia Moran, DDS | Veneers Dentist in San Francisco | ME Dental",
+      "category_key": "san francisco_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "san francisco_ca_cosmetic-dentist",
+        "business_name": "Olivia Moran, DDS | Veneers Dentist in San Francisco | ME Dental",
+        "address": "450 Sutter St RM 2307, San Francisco, CA 94108",
+        "phone": "+1 415-404-6644",
+        "website": "https://www.medentalsf.com/",
+        "prev_rank": 8,
+        "curr_rank": 13,
+        "rank_change": 5,
+        "rating": 4.9,
+        "reviews": 119,
+        "prev_reviews": 119,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893793+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a2560fbb4b50",
+      "email": "eva@thesfteam.com",
+      "business_name": "The SF Team | James Shinbori + Eva Stoyanov + Kasia Meron | Compass - Top 1% Real Estate Company San Francisco",
+      "category_key": "san francisco_ca_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "san francisco_ca_luxury-real-estate-agent",
+        "business_name": "The SF Team | James Shinbori + Eva Stoyanov + Kasia Meron | Compass - Top 1% Real Estate Company San Francisco",
+        "address": "Compass, 3512 16th St, San Francisco, CA 94114",
+        "phone": "+1 415-523-4565",
+        "website": "https://thesfteam.com/",
+        "prev_rank": 10,
+        "curr_rank": 11,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 18,
+        "prev_reviews": 17,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893798+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a817b1eafb8b",
+      "email": "info@sfiirm.com",
+      "business_name": "SFIIRM - Integrative, Alternative & Functional Medicine Doctor in San Francisco",
+      "category_key": "san francisco_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "san francisco_ca_regenerative-medicine",
+        "business_name": "SFIIRM - Integrative, Alternative & Functional Medicine Doctor in San Francisco",
+        "address": "450 Sutter St #1341, San Francisco, CA 94109",
+        "phone": "+1 415-606-0309",
+        "website": "https://sfiirm.com/",
+        "prev_rank": 3,
+        "curr_rank": 4,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 7,
+        "prev_reviews": 7,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893803+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b60ee7bc72b3",
+      "email": "info@prolotherapysf.com",
+      "business_name": "Prolotherapy SF",
+      "category_key": "san francisco_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "san francisco_ca_regenerative-medicine",
+        "business_name": "Prolotherapy SF",
+        "address": "Three Embarcadero Center, Embarcadero Ctr Lobby Level #5, San Francisco, CA 94111",
+        "phone": "+1 415-294-1345",
+        "website": "https://www.prolotherapysf.com/",
+        "prev_rank": 6,
+        "curr_rank": 15,
+        "rank_change": 9,
+        "rating": 5.0,
+        "reviews": 7,
+        "prev_reviews": 7,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893808+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3b243fcdc3cb",
+      "email": "regenerativeresearchsv@gmail.com",
+      "business_name": "Regenerative Research Institute of Silicon Valley",
+      "category_key": "san francisco_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "san francisco_ca_regenerative-medicine",
+        "business_name": "Regenerative Research Institute of Silicon Valley",
+        "address": "1225 Crane St Ste 204, Menlo Park, CA 94025",
+        "phone": "+1 650-412-6509",
+        "website": "https://regenerativeresearchsv.com/",
+        "prev_rank": 16,
+        "curr_rank": 19,
+        "rank_change": 3,
+        "rating": 5.0,
+        "reviews": 43,
+        "prev_reviews": 43,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893813+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ce46735b1083",
+      "email": "your-email@email.com",
+      "business_name": "Monge & Associates",
+      "category_key": "seattle_wa_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "seattle_wa_personal-injury-lawyer",
+        "business_name": "Monge & Associates",
+        "address": "509 Olive Wy Suite 1361, Seattle, WA 98101",
+        "phone": "+1 206-558-4962",
+        "website": "https://www.becauseyouwanttowin.com/",
+        "prev_rank": 11,
+        "curr_rank": 12,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 249,
+        "prev_reviews": 250,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893818+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5ae79748d7d0",
+      "email": "user@domain.com",
+      "business_name": "Herrmann Law Group",
+      "category_key": "seattle_wa_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "seattle_wa_personal-injury-lawyer",
+        "business_name": "Herrmann Law Group",
+        "address": "505 5th Ave S #330, Seattle, WA 98104",
+        "phone": "+1 206-625-9104",
+        "website": "http://hlg.lawyer/",
+        "prev_rank": 15,
+        "curr_rank": 16,
+        "rank_change": 1,
+        "rating": 5.0,
+        "reviews": 83,
+        "prev_reviews": 83,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893823+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "4a4bf0b24937",
+      "email": "info@beesplumbingandheating.com",
+      "business_name": "Bee's Plumbing and Heating",
+      "category_key": "seattle_wa_emergency-plumber",
+      "alert_data": {
+        "category_key": "seattle_wa_emergency-plumber",
+        "business_name": "Bee's Plumbing and Heating",
+        "address": "2401 SW Alaska St, Seattle, WA 98106",
+        "phone": "+1 206-629-8217",
+        "website": "http://www.beesplumbingandheating.com/",
+        "prev_rank": 7,
+        "curr_rank": 15,
+        "rank_change": 8,
+        "rating": 4.8,
+        "reviews": 3418,
+        "prev_reviews": 3386,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893828+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "7af1cbdf4f23",
+      "email": "user@domain.com",
+      "business_name": "Dental Care Seattle",
+      "category_key": "seattle_wa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "seattle_wa_cosmetic-dentist",
+        "business_name": "Dental Care Seattle",
+        "address": "600 Broadway #330, Seattle, WA 98122",
+        "phone": "+1 206-325-0166",
+        "website": "http://www.dentalcareseattle.com/",
+        "prev_rank": 8,
+        "curr_rank": 9,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 644,
+        "prev_reviews": 636,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893833+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "f4b8cb81e98c",
+      "email": "info@flossseattle.com",
+      "business_name": "FLOSS general + cosmetic dentistry",
+      "category_key": "seattle_wa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "seattle_wa_cosmetic-dentist",
+        "business_name": "FLOSS general + cosmetic dentistry",
+        "address": "7030 35th Ave NE Suite B, Seattle, WA 98115",
+        "phone": "+1 206-523-1000",
+        "website": "http://flossseattle.com/",
+        "prev_rank": 5,
+        "curr_rank": 11,
+        "rank_change": 6,
+        "rating": 5.0,
+        "reviews": 305,
+        "prev_reviews": 302,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893838+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "6dd6596646e2",
+      "email": "info@pacificmoderndentistry.com",
+      "business_name": "Pacific Modern Dentistry",
+      "category_key": "seattle_wa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "seattle_wa_cosmetic-dentist",
+        "business_name": "Pacific Modern Dentistry",
+        "address": "2046 Westlake Ave N UNIT 204, Seattle, WA 98109",
+        "phone": "+1 206-284-4505",
+        "website": "https://pacificmoderndentistry.com/",
+        "prev_rank": 12,
+        "curr_rank": 14,
+        "rank_change": 2,
+        "rating": 4.9,
+        "reviews": 268,
+        "prev_reviews": 267,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893843+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "654ca92f2604",
+      "email": "office@seattlescapitolhilldentist.com",
+      "business_name": "Seattle's Capitol Hill Dentist",
+      "category_key": "seattle_wa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "seattle_wa_cosmetic-dentist",
+        "business_name": "Seattle's Capitol Hill Dentist",
+        "address": "1830 Broadway Suite 101, Seattle, WA 98122",
+        "phone": "+1 206-283-9278",
+        "website": "https://seattlescapitolhilldentist.com/",
+        "prev_rank": 9,
+        "curr_rank": 16,
+        "rank_change": 7,
+        "rating": 4.8,
+        "reviews": 172,
+        "prev_reviews": 171,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893848+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ee3f1c2de3bf",
+      "email": "info@PrestigeDentalSLU.com",
+      "business_name": "Prestige Dental",
+      "category_key": "seattle_wa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "seattle_wa_cosmetic-dentist",
+        "business_name": "Prestige Dental",
+        "address": "116 Fairview Ave N #148, Seattle, WA 98109",
+        "phone": "+1 206-682-7942",
+        "website": "http://www.prestigedentalslu.com/",
+        "prev_rank": 7,
+        "curr_rank": 19,
+        "rank_change": 12,
+        "rating": 4.8,
+        "reviews": 268,
+        "prev_reviews": 265,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893853+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "32798bb2f890",
+      "email": "info@aestheticasmiles.com",
+      "business_name": "Aesthetica Contemporary Dentistry",
+      "category_key": "seattle_wa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "seattle_wa_cosmetic-dentist",
+        "business_name": "Aesthetica Contemporary Dentistry",
+        "address": "2701 Eastlake Ave E #104, Seattle, WA 98102",
+        "phone": "+1 206-588-0714",
+        "website": "https://www.aestheticasmiles.com/",
+        "prev_rank": 11,
+        "curr_rank": 20,
+        "rank_change": 9,
+        "rating": 4.8,
+        "reviews": 345,
+        "prev_reviews": 345,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893857+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b4e8a063e333",
+      "email": "thediva@teamdivarealestate.com",
+      "business_name": "Team Diva Real Estate",
+      "category_key": "seattle_wa_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "seattle_wa_luxury-real-estate-agent",
+        "business_name": "Team Diva Real Estate",
+        "address": "1400 E Pike St, Seattle, WA 98122",
+        "phone": "+1 206-271-0264",
+        "website": "http://www.teamdivarealestate.com/",
+        "prev_rank": 11,
+        "curr_rank": 12,
+        "rank_change": 1,
+        "rating": 4.9,
+        "reviews": 107,
+        "prev_reviews": 107,
+        "reasons": [
+          "Rank dropped manually extracted"
+        ],
+        "scan_date": "2026-04-03T19:57:52.551268+00:00",
+        "weeks_tracked": 2,
+        "insights": {}
+      },
+      "pdf_path": "",
+      "created_at": "2026-04-03T20:18:33.893862+00:00",
+      "status": "pending",
+      "delivered_at": null
     }
   ]
 }
