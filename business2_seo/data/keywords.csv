@@ -1,12 +1,12 @@
 keyword,intent,template,primary_affiliate,secondary_affiliate,status
-copy ai review 2026,commercial,review,copy_ai,writesonic,pending
-rytr review 2026,commercial,review,rytr,writesonic,pending
-copy ai vs rytr 2026,commercial,comparison,copy_ai,rytr,pending
-best ai writing tools for bloggers,commercial,listicle,writesonic,copy_ai,pending
-rytr vs writesonic,commercial,comparison,writesonic,copy_ai,pending
-claude ai review 2026,commercial,review,copy_ai,notion,pending
-best ai tools for solopreneurs,commercial,listicle,notion,writesonic,pending
-best ai tools for small business,commercial,listicle,copy_ai,notion,pending
+copy ai review 2026,commercial,review,copy_ai,writesonic,done
+rytr review 2026,commercial,review,rytr,writesonic,done
+copy ai vs rytr 2026,commercial,comparison,copy_ai,rytr,failed
+best ai writing tools for bloggers,commercial,listicle,writesonic,copy_ai,done
+rytr vs writesonic,commercial,comparison,writesonic,copy_ai,done
+claude ai review 2026,commercial,review,copy_ai,notion,failed
+best ai tools for solopreneurs,commercial,listicle,notion,writesonic,done
+best ai tools for small business,commercial,listicle,copy_ai,notion,done
 how to automate content creation with ai,informational,tutorial,writesonic,copy_ai,pending
 rytr ai alternatives,commercial,comparison,writesonic,notion,pending
 ai content writing tools comparison,commercial,comparison,writesonic,surfer_seo,pending

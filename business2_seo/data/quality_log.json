@@ -1,0 +1,21 @@
+[
+  {
+    "date": "2026-04-05T06:23:54.482097+00:00",
+    "articles_generated": 8,
+    "articles_passed": 6,
+    "articles_revised": 3,
+    "articles_rejected": 2,
+    "avg_scores": {
+      "structure": 8.1,
+      "eeat": 8.6,
+      "seo": 7.5,
+      "readability": 8.0,
+      "affiliate": 6.4,
+      "originality": 7.9
+    },
+    "rejected_keywords": [
+      "copy ai vs rytr 2026",
+      "claude ai review 2026"
+    ]
+  }
+]

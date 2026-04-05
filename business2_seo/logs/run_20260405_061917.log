@@ -1,0 +1,87 @@
+2026-04-05 06:19:21,659 [INFO] seo_orchestrator — ============================================================
+2026-04-05 06:19:21,660 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-04-05 06:19:21,660 [INFO] seo_orchestrator — Timestamp: 2026-04-05T06:19:21.660237+00:00
+2026-04-05 06:19:21,660 [INFO] seo_orchestrator — ============================================================
+2026-04-05 06:19:21,699 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 8 keywords...
+2026-04-05 06:19:21,700 [INFO] agents.keyword_agent — Keyword Agent: 8 keywords selected for this run
+2026-04-05 06:19:21,700 [INFO] seo_orchestrator —       Selected: ['copy ai review 2026', 'rytr review 2026', 'copy ai vs rytr 2026', 'best ai writing tools for bloggers', 'rytr vs writesonic', 'claude ai review 2026', 'best ai tools for solopreneurs', 'best ai tools for small business']
+2026-04-05 06:19:21,721 [INFO] seo_orchestrator — [2-4/10] Processing: 'copy ai review 2026' (1/8)
+2026-04-05 06:19:49,102 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:19:49,143 [INFO] agents.content_agent — Content Agent: generated 'copy ai review 2026' (1617 words, review)
+2026-04-05 06:19:50,700 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:19:50,701 [INFO] agents.quality_agent — Quality: copy ai review 2026 — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 6, 'originality': 9}, passed=False
+2026-04-05 06:19:50,701 [INFO] seo_orchestrator — Quality gate: 'copy ai review 2026' failed (lowest: affiliate). Revising...
+2026-04-05 06:20:14,960 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:20:14,962 [INFO] agents.content_agent — Content Agent: revised 'copy ai review 2026' (1637 words)
+2026-04-05 06:20:17,107 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:20:17,108 [INFO] agents.quality_agent — Quality: copy ai review 2026 — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 7, 'originality': 9}, passed=True
+2026-04-05 06:20:17,108 [INFO] seo_orchestrator — Quality gate: 'copy ai review 2026' passed after revision
+2026-04-05 06:20:17,116 [INFO] agents.publisher_agent — Publisher: saved copy-ai-review-2026.md
+2026-04-05 06:20:17,117 [INFO] seo_orchestrator — [2-4/10] Processing: 'rytr review 2026' (2/8)
+2026-04-05 06:20:40,287 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:20:40,289 [INFO] agents.content_agent — Content Agent: generated 'rytr review 2026' (1261 words, review)
+2026-04-05 06:20:41,607 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:20:41,608 [INFO] agents.quality_agent — Quality: rytr review 2026 — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 7}, passed=True
+2026-04-05 06:20:41,615 [INFO] agents.publisher_agent — Publisher: saved rytr-review-2026.md
+2026-04-05 06:20:41,616 [INFO] seo_orchestrator — [2-4/10] Processing: 'copy ai vs rytr 2026' (3/8)
+2026-04-05 06:21:04,987 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:21:04,988 [INFO] agents.content_agent — Content Agent: generated 'copy ai vs rytr 2026' (1263 words, comparison)
+2026-04-05 06:21:06,779 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:21:06,780 [INFO] agents.quality_agent — Quality: copy ai vs rytr 2026 — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 5, 'originality': 7}, passed=False
+2026-04-05 06:21:06,780 [INFO] seo_orchestrator — Quality gate: 'copy ai vs rytr 2026' failed (lowest: affiliate). Revising...
+2026-04-05 06:21:28,533 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:21:28,535 [INFO] agents.content_agent — Content Agent: revised 'copy ai vs rytr 2026' (1345 words)
+2026-04-05 06:21:30,197 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:21:30,197 [INFO] agents.quality_agent — Quality: copy ai vs rytr 2026 — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 5, 'originality': 8}, passed=False
+2026-04-05 06:21:30,198 [WARNING] seo_orchestrator — Quality gate: 'copy ai vs rytr 2026' rejected after revision (lowest: affiliate)
+2026-04-05 06:21:30,198 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai writing tools for bloggers' (4/8)
+2026-04-05 06:21:57,866 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:21:57,867 [INFO] agents.content_agent — Content Agent: generated 'best ai writing tools for bloggers' (1590 words, listicle)
+2026-04-05 06:21:59,080 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:21:59,081 [INFO] agents.quality_agent — Quality: best ai writing tools for bloggers — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 8, 'originality': 9}, passed=True
+2026-04-05 06:21:59,088 [INFO] agents.publisher_agent — Publisher: saved best-ai-writing-tools-for-bloggers.md
+2026-04-05 06:21:59,089 [INFO] seo_orchestrator — [2-4/10] Processing: 'rytr vs writesonic' (5/8)
+2026-04-05 06:22:20,113 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:22:20,114 [INFO] agents.content_agent — Content Agent: generated 'rytr vs writesonic' (1186 words, comparison)
+2026-04-05 06:22:21,784 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:22:21,785 [INFO] agents.quality_agent — Quality: rytr vs writesonic — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 7}, passed=True
+2026-04-05 06:22:21,792 [INFO] agents.publisher_agent — Publisher: saved rytr-vs-writesonic.md
+2026-04-05 06:22:21,793 [INFO] seo_orchestrator — [2-4/10] Processing: 'claude ai review 2026' (6/8)
+2026-04-05 06:22:42,916 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:22:42,918 [INFO] agents.content_agent — Content Agent: generated 'claude ai review 2026' (1184 words, review)
+2026-04-05 06:22:44,766 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:22:44,767 [INFO] agents.quality_agent — Quality: claude ai review 2026 — scores={'structure': 9, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 4, 'originality': 7}, passed=False
+2026-04-05 06:22:44,767 [INFO] seo_orchestrator — Quality gate: 'claude ai review 2026' failed (lowest: affiliate). Revising...
+2026-04-05 06:23:00,742 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:23:00,744 [INFO] agents.content_agent — Content Agent: revised 'claude ai review 2026' (1103 words)
+2026-04-05 06:23:02,240 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:23:02,240 [INFO] agents.quality_agent — Quality: claude ai review 2026 — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 5, 'originality': 8}, passed=False
+2026-04-05 06:23:02,241 [WARNING] seo_orchestrator — Quality gate: 'claude ai review 2026' rejected after revision (lowest: affiliate)
+2026-04-05 06:23:02,241 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for solopreneurs' (7/8)
+2026-04-05 06:23:28,132 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:23:28,134 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for solopreneurs' (1458 words, listicle)
+2026-04-05 06:23:29,714 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:23:29,715 [INFO] agents.quality_agent — Quality: best ai tools for solopreneurs — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-04-05 06:23:29,724 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-solopreneurs.md
+2026-04-05 06:23:29,725 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for small business' (8/8)
+2026-04-05 06:23:53,067 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:23:53,069 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for small business' (1299 words, listicle)
+2026-04-05 06:23:54,471 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-04-05 06:23:54,472 [INFO] agents.quality_agent — Quality: best ai tools for small business — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 8}, passed=True
+2026-04-05 06:23:54,480 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-small-business.md
+2026-04-05 06:23:54,481 [INFO] seo_orchestrator —       Published 6/8 articles (revised=3, rejected=2)
+2026-04-05 06:23:54,482 [INFO] agents.quality_agent — Quality log: {'date': '2026-04-05T06:23:54.482097+00:00', 'articles_generated': 8, 'articles_passed': 6, 'articles_revised': 3, 'articles_rejected': 2, 'avg_scores': {'structure': 8.1, 'eeat': 8.6, 'seo': 7.5, 'readability': 8.0, 'affiliate': 6.4, 'originality': 7.9}, 'rejected_keywords': ['copy ai vs rytr 2026', 'claude ai review 2026']}
+2026-04-05 06:23:54,686 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-04-05 06:23:54,687 [INFO] agents.publisher_agent — Publisher: total articles on site: 15
+2026-04-05 06:23:54,687 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-04-05 06:23:54,688 [WARNING] agents.monitor_agent — Monitor: 2 articles failed to write this run
+2026-04-05 06:23:54,786 [INFO] agents.monitor_agent — Site health: OK (200)
+2026-04-05 06:23:54,788 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 15
+2026-04-05 06:23:54,788 [INFO] seo_orchestrator — [5/5] Stats Agent: collecting metrics + sending weekly report...
+2026-04-05 06:23:54,788 [INFO] agents.stats_agent — Stats Agent: collecting weekly metrics...
+2026-04-05 06:23:54,950 [WARNING] agents.stats_agent — Kit stats fetch failed: 401 Client Error: Unauthorized for url: https://api.convertkit.com/v3/subscribers?api_secret=&sort_field=created_at
+2026-04-05 06:23:54,952 [INFO] agents.stats_agent — Stats Agent: snapshot saved (1 total entries)
+2026-04-05 06:23:56,062 [INFO] agents.stats_agent — Stats report sent to sutrafloworg@gmail.com
+2026-04-05 06:23:56,062 [INFO] seo_orchestrator — ============================================================
+2026-04-05 06:23:56,062 [INFO] seo_orchestrator — Pipeline complete. Published: 6 articles
+2026-04-05 06:23:56,062 [INFO] seo_orchestrator — ============================================================

@@ -1,6 +1,6 @@
 {
   "last_run": "2026-03-22T05:43:11.376673+00:00",
-  "articles_published": 9,
+  "articles_published": 15,
   "keywords_processed": [
     "chatgpt vs claude for writing",
     "best ai seo tools 2026",
@@ -10,18 +10,25 @@
     "best ai tools for email marketing",
     "writesonic review 2026",
     "notion ai review",
-    "best ai tools for productivity 2026"
+    "best ai tools for productivity 2026",
+    "copy ai review 2026",
+    "rytr review 2026",
+    "best ai writing tools for bloggers",
+    "rytr vs writesonic",
+    "best ai tools for solopreneurs",
+    "best ai tools for small business"
   ],
-  "consecutive_failures": 0,
-  "last_status": "OK",
+  "consecutive_failures": 1,
+  "last_status": "PARTIAL",
   "pending_retry": [],
-  "total_articles_on_disk": 9,
-  "last_publish_run": "2026-03-22T05:43:11.376258+00:00",
+  "total_articles_on_disk": 15,
+  "last_publish_run": "2026-04-05T06:23:54.687403+00:00",
   "published_this_run": [
-    "ai-tools-for-freelance-writers",
-    "best-ai-tools-for-email-marketing",
-    "writesonic-review-2026",
-    "notion-ai-review",
-    "best-ai-tools-for-productivity-2026"
+    "copy-ai-review-2026",
+    "rytr-review-2026",
+    "best-ai-writing-tools-for-bloggers",
+    "rytr-vs-writesonic",
+    "best-ai-tools-for-solopreneurs",
+    "best-ai-tools-for-small-business"
   ]
 }
