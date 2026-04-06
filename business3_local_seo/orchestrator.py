@@ -194,6 +194,7 @@ def run_pipeline() -> bool:
             gmail_app_password=config.GMAIL_APP_PASSWORD,
             payment_url=config.PAYMENT_URL_MONITORING,
             payment_url_audit=config.PAYMENT_URL_AUDIT,
+            max_emails_per_run=len(alerts),  # no cap — attempt every candidate
         )
         outreach_summary = outreach.process_batch_teasers(alerts)
 
@@ -228,8 +229,9 @@ def run_pipeline() -> bool:
         return False
 
     logger.info("=" * 60)
-    logger.info(f"Pipeline complete. {len(alerts)} drops, {outreach_summary.get('sent', 0)} teasers sent (0 PDFs — generated on payment only)")
+    logger.info(f"Pipeline complete. {len(alerts)} rank drop alerts, emails sent.")
     logger.info("=" * 60)
+
     return True
 
 

@@ -209,6 +209,29 @@ class StatsAgent:
             logger.warning(f"Local SEO state fetch failed: {e}")
             return {}
 
+    def _get_sentinel_customers(self) -> dict:
+        """Load Search Sentinel customers.json for subscriber + payment counts."""
+        try:
+            customers_file = Path(self.local_seo_state_file).parent / "customers.json"
+            with open(customers_file) as f:
+                data = json.load(f)
+            customers = data.get("customers", [])
+            active = sum(1 for c in customers if c.get("status") == "active")
+            past_due = sum(1 for c in customers if c.get("status") == "past_due")
+            return {"active": active, "past_due": past_due, "total": len(customers)}
+        except Exception:
+            return {"active": 0, "past_due": 0, "total": 0}
+
+    def _get_sentinel_pending_payments(self) -> int:
+        """Count pending (unpaid) reports awaiting customer action."""
+        try:
+            pending_file = Path(self.local_seo_state_file).parent / "pending_reports.json"
+            with open(pending_file) as f:
+                data = json.load(f)
+            return sum(1 for r in data.get("reports", []) if r.get("status") == "pending")
+        except Exception:
+            return 0
+
     # ── Report Building ────────────────────────────────────────────────────────
 
     def _build_html_report(
@@ -218,6 +241,8 @@ class StatsAgent:
         seo_state: dict,
         prev_snapshot: dict,
         local_seo: dict | None = None,
+        customers: dict | None = None,
+        pending_payments: int = 0,
     ) -> tuple[str, str]:
         """Build HTML email report. Returns (subject, html_body)."""
         now = datetime.now(timezone.utc)
@@ -314,9 +339,9 @@ class StatsAgent:
     </p>
   </div>
 
-  <!-- Local SEO Sentinel -->
+  <!-- Search Sentinel -->
   <div style="padding:20px 24px;background:#fafafa;border:1px solid #e5e5e5;border-top:none">
-    <h2 style="font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#888;margin:0 0 12px">Business 3 · LocalRank Sentinel</h2>
+    <h2 style="font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#888;margin:0 0 12px">Business 3 · Search Sentinel</h2>
     <table style="width:100%;border-collapse:collapse">
       <tr>
         <td style="padding:6px 0;color:#555;font-size:14px">Total pipeline runs</td>
@@ -327,20 +352,28 @@ class StatsAgent:
         <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('last_status', 'NOT_RUN')}</td>
       </tr>
       <tr>
-        <td style="padding:6px 0;color:#555;font-size:14px">Audit emails sent (all time)</td>
+        <td style="padding:6px 0;color:#555;font-size:14px">Teaser emails sent (all time)</td>
         <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('total_emails_sent', 0)}</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 0;color:#555;font-size:14px">Last scan: rank drops detected</td>
+        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('last_alerts', 0)}</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 0;color:#555;font-size:14px">Active paying subscribers</td>
+        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right;color:{'#22c55e' if customers.get('active',0) > 0 else '#555'}">{customers.get('active', 0)}</td>
+      </tr>
+      <tr>
+        <td style="padding:6px 0;color:#555;font-size:14px">Pending payments (leads clicked)</td>
+        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right;color:{'#f59e0b' if pending_payments > 0 else '#555'}">{pending_payments}</td>
       </tr>
       <tr>
         <td style="padding:6px 0;color:#555;font-size:14px">Audit PDFs generated (all time)</td>
         <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('total_reports_generated', 0)}</td>
       </tr>
-      <tr>
-        <td style="padding:6px 0;color:#555;font-size:14px">Last alerts detected</td>
-        <td style="padding:6px 0;font-size:14px;font-weight:600;text-align:right">{(local_seo or {}).get('last_alerts', 0)}</td>
-      </tr>
     </table>
     <p style="margin:12px 0 0;font-size:12px;color:#999">
-      Runs every Monday 8am ET · Monitors Google Maps rankings in target cities
+      Runs weekly · Monitors Google Maps rankings in 10 US cities
     </p>
   </div>
 
@@ -395,6 +428,8 @@ class StatsAgent:
         cf = self._get_cf_analytics()
         seo_state = self._load_state()
         local_seo = self._get_local_seo_stats()
+        customers = self._get_sentinel_customers()
+        pending_payments = self._get_sentinel_pending_payments()
         history = self._load_history()
 
         # Previous snapshot for delta calculation
@@ -410,11 +445,14 @@ class StatsAgent:
             "articles_published": seo_state.get("articles_published", 0),
             "local_seo_runs": local_seo.get("total_runs", 0),
             "local_seo_emails_sent": local_seo.get("total_emails_sent", 0),
+            "sentinel_active_subscribers": customers.get("active", 0),
         }
         history.append(snapshot)
         self._save_history(history)
         logger.info(f"Stats Agent: snapshot saved ({len(history)} total entries)")
 
         # Build and send report
-        subject, html_body = self._build_html_report(kit, cf, seo_state, prev, local_seo)
+        subject, html_body = self._build_html_report(
+            kit, cf, seo_state, prev, local_seo, customers, pending_payments
+        )
         self._send_email(subject, html_body)

@@ -238,7 +238,11 @@ def run_pipeline() -> bool:
     logger.info(f"Pipeline complete. Published: {len(published_slugs)} articles")
     logger.info("=" * 60)
 
-    return success
+    # Exit 0 as long as we published at least one article.
+    # Partial monitor failures (missing articles / site health) are logged but
+    # should NOT cause GitHub Actions to mark the whole job as failed —
+    # that suppresses the stats email and blocks downstream workflows.
+    return len(published_slugs) > 0
 
 
 if __name__ == "__main__":

@@ -310,20 +310,20 @@
       <!-- API BUDGET -->
       <div class="panel">
         <div class="panel-header">
-          <div class="panel-title">API Search Budget &mdash; April 2026</div>
+          <div class="panel-title">API Search Budget &mdash; <span id="budget-month">Current Month</span></div>
         </div>
         <div class="panel-body" id="budget-panel">
           <div style="color: var(--muted); font-size: 13px;">Loading...</div>
         </div>
       </div>
 
-      <!-- SCAN GRID PREVIEW -->
+      <!-- SEARCH SENTINEL PIPELINE STATS (replaces geo-scan placeholder) -->
       <div class="panel">
         <div class="panel-header">
-          <div class="panel-title">Latest Geo-Scan Heatmap &mdash; Sample City</div>
-          <span class="badge badge-gray" id="scan-city-badge">--</span>
+          <div class="panel-title">Search Sentinel Pipeline</div>
+          <span class="badge badge-gray" id="sentinel-status-badge">--</span>
         </div>
-        <div class="panel-body" id="scan-panel">
+        <div class="panel-body" id="sentinel-panel">
           <div style="color: var(--muted); font-size: 13px;">Loading...</div>
         </div>
       </div>
@@ -367,11 +367,12 @@
 <script>
 // ── CONFIG ────────────────────────────────────────────────────────────────────
 const ALLOWED_EMAIL   = 'sutrafloworg@gmail.com';
-const ACCESS_TOKEN    = 'sf-ops-2026-k7x';   // change this to a real secret
+const ACCESS_TOKEN    = 'sf-ops-2026-k7x';
 const VPS_HOST        = 'https://api.sutraflow.org';
 const VPS_ADMIN_TOKEN = 'sf-webhook-admin-2026';
 const GH_REPO         = 'sutrafloworg/zero-touch-business';
 const GH_TOKEN        = ''; // public repo -- unauthenticated (60 req/hr)
+const GH_RAW          = `https://raw.githubusercontent.com/${GH_REPO}/main`;
 
 const REFRESH_INTERVAL_MS = 5 * 60 * 1000; // 5 min
 let refreshTimer = null;
@@ -461,7 +462,7 @@ async function loadAll() {
     loadWorkflows(),
     loadVPSStatus(),
     loadSiteStatus(),
-    loadCustomers(),
+    loadSentinelData(),
   ]);
 }
 
@@ -626,232 +627,269 @@ function renderCustomersFallback() {
     </div>`;
 }
 
-// ── STATIC DATA PANELS (loaded from local state files via VPS or static) ──────
-// These render with realistic placeholder data when VPS not available
-// In production: replace with fetch() to your VPS /admin/metrics endpoint
-
-function renderStaticPanels() {
-  // Alerts panel -- sample / last known
-  document.getElementById('alerts-panel').innerHTML = `
-    <div class="alert-item">
-      <div class="alert-icon">&#128308;</div>
-      <div>
-        <div class="alert-biz">Capital City Plumbing &amp; Drain</div>
-        <div class="alert-detail">Austin, TX -- Rank #3 &rarr; #7 (down 4). Review gap: 1 vs 12. Alert sent.</div>
-        <div class="alert-time">Apr 1, 2026 &middot; Confidence: 8/10</div>
-      </div>
-    </div>
-    <div class="alert-item">
-      <div class="alert-icon">&#128994;</div>
-      <div>
-        <div class="alert-biz">Apex HVAC Solutions</div>
-        <div class="alert-detail">Denver, CO -- Rank improved #6 &rarr; #4. Win notification sent.</div>
-        <div class="alert-time">Mar 29, 2026 &middot; Confidence: 7/10</div>
-      </div>
-    </div>
-    <div class="alert-item">
-      <div class="alert-icon">&#128308;</div>
-      <div>
-        <div class="alert-biz">Manhattan Injury Law Group</div>
-        <div class="alert-detail">New York, NY -- Rank #2 &rarr; #5. Competitor gained 18 reviews. Alert sent.</div>
-        <div class="alert-time">Mar 25, 2026 &middot; Confidence: 9/10</div>
-      </div>
-    </div>
-    <div style="color:var(--small); font-size:11px; margin-top:12px; padding-top: 10px; border-top: 1px solid var(--border);">
-      Alert feed from <code>business3_local_seo/data/state.json</code>.
-      <a href="${VPS_HOST}/admin/alerts" target="_blank" style="color:var(--accent);">Live feed &rarr;</a>
-    </div>
-  `;
-  document.getElementById('alert-count').textContent = '3 total (last 7d)';
-
-  // API budget — 3-provider rotation
-  const serpUsed = 118, serpTotal = 245;
-  const osUsed = 0, osTotal = 95;
-  const vsUsed = 0, vsTotal = 95;
-  const serpPct = Math.round(serpUsed / serpTotal * 100);
-  const osPct = Math.round(osUsed / osTotal * 100);
-  const vsPct = Math.round(vsUsed / vsTotal * 100);
+// ── LOAD SENTINEL DATA (from GitHub raw — always up-to-date after each pipeline run) ────
+async function loadSentinelData() {
   const colorFn = pct => pct > 80 ? 'fill-red' : pct > 60 ? 'fill-orange' : 'fill-green';
+
+  // Fetch all three data files in parallel
+  const [stateRes, usageRes, pendingRes, seoStateRes, ghSeoRun, ghNewsletterRun] = await Promise.allSettled([
+    fetch(`${GH_RAW}/business3_local_seo/data/state.json`).then(r => r.ok ? r.json() : null),
+    fetch(`${GH_RAW}/business3_local_seo/data/search_usage.json`).then(r => r.ok ? r.json() : null),
+    fetch(`${GH_RAW}/business3_local_seo/data/pending_reports.json`).then(r => r.ok ? r.json() : null),
+    fetch(`${GH_RAW}/business2_seo/data/state.json`).then(r => r.ok ? r.json() : null),
+    fetch(`https://api.github.com/repos/${GH_REPO}/actions/workflows/seo_weekly.yml/runs?per_page=1`, {headers:{'Accept':'application/vnd.github.v3+json'}}).then(r=>r.ok?r.json():null),
+    fetch(`https://api.github.com/repos/${GH_REPO}/actions/workflows/newsletter_weekly.yml/runs?per_page=1`, {headers:{'Accept':'application/vnd.github.v3+json'}}).then(r=>r.ok?r.json():null),
+  ]);
+
+  const state   = stateRes.status === 'fulfilled' ? stateRes.value : null;
+  const usage   = usageRes.status === 'fulfilled' ? usageRes.value : null;
+  const pending = pendingRes.status === 'fulfilled' ? pendingRes.value : null;
+  const seoState = seoStateRes.status === 'fulfilled' ? seoStateRes.value : null;
+  const seoRun = ghSeoRun.status === 'fulfilled' && ghSeoRun.value ? ghSeoRun.value.workflow_runs?.[0] : null;
+  const nlRun  = ghNewsletterRun.status === 'fulfilled' && ghNewsletterRun.value ? ghNewsletterRun.value.workflow_runs?.[0] : null;
+
+  // ── Last Scan status bar ──────────────────────────────────────────────────
+  if (state && state.last_run) {
+    const d = new Date(state.last_run);
+    const label = d.toLocaleDateString('en-US', {month:'short', day:'numeric'});
+    const status = state.last_status || 'OK';
+    document.getElementById('val-scans').textContent = `${label} — ${status}`;
+    document.getElementById('dot-scans').className =
+      'status-dot ' + (status === 'OK' ? 'dot-green' : 'dot-orange');
+  } else {
+    document.getElementById('val-scans').textContent = 'No runs yet';
+    document.getElementById('dot-scans').className = 'status-dot dot-gray';
+  }
+
+  // ── Customers (read from VPS, already handled by loadVPSStatus fallback) ─
+  // Also render customers panel based on VPS (already done) — nothing extra needed here
+
+  // ── Alerts panel: real data from pending_reports.json ───────────────────
+  const reports = pending ? (pending.reports || []) : [];
+  const pendingCount = reports.filter(r => r.status === 'pending').length;
+  document.getElementById('alert-count').textContent =
+    state ? `${state.last_alerts || 0} drops · ${pendingCount} pending payment` : '--';
+
+  if (reports.length === 0) {
+    document.getElementById('alerts-panel').innerHTML =
+      `<div style="color:var(--muted);font-size:13px;padding:10px 0;">
+        No contacted businesses yet. Run the pipeline to generate teaser alerts.
+        <br><br><a href="https://github.com/${GH_REPO}/actions/workflows/local_seo_weekly.yml" target="_blank" style="color:var(--accent);">Trigger pipeline &rarr;</a>
+      </div>`;
+  } else {
+    let html = '';
+    for (const r of reports.slice(0, 5)) {
+      const ad = r.alert_data || {};
+      const city = (ad.category_key || '').split('_')[0] || '';
+      const cityLabel = city.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
+      const statusColor = r.status === 'pending' ? 'var(--orange)' : 'var(--green)';
+      const statusLabel = r.status === 'pending' ? 'Awaiting payment' : 'Delivered';
+      const sentDate = r.created_at ? new Date(r.created_at).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '--';
+      html += `
+        <div class="alert-item">
+          <div class="alert-icon">&#128308;</div>
+          <div style="flex:1">
+            <div class="alert-biz">${r.business_name}</div>
+            <div class="alert-detail">${cityLabel} &mdash; Rank #${ad.prev_rank}&rarr;#${ad.curr_rank} (down ${ad.rank_change}). Teaser sent to ${r.email}.</div>
+            <div class="alert-time" style="display:flex;gap:10px;align-items:center;">
+              <span>${sentDate}</span>
+              <span style="color:${statusColor};font-weight:600;">${statusLabel}</span>
+            </div>
+          </div>
+        </div>`;
+    }
+    if (reports.length > 5) {
+      html += `<div style="color:var(--small);font-size:11px;margin-top:10px;">+${reports.length - 5} more in pending_reports.json</div>`;
+    }
+    html += `<div style="color:var(--small);font-size:11px;margin-top:12px;padding-top:10px;border-top:1px solid var(--border);">
+      Source: <code>business3_local_seo/data/pending_reports.json</code>
+    </div>`;
+    document.getElementById('alerts-panel').innerHTML = html;
+  }
+
+  // ── API Budget panel: real data from search_usage.json ──────────────────
+  const serpUsed = usage ? (usage.serpapi || 0) : 0;
+  const osUsed   = usage ? (usage.outscraper || 0) : 0;
+  const vsUsed   = usage ? (usage.valueserp || 0) : 0;
+  const month    = usage ? (usage.month || '') : '';
+  const serpTotal = 245, osTotal = 95, vsTotal = 95;
+  const serpPct = Math.round(serpUsed / serpTotal * 100);
+  const osPct   = Math.round(osUsed / osTotal * 100);
+  const vsPct   = Math.round(vsUsed / vsTotal * 100);
+  const totalUsed = serpUsed + osUsed + vsUsed;
+
+  if (month) document.getElementById('budget-month').textContent = month;
 
   document.getElementById('budget-panel').innerHTML = `
     <div class="budget-row">
       <div class="budget-labels">
         <span>SerpAPI (primary)</span>
-        <span style="color:var(--muted);">${serpUsed} / ${serpTotal} searches (${serpPct}%)</span>
+        <span style="color:var(--muted);">${serpUsed} / ${serpTotal} (${serpPct}%)</span>
       </div>
-      <div class="budget-bar"><div class="budget-fill ${colorFn(serpPct)}" style="width:${serpPct}%"></div></div>
+      <div class="budget-bar"><div class="budget-fill ${colorFn(serpPct)}" style="width:${Math.max(serpPct,1)}%"></div></div>
     </div>
     <div class="budget-row">
       <div class="budget-labels">
         <span>Outscraper (fallback 1)</span>
-        <span style="color:var(--muted);">${osUsed} / ${osTotal} searches (${osPct}%)</span>
+        <span style="color:var(--muted);">${osUsed} / ${osTotal} (${osPct}%)</span>
       </div>
-      <div class="budget-bar"><div class="budget-fill ${colorFn(osPct)}" style="width:${Math.max(osPct,2)}%"></div></div>
+      <div class="budget-bar"><div class="budget-fill ${colorFn(osPct)}" style="width:${Math.max(osPct,1)}%"></div></div>
     </div>
     <div class="budget-row">
       <div class="budget-labels">
         <span>ValueSERP (fallback 2)</span>
-        <span style="color:var(--muted);">${vsUsed} / ${vsTotal} searches (${vsPct}%)</span>
+        <span style="color:var(--muted);">${vsUsed} / ${vsTotal} (${vsPct}%)</span>
       </div>
-      <div class="budget-bar"><div class="budget-fill ${colorFn(vsPct)}" style="width:${Math.max(vsPct,2)}%"></div></div>
+      <div class="budget-bar"><div class="budget-fill ${colorFn(vsPct)}" style="width:${Math.max(vsPct,1)}%"></div></div>
     </div>
-    <div style="margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--border);">
+    <div style="margin-top:16px;padding-top:14px;border-top:1px solid var(--border);">
       <div class="metric-row">
         <div class="metric-mini">
+          <div class="m-label">Scans Used</div>
+          <div class="m-value ${totalUsed > 300 ? 'text-red' : totalUsed > 200 ? 'text-orange' : 'text-green'}">${totalUsed}</div>
+          <div class="m-sub">of 435 free / month</div>
+        </div>
+        <div class="metric-mini">
+          <div class="m-label">Remaining</div>
+          <div class="m-value">${435 - totalUsed}</div>
+          <div class="m-sub">~${Math.floor((435-totalUsed)/60)} runs left</div>
+        </div>
+        <div class="metric-mini">
           <div class="m-label">Cities Tracked</div>
-          <div class="m-value text-green">12</div>
-          <div class="m-sub">5 categories each</div>
-        </div>
-        <div class="metric-mini">
-          <div class="m-label">Scans This Month</div>
-          <div class="m-value">${serpUsed + osUsed + vsUsed}</div>
-          <div class="m-sub">of 435 total budget</div>
-        </div>
-        <div class="metric-mini">
-          <div class="m-label">Month Reset</div>
-          <div class="m-value" style="font-size:14px;">May 1</div>
-          <div class="m-sub">30 days remaining</div>
+          <div class="m-value text-green">10</div>
+          <div class="m-sub">6 niches each</div>
         </div>
       </div>
     </div>
-    <div style="color:var(--small); font-size:11px; margin-top:10px;">
-      Data from <code>business3_local_seo/data/search_usage.json</code>
+    <div style="color:var(--small);font-size:11px;margin-top:10px;">
+      Source: <code>business3_local_seo/data/search_usage.json</code>
     </div>
   `;
 
-  // Scan heatmap -- sample grid for Austin Plumber
-  const ranks = [2, 3, 3, 4, 5,
-                 3, 4, 5, 6, 7,
-                 4, 5, 7, 8, 9,
-                 5, 7, 8, 10, 11,
-                 6, 8, 10, 12, 15];
-  let gridHtml = '<div style="font-size:11px; color:var(--muted); margin-bottom: 6px;">Capital City Plumbing &amp; Drain &mdash; Austin TX &mdash; 25-point grid (planned Q2 2026)</div>';
-  gridHtml += '<div class="scan-grid">';
-  for (const r of ranks) {
-    let cls = r <= 3 ? 'cell-1' : r <= 6 ? 'cell-4' : 'cell-7plus';
-    gridHtml += `<div class="scan-cell ${cls}">#${r}</div>`;
-  }
-  gridHtml += '</div>';
-  gridHtml += `<div style="margin-top:12px; display:flex; gap:14px; font-size:11px;">
-    <span style="color:var(--green);">&#9632; Top 3 visible</span>
-    <span style="color:var(--orange);">&#9632; Rank 4-6</span>
-    <span style="color:var(--red);">&#9632; Rank 7+</span>
-  </div>`;
-  gridHtml += '<div style="color:var(--small); font-size:11px; margin-top:8px;">Median rank: 6.5 &middot; Top-3 share: 4/25 (16%) &middot; Status: single-point scan currently active &mdash; <strong>geo-grid upgrade planned Q2 2026</strong></div>';
+  // ── Search Sentinel pipeline stats panel ────────────────────────────────
+  const runs      = state ? (state.total_runs || 0) : 0;
+  const lastRun   = state && state.last_run ? new Date(state.last_run).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : 'Never';
+  const lastAlerts= state ? (state.last_alerts || 0) : 0;
+  const emailsSent= state ? (state.total_emails_sent || 0) : 0;
+  const lastStatus= state ? (state.last_status || '–') : '–';
+  const pendingPaymentCount = reports.filter(r => r.status === 'pending').length;
 
-  document.getElementById('scan-panel').innerHTML = gridHtml;
-  document.getElementById('scan-city-badge').textContent = 'Austin, TX';
-  document.getElementById('dot-scans').className = 'status-dot dot-orange';
-  document.getElementById('val-scans').textContent = 'Apr 1 (single-point)';
+  document.getElementById('sentinel-status-badge').textContent = lastStatus;
+  document.getElementById('sentinel-status-badge').className =
+    'badge ' + (lastStatus === 'OK' ? 'badge-green' : lastStatus === 'NOT_RUN' ? 'badge-gray' : 'badge-orange');
 
-  // Articles panel
+  document.getElementById('sentinel-panel').innerHTML = `
+    <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <tr>
+        <td style="padding:7px 0;color:var(--muted);">Total pipeline runs</td>
+        <td style="padding:7px 0;font-weight:600;text-align:right;">${runs}</td>
+      </tr>
+      <tr>
+        <td style="padding:7px 0;color:var(--muted);">Last run</td>
+        <td style="padding:7px 0;font-weight:600;text-align:right;">${lastRun}</td>
+      </tr>
+      <tr>
+        <td style="padding:7px 0;color:var(--muted);">Last scan: drops found</td>
+        <td style="padding:7px 0;font-weight:600;text-align:right;">${lastAlerts}</td>
+      </tr>
+      <tr>
+        <td style="padding:7px 0;color:var(--muted);">Teaser emails sent (total)</td>
+        <td style="padding:7px 0;font-weight:600;text-align:right;">${emailsSent}</td>
+      </tr>
+      <tr>
+        <td style="padding:7px 0;color:var(--muted);">Pending payments</td>
+        <td style="padding:7px 0;font-weight:600;text-align:right;color:${pendingPaymentCount > 0 ? 'var(--orange)' : 'var(--muted)'};">${pendingPaymentCount}</td>
+      </tr>
+    </table>
+    <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border);">
+      <a href="https://github.com/${GH_REPO}/actions/workflows/local_seo_weekly.yml"
+         target="_blank" style="color:var(--accent);font-size:12px;">Run pipeline &rarr;</a>
+    </div>
+  `;
+
+  // ── Articles panel: live from GitHub Actions + state.json ────────────────
+  const articlesLive = seoState ? (seoState.total_articles_on_disk || seoState.articles_published || 0) : 0;
+  const seoConclusion = seoRun ? (seoRun.status === 'completed' ? seoRun.conclusion : seoRun.status) : null;
+  const seoRunNum = seoRun ? '#' + seoRun.run_number : '--';
+  const seoAge = seoRun ? timeSince(seoRun.updated_at) : '--';
+
   document.getElementById('articles-panel').innerHTML = `
-    <div class="metric-mini" style="margin-bottom: 12px;">
+    <div class="metric-mini" style="margin-bottom:12px;">
       <div class="m-label">Articles Live</div>
-      <div class="m-value text-green">9</div>
+      <div class="m-value text-green">${articlesLive || '--'}</div>
       <div class="m-sub">sutraflow.org/posts/</div>
     </div>
-    <div class="metric-mini" style="margin-bottom: 12px;">
-      <div class="m-label">Run #9 Status</div>
-      <div class="m-value" style="font-size:16px;" id="seo-run-status">Checking...</div>
-      <div class="m-sub">Triggered today &mdash; 8 articles queued</div>
+    <div class="metric-mini" style="margin-bottom:12px;">
+      <div class="m-label">Last Run ${seoRunNum}</div>
+      <div class="m-value" style="font-size:15px;">${statusBadge(seoConclusion)}</div>
+      <div class="m-sub">${seoAge}</div>
     </div>
-    <div style="color:var(--small); font-size:11px; margin-top:4px;">
-      Next auto-run: Sunday &amp; Wednesday 2am UTC.<br>
-      <a href="https://github.com/sutrafloworg/zero-touch-business/actions/workflows/seo_weekly.yml" target="_blank" style="color:var(--accent);">View pipeline &rarr;</a>
+    <div style="color:var(--small);font-size:11px;margin-top:4px;">
+      <a href="https://github.com/${GH_REPO}/actions/workflows/seo_weekly.yml" target="_blank" style="color:var(--accent);">View pipeline &rarr;</a>
     </div>
   `;
 
-  // Newsletter panel
+  // ── Newsletter panel: live from GitHub Actions ───────────────────────────
+  const nlConclusion = nlRun ? (nlRun.status === 'completed' ? nlRun.conclusion : nlRun.status) : null;
+  const nlRunNum = nlRun ? '#' + nlRun.run_number : '--';
+  const nlAge = nlRun ? timeSince(nlRun.updated_at) : '--';
+
   document.getElementById('newsletter-panel').innerHTML = `
-    <div class="metric-mini" style="margin-bottom: 12px;">
-      <div class="m-label">Last Newsletter</div>
-      <div class="m-value text-green" style="font-size:16px;">#10</div>
-      <div class="m-sub">Sent Mar 31, 2026 &mdash; 59s</div>
+    <div class="metric-mini" style="margin-bottom:12px;">
+      <div class="m-label">Last Send ${nlRunNum}</div>
+      <div class="m-value" style="font-size:15px;">${statusBadge(nlConclusion)}</div>
+      <div class="m-sub">${nlAge}</div>
     </div>
-    <div class="metric-mini" style="margin-bottom: 12px;">
-      <div class="m-label">Kit API Status</div>
-      <div class="m-value text-green" style="font-size:15px;">Active</div>
-      <div class="m-sub">Secrets updated Mar 31</div>
+    <div class="metric-mini" style="margin-bottom:12px;">
+      <div class="m-label">Platform</div>
+      <div class="m-value text-green" style="font-size:15px;">Kit (ConvertKit)</div>
+      <div class="m-sub">Weekly dispatch</div>
     </div>
-    <div style="color:var(--small); font-size:11px; margin-top:4px;">
-      Next run: Tuesday 7am UTC.<br>
-      <a href="https://github.com/sutrafloworg/zero-touch-business/actions/workflows/newsletter_weekly.yml" target="_blank" style="color:var(--accent);">View runs &rarr;</a>
+    <div style="color:var(--small);font-size:11px;margin-top:4px;">
+      <a href="https://github.com/${GH_REPO}/actions/workflows/newsletter_weekly.yml" target="_blank" style="color:var(--accent);">View runs &rarr;</a>
     </div>
   `;
 
-  // Infrastructure panel
+  // ── Infrastructure panel ─────────────────────────────────────────────────
   document.getElementById('infra-panel').innerHTML = `
-    <div style="display:flex; flex-direction:column; gap:8px;">
-      <div style="display:flex; justify-content:space-between; align-items:center;">
+    <div style="display:flex;flex-direction:column;gap:8px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;">
         <span style="font-size:13px;">Oracle Cloud VPS</span>
         <span id="infra-vps-badge" class="badge badge-gray">Checking...</span>
       </div>
-      <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div style="display:flex;justify-content:space-between;align-items:center;">
         <span style="font-size:13px;">Cloudflare Pages</span>
         <span class="badge badge-green">Active</span>
       </div>
-      <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div style="display:flex;justify-content:space-between;align-items:center;">
         <span style="font-size:13px;">Stripe Webhook</span>
-        <span class="badge badge-green">5 events registered</span>
+        <span class="badge badge-green">Registered</span>
       </div>
-      <div style="display:flex; justify-content:space-between; align-items:center;">
+      <div style="display:flex;justify-content:space-between;align-items:center;">
         <span style="font-size:13px;">ConvertKit (Kit)</span>
         <span class="badge badge-green">Connected</span>
       </div>
-      <div style="display:flex; justify-content:space-between; align-items:center;">
-        <span style="font-size:13px;">Search APIs (3-provider rotation)</span>
-        <span class="badge badge-blue">${serpUsed + osUsed + vsUsed}/435 used</span>
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <span style="font-size:13px;">Search APIs (3-provider)</span>
+        <span class="badge badge-blue">${totalUsed}/435 used</span>
       </div>
     </div>
-    <div style="color:var(--small); font-size:11px; margin-top:14px; padding-top:10px; border-top: 1px solid var(--border);">
-      VPS: 129.158.224.191 &mdash; Flask port 8080 &mdash; Docker container.<br>
+    <div style="color:var(--small);font-size:11px;margin-top:14px;padding-top:10px;border-top:1px solid var(--border);">
+      VPS: 129.158.224.191 &mdash; Flask port 8080.<br>
       <a href="${VPS_HOST}/health" target="_blank" style="color:var(--accent);">Health endpoint &rarr;</a>
     </div>
   `;
-}
 
-// After VPS check, update the infra badge
-const origLoadVPS = loadVPSStatus;
-loadVPSStatus = async function() {
-  await origLoadVPS();
-  const vpsVal = document.getElementById('val-vps').textContent;
-  const infraBadge = document.getElementById('infra-vps-badge');
-  if (infraBadge) {
-    if (vpsVal === 'Online') {
-      infraBadge.className = 'badge badge-green';
-      infraBadge.textContent = 'Online';
-    } else {
-      infraBadge.className = 'badge badge-red';
+  // Update infra VPS badge from already-loaded VPS status
+  setTimeout(() => {
+    const vpsVal = document.getElementById('val-vps')?.textContent;
+    const infraBadge = document.getElementById('infra-vps-badge');
+    if (infraBadge && vpsVal) {
+      infraBadge.className = vpsVal === 'Online' ? 'badge badge-green' : 'badge badge-red';
       infraBadge.textContent = vpsVal;
     }
-  }
-};
-
-// Load static panels immediately
-renderStaticPanels();
-
-// Also check run #9 status from GitHub
-async function checkSEORun9() {
-  try {
-    const resp = await fetch(
-      `https://api.github.com/repos/${GH_REPO}/actions/workflows/seo_weekly.yml/runs?per_page=1`,
-      { headers: GH_TOKEN ? { 'Authorization': `token ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' } : { 'Accept': 'application/vnd.github.v3+json' } }
-    );
-    const data = await resp.json();
-    const run = data.workflow_runs && data.workflow_runs[0];
-    if (run) {
-      const el = document.getElementById('seo-run-status');
-      if (el) {
-        const conc = run.status === 'completed' ? run.conclusion : run.status;
-        el.innerHTML = statusBadge(conc);
-      }
-    }
-  } catch(e) {}
+  }, 1500);
 }
-
-// Slight delay so dashboard elements are rendered first
-setTimeout(checkSEORun9, 2000);
 </script>
 </body>
 </html>
