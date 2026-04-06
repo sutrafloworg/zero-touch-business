@@ -52,6 +52,7 @@ jobs:
                   business3_local_seo/data/rankings_history.json \
                   business3_local_seo/data/contacts.json \
                   business3_local_seo/data/pending_reports.json \
+                  business3_local_seo/data/search_usage.json \
                   business3_local_seo/logs/ || true
           git diff --staged --quiet || git commit -m "local-seo: update rankings $(date +%Y-%m-%d) [skip ci]"
           git pull --rebase origin main || true

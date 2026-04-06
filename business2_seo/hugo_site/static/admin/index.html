@@ -546,7 +546,8 @@ async function loadVPSStatus() {
     document.getElementById('val-vps').textContent = 'Unreachable';
   }
 
-  // Load customers from VPS admin endpoint
+  // Load customers: try VPS first, then GitHub raw customers.json fallback
+  let customerLoaded = false;
   try {
     const resp = await fetch(`${VPS_HOST}/admin/customers`, {
       headers: { 'X-Admin-Token': VPS_ADMIN_TOKEN },
@@ -554,13 +555,23 @@ async function loadVPSStatus() {
     });
     if (resp.ok) {
       const data = await resp.json();
-      renderCustomers(data);
-    } else {
-      renderCustomersFallback();
+      renderCustomers(data, false);
+      customerLoaded = true;
     }
-  } catch(e) {
-    renderCustomersFallback();
+  } catch(e) { /* VPS offline */ }
+
+  if (!customerLoaded) {
+    // Try GitHub raw — populated once VPS is configured to sync customers.json
+    try {
+      const ghCust = await fetch(`${GH_RAW}/business3_local_seo/data/customers.json`).then(r => r.ok ? r.json() : null);
+      if (ghCust && (ghCust.customers || []).length > 0) {
+        renderCustomers(ghCust, true);
+        customerLoaded = true;
+      }
+    } catch(e) { /* file not in repo yet */ }
   }
+
+  if (!customerLoaded) renderCustomersFallback();
 }
 
 // ── SITE STATUS ───────────────────────────────────────────────────────────────
@@ -577,14 +588,15 @@ async function loadSiteStatus() {
 }
 
 // ── CUSTOMERS ─────────────────────────────────────────────────────────────────
-function renderCustomers(data) {
+function renderCustomers(data, fromGitHub = false) {
   const customers = data.customers || [];
   const active = customers.filter(c => c.status === 'active');
   const inactive = customers.filter(c => c.status !== 'active');
 
   setDot('dot-customers', active.length > 0);
-  document.getElementById('val-customers').textContent = active.length;
-  document.getElementById('customer-badge').textContent = `${active.length} active / ${customers.length} total`;
+  document.getElementById('val-customers').textContent = active.length > 0 ? active.length + ' active' : '0 active';
+  const src = fromGitHub ? ' (cached)' : '';
+  document.getElementById('customer-badge').textContent = `${active.length} active / ${customers.length} total${src}`;
 
   if (customers.length === 0) {
     document.getElementById('customers-panel').innerHTML =
@@ -614,14 +626,16 @@ function renderCustomers(data) {
 }
 
 function renderCustomersFallback() {
-  // VPS not reachable -- show placeholder with expected schema
   setDot('dot-customers', false);
-  document.getElementById('val-customers').textContent = 'VPS offline';
+  document.getElementById('val-customers').textContent = '0 active';
   document.getElementById('customer-badge').textContent = 'VPS unreachable';
   document.getElementById('customers-panel').innerHTML = `
     <div style="color: var(--muted); font-size:13px;">
-      Customer data loaded from VPS <code>/admin/customers</code>.<br>
-      VPS appears offline or endpoint unreachable.<br><br>
+      <strong style="color:var(--text);">No paying customers yet</strong> — or VPS is offline.<br><br>
+      When someone pays via Stripe, the VPS webhook server records them here
+      (one-time audit or monthly monitoring plan).<br><br>
+      VPS is currently unreachable at <code>129.158.224.191:8080</code>.<br>
+      <span style="color:var(--orange);">&#9888; Stripe payment webhooks will fail until VPS is back up.</span><br><br>
       <a href="https://github.com/sutrafloworg/zero-touch-business/actions/workflows/deploy_vps.yml"
          target="_blank" style="color:var(--accent);">Redeploy VPS &rarr;</a>
     </div>`;
@@ -770,9 +784,11 @@ async function loadSentinelData() {
   const runs      = state ? (state.total_runs || 0) : 0;
   const lastRun   = state && state.last_run ? new Date(state.last_run).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : 'Never';
   const lastAlerts= state ? (state.last_alerts || 0) : 0;
-  const emailsSent= state ? (state.total_emails_sent || 0) : 0;
   const lastStatus= state ? (state.last_status || '–') : '–';
+  // pending_reports has one entry per business where we found an email and attempted outreach
   const pendingPaymentCount = reports.filter(r => r.status === 'pending').length;
+  // teasersSent = all registered outreach contacts (each registration = teaser attempted)
+  const teasersSent = pendingPaymentCount;
 
   document.getElementById('sentinel-status-badge').textContent = lastStatus;
   document.getElementById('sentinel-status-badge').className =
@@ -793,11 +809,11 @@ async function loadSentinelData() {
         <td style="padding:7px 0;font-weight:600;text-align:right;">${lastAlerts}</td>
       </tr>
       <tr>
-        <td style="padding:7px 0;color:var(--muted);">Teaser emails sent (total)</td>
-        <td style="padding:7px 0;font-weight:600;text-align:right;">${emailsSent}</td>
+        <td style="padding:7px 0;color:var(--muted);">Teasers sent (outreach registered)</td>
+        <td style="padding:7px 0;font-weight:600;text-align:right;">${teasersSent}</td>
       </tr>
       <tr>
-        <td style="padding:7px 0;color:var(--muted);">Pending payments</td>
+        <td style="padding:7px 0;color:var(--muted);">Awaiting payment (not yet converted)</td>
         <td style="padding:7px 0;font-weight:600;text-align:right;color:${pendingPaymentCount > 0 ? 'var(--orange)' : 'var(--muted)'};">${pendingPaymentCount}</td>
       </tr>
     </table>
