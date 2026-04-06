@@ -42,6 +42,19 @@ jobs:
             set -euo pipefail
             APP_DIR="/opt/localrank"
 
+            echo "=== [0/4] Opening port 8080 in firewall ==="
+            # Oracle Cloud Ubuntu blocks ALL inbound ports by default via iptables.
+            # Docker -p alone does NOT bypass this — the VPS iptables INPUT chain
+            # has a catch-all REJECT at the end that drops external connections
+            # before Docker's DOCKER chain can handle them.
+            sudo iptables -C INPUT -p tcp --dport 8080 -j ACCEPT 2>/dev/null || \
+              sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 8080 -j ACCEPT
+            # Persist rules so they survive reboots (install if not present)
+            sudo apt-get install -y iptables-persistent < /dev/null 2>/dev/null || true
+            sudo netfilter-persistent save 2>/dev/null || \
+              sudo sh -c 'iptables-save > /etc/iptables/rules.v4' 2>/dev/null || true
+            echo "Port 8080: iptables rule confirmed."
+
             echo "=== [1/4] Pulling latest code from feat branch ==="
             cd "$APP_DIR"
             # Repo is owned by root — run all git commands with sudo so they can
@@ -68,21 +81,47 @@ jobs:
               -v "$APP_DIR/business3_local_seo/reports:/app/reports" \
               localrank-webhook
 
-            echo "=== [4/4] Health check ==="
+            echo "=== [4/4] Health check (local + external) ==="
             sleep 8
-            # Use 127.0.0.1 explicitly (avoids IPv6/[::1] resolution issues with Docker)
-            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
-              http://127.0.0.1:8080/health 2>/dev/null || echo "000")
-            echo "Health endpoint HTTP status: $HTTP_CODE"
 
-            # Also confirm container is still running
+            # 1. Local check — confirms Docker container is running
+            LOCAL_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+              http://127.0.0.1:8080/health 2>/dev/null || echo "000")
+            echo "Local health check (127.0.0.1:8080): $LOCAL_CODE"
+
+            # 2. External check — confirms iptables is NOT blocking external traffic
+            # Get this instance's public IP and test from the outside
+            PUBLIC_IP=$(curl -s --max-time 5 https://api.ipify.org 2>/dev/null || \
+                        curl -s --max-time 5 https://ifconfig.me 2>/dev/null || echo "")
+            if [ -n "$PUBLIC_IP" ]; then
+              EXT_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
+                http://$PUBLIC_IP:8080/health 2>/dev/null || echo "000")
+              echo "External health check (http://$PUBLIC_IP:8080/health): $EXT_CODE"
+              if [ "$EXT_CODE" != "200" ]; then
+                echo "⚠️  External access blocked even though container is running!"
+                echo "Checking iptables INPUT chain..."
+                sudo iptables -L INPUT -n --line-numbers | grep -E "8080|ACCEPT|REJECT|DROP" | head -20
+                echo "Trying to force-add rule again..."
+                sudo iptables -I INPUT 1 -p tcp --dport 8080 -j ACCEPT
+                sudo netfilter-persistent save 2>/dev/null || true
+                sleep 3
+                EXT_CODE2=$(curl -s -o /dev/null -w "%{http_code}" --max-time 8 \
+                  http://$PUBLIC_IP:8080/health 2>/dev/null || echo "000")
+                echo "External re-check: $EXT_CODE2"
+              fi
+            else
+              echo "Could not determine public IP — skipping external check"
+              EXT_CODE="SKIP"
+            fi
+
+            # Container status
             RUNNING=$(sudo docker ps --filter name=localrank-webhook --format "{{.Status}}" 2>/dev/null || echo "not found")
             echo "Container status: $RUNNING"
 
-            if [ "$HTTP_CODE" = "200" ]; then
-              echo "✅ Deployment successful"
+            if [ "$LOCAL_CODE" = "200" ]; then
+              echo "✅ Deployment successful (local: $LOCAL_CODE, external: $EXT_CODE)"
             else
-              echo "⚠️  Health check returned $HTTP_CODE — dumping container logs"
+              echo "❌ Health check failed — dumping container logs"
               sudo docker logs localrank-webhook --tail=40
               exit 1
             fi

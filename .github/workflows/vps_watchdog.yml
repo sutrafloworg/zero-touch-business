@@ -1,0 +1,71 @@
+name: VPS Watchdog
+
+# Pings the VPS every 6 hours. If unreachable, auto-triggers a redeploy.
+# Also syncs customers.json to GitHub so payment data survives VPS outages.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ping-and-heal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check VPS health
+        id: health
+        run: |
+          HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+            --max-time 15 https://api.sutraflow.org/health 2>/dev/null || echo "000")
+          echo "VPS health: $HTTP_CODE"
+          echo "http_code=$HTTP_CODE" >> "$GITHUB_OUTPUT"
+
+      - name: Redeploy if unhealthy
+        if: steps.health.outputs.http_code != '200'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            console.log(`VPS returned ${${{ toJSON(steps.health.outputs.http_code) }}} — triggering redeploy`);
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy_vps.yml',
+              ref: 'main',
+            });
+            console.log('Redeploy triggered.');
+
+      - name: Sync customers.json from VPS to GitHub
+        if: steps.health.outputs.http_code == '200'
+        env:
+          VPS_ADMIN_TOKEN: ${{ secrets.VPS_ADMIN_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Fetch customers from live VPS
+          CUSTOMERS=$(curl -s --max-time 10 \
+            -H "X-Admin-Token: $VPS_ADMIN_TOKEN" \
+            https://api.sutraflow.org/admin/customers 2>/dev/null || echo "")
+
+          if echo "$CUSTOMERS" | python3 -c "import sys,json; d=json.load(sys.stdin); print(len(d.get('customers',[])), 'customers')" 2>/dev/null; then
+            # Write to file
+            echo "$CUSTOMERS" > /tmp/customers.json
+            COUNT=$(echo "$CUSTOMERS" | python3 -c "import sys,json; d=json.load(sys.stdin); print(len(d.get('customers',[])))")
+            echo "Syncing $COUNT customers to GitHub..."
+
+            # Checkout repo and commit
+            git clone "https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git" /tmp/repo
+            cp /tmp/customers.json /tmp/repo/business3_local_seo/data/customers.json
+            cd /tmp/repo
+            git config user.name "VPS Watchdog Bot"
+            git config user.email "bot@github-actions"
+            git add business3_local_seo/data/customers.json
+            git diff --staged --quiet || git commit -m "chore: sync customers.json from VPS [skip ci]"
+            git push
+            echo "✅ customers.json synced ($COUNT customers)"
+          else
+            echo "⚠️  Could not parse customers response — skipping sync"
+          fi
