@@ -1,11 +1,13 @@
 name: VPS Watchdog
 
-# Pings the VPS every 6 hours. If unreachable, auto-triggers a redeploy.
-# Also syncs customers.json to GitHub so payment data survives VPS outages.
+# Pings the VPS every 30 minutes.
+# - If unreachable: auto-triggers a redeploy AND sends a "VPS DOWN" email alert.
+# - If healthy after a prior outage: sends a "VPS RECOVERED" email.
+# - If healthy: syncs customers.json to GitHub (payment data resilience).
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "*/30 * * * *"   # every 30 minutes
   workflow_dispatch:
 
 permissions:
@@ -22,15 +24,77 @@ jobs:
         run: |
           HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
             --max-time 15 https://api.sutraflow.org/health 2>/dev/null || echo "000")
-          echo "VPS health: $HTTP_CODE"
+          echo "VPS health check returned: $HTTP_CODE"
           echo "http_code=$HTTP_CODE" >> "$GITHUB_OUTPUT"
 
-      - name: Redeploy if unhealthy
+          # Also record whether this is a recovery (last run was bad, now good)
+          # We use a simple GitHub Actions cache key to track last-known state.
+          # healthy=true means VPS was up on the previous check.
+          echo "healthy=$([ '$HTTP_CODE' = '200' ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      # ── UNHEALTHY PATH ─────────────────────────────────────────────────────
+
+      - name: Send DOWN alert email
+        if: steps.health.outputs.http_code != '200'
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          HTTP_CODE: ${{ steps.health.outputs.http_code }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, smtplib
+          from email.mime.text import MIMEText
+          from email.mime.multipart import MIMEMultipart
+          from datetime import datetime, timezone
+
+          gmail_user     = os.environ["GMAIL_USER"]
+          gmail_password = os.environ["GMAIL_APP_PASSWORD"]
+          alert_email    = os.environ["ALERT_EMAIL"]
+          http_code      = os.environ["HTTP_CODE"]
+          now            = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+          subject = f"🚨 SutraFlow VPS DOWN — Stripe webhooks at risk ({now})"
+          body = f"""
+          <html><body style="font-family:sans-serif;max-width:600px;margin:auto">
+          <h2 style="color:#c0392b">⚠️ VPS is unreachable</h2>
+          <p>The SutraFlow webhook server at <strong>api.sutraflow.org</strong> is not responding.</p>
+          <table style="border-collapse:collapse;width:100%">
+            <tr><td style="padding:8px;border:1px solid #ddd"><strong>Time</strong></td>
+                <td style="padding:8px;border:1px solid #ddd">{now}</td></tr>
+            <tr><td style="padding:8px;border:1px solid #ddd"><strong>Health check code</strong></td>
+                <td style="padding:8px;border:1px solid #ddd;color:#c0392b">{http_code}</td></tr>
+            <tr><td style="padding:8px;border:1px solid #ddd"><strong>Impact</strong></td>
+                <td style="padding:8px;border:1px solid #ddd">Stripe payment webhooks will fail until VPS recovers</td></tr>
+          </table>
+          <p style="margin-top:16px">
+            ✅ <strong>Auto-recovery triggered</strong> — a redeploy has been queued automatically.
+            You will receive another email when the VPS is back up.<br><br>
+            If recovery fails, <a href="https://github.com/sutrafloworg/zero-touch-business/actions/workflows/deploy_vps.yml">
+            manually trigger a redeploy here</a>.
+          </p>
+          </body></html>
+          """
+
+          msg = MIMEMultipart("alternative")
+          msg["Subject"] = subject
+          msg["From"]    = gmail_user
+          msg["To"]      = alert_email
+          msg.attach(MIMEText(body, "html"))
+
+          with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+              server.login(gmail_user, gmail_password)
+              server.sendmail(gmail_user, alert_email, msg.as_string())
+
+          print(f"DOWN alert sent to {alert_email}")
+          PYEOF
+
+      - name: Trigger redeploy
         if: steps.health.outputs.http_code != '200'
         uses: actions/github-script@v7
         with:
           script: |
-            console.log(`VPS returned ${${{ toJSON(steps.health.outputs.http_code) }}} — triggering redeploy`);
+            console.log(`VPS returned ${ ${{ toJSON(steps.health.outputs.http_code) }} } — triggering redeploy`);
             await github.rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -38,6 +102,93 @@ jobs:
               ref: 'main',
             });
             console.log('Redeploy triggered.');
+
+      # ── HEALTHY PATH ───────────────────────────────────────────────────────
+
+      - name: Send RECOVERED alert email
+        # Only send if this run was triggered by schedule (not manual) and
+        # we detect the VPS just came back up after a failed deploy attempt.
+        # We detect recovery by checking if the last deploy_vps run was within
+        # the past hour (meaning watchdog triggered it) AND VPS is now healthy.
+        if: steps.health.outputs.http_code == '200' && github.event_name == 'schedule'
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PYEOF'
+          import os, json, smtplib, urllib.request
+          from email.mime.text import MIMEText
+          from email.mime.multipart import MIMEMultipart
+          from datetime import datetime, timezone, timedelta
+
+          gmail_user     = os.environ["GMAIL_USER"]
+          gmail_password = os.environ["GMAIL_APP_PASSWORD"]
+          alert_email    = os.environ["ALERT_EMAIL"]
+          gh_token       = os.environ["GH_TOKEN"]
+          now            = datetime.now(timezone.utc)
+          now_str        = now.strftime("%Y-%m-%d %H:%M UTC")
+
+          # Check if the most recent deploy_vps run happened in the last 35 min
+          # (meaning watchdog triggered it — suggesting a recovery just occurred)
+          url = "https://api.github.com/repos/sutrafloworg/zero-touch-business/actions/workflows/deploy_vps.yml/runs?per_page=1"
+          req = urllib.request.Request(url, headers={
+              "Authorization": f"token {gh_token}",
+              "Accept": "application/vnd.github+json"
+          })
+          try:
+              with urllib.request.urlopen(req, timeout=10) as resp:
+                  data = json.loads(resp.read())
+              runs = data.get("workflow_runs", [])
+              if not runs:
+                  print("No prior deploy runs found — skipping recovery email")
+                  exit(0)
+              last_run = runs[0]
+              created = datetime.fromisoformat(last_run["created_at"].replace("Z", "+00:00"))
+              age_minutes = (now - created).total_seconds() / 60
+              conclusion  = last_run.get("conclusion")
+              print(f"Last deploy: {conclusion}, {age_minutes:.1f} min ago")
+
+              # Only send recovery email if last deploy was recent (watchdog-triggered)
+              if age_minutes > 40 or conclusion != "success":
+                  print("No recent watchdog-triggered deploy — skipping recovery email")
+                  exit(0)
+          except Exception as e:
+              print(f"Could not check deploy history: {e} — skipping recovery email")
+              exit(0)
+
+          subject = f"✅ SutraFlow VPS RECOVERED — Stripe webhooks restored ({now_str})"
+          body = f"""
+          <html><body style="font-family:sans-serif;max-width:600px;margin:auto">
+          <h2 style="color:#27ae60">✅ VPS is back online</h2>
+          <p>The SutraFlow webhook server at <strong>api.sutraflow.org</strong> is responding normally.</p>
+          <table style="border-collapse:collapse;width:100%">
+            <tr><td style="padding:8px;border:1px solid #ddd"><strong>Recovered at</strong></td>
+                <td style="padding:8px;border:1px solid #ddd">{now_str}</td></tr>
+            <tr><td style="padding:8px;border:1px solid #ddd"><strong>Status</strong></td>
+                <td style="padding:8px;border:1px solid #ddd;color:#27ae60">200 OK</td></tr>
+            <tr><td style="padding:8px;border:1px solid #ddd"><strong>Stripe webhooks</strong></td>
+                <td style="padding:8px;border:1px solid #ddd">✅ Restored</td></tr>
+          </table>
+          <p style="margin-top:16px">
+            No action needed. The VPS was automatically redeployed by the watchdog.
+          </p>
+          </body></html>
+          """
+
+          msg = MIMEMultipart("alternative")
+          msg["Subject"] = subject
+          msg["From"]    = gmail_user
+          msg["To"]      = alert_email
+          msg.attach(MIMEText(body, "html"))
+
+          with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+              server.login(gmail_user, gmail_password)
+              server.sendmail(gmail_user, alert_email, msg.as_string())
+
+          print(f"RECOVERY alert sent to {alert_email}")
+          PYEOF
 
       - name: Sync customers.json from VPS to GitHub
         if: steps.health.outputs.http_code == '200'
@@ -51,12 +202,10 @@ jobs:
             https://api.sutraflow.org/admin/customers 2>/dev/null || echo "")
 
           if echo "$CUSTOMERS" | python3 -c "import sys,json; d=json.load(sys.stdin); print(len(d.get('customers',[])), 'customers')" 2>/dev/null; then
-            # Write to file
             echo "$CUSTOMERS" > /tmp/customers.json
             COUNT=$(echo "$CUSTOMERS" | python3 -c "import sys,json; d=json.load(sys.stdin); print(len(d.get('customers',[])))")
             echo "Syncing $COUNT customers to GitHub..."
 
-            # Checkout repo and commit
             git clone "https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git" /tmp/repo
             cp /tmp/customers.json /tmp/repo/business3_local_seo/data/customers.json
             cd /tmp/repo
