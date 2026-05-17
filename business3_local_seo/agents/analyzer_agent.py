@@ -90,8 +90,8 @@ class AnalyzerAgent:
                 prev_rank = prev.get("rank", 99)
                 curr_rank = biz.get("rank", 99)
 
-                if curr_rank > prev_rank:
-                    # Rank dropped — analyze why
+                if curr_rank > prev_rank and (curr_rank - prev_rank) >= 3:
+                    # Rank dropped by 3+ positions — significant enough to act on
                     reasons = self._find_drop_reasons(prev, biz, prev_results, current_results)
 
                     # Build progressive insights from historical data

@@ -43,6 +43,16 @@ jobs:
         working-directory: business3_local_seo
         run: python orchestrator.py
 
+      - name: Run follow-up email sequence
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          STRIPE_PAYMENT_URL_MONITORING: ${{ secrets.STRIPE_PAYMENT_URL_MONITORING }}
+          STRIPE_PAYMENT_URL_AUDIT: ${{ secrets.STRIPE_PAYMENT_URL_AUDIT }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+        working-directory: business3_local_seo
+        run: python followup_sequence.py
+
       - name: Commit state and ranking history updates
         if: always()
         run: |
@@ -54,6 +64,6 @@ jobs:
                   business3_local_seo/data/pending_reports.json \
                   business3_local_seo/data/search_usage.json \
                   business3_local_seo/logs/ || true
-          git diff --staged --quiet || git commit -m "local-seo: update rankings $(date +%Y-%m-%d) [skip ci]"
+          git diff --staged --quiet || git commit -m "local-seo: update rankings + followups $(date +%Y-%m-%d) [skip ci]"
           git pull --rebase origin main || true
           git push || true

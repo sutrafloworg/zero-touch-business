@@ -44,6 +44,34 @@ FAKE_EMAIL_TLDS = {
     "css", "js", "json", "xml", "txt", "pdf", "zip", "woff", "woff2",
 }
 
+# Placeholder/throwaway addresses that should never be contacted
+PLACEHOLDER_EMAILS = {
+    "user@domain.com", "example@domain.com", "test@example.com",
+    "email@example.com", "name@example.com", "info@example.com",
+}
+
+
+def is_valid_outreach_email(email: str) -> bool:
+    """Return True only if email looks like a real business contact."""
+    if not email or "@" not in email:
+        return False
+    email_lower = email.lower().strip()
+    if email_lower in PLACEHOLDER_EMAILS:
+        return False
+    tld = email_lower.rsplit(".", 1)[-1]
+    if tld in FAKE_EMAIL_TLDS:
+        return False
+    if any(p in email_lower for p in BLOCKLIST_PATTERNS):
+        return False
+    local, domain = email_lower.split("@", 1)
+    # Must have at least 2-char local and a domain with a dot
+    if len(local) < 2 or "." not in domain:
+        return False
+    # Wix/Sentry internal addresses
+    if "wixpress.com" in domain or "sentry" in domain:
+        return False
+    return True
+
 
 class OutreachAgent:
     def __init__(
@@ -170,7 +198,8 @@ class OutreachAgent:
         city = category_parts[0].title() if category_parts else "your city"
         category_label = category_parts[2].replace("-", " ") if len(category_parts) > 2 else "your category"
 
-        subject = f"{business_name}: your Google ranking dropped this week"
+        rank_change = alert.get("rank_change", 1)
+        subject = f"Noticed something about {business_name}'s Google Maps position"
 
         insight_bullets = self._insight_bullets(alert)
 
@@ -232,16 +261,17 @@ class OutreachAgent:
       <tr>
         <td style="padding:8px 0;color:#333">
           <strong>Weekly Monitoring</strong><br>
-          <span style="color:#777;font-size:13px">Rank tracking + alerts + monthly trend reports</span>
+          <span style="color:#777;font-size:13px">Rank tracking + alerts + full reports every time you drop</span><br>
+          <span style="display:inline-block;margin-top:4px;background:#fff3cd;border:1px solid #ffc107;color:#856404;font-size:11px;padding:2px 8px;border-radius:3px;font-weight:600">&#9201; Launch offer — $5/mo (normally $20/mo)</span>
         </td>
         <td style="padding:8px 0;text-align:right;vertical-align:middle">
-          <a href="{self.payment_url}" style="background:#fff;color:#0066cc;padding:7px 18px;border-radius:4px;text-decoration:none;font-weight:600;font-size:14px;border:1px solid #0066cc">$5/month</a>
+          <a href="{self.payment_url}" style="background:#fff;color:#0066cc;padding:7px 18px;border-radius:4px;text-decoration:none;font-weight:600;font-size:14px;border:1px solid #0066cc">Start for $5/mo</a>
         </td>
       </tr>
     </table>
   </div>
 
-  <p style="font-size:13px;color:#777">Or just reply to this email — happy to answer questions.</p>
+  <p style="font-size:13px;color:#777">Questions? Just reply — I respond personally.</p>
 
   <p>Best,<br>
   Search Sentinel</p>
@@ -255,6 +285,26 @@ class OutreachAgent:
 </div>
 """.strip()
 
+        # Plain-text version (improves deliverability, required for CAN-SPAM)
+        plain_body = (
+            f"Hi,\n\n"
+            f"We monitor Google Maps rankings for {category_label} businesses in {city} each week.\n\n"
+            f"This week, {business_name} dropped {alert['rank_change']} position(s) — "
+            f"from #{alert['prev_rank']} to #{alert['curr_rank']}.\n\n"
+            f"When you fall out of the top 3, Google Maps stops showing you without scrolling. "
+            f"That means fewer calls and fewer customers.\n\n"
+            f"I've put together a full audit report for {business_name} covering exactly why this "
+            f"happened, which competitors passed you, and 3 specific actions you can take this week.\n\n"
+            f"Full Audit Report ($10): {self.payment_url_audit}\n\n"
+            f"Weekly Monitoring — launch offer $5/mo (normally $20/mo): {self.payment_url}\n\n"
+            f"Questions? Just reply to this email.\n\n"
+            f"Best,\nSearch Sentinel\n\n"
+            f"--\n"
+            f"This is a one-time commercial message from Search Sentinel.\n"
+            f"Search Sentinel · Hillsborough, NJ 08844\n"
+            f"To opt out, reply with 'unsubscribe'.\n"
+        )
+
         try:
             msg = MIMEMultipart("alternative")
             msg["Subject"] = subject
@@ -262,6 +312,8 @@ class OutreachAgent:
             msg["To"] = to_email
             msg["Reply-To"] = self.gmail_user
 
+            # Plain text first (fallback), HTML second (preferred by clients)
+            msg.attach(MIMEText(plain_body, "plain"))
             msg.attach(MIMEText(html_body, "html"))
 
             with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
@@ -562,9 +614,9 @@ class OutreachAgent:
         for alert in alerts:
             email = self.find_email_from_website(alert.get("website", ""))
 
-            if not email:
+            if not is_valid_outreach_email(email or ""):
                 no_email += 1
-                logger.info(f"Outreach: no email found for {alert['business_name']}")
+                logger.info(f"Outreach: no valid email for {alert['business_name']} (got: {email!r})")
                 continue
 
             # CHECK: Is this an active subscriber?
