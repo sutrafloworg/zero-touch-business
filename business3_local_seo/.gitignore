@@ -1,0 +1,12 @@
+# Customer PII — lives on VPS only, never commit to git
+data/customers.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Temp files
+*.tmp
+*.bak

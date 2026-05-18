@@ -194,7 +194,7 @@ def run_pipeline() -> bool:
             gmail_app_password=config.GMAIL_APP_PASSWORD,
             payment_url=config.PAYMENT_URL_MONITORING,
             payment_url_audit=config.PAYMENT_URL_AUDIT,
-            max_emails_per_run=len(alerts),  # no cap — attempt every candidate
+            max_emails_per_run=50,  # cap at 50/week to avoid Gmail spam flags
         )
         outreach_summary = outreach.process_batch_teasers(alerts)
 

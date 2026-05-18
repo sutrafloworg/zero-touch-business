@@ -311,6 +311,10 @@ class OutreachAgent:
             msg["From"] = f"{self.from_name} <{self.gmail_user}>"
             msg["To"] = to_email
             msg["Reply-To"] = self.gmail_user
+            # Required by Gmail 2024 bulk sender policy — one-click unsubscribe
+            msg["List-Unsubscribe"] = f"<mailto:{self.gmail_user}?subject=unsubscribe>"
+            msg["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
+            msg["Precedence"] = "bulk"
 
             # Plain text first (fallback), HTML second (preferred by clients)
             msg.attach(MIMEText(plain_body, "plain"))
@@ -423,7 +427,11 @@ class OutreachAgent:
         customers_file = Path(__file__).parent.parent / "data" / "customers.json"
         try:
             with open(customers_file) as f:
-                return json.load(f)
+                data = json.load(f)
+                # Guard against corrupted/unexpected content (e.g. VPS error response)
+                if not isinstance(data, dict) or "customers" not in data:
+                    return {"customers": []}
+                return data
         except (FileNotFoundError, json.JSONDecodeError):
             return {"customers": []}
 
@@ -612,6 +620,11 @@ class OutreachAgent:
         contacted = []
 
         for alert in alerts:
+            # Enforce per-run cap to avoid Gmail rate limits / spam flags
+            if sent >= self.max_emails_per_run:
+                logger.info(f"Outreach: hit max_emails_per_run cap ({self.max_emails_per_run}), stopping batch")
+                break
+
             email = self.find_email_from_website(alert.get("website", ""))
 
             if not is_valid_outreach_email(email or ""):
