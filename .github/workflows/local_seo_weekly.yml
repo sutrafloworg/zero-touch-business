@@ -11,7 +11,7 @@ permissions:
 jobs:
   scan-and-outreach:
     runs-on: ubuntu-latest
-    timeout-minutes: 20  # Scan (60 queries × 4s = 4min) + analysis + teasers
+    timeout-minutes: 90  # Scan (up to 400 queries × 4s = ~27min) + analysis + teasers + followups
 
     steps:
       - name: Checkout repository
