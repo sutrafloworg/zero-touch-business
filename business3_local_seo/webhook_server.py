@@ -56,6 +56,37 @@ logger = logging.getLogger("webhook_server")
 
 app = Flask(__name__)
 
+
+# ── CORS ─────────────────────────────────────────────────────────────────────
+_CORS_ORIGINS = {"https://sutraflow.org", "https://www.sutraflow.org"}
+
+
+@app.after_request
+def add_cors(response):
+    origin = request.headers.get("Origin", "")
+    if origin in _CORS_ORIGINS or not origin:
+        response.headers["Access-Control-Allow-Origin"] = origin if origin else "*"
+    else:
+        response.headers["Access-Control-Allow-Origin"] = "https://sutraflow.org"
+    response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = (
+        "Content-Type, X-Admin-Token, Stripe-Signature, Authorization"
+    )
+    response.headers["Access-Control-Max-Age"] = "86400"
+    return response
+
+
+@app.route("/health", methods=["OPTIONS"])
+@app.route("/admin/customers", methods=["OPTIONS"])
+@app.route("/admin/alerts", methods=["OPTIONS"])
+@app.route("/admin/budget", methods=["OPTIONS"])
+@app.route("/admin/heatmap", methods=["OPTIONS"])
+def cors_preflight():
+    return "", 204
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+
 stripe.api_key = os.environ.get("STRIPE_SECRET_KEY", "")
 WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET", "")
 

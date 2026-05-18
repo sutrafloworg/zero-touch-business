@@ -55,6 +55,14 @@ jobs:
               sudo sh -c 'iptables-save > /etc/iptables/rules.v4' 2>/dev/null || true
             echo "Port 8080: iptables rule confirmed."
 
+            echo "=== [0b/4] Ensuring ADMIN_TOKEN is set in .env ==="
+            ENV_FILE="$APP_DIR/business3_local_seo/deploy/.env"
+            if [ -f "$ENV_FILE" ]; then
+              sudo grep -q "^ADMIN_TOKEN=" "$ENV_FILE" 2>/dev/null || \
+                echo "ADMIN_TOKEN=sf-webhook-admin-2026" | sudo tee -a "$ENV_FILE" > /dev/null
+              echo "ADMIN_TOKEN confirmed in .env"
+            fi
+
             echo "=== [1/4] Pulling latest code from feat branch ==="
             cd "$APP_DIR"
             # Repo is owned by root — run all git commands with sudo so they can
