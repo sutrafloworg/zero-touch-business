@@ -79,6 +79,7 @@ def _send_followup(
     followup_type: str,
     payment_url: str,
     payment_url_audit: str,
+    days_since: float = 3.0,
 ) -> bool:
     category_parts = alert["category_key"].split("_")
     city = category_parts[0].title() if category_parts else "your city"
@@ -89,11 +90,16 @@ def _send_followup(
 
     if followup_type == "followup_1":
         subject = f"Re: {business_name} — wanted to make sure this reached you"
+        days_ago_phrase = (
+            "a few days ago" if days_since < 10
+            else f"about {int(days_since)} days ago" if days_since < 30
+            else "a few weeks ago"
+        )
         html_body = f"""
 <div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
   <p>Hi,</p>
 
-  <p>I sent a note a few days ago about <strong>{business_name}</strong>'s Google Maps ranking
+  <p>I sent a note {days_ago_phrase} about <strong>{business_name}</strong>'s Google Maps ranking
   dropping from #{prev_rank} to #{curr_rank} in {city} — just wanted to make sure it didn't
   get buried.</p>
 
@@ -125,7 +131,7 @@ def _send_followup(
 </div>""".strip()
 
         plain_body = (
-            f"Hi,\n\nI sent a note a few days ago about {business_name}'s Google Maps ranking "
+            f"Hi,\n\nI sent a note {days_ago_phrase} about {business_name}'s Google Maps ranking "
             f"dropping from #{prev_rank} to #{curr_rank} in {city} — just wanted to make sure it "
             f"didn't get buried.\n\n"
             f"The audit report covers exactly which competitor passed you and what to do about it.\n\n"
@@ -333,6 +339,7 @@ def run_followup_sequence(dry_run: bool = False) -> dict:
                 report["alert_data"],
                 fup_type,
                 payment_url, payment_url_audit,
+                days_since=days_since,
             )
             if success:
                 if "followup_history" not in report:
