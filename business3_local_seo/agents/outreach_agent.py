@@ -223,23 +223,25 @@ class OutreachAgent:
   <p>This week, <strong>{business_name}</strong> dropped from
   <strong style="color:#0066cc">#{alert['prev_rank']}</strong> to
   <strong style="color:#c0392b">#{alert['curr_rank']}</strong> —
-  that's <strong>{alert['rank_change']} positions lost</strong>.</p>
+  that's <strong>{alert['rank_change']} position{'s' if alert['rank_change'] != 1 else ''} lost</strong>.</p>
 
-  <p>When you drop out of the top 3, Google Maps stops showing your business
-  without scrolling. That means fewer calls, fewer walk-ins, fewer customers.</p>
+  <p>When you drop out of the top 3 on Google Maps, your business stops appearing without
+  scrolling. Most customers never scroll — they call the first result they see.
+  <strong>Every week this goes unfixed, competitors above you are getting those calls.</strong></p>
 {reasons_html}
 
   <div style="background:#fff8f0;border-left:4px solid #e67e22;padding:12px 16px;margin:20px 0">
     <p style="margin:0;font-size:14px;color:#333">
-      <strong>I've prepared a full audit report</strong> for {business_name} — it covers
-      exactly why this happened, which competitors passed you, and 3 specific actions
-      you can take <em>this week</em> to recover your ranking.
+      <strong>I've already prepared a full audit report</strong> for {business_name} — it covers
+      exactly which competitor passed you, why it happened, and 3 specific fixes
+      you can apply <em>this week</em> without any agency or ongoing contract.
     </p>
   </div>
 
   <ul style="color:#555;font-size:14px">
-    <li>Detailed root cause analysis with competitor data</li>
-    <li>3 concrete recovery actions customized to your business</li>
+    <li>Exact competitor who overtook you — and what they did differently</li>
+    <li>3 ranked recovery actions specific to {business_name}</li>
+    <li>Timeline: which fixes produce results in days vs. weeks</li>
 {insight_bullets}
   </ul>
 
@@ -249,7 +251,7 @@ class OutreachAgent:
       <tr>
         <td style="padding:8px 0;color:#333">
           <strong>Full Audit Report</strong><br>
-          <span style="color:#777;font-size:13px">Complete competitive analysis + action plan (PDF)</span>
+          <span style="color:#777;font-size:13px">Competitive analysis + personalized action plan (PDF, delivered instantly)</span>
         </td>
         <td style="padding:8px 0;text-align:right;vertical-align:middle">
           <a href="{self.payment_url_audit}" style="background:#0066cc;color:#fff;padding:8px 18px;border-radius:4px;text-decoration:none;font-weight:600;font-size:14px">$10 — Get Report</a>
@@ -261,7 +263,7 @@ class OutreachAgent:
       <tr>
         <td style="padding:8px 0;color:#333">
           <strong>Weekly Monitoring</strong><br>
-          <span style="color:#777;font-size:13px">Rank tracking + alerts + full reports every time you drop</span><br>
+          <span style="color:#777;font-size:13px">Rank tracking + instant alerts + full reports any time you drop</span><br>
           <span style="display:inline-block;margin-top:4px;background:#fff3cd;border:1px solid #ffc107;color:#856404;font-size:11px;padding:2px 8px;border-radius:3px;font-weight:600">&#9201; Launch offer — $5/mo (normally $20/mo)</span>
         </td>
         <td style="padding:8px 0;text-align:right;vertical-align:middle">
@@ -270,6 +272,11 @@ class OutreachAgent:
       </tr>
     </table>
   </div>
+
+  <p style="font-size:13px;color:#555">
+    <strong>Guarantee:</strong> If the report doesn't give you at least 3 actionable improvements,
+    reply and I'll refund immediately — no questions asked.
+  </p>
 
   <p style="font-size:13px;color:#777">Questions? Just reply — I respond personally.</p>
 
@@ -311,6 +318,10 @@ class OutreachAgent:
             msg["From"] = f"{self.from_name} <{self.gmail_user}>"
             msg["To"] = to_email
             msg["Reply-To"] = self.gmail_user
+            # Gmail 2024 bulk sender compliance headers
+            msg["List-Unsubscribe"] = f"<mailto:{self.gmail_user}?subject=unsubscribe>"
+            msg["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
+            msg["Precedence"] = "bulk"
 
             # Plain text first (fallback), HTML second (preferred by clients)
             msg.attach(MIMEText(plain_body, "plain"))
@@ -423,7 +434,11 @@ class OutreachAgent:
         customers_file = Path(__file__).parent.parent / "data" / "customers.json"
         try:
             with open(customers_file) as f:
-                return json.load(f)
+                data = json.load(f)
+                if not isinstance(data, dict) or "customers" not in data:
+                    logger.warning("customers.json has unexpected structure — treating as empty")
+                    return {"customers": []}
+                return data
         except (FileNotFoundError, json.JSONDecodeError):
             return {"customers": []}
 
@@ -612,6 +627,10 @@ class OutreachAgent:
         contacted = []
 
         for alert in alerts:
+            if sent >= self.max_emails_per_run:
+                logger.info(f"Outreach: hit max_emails_per_run cap ({self.max_emails_per_run}), stopping batch")
+                break
+
             email = self.find_email_from_website(alert.get("website", ""))
 
             if not is_valid_outreach_email(email or ""):

@@ -183,32 +183,43 @@ def _send_followup(
         )
 
     elif followup_type == "followup_3":
-        subject = f"Last note — {business_name}'s ranking report"
+        subject = f"One free finding for {business_name} before I close this out"
         html_body = f"""
 <div style="font-family:-apple-system,sans-serif;max-width:560px;margin:0 auto;color:#1a1a1a;line-height:1.6">
   <p>Hi,</p>
 
-  <p>This will be my last follow-up about the ranking drop for <strong>{business_name}</strong>
-  in {city}.</p>
+  <p>This is my last note about <strong>{business_name}</strong>'s Google Maps ranking in {city}.
+  Before I close the file, I wanted to share one finding from the audit — no charge.</p>
 
-  <p>The report I put together will stay available if you ever want it — just use the links below.
-  No pressure, and no hard feelings if now isn't the right time.</p>
+  <div style="background:#eff6ff;border-left:4px solid #2563eb;padding:12px 16px;margin:18px 0;border-radius:0 6px 6px 0">
+    <p style="margin:0 0 6px;font-size:14px;font-weight:600;color:#1d4ed8">Free finding:</p>
+    <p style="margin:0;font-size:14px;color:#1e3a5f">
+      Businesses that dropped in the <em>{category_label}</em> category in {city} this period
+      typically lost ground in one of two areas: review recency (no new reviews in 30+ days)
+      or Google Business Profile completeness. Both are fixable in under an hour — no agency needed.
+    </p>
+  </div>
 
-  <p>If you ever want to talk through what's happening with your Google Maps ranking, you can
-  also just reply to this email and I'll answer whatever questions I can for free.</p>
+  <p>The full report has {business_name}'s specific scores on both, plus the ranked list of
+  what to fix first. It's $10 and delivered within minutes of payment.</p>
 
   <div style="background:#f8f9fa;border:1px solid #e0e0e0;border-radius:6px;padding:14px 18px;margin:18px 0">
     <p style="margin:0 0 8px;font-size:14px">
       <a href="{payment_url_audit}" style="color:#0066cc;font-weight:600">Full Audit Report — $10</a>
+      <span style="color:#777;font-size:12px"> · instant delivery · money-back guarantee</span>
     </p>
     <p style="margin:0;font-size:14px">
       <a href="{payment_url}" style="color:#0066cc;font-weight:600">Weekly Monitoring — $5/mo</a>
-      <span style="color:#999;font-size:12px"> (launch price)</span>
+      <span style="color:#999;font-size:12px"> (launch price, normally $20/mo)</span>
     </p>
   </div>
 
-  <p>Best of luck with the business,<br>
-  Search Sentinel</p>
+  <p style="font-size:13px;color:#777">
+    After this email I won't follow up again — but the report link stays active if you ever want it.
+    And if you just want to ask a quick question about your ranking, feel free to reply anytime.
+  </p>
+
+  <p>Best,<br>Search Sentinel</p>
 
   <hr style="border:none;border-top:1px solid #e5e5e5;margin:20px 0">
   <p style="font-size:11px;color:#999">
@@ -217,14 +228,16 @@ def _send_followup(
 </div>""".strip()
 
         plain_body = (
-            f"Hi,\n\nThis will be my last follow-up about the ranking drop for {business_name} "
-            f"in {city}.\n\n"
-            f"The report stays available whenever you want it:\n\n"
-            f"Full Audit ($10): {payment_url_audit}\n"
+            f"Hi,\n\nThis is my last note about {business_name}'s Google Maps ranking in {city}.\n\n"
+            f"Before I close the file, here's one free finding:\n\n"
+            f"Businesses that dropped in the {category_label} category in {city} recently typically "
+            f"lost ground in review recency (no new reviews in 30+ days) or Google Business Profile "
+            f"completeness. Both are fixable in under an hour.\n\n"
+            f"The full report has {business_name}'s specific scores on both. $10, instant delivery.\n\n"
+            f"Full Audit ($10, money-back guarantee): {payment_url_audit}\n"
             f"Weekly Monitoring ($5/mo launch price): {payment_url}\n\n"
-            f"If you want to talk through your Google Maps ranking at any point, just reply — "
-            f"happy to answer questions for free.\n\n"
-            f"Best of luck,\nSearch Sentinel\n\n"
+            f"After this I won't follow up again — but feel free to reply anytime if you have questions.\n\n"
+            f"Best,\nSearch Sentinel\n\n"
             f"--\nTo unsubscribe, reply 'unsubscribe'."
         )
     else:
@@ -237,6 +250,10 @@ def _send_followup(
         msg["From"] = f"Search Sentinel <{gmail_user}>"
         msg["To"] = to_email
         msg["Reply-To"] = gmail_user
+        # Gmail 2024 bulk sender compliance headers
+        msg["List-Unsubscribe"] = f"<mailto:{gmail_user}?subject=unsubscribe>"
+        msg["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
+        msg["Precedence"] = "bulk"
         msg.attach(MIMEText(plain_body, "plain"))
         msg.attach(MIMEText(html_body, "html"))
 
