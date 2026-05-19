@@ -968,6 +968,90 @@
   </div>
 </section>
 
+<!-- ── TESTIMONIAL FORM ── -->
+<section id="testimonial" style="background:var(--bg-alt);padding:72px 24px;">
+  <div style="max-width:560px;margin:0 auto;text-align:center;">
+    <div class="section-label">Share Your Experience</div>
+    <h2 class="section-title" style="margin-bottom:12px;">Did the Report Help?</h2>
+    <p style="color:var(--text-muted);margin-bottom:36px;font-size:0.95rem;line-height:1.6;">
+      If you found the audit useful, a quick note goes a long way — it helps other business owners know what to expect.
+    </p>
+
+    <form id="testimonial-form" style="text-align:left;">
+      <div style="margin-bottom:16px;">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text);">Business Name</label>
+        <input type="text" id="t-business" placeholder="e.g. Ace Plumbing Chicago"
+          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:14px;outline:none;box-sizing:border-box;" />
+      </div>
+      <div style="margin-bottom:16px;">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text);">City</label>
+        <input type="text" id="t-city" placeholder="e.g. Chicago, IL"
+          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:14px;outline:none;box-sizing:border-box;" />
+      </div>
+      <div style="margin-bottom:16px;">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text);">Your Testimonial <span style="color:#ef4444;">*</span></label>
+        <textarea id="t-text" rows="4" placeholder="e.g. The report showed exactly which competitor passed us and why. We fixed our GBP category and saw movement within two weeks."
+          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:14px;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
+      </div>
+      <div style="margin-bottom:24px;">
+        <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text);">Your Email <span style="color:var(--text-muted);font-weight:400;">(optional — so we can verify before publishing)</span></label>
+        <input type="email" id="t-email" placeholder="yourname@yourbusiness.com"
+          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:14px;outline:none;box-sizing:border-box;" />
+      </div>
+      <button type="submit"
+        style="width:100%;padding:14px;background:var(--accent);color:white;font-size:15px;font-weight:700;border:none;border-radius:10px;cursor:pointer;transition:opacity .2s;">
+        Submit Testimonial →
+      </button>
+      <div id="t-status" style="margin-top:12px;font-size:13px;display:none;"></div>
+    </form>
+  </div>
+</section>
+
+<script>
+document.getElementById('testimonial-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const btn    = this.querySelector('button[type=submit]');
+  const status = document.getElementById('t-status');
+  const text   = document.getElementById('t-text').value.trim();
+
+  if (text.length < 15) {
+    status.style.display = 'block';
+    status.style.color = '#ef4444';
+    status.textContent = 'Please write at least a sentence or two.';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Sending…';
+  status.style.display = 'none';
+
+  try {
+    const res = await fetch('https://api.sutraflow.org/testimonial', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        business_name: document.getElementById('t-business').value.trim(),
+        city:          document.getElementById('t-city').value.trim(),
+        testimonial:   text,
+        email:         document.getElementById('t-email').value.trim(),
+      })
+    });
+    const data = await res.json();
+    if (data.success) {
+      this.innerHTML = '<p style="text-align:center;color:#22c55e;font-size:1.1rem;font-weight:700;padding:24px 0;">✓ Thank you! We\'ll be in touch.</p>';
+    } else {
+      throw new Error(data.error || 'Unknown error');
+    }
+  } catch(err) {
+    btn.disabled = false;
+    btn.textContent = 'Submit Testimonial →';
+    status.style.display = 'block';
+    status.style.color = '#ef4444';
+    status.textContent = 'Something went wrong — please try again or reply to your email directly.';
+  }
+});
+</script>
+
 <!-- ── CTA ── -->
 <section class="cta-footer">
   <h2>Know the Moment Your Ranking Drops.</h2>

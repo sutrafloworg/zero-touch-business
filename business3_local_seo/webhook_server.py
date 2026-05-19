@@ -81,6 +81,7 @@ def add_cors(response):
 @app.route("/admin/alerts", methods=["OPTIONS"])
 @app.route("/admin/budget", methods=["OPTIONS"])
 @app.route("/admin/heatmap", methods=["OPTIONS"])
+@app.route("/testimonial", methods=["OPTIONS"])
 def cors_preflight():
     return "", 204
 
@@ -490,6 +491,105 @@ def get_heatmap():
             [6, 7, 9, 10, 11]
         ]
     })
+
+
+# ── Testimonial Submission ────────────────────────────────────────────────────
+
+TESTIMONIALS_FILE = Path(__file__).parent / "data" / "testimonials.json"
+
+@app.route("/testimonial", methods=["POST"])
+def submit_testimonial():
+    """Receive a testimonial from the website and email it to the owner."""
+    data = request.get_json(silent=True) or {}
+
+    business_name = (data.get("business_name") or "").strip()[:100]
+    city          = (data.get("city") or "").strip()[:80]
+    testimonial   = (data.get("testimonial") or "").strip()[:2000]
+    submitter_email = (data.get("email") or "").strip()[:120]
+
+    if not testimonial or len(testimonial) < 15:
+        return jsonify({"error": "testimonial_too_short"}), 400
+
+    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    # ── Store it ──────────────────────────────────────────────────────────────
+    try:
+        try:
+            with open(TESTIMONIALS_FILE) as f:
+                stored = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            stored = {"testimonials": []}
+
+        stored["testimonials"].append({
+            "business_name": business_name,
+            "city": city,
+            "testimonial": testimonial,
+            "email": submitter_email,
+            "submitted_at": datetime.now(timezone.utc).isoformat(),
+        })
+        with open(TESTIMONIALS_FILE, "w") as f:
+            json.dump(stored, f, indent=2)
+    except Exception as e:
+        logger.error(f"Testimonial: could not save to file: {e}")
+
+    # ── Email the owner ───────────────────────────────────────────────────────
+    gmail_user     = config.GMAIL_USER
+    gmail_password = config.GMAIL_APP_PASSWORD
+    alert_email    = config.ALERT_EMAIL
+
+    if gmail_user and gmail_password and alert_email:
+        try:
+            import smtplib
+            from email.mime.multipart import MIMEMultipart
+            from email.mime.text import MIMEText
+
+            subject = f"⭐ New testimonial from {business_name or 'a visitor'}"
+            body = f"""New testimonial submitted via sutraflow.org/sentinel
+
+Business: {business_name or '(not provided)'}
+City:     {city or '(not provided)'}
+Email:    {submitter_email or '(not provided)'}
+Time:     {now_str}
+
+--- Testimonial ---
+{testimonial}
+-------------------
+
+To publish this on the website, add it to the testimonials section manually.
+"""
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = subject
+            msg["From"]    = f"Search Sentinel <{gmail_user}>"
+            msg["To"]      = alert_email
+            msg["Reply-To"] = submitter_email or gmail_user
+            msg.attach(MIMEText(body, "plain"))
+
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+                server.login(gmail_user, gmail_password)
+                server.sendmail(gmail_user, [alert_email], msg.as_string())
+
+            logger.info(f"Testimonial: email sent for '{business_name}'")
+        except Exception as e:
+            logger.error(f"Testimonial: email failed: {e}")
+
+    return jsonify({"success": True, "message": "Thank you for your testimonial!"})
+
+
+@app.route("/admin/testimonials", methods=["GET"])
+def list_testimonials():
+    """View all submitted testimonials (admin only)."""
+    token    = request.headers.get("X-Admin-Token", "")
+    expected = os.environ.get("ADMIN_TOKEN", "")
+    if expected and token != expected:
+        return jsonify({"error": "unauthorized"}), 401
+
+    try:
+        with open(TESTIMONIALS_FILE) as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = {"testimonials": []}
+
+    return jsonify(data)
 
 
 if __name__ == "__main__":

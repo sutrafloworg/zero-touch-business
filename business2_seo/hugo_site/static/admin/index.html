@@ -329,6 +329,17 @@
       </div>
     </div>
 
+    <!-- CONVERSION FUNNEL -->
+    <div class="panel" style="margin-bottom: 20px;">
+      <div class="panel-header">
+        <div class="panel-title">Conversion Funnel &mdash; Search Sentinel</div>
+        <span class="badge badge-gray" id="funnel-badge">Loading...</span>
+      </div>
+      <div class="panel-body" id="funnel-panel">
+        <div style="color: var(--muted); font-size: 13px;">Loading...</div>
+      </div>
+    </div>
+
     <div class="grid-3">
       <!-- ARTICLE PIPELINE -->
       <div class="panel">
@@ -463,6 +474,7 @@ async function loadAll() {
     loadVPSStatus(),
     loadSiteStatus(),
     loadSentinelData(),
+    loadFunnel(),
   ]);
 }
 
@@ -770,8 +782,8 @@ async function loadSentinelData() {
         </div>
         <div class="metric-mini">
           <div class="m-label">Cities Tracked</div>
-          <div class="m-value text-green">10</div>
-          <div class="m-sub">6 niches each</div>
+          <div class="m-value text-green" id="cities-count">12</div>
+          <div class="m-sub" id="niches-sub">5 niches each</div>
         </div>
       </div>
     </div>
@@ -905,6 +917,121 @@ async function loadSentinelData() {
       infraBadge.textContent = vpsVal;
     }
   }, 1500);
+
+  // Update cities count dynamically from cities.json
+  try {
+    const citiesData = await fetch(`${GH_RAW}/business3_local_seo/data/cities.json`).then(r => r.ok ? r.json() : null);
+    if (citiesData && citiesData.targets) {
+      const cityCount = citiesData.targets.length;
+      const nicheCount = citiesData.targets[0]?.categories?.length || 5;
+      const el = document.getElementById('cities-count');
+      const subEl = document.getElementById('niches-sub');
+      if (el) el.textContent = cityCount;
+      if (subEl) subEl.textContent = `${nicheCount} niches each`;
+    }
+  } catch(e) { /* use default 12 */ }
+}
+
+// ── CONVERSION FUNNEL ─────────────────────────────────────────────────────────
+async function loadFunnel() {
+  const panel = document.getElementById('funnel-panel');
+  const badge = document.getElementById('funnel-badge');
+
+  // Gather data: pending_reports (emails sent + followups) + VPS (customers)
+  let reports = [];
+  let customers = 0;
+  let activeSubscribers = 0;
+  let mrr = 0;
+
+  try {
+    const pendingRes = await fetch(`${GH_RAW}/business3_local_seo/data/pending_reports.json`).then(r => r.ok ? r.json() : null);
+    if (pendingRes) reports = pendingRes.reports || [];
+  } catch(e) {}
+
+  try {
+    const custRes = await fetch(`${VPS_HOST}/admin/customers`, {
+      headers: { 'X-Admin-Token': VPS_ADMIN_TOKEN },
+      signal: AbortSignal.timeout(6000)
+    }).then(r => r.ok ? r.json() : null);
+    if (custRes) {
+      const custList = custRes.customers || [];
+      customers = custList.length;
+      activeSubscribers = custList.filter(c => c.status === 'active' && c.plan === 'monitor').length;
+      mrr = activeSubscribers * 5;
+    }
+  } catch(e) {}
+
+  // Compute funnel stages (what we know for real)
+  const totalSent = reports.length;
+  // Count contacts with at least one follow-up sent
+  const gotFollowup = reports.filter(r => (r.followup_history || []).length > 0).length;
+  // Estimate inbox delivery: ~35% for cold Gmail (industry benchmark)
+  const estInbox = Math.round(totalSent * 0.35);
+  // Estimate opens: ~25% of those that reach inbox
+  const estOpened = Math.round(estInbox * 0.25);
+  // Clicked to pay = how many actually converted (real)
+  const converted = customers;
+  const convRate = totalSent > 0 ? ((converted / totalSent) * 100).toFixed(1) : '0.0';
+
+  badge.textContent = `${totalSent} reached → ${converted} paid`;
+  badge.className = converted > 0 ? 'badge badge-green' : 'badge badge-orange';
+
+  // Build funnel bar chart
+  const funnelSteps = [
+    { label: 'Emails sent',        val: totalSent,    max: totalSent, real: true,  color: 'var(--accent)' },
+    { label: 'Est. reached inbox', val: estInbox,     max: totalSent, real: false, color: 'var(--green)' },
+    { label: 'Got follow-up',      val: gotFollowup,  max: totalSent, real: true,  color: 'var(--green)' },
+    { label: 'Est. opened',        val: estOpened,    max: totalSent, real: false, color: 'var(--orange)' },
+    { label: 'Paid',               val: converted,    max: totalSent, real: true,  color: converted > 0 ? 'var(--green)' : 'var(--red)' },
+  ];
+
+  let funnelHtml = '<div style="margin-bottom:16px;">';
+  for (const step of funnelSteps) {
+    const pct = totalSent > 0 ? Math.max((step.val / step.max) * 100, step.val > 0 ? 2 : 0) : 0;
+    const tag = step.real ? '' : ' <span style="font-size:10px;color:var(--small);font-weight:400;">(est.)</span>';
+    funnelHtml += `
+      <div style="margin-bottom:10px;">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;">
+          <span style="font-size:13px;">${step.label}${tag}</span>
+          <span style="font-size:13px;font-weight:600;color:${step.color};">${step.val.toLocaleString()}</span>
+        </div>
+        <div style="background:var(--surface2);border-radius:4px;height:8px;overflow:hidden;">
+          <div style="height:100%;width:${pct}%;background:${step.color};border-radius:4px;transition:width 0.4s;"></div>
+        </div>
+      </div>`;
+  }
+  funnelHtml += '</div>';
+
+  // Summary stats row
+  funnelHtml += `
+    <div style="display:flex;gap:12px;flex-wrap:wrap;padding-top:12px;border-top:1px solid var(--border);">
+      <div class="metric-mini">
+        <div class="m-label">Conversion Rate</div>
+        <div class="m-value ${converted > 0 ? 'text-green' : 'text-red'}">${convRate}%</div>
+        <div class="m-sub">emails → paid</div>
+      </div>
+      <div class="metric-mini">
+        <div class="m-label">Active Subscribers</div>
+        <div class="m-value ${activeSubscribers > 0 ? 'text-green' : 'text-muted'}">${activeSubscribers}</div>
+        <div class="m-sub">$5/mo monitoring</div>
+      </div>
+      <div class="metric-mini">
+        <div class="m-label">MRR</div>
+        <div class="m-value ${mrr > 0 ? 'text-green' : 'text-muted'}">$${mrr}</div>
+        <div class="m-sub">monthly recurring</div>
+      </div>
+      <div class="metric-mini">
+        <div class="m-label">Follow-ups Sent</div>
+        <div class="m-value text-green">${gotFollowup}</div>
+        <div class="m-sub">of ${totalSent} leads</div>
+      </div>
+    </div>
+    <div style="color:var(--small);font-size:11px;margin-top:10px;">
+      Inbox &amp; open rates are industry estimates (no tracking pixel). Paid data is live from VPS.
+      &mdash; Refreshes every 5 min.
+    </div>`;
+
+  panel.innerHTML = funnelHtml;
 }
 </script>
 </body>

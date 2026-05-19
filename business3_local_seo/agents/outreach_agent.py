@@ -48,6 +48,17 @@ FAKE_EMAIL_TLDS = {
 PLACEHOLDER_EMAILS = {
     "user@domain.com", "example@domain.com", "test@example.com",
     "email@example.com", "name@example.com", "info@example.com",
+    "info@domain.com", "contact@domain.com", "hello@domain.com",
+    "support@domain.com", "admin@domain.com", "mail@domain.com",
+    "user@example.com", "test@test.com", "info@yourcompany.com",
+    "you@youremail.com", "email@yourdomain.com",
+}
+
+# Domains that are never real business emails
+PLACEHOLDER_DOMAINS = {
+    "domain.com", "example.com", "test.com", "yourcompany.com",
+    "yourdomain.com", "youremail.com", "company.com", "email.com",
+    "placeholder.com", "noreply.com", "nodomain.com",
 }
 
 
@@ -66,6 +77,9 @@ def is_valid_outreach_email(email: str) -> bool:
     local, domain = email_lower.split("@", 1)
     # Must have at least 2-char local and a domain with a dot
     if len(local) < 2 or "." not in domain:
+        return False
+    # Known fake/placeholder domains
+    if domain in PLACEHOLDER_DOMAINS:
         return False
     # Wix/Sentry internal addresses
     if "wixpress.com" in domain or "sentry" in domain:
