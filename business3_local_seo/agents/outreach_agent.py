@@ -199,7 +199,7 @@ class OutreachAgent:
         category_label = category_parts[2].replace("-", " ") if len(category_parts) > 2 else "your category"
 
         rank_change = alert.get("rank_change", 1)
-        subject = f"Noticed something about {business_name}'s Google Maps position"
+        subject = f"{business_name} dropped from #{alert['prev_rank']} to #{alert['curr_rank']} on Google Maps"
 
         insight_bullets = self._insight_bullets(alert)
 
