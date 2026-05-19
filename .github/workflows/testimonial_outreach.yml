@@ -1,0 +1,73 @@
+name: Search Sentinel — Testimonial Outreach
+
+# Run manually only. Never auto-trigger — you want to review before sending.
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Number of free reports to send (default: 5)"
+        required: false
+        default: "5"
+      dry_run:
+        description: "Dry run only — preview who would receive reports, no emails sent"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write
+
+jobs:
+  testimonial-outreach:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: "business3_local_seo/requirements.txt"
+
+      - name: Install Python dependencies
+        run: pip install -r business3_local_seo/requirements.txt
+
+      - name: Run testimonial outreach
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          STRIPE_PAYMENT_URL_MONITORING: ${{ secrets.STRIPE_PAYMENT_URL_MONITORING }}
+          STRIPE_PAYMENT_URL_AUDIT: ${{ secrets.STRIPE_PAYMENT_URL_AUDIT }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+        working-directory: business3_local_seo
+        run: |
+          COUNT="${{ github.event.inputs.count || '5' }}"
+          DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "=== DRY RUN MODE ==="
+            python testimonial_outreach.py --dry-run --count "$COUNT"
+          else
+            python testimonial_outreach.py --count "$COUNT"
+          fi
+
+      - name: Commit updated pending_reports (marks free_report_sent)
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "Search Sentinel Bot"
+          git config user.email "bot@github-actions"
+          git add business3_local_seo/data/pending_reports.json \
+                  business3_local_seo/reports/ || true
+          git diff --staged --quiet || git commit -m "testimonial: mark free reports sent $(date +%Y-%m-%d) [skip ci]"
+          git pull --rebase origin main || true
+          git push || true
