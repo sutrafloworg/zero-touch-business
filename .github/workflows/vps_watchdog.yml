@@ -190,31 +190,9 @@ jobs:
           print(f"RECOVERY alert sent to {alert_email}")
           PYEOF
 
-      - name: Sync customers.json from VPS to GitHub
+      - name: Log VPS healthy
         if: steps.health.outputs.http_code == '200'
-        env:
-          VPS_ADMIN_TOKEN: ${{ secrets.VPS_ADMIN_TOKEN }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Fetch customers from live VPS
-          CUSTOMERS=$(curl -s --max-time 10 \
-            -H "X-Admin-Token: $VPS_ADMIN_TOKEN" \
-            https://api.sutraflow.org/admin/customers 2>/dev/null || echo "")
-
-          if echo "$CUSTOMERS" | python3 -c "import sys,json; d=json.load(sys.stdin); print(len(d.get('customers',[])), 'customers')" 2>/dev/null; then
-            echo "$CUSTOMERS" > /tmp/customers.json
-            COUNT=$(echo "$CUSTOMERS" | python3 -c "import sys,json; d=json.load(sys.stdin); print(len(d.get('customers',[])))")
-            echo "Syncing $COUNT customers to GitHub..."
-
-            git clone "https://x-access-token:$GH_TOKEN@github.com/${{ github.repository }}.git" /tmp/repo
-            cp /tmp/customers.json /tmp/repo/business3_local_seo/data/customers.json
-            cd /tmp/repo
-            git config user.name "VPS Watchdog Bot"
-            git config user.email "bot@github-actions"
-            git add business3_local_seo/data/customers.json
-            git diff --staged --quiet || git commit -m "chore: sync customers.json from VPS [skip ci]"
-            git push
-            echo "✅ customers.json synced ($COUNT customers)"
-          else
-            echo "⚠️  Could not parse customers response — skipping sync"
-          fi
+          echo "✅ VPS is healthy — no action needed."
+          # Note: customers.json is intentionally gitignored (customer PII).
+          # Do NOT sync it to a public GitHub repository.
