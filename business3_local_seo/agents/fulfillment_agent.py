@@ -210,19 +210,42 @@ class FulfillmentAgent:
                     f"Fulfillment: no alert data found for {customer_email}. "
                     f"Queued as '{report_id}' — will deliver on next pipeline run."
                 )
-                self.outreach._send_email(
-                    to_email=customer_email,
-                    subject="Payment confirmed — your report is being prepared",
-                    body_text=(
-                        f"Hi,\n\n"
-                        f"Thank you for your purchase! We've received your payment.\n\n"
-                        f"Your full audit report is being generated and will be delivered "
-                        f"to this email address within 24 hours.\n\n"
-                        f"If you have any questions, just reply to this email.\n\n"
-                        f"— Search Sentinel\n"
-                        f"sutraflow.org/sentinel"
-                    ),
-                )
+                # If we have a business name from Stripe metadata, we can queue silently.
+                # If not, ask the customer to provide it so we can look up their data.
+                if business_name and business_name != "Pending":
+                    self.outreach._send_email(
+                        to_email=customer_email,
+                        subject="Payment confirmed — report for " + business_name + " being prepared",
+                        body_text=(
+                            f"Hi,\n\n"
+                            f"Thank you for your purchase! We've received your payment for "
+                            f"{business_name}.\n\n"
+                            f"Your full audit report is being generated. It will be emailed "
+                            f"to you within the next business day.\n\n"
+                            f"If you have any questions, just reply.\n\n"
+                            f"— Search Sentinel\n"
+                            f"sutraflow.org/sentinel"
+                        ),
+                    )
+                else:
+                    # No business name — ask the customer to tell us which business to audit
+                    self.outreach._send_email(
+                        to_email=customer_email,
+                        subject="Payment confirmed — one quick question to generate your report",
+                        body_text=(
+                            f"Hi,\n\n"
+                            f"Thank you for your purchase — your payment has been received.\n\n"
+                            f"To generate your personalised audit report, could you reply with:\n\n"
+                            f"  1. Your business name (exactly as it appears on Google Maps)\n"
+                            f"  2. Your city and state\n"
+                            f"  3. Your business category (e.g. 'emergency plumber', 'cosmetic dentist')\n\n"
+                            f"We'll generate and email your report within a few hours of receiving "
+                            f"this information.\n\n"
+                            f"Thank you,\n"
+                            f"— Search Sentinel\n"
+                            f"sutraflow.org/sentinel"
+                        ),
+                    )
                 return {
                     "success": False,
                     "error": "queued_for_generation",
