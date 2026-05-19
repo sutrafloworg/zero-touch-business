@@ -28,7 +28,13 @@
       "pdf_path": "",
       "created_at": "2026-04-02T20:18:19.210512+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "47d9bcb97563",
@@ -86,7 +92,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892886+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "95f7ab5b386f",
@@ -115,7 +127,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892910+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a7fadf9d9c76",
@@ -144,7 +162,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892923+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "50e8d7ba3725",
@@ -173,7 +197,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892934+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "4b4f0c833ab1",
@@ -202,7 +232,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892944+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "b34a55544c3a",
@@ -231,7 +267,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892954+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "6fb2c582915c",
@@ -260,7 +302,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892964+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "9538e0bb8b4b",
@@ -289,7 +337,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892974+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "b9f114349578",
@@ -318,7 +372,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892983+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "0778a0fdc8cc",
@@ -347,7 +407,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.892994+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "b263f6450bc0",
@@ -405,7 +471,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893014+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "f8a1393930b3",
@@ -434,7 +506,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893024+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "7a6dab1748b7",
@@ -492,7 +570,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893045+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "d9afd7e809bc",
@@ -521,7 +605,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893055+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "eec6b91bcc6f",
@@ -550,7 +640,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893065+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "5633edc8ac51",
@@ -579,7 +675,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893076+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ed0c3be17211",
@@ -608,7 +710,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893085+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "18884165dc1f",
@@ -637,7 +745,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893094+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "b5dfc0927183",
@@ -666,7 +780,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893104+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "1c2513080c64",
@@ -695,7 +815,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893114+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a0c9d9c29fde",
@@ -724,7 +850,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893123+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "9609fef5bbad",
@@ -753,7 +885,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893133+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "8c3250f5b422",
@@ -782,7 +920,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893143+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "68aa35c459b3",
@@ -811,7 +955,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893153+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ca436e390b9b",
@@ -840,7 +990,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893163+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "e0d4f96ecca4",
@@ -869,7 +1025,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893173+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "2e6717c26a8c",
@@ -898,7 +1060,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893183+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "e433079a0daa",
@@ -927,7 +1095,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893193+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "2afb2becc2dc",
@@ -956,7 +1130,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893203+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "4d9db388ba59",
@@ -985,7 +1165,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893212+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "b7f5826eb0b7",
@@ -1014,7 +1200,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893222+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a36e10af24cc",
@@ -1072,7 +1264,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893242+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "340617dc21c8",
@@ -1101,7 +1299,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893251+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "f5e029025188",
@@ -1130,7 +1334,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893262+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "950e322b5935",
@@ -1217,7 +1427,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893291+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "5e84b4e7df06",
@@ -1246,7 +1462,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893300+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ac7e19d792fd",
@@ -1275,7 +1497,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893310+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "53e0ef1e7d56",
@@ -1333,7 +1561,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893330+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "81a1cb67ba2f",
@@ -1362,7 +1596,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893340+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "d37a4a8250ee",
@@ -1391,7 +1631,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893350+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "9346ae6f5a6d",
@@ -1420,7 +1666,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893361+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "c56eeec7d7ee",
@@ -1449,7 +1701,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893371+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "67be89684114",
@@ -1478,7 +1736,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893381+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "2213360ba9e2",
@@ -1507,7 +1771,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893388+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "0a54e0853539",
@@ -1536,7 +1806,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893393+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "41222dca8777",
@@ -1565,7 +1841,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893399+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "aa8f02616d06",
@@ -1594,7 +1876,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893404+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "aebc3c4dfc2a",
@@ -1623,7 +1911,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893409+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "febaa97301df",
@@ -1652,7 +1946,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893414+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "35ef76643420",
@@ -1681,7 +1981,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893419+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a6319ae4d5eb",
@@ -1710,7 +2016,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893424+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "d279e6efc349",
@@ -1739,7 +2051,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893429+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "8ab27b172c21",
@@ -1768,7 +2086,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893462+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "6176e63637d4",
@@ -1797,7 +2121,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893471+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a72b24adedee",
@@ -1826,7 +2156,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893476+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "542a351f4f46",
@@ -1855,7 +2191,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893481+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "9dfcb10c54ea",
@@ -1884,7 +2226,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893486+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "4248c7019f1b",
@@ -1913,7 +2261,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893492+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ca48a17ee456",
@@ -1942,7 +2296,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893497+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "1db2c15d4add",
@@ -1971,7 +2331,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893502+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a626936ffe37",
@@ -2000,7 +2366,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893507+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "376b57214b50",
@@ -2029,7 +2401,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893512+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "5fed1aaa3742",
@@ -2058,7 +2436,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893517+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "59713e3c227b",
@@ -2087,7 +2471,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893522+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "1c956f15d0c2",
@@ -2116,7 +2506,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893527+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "04f2a93a6eee",
@@ -2145,7 +2541,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893532+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "cc56bfba21e0",
@@ -2174,7 +2576,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893537+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "31f09a74fdd9",
@@ -2203,7 +2611,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893542+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "3197ce4ae143",
@@ -2232,7 +2646,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893547+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ef89fa284df7",
@@ -2261,7 +2681,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893552+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "732e22f41d2b",
@@ -2290,7 +2716,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893557+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "4ab45df4fc35",
@@ -2319,7 +2751,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893562+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "71c3fb308707",
@@ -2348,7 +2786,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893567+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "e68ec15cbd6d",
@@ -2435,7 +2879,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893582+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ca80201fb71c",
@@ -2464,7 +2914,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893587+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "6e92fb7ed788",
@@ -2493,7 +2949,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893592+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a0990bae301a",
@@ -2522,7 +2984,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893597+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "d0c2aa0c7920",
@@ -2551,7 +3019,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893602+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "c04c9c783e0b",
@@ -2580,7 +3054,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893607+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "025483eb2c62",
@@ -2609,7 +3089,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893612+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "5077c5e15e10",
@@ -2638,7 +3124,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893617+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "5d2b9704fe7b",
@@ -2667,7 +3159,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893622+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ac8fff88d9b9",
@@ -2696,7 +3194,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893627+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "c0d608ac4e68",
@@ -2725,7 +3229,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893632+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "2745c58e19e1",
@@ -2783,7 +3293,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893642+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "58bb685a8f8b",
@@ -2812,7 +3328,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893647+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "808b723fcf05",
@@ -2841,7 +3363,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893652+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "81dc621f0ce5",
@@ -2870,7 +3398,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893657+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "1b9a9ef92a1e",
@@ -2899,7 +3433,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893662+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "62f7a3b98762",
@@ -2928,7 +3468,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893666+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "8d813842f0b9",
@@ -2986,7 +3532,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893676+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a575f1bcd21a",
@@ -3015,7 +3567,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893681+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "770a95b8a4f6",
@@ -3044,7 +3602,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893686+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "04037d25d856",
@@ -3073,7 +3637,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893691+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "567ab2f49cb6",
@@ -3131,7 +3701,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893701+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "f9689b3bd1c4",
@@ -3189,7 +3765,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893711+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "1c905fd18490",
@@ -3218,7 +3800,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893716+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a31e2c7cc6f6",
@@ -3276,7 +3864,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893726+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "3568902bf07a",
@@ -3305,7 +3899,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893730+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ab3ff80ab1f9",
@@ -3334,7 +3934,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893735+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "9656f807c584",
@@ -3363,7 +3969,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893740+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "d3701143f76d",
@@ -3392,7 +4004,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893745+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "21eedd8c577a",
@@ -3421,7 +4039,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893750+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "9501e7b35905",
@@ -3450,7 +4074,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893755+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "fbd97278584c",
@@ -3479,7 +4109,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893760+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "55579640db40",
@@ -3508,7 +4144,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893765+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "6c3bd1db1b83",
@@ -3537,7 +4179,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893770+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "7fa3eb085881",
@@ -3566,7 +4214,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893774+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ffc2814fd383",
@@ -3624,7 +4278,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893784+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "8709a3c327a9",
@@ -3653,7 +4313,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893789+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "feeae3ae82b0",
@@ -3682,7 +4348,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893793+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a2560fbb4b50",
@@ -3711,7 +4383,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893798+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "a817b1eafb8b",
@@ -3740,7 +4418,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893803+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "b60ee7bc72b3",
@@ -3769,7 +4453,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893808+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "3b243fcdc3cb",
@@ -3798,7 +4488,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893813+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ce46735b1083",
@@ -3827,7 +4523,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893818+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "5ae79748d7d0",
@@ -3885,7 +4587,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893828+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "7af1cbdf4f23",
@@ -3943,7 +4651,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893838+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "6dd6596646e2",
@@ -3972,7 +4686,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893843+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "654ca92f2604",
@@ -4001,7 +4721,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893848+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "ee3f1c2de3bf",
@@ -4030,7 +4756,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893853+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "32798bb2f890",
@@ -4059,7 +4791,13 @@
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893857+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
     },
     {
       "id": "b4e8a063e333",
@@ -4087,6 +4825,579 @@
       },
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893862+00:00",
+      "status": "pending",
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-05-19T15:43:35.985191+00:00"
+        }
+      ]
+    },
+    {
+      "id": "99807802991f",
+      "email": "info@riteplumbingnyc.com",
+      "business_name": "Rite Plumbing & Heating Inc",
+      "category_key": "new york_ny_emergency-plumber",
+      "alert_data": {
+        "category_key": "new york_ny_emergency-plumber",
+        "business_name": "Rite Plumbing & Heating Inc",
+        "address": "750 Lexington Ave 9th floor, New York, NY 10022",
+        "phone": "(347) 502-6441",
+        "website": "http://www.riteplumbingnyc.com/",
+        "prev_rank": 10,
+        "curr_rank": 15,
+        "rank_change": 5,
+        "rating": 4.6,
+        "reviews": 67,
+        "prev_reviews": 67,
+        "reasons": [
+          "Competitors above you gained reviews: RR Plumbing Roto-Rooter gained 3 new reviews; Plumbing NYC gained 1 new review; A&E NYC Plumbing gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "11 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.5,
+            "total_gained": 1,
+            "over_weeks": 2,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              12,
+              9,
+              10
+            ],
+            "best_rank": 9,
+            "worst_rank": 12
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "24 Hr. Emergency Plumbing & Hot Water Heater",
+            "climbed_positions": 5,
+            "their_review_gain": 17,
+            "their_rating": 4.9,
+            "their_current_rank": 1
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780272+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "adcdefc63a23",
+      "email": "nystaff@faktordmd.com",
+      "business_name": "FaktorDMD Cosmetic Dentistry & Implants - NYC",
+      "category_key": "new york_ny_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "new york_ny_cosmetic-dentist",
+        "business_name": "FaktorDMD Cosmetic Dentistry & Implants - NYC",
+        "address": "424 Madison Ave Fl 15, New York, NY 10017",
+        "phone": "(212) 826-2306",
+        "website": "https://faktordmd.com/new-york/?utm_source=GMBListing&utm_medium=Organic&utm_campaign=GMB",
+        "prev_rank": 16,
+        "curr_rank": 20,
+        "rank_change": 4,
+        "rating": 5,
+        "reviews": 127,
+        "prev_reviews": 127,
+        "reasons": [
+          "Competitors above you gained reviews: The Smile Code gained 2 new reviews; Midtown Cosmetic Dental gained 1 new review; Park Smiles NYC Cosmetic Dentistry gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": -1.0,
+            "total_gained": -1,
+            "over_weeks": 1,
+            "verdict": "stagnant"
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Rockefeller Cosmetic Dentistry Chelsea",
+            "climbed_positions": 4,
+            "their_review_gain": 0,
+            "their_rating": 4.9,
+            "their_current_rank": 16
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780294+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "6fb6b755bb72",
+      "email": "info@maximregen.com",
+      "business_name": "Maxim ReGen",
+      "category_key": "new york_ny_regenerative-medicine",
+      "alert_data": {
+        "category_key": "new york_ny_regenerative-medicine",
+        "business_name": "Maxim ReGen",
+        "address": "308 5th Ave 5th Floor, New York, NY 10001, United States",
+        "phone": "+1 802-787-0102",
+        "website": "https://maximregen.com/locations/new-york-city/?utm_source=google&utm_medium=organic&utm_campaign=gmb-nyc&utm_content=website",
+        "prev_rank": 3,
+        "curr_rank": 6,
+        "rank_change": 3,
+        "rating": 4.7,
+        "reviews": 12,
+        "prev_reviews": 12,
+        "reasons": [
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "4 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 2,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              3,
+              5,
+              3
+            ],
+            "best_rank": 3,
+            "worst_rank": 5
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Mera Clinic: Pain and Regenerative Therapy (PRP, Stem Cells, Weight Loss, Testosterone)",
+            "climbed_positions": 4,
+            "their_review_gain": 0,
+            "their_rating": 5,
+            "their_current_rank": 13
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780303+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8f39183abb16",
+      "email": "info@levinlegalhelp.com",
+      "business_name": "Law Offices of Jennie Levin, P.C.",
+      "category_key": "los angeles_ca_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "los angeles_ca_personal-injury-lawyer",
+        "business_name": "Law Offices of Jennie Levin, P.C.",
+        "address": "640 S San Vicente Blvd Suite 390, Los Angeles, CA 90048",
+        "phone": "(323) 951-1188",
+        "website": "https://www.levinlegalhelp.com/",
+        "prev_rank": 4,
+        "curr_rank": 7,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 620,
+        "prev_reviews": 620,
+        "reasons": [
+          "Competitors above you gained reviews: The Accident Guys gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 8.0,
+            "total_gained": 8,
+            "over_weeks": 1,
+            "verdict": "strong"
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "M&Y Personal Injury Lawyers",
+            "climbed_positions": 12,
+            "their_review_gain": 14,
+            "their_rating": 5,
+            "their_current_rank": 4
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780309+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "66a814b4a839",
+      "email": "info@themvp.com",
+      "business_name": "MVP Accident Attorneys",
+      "category_key": "los angeles_ca_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "los angeles_ca_personal-injury-lawyer",
+        "business_name": "MVP Accident Attorneys",
+        "address": "145 S Spring St #850, Los Angeles, CA 90012",
+        "phone": "(213) 799-4924",
+        "website": "https://themvp.com/?utm_source=gbp&utm_campaign=Los+Angeles",
+        "prev_rank": 9,
+        "curr_rank": 12,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 292,
+        "prev_reviews": 292,
+        "reasons": [
+          "Competitors above you gained reviews: The Accident Guys gained 1 new review; LA Century: Injury and Accident Lawyer gained 3 new reviews; Morgan & Morgan gained 34 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 2,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              18,
+              2,
+              9
+            ],
+            "best_rank": 2,
+            "worst_rank": 18
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "M&Y Personal Injury Lawyers",
+            "climbed_positions": 12,
+            "their_review_gain": 14,
+            "their_rating": 5,
+            "their_current_rank": 4
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780316+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b2134dc0da41",
+      "email": "info@247rooterservice.com",
+      "business_name": "24/7 Rooter Service",
+      "category_key": "los angeles_ca_emergency-plumber",
+      "alert_data": {
+        "category_key": "los angeles_ca_emergency-plumber",
+        "business_name": "24/7 Rooter Service",
+        "address": "211 La Fayette Park Pl #101, Los Angeles, CA 90057",
+        "phone": "(213) 281-4751",
+        "website": "https://www.247rooterservice.com/",
+        "prev_rank": 1,
+        "curr_rank": 4,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 138,
+        "prev_reviews": 138,
+        "reasons": [
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 3.5,
+            "total_gained": 7,
+            "over_weeks": 2,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              4,
+              3,
+              1
+            ],
+            "best_rank": 1,
+            "worst_rank": 4
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "John's Plumbing & Drain Services",
+            "climbed_positions": 4,
+            "their_review_gain": 29,
+            "their_rating": 4.9,
+            "their_current_rank": 3
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780322+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "b8318a8a2a67",
+      "email": "info@centurysmilemaker.com",
+      "business_name": "Century Smile Maker",
+      "category_key": "los angeles_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "los angeles_ca_cosmetic-dentist",
+        "business_name": "Century Smile Maker",
+        "address": "2080 Century Pk E #1103, Los Angeles, CA 90067",
+        "phone": "(310) 553-2233",
+        "website": "https://centurysmilemaker.com/",
+        "prev_rank": 7,
+        "curr_rank": 15,
+        "rank_change": 8,
+        "rating": 4.9,
+        "reviews": 299,
+        "prev_reviews": 299,
+        "reasons": [
+          "Competitors above you gained reviews: Bill Dorfman, DDS gained 2 new reviews; Smile L.A. Downtown Modern Dentistry gained 4 new reviews; Playa District Dental gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "5 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 6.5,
+            "total_gained": 13,
+            "over_weeks": 2,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              4,
+              3,
+              7
+            ],
+            "best_rank": 3,
+            "worst_rank": 7
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Los Angeles Dentist - Studio Smiles",
+            "climbed_positions": 7,
+            "their_review_gain": 5,
+            "their_rating": 4.8,
+            "their_current_rank": 9
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780327+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "7bb6ea052591",
+      "email": "office@downtowndentalla.com",
+      "business_name": "Downtown Dental",
+      "category_key": "los angeles_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "los angeles_ca_cosmetic-dentist",
+        "business_name": "Downtown Dental",
+        "address": "255 S Grand Ave Ste 204, Los Angeles, CA 90012",
+        "phone": "(213) 620-5777",
+        "website": "http://www.downtowndentalla.com/",
+        "prev_rank": 14,
+        "curr_rank": 18,
+        "rank_change": 4,
+        "rating": 4.6,
+        "reviews": 399,
+        "prev_reviews": 399,
+        "reasons": [
+          "Competitors above you gained reviews: Bill Dorfman, DDS gained 2 new reviews; Smile L.A. Downtown Modern Dentistry gained 4 new reviews; Playa District Dental gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "17 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 6.0,
+            "total_gained": 6,
+            "over_weeks": 1,
+            "verdict": "strong"
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Los Angeles Dentist - Studio Smiles",
+            "climbed_positions": 7,
+            "their_review_gain": 5,
+            "their_rating": 4.8,
+            "their_current_rank": 9
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780333+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3405af638038",
+      "email": "info@domain.com",
+      "business_name": "Esthetic Dentistry",
+      "category_key": "los angeles_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "los angeles_ca_cosmetic-dentist",
+        "business_name": "Esthetic Dentistry",
+        "address": "1080 Wilshire Blvd, Los Angeles, CA 90017",
+        "phone": "(213) 553-4535",
+        "website": "http://www.estheticdentistry.net/",
+        "prev_rank": 13,
+        "curr_rank": 20,
+        "rank_change": 7,
+        "rating": 4.9,
+        "reviews": 307,
+        "prev_reviews": 307,
+        "reasons": [
+          "Competitors above you gained reviews: Bill Dorfman, DDS gained 2 new reviews; Smile L.A. Downtown Modern Dentistry gained 4 new reviews; Playa District Dental gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "6 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 3.5,
+            "total_gained": 7,
+            "over_weeks": 2,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              10,
+              7,
+              13
+            ],
+            "best_rank": 7,
+            "worst_rank": 13
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Los Angeles Dentist - Studio Smiles",
+            "climbed_positions": 7,
+            "their_review_gain": 5,
+            "their_rating": 4.8,
+            "their_current_rank": 9
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780340+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "c269eeb3fb25",
+      "email": "team@sellinglaluxury.com",
+      "business_name": "Rodeo Realty",
+      "category_key": "los angeles_ca_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "los angeles_ca_luxury-real-estate-agent",
+        "business_name": "Rodeo Realty",
+        "address": "409 N Canon Dr, Beverly Hills, CA 90210",
+        "phone": "(310) 409-7660",
+        "website": "https://www.sellinglaluxury.com/",
+        "prev_rank": 9,
+        "curr_rank": 12,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 19,
+        "prev_reviews": 19,
+        "reasons": [
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 2,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              3,
+              3,
+              9
+            ],
+            "best_rank": 3,
+            "worst_rank": 9
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Grace Globus",
+            "climbed_positions": 18,
+            "their_review_gain": -3,
+            "their_rating": 4.9,
+            "their_current_rank": 2
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780345+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "e98157cdf915",
+      "email": "Care@AdvancedBioCell.com",
+      "business_name": "Advanced BioCell",
+      "category_key": "los angeles_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "los angeles_ca_regenerative-medicine",
+        "business_name": "Advanced BioCell",
+        "address": "10390 Wilshire Blvd, Los Angeles, CA 90024",
+        "phone": "(310) 550-6767",
+        "website": "https://advancedbiocell.com/",
+        "prev_rank": 11,
+        "curr_rank": 19,
+        "rank_change": 8,
+        "rating": 4.8,
+        "reviews": 43,
+        "prev_reviews": 43,
+        "reasons": [
+          "Competitors above you gained reviews: Stem Cell Institute gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "9 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-05-19T15:42:05.740264+00:00",
+        "weeks_tracked": 4,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 2,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              13,
+              11,
+              11
+            ],
+            "best_rank": 11,
+            "worst_rank": 13
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Pacific Pain & Regenerative Medicine - Los Angeles",
+            "climbed_positions": 5,
+            "their_review_gain": 3,
+            "their_rating": 4.3,
+            "their_current_rank": 13
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-05-19T15:43:34.780351+00:00",
       "status": "pending",
       "delivered_at": null
     }
