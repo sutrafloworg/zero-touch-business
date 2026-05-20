@@ -24,6 +24,8 @@
       --bg-gray: #f9fafb;
       --green: #16a34a;
       --radius: 12px;
+      --accent: #2563eb;
+      --bg-alt: #f1f5f9;
     }
 
     html { scroll-behavior: smooth; }
@@ -968,6 +970,15 @@
   </div>
 </section>
 
+<!-- ── TESTIMONIALS (approved, live from VPS) ── -->
+<section id="testimonials-display" style="background:#fff;padding:72px 24px;display:none;">
+  <div style="max-width:860px;margin:0 auto;text-align:center;">
+    <div class="section-label">From Business Owners</div>
+    <h2 class="section-title" style="margin-bottom:40px;">What Customers Are Saying</h2>
+    <div id="testimonials-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;text-align:left;"></div>
+  </div>
+</section>
+
 <!-- ── TESTIMONIAL FORM ── -->
 <section id="testimonial" style="background:var(--bg-alt);padding:72px 24px;">
   <div style="max-width:560px;margin:0 auto;text-align:center;">
@@ -981,25 +992,25 @@
       <div style="margin-bottom:16px;">
         <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text);">Business Name</label>
         <input type="text" id="t-business" placeholder="e.g. Ace Plumbing Chicago"
-          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:14px;outline:none;box-sizing:border-box;" />
+          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;outline:none;box-sizing:border-box;" />
       </div>
       <div style="margin-bottom:16px;">
         <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text);">City</label>
         <input type="text" id="t-city" placeholder="e.g. Chicago, IL"
-          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:14px;outline:none;box-sizing:border-box;" />
+          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;outline:none;box-sizing:border-box;" />
       </div>
       <div style="margin-bottom:16px;">
         <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text);">Your Testimonial <span style="color:#ef4444;">*</span></label>
         <textarea id="t-text" rows="4" placeholder="e.g. The report showed exactly which competitor passed us and why. We fixed our GBP category and saw movement within two weeks."
-          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:14px;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
+          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
       </div>
       <div style="margin-bottom:24px;">
         <label style="display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--text);">Your Email <span style="color:var(--text-muted);font-weight:400;">(optional — so we can verify before publishing)</span></label>
         <input type="email" id="t-email" placeholder="yourname@yourbusiness.com"
-          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid #334155;background:#1e293b;color:#e2e8f0;font-size:14px;outline:none;box-sizing:border-box;" />
+          style="width:100%;padding:11px 14px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;outline:none;box-sizing:border-box;" />
       </div>
-      <button type="submit"
-        style="width:100%;padding:14px;background:var(--accent);color:white;font-size:15px;font-weight:700;border:none;border-radius:10px;cursor:pointer;transition:opacity .2s;">
+      <button type="submit" id="t-submit"
+        style="width:100%;padding:14px;background:#2563eb;color:white;font-size:15px;font-weight:700;border:none;border-radius:10px;cursor:pointer;transition:opacity .2s;">
         Submit Testimonial →
       </button>
       <div id="t-status" style="margin-top:12px;font-size:13px;display:none;"></div>
@@ -1008,26 +1019,51 @@
 </section>
 
 <script>
+// Load and display approved testimonials
+(async function loadTestimonials() {
+  try {
+    const res = await fetch('https://api.sutraflow.org/testimonials/public');
+    if (!res.ok) return;
+    const data = await res.json();
+    const list = (data.testimonials || []);
+    if (!list.length) return;
+    const grid    = document.getElementById('testimonials-grid');
+    const section = document.getElementById('testimonials-display');
+    grid.innerHTML = list.map(t => `
+      <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;padding:20px 22px;">
+        <p style="font-style:italic;color:#334155;font-size:0.9rem;line-height:1.7;margin:0 0 14px;">
+          &ldquo;${t.testimonial.replace(/</g,'&lt;').replace(/>/g,'&gt;')}&rdquo;
+        </p>
+        <div style="font-weight:700;font-size:0.85rem;color:#2563eb;">
+          ${t.business_name ? t.business_name.replace(/</g,'&lt;') : 'Anonymous'}
+          ${t.city ? `<span style="color:#94a3b8;font-weight:400;"> &mdash; ${t.city.replace(/</g,'&lt;')}</span>` : ''}
+        </div>
+      </div>`).join('');
+    section.style.display = 'block';
+  } catch(e) { /* silently skip if VPS unreachable */ }
+})();
+
+// Testimonial form submission
 document.getElementById('testimonial-form').addEventListener('submit', async function(e) {
   e.preventDefault();
-  const btn    = this.querySelector('button[type=submit]');
+  const btn    = document.getElementById('t-submit');
   const status = document.getElementById('t-status');
   const text   = document.getElementById('t-text').value.trim();
 
   if (text.length < 15) {
     status.style.display = 'block';
-    status.style.color = '#ef4444';
-    status.textContent = 'Please write at least a sentence or two.';
+    status.style.color   = '#ef4444';
+    status.textContent   = 'Please write at least a sentence or two.';
     return;
   }
 
-  btn.disabled = true;
+  btn.disabled    = true;
   btn.textContent = 'Sending…';
   status.style.display = 'none';
 
   try {
     const res = await fetch('https://api.sutraflow.org/testimonial', {
-      method: 'POST',
+      method:  'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         business_name: document.getElementById('t-business').value.trim(),
@@ -1038,16 +1074,16 @@ document.getElementById('testimonial-form').addEventListener('submit', async fun
     });
     const data = await res.json();
     if (data.success) {
-      this.innerHTML = '<p style="text-align:center;color:#22c55e;font-size:1.1rem;font-weight:700;padding:24px 0;">✓ Thank you! We\'ll be in touch.</p>';
+      this.innerHTML = '<p style="text-align:center;color:#16a34a;font-size:1.05rem;font-weight:700;padding:28px 0;background:#f0fdf4;border-radius:12px;border:1px solid #bbf7d0;">✓ Thank you! We\'ll review and publish your testimonial shortly.</p>';
     } else {
       throw new Error(data.error || 'Unknown error');
     }
   } catch(err) {
-    btn.disabled = false;
+    btn.disabled    = false;
     btn.textContent = 'Submit Testimonial →';
     status.style.display = 'block';
-    status.style.color = '#ef4444';
-    status.textContent = 'Something went wrong — please try again or reply to your email directly.';
+    status.style.color   = '#ef4444';
+    status.textContent   = 'Something went wrong — please try again or reply to your report email directly.';
   }
 });
 </script>

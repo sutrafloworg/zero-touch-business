@@ -55,22 +55,27 @@ jobs:
               sudo sh -c 'iptables-save > /etc/iptables/rules.v4' 2>/dev/null || true
             echo "Port 8080: iptables rule confirmed."
 
-            echo "=== [0b/4] Ensuring ADMIN_TOKEN is set in .env ==="
+            echo "=== [0b/4] Ensuring required env vars are set in .env ==="
             ENV_FILE="$APP_DIR/business3_local_seo/deploy/.env"
             if [ -f "$ENV_FILE" ]; then
               sudo grep -q "^ADMIN_TOKEN=" "$ENV_FILE" 2>/dev/null || \
                 echo "ADMIN_TOKEN=sf-webhook-admin-2026" | sudo tee -a "$ENV_FILE" > /dev/null
               echo "ADMIN_TOKEN confirmed in .env"
+
+              # ALERT_EMAIL — destination for testimonial/watchdog notifications
+              sudo grep -q "^ALERT_EMAIL=" "$ENV_FILE" 2>/dev/null || \
+                echo "ALERT_EMAIL=sutrafloworg@gmail.com" | sudo tee -a "$ENV_FILE" > /dev/null
+              echo "ALERT_EMAIL confirmed in .env"
             fi
 
-            echo "=== [1/4] Pulling latest code from feat branch ==="
+            echo "=== [1/4] Pulling latest code from main ==="
             cd "$APP_DIR"
             # Repo is owned by root — run all git commands with sudo so they can
             # write to .git/FETCH_HEAD and other root-owned git metadata files.
             sudo git config --global --add safe.directory "$APP_DIR"
-            sudo git fetch origin feat/content-quality-eeat
-            sudo git checkout feat/content-quality-eeat 2>/dev/null || true
-            sudo git reset --hard origin/feat/content-quality-eeat
+            sudo git fetch origin main
+            sudo git checkout main 2>/dev/null || true
+            sudo git reset --hard origin/main
 
             echo "=== [2/4] Rebuilding Docker image ==="
             # Use raw docker build/run (docker-compose v1 has a KeyError:'ContainerConfig'
