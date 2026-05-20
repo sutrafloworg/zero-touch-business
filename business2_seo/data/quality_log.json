@@ -17,5 +17,23 @@
       "copy ai vs rytr 2026",
       "claude ai review 2026"
     ]
+  },
+  {
+    "date": "2026-05-20T06:11:50.612709+00:00",
+    "articles_generated": 8,
+    "articles_passed": 7,
+    "articles_revised": 2,
+    "articles_rejected": 1,
+    "avg_scores": {
+      "structure": 8.1,
+      "eeat": 8.6,
+      "seo": 7.3,
+      "readability": 8.0,
+      "affiliate": 7.1,
+      "originality": 7.9
+    },
+    "rejected_keywords": [
+      "best ai tools for marketing agencies"
+    ]
   }
 ]

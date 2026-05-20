@@ -1,0 +1,83 @@
+2026-05-20 06:07:27,352 [INFO] seo_orchestrator — ============================================================
+2026-05-20 06:07:27,352 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-05-20 06:07:27,352 [INFO] seo_orchestrator — Timestamp: 2026-05-20T06:07:27.352887+00:00
+2026-05-20 06:07:27,352 [INFO] seo_orchestrator — ============================================================
+2026-05-20 06:07:27,386 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 8 keywords...
+2026-05-20 06:07:27,387 [INFO] agents.keyword_agent — Keyword Agent: 8 keywords selected for this run
+2026-05-20 06:07:27,387 [INFO] seo_orchestrator —       Selected: ['how to automate content creation with ai', 'rytr ai alternatives', 'ai content writing tools comparison', 'how to use ai for seo 2026', 'best ai tools for marketing agencies', 'chatgpt alternatives for business', 'best ai email marketing tools', 'ai tools for content creators']
+2026-05-20 06:07:27,403 [INFO] seo_orchestrator — [2-4/10] Processing: 'how to automate content creation with ai' (1/8)
+2026-05-20 06:07:57,008 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:07:57,029 [INFO] agents.content_agent — Content Agent: generated 'how to automate content creation with ai' (1355 words, tutorial)
+2026-05-20 06:07:59,586 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:07:59,587 [INFO] agents.quality_agent — Quality: how to automate content creation with ai — scores={'structure': 9, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 7}, passed=True
+2026-05-20 06:07:59,598 [INFO] agents.publisher_agent — Publisher: saved how-to-automate-content-creation-with-ai.md
+2026-05-20 06:07:59,599 [INFO] seo_orchestrator — [2-4/10] Processing: 'rytr ai alternatives' (2/8)
+2026-05-20 06:08:22,727 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:08:22,728 [INFO] agents.content_agent — Content Agent: generated 'rytr ai alternatives' (1290 words, comparison)
+2026-05-20 06:08:24,792 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:08:24,793 [INFO] agents.quality_agent — Quality: rytr ai alternatives — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 8}, passed=True
+2026-05-20 06:08:24,802 [INFO] agents.publisher_agent — Publisher: saved rytr-ai-alternatives.md
+2026-05-20 06:08:24,803 [INFO] seo_orchestrator — [2-4/10] Processing: 'ai content writing tools comparison' (3/8)
+2026-05-20 06:08:48,399 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:08:48,400 [INFO] agents.content_agent — Content Agent: generated 'ai content writing tools comparison' (1301 words, comparison)
+2026-05-20 06:08:52,732 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:08:52,733 [INFO] agents.quality_agent — Quality: ai content writing tools comparison — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 8}, passed=False
+2026-05-20 06:08:52,733 [INFO] seo_orchestrator — Quality gate: 'ai content writing tools comparison' failed (lowest: affiliate). Revising...
+2026-05-20 06:09:13,673 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:09:13,674 [INFO] agents.content_agent — Content Agent: revised 'ai content writing tools comparison' (1424 words)
+2026-05-20 06:09:15,494 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:09:15,495 [INFO] agents.quality_agent — Quality: ai content writing tools comparison — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 9, 'originality': 8}, passed=True
+2026-05-20 06:09:15,495 [INFO] seo_orchestrator — Quality gate: 'ai content writing tools comparison' passed after revision
+2026-05-20 06:09:15,506 [INFO] agents.publisher_agent — Publisher: saved ai-content-writing-tools-comparison.md
+2026-05-20 06:09:15,506 [INFO] seo_orchestrator — [2-4/10] Processing: 'how to use ai for seo 2026' (4/8)
+2026-05-20 06:09:45,409 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:09:45,410 [INFO] agents.content_agent — Content Agent: generated 'how to use ai for seo 2026' (1660 words, tutorial)
+2026-05-20 06:09:50,002 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:09:50,003 [INFO] agents.quality_agent — Quality: how to use ai for seo 2026 — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-20 06:09:50,016 [INFO] agents.internal_linker — Internal linker: added 1 links to how-to-use-ai-for-seo-2026
+2026-05-20 06:09:50,016 [INFO] agents.publisher_agent — Publisher: saved how-to-use-ai-for-seo-2026.md
+2026-05-20 06:09:50,017 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for marketing agencies' (5/8)
+2026-05-20 06:10:11,433 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:10:11,435 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for marketing agencies' (1195 words, listicle)
+2026-05-20 06:10:15,555 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:10:15,556 [INFO] agents.quality_agent — Quality: best ai tools for marketing agencies — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 8}, passed=False
+2026-05-20 06:10:15,556 [INFO] seo_orchestrator — Quality gate: 'best ai tools for marketing agencies' failed (lowest: affiliate). Revising...
+2026-05-20 06:10:32,881 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:10:32,882 [INFO] agents.content_agent — Content Agent: revised 'best ai tools for marketing agencies' (1267 words)
+2026-05-20 06:10:34,909 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:10:34,910 [INFO] agents.quality_agent — Quality: best ai tools for marketing agencies — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 8}, passed=False
+2026-05-20 06:10:34,910 [WARNING] seo_orchestrator — Quality gate: 'best ai tools for marketing agencies' rejected after revision (lowest: affiliate)
+2026-05-20 06:10:34,911 [INFO] seo_orchestrator — [2-4/10] Processing: 'chatgpt alternatives for business' (6/8)
+2026-05-20 06:10:56,757 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:10:56,758 [INFO] agents.content_agent — Content Agent: generated 'chatgpt alternatives for business' (1188 words, comparison)
+2026-05-20 06:10:58,378 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:10:58,379 [INFO] agents.quality_agent — Quality: chatgpt alternatives for business — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-20 06:10:58,388 [INFO] agents.publisher_agent — Publisher: saved chatgpt-alternatives-for-business.md
+2026-05-20 06:10:58,389 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai email marketing tools' (7/8)
+2026-05-20 06:11:20,283 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:11:20,285 [INFO] agents.content_agent — Content Agent: generated 'best ai email marketing tools' (1149 words, listicle)
+2026-05-20 06:11:22,267 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:11:22,268 [INFO] agents.quality_agent — Quality: best ai email marketing tools — scores={'structure': 8, 'eeat': 8, 'seo': 9, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-20 06:11:22,278 [INFO] agents.publisher_agent — Publisher: saved best-ai-email-marketing-tools.md
+2026-05-20 06:11:22,279 [INFO] seo_orchestrator — [2-4/10] Processing: 'ai tools for content creators' (8/8)
+2026-05-20 06:11:48,788 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:11:48,789 [INFO] agents.content_agent — Content Agent: generated 'ai tools for content creators' (1449 words, listicle)
+2026-05-20 06:11:50,597 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-20 06:11:50,598 [INFO] agents.quality_agent — Quality: ai tools for content creators — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-20 06:11:50,611 [INFO] agents.publisher_agent — Publisher: saved ai-tools-for-content-creators.md
+2026-05-20 06:11:50,612 [INFO] seo_orchestrator —       Published 7/8 articles (revised=2, rejected=1)
+2026-05-20 06:11:50,612 [INFO] agents.quality_agent — Quality log: {'date': '2026-05-20T06:11:50.612709+00:00', 'articles_generated': 8, 'articles_passed': 7, 'articles_revised': 2, 'articles_rejected': 1, 'avg_scores': {'structure': 8.1, 'eeat': 8.6, 'seo': 7.3, 'readability': 8.0, 'affiliate': 7.1, 'originality': 7.9}, 'rejected_keywords': ['best ai tools for marketing agencies']}
+2026-05-20 06:11:50,725 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-05-20 06:11:50,726 [INFO] agents.publisher_agent — Publisher: total articles on site: 22
+2026-05-20 06:11:50,726 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-05-20 06:11:50,727 [WARNING] agents.monitor_agent — Monitor: 1 articles failed to write this run
+2026-05-20 06:11:50,863 [INFO] agents.monitor_agent — Site health: OK (200)
+2026-05-20 06:11:50,864 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 22
+2026-05-20 06:11:50,864 [INFO] seo_orchestrator — [5/5] Stats Agent: collecting metrics + sending weekly report...
+2026-05-20 06:11:50,864 [INFO] agents.stats_agent — Stats Agent: collecting weekly metrics...
+2026-05-20 06:11:51,115 [WARNING] agents.stats_agent — Kit stats fetch failed: 401 Client Error: Unauthorized for url: https://api.convertkit.com/v3/subscribers?api_secret=&sort_field=created_at
+2026-05-20 06:11:51,118 [INFO] agents.stats_agent — Stats Agent: snapshot saved (1 total entries)
+2026-05-20 06:11:52,300 [INFO] agents.stats_agent — Stats report sent to sutrafloworg@gmail.com
+2026-05-20 06:11:52,300 [INFO] seo_orchestrator — ============================================================
+2026-05-20 06:11:52,300 [INFO] seo_orchestrator — Pipeline complete. Published: 7 articles
+2026-05-20 06:11:52,300 [INFO] seo_orchestrator — ============================================================
