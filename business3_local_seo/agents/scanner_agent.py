@@ -7,12 +7,13 @@ Provider rotation (exhausts each free tier before moving to next):
   3. ValueSERP   : 95 searches/month  (free tier cap 100, buffer of 5)
   Total budget   : 435 searches/month combined
 
-Provider selection logic (per calendar month):
+Provider selection logic (per billing period):
   1. Use SerpAPI until SERPAPI_MONTHLY_LIMIT is reached.
   2. Switch to Outscraper for the next batch.
   3. If Outscraper is exhausted, fall back to ValueSERP.
   4. If all quotas are exhausted, log a warning and return an empty result.
-  5. Usage counts reset on the 1st of each calendar month.
+  5. Usage counts reset on the 22nd of each month (SerpAPI billing anniversary).
+     Billing period key format: "YYYY-MM-DD" (start date of the period, e.g. "2026-04-22").
 
 Usage is persisted to data/search_usage.json so counts survive between
 pipeline runs (GitHub Actions cold-starts each time).
@@ -60,31 +61,56 @@ class ScannerAgent:
 
     # ── Usage tracking ────────────────────────────────────────────────────────
 
-    def _current_month(self) -> str:
-        return datetime.now(timezone.utc).strftime("%Y-%m")
+    def _current_billing_period(self) -> str:
+        """
+        Returns the start date of the current SerpAPI billing period as "YYYY-MM-DD".
+        SerpAPI renews on the 22nd of each month (anniversary billing).
+          - If today is the 22nd or later → period started this month's 22nd.
+          - If today is before the 22nd  → period started last month's 22nd.
+        Example: May 20 → "2026-04-22", May 22 → "2026-05-22".
+        """
+        now = datetime.now(timezone.utc)
+        if now.day >= 22:
+            period_start = now.replace(day=22)
+        else:
+            # Go back to the previous month's 22nd
+            if now.month == 1:
+                period_start = now.replace(year=now.year - 1, month=12, day=22)
+            else:
+                period_start = now.replace(month=now.month - 1, day=22)
+        return period_start.strftime("%Y-%m-%d")
 
     def _load_usage(self) -> dict:
-        current_month = self._current_month()
+        current_period = self._current_billing_period()
         try:
             with open(self.usage_file) as f:
                 data = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
             data = {}
 
-        if data.get("month") != current_month:
+        # Support legacy "month" key (calendar-month format) — treat as stale
+        stored_key = data.get("period") or data.get("month")
+        if stored_key != current_period:
             logger.info(
-                f"Scanner: new month ({current_month}) — resetting search usage counters"
+                f"Scanner: new billing period ({current_period}) — resetting search usage counters"
             )
-            data = {"month": current_month, "serpapi": 0, "outscraper": 0, "valueserp": 0}
+            data = {"period": current_period, "serpapi": 0, "outscraper": 0, "valueserp": 0}
             self._save_usage(data)
 
-        # Ensure outscraper key exists in older usage files
-        if "outscraper" not in data:
-            data["outscraper"] = 0
+        # Ensure all provider keys exist (handles older usage files)
+        for provider in ("outscraper", "valueserp"):
+            if provider not in data:
+                data[provider] = 0
+
+        # Normalise legacy "month" key → "period"
+        if "month" in data and "period" not in data:
+            data["period"] = data.pop("month")
 
         return data
 
     def _save_usage(self, data: dict) -> None:
+        # Always persist with "period" key (never "month")
+        data.pop("month", None)
         try:
             self.usage_file.parent.mkdir(parents=True, exist_ok=True)
             with open(self.usage_file, "w") as f:
