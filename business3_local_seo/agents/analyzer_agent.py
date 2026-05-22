@@ -26,6 +26,8 @@ import logging
 from datetime import datetime, timezone
 from pathlib import Path
 
+from agents.json_store import atomic_write_json, safe_load_json
+
 logger = logging.getLogger(__name__)
 
 MAX_HISTORY_WEEKS = 12  # Keep 12 weeks of snapshots per category
@@ -36,15 +38,10 @@ class AnalyzerAgent:
         self.rankings_file = rankings_file
 
     def _load_history(self) -> dict:
-        try:
-            with open(self.rankings_file) as f:
-                return json.load(f)
-        except (FileNotFoundError, json.JSONDecodeError):
-            return {}
+        return safe_load_json(self.rankings_file, {})
 
     def _save_history(self, history: dict) -> None:
-        with open(self.rankings_file, "w") as f:
-            json.dump(history, f, indent=2, default=str)
+        atomic_write_json(self.rankings_file, history)
 
     def _get_snapshots(self, history_entry: dict) -> list[dict]:
         """Get the list of weekly snapshots from a history entry.

@@ -26,6 +26,8 @@ from pathlib import Path
 
 import requests
 
+from agents.json_store import atomic_write_json, safe_load_json
+
 logger = logging.getLogger(__name__)
 
 SERPAPI_URL     = "https://serpapi.com/search.json"
@@ -82,11 +84,7 @@ class ScannerAgent:
 
     def _load_usage(self) -> dict:
         current_period = self._current_billing_period()
-        try:
-            with open(self.usage_file) as f:
-                data = json.load(f)
-        except (FileNotFoundError, json.JSONDecodeError):
-            data = {}
+        data = safe_load_json(self.usage_file, {})
 
         # Support legacy "month" key (calendar-month format) — treat as stale
         stored_key = data.get("period") or data.get("month")
@@ -112,9 +110,7 @@ class ScannerAgent:
         # Always persist with "period" key (never "month")
         data.pop("month", None)
         try:
-            self.usage_file.parent.mkdir(parents=True, exist_ok=True)
-            with open(self.usage_file, "w") as f:
-                json.dump(data, f, indent=2)
+            atomic_write_json(self.usage_file, data)
         except Exception as e:
             logger.warning(f"Scanner: could not save usage file: {e}")
 
@@ -161,11 +157,11 @@ class ScannerAgent:
             return "valueserp"
 
         logger.warning(
-            f"Scanner: ALL providers exhausted for {self._current_month()}. "
+            f"Scanner: ALL providers exhausted for billing period {self._current_billing_period()}. "
             f"SerpAPI: {serpapi_used}/{self.serpapi_monthly_limit}, "
             f"Outscraper: {outscraper_used}/{self.outscraper_monthly_limit}, "
             f"ValueSERP: {valueserp_used}/{self.valueserp_monthly_limit}. "
-            f"Skipping search — quotas reset on the 1st of next month."
+            f"Skipping search — quotas reset on the 22nd of each month (SerpAPI anniversary)."
         )
         return None
 

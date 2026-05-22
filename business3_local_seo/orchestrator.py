@@ -142,6 +142,7 @@ def run_pipeline() -> bool:
         scanner = ScannerAgent(
             api_key=config.SERPAPI_KEY,
             outscraper_key=config.OUTSCRAPER_API_KEY,
+            valueserp_key=config.VALUESERP_API_KEY,
         )
         scan_results = scanner.scan_all_targets(cities_data)
         total_scans = len(scan_results)

@@ -31,6 +31,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from agents.outreach_agent import OutreachAgent
+from agents.json_store import atomic_write_json, safe_load_json
 
 logger = logging.getLogger(__name__)
 
@@ -41,15 +42,10 @@ class FulfillmentAgent:
         self.outreach = outreach
 
     def _load_index(self) -> dict:
-        try:
-            with open(self.index_file) as f:
-                return json.load(f)
-        except (FileNotFoundError, json.JSONDecodeError):
-            return {"reports": []}
+        return safe_load_json(self.index_file, {"reports": []})
 
     def _save_index(self, index: dict) -> None:
-        with open(self.index_file, "w") as f:
-            json.dump(index, f, indent=2, default=str)
+        atomic_write_json(self.index_file, index)
 
     def register_alerts(self, contacted: list[dict]) -> list[str]:
         """Register alerts (NOT PDFs) for post-payment fulfillment.

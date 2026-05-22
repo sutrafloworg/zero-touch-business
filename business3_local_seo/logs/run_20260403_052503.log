@@ -1,0 +1,5 @@
+2026-04-03 01:25:03,693 [INFO] local_seo_orchestrator — ============================================================
+2026-04-03 01:25:03,694 [INFO] local_seo_orchestrator — Starting Search Sentinel pipeline
+2026-04-03 01:25:03,694 [INFO] local_seo_orchestrator — Timestamp: 2026-04-03T05:25:03.694705+00:00
+2026-04-03 01:25:03,695 [INFO] local_seo_orchestrator — ============================================================
+2026-04-03 01:25:03,695 [ERROR] local_seo_orchestrator — Missing SERPAPI_KEY — cannot scan. Add it to GitHub Secrets.

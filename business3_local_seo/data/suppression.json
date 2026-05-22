@@ -1,0 +1,12 @@
+{
+  "emails": {
+    "user@domain.com": {
+      "added_at": "2026-05-22T05:57:34.911240+00:00",
+      "reason": "placeholder_known_bad"
+    },
+    "example@domain.com": {
+      "added_at": "2026-05-22T05:57:34.993206+00:00",
+      "reason": "placeholder_known_bad"
+    }
+  }
+}

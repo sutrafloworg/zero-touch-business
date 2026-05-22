@@ -30,6 +30,8 @@ from pathlib import Path
 
 import requests
 
+from agents import suppression
+
 logger = logging.getLogger(__name__)
 
 # Email addresses to never contact
@@ -332,8 +334,11 @@ class OutreachAgent:
             msg["From"] = f"{self.from_name} <{self.gmail_user}>"
             msg["To"] = to_email
             msg["Reply-To"] = self.gmail_user
-            # Gmail 2024 bulk sender compliance headers
-            msg["List-Unsubscribe"] = f"<mailto:{self.gmail_user}?subject=unsubscribe>"
+            # Gmail 2024 bulk sender compliance headers — RFC 8058 one-click
+            unsub_url = f"https://api.sutraflow.org/unsubscribe?email={to_email}"
+            msg["List-Unsubscribe"] = (
+                f"<{unsub_url}>, <mailto:{self.gmail_user}?subject=unsubscribe>"
+            )
             msg["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
             msg["Precedence"] = "bulk"
 
@@ -650,6 +655,15 @@ class OutreachAgent:
             if not is_valid_outreach_email(email or ""):
                 no_email += 1
                 logger.info(f"Outreach: no valid email for {alert['business_name']} (got: {email!r})")
+                # Auto-suppress placeholder garbage so we don't re-scrape it next week
+                if email:
+                    suppression.suppress(email, reason="invalid_format")
+                continue
+
+            # Hard gate: never contact a suppressed address
+            if suppression.is_suppressed(email):
+                no_email += 1
+                logger.info(f"Outreach: skipping suppressed email {email} ({alert['business_name']})")
                 continue
 
             # CHECK: Is this an active subscriber?

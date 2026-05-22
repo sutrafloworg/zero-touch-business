@@ -35,6 +35,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           OUTSCRAPER_API_KEY: ${{ secrets.OUTSCRAPER_API_KEY }}
+          VALUESERP_API_KEY: ${{ secrets.VALUESERP_API_KEY }}
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}

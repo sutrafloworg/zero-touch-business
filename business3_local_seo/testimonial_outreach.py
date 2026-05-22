@@ -32,6 +32,8 @@ from pathlib import Path
 
 import config
 from agents.outreach_agent import OutreachAgent, is_valid_outreach_email
+from agents.json_store import atomic_write_json, safe_load_json
+from agents import suppression
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -43,16 +45,11 @@ TESTIMONIAL_PAGE = "https://sutraflow.org/sentinel/#testimonial"  # update when 
 
 
 def _load_json(path: Path, default):
-    try:
-        with open(path) as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return default
+    return safe_load_json(path, default)
 
 
 def _save_pending(data: dict):
-    with open(PENDING_FILE, "w") as f:
-        json.dump(data, f, indent=2)
+    atomic_write_json(PENDING_FILE, data)
 
 
 def _score_report(report: dict) -> int:
@@ -205,6 +202,8 @@ def run_testimonial_outreach(count: int = 5, dry_run: bool = False) -> dict:
         email = report.get("email", "")
         if not is_valid_outreach_email(email):
             continue
+        if suppression.is_suppressed(email):
+            continue  # unsubscribed or hard-bounced
         if email.lower().strip() in paying_emails:
             continue  # already a customer
         if report.get("free_report_sent"):

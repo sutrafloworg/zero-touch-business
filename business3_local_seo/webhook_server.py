@@ -47,6 +47,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 import config
 from agents.fulfillment_agent import FulfillmentAgent
 from agents.outreach_agent import OutreachAgent
+from agents.json_store import atomic_write_json, safe_load_json
+from agents import suppression
 
 logging.basicConfig(
     level=logging.INFO,
@@ -110,16 +112,11 @@ fulfillment = FulfillmentAgent(
 # ── Customer Registry ────────────────────────────────────────────────────────
 
 def _load_customers() -> dict:
-    try:
-        with open(CUSTOMERS_FILE) as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {"customers": []}
+    return safe_load_json(CUSTOMERS_FILE, {"customers": []})
 
 
 def _save_customers(data: dict) -> None:
-    with open(CUSTOMERS_FILE, "w") as f:
-        json.dump(data, f, indent=2, default=str)
+    atomic_write_json(CUSTOMERS_FILE, data)
 
 
 def _find_customer(data: dict, *, email: str = None, stripe_customer_id: str = None,
@@ -164,18 +161,21 @@ def stripe_webhook():
     payload = request.get_data(as_text=True)
     sig_header = request.headers.get("Stripe-Signature", "")
 
-    if WEBHOOK_SECRET:
-        try:
-            event = stripe.Webhook.construct_event(payload, sig_header, WEBHOOK_SECRET)
-        except stripe.SignatureVerificationError:
-            logger.warning("Webhook: invalid signature")
-            return jsonify({"error": "invalid_signature"}), 400
-        except ValueError:
-            logger.warning("Webhook: invalid payload")
-            return jsonify({"error": "invalid_payload"}), 400
-    else:
-        logger.warning("Webhook: no STRIPE_WEBHOOK_SECRET set, skipping verification")
-        event = json.loads(payload)
+    # SECURITY: refuse webhooks if no secret is configured.
+    # Falling back to json.loads would let anyone forge checkout.session.completed
+    # events and trigger free PDFs / pollute customers.json.
+    if not WEBHOOK_SECRET:
+        logger.error("Webhook: STRIPE_WEBHOOK_SECRET not set — refusing all webhooks")
+        return jsonify({"error": "webhook_misconfigured"}), 503
+
+    try:
+        event = stripe.Webhook.construct_event(payload, sig_header, WEBHOOK_SECRET)
+    except stripe.SignatureVerificationError:
+        logger.warning("Webhook: invalid signature")
+        return jsonify({"error": "invalid_signature"}), 400
+    except ValueError:
+        logger.warning("Webhook: invalid payload")
+        return jsonify({"error": "invalid_payload"}), 400
 
     event_type = event.get("type", "")
     logger.info(f"Webhook: received event {event_type}")
@@ -389,13 +389,28 @@ def _send_payment_reminder(customer: dict, attempt_count: int) -> None:
 
 # ── Admin Endpoints ───────────────────────────────────────────────────────────
 
+def _check_admin_auth():
+    """Return (None) if authorized, or a Flask response if not.
+
+    SECURITY: fail-closed. If ADMIN_TOKEN env var is empty/unset, ALL admin
+    endpoints return 503 — we refuse to serve potentially sensitive customer
+    data without an explicitly-configured token.
+    """
+    expected = os.environ.get("ADMIN_TOKEN", "")
+    if not expected:
+        return jsonify({"error": "admin_disabled_no_token_configured"}), 503
+    token = request.headers.get("X-Admin-Token", "")
+    if token != expected:
+        return jsonify({"error": "unauthorized"}), 401
+    return None
+
+
 @app.route("/admin/customers", methods=["GET"])
 def list_customers():
     """List all customers and general pipeline funnel metrics."""
-    token = request.headers.get("X-Admin-Token", "")
-    expected = os.environ.get("ADMIN_TOKEN", "")
-    if expected and token != expected:
-        return jsonify({"error": "unauthorized"}), 401
+    auth = _check_admin_auth()
+    if auth is not None:
+        return auth
 
     data = _load_customers()
     customers = data.get("customers", [])
@@ -431,10 +446,9 @@ def load_json_safe(path: Path, default=None):
 @app.route("/admin/alerts", methods=["GET"])
 def get_recent_alerts():
     """Returns the most recent rank drop alerts sent out to leads."""
-    token = request.headers.get("X-Admin-Token", "")
-    expected = os.environ.get("ADMIN_TOKEN", "")
-    if expected and token != expected:
-        return jsonify({"error": "unauthorized"}), 401
+    auth = _check_admin_auth()
+    if auth is not None:
+        return auth
 
     pending_data = load_json_safe(config.PENDING_REPORTS_FILE, {"reports": []})
     reports = pending_data.get("reports", [])
@@ -450,34 +464,32 @@ def get_recent_alerts():
 @app.route("/admin/budget", methods=["GET"])
 def get_budget():
     """Returns the API usage budget for SerpAPI, Outscraper, etc."""
-    token = request.headers.get("X-Admin-Token", "")
-    expected = os.environ.get("ADMIN_TOKEN", "")
-    if expected and token != expected:
-        return jsonify({"error": "unauthorized"}), 401
+    auth = _check_admin_auth()
+    if auth is not None:
+        return auth
 
     usage_file = Path(__file__).parent / "data" / "search_usage.json"
     usage = load_json_safe(usage_file, {
-        "month": datetime.now(timezone.utc).strftime("%Y-%m"),
+        "period": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         "serpapi": 0,
         "valueserp": 0,
         "outscraper": 0
     })
-    
-    # Send budget limits down to frontend
+
+    # Send budget limits down to frontend (must match scanner_agent defaults)
     usage["limits"] = {
-        "serpapi": 245,     # SerpAPI free tier is usually 100-250
-        "valueserp": 95, 
-        "outscraper": 500   # Outscraper gives $2 monthly free
+        "serpapi": 245,     # SerpAPI free tier 250, buffer 5
+        "outscraper": 95,   # Outscraper free tier ~100, buffer 5
+        "valueserp": 95,    # ValueSERP free tier 100, buffer 5
     }
     return jsonify(usage)
     
 @app.route("/admin/heatmap", methods=["GET"])
 def get_heatmap():
     """Stubbed endpoint for geographic ranking multi-point grids."""
-    token = request.headers.get("X-Admin-Token", "")
-    expected = os.environ.get("ADMIN_TOKEN", "")
-    if expected and token != expected:
-        return jsonify({"error": "unauthorized"}), 401
+    auth = _check_admin_auth()
+    if auth is not None:
+        return auth
 
     # Returns frontend mock data to gracefully render "Planned Q2 2026" UI
     return jsonify({
@@ -503,17 +515,11 @@ OWNER_EMAIL_FALLBACK = "sutrafloworg@gmail.com"
 
 
 def _load_testimonials() -> dict:
-    try:
-        with open(TESTIMONIALS_FILE) as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {"testimonials": []}
+    return safe_load_json(TESTIMONIALS_FILE, {"testimonials": []})
 
 
 def _save_testimonials(data: dict) -> None:
-    TESTIMONIALS_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with open(TESTIMONIALS_FILE, "w") as f:
-        json.dump(data, f, indent=2)
+    atomic_write_json(TESTIMONIALS_FILE, data)
 
 
 def _send_testimonial_email(business_name, city, testimonial, submitter_email,
@@ -741,13 +747,55 @@ def public_testimonials():
     return resp
 
 
+# ── Unsubscribe (RFC-8058 List-Unsubscribe-Post one-click) ───────────────────
+
+@app.route("/unsubscribe", methods=["GET", "POST"])
+def unsubscribe():
+    """One-click unsubscribe target for Gmail/Outlook's List-Unsubscribe header.
+
+    Accepts ?email=foo@bar.com on GET (for a visible-page click) or as form data
+    on POST (for the RFC-8058 one-click flow Gmail uses).
+    """
+    email = (request.args.get("email") or request.form.get("email") or "").strip()
+    if not email or "@" not in email:
+        return jsonify({"error": "invalid_email"}), 400
+
+    suppression.suppress(email, reason="user_unsubscribed")
+    logger.info(f"Unsubscribed: {email}")
+
+    if request.method == "POST":
+        return jsonify({"success": True, "email": email}), 200
+
+    # Friendly confirmation page for human clickers
+    return f"""<!DOCTYPE html>
+<html><head><title>Unsubscribed</title>
+<style>body{{font-family:sans-serif;display:flex;align-items:center;justify-content:center;
+min-height:100vh;margin:0;background:#f1f5f9;}}
+.card{{background:white;border-radius:16px;padding:40px 48px;max-width:480px;text-align:center;
+box-shadow:0 4px 24px rgba(0,0,0,.08);}}
+h1{{color:#16a34a;}} p{{color:#64748b;line-height:1.6;}}</style></head>
+<body><div class="card">
+  <h1>You're unsubscribed</h1>
+  <p><strong>{email}</strong> has been removed from Search Sentinel emails.
+  You won't hear from us again.</p>
+</div></body></html>""", 200
+
+
+@app.route("/admin/suppression", methods=["GET"])
+def admin_suppression():
+    """Admin: view full suppression list."""
+    auth = _check_admin_auth()
+    if auth is not None:
+        return auth
+    return jsonify(suppression.list_suppressed())
+
+
 @app.route("/admin/testimonials", methods=["GET"])
 def list_testimonials():
     """View all submitted testimonials (admin only)."""
-    token    = request.headers.get("X-Admin-Token", "")
-    expected = os.environ.get("ADMIN_TOKEN", "")
-    if expected and token != expected:
-        return jsonify({"error": "unauthorized"}), 401
+    auth = _check_admin_auth()
+    if auth is not None:
+        return auth
 
     return jsonify(_load_testimonials())
 

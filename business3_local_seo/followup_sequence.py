@@ -34,6 +34,8 @@ from pathlib import Path
 
 import config
 from agents.outreach_agent import is_valid_outreach_email
+from agents.json_store import atomic_write_json, safe_load_json
+from agents import suppression
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -50,16 +52,11 @@ FOLLOWUP_DELAYS = {
 
 
 def _load_json(path: Path, default):
-    try:
-        with open(path) as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return default
+    return safe_load_json(path, default)
 
 
 def _save_pending(data: dict):
-    with open(PENDING_FILE, "w") as f:
-        json.dump(data, f, indent=2)
+    atomic_write_json(PENDING_FILE, data)
 
 
 def _active_customer_emails(customers_data: dict) -> set:
@@ -256,8 +253,11 @@ def _send_followup(
         msg["From"] = f"Search Sentinel <{gmail_user}>"
         msg["To"] = to_email
         msg["Reply-To"] = gmail_user
-        # Gmail 2024 bulk sender compliance headers
-        msg["List-Unsubscribe"] = f"<mailto:{gmail_user}?subject=unsubscribe>"
+        # Gmail 2024 bulk sender compliance headers — RFC 8058 one-click
+        unsub_url = f"https://api.sutraflow.org/unsubscribe?email={to_email}"
+        msg["List-Unsubscribe"] = (
+            f"<{unsub_url}>, <mailto:{gmail_user}?subject=unsubscribe>"
+        )
         msg["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
         msg["Precedence"] = "bulk"
         msg.attach(MIMEText(plain_body, "plain"))
@@ -301,6 +301,11 @@ def run_followup_sequence(dry_run: bool = False) -> dict:
 
         # Skip bad emails
         if not is_valid_outreach_email(email):
+            stats["skipped"] += 1
+            continue
+
+        # Skip suppressed emails (unsubscribed, completed 3-followup sequence, bounced, etc.)
+        if suppression.is_suppressed(email):
             stats["skipped"] += 1
             continue
 
@@ -350,6 +355,10 @@ def run_followup_sequence(dry_run: bool = False) -> dict:
                 })
                 stats[fup_type] += 1
                 changed = True
+                # Auto-suppress after the final follow-up — they had 3 emails, no pay.
+                # Re-contacting them next week if they drop again wastes sender rep.
+                if fup_type == "followup_3":
+                    suppression.suppress(email, reason="followup_3_completed_no_response")
                 time.sleep(5)  # rate limit
             break  # only one follow-up per contact per run
 

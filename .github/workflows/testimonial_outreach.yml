@@ -1,7 +1,11 @@
 name: Search Sentinel — Testimonial Outreach
 
-# Run manually only. Never auto-trigger — you want to review before sending.
+# Auto-runs every Thursday at 1pm UTC (8am ET) with count=3 — safe pace.
+# Also available as manual dispatch with custom count/dry-run override.
 on:
+  schedule:
+    - cron: "0 13 * * 4"   # Thu 1pm UTC — 3 days after Monday weekly scan,
+                           # so the newest leads have already received followup_1
   workflow_dispatch:
     inputs:
       count:
@@ -52,8 +56,15 @@ jobs:
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
         working-directory: business3_local_seo
         run: |
-          COUNT="${{ github.event.inputs.count || '5' }}"
-          DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
+          # Scheduled runs default to 3 (safe pace); manual runs honour the input or 5.
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            COUNT="3"
+            DRY_RUN="false"
+          else
+            COUNT="${{ github.event.inputs.count || '5' }}"
+            DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
+          fi
+          echo "Mode: count=$COUNT dry_run=$DRY_RUN"
           if [ "$DRY_RUN" = "true" ]; then
             echo "=== DRY RUN MODE ==="
             python testimonial_outreach.py --dry-run --count "$COUNT"
