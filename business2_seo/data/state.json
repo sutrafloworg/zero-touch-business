@@ -1,6 +1,6 @@
 {
   "last_run": "2026-03-22T05:43:11.376673+00:00",
-  "articles_published": 22,
+  "articles_published": 27,
   "keywords_processed": [
     "chatgpt vs claude for writing",
     "best ai seo tools 2026",
@@ -23,20 +23,23 @@
     "how to use ai for seo 2026",
     "chatgpt alternatives for business",
     "best ai email marketing tools",
-    "ai tools for content creators"
+    "ai tools for content creators",
+    "best ai tools for real estate agents",
+    "ai writing assistant comparison 2026",
+    "best ai research tools",
+    "best ai tools for lawyers",
+    "ai tools for financial advisors"
   ],
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last_status": "PARTIAL",
   "pending_retry": [],
-  "total_articles_on_disk": 22,
-  "last_publish_run": "2026-05-20T06:11:50.726541+00:00",
+  "total_articles_on_disk": 27,
+  "last_publish_run": "2026-05-24T06:09:09.355819+00:00",
   "published_this_run": [
-    "how-to-automate-content-creation-with-ai",
-    "rytr-ai-alternatives",
-    "ai-content-writing-tools-comparison",
-    "how-to-use-ai-for-seo-2026",
-    "chatgpt-alternatives-for-business",
-    "best-ai-email-marketing-tools",
-    "ai-tools-for-content-creators"
+    "best-ai-tools-for-real-estate-agents",
+    "ai-writing-assistant-comparison-2026",
+    "best-ai-research-tools",
+    "best-ai-tools-for-lawyers",
+    "ai-tools-for-financial-advisors"
   ]
 }

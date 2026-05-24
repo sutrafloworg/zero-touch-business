@@ -35,5 +35,25 @@
     "rejected_keywords": [
       "best ai tools for marketing agencies"
     ]
+  },
+  {
+    "date": "2026-05-24T06:09:09.228462+00:00",
+    "articles_generated": 8,
+    "articles_passed": 5,
+    "articles_revised": 6,
+    "articles_rejected": 3,
+    "avg_scores": {
+      "structure": 8.0,
+      "eeat": 8.4,
+      "seo": 7.1,
+      "readability": 8.0,
+      "affiliate": 6.5,
+      "originality": 7.5
+    },
+    "rejected_keywords": [
+      "how to use notion ai for project management",
+      "how to write better with ai tools",
+      "claude api use cases for business"
+    ]
   }
 ]

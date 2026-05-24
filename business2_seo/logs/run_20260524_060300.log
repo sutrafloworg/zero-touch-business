@@ -1,0 +1,104 @@
+2026-05-24 06:03:02,082 [INFO] seo_orchestrator — ============================================================
+2026-05-24 06:03:02,082 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-05-24 06:03:02,083 [INFO] seo_orchestrator — Timestamp: 2026-05-24T06:03:02.083016+00:00
+2026-05-24 06:03:02,083 [INFO] seo_orchestrator — ============================================================
+2026-05-24 06:03:02,118 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 8 keywords...
+2026-05-24 06:03:02,119 [INFO] agents.keyword_agent — Keyword Agent: 8 keywords selected for this run
+2026-05-24 06:03:02,119 [INFO] seo_orchestrator —       Selected: ['how to use notion ai for project management', 'best ai tools for real estate agents', 'ai writing assistant comparison 2026', 'best ai research tools', 'how to write better with ai tools', 'best ai tools for lawyers', 'ai tools for financial advisors', 'claude api use cases for business']
+2026-05-24 06:03:02,136 [INFO] seo_orchestrator — [2-4/10] Processing: 'how to use notion ai for project management' (1/8)
+2026-05-24 06:03:26,201 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:03:26,227 [INFO] agents.content_agent — Content Agent: generated 'how to use notion ai for project management' (1325 words, tutorial)
+2026-05-24 06:03:28,215 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:03:28,216 [INFO] agents.quality_agent — Quality: how to use notion ai for project management — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 8}, passed=False
+2026-05-24 06:03:28,216 [INFO] seo_orchestrator — Quality gate: 'how to use notion ai for project management' failed (lowest: affiliate). Revising...
+2026-05-24 06:03:44,863 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:03:44,864 [INFO] agents.content_agent — Content Agent: revised 'how to use notion ai for project management' (1258 words)
+2026-05-24 06:03:47,404 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:03:47,405 [INFO] agents.quality_agent — Quality: how to use notion ai for project management — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 8}, passed=False
+2026-05-24 06:03:47,406 [WARNING] seo_orchestrator — Quality gate: 'how to use notion ai for project management' rejected after revision (lowest: affiliate)
+2026-05-24 06:03:47,406 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for real estate agents' (2/8)
+2026-05-24 06:04:12,830 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:04:12,832 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for real estate agents' (1439 words, listicle)
+2026-05-24 06:04:14,296 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:04:14,297 [INFO] agents.quality_agent — Quality: best ai tools for real estate agents — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 7}, passed=False
+2026-05-24 06:04:14,297 [INFO] seo_orchestrator — Quality gate: 'best ai tools for real estate agents' failed (lowest: affiliate). Revising...
+2026-05-24 06:04:36,318 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:04:36,319 [INFO] agents.content_agent — Content Agent: revised 'best ai tools for real estate agents' (1561 words)
+2026-05-24 06:04:41,355 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:04:41,356 [INFO] agents.quality_agent — Quality: best ai tools for real estate agents — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 8, 'originality': 8}, passed=True
+2026-05-24 06:04:41,356 [INFO] seo_orchestrator — Quality gate: 'best ai tools for real estate agents' passed after revision
+2026-05-24 06:04:41,376 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-real-estate-agents.md
+2026-05-24 06:04:41,377 [INFO] seo_orchestrator — [2-4/10] Processing: 'ai writing assistant comparison 2026' (3/8)
+2026-05-24 06:05:02,514 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:05:02,515 [INFO] agents.content_agent — Content Agent: generated 'ai writing assistant comparison 2026' (1184 words, comparison)
+2026-05-24 06:05:04,432 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:05:04,433 [INFO] agents.quality_agent — Quality: ai writing assistant comparison 2026 — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 7}, passed=True
+2026-05-24 06:05:04,445 [INFO] agents.publisher_agent — Publisher: saved ai-writing-assistant-comparison-2026.md
+2026-05-24 06:05:04,446 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai research tools' (4/8)
+2026-05-24 06:05:36,327 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:05:36,329 [INFO] agents.content_agent — Content Agent: generated 'best ai research tools' (1821 words, listicle)
+2026-05-24 06:05:38,172 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:05:38,173 [INFO] agents.quality_agent — Quality: best ai research tools — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-24 06:05:38,194 [INFO] agents.publisher_agent — Publisher: saved best-ai-research-tools.md
+2026-05-24 06:05:38,195 [INFO] seo_orchestrator — [2-4/10] Processing: 'how to write better with ai tools' (5/8)
+2026-05-24 06:06:04,427 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:06:04,428 [INFO] agents.content_agent — Content Agent: generated 'how to write better with ai tools' (1404 words, tutorial)
+2026-05-24 06:06:06,428 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:06:06,429 [INFO] agents.quality_agent — Quality: how to write better with ai tools — scores={'structure': 8, 'eeat': 9, 'seo': 6, 'readability': 9, 'affiliate': 7, 'originality': 8}, passed=False
+2026-05-24 06:06:06,429 [INFO] seo_orchestrator — Quality gate: 'how to write better with ai tools' failed (lowest: seo). Revising...
+2026-05-24 06:06:27,674 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:06:27,676 [INFO] agents.content_agent — Content Agent: revised 'how to write better with ai tools' (1513 words)
+2026-05-24 06:06:31,095 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:06:31,096 [INFO] agents.quality_agent — Quality: how to write better with ai tools — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 8}, passed=False
+2026-05-24 06:06:31,096 [WARNING] seo_orchestrator — Quality gate: 'how to write better with ai tools' rejected after revision (lowest: affiliate)
+2026-05-24 06:06:31,096 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for lawyers' (6/8)
+2026-05-24 06:06:52,470 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:06:52,472 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for lawyers' (1242 words, listicle)
+2026-05-24 06:06:54,374 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:06:54,375 [INFO] agents.quality_agent — Quality: best ai tools for lawyers — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 7}, passed=False
+2026-05-24 06:06:54,375 [INFO] seo_orchestrator — Quality gate: 'best ai tools for lawyers' failed (lowest: affiliate). Revising...
+2026-05-24 06:07:11,820 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:07:11,822 [INFO] agents.content_agent — Content Agent: revised 'best ai tools for lawyers' (1357 words)
+2026-05-24 06:07:13,996 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:07:13,997 [INFO] agents.quality_agent — Quality: best ai tools for lawyers — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-24 06:07:13,997 [INFO] seo_orchestrator — Quality gate: 'best ai tools for lawyers' passed after revision
+2026-05-24 06:07:14,013 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-lawyers.md
+2026-05-24 06:07:14,014 [INFO] seo_orchestrator — [2-4/10] Processing: 'ai tools for financial advisors' (7/8)
+2026-05-24 06:07:39,728 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:07:39,730 [INFO] agents.content_agent — Content Agent: generated 'ai tools for financial advisors' (1465 words, listicle)
+2026-05-24 06:07:41,423 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:07:41,424 [INFO] agents.quality_agent — Quality: ai tools for financial advisors — scores={'structure': 8, 'eeat': 7, 'seo': 8, 'readability': 7, 'affiliate': 6, 'originality': 6}, passed=False
+2026-05-24 06:07:41,424 [INFO] seo_orchestrator — Quality gate: 'ai tools for financial advisors' failed (lowest: affiliate). Revising...
+2026-05-24 06:08:10,488 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:08:10,490 [INFO] agents.content_agent — Content Agent: revised 'ai tools for financial advisors' (1935 words)
+2026-05-24 06:08:12,286 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:08:12,287 [INFO] agents.quality_agent — Quality: ai tools for financial advisors — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 7}, passed=True
+2026-05-24 06:08:12,287 [INFO] seo_orchestrator — Quality gate: 'ai tools for financial advisors' passed after revision
+2026-05-24 06:08:12,310 [INFO] agents.publisher_agent — Publisher: saved ai-tools-for-financial-advisors.md
+2026-05-24 06:08:12,310 [INFO] seo_orchestrator — [2-4/10] Processing: 'claude api use cases for business' (8/8)
+2026-05-24 06:08:39,586 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:08:39,588 [INFO] agents.content_agent — Content Agent: generated 'claude api use cases for business' (1691 words, tutorial)
+2026-05-24 06:08:41,778 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:08:41,779 [INFO] agents.quality_agent — Quality: claude api use cases for business — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 7}, passed=False
+2026-05-24 06:08:41,779 [INFO] seo_orchestrator — Quality gate: 'claude api use cases for business' failed (lowest: affiliate). Revising...
+2026-05-24 06:09:07,532 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:09:07,534 [INFO] agents.content_agent — Content Agent: revised 'claude api use cases for business' (1780 words)
+2026-05-24 06:09:09,226 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-24 06:09:09,227 [INFO] agents.quality_agent — Quality: claude api use cases for business — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 4, 'originality': 8}, passed=False
+2026-05-24 06:09:09,228 [WARNING] seo_orchestrator — Quality gate: 'claude api use cases for business' rejected after revision (lowest: affiliate)
+2026-05-24 06:09:09,228 [INFO] seo_orchestrator —       Published 5/8 articles (revised=6, rejected=3)
+2026-05-24 06:09:09,228 [INFO] agents.quality_agent — Quality log: {'date': '2026-05-24T06:09:09.228462+00:00', 'articles_generated': 8, 'articles_passed': 5, 'articles_revised': 6, 'articles_rejected': 3, 'avg_scores': {'structure': 8.0, 'eeat': 8.4, 'seo': 7.1, 'readability': 8.0, 'affiliate': 6.5, 'originality': 7.5}, 'rejected_keywords': ['how to use notion ai for project management', 'how to write better with ai tools', 'claude api use cases for business']}
+2026-05-24 06:09:09,354 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-05-24 06:09:09,356 [INFO] agents.publisher_agent — Publisher: total articles on site: 27
+2026-05-24 06:09:09,356 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-05-24 06:09:09,356 [WARNING] agents.monitor_agent — Monitor: 3 articles failed to write this run
+2026-05-24 06:09:10,704 [INFO] agents.monitor_agent — Site health: OK (200)
+2026-05-24 06:09:10,705 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 27
+2026-05-24 06:09:10,706 [INFO] seo_orchestrator — [5/5] Stats Agent: collecting metrics + sending weekly report...
+2026-05-24 06:09:10,706 [INFO] agents.stats_agent — Stats Agent: collecting weekly metrics...
+2026-05-24 06:09:10,941 [WARNING] agents.stats_agent — Kit stats fetch failed: 401 Client Error: Unauthorized for url: https://api.convertkit.com/v3/subscribers?api_secret=&sort_field=created_at
+2026-05-24 06:09:10,943 [INFO] agents.stats_agent — Stats Agent: snapshot saved (1 total entries)
+2026-05-24 06:09:11,722 [INFO] agents.stats_agent — Stats report sent to sutrafloworg@gmail.com
+2026-05-24 06:09:11,722 [INFO] seo_orchestrator — ============================================================
+2026-05-24 06:09:11,722 [INFO] seo_orchestrator — Pipeline complete. Published: 5 articles
+2026-05-24 06:09:11,722 [INFO] seo_orchestrator — ============================================================
