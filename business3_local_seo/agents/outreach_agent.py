@@ -31,6 +31,7 @@ from pathlib import Path
 import requests
 
 from agents import suppression
+from agents.email_sender import send_email as unified_send_email, active_backend
 
 logger = logging.getLogger(__name__)
 
@@ -294,6 +295,11 @@ class OutreachAgent:
     reply and I'll refund immediately — no questions asked.
   </p>
 
+  <p style="font-size:13px;color:#555;background:#f8fafc;padding:10px 12px;border-radius:6px;border-left:3px solid #2563eb">
+    Want to see what the report looks like before paying?
+    <a href="https://sutraflow.org/sentinel/sample-audit.pdf" style="color:#1d4ed8;font-weight:600">Download a real sample (PDF) →</a>
+  </p>
+
   <p style="font-size:13px;color:#777">Questions? Just reply — I respond personally.</p>
 
   <p>Best,<br>
@@ -320,6 +326,8 @@ class OutreachAgent:
             f"happened, which competitors passed you, and 3 specific actions you can take this week.\n\n"
             f"Full Audit Report ($10): {self.payment_url_audit}\n\n"
             f"Weekly Monitoring — launch offer $5/mo (normally $20/mo): {self.payment_url}\n\n"
+            f"Want to see what the report looks like before paying?\n"
+            f"Download a real sample (PDF): https://sutraflow.org/sentinel/sample-audit.pdf\n\n"
             f"Questions? Just reply to this email.\n\n"
             f"Best,\nSearch Sentinel\n\n"
             f"--\n"
@@ -328,34 +336,27 @@ class OutreachAgent:
             f"To opt out, reply with 'unsubscribe'.\n"
         )
 
-        try:
-            msg = MIMEMultipart("alternative")
-            msg["Subject"] = subject
-            msg["From"] = f"{self.from_name} <{self.gmail_user}>"
-            msg["To"] = to_email
-            msg["Reply-To"] = self.gmail_user
-            # Gmail 2024 bulk sender compliance headers — RFC 8058 one-click
-            unsub_url = f"https://api.sutraflow.org/unsubscribe?email={to_email}"
-            msg["List-Unsubscribe"] = (
-                f"<{unsub_url}>, <mailto:{self.gmail_user}?subject=unsubscribe>"
-            )
-            msg["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
-            msg["Precedence"] = "bulk"
+        unsub_url = f"https://api.sutraflow.org/unsubscribe?email={to_email}"
+        rfc8058_headers = {
+            "List-Unsubscribe": f"<{unsub_url}>, <mailto:{self.gmail_user}?subject=unsubscribe>",
+            "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+            "Precedence": "bulk",
+        }
 
-            # Plain text first (fallback), HTML second (preferred by clients)
-            msg.attach(MIMEText(plain_body, "plain"))
-            msg.attach(MIMEText(html_body, "html"))
-
-            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-                server.login(self.gmail_user, self.gmail_app_password)
-                server.sendmail(self.gmail_user, [to_email], msg.as_string())
-
-            logger.info(f"Outreach: teaser email sent to {to_email} ({business_name})")
-            return True
-
-        except Exception as e:
-            logger.error(f"Outreach: failed to send to {to_email}: {e}")
-            return False
+        # Route through email_sender — picks Resend if RESEND_API_KEY is set, else Gmail SMTP
+        success = unified_send_email(
+            to_email=to_email,
+            subject=subject,
+            html=html_body,
+            plain=plain_body,
+            from_name=self.from_name,
+            headers=rfc8058_headers,
+        )
+        if success:
+            logger.info(f"Outreach[{active_backend()}]: teaser email sent to {to_email} ({business_name})")
+        else:
+            logger.error(f"Outreach[{active_backend()}]: failed to send to {to_email}")
+        return success
 
     def send_fulfillment_email(
         self,

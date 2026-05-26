@@ -1,0 +1,59 @@
+name: Search Sentinel — Cloudflare Email Setup (one-click)
+
+# Manual-only workflow. Run it once after you have Resend's DNS records
+# from the Resend dashboard (Domains → sutraflow.org → DNS records).
+#
+# Paste the records as JSON into the `resend_records` input. Example:
+# {
+#   "spf":  {"name": "send",                "value": "v=spf1 include:amazonses.com ~all"},
+#   "dkim": {"name": "resend._domainkey",   "value": "p=MIGfMA0G..."},
+#   "mx":   {"name": "send",                "value": "feedback-smtp.us-east-1.amazonses.com", "priority": 10}
+# }
+
+on:
+  workflow_dispatch:
+    inputs:
+      resend_records:
+        description: "JSON of Resend DNS records (paste from Resend dashboard). Leave as {} to only set up Email Routing."
+        required: true
+        default: '{}'
+      alias:
+        description: "Local part of the forwarding alias (default: sentinel)"
+        required: false
+        default: "sentinel"
+      forward_to:
+        description: "Email that receives forwards (default: sutrafloworg@gmail.com)"
+        required: false
+        default: "sutrafloworg@gmail.com"
+
+permissions:
+  contents: read
+
+jobs:
+  cloudflare-setup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: "business3_local_seo/requirements.txt"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run Cloudflare setup
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        working-directory: business3_local_seo
+        run: |
+          python cloudflare_setup.py \
+            --records '${{ github.event.inputs.resend_records }}' \
+            --alias '${{ github.event.inputs.alias }}' \
+            --forward-to '${{ github.event.inputs.forward_to }}'

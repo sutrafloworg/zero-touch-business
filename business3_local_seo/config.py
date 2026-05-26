@@ -21,7 +21,8 @@ CLAUDE_RETRY_ATTEMPTS = 3
 # ── Search API Keys (rotary: SerpAPI → Outscraper → ValueSERP) ───────────────
 SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "")
 OUTSCRAPER_API_KEY = os.environ.get("OUTSCRAPER_API_KEY", "")
-VALUESERP_API_KEY = os.environ.get("VALUESERP_API_KEY", "")
+# Note: GitHub Secret is named VALUESERP_KEY (not VALUESERP_API_KEY) — keep this name.
+VALUESERP_API_KEY = os.environ.get("VALUESERP_KEY", "") or os.environ.get("VALUESERP_API_KEY", "")
 
 # ── Target Configuration ──────────────────────────────────────────────────────
 CITIES_FILE = DATA_DIR / "cities.json"

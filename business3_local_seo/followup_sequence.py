@@ -36,6 +36,7 @@ import config
 from agents.outreach_agent import is_valid_outreach_email
 from agents.json_store import atomic_write_json, safe_load_json
 from agents import suppression
+from agents.email_sender import send_email as unified_send_email, active_backend
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -247,31 +248,26 @@ def _send_followup(
         logger.error(f"Unknown followup type: {followup_type}")
         return False
 
-    try:
-        msg = MIMEMultipart("alternative")
-        msg["Subject"] = subject
-        msg["From"] = f"Search Sentinel <{gmail_user}>"
-        msg["To"] = to_email
-        msg["Reply-To"] = gmail_user
-        # Gmail 2024 bulk sender compliance headers — RFC 8058 one-click
-        unsub_url = f"https://api.sutraflow.org/unsubscribe?email={to_email}"
-        msg["List-Unsubscribe"] = (
-            f"<{unsub_url}>, <mailto:{gmail_user}?subject=unsubscribe>"
-        )
-        msg["List-Unsubscribe-Post"] = "List-Unsubscribe=One-Click"
-        msg["Precedence"] = "bulk"
-        msg.attach(MIMEText(plain_body, "plain"))
-        msg.attach(MIMEText(html_body, "html"))
+    unsub_url = f"https://api.sutraflow.org/unsubscribe?email={to_email}"
+    rfc8058_headers = {
+        "List-Unsubscribe": f"<{unsub_url}>, <mailto:{gmail_user}?subject=unsubscribe>",
+        "List-Unsubscribe-Post": "List-Unsubscribe=One-Click",
+        "Precedence": "bulk",
+    }
 
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
-            server.login(gmail_user, gmail_password)
-            server.sendmail(gmail_user, [to_email], msg.as_string())
-
-        logger.info(f"Follow-up {followup_type} sent to {to_email} ({business_name})")
-        return True
-    except Exception as e:
-        logger.error(f"Follow-up {followup_type} failed for {to_email}: {e}")
-        return False
+    success = unified_send_email(
+        to_email=to_email,
+        subject=subject,
+        html=html_body,
+        plain=plain_body,
+        from_name="Search Sentinel",
+        headers=rfc8058_headers,
+    )
+    if success:
+        logger.info(f"Follow-up {followup_type}[{active_backend()}] sent to {to_email} ({business_name})")
+    else:
+        logger.error(f"Follow-up {followup_type}[{active_backend()}] failed for {to_email}")
+    return success
 
 
 def run_followup_sequence(dry_run: bool = False) -> dict:
