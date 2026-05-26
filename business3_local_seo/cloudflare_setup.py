@@ -204,11 +204,7 @@ def main():
     zone_id = get_zone_id()
 
     logger.info("--- Step 1: Email Routing ---")
-    enable_email_routing(zone_id)
-    add_destination_address(args.forward_to)
-    time.sleep(2)
-    add_routing_rule(zone_id, args.alias, args.forward_to)
-
+    
     logger.info("--- Step 2: Resend DNS records ---")
     configure_resend_dns(zone_id, records)
 
