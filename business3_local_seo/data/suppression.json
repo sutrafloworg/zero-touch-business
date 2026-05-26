@@ -7,6 +7,98 @@
     "example@domain.com": {
       "added_at": "2026-05-22T05:57:34.993206+00:00",
       "reason": "placeholder_known_bad"
+    },
+    "john.doe@example.com": {
+      "added_at": "2026-05-26T13:55:14.486111+00:00",
+      "reason": "hard_bounce"
+    },
+    "example@gmail.com": {
+      "added_at": "2026-05-26T13:55:15.006999+00:00",
+      "reason": "hard_bounce"
+    },
+    "team@sellinglaluxury.com": {
+      "added_at": "2026-05-26T13:55:15.539732+00:00",
+      "reason": "hard_bounce"
+    },
+    "email@email.com": {
+      "added_at": "2026-05-26T13:55:15.994160+00:00",
+      "reason": "hard_bounce"
+    },
+    "example@email.com": {
+      "added_at": "2026-05-26T13:55:16.279029+00:00",
+      "reason": "hard_bounce"
+    },
+    "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com": {
+      "added_at": "2026-05-26T13:55:16.687785+00:00",
+      "reason": "hard_bounce"
+    },
+    "contact@www.tkinjurylawyers.com": {
+      "added_at": "2026-05-26T13:55:17.214189+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@maximregen.com": {
+      "added_at": "2026-05-26T13:55:20.592830+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@247rooterservice.com": {
+      "added_at": "2026-05-26T13:55:21.017340+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@domain.com": {
+      "added_at": "2026-05-26T13:55:21.611711+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@jacobyandmeyers.com": {
+      "added_at": "2026-05-26T13:55:22.468114+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@sohailrealestate.com": {
+      "added_at": "2026-05-26T13:55:28.546410+00:00",
+      "reason": "hard_bounce"
+    },
+    "hello@enmeldentistry.com": {
+      "added_at": "2026-05-26T13:55:30.051050+00:00",
+      "reason": "hard_bounce"
+    },
+    "my_email@gmail.com": {
+      "added_at": "2026-05-26T13:55:32.831497+00:00",
+      "reason": "hard_bounce"
+    },
+    "askus@razavidental.com": {
+      "added_at": "2026-05-26T13:55:33.842735+00:00",
+      "reason": "hard_bounce"
+    },
+    "johnsmith@example.com": {
+      "added_at": "2026-05-26T13:55:34.633599+00:00",
+      "reason": "hard_bounce"
+    },
+    "your-email@email.com": {
+      "added_at": "2026-05-26T13:55:34.966621+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@parkavenuefaces.com": {
+      "added_at": "2026-05-26T13:55:35.564694+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@jknylaw.com": {
+      "added_at": "2026-05-26T13:55:39.425625+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@mylawcompany.com": {
+      "added_at": "2026-05-26T13:55:40.323833+00:00",
+      "reason": "hard_bounce"
+    },
+    "info@gslawusa.com": {
+      "added_at": "2026-05-26T13:55:42.359023+00:00",
+      "reason": "hard_bounce"
+    },
+    "service@brothersplumbing.com": {
+      "added_at": "2026-05-26T13:55:43.835030+00:00",
+      "reason": "hard_bounce"
+    },
+    "office@downtowndentalla.com": {
+      "added_at": "2026-05-26T13:55:45.616684+00:00",
+      "reason": "hard_bounce"
     }
   }
 }
