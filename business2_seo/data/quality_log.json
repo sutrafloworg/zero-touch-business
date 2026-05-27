@@ -55,5 +55,23 @@
       "how to write better with ai tools",
       "claude api use cases for business"
     ]
+  },
+  {
+    "date": "2026-05-27T06:25:28.652305+00:00",
+    "articles_generated": 8,
+    "articles_passed": 7,
+    "articles_revised": 3,
+    "articles_rejected": 1,
+    "avg_scores": {
+      "structure": 8.0,
+      "eeat": 8.5,
+      "seo": 7.1,
+      "readability": 8.0,
+      "affiliate": 6.5,
+      "originality": 7.6
+    },
+    "rejected_keywords": [
+      "notion ai vs microsoft copilot"
+    ]
   }
 ]

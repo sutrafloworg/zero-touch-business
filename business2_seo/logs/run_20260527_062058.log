@@ -1,0 +1,88 @@
+2026-05-27 06:21:00,454 [INFO] seo_orchestrator — ============================================================
+2026-05-27 06:21:00,454 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-05-27 06:21:00,454 [INFO] seo_orchestrator — Timestamp: 2026-05-27T06:21:00.454686+00:00
+2026-05-27 06:21:00,454 [INFO] seo_orchestrator — ============================================================
+2026-05-27 06:21:00,488 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 8 keywords...
+2026-05-27 06:21:00,489 [INFO] agents.keyword_agent — Keyword Agent: 8 keywords selected for this run
+2026-05-27 06:21:00,489 [INFO] seo_orchestrator —       Selected: ['best ai tools for e-commerce', 'writesonic vs rytr', 'how to do keyword research with ai', 'best ai tools for healthcare professionals', 'notion ai vs microsoft copilot', 'ai tools for accountants', 'best productivity apps with ai 2026', 'how to use ai for lead generation']
+2026-05-27 06:21:00,506 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for e-commerce' (1/8)
+2026-05-27 06:21:21,702 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:21:21,723 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for e-commerce' (1121 words, listicle)
+2026-05-27 06:21:23,185 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:21:23,186 [INFO] agents.quality_agent — Quality: best ai tools for e-commerce — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 7}, passed=True
+2026-05-27 06:21:23,205 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-e-commerce.md
+2026-05-27 06:21:23,206 [INFO] seo_orchestrator — [2-4/10] Processing: 'writesonic vs rytr' (2/8)
+2026-05-27 06:21:44,850 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:21:44,852 [INFO] agents.content_agent — Content Agent: generated 'writesonic vs rytr' (1206 words, comparison)
+2026-05-27 06:21:46,402 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:21:46,403 [INFO] agents.quality_agent — Quality: writesonic vs rytr — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 8}, passed=True
+2026-05-27 06:21:46,419 [INFO] agents.publisher_agent — Publisher: saved writesonic-vs-rytr.md
+2026-05-27 06:21:46,420 [INFO] seo_orchestrator — [2-4/10] Processing: 'how to do keyword research with ai' (3/8)
+2026-05-27 06:22:11,001 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:22:11,003 [INFO] agents.content_agent — Content Agent: generated 'how to do keyword research with ai' (1405 words, tutorial)
+2026-05-27 06:22:12,892 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:22:12,893 [INFO] agents.quality_agent — Quality: how to do keyword research with ai — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-27 06:22:12,910 [INFO] agents.publisher_agent — Publisher: saved how-to-do-keyword-research-with-ai.md
+2026-05-27 06:22:12,911 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for healthcare professionals' (4/8)
+2026-05-27 06:22:34,780 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:22:34,782 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for healthcare professionals' (1221 words, listicle)
+2026-05-27 06:22:36,845 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:22:36,846 [INFO] agents.quality_agent — Quality: best ai tools for healthcare professionals — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 5, 'originality': 7}, passed=False
+2026-05-27 06:22:36,846 [INFO] seo_orchestrator — Quality gate: 'best ai tools for healthcare professionals' failed (lowest: affiliate). Revising...
+2026-05-27 06:23:00,990 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:23:00,992 [INFO] agents.content_agent — Content Agent: revised 'best ai tools for healthcare professionals' (1542 words)
+2026-05-27 06:23:02,817 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:23:02,818 [INFO] agents.quality_agent — Quality: best ai tools for healthcare professionals — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-27 06:23:02,818 [INFO] seo_orchestrator — Quality gate: 'best ai tools for healthcare professionals' passed after revision
+2026-05-27 06:23:02,840 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-healthcare-professionals.md
+2026-05-27 06:23:02,841 [INFO] seo_orchestrator — [2-4/10] Processing: 'notion ai vs microsoft copilot' (5/8)
+2026-05-27 06:23:27,066 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:23:27,068 [INFO] agents.content_agent — Content Agent: generated 'notion ai vs microsoft copilot' (1365 words, comparison)
+2026-05-27 06:23:28,882 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:23:28,883 [INFO] agents.quality_agent — Quality: notion ai vs microsoft copilot — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 5, 'originality': 8}, passed=False
+2026-05-27 06:23:28,883 [INFO] seo_orchestrator — Quality gate: 'notion ai vs microsoft copilot' failed (lowest: affiliate). Revising...
+2026-05-27 06:23:50,178 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:23:50,179 [INFO] agents.content_agent — Content Agent: revised 'notion ai vs microsoft copilot' (1487 words)
+2026-05-27 06:23:52,456 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:23:52,457 [INFO] agents.quality_agent — Quality: notion ai vs microsoft copilot — scores={'structure': 8, 'eeat': 9, 'seo': 6, 'readability': 8, 'affiliate': 5, 'originality': 8}, passed=False
+2026-05-27 06:23:52,458 [WARNING] seo_orchestrator — Quality gate: 'notion ai vs microsoft copilot' rejected after revision (lowest: seo)
+2026-05-27 06:23:52,458 [INFO] seo_orchestrator — [2-4/10] Processing: 'ai tools for accountants' (6/8)
+2026-05-27 06:24:16,867 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:24:16,868 [INFO] agents.content_agent — Content Agent: generated 'ai tools for accountants' (1328 words, listicle)
+2026-05-27 06:24:18,612 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:24:18,613 [INFO] agents.quality_agent — Quality: ai tools for accountants — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-27 06:24:18,631 [INFO] agents.publisher_agent — Publisher: saved ai-tools-for-accountants.md
+2026-05-27 06:24:18,632 [INFO] seo_orchestrator — [2-4/10] Processing: 'best productivity apps with ai 2026' (7/8)
+2026-05-27 06:24:39,856 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:24:39,857 [INFO] agents.content_agent — Content Agent: generated 'best productivity apps with ai 2026' (1186 words, listicle)
+2026-05-27 06:24:42,052 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:24:42,053 [INFO] agents.quality_agent — Quality: best productivity apps with ai 2026 — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 7}, passed=False
+2026-05-27 06:24:42,053 [INFO] seo_orchestrator — Quality gate: 'best productivity apps with ai 2026' failed (lowest: affiliate). Revising...
+2026-05-27 06:24:59,317 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:24:59,318 [INFO] agents.content_agent — Content Agent: revised 'best productivity apps with ai 2026' (1306 words)
+2026-05-27 06:25:00,864 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:25:00,865 [INFO] agents.quality_agent — Quality: best productivity apps with ai 2026 — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 7}, passed=True
+2026-05-27 06:25:00,865 [INFO] seo_orchestrator — Quality gate: 'best productivity apps with ai 2026' passed after revision
+2026-05-27 06:25:00,884 [INFO] agents.publisher_agent — Publisher: saved best-productivity-apps-with-ai-2026.md
+2026-05-27 06:25:00,885 [INFO] seo_orchestrator — [2-4/10] Processing: 'how to use ai for lead generation' (8/8)
+2026-05-27 06:25:27,025 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:25:27,027 [INFO] agents.content_agent — Content Agent: generated 'how to use ai for lead generation' (1360 words, tutorial)
+2026-05-27 06:25:28,630 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-27 06:25:28,631 [INFO] agents.quality_agent — Quality: how to use ai for lead generation — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-27 06:25:28,651 [INFO] agents.publisher_agent — Publisher: saved how-to-use-ai-for-lead-generation.md
+2026-05-27 06:25:28,652 [INFO] seo_orchestrator —       Published 7/8 articles (revised=3, rejected=1)
+2026-05-27 06:25:28,652 [INFO] agents.quality_agent — Quality log: {'date': '2026-05-27T06:25:28.652305+00:00', 'articles_generated': 8, 'articles_passed': 7, 'articles_revised': 3, 'articles_rejected': 1, 'avg_scores': {'structure': 8.0, 'eeat': 8.5, 'seo': 7.1, 'readability': 8.0, 'affiliate': 6.5, 'originality': 7.6}, 'rejected_keywords': ['notion ai vs microsoft copilot']}
+2026-05-27 06:25:28,760 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-05-27 06:25:28,762 [INFO] agents.publisher_agent — Publisher: total articles on site: 34
+2026-05-27 06:25:28,762 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-05-27 06:25:28,762 [WARNING] agents.monitor_agent — Monitor: 1 articles failed to write this run
+2026-05-27 06:25:29,929 [INFO] agents.monitor_agent — Site health: OK (200)
+2026-05-27 06:25:29,931 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 34
+2026-05-27 06:25:29,931 [INFO] seo_orchestrator — [5/5] Stats Agent: collecting metrics + sending weekly report...
+2026-05-27 06:25:29,931 [INFO] agents.stats_agent — Stats Agent: collecting weekly metrics...
+2026-05-27 06:25:30,069 [WARNING] agents.stats_agent — Kit stats fetch failed: 401 Client Error: Unauthorized for url: https://api.convertkit.com/v3/subscribers?api_secret=&sort_field=created_at
+2026-05-27 06:25:30,072 [INFO] agents.stats_agent — Stats Agent: snapshot saved (1 total entries)
+2026-05-27 06:25:30,739 [INFO] agents.stats_agent — Stats report sent to sutrafloworg@gmail.com
+2026-05-27 06:25:30,739 [INFO] seo_orchestrator — ============================================================
+2026-05-27 06:25:30,739 [INFO] seo_orchestrator — Pipeline complete. Published: 7 articles
+2026-05-27 06:25:30,739 [INFO] seo_orchestrator — ============================================================

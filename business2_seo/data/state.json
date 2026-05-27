@@ -1,6 +1,6 @@
 {
   "last_run": "2026-03-22T05:43:11.376673+00:00",
-  "articles_published": 27,
+  "articles_published": 34,
   "keywords_processed": [
     "chatgpt vs claude for writing",
     "best ai seo tools 2026",
@@ -28,18 +28,27 @@
     "ai writing assistant comparison 2026",
     "best ai research tools",
     "best ai tools for lawyers",
-    "ai tools for financial advisors"
+    "ai tools for financial advisors",
+    "best ai tools for e-commerce",
+    "writesonic vs rytr",
+    "how to do keyword research with ai",
+    "best ai tools for healthcare professionals",
+    "ai tools for accountants",
+    "best productivity apps with ai 2026",
+    "how to use ai for lead generation"
   ],
-  "consecutive_failures": 3,
+  "consecutive_failures": 4,
   "last_status": "PARTIAL",
   "pending_retry": [],
-  "total_articles_on_disk": 27,
-  "last_publish_run": "2026-05-24T06:09:09.355819+00:00",
+  "total_articles_on_disk": 34,
+  "last_publish_run": "2026-05-27T06:25:28.761819+00:00",
   "published_this_run": [
-    "best-ai-tools-for-real-estate-agents",
-    "ai-writing-assistant-comparison-2026",
-    "best-ai-research-tools",
-    "best-ai-tools-for-lawyers",
-    "ai-tools-for-financial-advisors"
+    "best-ai-tools-for-e-commerce",
+    "writesonic-vs-rytr",
+    "how-to-do-keyword-research-with-ai",
+    "best-ai-tools-for-healthcare-professionals",
+    "ai-tools-for-accountants",
+    "best-productivity-apps-with-ai-2026",
+    "how-to-use-ai-for-lead-generation"
   ]
 }
