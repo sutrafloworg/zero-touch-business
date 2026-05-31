@@ -1,0 +1,87 @@
+2026-05-31 06:20:00,547 [INFO] seo_orchestrator — ============================================================
+2026-05-31 06:20:00,548 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-05-31 06:20:00,548 [INFO] seo_orchestrator — Timestamp: 2026-05-31T06:20:00.548112+00:00
+2026-05-31 06:20:00,548 [INFO] seo_orchestrator — ============================================================
+2026-05-31 06:20:00,580 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 8 keywords...
+2026-05-31 06:20:00,581 [INFO] agents.keyword_agent — Keyword Agent: 8 keywords selected for this run
+2026-05-31 06:20:00,581 [INFO] seo_orchestrator —       Selected: ['ai tools for hr professionals', 'best ai tools for teachers', 'surfer seo vs rytr', 'ai tools for customer service', 'how to automate email marketing with ai', 'best ai tools for startups', 'ai seo tools for beginners', 'how to use ai for social media marketing']
+2026-05-31 06:20:00,599 [INFO] seo_orchestrator — [2-4/10] Processing: 'ai tools for hr professionals' (1/8)
+2026-05-31 06:20:28,840 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:20:28,861 [INFO] agents.content_agent — Content Agent: generated 'ai tools for hr professionals' (1548 words, listicle)
+2026-05-31 06:20:30,737 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:20:30,738 [INFO] agents.quality_agent — Quality: ai tools for hr professionals — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 7}, passed=False
+2026-05-31 06:20:30,738 [INFO] seo_orchestrator — Quality gate: 'ai tools for hr professionals' failed (lowest: affiliate). Revising...
+2026-05-31 06:20:59,715 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:20:59,717 [INFO] agents.content_agent — Content Agent: revised 'ai tools for hr professionals' (1847 words)
+2026-05-31 06:21:01,314 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:21:01,315 [INFO] agents.quality_agent — Quality: ai tools for hr professionals — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-31 06:21:01,315 [INFO] seo_orchestrator — Quality gate: 'ai tools for hr professionals' passed after revision
+2026-05-31 06:21:01,344 [INFO] agents.publisher_agent — Publisher: saved ai-tools-for-hr-professionals.md
+2026-05-31 06:21:01,345 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for teachers' (2/8)
+2026-05-31 06:21:23,672 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:21:23,673 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for teachers' (1235 words, listicle)
+2026-05-31 06:21:24,788 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:21:24,789 [INFO] agents.quality_agent — Quality: best ai tools for teachers — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 8, 'originality': 8}, passed=True
+2026-05-31 06:21:24,805 [INFO] agents.publisher_agent — Publisher: saved best-ai-tools-for-teachers.md
+2026-05-31 06:21:24,806 [INFO] seo_orchestrator — [2-4/10] Processing: 'surfer seo vs rytr' (3/8)
+2026-05-31 06:21:47,650 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:21:47,651 [INFO] agents.content_agent — Content Agent: generated 'surfer seo vs rytr' (1172 words, comparison)
+2026-05-31 06:21:49,321 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:21:49,322 [INFO] agents.quality_agent — Quality: surfer seo vs rytr — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 7}, passed=False
+2026-05-31 06:21:49,322 [INFO] seo_orchestrator — Quality gate: 'surfer seo vs rytr' failed (lowest: affiliate). Revising...
+2026-05-31 06:22:10,171 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:22:10,173 [INFO] agents.content_agent — Content Agent: revised 'surfer seo vs rytr' (1262 words)
+2026-05-31 06:22:11,685 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:22:11,686 [INFO] agents.quality_agent — Quality: surfer seo vs rytr — scores={'structure': 8, 'eeat': 8, 'seo': 6, 'readability': 8, 'affiliate': 5, 'originality': 7}, passed=False
+2026-05-31 06:22:11,686 [WARNING] seo_orchestrator — Quality gate: 'surfer seo vs rytr' rejected after revision (lowest: affiliate)
+2026-05-31 06:22:11,686 [INFO] seo_orchestrator — [2-4/10] Processing: 'ai tools for customer service' (4/8)
+2026-05-31 06:22:40,846 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:22:40,847 [INFO] agents.content_agent — Content Agent: generated 'ai tools for customer service' (1595 words, listicle)
+2026-05-31 06:22:42,423 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:22:42,424 [INFO] agents.quality_agent — Quality: ai tools for customer service — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-05-31 06:22:42,445 [INFO] agents.publisher_agent — Publisher: saved ai-tools-for-customer-service.md
+2026-05-31 06:22:42,446 [INFO] seo_orchestrator — [2-4/10] Processing: 'how to automate email marketing with ai' (5/8)
+2026-05-31 06:23:09,547 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:23:09,548 [INFO] agents.content_agent — Content Agent: generated 'how to automate email marketing with ai' (1522 words, tutorial)
+2026-05-31 06:23:10,949 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:23:10,949 [INFO] agents.quality_agent — Quality: how to automate email marketing with ai — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 9, 'originality': 8}, passed=True
+2026-05-31 06:23:10,969 [INFO] agents.publisher_agent — Publisher: saved how-to-automate-email-marketing-with-ai.md
+2026-05-31 06:23:10,970 [INFO] seo_orchestrator — [2-4/10] Processing: 'best ai tools for startups' (6/8)
+2026-05-31 06:23:34,893 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:23:34,895 [INFO] agents.content_agent — Content Agent: generated 'best ai tools for startups' (1269 words, listicle)
+2026-05-31 06:23:38,547 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:23:38,548 [INFO] agents.quality_agent — Quality: best ai tools for startups — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 6, 'originality': 8}, passed=False
+2026-05-31 06:23:38,548 [INFO] seo_orchestrator — Quality gate: 'best ai tools for startups' failed (lowest: affiliate). Revising...
+2026-05-31 06:24:10,725 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:24:10,726 [INFO] agents.content_agent — Content Agent: revised 'best ai tools for startups' (1892 words)
+2026-05-31 06:24:12,390 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:24:12,391 [INFO] agents.quality_agent — Quality: best ai tools for startups — scores={'structure': 7, 'eeat': 8, 'seo': 6, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=False
+2026-05-31 06:24:12,391 [WARNING] seo_orchestrator — Quality gate: 'best ai tools for startups' rejected after revision (lowest: seo)
+2026-05-31 06:24:12,391 [INFO] seo_orchestrator — [2-4/10] Processing: 'ai seo tools for beginners' (7/8)
+2026-05-31 06:24:34,448 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:24:34,449 [INFO] agents.content_agent — Content Agent: generated 'ai seo tools for beginners' (1216 words, listicle)
+2026-05-31 06:24:35,938 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:24:35,939 [INFO] agents.quality_agent — Quality: ai seo tools for beginners — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 8}, passed=True
+2026-05-31 06:24:35,956 [INFO] agents.publisher_agent — Publisher: saved ai-seo-tools-for-beginners.md
+2026-05-31 06:24:35,957 [INFO] seo_orchestrator — [2-4/10] Processing: 'how to use ai for social media marketing' (8/8)
+2026-05-31 06:25:03,181 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:25:03,182 [INFO] agents.content_agent — Content Agent: generated 'how to use ai for social media marketing' (1518 words, tutorial)
+2026-05-31 06:25:05,133 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-31 06:25:05,134 [INFO] agents.quality_agent — Quality: how to use ai for social media marketing — scores={'structure': 8, 'eeat': 9, 'seo': 7, 'readability': 8, 'affiliate': 8, 'originality': 8}, passed=True
+2026-05-31 06:25:05,155 [INFO] agents.publisher_agent — Publisher: saved how-to-use-ai-for-social-media-marketing.md
+2026-05-31 06:25:05,156 [INFO] seo_orchestrator —       Published 6/8 articles (revised=3, rejected=2)
+2026-05-31 06:25:05,156 [INFO] agents.quality_agent — Quality log: {'date': '2026-05-31T06:25:05.156469+00:00', 'articles_generated': 8, 'articles_passed': 6, 'articles_revised': 3, 'articles_rejected': 2, 'avg_scores': {'structure': 7.9, 'eeat': 8.5, 'seo': 7.0, 'readability': 8.0, 'affiliate': 7.0, 'originality': 7.7}, 'rejected_keywords': ['surfer seo vs rytr', 'best ai tools for startups']}
+2026-05-31 06:25:05,367 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-05-31 06:25:05,368 [INFO] agents.publisher_agent — Publisher: total articles on site: 40
+2026-05-31 06:25:05,368 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-05-31 06:25:05,368 [WARNING] agents.monitor_agent — Monitor: 2 articles failed to write this run
+2026-05-31 06:25:06,811 [INFO] agents.monitor_agent — Site health: OK (200)
+2026-05-31 06:25:06,812 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 40
+2026-05-31 06:25:06,812 [INFO] seo_orchestrator — [5/5] Stats Agent: collecting metrics + sending weekly report...
+2026-05-31 06:25:06,812 [INFO] agents.stats_agent — Stats Agent: collecting weekly metrics...
+2026-05-31 06:25:07,183 [WARNING] agents.stats_agent — Kit stats fetch failed: 401 Client Error: Unauthorized for url: https://api.convertkit.com/v3/subscribers?api_secret=&sort_field=created_at
+2026-05-31 06:25:07,185 [INFO] agents.stats_agent — Stats Agent: snapshot saved (1 total entries)
+2026-05-31 06:25:08,418 [INFO] agents.stats_agent — Stats report sent to sutrafloworg@gmail.com
+2026-05-31 06:25:08,418 [INFO] seo_orchestrator — ============================================================
+2026-05-31 06:25:08,418 [INFO] seo_orchestrator — Pipeline complete. Published: 6 articles
+2026-05-31 06:25:08,418 [INFO] seo_orchestrator — ============================================================

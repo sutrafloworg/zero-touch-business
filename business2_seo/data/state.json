@@ -1,6 +1,6 @@
 {
   "last_run": "2026-03-22T05:43:11.376673+00:00",
-  "articles_published": 34,
+  "articles_published": 40,
   "keywords_processed": [
     "chatgpt vs claude for writing",
     "best ai seo tools 2026",
@@ -35,20 +35,25 @@
     "best ai tools for healthcare professionals",
     "ai tools for accountants",
     "best productivity apps with ai 2026",
-    "how to use ai for lead generation"
+    "how to use ai for lead generation",
+    "ai tools for hr professionals",
+    "best ai tools for teachers",
+    "ai tools for customer service",
+    "how to automate email marketing with ai",
+    "ai seo tools for beginners",
+    "how to use ai for social media marketing"
   ],
-  "consecutive_failures": 4,
+  "consecutive_failures": 5,
   "last_status": "PARTIAL",
   "pending_retry": [],
-  "total_articles_on_disk": 34,
-  "last_publish_run": "2026-05-27T06:25:28.761819+00:00",
+  "total_articles_on_disk": 40,
+  "last_publish_run": "2026-05-31T06:25:05.368025+00:00",
   "published_this_run": [
-    "best-ai-tools-for-e-commerce",
-    "writesonic-vs-rytr",
-    "how-to-do-keyword-research-with-ai",
-    "best-ai-tools-for-healthcare-professionals",
-    "ai-tools-for-accountants",
-    "best-productivity-apps-with-ai-2026",
-    "how-to-use-ai-for-lead-generation"
+    "ai-tools-for-hr-professionals",
+    "best-ai-tools-for-teachers",
+    "ai-tools-for-customer-service",
+    "how-to-automate-email-marketing-with-ai",
+    "ai-seo-tools-for-beginners",
+    "how-to-use-ai-for-social-media-marketing"
   ]
 }
