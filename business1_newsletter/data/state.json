@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-02T05:11:01.468015+00:00",
-  "issues_published": 4,
+  "last_run": "2026-06-02T11:14:22.410803+00:00",
+  "issues_published": 5,
   "consecutive_failures": 0,
   "last_published_urls": [
     "https://openai.com/index/designing-agents-to-resist-prompt-injection",
@@ -72,11 +72,21 @@
     "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
     "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
     "https://www.producthunt.com/products/promptlayer-2",
-    "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai"
+    "https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai",
+    "https://openai.com/index/codex-for-knowledge-work",
+    "https://www.producthunt.com/products/paste",
+    "https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6",
+    "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+    "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+    "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+    "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+    "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+    "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+    "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/"
   ],
-  "affiliate_rotation_index": 14,
+  "affiliate_rotation_index": 16,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "24385159"
+  "last_broadcast_id": "24388511"
 }

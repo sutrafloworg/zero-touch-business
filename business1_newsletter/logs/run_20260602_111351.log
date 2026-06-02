@@ -1,0 +1,29 @@
+2026-06-02 11:13:52,292 [INFO] orchestrator — ============================================================
+2026-06-02 11:13:52,292 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-06-02 11:13:52,293 [INFO] orchestrator — Timestamp: 2026-06-02T11:13:52.293015+00:00
+2026-06-02 11:13:52,293 [INFO] orchestrator — ============================================================
+2026-06-02 11:13:52,328 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-06-02 11:13:52,500 [INFO] agents.feed_agent —   TechCrunch AI: fetched 18 fresh items
+2026-06-02 11:13:53,126 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-06-02 11:13:53,719 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 3 fresh items
+2026-06-02 11:13:54,612 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-06-02 11:13:55,235 [INFO] agents.feed_agent —   Hacker News (Top): fetched 19 fresh items
+2026-06-02 11:13:55,856 [INFO] agents.feed_agent —   Product Hunt AI: fetched 30 fresh items
+2026-06-02 11:14:03,537 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: <unknown>:2:3549: not well-formed (invalid token)
+2026-06-02 11:14:04,868 [INFO] agents.feed_agent —   OpenAI Blog: fetched 10 fresh items
+2026-06-02 11:14:05,370 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 80 total
+2026-06-02 11:14:05,371 [INFO] orchestrator —       Got 10 items
+2026-06-02 11:14:05,371 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-06-02 11:14:05,372 [INFO] agents.content_agent — Generating newsletter with sponsors: Rytr, Notion
+2026-06-02 11:14:21,774 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-02 11:14:21,793 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'Claude's clipboard trick just changed my workflow'
+2026-06-02 11:14:21,793 [INFO] orchestrator —       Subject: 'Claude's clipboard trick just changed my workflow'
+2026-06-02 11:14:21,793 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-06-02 11:14:21,793 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-06-02 11:14:22,367 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-06-02T11:17:21+0000, ID=24388511
+2026-06-02 11:14:22,410 [INFO] orchestrator —       Broadcast ID: 24388511, Subscribers: 2
+2026-06-02 11:14:22,410 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-06-02 11:14:22,411 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 24388511
+2026-06-02 11:14:22,411 [INFO] orchestrator — ============================================================
+2026-06-02 11:14:22,411 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-06-02 11:14:22,411 [INFO] orchestrator — ============================================================
