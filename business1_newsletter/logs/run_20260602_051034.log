@@ -1,0 +1,30 @@
+2026-06-02 05:10:36,342 [INFO] orchestrator — ============================================================
+2026-06-02 05:10:36,342 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-06-02 05:10:36,342 [INFO] orchestrator — Timestamp: 2026-06-02T05:10:36.342789+00:00
+2026-06-02 05:10:36,342 [INFO] orchestrator — ============================================================
+2026-06-02 05:10:36,378 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-06-02 05:10:36,455 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-06-02 05:10:37,106 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-06-02 05:10:37,726 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 5 fresh items
+2026-06-02 05:10:38,502 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-06-02 05:10:39,286 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-06-02 05:10:39,977 [INFO] agents.feed_agent —   Product Hunt AI: fetched 30 fresh items
+2026-06-02 05:10:41,350 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: <unknown>:2:3549: not well-formed (invalid token)
+2026-06-02 05:10:42,588 [INFO] agents.feed_agent —   OpenAI Blog: fetched 14 fresh items
+2026-06-02 05:10:43,091 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 89 total
+2026-06-02 05:10:43,091 [INFO] orchestrator —       Got 10 items
+2026-06-02 05:10:43,091 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-06-02 05:10:43,092 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-06-02 05:11:00,923 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-02 05:11:00,942 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'OpenAI on AWS changes everything (for enterprises)'
+2026-06-02 05:11:00,942 [INFO] orchestrator —       Subject: 'OpenAI on AWS changes everything (for enterprises)'
+2026-06-02 05:11:00,942 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-06-02 05:11:00,942 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-06-02 05:11:01,418 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-06-02T05:14:00+0000, ID=24385159
+2026-06-02 05:11:01,467 [INFO] orchestrator —       Broadcast ID: 24385159, Subscribers: 2
+2026-06-02 05:11:01,467 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-06-02 05:11:01,468 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 24385159
+2026-06-02 05:11:02,555 [INFO] agents.monitor_agent — Alert email sent: [Weekly Report] AI Tools Weekly
+2026-06-02 05:11:02,555 [INFO] orchestrator — ============================================================
+2026-06-02 05:11:02,555 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-06-02 05:11:02,555 [INFO] orchestrator — ============================================================
