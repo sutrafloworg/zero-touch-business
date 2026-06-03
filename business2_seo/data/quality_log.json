@@ -92,5 +92,21 @@
       "surfer seo vs rytr",
       "best ai tools for startups"
     ]
+  },
+  {
+    "date": "2026-06-03T06:53:59.328142+00:00",
+    "articles_generated": 2,
+    "articles_passed": 2,
+    "articles_revised": 1,
+    "articles_rejected": 0,
+    "avg_scores": {
+      "structure": 8.0,
+      "eeat": 8.3,
+      "seo": 7.0,
+      "readability": 8.0,
+      "affiliate": 7.3,
+      "originality": 7.7
+    },
+    "rejected_keywords": []
   }
 ]

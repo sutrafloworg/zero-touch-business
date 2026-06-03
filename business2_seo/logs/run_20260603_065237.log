@@ -1,0 +1,40 @@
+2026-06-03 06:52:39,514 [INFO] seo_orchestrator — ============================================================
+2026-06-03 06:52:39,514 [INFO] seo_orchestrator — Starting SEO Site pipeline — AI Tools Insider
+2026-06-03 06:52:39,514 [INFO] seo_orchestrator — Timestamp: 2026-06-03T06:52:39.514869+00:00
+2026-06-03 06:52:39,514 [INFO] seo_orchestrator — ============================================================
+2026-06-03 06:52:39,549 [INFO] seo_orchestrator — [1/4] Keyword Agent: selecting next 8 keywords...
+2026-06-03 06:52:39,550 [INFO] agents.keyword_agent — Keyword Agent: 2 keywords selected for this run
+2026-06-03 06:52:39,551 [INFO] seo_orchestrator —       Selected: ['best ai writing tools free', 'ai tools for coaches and consultants']
+2026-06-03 06:52:39,567 [INFO] seo_orchestrator — [2-4/4] Processing: 'best ai writing tools free' (1/2)
+2026-06-03 06:53:03,866 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-03 06:53:03,892 [INFO] agents.content_agent — Content Agent: generated 'best ai writing tools free' (1370 words, listicle)
+2026-06-03 06:53:05,776 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-03 06:53:05,777 [INFO] agents.quality_agent — Quality: best ai writing tools free — scores={'structure': 8, 'eeat': 8, 'seo': 6, 'readability': 8, 'affiliate': 7, 'originality': 7}, passed=False
+2026-06-03 06:53:05,777 [INFO] seo_orchestrator — Quality gate: 'best ai writing tools free' failed (lowest: seo). Revising...
+2026-06-03 06:53:28,465 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-03 06:53:28,467 [INFO] agents.content_agent — Content Agent: revised 'best ai writing tools free' (1510 words)
+2026-06-03 06:53:30,478 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-03 06:53:30,479 [INFO] agents.quality_agent — Quality: best ai writing tools free — scores={'structure': 8, 'eeat': 8, 'seo': 7, 'readability': 8, 'affiliate': 7, 'originality': 8}, passed=True
+2026-06-03 06:53:30,479 [INFO] seo_orchestrator — Quality gate: 'best ai writing tools free' passed after revision
+2026-06-03 06:53:30,515 [INFO] agents.publisher_agent — Publisher: saved best-ai-writing-tools-free.md
+2026-06-03 06:53:30,516 [INFO] seo_orchestrator — [2-4/4] Processing: 'ai tools for coaches and consultants' (2/2)
+2026-06-03 06:53:56,808 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-03 06:53:56,809 [INFO] agents.content_agent — Content Agent: generated 'ai tools for coaches and consultants' (1526 words, listicle)
+2026-06-03 06:53:59,296 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-03 06:53:59,297 [INFO] agents.quality_agent — Quality: ai tools for coaches and consultants — scores={'structure': 8, 'eeat': 9, 'seo': 8, 'readability': 8, 'affiliate': 8, 'originality': 8}, passed=True
+2026-06-03 06:53:59,326 [INFO] agents.publisher_agent — Publisher: saved ai-tools-for-coaches-and-consultants.md
+2026-06-03 06:53:59,327 [INFO] seo_orchestrator —       Published 2/2 articles (revised=1, rejected=0)
+2026-06-03 06:53:59,328 [INFO] agents.quality_agent — Quality log: {'date': '2026-06-03T06:53:59.328142+00:00', 'articles_generated': 2, 'articles_passed': 2, 'articles_revised': 1, 'articles_rejected': 0, 'avg_scores': {'structure': 8.0, 'eeat': 8.3, 'seo': 7.0, 'readability': 8.0, 'affiliate': 7.3, 'originality': 7.7}, 'rejected_keywords': []}
+2026-06-03 06:53:59,502 [INFO] agents.publisher_agent — Google sitemap ping: 404
+2026-06-03 06:53:59,503 [INFO] agents.publisher_agent — Publisher: total articles on site: 42
+2026-06-03 06:53:59,503 [INFO] seo_orchestrator — [4/4] Monitor Agent: health checks...
+2026-06-03 06:53:59,504 [INFO] agents.monitor_agent — Monitor: all 2 articles confirmed written
+2026-06-03 06:53:59,660 [INFO] agents.monitor_agent — Site health: OK (200)
+2026-06-03 06:53:59,662 [INFO] agents.monitor_agent — Monitor: total articles in content dir: 42
+2026-06-03 06:53:59,662 [INFO] seo_orchestrator — [5/5] Stats Agent: collecting metrics + sending weekly report...
+2026-06-03 06:53:59,662 [INFO] agents.stats_agent — Stats Agent: collecting weekly metrics...
+2026-06-03 06:54:00,867 [INFO] agents.stats_agent — Stats Agent: snapshot saved (1 total entries)
+2026-06-03 06:54:02,227 [INFO] agents.stats_agent — Stats report sent to sutrafloworg@gmail.com
+2026-06-03 06:54:02,227 [INFO] seo_orchestrator — ============================================================
+2026-06-03 06:54:02,227 [INFO] seo_orchestrator — Pipeline complete. Published: 2 articles
+2026-06-03 06:54:02,227 [INFO] seo_orchestrator — ============================================================
