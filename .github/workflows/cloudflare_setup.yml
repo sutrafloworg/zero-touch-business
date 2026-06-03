@@ -25,6 +25,14 @@ on:
         description: "Email that receives forwards (default: sutrafloworg@gmail.com)"
         required: false
         default: "sutrafloworg@gmail.com"
+      skip_routing:
+        description: "Skip Cloudflare Email Routing setup (use when API token lacks Email Routing permission). Outbound still works via Reply-To header."
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
 
 permissions:
   contents: read
@@ -53,7 +61,12 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         working-directory: business3_local_seo
         run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.skip_routing }}" = "true" ]; then
+            ARGS="--skip-routing"
+          fi
           python cloudflare_setup.py \
             --records '${{ github.event.inputs.resend_records }}' \
             --alias '${{ github.event.inputs.alias }}' \
-            --forward-to '${{ github.event.inputs.forward_to }}'
+            --forward-to '${{ github.event.inputs.forward_to }}' \
+            $ARGS

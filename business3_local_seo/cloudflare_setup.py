@@ -192,6 +192,10 @@ def main():
                         help="Local part of the alias (default: sentinel → sentinel@sutraflow.org)")
     parser.add_argument("--forward-to", default=FORWARD_TO,
                         help=f"Where to forward replies (default: {FORWARD_TO})")
+    parser.add_argument("--skip-routing", action="store_true",
+                        help="Skip Cloudflare Email Routing setup. Useful when the API "
+                             "token doesn't have Email Routing permission. Outbound email "
+                             "still works because we set Reply-To to Gmail.")
     args = parser.parse_args()
 
     try:
@@ -203,14 +207,33 @@ def main():
     logger.info(f"=== Configuring {DOMAIN} ===")
     zone_id = get_zone_id()
 
-    logger.info("--- Step 1: Email Routing ---")
-    
-    logger.info("--- Step 2: Resend DNS records ---")
+    # Step 1: DNS records (highest priority — needed for outbound email)
+    logger.info("--- Step 1: Resend DNS records ---")
     configure_resend_dns(zone_id, records)
 
+    # Step 2: Email Routing (optional — only needed for INBOUND replies)
+    # If the API token lacks Email Routing permission, we skip it gracefully.
+    # Outbound emails set Reply-To to the Gmail directly, so replies still work.
+    if args.skip_routing:
+        logger.info("--- Step 2: Email Routing — SKIPPED (--skip-routing) ---")
+        logger.info(f"Replies to sentinel@{DOMAIN} will NOT be delivered. "
+                    f"All Reply-To headers point to your Gmail directly, so this is fine "
+                    f"for outbound-only setup.")
+    else:
+        logger.info("--- Step 2: Email Routing ---")
+        try:
+            enable_email_routing(zone_id)
+            add_destination_address(args.forward_to)
+            time.sleep(2)
+            add_routing_rule(zone_id, args.alias, args.forward_to)
+        except SystemExit:
+            raise
+        except Exception as e:
+            logger.warning(f"Email Routing setup failed (likely token permission issue): {e}")
+            logger.warning("This is non-fatal — outbound email still works via Reply-To. "
+                           "Add 'Zone.Email Routing: Edit' to your Cloudflare API token if you want inbound.")
+
     logger.info("=== Done ===")
-    logger.info(f"After Cloudflare's verification email is clicked, replies to "
-                f"{args.alias}@{DOMAIN} will forward to {args.forward_to}.")
 
 
 if __name__ == "__main__":

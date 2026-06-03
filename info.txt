@@ -48,3 +48,13 @@ YOUR TODO (one-time setup, in priority order)
 Business-3 (LocalRank):
   Run manually: GitHub → Actions → "LocalRank Sentinel — Weekly Scan" → Run workflow
   Config: business3_local_seo/data/cities.json (currently 12 cities)
+  ===================================================
+  
+  Replaced the generic "built by a solo developer" footer with a real founder bio: your name (Samik Sarkar), location, what you actually do, your real email, and a "reply for refund" promise. There's a placeholder circle with your initials where you can drop a real photo later (save as static/sentinel/founder.jpg).
+
+Next things only you can do:
+  - Drop a real photo at business2_seo/hugo_site/static/sentinel/founder.jpg and swap the "SS" placeholder circle in the
+   landing page for <img src="/sentinel/founder.jpg" …>
+  - Watch the next Monday scan in GitHub Actions to confirm ValueSERP starts getting used
+  - If you want the sender-domain switch (Resend instead of Gmail): sign up at resend.com, add RESEND_API_KEY to GitHub
+  Secrets, then manually run the Cloudflare Email Setup workflow with the DNS records Resend gives you
