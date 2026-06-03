@@ -10,9 +10,11 @@ Execution order:
 Error philosophy: catch everything, log it, self-correct where possible,
 alert the owner only when human intervention is genuinely needed.
 """
+import json
 import logging
+import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 # ── Logging Setup ──────────────────────────────────────────────────────────────
@@ -48,6 +50,42 @@ def validate_config() -> list[str]:
     return missing
 
 
+def already_ran_this_week(min_days_between_runs: int = 5) -> bool:
+    """Return True if the newsletter has been sent in the last `min_days_between_runs` days.
+
+    GitHub Actions cron schedules are unreliable — they can silently delay or skip
+    runs during high load. The workflow has a primary trigger on Tuesday plus backup
+    triggers on Wed/Thu. This guard ensures we don't send 2-3 newsletters that week
+    if multiple backups fire.
+
+    The user can override by setting FORCE=true in the workflow_dispatch inputs.
+    """
+    if os.environ.get("FORCE", "").lower() in ("true", "1", "yes"):
+        logger.info("FORCE env var set — skipping dedup check")
+        return False
+
+    try:
+        with open(config.STATE_FILE, encoding="utf-8") as f:
+            state = json.load(f)
+        last_run = state.get("last_run")
+        if not last_run:
+            return False
+        last_run_dt = datetime.fromisoformat(last_run.replace("Z", "+00:00"))
+        # Make sure it's timezone-aware
+        if last_run_dt.tzinfo is None:
+            last_run_dt = last_run_dt.replace(tzinfo=timezone.utc)
+        age = datetime.now(timezone.utc) - last_run_dt
+        if age < timedelta(days=min_days_between_runs):
+            logger.info(
+                f"Last run was {age.days}d {age.seconds//3600}h ago — within "
+                f"{min_days_between_runs}d guard. Skipping to avoid duplicate send."
+            )
+            return True
+    except (FileNotFoundError, json.JSONDecodeError, ValueError) as e:
+        logger.warning(f"Dedup check could not read state ({e}) — running anyway")
+    return False
+
+
 def run_pipeline() -> bool:
     """
     Run the complete newsletter pipeline.
@@ -57,6 +95,13 @@ def run_pipeline() -> bool:
     logger.info(f"Starting {config.NEWSLETTER_NAME} pipeline")
     logger.info(f"Timestamp: {datetime.now(timezone.utc).isoformat()}")
     logger.info("=" * 60)
+
+    # ── Weekly dedup guard ─────────────────────────────────────────────────────
+    # Backup cron triggers (Wed/Thu) call this same workflow. Skip if we already
+    # ran in the past 5 days, unless FORCE=true was set on workflow_dispatch.
+    if already_ran_this_week():
+        logger.info("Already ran this week — exiting cleanly (this is not a failure)")
+        return True
 
     # ── Pre-flight check ───────────────────────────────────────────────────────
     missing = validate_config()

@@ -1,15 +1,26 @@
 name: Newsletter Weekly Automation
 
 on:
-  # Runs every Tuesday at 07:00 UTC (9am CET, 2am EST)
+  # Primary trigger: Tuesday 07:00 UTC (9am CET, 2am EST).
+  # Backup trigger: Wednesday + Thursday 07:00 UTC — GitHub Actions cron
+  # schedules can silently skip during system load; the backups ensure we
+  # never miss a week. The orchestrator's state.json contains a check
+  # against `last_run_iso` to prevent sending twice in the same calendar week.
   schedule:
-    - cron: "0 7 * * 2"
+    - cron: "0 7 * * 2"   # Tuesday  07:00 UTC
+    - cron: "0 7 * * 3"   # Wednesday 07:00 UTC (backup if Tuesday missed)
+    - cron: "0 7 * * 4"   # Thursday  07:00 UTC (backup if Wed also missed)
 
   # Also allows manual trigger from GitHub Actions UI for testing
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Dry run (generate content but don't send)"
+        required: false
+        default: "false"
+        type: boolean
+      force:
+        description: "Force send even if state.json says this week is done"
         required: false
         default: "false"
         type: boolean
@@ -48,6 +59,7 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DRY_RUN: ${{ inputs.dry_run }}
+          FORCE: ${{ inputs.force }}
         working-directory: business1_newsletter
         run: python orchestrator.py
 

@@ -46,6 +46,11 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ARTICLES_PER_RUN: ${{ inputs.articles_count || '8' }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          # Kit (ConvertKit) credentials for stats_agent — without these the
+          # Kit API call returns 401 (api_secret URL param ends up empty).
+          KIT_API_SECRET: ${{ secrets.KIT_API_SECRET }}
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          KIT_FORM_ID: ${{ secrets.KIT_FORM_ID }}
         working-directory: business2_seo
         run: python orchestrator.py
 
