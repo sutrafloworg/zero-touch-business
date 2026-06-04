@@ -5021,7 +5021,9 @@
         ],
         "scan_date": "2026-04-03T19:57:52.551268+00:00",
         "weeks_tracked": 2,
-        "insights": {}
+        "insights": {},
+        "_confidence_score": 4,
+        "_scan_date": "June 04, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893774+00:00",
@@ -5040,7 +5042,9 @@
           "type": "followup_3",
           "sent_at": "2026-06-01T18:46:19.036076+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-06-04T16:27:03.117782+00:00",
+      "free_report_email": "jtfastresponseplumbing@gmail.com"
     },
     {
       "id": "ffc2814fd383",
@@ -7799,12 +7803,16 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_confidence_score": 10,
+        "_scan_date": "June 04, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-01T18:46:17.515270+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-06-04T16:27:22.085797+00:00",
+      "free_report_email": "info@kimberlysmiles.com"
     },
     {
       "id": "7c5e38e633fc",
@@ -10028,12 +10036,16 @@
             "category_avg_rating": 5.0,
             "position_summary": "above average"
           }
-        }
+        },
+        "_confidence_score": 10,
+        "_scan_date": "June 04, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-01T18:46:17.515492+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-06-04T16:26:47.521052+00:00",
+      "free_report_email": "mail-service@platform.moxiworks.com"
     },
     {
       "id": "a6af177c9daf",
