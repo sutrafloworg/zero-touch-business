@@ -1,0 +1,29 @@
+2026-06-09 10:31:16,458 [INFO] orchestrator — ============================================================
+2026-06-09 10:31:16,458 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-06-09 10:31:16,458 [INFO] orchestrator — Timestamp: 2026-06-09T10:31:16.458485+00:00
+2026-06-09 10:31:16,458 [INFO] orchestrator — ============================================================
+2026-06-09 10:31:16,494 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-06-09 10:31:16,696 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-06-09 10:31:17,371 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-06-09 10:31:17,979 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 4 fresh items
+2026-06-09 10:31:18,708 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-06-09 10:31:21,551 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-06-09 10:31:22,237 [INFO] agents.feed_agent —   Product Hunt AI: fetched 33 fresh items
+2026-06-09 10:31:28,865 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-06-09 10:31:30,271 [INFO] agents.feed_agent —   OpenAI Blog: fetched 11 fresh items
+2026-06-09 10:31:30,773 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 88 total
+2026-06-09 10:31:30,774 [INFO] orchestrator —       Got 10 items
+2026-06-09 10:31:30,774 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-06-09 10:31:30,774 [INFO] agents.content_agent — Generating newsletter with sponsors: Writesonic, Rytr
+2026-06-09 10:31:47,002 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-09 10:31:47,025 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'OpenAI's IPO Filing Changes Everything (Here's Why)'
+2026-06-09 10:31:47,025 [INFO] orchestrator —       Subject: 'OpenAI's IPO Filing Changes Everything (Here's Why)'
+2026-06-09 10:31:47,025 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-06-09 10:31:47,025 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-06-09 10:31:47,526 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-06-09T10:34:47+0000, ID=24489255
+2026-06-09 10:31:47,572 [INFO] orchestrator —       Broadcast ID: 24489255, Subscribers: 2
+2026-06-09 10:31:47,572 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-06-09 10:31:47,573 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 24489255
+2026-06-09 10:31:47,573 [INFO] orchestrator — ============================================================
+2026-06-09 10:31:47,573 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-06-09 10:31:47,573 [INFO] orchestrator — ============================================================

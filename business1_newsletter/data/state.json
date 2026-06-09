@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-06-02T11:14:22.410803+00:00",
-  "issues_published": 5,
+  "last_run": "2026-06-09T10:31:47.572957+00:00",
+  "issues_published": 6,
   "consecutive_failures": 0,
   "last_published_urls": [
     "https://openai.com/index/designing-agents-to-resist-prompt-injection",
@@ -82,11 +82,21 @@
     "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
     "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
     "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-    "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/"
+    "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+    "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+    "https://openai.com/index/endava-frontiers",
+    "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+    "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+    "https://openai.com/index/economic-research-exchange",
+    "https://www.producthunt.com/products/agentcad",
+    "https://www.producthunt.com/products/agent-browser-shield",
+    "https://www.producthunt.com/products/taskgpt-2",
+    "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
+    "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/"
   ],
-  "affiliate_rotation_index": 16,
+  "affiliate_rotation_index": 18,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "24388511"
+  "last_broadcast_id": "24489255"
 }
