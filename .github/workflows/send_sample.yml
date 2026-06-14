@@ -1,0 +1,33 @@
+name: Send Sample Report (On Demand)
+
+# Emails a sample audit PDF to a chosen address using the repo secrets.
+# Doubles as a live test of the Resend -> Gmail fallback: check this run's log
+# for "Resend: sent" OR "Resend: 429 ... falling back" + "Gmail SMTP: sent".
+
+on:
+  workflow_dispatch:
+    inputs:
+      recipient:
+        description: "Where to email the sample PDF"
+        required: false
+        default: "sutrafloworg@gmail.com"
+
+jobs:
+  send-sample:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r business3_local_seo/requirements.txt
+      - name: Send sample report
+        working-directory: business3_local_seo
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          RECIPIENT: ${{ github.event.inputs.recipient }}
+        run: python send_sample.py

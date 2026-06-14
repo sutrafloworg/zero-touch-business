@@ -46,37 +46,41 @@ DETECTED SIGNALS (machine-computed facts only):
 {reasons}
 {insights_text}
 
-== WRITE THE FOLLOWING SECTIONS (plain text, no markdown) ==
+== WRITE THE FOLLOWING SECTIONS ==
+Use the EXACT uppercase section labels below — these are required for the PDF renderer to parse your output.
+Each label MUST appear on its own line, followed by the section content. Plain text only, no markdown, no asterisks.
 
-SECTION 1 — WHAT OUR SCAN FOUND (2-3 sentences)
-State the rank drop as a fact. State 1-2 specific numbers from the data above that are notable.
+WHAT HAPPENED
+(2-3 sentences) State the rank drop as a fact. State 1-2 specific numbers from the data above that are notable.
 Example: "Our scan on [date] recorded {business_name} at position #{curr_rank}, down from #{prev_rank} the prior week.
 [Insert one specific competitor fact or review gap if data exists]."
 
-SECTION 2 — PROBABLE CAUSES (2-3 bullet items, plain text dashes)
-Label each: [HIGH CONFIDENCE], [MEDIUM CONFIDENCE], or [LOW CONFIDENCE] based on how directly the data supports it.
-Only include causes that map to a detected signal above. Do not add generic SEO theory.
+WHY
+(2-3 bullet items, plain text dashes) Label each: [HIGH CONFIDENCE], [MEDIUM CONFIDENCE], or [LOW CONFIDENCE]
+based on how directly the data supports it. Only include causes that map to a detected signal above.
 Format: "- [HIGH CONFIDENCE] Competitor X gained N reviews in N days while your profile gained 0."
 
-SECTION 3 — PRIORITY ACTIONS (3 items max, only if data supports them)
-For each action include: what to do, why (cite the specific data signal), estimated effort (Low/Med/High),
-and expected impact (Low/Med/High).
+QUICK WINS
+(3 items max, only if data supports them) For each action include: what to do, why (cite the specific data signal),
+estimated effort (Low/Med/High), and expected impact (Low/Med/High).
 Format: "Action: [specific action]. Why now: [cite the signal]. Effort: Low. Expected impact: High."
 Be specific to this business type — a plumber gets different advice than a law firm.
 
 {insights_section}
 
-SECTION 4 — DO THIS TODAY (ready-to-use assets, only include if review gap detected)
-If the review velocity data shows a gap, write:
-a) 2 SMS review request templates personalized for a {category} in {city} (under 160 chars each)
-b) 1 Google Business Profile post draft (2-3 sentences, action-oriented)
-If no review gap data exists, omit this section entirely.
+YOUR TREND
+(2-3 sentences) Summarize the rank trajectory over the period — improving, declining, or volatile. Cite the trend data.
+If only 1 week of data, write: "Only one week of data — trend cannot be established yet."
 
-SECTION 5 — CONFIDENCE NOTE (1 sentence)
-State the confidence score and what it means. If confidence < 7, flag that the drop may not be sustained
+COMPETITOR TO WATCH
+(2-3 sentences) Name the fastest-climbing competitor from the data if available, with their rank improvement and review gain.
+If no competitor data, write: "Insufficient competitor data for this period."
+
+YOUR STANDING
+(1-2 sentences) State the confidence score and what it means. If confidence < 7, flag that the drop may not be sustained
 and recommend waiting for next week's scan before taking major action.
 
-Tone: direct, like a trusted analyst — not a salesperson, not a cheerleader. Keep the whole response under 400 words."""
+Tone: direct, like a trusted analyst — not a salesperson, not a cheerleader. Keep the whole response under 500 words."""
 
 
 # Banned phrases that indicate overconfident AI generation — validated post-generation
@@ -433,12 +437,16 @@ class ReportAgent:
         reports_dir: Path,
         model: str = "claude-haiku-4-5-20251001",
         max_retries: int = 3,
+        rankings_file: Path | None = None,
     ):
         self.client = anthropic.Anthropic(api_key=api_key)
         self.model = model
         self.reports_dir = reports_dir
         self.reports_dir.mkdir(exist_ok=True)
         self.max_retries = max_retries
+        # Local Pack history powers the competitor leaderboard. Defaults to the
+        # standard data/ location relative to reports/ when not passed explicitly.
+        self.rankings_file = rankings_file or (Path(reports_dir).parent / "data" / "rankings_history.json")
 
     def _call_claude(self, prompt: str) -> str:
         for attempt in range(self.max_retries):
@@ -506,7 +514,10 @@ class ReportAgent:
         # Store confidence on alert for PDF rendering
         alert["_confidence_score"] = confidence_score
         alert["_scan_date"] = scan_date
-        return self._build_pdf(alert, audit_text, city, state_raw, category)
+        # Compact, never-blank renderer (see agents/report_pdf.py). The old
+        # _build_pdf is retained below for reference but no longer used.
+        from agents.report_pdf import build_report_pdf
+        return build_report_pdf(self, alert, audit_text, city, state_raw, category)
 
     # ── PDF color constants ────────────────────────────────────────────────
     BLACK = (15, 15, 15)
@@ -650,6 +661,34 @@ class ReportAgent:
         self._page_header(pdf, w, "Executive Summary", report_date)
 
         sections = self._parse_audit_sections(audit_text)
+
+        # SAFETY NET: if parser found NO sections (prompt mismatch or Claude
+        # used different headers), dump the entire audit_text onto the page
+        # so the customer still gets the analysis. Without this, pages render BLANK.
+        if not sections and audit_text.strip():
+            logger.warning(f"Parser found no sections — falling back to raw audit text dump")
+            pdf.ln(4)
+            pdf.set_font("Helvetica", "B", 12)
+            pdf.set_text_color(*self.BLACK)
+            pdf.cell(w, 8, "Audit Analysis", new_x="LMARGIN", new_y="NEXT")
+            pdf.ln(2)
+            pdf.set_font("Helvetica", "", 10)
+            pdf.set_text_color(*self.DARK_GRAY)
+            for paragraph in audit_text.strip().split("\n"):
+                line = paragraph.strip()
+                if not line:
+                    pdf.ln(2)
+                    continue
+                # Bold any all-caps line as a section header
+                if line.isupper() and len(line) < 80:
+                    pdf.set_font("Helvetica", "B", 10)
+                    pdf.set_text_color(*self.BLACK)
+                    pdf.multi_cell(w, 6, line, new_x="LMARGIN", new_y="NEXT")
+                    pdf.set_font("Helvetica", "", 10)
+                    pdf.set_text_color(*self.DARK_GRAY)
+                else:
+                    pdf.multi_cell(w, 5.5, line, new_x="LMARGIN", new_y="NEXT")
+            pdf.ln(4)
 
         # What Happened
         if "what happened" in sections:
