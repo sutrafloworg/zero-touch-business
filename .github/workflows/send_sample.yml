@@ -11,6 +11,10 @@ on:
         description: "Where to email the sample PDF"
         required: false
         default: "sutrafloworg@gmail.com"
+      variant:
+        description: "typical | detailed | both"
+        required: false
+        default: "detailed"
 
 jobs:
   send-sample:
@@ -30,4 +34,5 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
           RECIPIENT: ${{ github.event.inputs.recipient }}
+          SAMPLE_VARIANT: ${{ github.event.inputs.variant }}
         run: python send_sample.py
