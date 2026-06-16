@@ -1,0 +1,29 @@
+2026-06-16 12:08:55,945 [INFO] orchestrator — ============================================================
+2026-06-16 12:08:55,945 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-06-16 12:08:55,946 [INFO] orchestrator — Timestamp: 2026-06-16T12:08:55.945996+00:00
+2026-06-16 12:08:55,946 [INFO] orchestrator — ============================================================
+2026-06-16 12:08:55,980 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-06-16 12:08:56,070 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-06-16 12:08:56,772 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-06-16 12:08:57,384 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 3 fresh items
+2026-06-16 12:08:58,155 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-06-16 12:08:59,783 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-06-16 12:09:00,458 [INFO] agents.feed_agent —   Product Hunt AI: fetched 37 fresh items
+2026-06-16 12:09:03,955 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-06-16 12:09:05,396 [INFO] agents.feed_agent —   OpenAI Blog: fetched 10 fresh items
+2026-06-16 12:09:05,899 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 90 total
+2026-06-16 12:09:05,900 [INFO] orchestrator —       Got 10 items
+2026-06-16 12:09:05,900 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-06-16 12:09:05,900 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-06-16 12:09:22,411 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-16 12:09:22,434 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'OpenAI's hiring spree (and what it means for you)'
+2026-06-16 12:09:22,434 [INFO] orchestrator —       Subject: 'OpenAI's hiring spree (and what it means for you)'
+2026-06-16 12:09:22,434 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-06-16 12:09:22,434 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-06-16 12:09:22,996 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-06-16T12:12:22+0000, ID=24588447
+2026-06-16 12:09:23,046 [INFO] orchestrator —       Broadcast ID: 24588447, Subscribers: 2
+2026-06-16 12:09:23,046 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-06-16 12:09:23,046 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 24588447
+2026-06-16 12:09:23,047 [INFO] orchestrator — ============================================================
+2026-06-16 12:09:23,047 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-06-16 12:09:23,047 [INFO] orchestrator — ============================================================
