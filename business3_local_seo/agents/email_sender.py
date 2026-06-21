@@ -170,9 +170,18 @@ def send_email(
     you pass them in via `headers`.
     """
     if _have_resend():
-        return _send_via_resend(
+        if _send_via_resend(
             to_email=to_email, subject=subject, html=html, plain=plain,
             from_name=from_name, headers=headers, pdf_path=pdf_path,
+        ):
+            return True
+        # AUTONOMY: Resend can fail mid-run — most commonly the free-tier
+        # 100/email/day quota (HTTP 429), but also transient 5xx. Rather than
+        # silently dropping the message (which previously stalled report
+        # delivery and outreach), fall back to Gmail SMTP for this send.
+        logger.warning(
+            f"Resend send to {to_email} failed (quota or transient error) -- "
+            "falling back to Gmail SMTP."
         )
     return _send_via_gmail(
         to_email=to_email, subject=subject, html=html, plain=plain,

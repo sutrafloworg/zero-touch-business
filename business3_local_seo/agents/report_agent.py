@@ -478,6 +478,34 @@ class ReportAgent:
         reasons_text = "\n".join(f"- {r}" for r in alert.get("reasons", []))
         insights_text, insights_section = _format_insights_for_prompt(alert)
 
+        # Rich analytics mined from the full Local Pack history. Works even when
+        # alert["insights"] is empty (the common case), so the AI gets real
+        # numbers and the renderer gets a full data bundle. Attached to the alert
+        # for report_pdf to reuse without recomputing.
+        analytics = {}
+        try:
+            from agents.report_analytics import compute_analytics, summarize_for_prompt
+            analytics = compute_analytics(alert, self.rankings_file)
+            alert["_analytics"] = analytics
+            measured = summarize_for_prompt(analytics)
+            if measured:
+                insights_text = (insights_text + "\n" + measured).strip() if insights_text else measured
+            comps = analytics.get("competitors") or []
+            if comps:
+                lb = "TOP LOCAL PACK (measured, current scan): " + "; ".join(
+                    f"#{c['rank']} {c['name']} ({c['reviews']} reviews, {c['rating']} stars)"
+                    for c in comps[:5])
+                insights_text = (insights_text + "\n" + lb).strip()
+            # The audit is genuinely better-supported now; reflect that in confidence.
+            if analytics.get("rank_trend"):
+                confidence_score = max(confidence_score, 7)
+            if analytics.get("benchmarks"):
+                confidence_score = min(confidence_score + 1, 10)
+            if analytics.get("fastest_climber"):
+                confidence_score = min(confidence_score + 1, 10)
+        except Exception as e:  # noqa: BLE001
+            logger.warning(f"Report Agent: analytics unavailable for {alert.get('business_name')}: {e}")
+
         prompt = AUDIT_PROMPT.format(
             business_name=alert["business_name"],
             category=category,
@@ -508,8 +536,13 @@ class ReportAgent:
                     audit_text = audit_text.replace(phrase, "likely " + phrase.split()[-1] if phrase.split() else phrase)
             audit_text = _sanitize_for_pdf(audit_text)
         except Exception as e:
-            logger.error(f"Report Agent: Claude failed for {alert['business_name']}: {e}")
-            return None
+            # AUTONOMY: never fail a (possibly paid) report just because the AI
+            # call errored. The renderer builds a complete, data-rich report from
+            # the analytics bundle alone, so degrade to a data-only audit instead
+            # of returning nothing.
+            logger.error(f"Report Agent: Claude failed for {alert['business_name']}: {e}. "
+                         "Falling back to data-only report.")
+            audit_text = ""
 
         # Store confidence on alert for PDF rendering
         alert["_confidence_score"] = confidence_score
@@ -517,7 +550,11 @@ class ReportAgent:
         # Compact, never-blank renderer (see agents/report_pdf.py). The old
         # _build_pdf is retained below for reference but no longer used.
         from agents.report_pdf import build_report_pdf
-        return build_report_pdf(self, alert, audit_text, city, state_raw, category)
+        try:
+            return build_report_pdf(self, alert, audit_text, city, state_raw, category)
+        except Exception as e:  # noqa: BLE001
+            logger.error(f"Report Agent: PDF build failed for {alert.get('business_name')}: {e}")
+            return None
 
     # ── PDF color constants ────────────────────────────────────────────────
     BLACK = (15, 15, 15)
