@@ -13786,12 +13786,537 @@
             "category_avg_rating": 4.4,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 12.0,
+          "n_snapshots": 8,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 12
+            },
+            {
+              "date": "May 19",
+              "rank": 8
+            },
+            {
+              "date": "May 25",
+              "rank": 16
+            },
+            {
+              "date": "Jun 01",
+              "rank": 9
+            },
+            {
+              "date": "Jun 08",
+              "rank": 8
+            },
+            {
+              "date": "Jun 15",
+              "rank": 15
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 18
+            },
+            {
+              "date": "May 19",
+              "reviews": 18
+            },
+            {
+              "date": "May 25",
+              "reviews": 18
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 18
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 18
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 18
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              12,
+              8,
+              16,
+              9,
+              8,
+              15
+            ],
+            "dates": [
+              "Mar 23",
+              "May 19",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15"
+            ],
+            "direction": "declining",
+            "best_rank": 8,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 12.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUVC0U-i5woARJn5BfN9v2O4"
+            },
+            {
+              "rank": 2,
+              "name": "Pezzini Luxury Homes",
+              "rating": 4.9,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJH8TTyZW-woARuJ3mC6r5Dms"
+            },
+            {
+              "rank": 3,
+              "name": "Solomon Property Group | Luxury Los Angeles Real Estate Team",
+              "rating": 4.6,
+              "reviews": 33,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJiXLleqC8woARwIkpL3DXCHU"
+            },
+            {
+              "rank": 4,
+              "name": "Grace Globus",
+              "rating": 4.9,
+              "reviews": 115,
+              "review_velocity": -0.42,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJOZSwofi7woARNbioX-Q8kEw"
+            },
+            {
+              "rank": 5,
+              "name": "Carrie Eckert Greater Los Angeles Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJeftps0HBwoARWuNSEN5i0R0"
+            },
+            {
+              "rank": 6,
+              "name": "Leslie Romenesko, Luxury Real Estate at Compass",
+              "rating": 5.0,
+              "reviews": 8,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy5RPq72-woAROZfjDQa9Ds4"
+            },
+            {
+              "rank": 7,
+              "name": "Resident Group | Luxury Real Estate",
+              "rating": 4.6,
+              "reviews": 20,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJtRbrFJ29woARZQlzWehCZO8"
+            },
+            {
+              "rank": 8,
+              "name": "Keyes Real Estate",
+              "rating": 4.9,
+              "reviews": 209,
+              "review_velocity": -0.33,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJDxLfE_i7woAR0wWk71od210"
+            },
+            {
+              "rank": 9,
+              "name": "Rodeo Realty",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": -0.08,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJg_7RYYy7woAR7I05VBepUZM"
+            },
+            {
+              "rank": 10,
+              "name": "L34 Group",
+              "rating": 5.0,
+              "reviews": 157,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJ___PerLAwoARtyrhtKFEG00"
+            },
+            {
+              "rank": 11,
+              "name": "Aspire Los Angeles",
+              "rating": 4.9,
+              "reviews": 25,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU1WlqbTHwoAR0UvRX_ChR58"
+            },
+            {
+              "rank": 12,
+              "name": "ARIA Properties",
+              "rating": 4.9,
+              "reviews": 101,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ_ZdEaJGxwoARfbr7bz9aCAk"
+            },
+            {
+              "rank": 13,
+              "name": "Angela Bond Group | Los Angeles Realtor @ KW Larchmont",
+              "rating": 4.9,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNxehrcC4woARBI3nMVbJXbQ"
+            },
+            {
+              "rank": 14,
+              "name": "Monica Der",
+              "rating": 5.0,
+              "reviews": 266,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJkxlpFJG5woAR_zfEmVYOHUE"
+            },
+            {
+              "rank": 15,
+              "name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJJSPGtAi7woARIobkpy_kqAI"
+            },
+            {
+              "rank": 16,
+              "name": "The Local Real Estate Group (formerly C+K) | Compass",
+              "rating": 4.6,
+              "reviews": 64,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJcycNBNvAwoARpTihO7EEE3Q"
+            },
+            {
+              "rank": 17,
+              "name": "Anne Loveland, Realtor Loveland Carr Group Hancock Park Real Estate Agents",
+              "rating": 4.9,
+              "reviews": 45,
+              "review_velocity": -0.38,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ0XEidse4woARaR5kO7XWJKo"
+            },
+            {
+              "rank": 18,
+              "name": "Sharon Tay - Los Angeles Luxury Real Estate Agent | The Altman Brothers Team | Douglas Elliman| DRE #02134774",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJGyoXx4m5faER5YOfL-peykM"
+            },
+            {
+              "rank": 19,
+              "name": "Hollywood Estates",
+              "rating": 4.8,
+              "reviews": 43,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq7vszP67woARVgq_Wq2a6lE"
+            },
+            {
+              "rank": 20,
+              "name": "Glaser Group | Los Angeles Multifamily Real Estate Broker",
+              "rating": 5.0,
+              "reviews": 112,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Commercial real estate agency",
+              "_key": "ChIJFZekZ5WZwoARlQnLlQPuYp4"
+            }
+          ],
+          "subject": {
+            "rank": 15,
+            "name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+            "rating": 5.0,
+            "reviews": 18,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJJSPGtAi7woARIobkpy_kqAI"
+          },
+          "benchmarks": {
+            "avg_rating": 4.89,
+            "avg_reviews": 65,
+            "median_reviews": 33,
+            "typical_reviews": 33,
+            "skewed": true,
+            "your_reviews": 18,
+            "your_rating": 5.0,
+            "reviews_percentile": 30,
+            "pack_size": 20,
+            "top_reviews": 266
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUVC0U-i5woARJn5BfN9v2O4",
+              "rank_delta": 17,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Pezzini Luxury Homes",
+              "rating": 4.9,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJH8TTyZW-woARuJ3mC6r5Dms",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "Solomon Property Group | Luxury Los Angeles Real Estate Team",
+              "rating": 4.6,
+              "reviews": 33,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJiXLleqC8woARwIkpL3DXCHU",
+              "rank_delta": 2,
+              "review_gain": -2
+            },
+            {
+              "rank": 4,
+              "name": "Grace Globus",
+              "rating": 4.9,
+              "reviews": 115,
+              "review_velocity": -0.42,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJOZSwofi7woARNbioX-Q8kEw",
+              "rank_delta": 16,
+              "review_gain": -5
+            },
+            {
+              "rank": 5,
+              "name": "Carrie Eckert Greater Los Angeles Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJeftps0HBwoARWuNSEN5i0R0",
+              "rank_delta": 4,
+              "review_gain": 0
+            },
+            {
+              "rank": 6,
+              "name": "Leslie Romenesko, Luxury Real Estate at Compass",
+              "rating": 5.0,
+              "reviews": 8,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy5RPq72-woAROZfjDQa9Ds4",
+              "rank_delta": 10,
+              "review_gain": 4
+            },
+            {
+              "rank": 7,
+              "name": "Resident Group | Luxury Real Estate",
+              "rating": 4.6,
+              "reviews": 20,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJtRbrFJ29woARZQlzWehCZO8",
+              "rank_delta": 3,
+              "review_gain": 7
+            },
+            {
+              "rank": 8,
+              "name": "Keyes Real Estate",
+              "rating": 4.9,
+              "reviews": 209,
+              "review_velocity": -0.33,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJDxLfE_i7woAR0wWk71od210",
+              "rank_delta": -7,
+              "review_gain": -4
+            },
+            {
+              "rank": 9,
+              "name": "Rodeo Realty",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": -0.08,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJg_7RYYy7woAR7I05VBepUZM",
+              "rank_delta": -6,
+              "review_gain": -1
+            },
+            {
+              "rank": 11,
+              "name": "Aspire Los Angeles",
+              "rating": 4.9,
+              "reviews": 25,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU1WlqbTHwoAR0UvRX_ChR58",
+              "rank_delta": 0,
+              "review_gain": -2
+            },
+            {
+              "rank": 13,
+              "name": "Angela Bond Group | Los Angeles Realtor @ KW Larchmont",
+              "rating": 4.9,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNxehrcC4woARBI3nMVbJXbQ",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 15,
+              "name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJJSPGtAi7woARIobkpy_kqAI",
+              "rank_delta": -3,
+              "review_gain": 0
+            }
+          ],
+          "fastest_climber": {
+            "rank": 1,
+            "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+            "rating": 0.0,
+            "reviews": 0,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJUVC0U-i5woARJn5BfN9v2O4",
+            "rank_delta": 17,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 7,
+            "name": "Resident Group | Luxury Real Estate",
+            "rating": 4.6,
+            "reviews": 20,
+            "review_velocity": 0.58,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJtRbrFJ29woARZQlzWehCZO8",
+            "rank_delta": 3,
+            "review_gain": 7
+          },
+          "visibility": {
+            "current_rank": 15,
+            "best_rank": 8,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.9,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 1.1,
+            "lost_vs_best_rel": 58,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 18 vs a typical competitor's 33. Close the 15-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.89."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Resident Group | Luxury Real Estate added 7 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 15,
+          "start_rank": 12,
+          "net_change": -3,
+          "best_rank": 8,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "June 21, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-15T17:57:58.008329+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-06-21T06:01:58.243438+00:00",
+      "free_report_email": "laurentmamann@gmail.com"
     },
     {
       "id": "5b0d03d5e66a",
