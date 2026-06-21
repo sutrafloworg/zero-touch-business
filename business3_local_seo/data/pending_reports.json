@@ -5340,7 +5340,9 @@
         ],
         "scan_date": "2026-04-03T19:57:52.551268+00:00",
         "weeks_tracked": 2,
-        "insights": {}
+        "insights": {},
+        "_confidence_score": 4,
+        "_scan_date": "June 18, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893808+00:00",
@@ -5359,7 +5361,9 @@
           "type": "followup_3",
           "sent_at": "2026-06-01T18:46:19.036076+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-06-18T16:39:28.016552+00:00",
+      "free_report_email": "info@prolotherapysf.com"
     },
     {
       "id": "3b243fcdc3cb",
@@ -5738,7 +5742,9 @@
         ],
         "scan_date": "2026-04-03T19:57:52.551268+00:00",
         "weeks_tracked": 2,
-        "insights": {}
+        "insights": {},
+        "_confidence_score": 4,
+        "_scan_date": "June 18, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-04-03T20:18:33.893857+00:00",
@@ -5757,7 +5763,9 @@
           "type": "followup_3",
           "sent_at": "2026-06-01T18:46:19.036076+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-06-18T16:39:43.647989+00:00",
+      "free_report_email": "info@aestheticasmiles.com"
     },
     {
       "id": "b4e8a063e333",
@@ -6546,6 +6554,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -6666,6 +6678,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -6730,6 +6746,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -6795,6 +6815,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -6859,6 +6883,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7031,6 +7059,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7085,6 +7117,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7141,6 +7177,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ],
       "free_report_sent": "2026-06-11T16:59:32.588878+00:00",
@@ -7283,6 +7323,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7424,6 +7468,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7493,6 +7541,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7564,6 +7616,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7633,6 +7689,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7702,6 +7762,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7770,6 +7834,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7838,6 +7906,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7908,6 +7980,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -7981,6 +8057,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8049,6 +8129,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8117,6 +8201,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8186,6 +8274,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8255,6 +8347,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8308,6 +8404,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8378,6 +8478,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8448,6 +8552,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8515,6 +8623,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8584,6 +8696,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8652,6 +8768,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8710,6 +8830,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8779,6 +8903,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8847,6 +8975,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8916,6 +9048,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -8985,6 +9121,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9053,6 +9193,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9122,6 +9266,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9179,6 +9327,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9237,6 +9389,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9305,6 +9461,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9373,6 +9533,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9446,6 +9610,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9498,6 +9666,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9550,6 +9722,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9620,6 +9796,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9687,6 +9867,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9756,6 +9940,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9826,6 +10014,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9894,6 +10086,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -9964,6 +10160,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10033,6 +10233,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10091,6 +10295,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10160,6 +10368,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10230,6 +10442,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10298,6 +10514,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10366,6 +10586,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10440,6 +10664,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10497,6 +10725,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10566,6 +10798,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10636,6 +10872,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10706,6 +10946,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10776,6 +11020,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10846,6 +11094,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10916,6 +11168,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -10976,7 +11232,9 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_confidence_score": 10,
+        "_scan_date": "June 18, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-01T18:46:17.515534+00:00",
@@ -10986,8 +11244,14 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-06-18T16:40:02.555443+00:00",
+      "free_report_email": "info@crownhilldental.com"
     },
     {
       "id": "b9bb260254c6",
@@ -11055,6 +11319,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -11125,6 +11393,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -11195,6 +11467,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -11254,6 +11530,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-06-08T16:51:23.696280+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
         }
       ]
     },
@@ -11319,7 +11599,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141560+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "416316e43471",
@@ -11449,7 +11735,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141588+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "28348ef934bc",
@@ -11515,7 +11807,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141593+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "64a4ce0b7a45",
@@ -11581,7 +11879,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141597+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "8d0003fdc9ba",
@@ -11644,7 +11948,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141602+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "5a5f19344206",
@@ -11708,7 +12018,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141616+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "d7ae3741e4fc",
@@ -11771,7 +12087,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141621+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "9f8d19ecec00",
@@ -11834,7 +12156,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141625+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "c57806fac438",
@@ -11898,7 +12226,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141629+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "1b90381d0ae7",
@@ -11962,7 +12296,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141633+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "9d8735ae487d",
@@ -12026,7 +12366,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141638+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "ab76393e7929",
@@ -12089,7 +12435,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141642+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "d5736293cd0e",
@@ -12153,7 +12505,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141646+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "690902277eeb",
@@ -12218,7 +12576,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141651+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "c508950523aa",
@@ -12283,7 +12647,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141654+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "cc47d175ea2b",
@@ -12345,7 +12715,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141658+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "a6d2e0517976",
@@ -12406,7 +12782,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141662+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "705a6545cba5",
@@ -12458,7 +12840,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141666+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "443c608b08d6",
@@ -12522,7 +12910,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141670+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "b91dc4a67893",
@@ -12587,7 +12981,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141674+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "c089e9f7e4ef",
@@ -12651,7 +13051,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141679+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "7479fa3601dd",
@@ -12713,7 +13119,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141683+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "2fd6f16ca4d5",
@@ -12777,7 +13189,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141687+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "41f45b46141a",
@@ -12840,7 +13258,13 @@
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141691+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
     },
     {
       "id": "5d46d51d8f40",
@@ -12904,6 +13328,2024 @@
       },
       "pdf_path": "",
       "created_at": "2026-06-08T16:51:21.141695+00:00",
+      "status": "pending",
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-06-15T17:57:59.318581+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e10244744f8f",
+      "email": "info@brandonjbroderick.com",
+      "business_name": "New York City Personal Injury Attorney at Law, Brandon J. Broderick",
+      "category_key": "new york_ny_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "new york_ny_personal-injury-lawyer",
+        "business_name": "New York City Personal Injury Attorney at Law, Brandon J. Broderick",
+        "address": "40 W 37th St #400b, New York, NY 10018",
+        "phone": "(866) 589-2013",
+        "website": "https://www.brandonjbroderick.com/new-york/personal-injury-lawyer-new-york-city?utm_campaign=gmb",
+        "prev_rank": 3,
+        "curr_rank": 7,
+        "rank_change": 4,
+        "rating": 5,
+        "reviews": 172,
+        "prev_reviews": 172,
+        "reasons": [
+          "Competitors above you gained reviews: Rosenbaum Meier Personal Injury Lawyers gained 1 new review; Greenstein & Pittari, LLP gained 21 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.5,
+            "total_gained": 3,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              10,
+              12,
+              4,
+              8,
+              14,
+              3
+            ],
+            "best_rank": 3,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Greenstein & Pittari, LLP",
+            "climbed_positions": 3,
+            "their_review_gain": 62,
+            "their_rating": 4.9,
+            "their_current_rank": 5
+          },
+          "category_health": {
+            "score": 6.8,
+            "your_reviews": 172,
+            "category_avg_reviews": 375,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008270+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "161ec46a5f75",
+      "email": "sblumstein@corcoran.com",
+      "business_name": "Sydney Blumstein New York Real Estate Expert",
+      "category_key": "new york_ny_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "new york_ny_luxury-real-estate-agent",
+        "business_name": "Sydney Blumstein New York Real Estate Expert",
+        "address": "The Corcoran Group, 220 W 19th St 5TH floor C/O, New York, NY 10011",
+        "phone": "(917) 435-3697",
+        "website": "https://www.corcoran.com/real-estate-agents/detail/sydney-blumstein/8719/regionId/1",
+        "prev_rank": 5,
+        "curr_rank": 11,
+        "rank_change": 6,
+        "rating": 5,
+        "reviews": 58,
+        "prev_reviews": 58,
+        "reasons": [
+          "Competitors above you gained reviews: New York Living Solutions @ Keller Williams NYC gained 2 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              6,
+              8,
+              4,
+              4,
+              6,
+              5
+            ],
+            "best_rank": 4,
+            "worst_rank": 8
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "The NYC Luxury Homes (By Appointment Only)",
+            "climbed_positions": 13,
+            "their_review_gain": 0,
+            "their_rating": 5,
+            "their_current_rank": 3
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 58,
+            "category_avg_reviews": 57,
+            "your_rating": 5,
+            "category_avg_rating": 5.0,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008297+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "48b47cd5d834",
+      "email": "dan@digsrealtynyc.com",
+      "business_name": "Digs Realty Group",
+      "category_key": "new york_ny_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "new york_ny_luxury-real-estate-agent",
+        "business_name": "Digs Realty Group",
+        "address": "161 W 75th St Apt 8d, New York, NY 10023",
+        "phone": "(917) 675-0037",
+        "website": "https://digsrealtynyc.com/",
+        "prev_rank": 11,
+        "curr_rank": 16,
+        "rank_change": 5,
+        "rating": 5,
+        "reviews": 185,
+        "prev_reviews": 185,
+        "reasons": [
+          "Competitors above you gained reviews: New York Living Solutions @ Keller Williams NYC gained 2 new reviews; SERHANT. - NYC Real Estate Agency gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.8,
+            "total_gained": 11,
+            "over_weeks": 6,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              17,
+              14,
+              13,
+              13,
+              13,
+              11
+            ],
+            "best_rank": 11,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "The NYC Luxury Homes (By Appointment Only)",
+            "climbed_positions": 13,
+            "their_review_gain": 0,
+            "their_rating": 5,
+            "their_current_rank": 3
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 185,
+            "category_avg_reviews": 57,
+            "your_rating": 5,
+            "category_avg_rating": 5.0,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008306+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "249cc2ccd84c",
+      "email": "office@gcelaw.com",
+      "business_name": "Eisenberg Law Group PC",
+      "category_key": "los angeles_ca_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "los angeles_ca_personal-injury-lawyer",
+        "business_name": "Eisenberg Law Group PC",
+        "address": "811 Wilshire Blvd #1720, Los Angeles, CA 90017",
+        "phone": "(213) 616-5353",
+        "website": "https://eisenberglawgrouppc.com/",
+        "prev_rank": 12,
+        "curr_rank": 18,
+        "rank_change": 6,
+        "rating": 4.9,
+        "reviews": 903,
+        "prev_reviews": 898,
+        "reasons": [
+          "Competitors above you gained reviews: M&Y Personal Injury Lawyers gained 11 new reviews; The Accident Guys gained 1 new review; LA Century: Injury and Accident Lawyer gained 1 new review",
+          "7 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 6.8,
+            "total_gained": 34,
+            "over_weeks": 5,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              15,
+              17,
+              14,
+              13,
+              14,
+              12
+            ],
+            "best_rank": 12,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "M&Y Personal Injury Lawyers",
+            "climbed_positions": 12,
+            "their_review_gain": 15,
+            "their_rating": 5,
+            "their_current_rank": 4
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 903,
+            "category_avg_reviews": 573,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008312+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3d2b79b99394",
+      "email": "info@dominguezfirm.com",
+      "business_name": "The Dominguez Firm - Personal Injury Lawyers",
+      "category_key": "los angeles_ca_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "los angeles_ca_personal-injury-lawyer",
+        "business_name": "The Dominguez Firm - Personal Injury Lawyers",
+        "address": "3250 Wilshire Blvd #2200, Los Angeles, CA 90010",
+        "phone": "(855) 216-8880",
+        "website": "https://dominguezfirm.com/locations/los-angeles/?utm_source=google&utm_medium=organic&utm_campaign=gmb_losangeles",
+        "prev_rank": 10,
+        "curr_rank": 20,
+        "rank_change": 10,
+        "rating": 4.8,
+        "reviews": 1975,
+        "prev_reviews": 1975,
+        "reasons": [
+          "Competitors above you gained reviews: M&Y Personal Injury Lawyers gained 11 new reviews; The Accident Guys gained 1 new review; LA Century: Injury and Accident Lawyer gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "15 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 9.3,
+            "total_gained": 56,
+            "over_weeks": 6,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              16,
+              19,
+              16,
+              10,
+              13,
+              10
+            ],
+            "best_rank": 8,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "M&Y Personal Injury Lawyers",
+            "climbed_positions": 12,
+            "their_review_gain": 15,
+            "their_rating": 5,
+            "their_current_rank": 4
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 1975,
+            "category_avg_reviews": 573,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008318+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "98643189feb0",
+      "email": "angela@angelabond.com",
+      "business_name": "Angela Bond Group | Los Angeles Realtor @ KW Larchmont",
+      "category_key": "los angeles_ca_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "los angeles_ca_luxury-real-estate-agent",
+        "business_name": "Angela Bond Group | Los Angeles Realtor @ KW Larchmont",
+        "address": "118 N Larchmont Blvd, Los Angeles, CA 90004",
+        "phone": "(310) 666-5052",
+        "website": "http://www.angelabondgroup.com/",
+        "prev_rank": 10,
+        "curr_rank": 13,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 33,
+        "prev_reviews": 33,
+        "reasons": [
+          "Competitors above you gained reviews: L34 Group gained 3 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "4 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              16,
+              14,
+              13,
+              12,
+              14,
+              10
+            ],
+            "best_rank": 10,
+            "worst_rank": 16
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+            "climbed_positions": 17,
+            "their_review_gain": 0,
+            "their_rating": 0,
+            "their_current_rank": 1
+          },
+          "category_health": {
+            "score": 7.8,
+            "your_reviews": 33,
+            "category_avg_reviews": 59,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.4,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008324+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d4a4e0dd3c95",
+      "email": "laurentmamann@gmail.com",
+      "business_name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+      "category_key": "los angeles_ca_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "los angeles_ca_luxury-real-estate-agent",
+        "business_name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+        "address": "8878 Sunset Blvd, West Hollywood, CA 90069",
+        "phone": "(310) 780-9971",
+        "website": "http://laurentmamann.com/",
+        "prev_rank": 8,
+        "curr_rank": 15,
+        "rank_change": 7,
+        "rating": 5,
+        "reviews": 18,
+        "prev_reviews": 18,
+        "reasons": [
+          "Competitors above you gained reviews: L34 Group gained 3 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 4,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              12,
+              8,
+              16,
+              9,
+              8
+            ],
+            "best_rank": 8,
+            "worst_rank": 16
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+            "climbed_positions": 17,
+            "their_review_gain": 0,
+            "their_rating": 0,
+            "their_current_rank": 1
+          },
+          "category_health": {
+            "score": 6.4,
+            "your_reviews": 18,
+            "category_avg_reviews": 59,
+            "your_rating": 5,
+            "category_avg_rating": 4.4,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008329+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5b0d03d5e66a",
+      "email": "info@advancedstemcellinstitute.com",
+      "business_name": "Advanced Stem Cell Institute",
+      "category_key": "los angeles_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "los angeles_ca_regenerative-medicine",
+        "business_name": "Advanced Stem Cell Institute",
+        "address": "16952 Ventura Blvd, Encino, CA 91316",
+        "phone": "(855) 937-7836",
+        "website": "http://www.advancedstemcellinstitute.com/",
+        "prev_rank": 13,
+        "curr_rank": 17,
+        "rank_change": 4,
+        "rating": 4,
+        "reviews": 7,
+        "prev_reviews": 7,
+        "reasons": [
+          "Competitors above you gained reviews: Regenerative Medicine LA - Dr. Mark Ghalili DO gained 1 new review; Dr. Padra Nourparvar Stem Cell & PRP Institute of L.A. gained 2 new reviews; Stem Cell Institute gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "13 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 4,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              16,
+              17,
+              12,
+              17,
+              13
+            ],
+            "best_rank": 12,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Joint Rehab and Sports Medical Center",
+            "climbed_positions": 8,
+            "their_review_gain": 8,
+            "their_rating": 4.9,
+            "their_current_rank": 12
+          },
+          "category_health": {
+            "score": 4.0,
+            "your_reviews": 7,
+            "category_avg_reviews": 79,
+            "your_rating": 4,
+            "category_avg_rating": 4.6,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008335+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ae1b9c44796e",
+      "email": "info@metromd.net",
+      "business_name": "Metro Med Institute of Integrative Medicine",
+      "category_key": "los angeles_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "los angeles_ca_regenerative-medicine",
+        "business_name": "Metro Med Institute of Integrative Medicine",
+        "address": "11650 Riverside Dr, Studio City, CA 91602",
+        "phone": "(323) 285-5300",
+        "website": "https://metromd.net/",
+        "prev_rank": 15,
+        "curr_rank": 18,
+        "rank_change": 3,
+        "rating": 4.8,
+        "reviews": 33,
+        "prev_reviews": 33,
+        "reasons": [
+          "Competitors above you gained reviews: Regenerative Medicine LA - Dr. Mark Ghalili DO gained 1 new review; Dr. Padra Nourparvar Stem Cell & PRP Institute of L.A. gained 2 new reviews; Stem Cell Institute gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "9 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              12,
+              16,
+              12,
+              13,
+              11,
+              15
+            ],
+            "best_rank": 10,
+            "worst_rank": 16
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Joint Rehab and Sports Medical Center",
+            "climbed_positions": 8,
+            "their_review_gain": 8,
+            "their_rating": 4.9,
+            "their_current_rank": 12
+          },
+          "category_health": {
+            "score": 6.6,
+            "your_reviews": 33,
+            "category_avg_reviews": 79,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.6,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008340+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5d40f4db3c89",
+      "email": "socalregenmc@gmail.com",
+      "business_name": "Regenerative Medical Clinics of Southern California",
+      "category_key": "los angeles_ca_regenerative-medicine",
+      "alert_data": {
+        "category_key": "los angeles_ca_regenerative-medicine",
+        "business_name": "Regenerative Medical Clinics of Southern California",
+        "address": "2361 S Azusa Ave, West Covina, CA 91792",
+        "phone": "(626) 965-2334",
+        "website": "https://www.socalregenclinic.com/",
+        "prev_rank": 16,
+        "curr_rank": 19,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 64,
+        "prev_reviews": 64,
+        "reasons": [
+          "Competitors above you gained reviews: Regenerative Medicine LA - Dr. Mark Ghalili DO gained 1 new review; Dr. Padra Nourparvar Stem Cell & PRP Institute of L.A. gained 2 new reviews; Stem Cell Institute gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "5 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.6,
+            "total_gained": 3,
+            "over_weeks": 5,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              12,
+              9,
+              14,
+              15,
+              19,
+              16
+            ],
+            "best_rank": 9,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Joint Rehab and Sports Medical Center",
+            "climbed_positions": 8,
+            "their_review_gain": 8,
+            "their_rating": 4.9,
+            "their_current_rank": 12
+          },
+          "category_health": {
+            "score": 9.1,
+            "your_reviews": 64,
+            "category_avg_reviews": 79,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.6,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008345+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8aa5073853b8",
+      "email": "joseph_shea@shealawgroup.com",
+      "business_name": "Shea Law Group",
+      "category_key": "chicago_il_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "chicago_il_personal-injury-lawyer",
+        "business_name": "Shea Law Group",
+        "address": "2400 N Western Ave 2nd Floor, Chicago, IL 60647",
+        "phone": "(877) 365-0040",
+        "website": "https://www.shealawgroup.com/",
+        "prev_rank": 8,
+        "curr_rank": 13,
+        "rank_change": 5,
+        "rating": 4.9,
+        "reviews": 297,
+        "prev_reviews": 295,
+        "reasons": [
+          "Competitors above you gained reviews: Malman Law gained 26 new reviews; McCreadyLaw Injury Attorneys gained 2 new reviews; Attorneys of Chicago Personal Injury Lawyers gained 13 new reviews",
+          "2 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 3.2,
+            "total_gained": 16,
+            "over_weeks": 5,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              13,
+              16,
+              13,
+              11,
+              12,
+              8
+            ],
+            "best_rank": 8,
+            "worst_rank": 16
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Zayed Law Offices",
+            "climbed_positions": 11,
+            "their_review_gain": 58,
+            "their_rating": 4.8,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 5.7,
+            "your_reviews": 297,
+            "category_avg_reviews": 1058,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008350+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ab891cdb0b1b",
+      "email": "info@willenslaw.com",
+      "business_name": "Willens & Baez Personal Injury Lawyers, P.C.",
+      "category_key": "chicago_il_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "chicago_il_personal-injury-lawyer",
+        "business_name": "Willens & Baez Personal Injury Lawyers, P.C.",
+        "address": "30 N LaSalle St #3450, Chicago, IL 60602",
+        "phone": "(312) 957-4166",
+        "website": "https://www.willenslaw.com/",
+        "prev_rank": 15,
+        "curr_rank": 18,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 169,
+        "prev_reviews": 169,
+        "reasons": [
+          "Competitors above you gained reviews: Malman Law gained 26 new reviews; McCreadyLaw Injury Attorneys gained 2 new reviews; Attorneys of Chicago Personal Injury Lawyers gained 13 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.6,
+            "total_gained": 3,
+            "over_weeks": 5,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              17,
+              10,
+              19,
+              18,
+              18,
+              15
+            ],
+            "best_rank": 10,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Zayed Law Offices",
+            "climbed_positions": 11,
+            "their_review_gain": 58,
+            "their_rating": 4.8,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 5.1,
+            "your_reviews": 169,
+            "category_avg_reviews": 1058,
+            "your_rating": 5,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008355+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "87888887f414",
+      "email": "info@kimberlysmiles.com",
+      "business_name": "Kimberly Smiles Cosmetic & General Dentistry",
+      "category_key": "chicago_il_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "chicago_il_cosmetic-dentist",
+        "business_name": "Kimberly Smiles Cosmetic & General Dentistry",
+        "address": "1835 N Milwaukee Ave, Chicago, IL 60647",
+        "phone": "(773) 276-1047",
+        "website": "https://dentistwickerparkchicago.com/?utm_source=GMB+Listing&utm_medium=organic",
+        "prev_rank": 14,
+        "curr_rank": 18,
+        "rank_change": 4,
+        "rating": 4.7,
+        "reviews": 480,
+        "prev_reviews": 479,
+        "reasons": [
+          "Competitors above you gained reviews: Lux Smiles Cosmetic Dentistry and Prosthodontics gained 1 new review; Chicago Style Smiles gained 5 new reviews; Enamel Dental Studio gained 1 new review",
+          "17 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.4,
+            "total_gained": 7,
+            "over_weeks": 5,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              14,
+              16,
+              16,
+              11,
+              20,
+              14
+            ],
+            "best_rank": 11,
+            "worst_rank": 20
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Enamel Dental Studio",
+            "climbed_positions": 14,
+            "their_review_gain": 14,
+            "their_rating": 4.9,
+            "their_current_rank": 3
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 480,
+            "category_avg_reviews": 376,
+            "your_rating": 4.7,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008360+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "862a287a7da1",
+      "email": "melissad@atproperties.com",
+      "business_name": "Melissa Dondalski | Luxury Real Estate, Development & Investment \u2013 Chicago & Naples",
+      "category_key": "chicago_il_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "chicago_il_luxury-real-estate-agent",
+        "business_name": "Melissa Dondalski | Luxury Real Estate, Development & Investment \u2013 Chicago & Naples",
+        "address": "548 W Webster Ave, Chicago, IL 60614",
+        "phone": "(312) 632-0380",
+        "website": "http://www.melissadondalski.com/",
+        "prev_rank": 1,
+        "curr_rank": 4,
+        "rank_change": 3,
+        "rating": 4.8,
+        "reviews": 25,
+        "prev_reviews": 25,
+        "reasons": [
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "3 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 3,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              4,
+              2,
+              2,
+              1
+            ],
+            "best_rank": 1,
+            "worst_rank": 4
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Chicago Luxury Realty",
+            "climbed_positions": 1,
+            "their_review_gain": 0,
+            "their_rating": 5,
+            "their_current_rank": 2
+          },
+          "category_health": {
+            "score": 4.8,
+            "your_reviews": 25,
+            "category_avg_reviews": 170,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.9,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008365+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "225fbf00daf7",
+      "email": "info@pearsonrealtygroup.com",
+      "business_name": "Pearson Realty Group",
+      "category_key": "chicago_il_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "chicago_il_luxury-real-estate-agent",
+        "business_name": "Pearson Realty Group",
+        "address": "1000 N Milwaukee Ave Unit 200, Chicago, IL 60642",
+        "phone": "(773) 325-2800",
+        "website": "http://www.pearsonrealtygroup.com/",
+        "prev_rank": 13,
+        "curr_rank": 17,
+        "rank_change": 4,
+        "rating": 4.6,
+        "reviews": 104,
+        "prev_reviews": 103,
+        "reasons": [
+          "Competitors above you gained reviews: Luxury Living | Chicago Real Estate gained 1 new review; The Scott Group | Compass Chicago | Luxury Real Estate gained 1 new review; Carrie McCormick Real Estate gained 1 new review",
+          "15 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": -0.5,
+            "total_gained": -1,
+            "over_weeks": 2,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              18,
+              15,
+              13
+            ],
+            "best_rank": 13,
+            "worst_rank": 18
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Chicago Luxury Realty",
+            "climbed_positions": 1,
+            "their_review_gain": 0,
+            "their_rating": 5,
+            "their_current_rank": 2
+          },
+          "category_health": {
+            "score": 7.4,
+            "your_reviews": 104,
+            "category_avg_reviews": 170,
+            "your_rating": 4.6,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008370+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3ff157de067e",
+      "email": "dispatch@clarkekentplumbing.com",
+      "business_name": "Clarke Kent Plumbing",
+      "category_key": "austin_tx_emergency-plumber",
+      "alert_data": {
+        "category_key": "austin_tx_emergency-plumber",
+        "business_name": "Clarke Kent Plumbing",
+        "address": "1408 W Ben White Blvd, Austin, TX 78704",
+        "phone": "(512) 477-2200",
+        "website": "https://www.clarkekentplumbing.com/?utm_source=gmb&utm_medium=organic&utm_campaign=website",
+        "prev_rank": 5,
+        "curr_rank": 8,
+        "rank_change": 3,
+        "rating": 4.5,
+        "reviews": 582,
+        "prev_reviews": 584,
+        "reasons": [
+          "Competitors above you gained reviews: Reliant Plumbing - Austin gained 4 new reviews; Reliant Plumbing gained 1 new review; Roto-Rooter Plumbing & Water Cleanup gained 17 new reviews",
+          "7 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 3.8,
+            "total_gained": 19,
+            "over_weeks": 5,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              6,
+              5,
+              4,
+              7,
+              5,
+              5
+            ],
+            "best_rank": 4,
+            "worst_rank": 7
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Austin's Greatest Plumbing",
+            "climbed_positions": 7,
+            "their_review_gain": 33,
+            "their_rating": 5,
+            "their_current_rank": 9
+          },
+          "category_health": {
+            "score": 6.2,
+            "your_reviews": 582,
+            "category_avg_reviews": 1402,
+            "your_rating": 4.5,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008375+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "0897e4892f90",
+      "email": "info@smilecreationsatx.com",
+      "business_name": "Smile Creations",
+      "category_key": "austin_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "austin_tx_cosmetic-dentist",
+        "business_name": "Smile Creations",
+        "address": "3022 W Slaughter Ln, Austin, TX 78748",
+        "phone": "(737) 265-2555",
+        "website": "https://smilecreationsatx.com/",
+        "prev_rank": 10,
+        "curr_rank": 15,
+        "rank_change": 5,
+        "rating": 4.9,
+        "reviews": 314,
+        "prev_reviews": 314,
+        "reasons": [
+          "Competitors above you gained reviews: Moossy General & Cosmetic Dentistry - Michael Moossy DDS gained 2 new reviews; Austin Artistic Dental gained 3 new reviews; Elite Dentistry Cosmetic & Implant Center of ATX gained 2 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "2 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.2,
+            "total_gained": 1,
+            "over_weeks": 5,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              16,
+              11,
+              11,
+              17,
+              10,
+              10
+            ],
+            "best_rank": 10,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Elite Dentistry Cosmetic & Implant Center of ATX",
+            "climbed_positions": 8,
+            "their_review_gain": 13,
+            "their_rating": 4.7,
+            "their_current_rank": 9
+          },
+          "category_health": {
+            "score": 8.3,
+            "your_reviews": 314,
+            "category_avg_reviews": 444,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008380+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "f4da39c65455",
+      "email": "info@austintopdentist.com",
+      "business_name": "Austin Cosmetic & Implant Dentistry",
+      "category_key": "austin_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "austin_tx_cosmetic-dentist",
+        "business_name": "Austin Cosmetic & Implant Dentistry",
+        "address": "13341 US-290 Unit 1-107, Austin, TX 78737",
+        "phone": "(512) 607-6880",
+        "website": "https://austintopdentist.com/",
+        "prev_rank": 11,
+        "curr_rank": 16,
+        "rank_change": 5,
+        "rating": 5,
+        "reviews": 158,
+        "prev_reviews": 158,
+        "reasons": [
+          "Competitors above you gained reviews: Moossy General & Cosmetic Dentistry - Michael Moossy DDS gained 2 new reviews; Austin Artistic Dental gained 3 new reviews; Elite Dentistry Cosmetic & Implant Center of ATX gained 2 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.0,
+            "total_gained": 5,
+            "over_weeks": 5,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              11,
+              7,
+              14,
+              14,
+              12,
+              11
+            ],
+            "best_rank": 7,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Elite Dentistry Cosmetic & Implant Center of ATX",
+            "climbed_positions": 8,
+            "their_review_gain": 13,
+            "their_rating": 4.7,
+            "their_current_rank": 9
+          },
+          "category_health": {
+            "score": 6.2,
+            "your_reviews": 158,
+            "category_avg_reviews": 444,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008385+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5b13c9c685a8",
+      "email": "info@hqdontics.com",
+      "business_name": "Dentists in Brickell - HQ Dontics Dental Centre",
+      "category_key": "miami_fl_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "miami_fl_cosmetic-dentist",
+        "business_name": "Dentists in Brickell - HQ Dontics Dental Centre",
+        "address": "1060 Brickell Ave Suite 103/M2, Miami, FL 33131",
+        "phone": "(229) 508-0551",
+        "website": "https://www.hqdontics.com/",
+        "prev_rank": 7,
+        "curr_rank": 12,
+        "rank_change": 5,
+        "rating": 4.9,
+        "reviews": 716,
+        "prev_reviews": 714,
+        "reasons": [
+          "Competitors above you gained reviews: High Cosmetic Dentist gained 2 new reviews; Miami Dental Sedation Spa - Miami gained 5 new reviews; Smile Design Mia - Cosmetic Dental Clinic Miami gained 1 new review",
+          "4 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 9.2,
+            "total_gained": 46,
+            "over_weeks": 5,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              8,
+              11,
+              8,
+              17,
+              9,
+              7
+            ],
+            "best_rank": 7,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Smile Design Mia - Cosmetic Dental Clinic Miami",
+            "climbed_positions": 4,
+            "their_review_gain": 6,
+            "their_rating": 4.7,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 9.7,
+            "your_reviews": 716,
+            "category_avg_reviews": 753,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008390+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ecb64bfeecb5",
+      "email": "mediainquiries@prexperts.net",
+      "business_name": "Witherite Law Group",
+      "category_key": "dallas_tx_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "dallas_tx_personal-injury-lawyer",
+        "business_name": "Witherite Law Group",
+        "address": "10440 N Central Expy #400, Dallas, TX 75231",
+        "phone": "(800) 681-1668",
+        "website": "https://www.witheritelaw.com/",
+        "prev_rank": 11,
+        "curr_rank": 18,
+        "rank_change": 7,
+        "rating": 4.6,
+        "reviews": 1766,
+        "prev_reviews": 1753,
+        "reasons": [
+          "Competitors above you gained reviews: Mullen & Mullen Law Firm gained 4 new reviews; Anderson Injury Lawyers Dallas gained 1 new review; Thompson Law gained 8 new reviews",
+          "16 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 7.2,
+            "total_gained": 29,
+            "over_weeks": 4,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              20,
+              16,
+              18,
+              16,
+              11
+            ],
+            "best_rank": 11,
+            "worst_rank": 20
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Frenkel & Frenkel",
+            "climbed_positions": 6,
+            "their_review_gain": 11,
+            "their_rating": 4.8,
+            "their_current_rank": 12
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 1766,
+            "category_avg_reviews": 661,
+            "your_rating": 4.6,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008397+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8a86b7146f12",
+      "email": "info@wyattinjurylaw.com",
+      "business_name": "Wyatt Injury Law Personal Injury Lawyers",
+      "category_key": "phoenix_az_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "phoenix_az_personal-injury-lawyer",
+        "business_name": "Wyatt Injury Law Personal Injury Lawyers",
+        "address": "5333 N 7th St Ste A-210, Phoenix, AZ 85014",
+        "phone": "(623) 352-5614",
+        "website": "https://www.wyattinjurylaw.com/?utm_campaign=gmb",
+        "prev_rank": 15,
+        "curr_rank": 20,
+        "rank_change": 5,
+        "rating": 5,
+        "reviews": 102,
+        "prev_reviews": 102,
+        "reasons": [
+          "Competitors above you gained reviews: Lloyd Baker Injury Attorneys gained 1 new review; Kelly Law Team Phoenix gained 3 new reviews; Lamber Goodnow Injury Lawyers gained 3 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.2,
+            "total_gained": 6,
+            "over_weeks": 5,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              15,
+              1,
+              15,
+              18,
+              18,
+              15
+            ],
+            "best_rank": 1,
+            "worst_rank": 18
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Sargon Law Group",
+            "climbed_positions": 7,
+            "their_review_gain": 21,
+            "their_rating": 4.9,
+            "their_current_rank": 10
+          },
+          "category_health": {
+            "score": 4.8,
+            "your_reviews": 102,
+            "category_avg_reviews": 914,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008402+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "2d4c3b6a7200",
+      "email": "office@localluxuryre.com",
+      "business_name": "Local Luxury | Christie's International Real Estate",
+      "category_key": "phoenix_az_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "phoenix_az_luxury-real-estate-agent",
+        "business_name": "Local Luxury | Christie's International Real Estate",
+        "address": "6720 N Scottsdale Rd STE 140, Paradise Valley, AZ 85253",
+        "phone": "(480) 450-1518",
+        "website": "http://localluxuryre.com/?utm_source=GBP&utm_medium=PV&utm_campaign=organic",
+        "prev_rank": 7,
+        "curr_rank": 11,
+        "rank_change": 4,
+        "rating": 5,
+        "reviews": 20,
+        "prev_reviews": 20,
+        "reasons": [
+          "Competitors above you gained reviews: Josh Zuniga | Luxury Real Estate Expert - Peoria, AZ - Phoenix, AZ gained 1 new review; Local Luxury | Christie's International Real Estate - Arcadia Phoenix, Arizona gained 1 new review; The Riddle Group gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 4,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              11,
+              11,
+              8,
+              10,
+              7
+            ],
+            "best_rank": 7,
+            "worst_rank": 11
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Michele Tyler: Luxury Real Estate Agent: DeLex Realty Scottsdale",
+            "climbed_positions": 5,
+            "their_review_gain": -1,
+            "their_rating": 5,
+            "their_current_rank": 14
+          },
+          "category_health": {
+            "score": 5.2,
+            "your_reviews": 20,
+            "category_avg_reviews": 113,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008407+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d322425470ed",
+      "email": "info@professional-plumbers-denver.com",
+      "business_name": "Professional Plumbers Denver",
+      "category_key": "denver_co_emergency-plumber",
+      "alert_data": {
+        "category_key": "denver_co_emergency-plumber",
+        "business_name": "Professional Plumbers Denver",
+        "address": "4400 S Quebec St H-208, Denver, CO 80237",
+        "phone": "(720) 390-2652",
+        "website": "https://professional-plumbers-denver.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-website-link",
+        "prev_rank": 5,
+        "curr_rank": 9,
+        "rank_change": 4,
+        "rating": 4.8,
+        "reviews": 221,
+        "prev_reviews": 220,
+        "reasons": [
+          "Competitors above you gained reviews: Time Plumbing, Heating & Electric Denver gained 2 new reviews; Roto-Rooter Plumbing & Water Cleanup gained 5 new reviews; Mr. Rooter Plumbing of Denver gained 24 new reviews",
+          "2 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.8,
+            "total_gained": 4,
+            "over_weeks": 5,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              5,
+              7,
+              5,
+              5,
+              5,
+              5
+            ],
+            "best_rank": 5,
+            "worst_rank": 7
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Mr. Rooter Plumbing of Denver",
+            "climbed_positions": 4,
+            "their_review_gain": 232,
+            "their_rating": 4.7,
+            "their_current_rank": 5
+          },
+          "category_health": {
+            "score": 4.4,
+            "your_reviews": 221,
+            "category_avg_reviews": 3625,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.8,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008412+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "04b53f1a9c18",
+      "email": "developer@educyber.com",
+      "business_name": "A Perfect Plumber LLC",
+      "category_key": "denver_co_emergency-plumber",
+      "alert_data": {
+        "category_key": "denver_co_emergency-plumber",
+        "business_name": "A Perfect Plumber LLC",
+        "address": "3021 S Tejon St, Englewood, CO 80110",
+        "phone": "(720) 375-3900",
+        "website": "http://aperfectplumber.com/",
+        "prev_rank": 11,
+        "curr_rank": 16,
+        "rank_change": 5,
+        "rating": 5,
+        "reviews": 546,
+        "prev_reviews": 546,
+        "reasons": [
+          "Competitors above you gained reviews: Time Plumbing, Heating & Electric Denver gained 2 new reviews; Roto-Rooter Plumbing & Water Cleanup gained 5 new reviews; Mr. Rooter Plumbing of Denver gained 24 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 5.8,
+            "total_gained": 23,
+            "over_weeks": 4,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              13,
+              12,
+              13,
+              14,
+              11
+            ],
+            "best_rank": 11,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Mr. Rooter Plumbing of Denver",
+            "climbed_positions": 4,
+            "their_review_gain": 232,
+            "their_rating": 4.7,
+            "their_current_rank": 5
+          },
+          "category_health": {
+            "score": 5.1,
+            "your_reviews": 546,
+            "category_avg_reviews": 3625,
+            "your_rating": 5,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008417+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "7d367adb7c1b",
+      "email": "info@icondentaldenver.com",
+      "business_name": "Icon Dental",
+      "category_key": "denver_co_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "denver_co_cosmetic-dentist",
+        "business_name": "Icon Dental",
+        "address": "1425 Market St Ste. 100, Denver, CO 80202",
+        "phone": "(720) 645-2153",
+        "website": "https://icondentaldenver.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+        "prev_rank": 1,
+        "curr_rank": 8,
+        "rank_change": 7,
+        "rating": 4.6,
+        "reviews": 678,
+        "prev_reviews": 675,
+        "reasons": [
+          "Competitors above you gained reviews: Cherry Creek Dental Spa gained 3 new reviews; Denver Dream Dentistry gained 4 new reviews",
+          "7 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.8,
+            "total_gained": 9,
+            "over_weeks": 5,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              8,
+              9,
+              9,
+              8,
+              1,
+              1
+            ],
+            "best_rank": 1,
+            "worst_rank": 9
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Smile Studio Dental - Denver",
+            "climbed_positions": 7,
+            "their_review_gain": 28,
+            "their_rating": 4.9,
+            "their_current_rank": 2
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 678,
+            "category_avg_reviews": 379,
+            "your_rating": 4.6,
+            "category_avg_rating": 4.8,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008423+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "60a5b205ee7d",
+      "email": "email@address.com",
+      "business_name": "The Denver Dentists",
+      "category_key": "denver_co_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "denver_co_cosmetic-dentist",
+        "business_name": "The Denver Dentists",
+        "address": "2190 E 17th Ave, Denver, CO 80206",
+        "phone": "(720) 679-7031",
+        "website": "http://www.thedenverdentists.com/",
+        "prev_rank": 8,
+        "curr_rank": 12,
+        "rank_change": 4,
+        "rating": 4.4,
+        "reviews": 598,
+        "prev_reviews": 590,
+        "reasons": [
+          "Competitors above you gained reviews: Cherry Creek Dental Spa gained 3 new reviews; Denver Dream Dentistry gained 4 new reviews; Icon Dental gained 3 new reviews",
+          "11 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 7.5,
+            "total_gained": 30,
+            "over_weeks": 4,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              12,
+              15,
+              2,
+              7,
+              8
+            ],
+            "best_rank": 2,
+            "worst_rank": 15
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Smile Studio Dental - Denver",
+            "climbed_positions": 7,
+            "their_review_gain": 28,
+            "their_rating": 4.9,
+            "their_current_rank": 2
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 598,
+            "category_avg_reviews": 379,
+            "your_rating": 4.4,
+            "category_avg_rating": 4.8,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008428+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ab5004800446",
+      "email": "office@aspen-regenerativemedicine.com",
+      "business_name": "Aspen Institute for Anti-Aging and Regenerative Medicine - Denver",
+      "category_key": "denver_co_regenerative-medicine",
+      "alert_data": {
+        "category_key": "denver_co_regenerative-medicine",
+        "business_name": "Aspen Institute for Anti-Aging and Regenerative Medicine - Denver",
+        "address": "2255 S Wadsworth Blvd Suite 206, Denver, CO 80227",
+        "phone": "(970) 540-4469",
+        "website": "https://aspen-regenerativemedicine.com/",
+        "prev_rank": 11,
+        "curr_rank": 14,
+        "rank_change": 3,
+        "rating": 0,
+        "reviews": 0,
+        "prev_reviews": 0,
+        "reasons": [
+          "Competitors above you gained reviews: RegenRx | Regenerative Medicine and Wellness Clinic Denver gained 2 new reviews; Advanced Regenerative Health gained 2 new reviews; Advanced Regenerative Health gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "12 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 5,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              17,
+              11,
+              12,
+              11,
+              10,
+              11
+            ],
+            "best_rank": 10,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Mulka Medical Institute - Denver Regenerative and Musculoskeletal Medicine",
+            "climbed_positions": 2,
+            "their_review_gain": 0,
+            "their_rating": 5,
+            "their_current_rank": 8
+          },
+          "category_health": {
+            "score": 1,
+            "your_reviews": 0,
+            "category_avg_reviews": 126,
+            "your_rating": 0,
+            "category_avg_rating": 4.7,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008433+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "f001f3e59697",
+      "email": "cherise@thewynnegroupre.com",
+      "business_name": "The Cherise Wynne Team / Compass RE: Wynne Group Realtors",
+      "category_key": "philadelphia_pa_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "philadelphia_pa_luxury-real-estate-agent",
+        "business_name": "The Cherise Wynne Team / Compass RE: Wynne Group Realtors",
+        "address": "1430 Walnut St Fl 3, Philadelphia, PA 19102",
+        "phone": "(267) 979-9669",
+        "website": "https://www.thewynnegroupre.com/",
+        "prev_rank": 10,
+        "curr_rank": 16,
+        "rank_change": 6,
+        "rating": 4.9,
+        "reviews": 53,
+        "prev_reviews": 52,
+        "reasons": [
+          "Competitors above you gained reviews: Allen Kravitz | The Kravitz Team | Philadelphia & South Jersey Real Estate Agent | Kurfiss Sotheby's International Realty gained 2 new reviews; The Mike McCann Team gained 1 new review",
+          "9 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.8,
+            "total_gained": 3,
+            "over_weeks": 4,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              17,
+              20,
+              11,
+              11,
+              10
+            ],
+            "best_rank": 10,
+            "worst_rank": 20
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Philadelphia Home Collective | Philadelphia Real Estate Agents",
+            "climbed_positions": 16,
+            "their_review_gain": 1,
+            "their_rating": 5,
+            "their_current_rank": 3
+          },
+          "category_health": {
+            "score": 6.4,
+            "your_reviews": 53,
+            "category_avg_reviews": 135,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008438+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "8d9b4abccaed",
+      "email": "mail-service@platform.moxiworks.com",
+      "business_name": "Ms. San Francisco Real Estate",
+      "category_key": "san francisco_ca_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "san francisco_ca_luxury-real-estate-agent",
+        "business_name": "Ms. San Francisco Real Estate",
+        "address": "2380 Irving St, San Francisco, CA 94122",
+        "phone": "(415) 832-9151",
+        "website": "https://janiceleehomes.com/",
+        "prev_rank": 5,
+        "curr_rank": 9,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 44,
+        "prev_reviews": 44,
+        "reasons": [
+          "Competitors above you gained reviews: Erin Thompson | Luxury Real Estate Agent | San Francisco | Compass, Founding Member gained 1 new review; Ruth Krishnan - San Francisco Real Estate gained 2 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "7 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.4,
+            "total_gained": 2,
+            "over_weeks": 5,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              19,
+              9,
+              7,
+              5,
+              18,
+              5
+            ],
+            "best_rank": 5,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Erin Thompson | Luxury Real Estate Agent | San Francisco | Compass, Founding Member",
+            "climbed_positions": 15,
+            "their_review_gain": 4,
+            "their_rating": 5,
+            "their_current_rank": 5
+          },
+          "category_health": {
+            "score": 7.9,
+            "your_reviews": 44,
+            "category_avg_reviews": 67,
+            "your_rating": 4.9,
+            "category_avg_rating": 5.0,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008443+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ada670abaefe",
+      "email": "info@www.westseattlesmileco.com",
+      "business_name": "West Seattle Smile Co.",
+      "category_key": "seattle_wa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "seattle_wa_cosmetic-dentist",
+        "business_name": "West Seattle Smile Co.",
+        "address": "4150 California Ave SW, Seattle, WA 98116",
+        "phone": "(206) 502-4892",
+        "website": "https://www.johnstondentalartistry.com/",
+        "prev_rank": 5,
+        "curr_rank": 10,
+        "rank_change": 5,
+        "rating": 4.8,
+        "reviews": 590,
+        "prev_reviews": 588,
+        "reasons": [
+          "Competitors above you gained reviews: Advanced Cosmetic and Implant Dentistry. gained 1 new review; Seattle Specialty Dentistry gained 2 new reviews; FLOSS general + cosmetic dentistry gained 2 new reviews",
+          "6 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.6,
+            "total_gained": 8,
+            "over_weeks": 5,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              14,
+              8,
+              5,
+              14,
+              19,
+              5
+            ],
+            "best_rank": 5,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Seattle Smiles Company",
+            "climbed_positions": 6,
+            "their_review_gain": 2,
+            "their_rating": 4.9,
+            "their_current_rank": 11
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 590,
+            "category_avg_reviews": 331,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008448+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "894103909270",
+      "email": "info@pacificmoderndentistry.com",
+      "business_name": "Pacific Modern Dentistry",
+      "category_key": "seattle_wa_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "seattle_wa_cosmetic-dentist",
+        "business_name": "Pacific Modern Dentistry",
+        "address": "2046 Westlake Ave N Unit 204, Seattle, WA 98109",
+        "phone": "(206) 284-4505",
+        "website": "https://pacificmoderndentistry.com/",
+        "prev_rank": 13,
+        "curr_rank": 17,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 272,
+        "prev_reviews": 272,
+        "reasons": [
+          "Competitors above you gained reviews: Advanced Cosmetic and Implant Dentistry. gained 1 new review; Seattle Specialty Dentistry gained 2 new reviews; FLOSS general + cosmetic dentistry gained 2 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "2 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-06-15T17:53:41.881228+00:00",
+        "weeks_tracked": 8,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.0,
+            "total_gained": 5,
+            "over_weeks": 5,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              12,
+              14,
+              13,
+              9,
+              13,
+              13
+            ],
+            "best_rank": 9,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Seattle Smiles Company",
+            "climbed_positions": 6,
+            "their_review_gain": 2,
+            "their_rating": 4.9,
+            "their_current_rank": 11
+          },
+          "category_health": {
+            "score": 9.0,
+            "your_reviews": 272,
+            "category_avg_reviews": 331,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-06-15T17:57:58.008454+00:00",
       "status": "pending",
       "delivered_at": null
     }
