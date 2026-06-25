@@ -15595,7 +15595,590 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 10.4,
+          "n_snapshots": 9,
+          "rank_history": [
+            {
+              "date": "Apr 02",
+              "rank": 20
+            },
+            {
+              "date": "May 18",
+              "rank": 16
+            },
+            {
+              "date": "May 25",
+              "rank": 18
+            },
+            {
+              "date": "Jun 01",
+              "rank": 16
+            },
+            {
+              "date": "Jun 08",
+              "rank": 11
+            },
+            {
+              "date": "Jun 15",
+              "rank": 18
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Apr 02",
+              "reviews": 1724
+            },
+            {
+              "date": "May 18",
+              "reviews": 1747
+            },
+            {
+              "date": "May 25",
+              "reviews": 1747
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 1747
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 1753
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 1766
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              20,
+              16,
+              18,
+              16,
+              11,
+              18
+            ],
+            "dates": [
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15"
+            ],
+            "direction": "improving",
+            "best_rank": 11,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 4.03,
+            "total_gained": 42,
+            "weeks": 10.4,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Anderson Injury Lawyers Dallas",
+              "rating": 4.9,
+              "reviews": 465,
+              "review_velocity": 1.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJO8ykUC6ZToYRIwxbfenkYME"
+            },
+            {
+              "rank": 2,
+              "name": "Mullen & Mullen Law Firm",
+              "rating": 4.9,
+              "reviews": 498,
+              "review_velocity": 3.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJb0ob10-ZToYREVKWnUdMZJ8"
+            },
+            {
+              "rank": 3,
+              "name": "Thompson Law",
+              "rating": 4.9,
+              "reviews": 1925,
+              "review_velocity": 1.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ04BEo86eToYRqwz0Zes0tuk"
+            },
+            {
+              "rank": 4,
+              "name": "Benton Accident & Injury Lawyers Dallas",
+              "rating": 4.9,
+              "reviews": 307,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJQUMYZL6eToYRxTD5gSrzT8Y"
+            },
+            {
+              "rank": 5,
+              "name": "Jay Murray Car Accident and Truck Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 288,
+              "review_velocity": 0.46,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJL9TYoy-ZToYRGqqO-9m_fug"
+            },
+            {
+              "rank": 6,
+              "name": "Herrman & Herrman P.L.L.C. - Car Accident Lawyers",
+              "rating": 5.0,
+              "reviews": 550,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJpW3Cw08fTIYR7qdLqrQtS5Q"
+            },
+            {
+              "rank": 7,
+              "name": "Montgomery Law",
+              "rating": 4.7,
+              "reviews": 920,
+              "review_velocity": 1.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ3Q8E5-eQToYRxrmThZeI_Po"
+            },
+            {
+              "rank": 8,
+              "name": "DFW Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 925,
+              "review_velocity": 1.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ43Zt8mydToYRHGzJBzjNdIc"
+            },
+            {
+              "rank": 9,
+              "name": "Morgan & Morgan",
+              "rating": 4.8,
+              "reviews": 718,
+              "review_velocity": 2.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ_VGvttefToYR55_YwillBB0"
+            },
+            {
+              "rank": 10,
+              "name": "Shamieh Law - Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 593,
+              "review_velocity": 7.77,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJi8YyjWacToYRg6BHmem4Pdw"
+            },
+            {
+              "rank": 11,
+              "name": "Amaro Law Firm - Dallas",
+              "rating": 4.9,
+              "reviews": 181,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJiX7wJoWdToYRNroO6rQC-So"
+            },
+            {
+              "rank": 12,
+              "name": "AK Law Firm Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 217,
+              "review_velocity": 2.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJheZiKzufToYR_vxvghdCncM"
+            },
+            {
+              "rank": 13,
+              "name": "Jim Adler & Associates",
+              "rating": 4.6,
+              "reviews": 4172,
+              "review_velocity": 7.31,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJlU70pSqfToYRDYfPtIUBzxk"
+            },
+            {
+              "rank": 14,
+              "name": "Francis Injury Car & Truck Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ49UtiSqfToYR-iw7_rS2NYw"
+            },
+            {
+              "rank": 15,
+              "name": "Rad Law Firm - Dallas, TX",
+              "rating": 4.6,
+              "reviews": 524,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJg74i3fEgTIYRKYgyZLz5iR4"
+            },
+            {
+              "rank": 16,
+              "name": "Kastl Law, P.C.",
+              "rating": 4.6,
+              "reviews": 348,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJG3kI-iifToYRCiSH7KLwXq4"
+            },
+            {
+              "rank": 17,
+              "name": "The Wilhite Law Firm - Personal Injury Attorneys",
+              "rating": 4.9,
+              "reviews": 370,
+              "review_velocity": 1.46,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJsxcM1nufToYRSGRPdIbbdQg"
+            },
+            {
+              "rank": 18,
+              "name": "Kraft & Associates, Attorneys at Law, P.C.",
+              "rating": 4.9,
+              "reviews": 470,
+              "review_velocity": -0.2,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJQ-1G9w6cToYRt-3EfBnJhS8"
+            },
+            {
+              "rank": 19,
+              "name": "Robert C. Slim Law Firm, PLLC",
+              "rating": 5.0,
+              "reviews": 101,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJx6pIjcgBTIYR56sKD4JrvmE"
+            },
+            {
+              "rank": 20,
+              "name": "Grossman Law Offices",
+              "rating": 4.6,
+              "reviews": 186,
+              "review_velocity": 2.54,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJm1MpQL8gTIYRd7iR1GQmiFo"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "Kraft & Associates, Attorneys at Law, P.C.",
+            "rating": 4.9,
+            "reviews": 470,
+            "review_velocity": -0.2,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJQ-1G9w6cToYRt-3EfBnJhS8"
+          },
+          "benchmarks": {
+            "avg_rating": 4.85,
+            "avg_reviews": 689,
+            "median_reviews": 468,
+            "typical_reviews": 689,
+            "skewed": false,
+            "your_reviews": 470,
+            "your_rating": 4.9,
+            "reviews_percentile": 55,
+            "pack_size": 20,
+            "top_reviews": 4172
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Anderson Injury Lawyers Dallas",
+              "rating": 4.9,
+              "reviews": 465,
+              "review_velocity": 1.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJO8ykUC6ZToYRIwxbfenkYME",
+              "rank_delta": 1,
+              "review_gain": 21
+            },
+            {
+              "rank": 2,
+              "name": "Mullen & Mullen Law Firm",
+              "rating": 4.9,
+              "reviews": 498,
+              "review_velocity": 3.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJb0ob10-ZToYREVKWnUdMZJ8",
+              "rank_delta": -1,
+              "review_gain": 47
+            },
+            {
+              "rank": 3,
+              "name": "Thompson Law",
+              "rating": 4.9,
+              "reviews": 1925,
+              "review_velocity": 1.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ04BEo86eToYRqwz0Zes0tuk",
+              "rank_delta": 0,
+              "review_gain": 15
+            },
+            {
+              "rank": 4,
+              "name": "Benton Accident & Injury Lawyers Dallas",
+              "rating": 4.9,
+              "reviews": 307,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJQUMYZL6eToYRxTD5gSrzT8Y",
+              "rank_delta": 0,
+              "review_gain": 2
+            },
+            {
+              "rank": 5,
+              "name": "Jay Murray Car Accident and Truck Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 288,
+              "review_velocity": 0.46,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJL9TYoy-ZToYRGqqO-9m_fug",
+              "rank_delta": 0,
+              "review_gain": 6
+            },
+            {
+              "rank": 6,
+              "name": "Herrman & Herrman P.L.L.C. - Car Accident Lawyers",
+              "rating": 5.0,
+              "reviews": 550,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJpW3Cw08fTIYR7qdLqrQtS5Q",
+              "rank_delta": 1,
+              "review_gain": 8
+            },
+            {
+              "rank": 7,
+              "name": "Montgomery Law",
+              "rating": 4.7,
+              "reviews": 920,
+              "review_velocity": 1.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ3Q8E5-eQToYRxrmThZeI_Po",
+              "rank_delta": 3,
+              "review_gain": 15
+            },
+            {
+              "rank": 8,
+              "name": "DFW Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 925,
+              "review_velocity": 1.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ43Zt8mydToYRHGzJBzjNdIc",
+              "rank_delta": 1,
+              "review_gain": 15
+            },
+            {
+              "rank": 9,
+              "name": "Morgan & Morgan",
+              "rating": 4.8,
+              "reviews": 718,
+              "review_velocity": 2.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ_VGvttefToYR55_YwillBB0",
+              "rank_delta": -3,
+              "review_gain": 26
+            },
+            {
+              "rank": 10,
+              "name": "Shamieh Law - Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 593,
+              "review_velocity": 7.77,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJi8YyjWacToYRg6BHmem4Pdw",
+              "rank_delta": 1,
+              "review_gain": 101
+            },
+            {
+              "rank": 11,
+              "name": "Amaro Law Firm - Dallas",
+              "rating": 4.9,
+              "reviews": 181,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJiX7wJoWdToYRNroO6rQC-So",
+              "rank_delta": -3,
+              "review_gain": 0
+            },
+            {
+              "rank": 12,
+              "name": "AK Law Firm Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 217,
+              "review_velocity": 2.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJheZiKzufToYR_vxvghdCncM",
+              "rank_delta": 0,
+              "review_gain": 31
+            },
+            {
+              "rank": 13,
+              "name": "Jim Adler & Associates",
+              "rating": 4.6,
+              "reviews": 4172,
+              "review_velocity": 7.31,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJlU70pSqfToYRDYfPtIUBzxk",
+              "rank_delta": 1,
+              "review_gain": 95
+            },
+            {
+              "rank": 14,
+              "name": "Francis Injury Car & Truck Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ49UtiSqfToYR-iw7_rS2NYw",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 17,
+              "name": "The Wilhite Law Firm - Personal Injury Attorneys",
+              "rating": 4.9,
+              "reviews": 370,
+              "review_velocity": 1.46,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJsxcM1nufToYRSGRPdIbbdQg",
+              "rank_delta": -2,
+              "review_gain": 19
+            },
+            {
+              "rank": 19,
+              "name": "Robert C. Slim Law Firm, PLLC",
+              "rating": 5.0,
+              "reviews": 101,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJx6pIjcgBTIYR56sKD4JrvmE",
+              "rank_delta": 0,
+              "review_gain": 2
+            },
+            {
+              "rank": 20,
+              "name": "Grossman Law Offices",
+              "rating": 4.6,
+              "reviews": 186,
+              "review_velocity": 2.54,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJm1MpQL8gTIYRd7iR1GQmiFo",
+              "rank_delta": -4,
+              "review_gain": 33
+            }
+          ],
+          "fastest_climber": {
+            "rank": 7,
+            "name": "Montgomery Law",
+            "rating": 4.7,
+            "reviews": 920,
+            "review_velocity": 1.15,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJ3Q8E5-eQToYRxrmThZeI_Po",
+            "rank_delta": 3,
+            "review_gain": 15
+          },
+          "fastest_review_gainer": {
+            "rank": 10,
+            "name": "Shamieh Law - Accident & Injury Lawyers",
+            "rating": 5.0,
+            "reviews": 593,
+            "review_velocity": 7.77,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJi8YyjWacToYRg6BHmem4Pdw",
+            "rank_delta": 1,
+            "review_gain": 101
+          },
+          "visibility": {
+            "current_rank": 18,
+            "best_rank": 11,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 470 vs a typical competitor's 689. Close the 219-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.85."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 4.03/week (strong)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Shamieh Law - Accident & Injury Lawye. added 101 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 18,
+          "start_rank": 20,
+          "net_change": 2,
+          "best_rank": 11,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "June 25, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-15T17:57:58.008397+00:00",
@@ -15606,7 +16189,9 @@
           "type": "followup_1",
           "sent_at": "2026-06-22T17:32:47.948816+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-06-25T15:44:36.158753+00:00",
+      "free_report_email": "mediainquiries@prexperts.net"
     },
     {
       "id": "8a86b7146f12",
@@ -16746,12 +17331,639 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 13.0,
+          "n_snapshots": 9,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 12
+            },
+            {
+              "date": "Apr 02",
+              "rank": 3
+            },
+            {
+              "date": "May 18",
+              "rank": 6
+            },
+            {
+              "date": "May 19",
+              "rank": 5
+            },
+            {
+              "date": "May 25",
+              "rank": 7
+            },
+            {
+              "date": "Jun 01",
+              "rank": 5
+            },
+            {
+              "date": "Jun 08",
+              "rank": 7
+            },
+            {
+              "date": "Jun 15",
+              "rank": 7
+            },
+            {
+              "date": "Jun 22",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 226
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 227
+            },
+            {
+              "date": "May 18",
+              "reviews": 231
+            },
+            {
+              "date": "May 19",
+              "reviews": 232
+            },
+            {
+              "date": "May 25",
+              "reviews": 234
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 234
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 234
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 235
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 236
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              12,
+              3,
+              6,
+              5,
+              7,
+              5,
+              7,
+              7,
+              20
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 19",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22"
+            ],
+            "direction": "declining",
+            "best_rank": 3,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 0.77,
+            "total_gained": 10,
+            "weeks": 13.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Law Offices of Jennie Levin, P.C.",
+              "rating": 5.0,
+              "reviews": 630,
+              "review_velocity": 1.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJR4yfNEa5woAR9dK8qYGmYWs"
+            },
+            {
+              "rank": 2,
+              "name": "i Accident Lawyer",
+              "rating": 5.0,
+              "reviews": 462,
+              "review_velocity": -0.08,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ__8vMcXHwoARHJ-ccctX-6E"
+            },
+            {
+              "rank": 3,
+              "name": "M&Y Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 1016,
+              "review_velocity": 5.46,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJOYdpP2q5woARQK_DAUxo5L4"
+            },
+            {
+              "rank": 4,
+              "name": "Insider Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 408,
+              "review_velocity": 0.85,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ9xtnLZzHwoARAhnj1yIZN_w"
+            },
+            {
+              "rank": 5,
+              "name": "The Dominguez Firm - Personal Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 1980,
+              "review_velocity": 4.69,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5zLl-nvHwoARkShBjA8sJC8"
+            },
+            {
+              "rank": 6,
+              "name": "LA Century: Injury and Accident Lawyer",
+              "rating": 4.9,
+              "reviews": 600,
+              "review_velocity": 2.23,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJYbzZv_O7woARHxKwmyVPZqs"
+            },
+            {
+              "rank": 7,
+              "name": "Wilshire Law Firm",
+              "rating": 4.9,
+              "reviews": 2524,
+              "review_velocity": 1.46,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJXcldAHrHwoARc1bH3h6GBQY"
+            },
+            {
+              "rank": 8,
+              "name": "Jacoby & Meyers Accident & Injury Lawyers - Los Angeles",
+              "rating": 4.7,
+              "reviews": 2311,
+              "review_velocity": 5.31,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJg8jJ1X-7woAR8WWU9OizEYE"
+            },
+            {
+              "rank": 9,
+              "name": "DK Law - Injury, Accident, and More",
+              "rating": 4.8,
+              "reviews": 294,
+              "review_velocity": 3.15,
+              "website": true,
+              "type": "Lawyer",
+              "_key": "ChIJP5j3bj65woARgFVx6kjTRlk"
+            },
+            {
+              "rank": 10,
+              "name": "Arash Law",
+              "rating": 4.8,
+              "reviews": 1104,
+              "review_velocity": 5.85,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJTfggPHfHwoARn1l-KqixTtI"
+            },
+            {
+              "rank": 11,
+              "name": "Accident Attorney - Pourshalimy, PC - Los Angeles",
+              "rating": 5.0,
+              "reviews": 557,
+              "review_velocity": 1.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ2X-Lthe5woARE0DrUFBMjfo"
+            },
+            {
+              "rank": 12,
+              "name": "J&Y Law Injury and Accident Attorneys",
+              "rating": 4.8,
+              "reviews": 556,
+              "review_velocity": 0.96,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJocnhnfS7woAR2Ge3bYPDTYA"
+            },
+            {
+              "rank": 13,
+              "name": "M&Y Personal Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 465,
+              "review_velocity": 1.23,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJN0tv4DrHwoAR0xl8G82g6rY"
+            },
+            {
+              "rank": 14,
+              "name": "Eisenberg Law Group PC",
+              "rating": 4.9,
+              "reviews": 907,
+              "review_velocity": 3.31,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJldmyGCK_woARdude9CdMSN8"
+            },
+            {
+              "rank": 15,
+              "name": "Morgan & Morgan",
+              "rating": 4.7,
+              "reviews": 8034,
+              "review_velocity": 86.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ52fuCHm7woARW-2PEjjSPj4"
+            },
+            {
+              "rank": 16,
+              "name": "Providence Trial Lawyers",
+              "rating": 5.0,
+              "reviews": 169,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJi1kty4S4woARIN58nSJ4_iY"
+            },
+            {
+              "rank": 17,
+              "name": "El Dabe Ritter Trial Lawyers",
+              "rating": 4.9,
+              "reviews": 182,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJSVx8TsjHwoARdk1aPXBCCkE"
+            },
+            {
+              "rank": 18,
+              "name": "Hillstone Law Accident & Injury Attorneys",
+              "rating": 4.9,
+              "reviews": 626,
+              "review_velocity": 7.96,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJl9CzvtC7woARbx8xjmKz7JQ"
+            },
+            {
+              "rank": 19,
+              "name": "MVP Accident Attorneys",
+              "rating": 5.0,
+              "reviews": 292,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJuwjYnQbHwoARfaRBAV6eVOM"
+            },
+            {
+              "rank": 20,
+              "name": "The Accident Guys",
+              "rating": 4.9,
+              "reviews": 236,
+              "review_velocity": 0.77,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJI1Lwoha5woAR-jxn_YMM-sw"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "The Accident Guys",
+            "rating": 4.9,
+            "reviews": 236,
+            "review_velocity": 0.77,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJI1Lwoha5woAR-jxn_YMM-sw"
+          },
+          "benchmarks": {
+            "avg_rating": 4.89,
+            "avg_reviews": 1168,
+            "median_reviews": 578,
+            "typical_reviews": 578,
+            "skewed": true,
+            "your_reviews": 236,
+            "your_rating": 4.9,
+            "reviews_percentile": 15,
+            "pack_size": 20,
+            "top_reviews": 8034
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Law Offices of Jennie Levin, P.C.",
+              "rating": 5.0,
+              "reviews": 630,
+              "review_velocity": 1.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJR4yfNEa5woAR9dK8qYGmYWs",
+              "rank_delta": 6,
+              "review_gain": 18
+            },
+            {
+              "rank": 2,
+              "name": "i Accident Lawyer",
+              "rating": 5.0,
+              "reviews": 462,
+              "review_velocity": -0.08,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ__8vMcXHwoARHJ-ccctX-6E",
+              "rank_delta": -1,
+              "review_gain": -1
+            },
+            {
+              "rank": 3,
+              "name": "M&Y Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 1016,
+              "review_velocity": 5.46,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJOYdpP2q5woARQK_DAUxo5L4",
+              "rank_delta": 0,
+              "review_gain": 71
+            },
+            {
+              "rank": 4,
+              "name": "Insider Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 408,
+              "review_velocity": 0.85,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ9xtnLZzHwoARAhnj1yIZN_w",
+              "rank_delta": -2,
+              "review_gain": 11
+            },
+            {
+              "rank": 5,
+              "name": "The Dominguez Firm - Personal Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 1980,
+              "review_velocity": 4.69,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5zLl-nvHwoARkShBjA8sJC8",
+              "rank_delta": 3,
+              "review_gain": 61
+            },
+            {
+              "rank": 6,
+              "name": "LA Century: Injury and Accident Lawyer",
+              "rating": 4.9,
+              "reviews": 600,
+              "review_velocity": 2.23,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJYbzZv_O7woARHxKwmyVPZqs",
+              "rank_delta": 7,
+              "review_gain": 29
+            },
+            {
+              "rank": 7,
+              "name": "Wilshire Law Firm",
+              "rating": 4.9,
+              "reviews": 2524,
+              "review_velocity": 1.46,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJXcldAHrHwoARc1bH3h6GBQY",
+              "rank_delta": -2,
+              "review_gain": 19
+            },
+            {
+              "rank": 8,
+              "name": "Jacoby & Meyers Accident & Injury Lawyers - Los Angeles",
+              "rating": 4.7,
+              "reviews": 2311,
+              "review_velocity": 5.31,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJg8jJ1X-7woAR8WWU9OizEYE",
+              "rank_delta": 1,
+              "review_gain": 69
+            },
+            {
+              "rank": 9,
+              "name": "DK Law - Injury, Accident, and More",
+              "rating": 4.8,
+              "reviews": 294,
+              "review_velocity": 3.15,
+              "website": true,
+              "type": "Lawyer",
+              "_key": "ChIJP5j3bj65woARgFVx6kjTRlk",
+              "rank_delta": -5,
+              "review_gain": 41
+            },
+            {
+              "rank": 10,
+              "name": "Arash Law",
+              "rating": 4.8,
+              "reviews": 1104,
+              "review_velocity": 5.85,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJTfggPHfHwoARn1l-KqixTtI",
+              "rank_delta": -4,
+              "review_gain": 76
+            },
+            {
+              "rank": 11,
+              "name": "Accident Attorney - Pourshalimy, PC - Los Angeles",
+              "rating": 5.0,
+              "reviews": 557,
+              "review_velocity": 1.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ2X-Lthe5woARE0DrUFBMjfo",
+              "rank_delta": 9,
+              "review_gain": 18
+            },
+            {
+              "rank": 13,
+              "name": "M&Y Personal Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 465,
+              "review_velocity": 1.23,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJN0tv4DrHwoAR0xl8G82g6rY",
+              "rank_delta": 3,
+              "review_gain": 16
+            },
+            {
+              "rank": 14,
+              "name": "Eisenberg Law Group PC",
+              "rating": 4.9,
+              "reviews": 907,
+              "review_velocity": 3.31,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJldmyGCK_woARdude9CdMSN8",
+              "rank_delta": 1,
+              "review_gain": 43
+            },
+            {
+              "rank": 15,
+              "name": "Morgan & Morgan",
+              "rating": 4.7,
+              "reviews": 8034,
+              "review_velocity": 86.15,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ52fuCHm7woARW-2PEjjSPj4",
+              "rank_delta": -5,
+              "review_gain": 1120
+            },
+            {
+              "rank": 16,
+              "name": "Providence Trial Lawyers",
+              "rating": 5.0,
+              "reviews": 169,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJi1kty4S4woARIN58nSJ4_iY",
+              "rank_delta": -5,
+              "review_gain": 9
+            },
+            {
+              "rank": 17,
+              "name": "El Dabe Ritter Trial Lawyers",
+              "rating": 4.9,
+              "reviews": 182,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJSVx8TsjHwoARdk1aPXBCCkE",
+              "rank_delta": 2,
+              "review_gain": 12
+            },
+            {
+              "rank": 19,
+              "name": "MVP Accident Attorneys",
+              "rating": 5.0,
+              "reviews": 292,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJuwjYnQbHwoARfaRBAV6eVOM",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 20,
+              "name": "The Accident Guys",
+              "rating": 4.9,
+              "reviews": 236,
+              "review_velocity": 0.77,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJI1Lwoha5woAR-jxn_YMM-sw",
+              "rank_delta": -8,
+              "review_gain": 10
+            }
+          ],
+          "fastest_climber": {
+            "rank": 11,
+            "name": "Accident Attorney - Pourshalimy, PC - Los Angeles",
+            "rating": 5.0,
+            "reviews": 557,
+            "review_velocity": 1.38,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJ2X-Lthe5woARE0DrUFBMjfo",
+            "rank_delta": 9,
+            "review_gain": 18
+          },
+          "fastest_review_gainer": {
+            "rank": 15,
+            "name": "Morgan & Morgan",
+            "rating": 4.7,
+            "reviews": 8034,
+            "review_velocity": 86.15,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJ52fuCHm7woARW-2PEjjSPj4",
+            "rank_delta": -5,
+            "review_gain": 1120
+          },
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 3,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 15.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 14.3,
+            "lost_vs_best_rel": 95,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 236 vs a typical competitor's 578. Close the 342-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.89."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.77/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Morgan & Morgan added 1120 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 12,
+          "net_change": -8,
+          "best_rank": 3,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "June 25, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-22T17:32:45.912227+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-06-25T15:43:56.067830+00:00",
+      "free_report_email": "pc@calltheaccidentguys.com"
     },
     {
       "id": "5f2953b92047",
@@ -18235,12 +19447,573 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 13.0,
+          "n_snapshots": 9,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 18
+            },
+            {
+              "date": "May 18",
+              "rank": 14
+            },
+            {
+              "date": "Jun 01",
+              "rank": 12
+            },
+            {
+              "date": "Jun 08",
+              "rank": 13
+            },
+            {
+              "date": "Jun 15",
+              "rank": 13
+            },
+            {
+              "date": "Jun 22",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 327
+            },
+            {
+              "date": "May 18",
+              "reviews": 335
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 336
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 336
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 338
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 339
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              18,
+              14,
+              12,
+              13,
+              13,
+              20
+            ],
+            "dates": [
+              "Mar 23",
+              "May 18",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22"
+            ],
+            "direction": "declining",
+            "best_rank": 12,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 0.92,
+            "total_gained": 12,
+            "weeks": 13.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Cosmetic Dentists of Houston",
+              "rating": 4.9,
+              "reviews": 646,
+              "review_velocity": 1.85,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJM1orD0DBQIYR8_kX1AoIIUU"
+            },
+            {
+              "rank": 2,
+              "name": "Sapphire Smiles - Dr. Antoun | Leading Cosmetic Dentist in Houston",
+              "rating": 5.0,
+              "reviews": 912,
+              "review_velocity": 10.85,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ5-yv2rrHQIYRv5tad61bJX4"
+            },
+            {
+              "rank": 3,
+              "name": "Cosmetic Dental Associates",
+              "rating": 5.0,
+              "reviews": 291,
+              "review_velocity": 0.77,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJERBdY-PDQIYRspra1WL_GG0"
+            },
+            {
+              "rank": 4,
+              "name": "Cosmetic Dental Texas",
+              "rating": 4.6,
+              "reviews": 234,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuQEpxBa_QIYRcT9MlaWFNFw"
+            },
+            {
+              "rank": 5,
+              "name": "Nu Dentistry",
+              "rating": 4.9,
+              "reviews": 2210,
+              "review_velocity": 4.08,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9_PNaADBQIYR8pvRkYwWcQQ"
+            },
+            {
+              "rank": 6,
+              "name": "The Houston Dentists",
+              "rating": 5.0,
+              "reviews": 729,
+              "review_velocity": 1.77,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq5bTuTTHQIYRlwh0HQWxnuI"
+            },
+            {
+              "rank": 7,
+              "name": "Memorial Park Dental Spa",
+              "rating": 4.8,
+              "reviews": 1019,
+              "review_velocity": 7.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJH_ry1zLHQIYRTH6OvNFM8ds"
+            },
+            {
+              "rank": 8,
+              "name": "URBN Dental Implants & Invisalign | Uptown",
+              "rating": 4.9,
+              "reviews": 1121,
+              "review_velocity": 2.69,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrbmkixbBQIYRV9jCGdpuUzU"
+            },
+            {
+              "rank": 9,
+              "name": "Konig Center for Cosmetic & Comprehensive Dentistry",
+              "rating": 4.9,
+              "reviews": 375,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJX6BydWzAQIYRKodqDDghzMs"
+            },
+            {
+              "rank": 10,
+              "name": "Uptown Cosmetic & Implant Dentistry",
+              "rating": 4.8,
+              "reviews": 152,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJkzQQfDnBQIYRbGA_pk65mVc"
+            },
+            {
+              "rank": 11,
+              "name": "FLOSS Dental of Houston Midtown",
+              "rating": 4.8,
+              "reviews": 670,
+              "review_velocity": 3.2,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUXRZu2u_QIYRxS30T_-yH9c"
+            },
+            {
+              "rank": 12,
+              "name": "Cosmetic Dentistry by Dr. Ned Shimizu",
+              "rating": 4.9,
+              "reviews": 118,
+              "review_velocity": 0.23,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq8M-Y23bQIYRj61P_MUjvKM"
+            },
+            {
+              "rank": 13,
+              "name": "Houston Dental Implant & Cosmetic Center",
+              "rating": 4.9,
+              "reviews": 164,
+              "review_velocity": 1.2,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_SGUK5nBQIYRPfU0OB2NlNA"
+            },
+            {
+              "rank": 14,
+              "name": "SMYL Dentistry",
+              "rating": 5.0,
+              "reviews": 615,
+              "review_velocity": 2.85,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJHUV2wNzHQIYRRQflb7vsIUw"
+            },
+            {
+              "rank": 15,
+              "name": "The Dentists At Houston Westchase",
+              "rating": 4.9,
+              "reviews": 1351,
+              "review_velocity": 0.4,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJX2dZTEvDQIYR2QDonR9j690"
+            },
+            {
+              "rank": 16,
+              "name": "Houston Dental Esthetics",
+              "rating": 5.0,
+              "reviews": 507,
+              "review_velocity": 0.46,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7SsQxbzEQIYRksbbCPMzMn4"
+            },
+            {
+              "rank": 17,
+              "name": "Houston Cosmetic Dental - John H. Krell DDS",
+              "rating": 5.0,
+              "reviews": 288,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJQYlv6RvBQIYRmIOdrJBPiYA"
+            },
+            {
+              "rank": 18,
+              "name": "Glorious Smiles & Dental Implants",
+              "rating": 4.9,
+              "reviews": 380,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJPcAvVufDQIYR5kZwgPPc9VE"
+            },
+            {
+              "rank": 19,
+              "name": "Dental Illusions",
+              "rating": 5.0,
+              "reviews": 270,
+              "review_velocity": 0.23,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7_RKmYvAQIYRgEPdWJZ7V4I"
+            },
+            {
+              "rank": 20,
+              "name": "Houston Uptown Dentists",
+              "rating": 4.8,
+              "reviews": 339,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0QVm3UbBQIYRkftFcGDZ1nw"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Houston Uptown Dentists",
+            "rating": 4.8,
+            "reviews": 339,
+            "review_velocity": 0.92,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJ0QVm3UbBQIYRkftFcGDZ1nw"
+          },
+          "benchmarks": {
+            "avg_rating": 4.9,
+            "avg_reviews": 620,
+            "median_reviews": 444,
+            "typical_reviews": 620,
+            "skewed": false,
+            "your_reviews": 339,
+            "your_rating": 4.8,
+            "reviews_percentile": 40,
+            "pack_size": 20,
+            "top_reviews": 2210
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Cosmetic Dentists of Houston",
+              "rating": 4.9,
+              "reviews": 646,
+              "review_velocity": 1.85,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJM1orD0DBQIYR8_kX1AoIIUU",
+              "rank_delta": 0,
+              "review_gain": 24
+            },
+            {
+              "rank": 2,
+              "name": "Sapphire Smiles - Dr. Antoun | Leading Cosmetic Dentist in Houston",
+              "rating": 5.0,
+              "reviews": 912,
+              "review_velocity": 10.85,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ5-yv2rrHQIYRv5tad61bJX4",
+              "rank_delta": 2,
+              "review_gain": 141
+            },
+            {
+              "rank": 3,
+              "name": "Cosmetic Dental Associates",
+              "rating": 5.0,
+              "reviews": 291,
+              "review_velocity": 0.77,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJERBdY-PDQIYRspra1WL_GG0",
+              "rank_delta": 0,
+              "review_gain": 10
+            },
+            {
+              "rank": 4,
+              "name": "Cosmetic Dental Texas",
+              "rating": 4.6,
+              "reviews": 234,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuQEpxBa_QIYRcT9MlaWFNFw",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "Nu Dentistry",
+              "rating": 4.9,
+              "reviews": 2210,
+              "review_velocity": 4.08,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9_PNaADBQIYR8pvRkYwWcQQ",
+              "rank_delta": -3,
+              "review_gain": 53
+            },
+            {
+              "rank": 6,
+              "name": "The Houston Dentists",
+              "rating": 5.0,
+              "reviews": 729,
+              "review_velocity": 1.77,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq5bTuTTHQIYRlwh0HQWxnuI",
+              "rank_delta": 0,
+              "review_gain": 23
+            },
+            {
+              "rank": 7,
+              "name": "Memorial Park Dental Spa",
+              "rating": 4.8,
+              "reviews": 1019,
+              "review_velocity": 7.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJH_ry1zLHQIYRTH6OvNFM8ds",
+              "rank_delta": 1,
+              "review_gain": 93
+            },
+            {
+              "rank": 8,
+              "name": "URBN Dental Implants & Invisalign | Uptown",
+              "rating": 4.9,
+              "reviews": 1121,
+              "review_velocity": 2.69,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrbmkixbBQIYRV9jCGdpuUzU",
+              "rank_delta": 2,
+              "review_gain": 35
+            },
+            {
+              "rank": 9,
+              "name": "Konig Center for Cosmetic & Comprehensive Dentistry",
+              "rating": 4.9,
+              "reviews": 375,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJX6BydWzAQIYRKodqDDghzMs",
+              "rank_delta": -2,
+              "review_gain": 12
+            },
+            {
+              "rank": 10,
+              "name": "Uptown Cosmetic & Implant Dentistry",
+              "rating": 4.8,
+              "reviews": 152,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJkzQQfDnBQIYRbGA_pk65mVc",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 12,
+              "name": "Cosmetic Dentistry by Dr. Ned Shimizu",
+              "rating": 4.9,
+              "reviews": 118,
+              "review_velocity": 0.23,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq8M-Y23bQIYRj61P_MUjvKM",
+              "rank_delta": -1,
+              "review_gain": 3
+            },
+            {
+              "rank": 14,
+              "name": "SMYL Dentistry",
+              "rating": 5.0,
+              "reviews": 615,
+              "review_velocity": 2.85,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJHUV2wNzHQIYRRQflb7vsIUw",
+              "rank_delta": 0,
+              "review_gain": 37
+            },
+            {
+              "rank": 16,
+              "name": "Houston Dental Esthetics",
+              "rating": 5.0,
+              "reviews": 507,
+              "review_velocity": 0.46,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7SsQxbzEQIYRksbbCPMzMn4",
+              "rank_delta": 3,
+              "review_gain": 6
+            },
+            {
+              "rank": 19,
+              "name": "Dental Illusions",
+              "rating": 5.0,
+              "reviews": 270,
+              "review_velocity": 0.23,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7_RKmYvAQIYRgEPdWJZ7V4I",
+              "rank_delta": 1,
+              "review_gain": 3
+            },
+            {
+              "rank": 20,
+              "name": "Houston Uptown Dentists",
+              "rating": 4.8,
+              "reviews": 339,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0QVm3UbBQIYRkftFcGDZ1nw",
+              "rank_delta": -2,
+              "review_gain": 12
+            }
+          ],
+          "fastest_climber": {
+            "rank": 16,
+            "name": "Houston Dental Esthetics",
+            "rating": 5.0,
+            "reviews": 507,
+            "review_velocity": 0.46,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJ7SsQxbzEQIYRksbbCPMzMn4",
+            "rank_delta": 3,
+            "review_gain": 6
+          },
+          "fastest_review_gainer": {
+            "rank": 2,
+            "name": "Sapphire Smiles - Dr. Antoun | Leading Cosmetic Dentist in Houston",
+            "rating": 5.0,
+            "reviews": 912,
+            "review_velocity": 10.85,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJ5-yv2rrHQIYRv5tad61bJX4",
+            "rank_delta": 2,
+            "review_gain": 141
+          },
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 12,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 339 vs a typical competitor's 620. Close the 281-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.8 vs category 4.9. A 0.1-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.92/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Sapphire Smiles - Dr. Antoun | Leadin. added 141 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 18,
+          "net_change": -2,
+          "best_rank": 12,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "June 25, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-22T17:32:45.912355+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-06-25T15:44:16.157494+00:00",
+      "free_report_email": "info@houstonuptowndentists.com"
     },
     {
       "id": "72ac0d732741",
