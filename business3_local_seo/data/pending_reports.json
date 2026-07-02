@@ -22442,12 +22442,617 @@
             "category_avg_rating": 4.8,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 10,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 10
+            },
+            {
+              "date": "May 18",
+              "rank": 7
+            },
+            {
+              "date": "May 25",
+              "rank": 18
+            },
+            {
+              "date": "Jun 01",
+              "rank": 6
+            },
+            {
+              "date": "Jun 08",
+              "rank": 7
+            },
+            {
+              "date": "Jun 15",
+              "rank": 7
+            },
+            {
+              "date": "Jun 22",
+              "rank": 7
+            },
+            {
+              "date": "Jun 29",
+              "rank": 16
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 122
+            },
+            {
+              "date": "May 18",
+              "reviews": 171
+            },
+            {
+              "date": "May 25",
+              "reviews": 186
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 191
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 193
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 193
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 193
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 193
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              10,
+              7,
+              18,
+              6,
+              7,
+              7,
+              7,
+              16
+            ],
+            "dates": [
+              "Mar 23",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29"
+            ],
+            "direction": "declining",
+            "best_rank": 6,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 5.07,
+            "total_gained": 71,
+            "weeks": 14.0,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Cherry Creek Dental Spa",
+              "rating": 4.9,
+              "reviews": 602,
+              "review_velocity": 1.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c"
+            },
+            {
+              "rank": 2,
+              "name": "EC Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 129,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE"
+            },
+            {
+              "rank": 3,
+              "name": "Advanced Aesthetic Dentistry",
+              "rating": 4.8,
+              "reviews": 280,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9VIGbSx_bIcRJORO9sPztA8"
+            },
+            {
+              "rank": 4,
+              "name": "Icon Dental",
+              "rating": 4.6,
+              "reviews": 681,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM"
+            },
+            {
+              "rank": 5,
+              "name": "Smile Studio Dental - Denver",
+              "rating": 4.9,
+              "reviews": 727,
+              "review_velocity": 1.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns"
+            },
+            {
+              "rank": 6,
+              "name": "Denver Dream Dentistry",
+              "rating": 4.9,
+              "reviews": 572,
+              "review_velocity": 2.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR1F9Jxx8bIcRZDRbRJEEvKc"
+            },
+            {
+              "rank": 7,
+              "name": "Denver Place Dentistry",
+              "rating": 4.8,
+              "reviews": 338,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJq07tHdp4bIcR1lmnO62NwmE"
+            },
+            {
+              "rank": 8,
+              "name": "My Cherry Creek Dentist",
+              "rating": 4.9,
+              "reviews": 585,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR89E6St8bIcRnlX5zXwXup0"
+            },
+            {
+              "rank": 9,
+              "name": "RiNo Dental",
+              "rating": 4.8,
+              "reviews": 593,
+              "review_velocity": 1.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw"
+            },
+            {
+              "rank": 10,
+              "name": "Highland Smiles",
+              "rating": 4.9,
+              "reviews": 640,
+              "review_velocity": 14.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJKTxiy2KHa4cRTERrwayXX9A"
+            },
+            {
+              "rank": 11,
+              "name": "The Denver Dentists",
+              "rating": 4.4,
+              "reviews": 602,
+              "review_velocity": 3.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyxDJBfR5bIcRLxwG8ibI42k"
+            },
+            {
+              "rank": 12,
+              "name": "Corson Dentistry",
+              "rating": 4.9,
+              "reviews": 2245,
+              "review_velocity": 1.86,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_____8J4bIcRc7K97P21sso"
+            },
+            {
+              "rank": 13,
+              "name": "Denver Cosmetic & Implant Dentistry",
+              "rating": 4.7,
+              "reviews": 80,
+              "review_velocity": 0.21,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJq6o6O6F9bIcRbYFUiyYxbT8"
+            },
+            {
+              "rank": 14,
+              "name": "Metropolitan Dental Care",
+              "rating": 4.9,
+              "reviews": 1095,
+              "review_velocity": 2.6,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJj0x05dN4bIcR1w2Tsy2EzAw"
+            },
+            {
+              "rank": 15,
+              "name": "Espire Dental DTC",
+              "rating": 4.9,
+              "reviews": 500,
+              "review_velocity": 2.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJcwKeKjh9bIcR-EAtHOfec00"
+            },
+            {
+              "rank": 16,
+              "name": "5280 Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 193,
+              "review_velocity": 5.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs"
+            },
+            {
+              "rank": 17,
+              "name": "Dental & Implant Centers of Colorado",
+              "rating": 4.7,
+              "reviews": 442,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJLVOmD4R_bIcRkv7I2oxKuFg"
+            },
+            {
+              "rank": 18,
+              "name": "Espire Dental Riverfront",
+              "rating": 4.8,
+              "reviews": 646,
+              "review_velocity": 1.93,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJv3iKuMF4bIcRJORTCOxi5ss"
+            },
+            {
+              "rank": 19,
+              "name": "Pearl Dentistry",
+              "rating": 4.8,
+              "reviews": 190,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU"
+            },
+            {
+              "rank": 20,
+              "name": "Aspen Dental - private practice of Cherry Creek",
+              "rating": 4.7,
+              "reviews": 1171,
+              "review_velocity": 2.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_fgpLZp-bIcRq2eCN9-1pyo"
+            }
+          ],
+          "subject": {
+            "rank": 16,
+            "name": "5280 Teeth Whitening",
+            "rating": 4.8,
+            "reviews": 193,
+            "review_velocity": 5.07,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs"
+          },
+          "benchmarks": {
+            "avg_rating": 4.8,
+            "avg_reviews": 616,
+            "median_reviews": 589,
+            "typical_reviews": 616,
+            "skewed": false,
+            "your_reviews": 193,
+            "your_rating": 4.8,
+            "reviews_percentile": 20,
+            "pack_size": 20,
+            "top_reviews": 2245
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Cherry Creek Dental Spa",
+              "rating": 4.9,
+              "reviews": 602,
+              "review_velocity": 1.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c",
+              "rank_delta": 3,
+              "review_gain": 18
+            },
+            {
+              "rank": 2,
+              "name": "EC Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 129,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE",
+              "rank_delta": 0,
+              "review_gain": 4
+            },
+            {
+              "rank": 3,
+              "name": "Advanced Aesthetic Dentistry",
+              "rating": 4.8,
+              "reviews": 280,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9VIGbSx_bIcRJORO9sPztA8",
+              "rank_delta": -2,
+              "review_gain": 8
+            },
+            {
+              "rank": 4,
+              "name": "Icon Dental",
+              "rating": 4.6,
+              "reviews": 681,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM",
+              "rank_delta": 4,
+              "review_gain": 15
+            },
+            {
+              "rank": 5,
+              "name": "Smile Studio Dental - Denver",
+              "rating": 4.9,
+              "reviews": 727,
+              "review_velocity": 1.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns",
+              "rank_delta": 4,
+              "review_gain": 22
+            },
+            {
+              "rank": 6,
+              "name": "Denver Dream Dentistry",
+              "rating": 4.9,
+              "reviews": 572,
+              "review_velocity": 2.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR1F9Jxx8bIcRZDRbRJEEvKc",
+              "rank_delta": -1,
+              "review_gain": 30
+            },
+            {
+              "rank": 7,
+              "name": "Denver Place Dentistry",
+              "rating": 4.8,
+              "reviews": 338,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJq07tHdp4bIcR1lmnO62NwmE",
+              "rank_delta": -1,
+              "review_gain": 6
+            },
+            {
+              "rank": 9,
+              "name": "RiNo Dental",
+              "rating": 4.8,
+              "reviews": 593,
+              "review_velocity": 1.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw",
+              "rank_delta": 9,
+              "review_gain": 18
+            },
+            {
+              "rank": 10,
+              "name": "Highland Smiles",
+              "rating": 4.9,
+              "reviews": 640,
+              "review_velocity": 14.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJKTxiy2KHa4cRTERrwayXX9A",
+              "rank_delta": 5,
+              "review_gain": 201
+            },
+            {
+              "rank": 11,
+              "name": "The Denver Dentists",
+              "rating": 4.4,
+              "reviews": 602,
+              "review_velocity": 3.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyxDJBfR5bIcRLxwG8ibI42k",
+              "rank_delta": 1,
+              "review_gain": 42
+            },
+            {
+              "rank": 12,
+              "name": "Corson Dentistry",
+              "rating": 4.9,
+              "reviews": 2245,
+              "review_velocity": 1.86,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_____8J4bIcRc7K97P21sso",
+              "rank_delta": 4,
+              "review_gain": 26
+            },
+            {
+              "rank": 13,
+              "name": "Denver Cosmetic & Implant Dentistry",
+              "rating": 4.7,
+              "reviews": 80,
+              "review_velocity": 0.21,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJq6o6O6F9bIcRbYFUiyYxbT8",
+              "rank_delta": -6,
+              "review_gain": 3
+            },
+            {
+              "rank": 15,
+              "name": "Espire Dental DTC",
+              "rating": 4.9,
+              "reviews": 500,
+              "review_velocity": 2.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJcwKeKjh9bIcR-EAtHOfec00",
+              "rank_delta": -2,
+              "review_gain": 35
+            },
+            {
+              "rank": 16,
+              "name": "5280 Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 193,
+              "review_velocity": 5.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs",
+              "rank_delta": -6,
+              "review_gain": 71
+            },
+            {
+              "rank": 18,
+              "name": "Espire Dental Riverfront",
+              "rating": 4.8,
+              "reviews": 646,
+              "review_velocity": 1.93,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJv3iKuMF4bIcRJORTCOxi5ss",
+              "rank_delta": -4,
+              "review_gain": 27
+            },
+            {
+              "rank": 19,
+              "name": "Pearl Dentistry",
+              "rating": 4.8,
+              "reviews": 190,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU",
+              "rank_delta": -8,
+              "review_gain": 6
+            },
+            {
+              "rank": 20,
+              "name": "Aspen Dental - private practice of Cherry Creek",
+              "rating": 4.7,
+              "reviews": 1171,
+              "review_velocity": 2.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_fgpLZp-bIcRq2eCN9-1pyo",
+              "rank_delta": -3,
+              "review_gain": 34
+            }
+          ],
+          "fastest_climber": {
+            "rank": 9,
+            "name": "RiNo Dental",
+            "rating": 4.8,
+            "reviews": 593,
+            "review_velocity": 1.29,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw",
+            "rank_delta": 9,
+            "review_gain": 18
+          },
+          "fastest_review_gainer": {
+            "rank": 10,
+            "name": "Highland Smiles",
+            "rating": 4.9,
+            "reviews": 640,
+            "review_velocity": 14.36,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJKTxiy2KHa4cRTERrwayXX9A",
+            "rank_delta": 5,
+            "review_gain": 201
+          },
+          "visibility": {
+            "current_rank": 16,
+            "best_rank": 6,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 3.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 2.6,
+            "lost_vs_best_rel": 76,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 193 vs a typical competitor's 616. Close the 423-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.8 vs category 4.8."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 5.07/week (strong)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Highland Smiles added 201 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 16,
+          "start_rank": 10,
+          "net_change": -6,
+          "best_rank": 6,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 02, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-29T16:42:20.427073+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-02T15:24:15.742456+00:00",
+      "free_report_email": "5280TeethWhitening@gmail.com"
     },
     {
       "id": "6d83f3f7b574",
@@ -22572,12 +23177,639 @@
             "category_avg_rating": 4.7,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 10,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 14
+            },
+            {
+              "date": "Apr 02",
+              "rank": 13
+            },
+            {
+              "date": "May 18",
+              "rank": 16
+            },
+            {
+              "date": "May 25",
+              "rank": 16
+            },
+            {
+              "date": "Jun 01",
+              "rank": 15
+            },
+            {
+              "date": "Jun 08",
+              "rank": 16
+            },
+            {
+              "date": "Jun 15",
+              "rank": 15
+            },
+            {
+              "date": "Jun 22",
+              "rank": 8
+            },
+            {
+              "date": "Jun 29",
+              "rank": 15
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 159
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 166
+            },
+            {
+              "date": "May 18",
+              "reviews": 180
+            },
+            {
+              "date": "May 25",
+              "reviews": 181
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 184
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 183
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 187
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 190
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 192
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              14,
+              13,
+              16,
+              16,
+              15,
+              16,
+              15,
+              8,
+              15
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29"
+            ],
+            "direction": "volatile",
+            "best_rank": 8,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 2.36,
+            "total_gained": 33,
+            "weeks": 14.0,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Denver Regenerative Medicine | Stem Cell Therapy, HRT, Testosterone Clinic",
+              "rating": 4.6,
+              "reviews": 144,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ9xGGFu59bIcR2dlmBqoHW2k"
+            },
+            {
+              "rank": 2,
+              "name": "RegenRx | Regenerative Medicine and Wellness Clinic Denver",
+              "rating": 5.0,
+              "reviews": 80,
+              "review_velocity": 2.71,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJTzaSH3x5bIcRlWn0X2BSld4"
+            },
+            {
+              "rank": 3,
+              "name": "Cendant Stem Cell Center",
+              "rating": 4.7,
+              "reviews": 185,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Orthopedic clinic",
+              "_key": "ChIJA6GcoZKGbIcRGlkJr7LnsQQ"
+            },
+            {
+              "rank": 4,
+              "name": "thriveMD Denver Colorado - Regenerative Medicine",
+              "rating": 4.7,
+              "reviews": 23,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJp1ycVQOFbIcRSis5tEVWYUw"
+            },
+            {
+              "rank": 5,
+              "name": "CU Medicine Regenerative Medicine, Hand and Spine Center",
+              "rating": 4.8,
+              "reviews": 27,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Sports medicine clinic",
+              "_key": "ChIJ7c_A5CiFbIcR1kTVmHoKi4w"
+            },
+            {
+              "rank": 6,
+              "name": "Regen Revolution - Regenerative Medicine & Stem Cell Therapy",
+              "rating": 4.8,
+              "reviews": 427,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJY7rtiNp4bIcRRWW4-22TSG4"
+            },
+            {
+              "rank": 7,
+              "name": "Advanced Regenerative Health",
+              "rating": 4.7,
+              "reviews": 265,
+              "review_velocity": 0.64,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJSdA7NXaGbIcRdgM5kqPiwQs"
+            },
+            {
+              "rank": 8,
+              "name": "Mulka Medical Institute - Denver Regenerative and Musculoskeletal Medicine",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Medical clinic",
+              "_key": "ChIJVVWVK_uGbIcRRTBUG8h2wNc"
+            },
+            {
+              "rank": 9,
+              "name": "Kore Regenerative Medicine",
+              "rating": 4.9,
+              "reviews": 104,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJHTYJ2_mFa4cRU0tUZtyeTF4"
+            },
+            {
+              "rank": 10,
+              "name": "Colorado Stem Cell Center",
+              "rating": 3.4,
+              "reviews": 5,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJU1JFq4yGbIcR3DiYsJto_uM"
+            },
+            {
+              "rank": 11,
+              "name": "Aspen Institute for Anti-Aging and Regenerative Medicine - Denver",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Holistic medicine practitioner",
+              "_key": "ChIJhZuoACyBa4cR8GAc1Q0CVEg"
+            },
+            {
+              "rank": 12,
+              "name": "Cendant Stem Cell Center",
+              "rating": 4.8,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ_2SN_2qFa4cRR7kaDeq8YqA"
+            },
+            {
+              "rank": 13,
+              "name": "Metro Denver Regenerative Medicine",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Medical clinic",
+              "_key": "ChIJ5_CzdHiHbIcRH70AaP9gju8"
+            },
+            {
+              "rank": 14,
+              "name": "Advanced Regenerative Health",
+              "rating": 4.8,
+              "reviews": 112,
+              "review_velocity": 1.79,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJQ1Kkwc13bIcRWtg_EMJWPg8"
+            },
+            {
+              "rank": 15,
+              "name": "Beyond Stem Cells Medical Spa",
+              "rating": 4.9,
+              "reviews": 192,
+              "review_velocity": 2.36,
+              "website": true,
+              "type": "Medical spa",
+              "_key": "ChIJbaxn9XN5bIcRFm8EKFywdGc"
+            },
+            {
+              "rank": 16,
+              "name": "F&M Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 5,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ5YIIzIKBbIcRYKgeJnzi_8U"
+            },
+            {
+              "rank": 17,
+              "name": "Genesis Medical - Denver's Premier Neck, Back & Knee Pain Clinic",
+              "rating": 5.0,
+              "reviews": 150,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJnzUujXZ-bIcRkBkeyaQMfEo"
+            },
+            {
+              "rank": 18,
+              "name": "Prolotherapy of Denver",
+              "rating": 4.9,
+              "reviews": 58,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Acupuncturist",
+              "_key": "ChIJIdQOq2F_bIcRPG2oXna8etM"
+            },
+            {
+              "rank": 19,
+              "name": "Denver Regenerative Medicine | Stem Cell Therapy, HRT, Testosterone Clinic",
+              "rating": 5.0,
+              "reviews": 7,
+              "review_velocity": -0.14,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ5wkQltpRE4cRE3oDNNk9LGk"
+            },
+            {
+              "rank": 20,
+              "name": "Rocky Mountain Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 64,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJR09rpNHta4cRiR-fM3xzG8Y"
+            }
+          ],
+          "subject": {
+            "rank": 15,
+            "name": "Beyond Stem Cells Medical Spa",
+            "rating": 4.9,
+            "reviews": 192,
+            "review_velocity": 2.36,
+            "website": true,
+            "type": "Medical spa",
+            "_key": "ChIJbaxn9XN5bIcRFm8EKFywdGc"
+          },
+          "benchmarks": {
+            "avg_rating": 4.78,
+            "avg_reviews": 94,
+            "median_reviews": 61,
+            "typical_reviews": 94,
+            "skewed": false,
+            "your_reviews": 192,
+            "your_rating": 4.9,
+            "reviews_percentile": 90,
+            "pack_size": 20,
+            "top_reviews": 427
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Denver Regenerative Medicine | Stem Cell Therapy, HRT, Testosterone Clinic",
+              "rating": 4.6,
+              "reviews": 144,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ9xGGFu59bIcR2dlmBqoHW2k",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 2,
+              "name": "RegenRx | Regenerative Medicine and Wellness Clinic Denver",
+              "rating": 5.0,
+              "reviews": 80,
+              "review_velocity": 2.71,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJTzaSH3x5bIcRlWn0X2BSld4",
+              "rank_delta": 0,
+              "review_gain": 38
+            },
+            {
+              "rank": 3,
+              "name": "Cendant Stem Cell Center",
+              "rating": 4.7,
+              "reviews": 185,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Orthopedic clinic",
+              "_key": "ChIJA6GcoZKGbIcRGlkJr7LnsQQ",
+              "rank_delta": 0,
+              "review_gain": 6
+            },
+            {
+              "rank": 4,
+              "name": "thriveMD Denver Colorado - Regenerative Medicine",
+              "rating": 4.7,
+              "reviews": 23,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJp1ycVQOFbIcRSis5tEVWYUw",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "CU Medicine Regenerative Medicine, Hand and Spine Center",
+              "rating": 4.8,
+              "reviews": 27,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Sports medicine clinic",
+              "_key": "ChIJ7c_A5CiFbIcR1kTVmHoKi4w",
+              "rank_delta": 1,
+              "review_gain": 4
+            },
+            {
+              "rank": 6,
+              "name": "Regen Revolution - Regenerative Medicine & Stem Cell Therapy",
+              "rating": 4.8,
+              "reviews": 427,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJY7rtiNp4bIcRRWW4-22TSG4",
+              "rank_delta": -1,
+              "review_gain": 3
+            },
+            {
+              "rank": 7,
+              "name": "Advanced Regenerative Health",
+              "rating": 4.7,
+              "reviews": 265,
+              "review_velocity": 0.64,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJSdA7NXaGbIcRdgM5kqPiwQs",
+              "rank_delta": 1,
+              "review_gain": 9
+            },
+            {
+              "rank": 8,
+              "name": "Mulka Medical Institute - Denver Regenerative and Musculoskeletal Medicine",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Medical clinic",
+              "_key": "ChIJVVWVK_uGbIcRRTBUG8h2wNc",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 9,
+              "name": "Kore Regenerative Medicine",
+              "rating": 4.9,
+              "reviews": 104,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJHTYJ2_mFa4cRU0tUZtyeTF4",
+              "rank_delta": -2,
+              "review_gain": 2
+            },
+            {
+              "rank": 10,
+              "name": "Colorado Stem Cell Center",
+              "rating": 3.4,
+              "reviews": 5,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJU1JFq4yGbIcR3DiYsJto_uM",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 11,
+              "name": "Aspen Institute for Anti-Aging and Regenerative Medicine - Denver",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Holistic medicine practitioner",
+              "_key": "ChIJhZuoACyBa4cR8GAc1Q0CVEg",
+              "rank_delta": 6,
+              "review_gain": 0
+            },
+            {
+              "rank": 12,
+              "name": "Cendant Stem Cell Center",
+              "rating": 4.8,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ_2SN_2qFa4cRR7kaDeq8YqA",
+              "rank_delta": -3,
+              "review_gain": 0
+            },
+            {
+              "rank": 14,
+              "name": "Advanced Regenerative Health",
+              "rating": 4.8,
+              "reviews": 112,
+              "review_velocity": 1.79,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJQ1Kkwc13bIcRWtg_EMJWPg8",
+              "rank_delta": -3,
+              "review_gain": 25
+            },
+            {
+              "rank": 15,
+              "name": "Beyond Stem Cells Medical Spa",
+              "rating": 4.9,
+              "reviews": 192,
+              "review_velocity": 2.36,
+              "website": true,
+              "type": "Medical spa",
+              "_key": "ChIJbaxn9XN5bIcRFm8EKFywdGc",
+              "rank_delta": -1,
+              "review_gain": 33
+            },
+            {
+              "rank": 16,
+              "name": "F&M Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 5,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ5YIIzIKBbIcRYKgeJnzi_8U",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 17,
+              "name": "Genesis Medical - Denver's Premier Neck, Back & Knee Pain Clinic",
+              "rating": 5.0,
+              "reviews": 150,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJnzUujXZ-bIcRkBkeyaQMfEo",
+              "rank_delta": -4,
+              "review_gain": 0
+            },
+            {
+              "rank": 19,
+              "name": "Denver Regenerative Medicine | Stem Cell Therapy, HRT, Testosterone Clinic",
+              "rating": 5.0,
+              "reviews": 7,
+              "review_velocity": -0.14,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ5wkQltpRE4cRE3oDNNk9LGk",
+              "rank_delta": -1,
+              "review_gain": -2
+            },
+            {
+              "rank": 20,
+              "name": "Rocky Mountain Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 64,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJR09rpNHta4cRiR-fM3xzG8Y",
+              "rank_delta": 0,
+              "review_gain": 0
+            }
+          ],
+          "fastest_climber": {
+            "rank": 11,
+            "name": "Aspen Institute for Anti-Aging and Regenerative Medicine - Denver",
+            "rating": 0.0,
+            "reviews": 0,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Holistic medicine practitioner",
+            "_key": "ChIJhZuoACyBa4cR8GAc1Q0CVEg",
+            "rank_delta": 6,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 2,
+            "name": "RegenRx | Regenerative Medicine and Wellness Clinic Denver",
+            "rating": 5.0,
+            "reviews": 80,
+            "review_velocity": 2.71,
+            "website": true,
+            "type": "Medical clinic",
+            "_key": "ChIJTzaSH3x5bIcRlWn0X2BSld4",
+            "rank_delta": 0,
+            "review_gain": 38
+          },
+          "visibility": {
+            "current_rank": 15,
+            "best_rank": 8,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.9,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 1.1,
+            "lost_vs_best_rel": 58,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 192 vs a typical competitor's 94."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.78."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 2.36/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "RegenRx | Regenerative Medicine and W. added 38 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 15,
+          "start_rank": 14,
+          "net_change": -1,
+          "best_rank": 8,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 02, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-29T16:42:20.427085+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-02T15:24:35.936889+00:00",
+      "free_report_email": "jeff@jeffgitlin.com"
     },
     {
       "id": "ec8022b9fbe8",
@@ -23547,12 +24779,663 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 10,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 4
+            },
+            {
+              "date": "Apr 02",
+              "rank": 3
+            },
+            {
+              "date": "May 18",
+              "rank": 4
+            },
+            {
+              "date": "May 25",
+              "rank": 15
+            },
+            {
+              "date": "Jun 01",
+              "rank": 4
+            },
+            {
+              "date": "Jun 08",
+              "rank": 4
+            },
+            {
+              "date": "Jun 15",
+              "rank": 3
+            },
+            {
+              "date": "Jun 22",
+              "rank": 4
+            },
+            {
+              "date": "Jun 29",
+              "rank": 19
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 368
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 369
+            },
+            {
+              "date": "May 18",
+              "reviews": 374
+            },
+            {
+              "date": "May 25",
+              "reviews": 375
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 375
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 377
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 379
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 381
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 381
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              4,
+              3,
+              4,
+              15,
+              4,
+              4,
+              3,
+              4,
+              19
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29"
+            ],
+            "direction": "declining",
+            "best_rank": 3,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.93,
+            "total_gained": 13,
+            "weeks": 14.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Aesthetic Dental Associates",
+              "rating": 4.8,
+              "reviews": 411,
+              "review_velocity": 0.79,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrdhDMksVkFQRoUjLpf42SIA"
+            },
+            {
+              "rank": 2,
+              "name": "Advanced Cosmetic and Implant Dentistry./",
+              "rating": 4.9,
+              "reviews": 95,
+              "review_velocity": 0.64,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaa0lachqkFQRSHXoJ5gzvjs"
+            },
+            {
+              "rank": 3,
+              "name": "FLOSS general + cosmetic dentistry",
+              "rating": 5.0,
+              "reviews": 311,
+              "review_velocity": 0.64,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJi57ixoUTkFQRuI3v0ZVo0FA"
+            },
+            {
+              "rank": 4,
+              "name": "Green Lake Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 75,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFc_b0hkUkFQRC7kGOC3exmc"
+            },
+            {
+              "rank": 5,
+              "name": "Seattle Dental Studio",
+              "rating": 4.9,
+              "reviews": 329,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ66j7OLRqkFQRyamKSmYu5z8"
+            },
+            {
+              "rank": 6,
+              "name": "Dental Care Seattle",
+              "rating": 4.9,
+              "reviews": 670,
+              "review_velocity": 2.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaa0lachqkFQRPxAn3OJG59U"
+            },
+            {
+              "rank": 7,
+              "name": "Prestige Dental",
+              "rating": 4.8,
+              "reviews": 273,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJRYj2dzYVkFQRzTxDWRiy4Oo"
+            },
+            {
+              "rank": 8,
+              "name": "Seattle's Capitol Hill Dentist",
+              "rating": 4.8,
+              "reviews": 181,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ5Uves4MVkFQRI9LGDeccKJ8"
+            },
+            {
+              "rank": 9,
+              "name": "Seattle Dental Co.",
+              "rating": 4.9,
+              "reviews": 798,
+              "review_velocity": 1.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ3-zUBQsVkFQRbQnY5uvhS6U"
+            },
+            {
+              "rank": 10,
+              "name": "Aesthetica Contemporary Dentistry",
+              "rating": 4.9,
+              "reviews": 360,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0zXvmeMUkFQRdefKo0gzdXg"
+            },
+            {
+              "rank": 11,
+              "name": "4th & Seneca Dental",
+              "rating": 5.0,
+              "reviews": 791,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyYF9XLFqkFQRsRcWcr823QQ"
+            },
+            {
+              "rank": 12,
+              "name": "Seattle Smiles Company",
+              "rating": 4.9,
+              "reviews": 59,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_1-wwsZrkFQRTEgO-yLuALw"
+            },
+            {
+              "rank": 13,
+              "name": "32 Pearls Seattle",
+              "rating": 4.8,
+              "reviews": 298,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ3QKVn-FqkFQRIXY0fQvkzRk"
+            },
+            {
+              "rank": 14,
+              "name": "Pacific Modern Dentistry",
+              "rating": 4.9,
+              "reviews": 273,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6VP0kxkVkFQRuzUfpgJQ-Mk"
+            },
+            {
+              "rank": 15,
+              "name": "Smile Art by Jaime Lee DDS",
+              "rating": 4.7,
+              "reviews": 257,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJARF1XclqkFQRwGHaP6VF85w"
+            },
+            {
+              "rank": 16,
+              "name": "Smile Ballard",
+              "rating": 4.8,
+              "reviews": 246,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJF_VkkMgVkFQRg31r3im8598"
+            },
+            {
+              "rank": 17,
+              "name": "Seattle Crown Hill Dental",
+              "rating": 4.8,
+              "reviews": 632,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgUyY44IWkFQRJQraMVNuYgQ"
+            },
+            {
+              "rank": 18,
+              "name": "West Seattle Smile Co.",
+              "rating": 4.8,
+              "reviews": 592,
+              "review_velocity": 0.86,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuyJ3l_dAkFQRbgD-8Kxvg7w"
+            },
+            {
+              "rank": 19,
+              "name": "Seattle Specialty Dentistry",
+              "rating": 4.9,
+              "reviews": 381,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrdhDMksVkFQRDJDErSQzsRY"
+            },
+            {
+              "rank": 20,
+              "name": "Downtown Seattle Dentists",
+              "rating": 4.8,
+              "reviews": 268,
+              "review_velocity": 2.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJGdlZNEsVkFQRrPXw5_EHcus"
+            }
+          ],
+          "subject": {
+            "rank": 19,
+            "name": "Seattle Specialty Dentistry",
+            "rating": 4.9,
+            "reviews": 381,
+            "review_velocity": 0.93,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJrdhDMksVkFQRDJDErSQzsRY"
+          },
+          "benchmarks": {
+            "avg_rating": 4.86,
+            "avg_reviews": 365,
+            "median_reviews": 304,
+            "typical_reviews": 365,
+            "skewed": false,
+            "your_reviews": 381,
+            "your_rating": 4.9,
+            "reviews_percentile": 70,
+            "pack_size": 20,
+            "top_reviews": 798
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Aesthetic Dental Associates",
+              "rating": 4.8,
+              "reviews": 411,
+              "review_velocity": 0.79,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrdhDMksVkFQRoUjLpf42SIA",
+              "rank_delta": 0,
+              "review_gain": 11
+            },
+            {
+              "rank": 2,
+              "name": "Advanced Cosmetic and Implant Dentistry./",
+              "rating": 4.9,
+              "reviews": 95,
+              "review_velocity": 0.64,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaa0lachqkFQRSHXoJ5gzvjs",
+              "rank_delta": 0,
+              "review_gain": 9
+            },
+            {
+              "rank": 3,
+              "name": "FLOSS general + cosmetic dentistry",
+              "rating": 5.0,
+              "reviews": 311,
+              "review_velocity": 0.64,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJi57ixoUTkFQRuI3v0ZVo0FA",
+              "rank_delta": 2,
+              "review_gain": 9
+            },
+            {
+              "rank": 4,
+              "name": "Green Lake Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 75,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFc_b0hkUkFQRC7kGOC3exmc",
+              "rank_delta": -1,
+              "review_gain": 3
+            },
+            {
+              "rank": 5,
+              "name": "Seattle Dental Studio",
+              "rating": 4.9,
+              "reviews": 329,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ66j7OLRqkFQRyamKSmYu5z8",
+              "rank_delta": 1,
+              "review_gain": 10
+            },
+            {
+              "rank": 6,
+              "name": "Dental Care Seattle",
+              "rating": 4.9,
+              "reviews": 670,
+              "review_velocity": 2.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaa0lachqkFQRPxAn3OJG59U",
+              "rank_delta": 2,
+              "review_gain": 34
+            },
+            {
+              "rank": 7,
+              "name": "Prestige Dental",
+              "rating": 4.8,
+              "reviews": 273,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJRYj2dzYVkFQRzTxDWRiy4Oo",
+              "rank_delta": 0,
+              "review_gain": 8
+            },
+            {
+              "rank": 8,
+              "name": "Seattle's Capitol Hill Dentist",
+              "rating": 4.8,
+              "reviews": 181,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ5Uves4MVkFQRI9LGDeccKJ8",
+              "rank_delta": 1,
+              "review_gain": 10
+            },
+            {
+              "rank": 9,
+              "name": "Seattle Dental Co.",
+              "rating": 4.9,
+              "reviews": 798,
+              "review_velocity": 1.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ3-zUBQsVkFQRbQnY5uvhS6U",
+              "rank_delta": 1,
+              "review_gain": 18
+            },
+            {
+              "rank": 10,
+              "name": "Aesthetica Contemporary Dentistry",
+              "rating": 4.9,
+              "reviews": 360,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0zXvmeMUkFQRdefKo0gzdXg",
+              "rank_delta": 1,
+              "review_gain": 15
+            },
+            {
+              "rank": 11,
+              "name": "4th & Seneca Dental",
+              "rating": 5.0,
+              "reviews": 791,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyYF9XLFqkFQRsRcWcr823QQ",
+              "rank_delta": 2,
+              "review_gain": 15
+            },
+            {
+              "rank": 12,
+              "name": "Seattle Smiles Company",
+              "rating": 4.9,
+              "reviews": 59,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_1-wwsZrkFQRTEgO-yLuALw",
+              "rank_delta": 5,
+              "review_gain": 2
+            },
+            {
+              "rank": 13,
+              "name": "32 Pearls Seattle",
+              "rating": 4.8,
+              "reviews": 298,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ3QKVn-FqkFQRIXY0fQvkzRk",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 14,
+              "name": "Pacific Modern Dentistry",
+              "rating": 4.9,
+              "reviews": 273,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6VP0kxkVkFQRuzUfpgJQ-Mk",
+              "rank_delta": -2,
+              "review_gain": 6
+            },
+            {
+              "rank": 15,
+              "name": "Smile Art by Jaime Lee DDS",
+              "rating": 4.7,
+              "reviews": 257,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJARF1XclqkFQRwGHaP6VF85w",
+              "rank_delta": 4,
+              "review_gain": 0
+            },
+            {
+              "rank": 16,
+              "name": "Smile Ballard",
+              "rating": 4.8,
+              "reviews": 246,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJF_VkkMgVkFQRg31r3im8598",
+              "rank_delta": 0,
+              "review_gain": 7
+            },
+            {
+              "rank": 17,
+              "name": "Seattle Crown Hill Dental",
+              "rating": 4.8,
+              "reviews": 632,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgUyY44IWkFQRJQraMVNuYgQ",
+              "rank_delta": 1,
+              "review_gain": 10
+            },
+            {
+              "rank": 18,
+              "name": "West Seattle Smile Co.",
+              "rating": 4.8,
+              "reviews": 592,
+              "review_velocity": 0.86,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuyJ3l_dAkFQRbgD-8Kxvg7w",
+              "rank_delta": -4,
+              "review_gain": 12
+            },
+            {
+              "rank": 19,
+              "name": "Seattle Specialty Dentistry",
+              "rating": 4.9,
+              "reviews": 381,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrdhDMksVkFQRDJDErSQzsRY",
+              "rank_delta": -15,
+              "review_gain": 13
+            },
+            {
+              "rank": 20,
+              "name": "Downtown Seattle Dentists",
+              "rating": 4.8,
+              "reviews": 268,
+              "review_velocity": 2.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJGdlZNEsVkFQRrPXw5_EHcus",
+              "rank_delta": 0,
+              "review_gain": 32
+            }
+          ],
+          "fastest_climber": {
+            "rank": 12,
+            "name": "Seattle Smiles Company",
+            "rating": 4.9,
+            "reviews": 59,
+            "review_velocity": 0.14,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJ_1-wwsZrkFQRTEgO-yLuALw",
+            "rank_delta": 5,
+            "review_gain": 2
+          },
+          "fastest_review_gainer": {
+            "rank": 6,
+            "name": "Dental Care Seattle",
+            "rating": 4.9,
+            "reviews": 670,
+            "review_velocity": 2.43,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJaa0lachqkFQRPxAn3OJG59U",
+            "rank_delta": 2,
+            "review_gain": 34
+          },
+          "visibility": {
+            "current_rank": 19,
+            "best_rank": 3,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 15.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 14.3,
+            "lost_vs_best_rel": 95,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 381 vs a typical competitor's 365."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.86."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.93/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Dental Care Seattle added 34 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 19,
+          "start_rank": 4,
+          "net_change": -15,
+          "best_rank": 3,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 02, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-06-29T16:42:20.427164+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-02T15:23:56.232395+00:00",
+      "free_report_email": "dns@seattledentistry.com"
     }
   ]
 }
