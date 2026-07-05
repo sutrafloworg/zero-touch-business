@@ -99,6 +99,30 @@
     "office@downtowndentalla.com": {
       "added_at": "2026-05-26T13:55:45.616684+00:00",
       "reason": "hard_bounce"
+    },
+    "news@team.semrush.com": {
+      "added_at": "2026-07-05T12:16:40.567001+00:00",
+      "reason": "unsubscribe_reply"
+    },
+    "referralteam@monday.com": {
+      "added_at": "2026-07-05T12:16:44.369093+00:00",
+      "reason": "unsubscribe_reply"
+    },
+    "updates@e.stripe.com": {
+      "added_at": "2026-07-05T12:16:44.763103+00:00",
+      "reason": "unsubscribe_reply"
+    },
+    "zeno@updates.resend.com": {
+      "added_at": "2026-07-05T12:16:44.958903+00:00",
+      "reason": "unsubscribe_reply"
+    },
+    "dmiller@amarolawfirm.com": {
+      "added_at": "2026-07-05T12:16:47.794930+00:00",
+      "reason": "unsubscribe_reply"
+    },
+    "em@em1.cloudflare.com": {
+      "added_at": "2026-07-05T12:16:51.096306+00:00",
+      "reason": "unsubscribe_reply"
     }
   }
 }
