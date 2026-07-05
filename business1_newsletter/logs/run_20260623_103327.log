@@ -1,0 +1,30 @@
+2026-06-23 10:33:29,388 [INFO] orchestrator — ============================================================
+2026-06-23 10:33:29,388 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-06-23 10:33:29,388 [INFO] orchestrator — Timestamp: 2026-06-23T10:33:29.388625+00:00
+2026-06-23 10:33:29,388 [INFO] orchestrator — ============================================================
+2026-06-23 10:33:29,424 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-06-23 10:33:29,516 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-06-23 10:33:30,146 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-06-23 10:33:30,769 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 3 fresh items
+2026-06-23 10:33:31,548 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-06-23 10:33:34,294 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-06-23 10:33:34,922 [INFO] agents.feed_agent —   Product Hunt AI: fetched 36 fresh items
+2026-06-23 10:33:35,574 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-06-23 10:33:37,113 [INFO] agents.feed_agent —   OpenAI Blog: fetched 10 fresh items
+2026-06-23 10:33:37,616 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 89 total
+2026-06-23 10:33:37,616 [INFO] orchestrator —       Got 10 items
+2026-06-23 10:33:37,617 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-06-23 10:33:37,617 [INFO] agents.content_agent — Generating newsletter with sponsors: Rytr, Notion
+2026-06-23 10:33:52,050 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-23 10:33:52,074 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'Samsung just deployed ChatGPT to 200,000+ employees'
+2026-06-23 10:33:52,074 [INFO] orchestrator —       Subject: 'Samsung just deployed ChatGPT to 200,000+ employees'
+2026-06-23 10:33:52,074 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-06-23 10:33:52,074 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-06-23 10:33:52,620 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-06-23T10:36:52+0000, ID=24683862
+2026-06-23 10:33:52,655 [INFO] orchestrator —       Broadcast ID: 24683862, Subscribers: 2
+2026-06-23 10:33:52,655 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-06-23 10:33:52,656 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 24683862
+2026-06-23 10:33:54,163 [INFO] agents.monitor_agent — Alert email sent: [Weekly Report] AI Tools Weekly
+2026-06-23 10:33:54,164 [INFO] orchestrator — ============================================================
+2026-06-23 10:33:54,164 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-06-23 10:33:54,164 [INFO] orchestrator — ============================================================
