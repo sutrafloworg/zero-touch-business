@@ -56,12 +56,26 @@ jobs:
             python bounce_handler.py
           fi
 
+      - name: Run reply handler (unsubscribe replies + warm-lead alerts)
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        working-directory: business3_local_seo
+        run: |
+          DRY_RUN="${{ github.event.inputs.dry_run || 'false' }}"
+          if [ "$DRY_RUN" = "true" ]; then
+            python reply_handler.py --dry-run
+          else
+            python reply_handler.py
+          fi
+
       - name: Commit suppression updates
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
           git config user.name "Search Sentinel Bot"
           git config user.email "bot@github-actions"
-          git add business3_local_seo/data/suppression.json || true
-          git diff --staged --quiet || git commit -m "bounce-handler: suppress hard-bounced addresses $(date +%Y-%m-%d) [skip ci]"
+          git add business3_local_seo/data/suppression.json business3_local_seo/data/replies_seen.json || true
+          git diff --staged --quiet || git commit -m "bounce+reply handler: suppression/replies update $(date +%Y-%m-%d) [skip ci]"
           git pull --rebase origin main || true
           git push || true

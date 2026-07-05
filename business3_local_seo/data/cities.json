@@ -1,149 +1,677 @@
 {
-  "_instructions": "12 cities × 5 high-ticket categories = 60 searches/week = 240/month (within 250 free SerpAPI limit). Leave 10 searches buffer for retries.",
+  "_instructions": "24 cities x 5 categories in two rotation groups (A/B). Each weekly scan covers one group = 60 searches/week = ~240-250/month, same free-quota budget as before but double the market. Group A runs on odd ISO weeks, group B on even. Categories with an ACTIVE PAYING SUBSCRIBER are scanned every week regardless of group (contractual weekly monitoring).",
   "_categories_rationale": "High-Ticket Urgency verticals only. A rank drop costs these businesses $1K-$50K+ in lost leads. Low-ticket (cafes, florists) ignored.",
   "targets": [
     {
       "city": "New York",
       "state": "NY",
-      "label": "The Authority Hub — Highest LTV for Legal/Finance",
+      "label": "The Authority Hub \u2014 Highest LTV for Legal/Finance",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in New York NY"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in New York NY"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in New York NY"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in New York NY"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in New York NY"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in New York NY"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in New York NY"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in New York NY"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in New York NY"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in New York NY"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Los Angeles",
       "state": "CA",
-      "label": "The Fragmented Metro — High volatility in service rankings",
+      "label": "The Fragmented Metro \u2014 High volatility in service rankings",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Los Angeles CA"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Los Angeles CA"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Los Angeles CA"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Los Angeles CA"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Los Angeles CA"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Los Angeles CA"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Los Angeles CA"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Los Angeles CA"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Los Angeles CA"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Los Angeles CA"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Chicago",
       "state": "IL",
-      "label": "The Service Epicenter — High density of HVAC/Home Services",
+      "label": "The Service Epicenter \u2014 High density of HVAC/Home Services",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Chicago IL"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Chicago IL"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Chicago IL"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Chicago IL"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Chicago IL"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Chicago IL"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Chicago IL"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Chicago IL"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Chicago IL"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Chicago IL"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Austin",
       "state": "TX",
-      "label": "The Tech-Migration Star — Explosive growth in B2B/Specialized Med",
+      "label": "The Tech-Migration Star \u2014 Explosive growth in B2B/Specialized Med",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Austin TX"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Austin TX"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Austin TX"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Austin TX"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Austin TX"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Austin TX"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Austin TX"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Austin TX"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Austin TX"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Austin TX"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Miami",
       "state": "FL",
-      "label": "The High-Intent Market — Aggressive competition in Real Estate",
+      "label": "The High-Intent Market \u2014 Aggressive competition in Real Estate",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Miami FL"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Miami FL"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Miami FL"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Miami FL"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Miami FL"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Miami FL"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Miami FL"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Miami FL"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Miami FL"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Miami FL"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Dallas",
       "state": "TX",
-      "label": "The Corporate Sprawl — High-ticket construction/contractors",
+      "label": "The Corporate Sprawl \u2014 High-ticket construction/contractors",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Dallas TX"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Dallas TX"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Dallas TX"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Dallas TX"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Dallas TX"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Dallas TX"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Dallas TX"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Dallas TX"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Dallas TX"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Dallas TX"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Phoenix",
       "state": "AZ",
-      "label": "The Rapid-Growth Hub — High demand for solar and emergency repair",
+      "label": "The Rapid-Growth Hub \u2014 High demand for solar and emergency repair",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Phoenix AZ"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Phoenix AZ"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Phoenix AZ"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Phoenix AZ"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Phoenix AZ"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Phoenix AZ"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Phoenix AZ"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Phoenix AZ"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Phoenix AZ"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Phoenix AZ"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Denver",
       "state": "CO",
-      "label": "The Affluent Outdoor Hub — Luxury wellness and specialized ortho",
+      "label": "The Affluent Outdoor Hub \u2014 Luxury wellness and specialized ortho",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Denver CO"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Denver CO"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Denver CO"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Denver CO"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Denver CO"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Denver CO"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Denver CO"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Denver CO"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Denver CO"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Denver CO"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Philadelphia",
       "state": "PA",
-      "label": "The Mature Market — High stability but intense medical competition",
+      "label": "The Mature Market \u2014 High stability but intense medical competition",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Philadelphia PA"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Philadelphia PA"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Philadelphia PA"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Philadelphia PA"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Philadelphia PA"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Philadelphia PA"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Philadelphia PA"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Philadelphia PA"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Philadelphia PA"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Philadelphia PA"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Houston",
       "state": "TX",
-      "label": "The Industrial Giant — Specialized trade services and oil/gas legal",
+      "label": "The Industrial Giant \u2014 Specialized trade services and oil/gas legal",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Houston TX"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Houston TX"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Houston TX"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Houston TX"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Houston TX"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Houston TX"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Houston TX"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Houston TX"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Houston TX"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Houston TX"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "San Francisco",
       "state": "CA",
-      "label": "The Premium Tier — Highest Willingness to Pay for automation",
+      "label": "The Premium Tier \u2014 Highest Willingness to Pay for automation",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in San Francisco CA"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in San Francisco CA"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in San Francisco CA"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in San Francisco CA"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in San Francisco CA"}
-      ]
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in San Francisco CA"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in San Francisco CA"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in San Francisco CA"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in San Francisco CA"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in San Francisco CA"
+        }
+      ],
+      "group": "A"
     },
     {
       "city": "Seattle",
       "state": "WA",
-      "label": "The Tech-Forward Market — High adoption of automation services",
+      "label": "The Tech-Forward Market \u2014 High adoption of automation services",
       "categories": [
-        {"keyword": "personal-injury-lawyer", "search_query": "personal injury lawyer in Seattle WA"},
-        {"keyword": "emergency-plumber", "search_query": "emergency plumber in Seattle WA"},
-        {"keyword": "cosmetic-dentist", "search_query": "cosmetic dentist in Seattle WA"},
-        {"keyword": "luxury-real-estate-agent", "search_query": "luxury real estate agent in Seattle WA"},
-        {"keyword": "regenerative-medicine", "search_query": "regenerative medicine clinic in Seattle WA"}
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Seattle WA"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Seattle WA"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Seattle WA"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Seattle WA"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Seattle WA"
+        }
+      ],
+      "group": "A"
+    },
+    {
+      "city": "Atlanta",
+      "state": "GA",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Atlanta GA"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Atlanta GA"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Atlanta GA"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Atlanta GA"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Atlanta GA"
+        }
+      ]
+    },
+    {
+      "city": "Boston",
+      "state": "MA",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Boston MA"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Boston MA"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Boston MA"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Boston MA"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Boston MA"
+        }
+      ]
+    },
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in San Diego CA"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in San Diego CA"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in San Diego CA"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in San Diego CA"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in San Diego CA"
+        }
+      ]
+    },
+    {
+      "city": "Las Vegas",
+      "state": "NV",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Las Vegas NV"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Las Vegas NV"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Las Vegas NV"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Las Vegas NV"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Las Vegas NV"
+        }
+      ]
+    },
+    {
+      "city": "Washington",
+      "state": "DC",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Washington DC"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Washington DC"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Washington DC"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Washington DC"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Washington DC"
+        }
+      ]
+    },
+    {
+      "city": "Nashville",
+      "state": "TN",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Nashville TN"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Nashville TN"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Nashville TN"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Nashville TN"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Nashville TN"
+        }
+      ]
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Charlotte NC"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Charlotte NC"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Charlotte NC"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Charlotte NC"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Charlotte NC"
+        }
+      ]
+    },
+    {
+      "city": "Tampa",
+      "state": "FL",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Tampa FL"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Tampa FL"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Tampa FL"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Tampa FL"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Tampa FL"
+        }
+      ]
+    },
+    {
+      "city": "Portland",
+      "state": "OR",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Portland OR"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Portland OR"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Portland OR"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Portland OR"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Portland OR"
+        }
+      ]
+    },
+    {
+      "city": "Minneapolis",
+      "state": "MN",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Minneapolis MN"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Minneapolis MN"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Minneapolis MN"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Minneapolis MN"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Minneapolis MN"
+        }
+      ]
+    },
+    {
+      "city": "San Antonio",
+      "state": "TX",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in San Antonio TX"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in San Antonio TX"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in San Antonio TX"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in San Antonio TX"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in San Antonio TX"
+        }
+      ]
+    },
+    {
+      "city": "Orlando",
+      "state": "FL",
+      "group": "B",
+      "label": "Rotation group B \u2014 expanded coverage",
+      "categories": [
+        {
+          "keyword": "personal-injury-lawyer",
+          "search_query": "personal injury lawyer in Orlando FL"
+        },
+        {
+          "keyword": "emergency-plumber",
+          "search_query": "emergency plumber in Orlando FL"
+        },
+        {
+          "keyword": "cosmetic-dentist",
+          "search_query": "cosmetic dentist in Orlando FL"
+        },
+        {
+          "keyword": "luxury-real-estate-agent",
+          "search_query": "luxury real estate agent in Orlando FL"
+        },
+        {
+          "keyword": "regenerative-medicine",
+          "search_query": "regenerative medicine clinic in Orlando FL"
+        }
       ]
     }
   ],

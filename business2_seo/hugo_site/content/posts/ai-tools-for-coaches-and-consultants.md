@@ -62,7 +62,7 @@ I've been using Notion AI consistently since December 2024, and it's become the 
 - Monthly AI token limits on free plan force upgrade faster than comparable tools
 - Sometimes generates overly formal language for casual coach-client contexts
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 **What I wish I knew:** Notion AI works best when you've already built out a solid database structure. If you're new to Notion, you'll spend two weeks setting up before the AI pays dividends.
 

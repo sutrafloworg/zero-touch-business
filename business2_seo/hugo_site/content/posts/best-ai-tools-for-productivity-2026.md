@@ -50,7 +50,7 @@ Notion AI transforms how teams organize information and collaborate. The tool in
 
 **Best for:** Teams already using Notion who need faster documentation, meeting notes transcription, and collaborative writing. Organizations managing complex knowledge bases benefit most.
 
-<a href="https://affiliate.notion.so/YOUR_REF_ID" rel="nofollow sponsored">Try Notion AI Free</a>
+<a href="https://www.notion.so/product/ai" rel="nofollow sponsored">Try Notion AI Free</a>
 
 ## Writesonic: Best for Marketing Copy and Content Creation
 
@@ -69,7 +69,7 @@ Writesonic generates high-converting marketing content at scale. Whether you nee
 
 **Best for:** E-commerce brands, SaaS companies, and marketing agencies producing bulk content monthly. Small businesses with limited copywriting budgets see immediate ROI.
 
-<a href="https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Writesonic Free</a>
+<a href="https://writesonic.com" rel="nofollow sponsored">Try Writesonic Free</a>
 
 ## Claude 3.5 Sonnet: Best for Deep Work and Analysis
 

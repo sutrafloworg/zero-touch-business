@@ -36,8 +36,8 @@ By the end of this tutorial, you'll have a repeatable system for generating blog
 - A Writesonic account (free tier works for testing)
 
 **Tools:**
-- <a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Writesonic (primary AI writer)</a>
-- Optional: Notion for content management (<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>)
+- <a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Writesonic (primary AI writer)</a>
+- Optional: Notion for content management (<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>)
 - Your publishing platform (WordPress, Substack, Medium, etc.)
 
 **Time estimate:** 5 hours total for first-time setup, then 15-20 minutes per piece of content once automated.
@@ -131,7 +131,7 @@ I use this exact workflow: Generate draft Tuesday → Edit Wednesday → Publish
 
 Once you've automated basic blog content, expand to email sequences and social media. This is where Notion AI shines: it excels at managing multiple content versions in one place (blog, email, social, ads) simultaneously.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a> to build a content hub that syncs with your AI generation workflow. Within 2-3 weeks, you'll have a system producing 6-8 pieces of published content weekly with minimal manual work.
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a> to build a content hub that syncs with your AI generation workflow. Within 2-3 weeks, you'll have a system producing 6-8 pieces of published content weekly with minimal manual work.
 
 Consider also setting up Google Search Console alerts for your published content—I review these weekly to double-check that my AI-generated pieces are ranking as expected.
 

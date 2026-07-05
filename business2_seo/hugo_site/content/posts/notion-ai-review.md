@@ -93,11 +93,11 @@ You're already organizing notes and research in Notion databases. The AI helps y
 
 You need to write product descriptions, email drafts, and social media posts but can't afford premium AI tools. If you already use Notion for CRM or content planning, Notion AI is a logical, cost-effective addition. You'll upgrade from Plus to Business once you hit the action limit regularly.
 
-<a href="https://affiliate.notion.so/YOUR_REF_ID" rel="nofollow sponsored">Try Notion AI Free</a>
+<a href="https://www.notion.so/product/ai" rel="nofollow sponsored">Try Notion AI Free</a>
 
 ## Notion AI Alternatives
 
-If you need higher-volume content generation, specialized features (like SEO optimization, long-form article writing, or persona-based copywriting), or you don't use Notion, standalone AI writing tools are stronger choices. **Writesonic** offers broader capabilities—template-based writing, AI chatbots, long-form content generation, and competitive pricing. It's built specifically for marketing and content teams, not workspace integration. <a href="https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Writesonic Free</a>
+If you need higher-volume content generation, specialized features (like SEO optimization, long-form article writing, or persona-based copywriting), or you don't use Notion, standalone AI writing tools are stronger choices. **Writesonic** offers broader capabilities—template-based writing, AI chatbots, long-form content generation, and competitive pricing. It's built specifically for marketing and content teams, not workspace integration. <a href="https://writesonic.com" rel="nofollow sponsored">Try Writesonic Free</a>
 
 Other solid alternatives include Copy.ai (great for marketing copy), Jasper (strong for brand voice consistency), and ChatGPT Plus (most flexible if you're willing to handle copy-pasting). Your choice depends on whether you prioritize workspace integration (Notion AI) or specialized writing features (everything else).
 

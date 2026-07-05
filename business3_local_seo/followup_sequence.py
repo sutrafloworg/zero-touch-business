@@ -260,7 +260,7 @@ def _send_followup(
         subject=subject,
         html=html_body,
         plain=plain_body,
-        from_name="Search Sentinel",
+        from_name="Samik at Search Sentinel",
         headers=rfc8058_headers,
     )
     if success:

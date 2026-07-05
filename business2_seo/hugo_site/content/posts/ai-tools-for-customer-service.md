@@ -113,7 +113,7 @@ I embedded Notion AI into our internal customer service wiki in January 2026. Ag
 - Can't scale beyond your Notion data (limited if knowledge base is scattered)
 - AI quality depends entirely on doc quality
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## Help Scout: Best for Small Team Email Support
 

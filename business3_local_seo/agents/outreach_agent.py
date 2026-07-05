@@ -95,7 +95,7 @@ class OutreachAgent:
         self,
         gmail_user: str,
         gmail_app_password: str,
-        from_name: str = "Search Sentinel",
+        from_name: str = "Samik at Search Sentinel",
         max_emails_per_run: int = 10,
         payment_url: str = "",
         payment_url_audit: str = "",
@@ -216,7 +216,18 @@ class OutreachAgent:
         category_label = category_parts[2].replace("-", " ") if len(category_parts) > 2 else "your category"
 
         rank_change = alert.get("rank_change", 1)
-        subject = f"{business_name} dropped from #{alert['prev_rank']} to #{alert['curr_rank']} on Google Maps"
+        # Deterministic subject rotation (implicit A/B test): each business
+        # always gets the same variant, and the variant is logged so we can
+        # compare open/conversion rates across variants over time.
+        import hashlib
+        _variants = [
+            f"{business_name} dropped from #{alert['prev_rank']} to #{alert['curr_rank']} on Google Maps",
+            f"Who took {business_name}'s #{alert['prev_rank']} spot on Google Maps?",
+            f"{business_name} — losing calls to a competitor in {city}?",
+        ]
+        _vi = int(hashlib.md5(business_name.encode()).hexdigest(), 16) % len(_variants)
+        subject = _variants[_vi]
+        logger.info(f"Outreach: subject variant {_vi} for {business_name}")
 
         insight_bullets = self._insight_bullets(alert)
 

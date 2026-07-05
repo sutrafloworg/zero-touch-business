@@ -61,7 +61,7 @@ I tested Notion AI for 4 months across my client intake process, documentation, 
 - AI credits regenerate slowly on the free plan
 - Takes 2-4 seconds to generate longer summaries
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## Writesonic: Best for Sales Copy and Content Production
 
@@ -81,7 +81,7 @@ I used Writesonic daily for 3 months generating email sequences, landing page co
 - Free tier word limits force quick upgrades
 - No built-in brand voice training (requires manual tone adjustment each time)
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ## Claude (Anthropic): Best for Complex Problem-Solving
 

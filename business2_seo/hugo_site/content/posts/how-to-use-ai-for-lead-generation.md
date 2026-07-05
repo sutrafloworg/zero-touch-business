@@ -36,7 +36,7 @@ You're about to cut your lead generation time in half—and do it with AI handli
 - An AI writing tool (I'll show you two that actually excel here)
 
 **Tools I'm recommending:**
-- <a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a> (best for bulk lead research prompts and email outreach personalization)
+- <a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a> (best for bulk lead research prompts and email outreach personalization)
 - A spreadsheet (Google Sheets or Excel—you'll populate this with AI outputs)
 
 **Time estimate:** 45 minutes for your first batch; 15 minutes per batch afterward once you dial in your prompts.
@@ -57,7 +57,7 @@ Here's what I do: Open a blank document and answer these questions in 2-3 senten
 
 ## Step 2: Create Your Lead Research Prompt for AI
 
-Open <a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Writesonic</a> and navigate to the "Chat" or "Custom Prompt" section. Paste this structure (adjust the specifics for your ICP):
+Open <a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Writesonic</a> and navigate to the "Chat" or "Custom Prompt" section. Paste this structure (adjust the specifics for your ICP):
 
 ```
 Generate a list of 30 companies and decision-makers matching these criteria:

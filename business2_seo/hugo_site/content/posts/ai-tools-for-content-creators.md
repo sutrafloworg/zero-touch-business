@@ -53,7 +53,7 @@ I've used Writesonic daily for eight weeks, and it's where I send 60% of my blog
 
 **Pricing:** $13/month for the Individual plan (verified March 2026). The free tier is genuinely useful for testing, but caps you at roughly one 2,000-word article monthly.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ## Notion AI: Best for Creator Workflows & Project Organization
 
@@ -65,7 +65,7 @@ I integrated Notion AI into my entire content operation—planning, writing, and
 
 **What surprised me:** The "Summarize" and "Explain" features saved more time than the generative writing. I use these constantly to process research documents and competitive analysis.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## Claude (Anthropic): Best for Nuanced, Long-Form Writing
 

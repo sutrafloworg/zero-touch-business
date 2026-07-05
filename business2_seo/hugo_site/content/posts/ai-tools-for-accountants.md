@@ -60,7 +60,7 @@ I've been using Notion AI since January 2026, and the feature that shocked me mo
 
 What I wish I knew before signing up: Notion AI works best on *structured* data. I wasted my first week dumping unformatted PDFs into it before learning that preprocessing data saves 10x more time than the AI does.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## ChatGPT Plus: Best for Tax Research & Complex Scenario Analysis
 

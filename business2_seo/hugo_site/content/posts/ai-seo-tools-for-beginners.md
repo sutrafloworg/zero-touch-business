@@ -57,7 +57,7 @@ I tested Writesonic's SEO features for 4 weeks, specifically using it to fill co
 - AI occasionally forces keyword placement awkwardly
 - No internal linking suggestions
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 **What I wish I knew before signing up:** The free tier renews monthly, but Writesonic counts images, meta descriptions, and titles toward your word limit. A 2,000-word article with 10 meta titles uses roughly 2,500 of your 10,000 words.
 
@@ -76,7 +76,7 @@ After integrating Notion AI into my content workflow for 3 weeks, I realized it'
 - AI responses are generic without proper context setup
 - Can't directly export optimized content for publishing
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 **What I wish I knew:** Notion AI performs 60% better when you provide structured context (competitor URLs, target audience notes, content goals). Beginners often ask it generic questions and assume it's bad—it's not, you just need to prompt properly.
 

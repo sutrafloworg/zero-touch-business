@@ -102,7 +102,7 @@ I use Notion AI primarily for brainstorming campaign angles and organizing email
 - Requires manual copy-pasting to email platform
 - AI quality varies based on prompt specificity
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## How to Choose the Right Tool
 

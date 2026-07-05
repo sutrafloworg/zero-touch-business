@@ -57,7 +57,7 @@ I've been using Notion AI for eight weeks to reorganize my entire curriculum dat
 
 **What surprised me:** Notion AI's database templates for tracking student progress actually saved me more time than the summarization feature. I now spend 2 minutes end-of-day logging grades instead of 15 minutes manual entry.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 Pricing verified March 2026: Free plan limited to 20 actions/month; Pro tier at $10/month offers 300 monthly actions.
 
@@ -79,7 +79,7 @@ After testing Writesonic for five weeks, I've generated over 60 assignment promp
 
 **What I wish I knew:** The "tone" settings (formal, conversational, creative) actually work well, but the default tone skews corporate. Select "conversational" before generating anything for K-12 audiences.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 Pricing verified March 2026: Free plan at 50 credits/month; Standard at $20/month for 500 credits.
 

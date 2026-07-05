@@ -58,7 +58,7 @@ I've been using Writesonic as my primary drafting tool since January 2026, and i
 - Limited to 5 custom instructions on the free plan
 - Export to Google Docs occasionally loses formatting
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 **Pricing verified March 2026:** Free tier covers basic blog generation; Pro starts at $20/month with unlimited articles.
 
@@ -79,7 +79,7 @@ The integration feels native because it *is*—you're not copying text between p
 - The character limit on single blocks sometimes truncates mid-sentence
 - Performance noticeably slower during peak hours (8-10am EST)
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 **Pricing verified March 2026:** Add-on pricing is $10/month per workspace, not per user.
 

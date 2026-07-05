@@ -370,16 +370,29 @@ class ScannerAgent:
         logger.error(f"Scanner: all providers failed for '{search_query}'")
         return []
 
-    def scan_all_targets(self, cities_data: dict) -> dict:
-        """Scan all city + category combinations."""
+    def scan_all_targets(self, cities_data: dict, active_group: str | None = None,
+                         always_keys: set | None = None) -> dict:
+        """Scan city + category combinations.
+
+        active_group: if set (e.g. "A"), only targets in that rotation group are
+        scanned this run — doubling market coverage at the same API budget.
+        always_keys: category keys (city_st_keyword) that must be scanned every
+        week regardless of rotation — used for paying monitoring subscribers.
+        """
         all_results = {}
+        always_keys = always_keys or set()
+        skipped = 0
 
         for city_config in cities_data.get("targets", []):
             city  = city_config["city"].lower()
             state = city_config["state"].lower()
+            group = city_config.get("group")
 
             for cat in city_config.get("categories", []):
                 key      = f"{city}_{state}_{cat['keyword']}"
+                if active_group and group and group != active_group and key not in always_keys:
+                    skipped += 1
+                    continue
                 query    = cat["search_query"]
                 location = f"{city_config['city']}, {city_config['state']}"
 
@@ -390,6 +403,8 @@ class ScannerAgent:
                 time.sleep(4)  # rate limit — SerpAPI free tier needs ~4s between requests
 
         usage = self._load_usage()
+        if active_group:
+            logger.info(f"Scanner: rotation group {active_group} — scanned {len(all_results)}, skipped {skipped} off-week combos")
         logger.info(
             f"Scanner: monthly usage after this run — "
             f"SerpAPI {usage.get('serpapi', 0)}/{self.serpapi_monthly_limit}, "

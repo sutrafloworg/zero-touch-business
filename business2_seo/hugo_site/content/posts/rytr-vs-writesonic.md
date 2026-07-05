@@ -110,7 +110,7 @@ Writesonic integrates with WordPress (direct publishing), Zapier (workflow autom
 
 **My recommendation:** Writesonic is worth the extra $6/month if writing quality and workflow automation matter to your business. The time savings alone justify the upgrade. For hobbyists or ultra-lean budgets, Rytr scratches the itch without breaking the bank.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ---
 
@@ -118,7 +118,7 @@ Writesonic integrates with WordPress (direct publishing), Zapier (workflow autom
 
 If neither tool fits perfectly, **Notion AI** (integrated directly into Notion documents) offers a cleaner middle ground—less specialized than Writesonic but more integrated than Rytr. You pay per token usage, so costs scale with actual writing volume. I tested it for six days and appreciated the seamless workflow if you're already using Notion for project management.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ---
 

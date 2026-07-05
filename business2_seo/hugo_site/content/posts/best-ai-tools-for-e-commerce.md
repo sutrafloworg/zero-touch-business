@@ -60,7 +60,7 @@ I tested Writesonic (March 2026 pricing verified) for generating product descrip
 
 What I wish I'd known: The "Boost" feature (paid add-on) for multiple output variations costs extra beyond the base subscription—budget accordingly if you want A/B testing.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ## Rytr: Best for Budget-Conscious Stores with Tight Margins
 

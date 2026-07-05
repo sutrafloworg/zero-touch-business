@@ -130,7 +130,7 @@ I tracked 47 total emails sent across my test period. My open rate climbed from 
 
 After you've run these automations for two weeks, you'll have data on what resonates. That's when you scale to advanced personalization.
 
-Consider <a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a> if you want to A/B test AI writers side-by-side or generate entire campaign sequences at once. Writesonic's strength is bulk generation and team collaboration—I used it to generate 200 subject line variations in one sitting, which would've taken Rytr's free plan two weeks.
+Consider <a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a> if you want to A/B test AI writers side-by-side or generate entire campaign sequences at once. Writesonic's strength is bulk generation and team collaboration—I used it to generate 200 subject line variations in one sitting, which would've taken Rytr's free plan two weeks.
 
 Your next milestone: Set up dynamic content blocks so your emails insert different product recommendations based on what each subscriber browsed on your site. Most platforms (Mailchimp, ActiveCampaign) support this with conditional logic. Pair it with AI-generated product descriptions and you've got truly personalized email at scale.
 

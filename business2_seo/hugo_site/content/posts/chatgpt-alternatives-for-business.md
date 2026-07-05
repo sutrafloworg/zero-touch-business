@@ -110,7 +110,7 @@ Notion AI: Works inside Notion. Exports to PDF, markdown, HTML. Can embed Notion
 - You want batch generation for social media
 - Cost isn't prohibitive for 10,000+ words/month
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 **Choose Notion AI if:**
 - You're already paying for Notion (Plus or above)
@@ -130,7 +130,7 @@ Notion AI: Works inside Notion. Exports to PDF, markdown, HTML. Can embed Notion
 
 **Claude (Anthropic)**: I tested Claude via the web interface in February 2026—exceptional reasoning for long-form business documents, strategy memos, and complex problem-solving. Pricing is roughly on par with ChatGPT. Lacks templates and marketing-specific features.
 
-**Notion AI**, meanwhile, has improved its reasoning in late 2025 updates, making internal strategic writing less painful. <a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a> (with a Notion Free workspace first to test compatibility).
+**Notion AI**, meanwhile, has improved its reasoning in late 2025 updates, making internal strategic writing less painful. <a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a> (with a Notion Free workspace first to test compatibility).
 
 ---
 

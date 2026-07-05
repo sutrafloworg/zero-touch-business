@@ -30,7 +30,7 @@ You're about to cut your content creation time in half while maintaining quality
 - 15-20 minutes per content piece
 
 **Tools to have open:**
-- <a href="https://writesonic.com/?via=YOUR_REF_ID" rel="nofollow sponsored">Try Writesonic Free</a> (for bulk scaling once you master Claude's approach)
+- <a href="https://writesonic.com/" rel="nofollow sponsored">Try Writesonic Free</a> (for bulk scaling once you master Claude's approach)
 - Claude interface (claude.ai)
 - Your CMS or documentation tool
 
@@ -126,7 +126,7 @@ After publishing 2-3 blog posts using this Claude workflow, you'll identify patt
 
 Use those insights to train the next round. Feed successful blog posts into Claude and ask: *"Analyze what worked in this post and apply the same structure to [new topic]."*
 
-To scale beyond blog posts, tools like <a href="https://affiliate.notion.so/YOUR_REF_ID" rel="nofollow sponsored">Try Notion AI Free</a> can help you manage content calendars, track performance, and create brief templates—so every team member briefs Claude the same way.
+To scale beyond blog posts, tools like <a href="https://www.notion.so/product/ai" rel="nofollow sponsored">Try Notion AI Free</a> can help you manage content calendars, track performance, and create brief templates—so every team member briefs Claude the same way.
 
 Start with blog posts. Once you own that process, expand to email sequences, product descriptions, landing page copy, and case studies using the exact same method.
 

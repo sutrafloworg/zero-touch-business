@@ -45,7 +45,7 @@ Pricing as of March 2026: Free tier gives 10,000 words/month (genuinely useful f
 
 **Best for:** Agencies, content marketers, and anyone shipping volume. The bulk export feature saved me hours—I downloaded 12 blog drafts as a ZIP file in one operation. The one real friction point: quality requires 2-3 revision rounds on average, so this isn't "set and forget" content.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ## Notion AI Overview
 
@@ -99,7 +99,7 @@ Notion AI integrates only with Notion—there's no direct export to WordPress or
 
 **I recommend Writesonic for most content professionals.** It's built for the job, transparent in pricing, and genuinely fast. Start with the free tier—you'll know in a week if 10,000 free words cover your needs.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 **What I wish I knew before signing up to Writesonic:** The free tier credits expire after 3 months of inactivity. I forgot to use my account for 4 months and lost 8,000 remaining words. Set a calendar reminder if you're testing.
 
@@ -107,7 +107,7 @@ Notion AI integrates only with Notion—there's no direct export to WordPress or
 
 **Notion AI** shines for teams that treat Notion as their operating system—it's the path of least resistance if Notion is already central to your workflow. The monthly cost is negligible compared to the friction saved.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 **Copy.ai** is worth testing if you need campaign variations at scale—I generated 20 headline variations in 90 seconds, something neither Writesonic nor Notion AI does as smoothly. **Jasper** (formerly Jarvis) is the premium alternative if you're willing to spend $50+/month for white-glove onboarding and advanced brand voice tuning.
 

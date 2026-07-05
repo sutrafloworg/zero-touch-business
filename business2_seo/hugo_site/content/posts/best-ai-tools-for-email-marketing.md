@@ -103,7 +103,7 @@ Writesonic specializes in generating high-converting email copy, subject lines, 
 - Output requires editing (not production-ready immediately)
 - Best used as supplement, not standalone solution
 
-Writesonic solves the biggest bottleneck in email marketing: writing copy that converts. <a href="https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Writesonic Free</a> to generate subject lines for your next campaign—you'll immediately see the quality difference.
+Writesonic solves the biggest bottleneck in email marketing: writing copy that converts. <a href="https://writesonic.com" rel="nofollow sponsored">Try Writesonic Free</a> to generate subject lines for your next campaign—you'll immediately see the quality difference.
 
 ## Klaviyo: Best for E-Commerce Revenue
 

@@ -89,7 +89,7 @@ Winner: Writesonic if you need a writing tool that feeds into your broader stack
 - Want a tool that's independent of other software
 - Prioritize speed over collaborative refinement
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 **Choose Notion AI if you:**
 - Already use Notion as your workspace hub
@@ -102,7 +102,7 @@ Winner: Writesonic if you need a writing tool that feeds into your broader stack
 
 **Claude 3.5 Sonnet** (via Claude.ai or API) offers superior reasoning and is free for limited use, but requires manual prompting without templates. Best for writers who want raw intelligence over guided workflows. **Copy.ai** sits between these two—cheaper than Writesonic ($20/month), more templated than Claude, but slower output and smaller feature set. Consider it if budget is your primary constraint.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## FAQ
 

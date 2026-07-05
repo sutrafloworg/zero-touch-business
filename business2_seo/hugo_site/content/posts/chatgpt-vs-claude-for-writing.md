@@ -97,7 +97,7 @@ Claude integrates well via API but has fewer pre-built connections. It's startin
 
 **The hybrid approach:** Many professional writers use both. Start with Claude for drafting and structure, then refine with ChatGPT for tone and engagement. This combines rigor with personality.
 
-If you want a middle ground or need systematic content workflows, <a href="https://writesonic.com/?via=YOUR_REF_ID" rel="nofollow sponsored">Try Writesonic Free</a>. Writesonic combines both models' strengths with templates optimized for marketing copy, long-form articles, and social content—eliminating the need to manually switch between tools.
+If you want a middle ground or need systematic content workflows, <a href="https://writesonic.com/" rel="nofollow sponsored">Try Writesonic Free</a>. Writesonic combines both models' strengths with templates optimized for marketing copy, long-form articles, and social content—eliminating the need to manually switch between tools.
 
 ## Alternatives to Consider
 

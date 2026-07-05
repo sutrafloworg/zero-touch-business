@@ -96,7 +96,7 @@ Rytr's credit system is transparent: a typical social media post uses 50-100 cre
 
 If you need more advanced features or prefer a different interface, Writesonic offers competitive functionality with stronger integrations and a larger template library. I tested both tools side-by-side on the same email subject line task, and Writesonic produced slightly more varied outputs. Writesonic also includes built-in SEO optimization for long-form content, whereas Rytr's blog writing tool often needs manual SEO tweaks. The pricing is similar ($12/month for Writesonic's standard plan as of March 2026), so the choice comes down to workflow preference.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 Another solid option is Jasper (formerly Jarvis), which offers more sophisticated long-form writing and deeper brand voice training. However, Jasper starts at $39/month—over 4x Rytr's cost—making it overkill for small teams just testing AI writing.
 

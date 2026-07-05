@@ -54,7 +54,7 @@ Writesonic handles the entire writing pipeline—from research briefs to polishe
 
 Writesonic works best for content marketing, agency freelancers managing multiple client blogs, and writers handling high volume. For a single client with deep expertise requirements, expect 30-45 minutes of editing per article.
 
-<a href="https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo" rel="nofollow sponsored">Try Writesonic Free</a>
+<a href="https://writesonic.com" rel="nofollow sponsored">Try Writesonic Free</a>
 
 ## Notion AI: Best for Research Organization + Content Planning
 
@@ -74,7 +74,7 @@ Notion AI transforms scattered research notes, client briefs, and reference arti
 
 Notion AI works best for freelancers juggling multiple research-heavy projects—journalists, white paper writers, and technical content specialists. Use it to condense client materials before handing off to Writesonic for drafting.
 
-<a href="https://affiliate.notion.so/YOUR_REF_ID" rel="nofollow sponsored">Try Notion AI Free</a>
+<a href="https://www.notion.so/product/ai" rel="nofollow sponsored">Try Notion AI Free</a>
 
 ## Grammarly: Best for Editing + Tone Refinement
 

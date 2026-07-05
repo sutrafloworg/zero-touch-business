@@ -59,7 +59,7 @@ The pricing structure (verified March 2026) is genuinely affordable: the free ti
 
 **What surprised me:** The AI actually improves through your corrections—after feeding it 10 pieces, accuracy jumped noticeably.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ## Notion AI: Best for Documentation and Knowledge Management
 
@@ -81,7 +81,7 @@ The real value emerges when your team uses Notion already. Pricing (verified Mar
 
 **What surprised me:** The AI actually improved my meeting notes' quality—it highlighted missing action owners without me asking it to.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## HubSpot Sales Hub: Best for CRM and Sales Automation
 

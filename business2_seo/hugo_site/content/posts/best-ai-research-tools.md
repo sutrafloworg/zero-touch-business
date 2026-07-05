@@ -60,7 +60,7 @@ I tested Writesonic specifically for turning scattered research notes into cohes
 - Slow loading on reports over 5,000 words
 - No native plagiarism checker—you still need Turnitin
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ## Notion AI: Best for Workspace Organization & Collaborative Research
 
@@ -81,7 +81,7 @@ The UI friction is minimal because you're not leaving your workspace. I tested t
 - No web search capability—only works with existing database content
 - Occasionally verbose summaries that require trimming
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## Consensus: Best for Academic Paper Discovery & Peer-Reviewed Verification
 

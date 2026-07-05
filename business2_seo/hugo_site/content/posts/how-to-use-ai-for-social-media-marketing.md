@@ -35,7 +35,7 @@ You're about to cut your content creation time in half while keeping your posts 
 
 You'll want to have your brand guidelines handy—voice tone, key messaging pillars, and audience demographics. This matters more than you'd think; I skipped this step initially and had to regenerate dozens of posts because the AI output felt off-brand.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ## Step 1: Set Up Your Brand Profile in an AI Writing Tool
 
@@ -89,7 +89,7 @@ Now you're moving from creation to organization. You need a system that prevents
 
 Notion AI generated a full month in 45 seconds. It wasn't perfect—it suggested posting on a holiday I hadn't flagged—but I only needed to adjust 3 dates out of 28 posts. The structure was solid and eliminated my old workflow of staring at a blank Google Sheet for 30 minutes.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## Step 5: Establish a Weekly Review and Publishing Workflow
 

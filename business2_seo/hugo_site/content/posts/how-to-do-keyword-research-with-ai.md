@@ -37,7 +37,7 @@ I've been using AI-powered keyword research for client projects since late 2024,
 - Basic understanding of search intent (commercial, informational, transactional)
 
 **Tools:**
-- <a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Writesonic (free tier available)</a> — excellent for generating keyword clusters and intent analysis
+- <a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Writesonic (free tier available)</a> — excellent for generating keyword clusters and intent analysis
 - A text editor or spreadsheet (Google Sheets works fine)
 - Optional: Your existing analytics data (Google Search Console, website traffic reports)
 
@@ -127,7 +127,7 @@ For my client's project, this identified 8 high-priority keywords—enough for 2
 
 ## Next Steps
 
-With your prioritized keyword list, you're ready to plan content. This is where <a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Notion AI</a> shines for content calendars and outline generation.
+With your prioritized keyword list, you're ready to plan content. This is where <a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Notion AI</a> shines for content calendars and outline generation.
 
 Your immediate action: Pick your top 3 Tier 1 keywords and outline articles for each. Use Writesonic to generate article outlines based on your keywords—paste "Create a 5-section outline for a 2,000-word article targeting '[keyword]'" and you'll get a structure ready to fill in within seconds.
 

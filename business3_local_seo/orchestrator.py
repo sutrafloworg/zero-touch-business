@@ -144,7 +144,22 @@ def run_pipeline() -> bool:
             outscraper_key=config.OUTSCRAPER_API_KEY,
             valueserp_key=config.VALUESERP_API_KEY,
         )
-        scan_results = scanner.scan_all_targets(cities_data)
+        # Rotation: odd ISO weeks scan group A, even weeks group B. Paying
+        # subscribers' categories are always scanned (weekly monitoring promise).
+        iso_week = datetime.now().isocalendar()[1]
+        active_group = "A" if iso_week % 2 == 1 else "B"
+        always_keys = set()
+        try:
+            with open(Path(__file__).parent / "data" / "customers.json") as f:
+                for c in json.load(f).get("customers", []):
+                    if c.get("status") == "active" and c.get("category_key"):
+                        always_keys.add(c["category_key"])
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
+        logger.info(f"      Rotation group {active_group} (ISO week {iso_week}); "
+                    f"{len(always_keys)} subscriber categories always included")
+        scan_results = scanner.scan_all_targets(cities_data, active_group=active_group,
+                                                always_keys=always_keys)
         total_scans = len(scan_results)
         logger.info(f"      Scanned {total_scans} categories")
 

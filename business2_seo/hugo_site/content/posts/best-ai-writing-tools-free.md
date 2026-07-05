@@ -64,7 +64,7 @@ I tested Writesonic for three weeks, creating everything from product descriptio
 
 **What I wish I knew before signing up:** The "credits" system is confusing—10 credits doesn't equal 10 pieces of content. A single blog post outline might use 3 credits while a product description uses 1. Budget accordingly if you're planning a content sprint.
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 ## Notion AI: Best for Integrated Workspace Writing
 
@@ -85,7 +85,7 @@ Notion AI converted me after I realized the free tier actually gives you 20 sess
 
 **What I wish I knew before signing up:** Sessions are counted per usage, not per word count. A short sentence continuation counts the same as generating a 500-word outline. Ration your 20 sessions for larger projects.
 
-<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
+<a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>
 
 ## Copy.ai: Best for Sales Copy & Paid Ads
 

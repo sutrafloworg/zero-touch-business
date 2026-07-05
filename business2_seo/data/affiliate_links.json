@@ -1,43 +1,45 @@
 {
   "_instructions": "Replace YOUR_REF_ID with your actual affiliate IDs. Apply at the 'apply_url' for each program.",
   "tools": {
-    "_deprecated_copy_ai": "REMOVED — Copy.ai affiliate program deprecated March 2026",
+    "_deprecated_copy_ai": "REMOVED \u2014 Copy.ai affiliate program deprecated March 2026",
     "writesonic": {
       "name": "Writesonic",
       "affiliate_url": "https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
       "apply_url": "https://writesonic.com/affiliates",
       "cta_text": "Try Writesonic Free",
-      "cta_button": "<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>",
+      "cta_button": "<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free \u2192</a>",
       "badge": "Best for Content",
       "rating": 4.6,
       "starting_price": "$16/month",
       "free_trial": true,
-      "commission_note": "30% recurring commission"
+      "commission_note": "30% recurring commission",
+      "_status": "NO AFFILIATE ID YET \u2014 apply at apply_url, then replace URL. Excluded from CTAs until fixed."
     },
     "notion": {
       "name": "Notion AI",
       "affiliate_url": "https://affiliate.notion.so/YOUR_REF_ID",
       "apply_url": "https://www.notion.so/affiliates",
       "cta_text": "Try Notion AI Free",
-      "cta_button": "<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a>",
+      "cta_button": "<a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free \u2192</a>",
       "badge": "Best for Productivity",
       "rating": 4.7,
       "starting_price": "$10/month",
       "free_trial": true,
-      "commission_note": "$50/signup + 20% revenue year 1, 180-day cookie"
+      "commission_note": "$50/signup + 20% revenue year 1, 180-day cookie",
+      "_status": "NO AFFILIATE ID YET \u2014 apply at apply_url, then replace URL. Excluded from CTAs until fixed."
     },
     "rytr": {
       "name": "Rytr",
       "affiliate_url": "https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo",
       "apply_url": "https://rytr.me/affiliate",
       "cta_text": "Try Rytr Free",
-      "cta_button": "<a href='https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Rytr Free →</a>",
+      "cta_button": "<a href='https://rytr.me/?via=sutraflow&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Rytr Free \u2192</a>",
       "badge": "Best Budget AI Writer",
       "rating": 4.5,
       "starting_price": "$9/month",
       "free_trial": true,
       "commission_note": "30% recurring for 12 months"
     },
-    "_deprecated_surfer_seo": "REMOVED — Surfer SEO affiliate application declined March 2026"
+    "_deprecated_surfer_seo": "REMOVED \u2014 Surfer SEO affiliate application declined March 2026"
   }
 }

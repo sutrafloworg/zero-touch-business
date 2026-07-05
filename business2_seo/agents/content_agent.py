@@ -178,7 +178,10 @@ class ContentAgent:
             raw = json.load(f)["tools"]
         # Filter out deprecated/removed entries (keys starting with _)
         self.affiliates = {k: v for k, v in raw.items()
-                           if not k.startswith("_") and isinstance(v, dict)}
+                           if not k.startswith("_") and isinstance(v, dict)
+                           and "YOUR_REF_ID" not in v.get("affiliate_url", "")}
+        # Tools with placeholder ref IDs earn nothing — excluded until real
+        # affiliate IDs are added to affiliate_links.json.
 
     def _call_claude(self, user_prompt: str) -> str:
         """Claude API call with exponential backoff."""

@@ -40,7 +40,7 @@ If you're choosing between Writesonic and Rytr for your content workflow, you ne
 
 ## Writesonic Overview
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 I've been testing Writesonic since January 2026, and the platform feels like it's built for creators who care about SEO. You get access to Chatsonic (their ChatGPT competitor), a dedicated blog post generator, landing page copywriting, and product description tools. The keyword optimization feature actually matters—I fed it "best project management software" and it generated a 2,000-word post with H2s, meta descriptions, and internal linking suggestions already baked in.
 
@@ -88,7 +88,7 @@ Writesonic connects to WordPress, Buffer, and Google Docs natively. I tested the
 - You need polished copy that requires minimal editing
 - You integrate with WordPress or Buffer
 
-<a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+<a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 **Choose Rytr if:**
 - You're bootstrapping and generate <10 pieces monthly
@@ -100,7 +100,7 @@ My recommendation: Start with Writesonic's free tier if you're unsure. 10,000 wo
 
 ## Alternatives to Consider
 
-If neither tool feels right, <a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a> embeds AI directly into your workspace (starts free, $8/month after). It's less specialized than Writesonic or Rytr but integrates seamlessly if you're already living in Notion. For pure long-form blog content, Copy.ai and Jasper offer more advanced SEO features, though both cost $40+/month.
+If neither tool feels right, <a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a> embeds AI directly into your workspace (starts free, $8/month after). It's less specialized than Writesonic or Rytr but integrates seamlessly if you're already living in Notion. For pure long-form blog content, Copy.ai and Jasper offer more advanced SEO features, though both cost $40+/month.
 
 ## FAQ
 

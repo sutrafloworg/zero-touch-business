@@ -37,7 +37,7 @@ The difference between AI that helps your SEO and AI that tanks it comes down to
 - An AI writing platform with semantic understanding (I tested Writesonic's keyword research module, which integrates SERP analysis)
 - A research notebook or spreadsheet (Google Sheets works fine)
 - Access to Google Search Console or Ahrefs (free tier minimum)
-- <a href='https://writesonic.com/?via=YOUR_REF_ID&utm_source=sutraflow&utm_medium=organic&utm_campaign=seo' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
+- <a href='https://writesonic.com' class='btn-affiliate' rel='nofollow sponsored'>Try Writesonic Free →</a>
 
 **Gotcha to avoid:** Don't start without identifying your target audience's actual search behavior. I made this mistake with my first test—I optimized for "AI tools for business" without checking that my audience actually searches "best AI for my specific workflow." AI can't fix bad targeting assumptions.
 
@@ -129,7 +129,7 @@ After your first content piece ranks, audit your existing top-performing pages. 
 
 Your next move is systematizing this workflow. Stop creating content one piece at a time. Instead, use AI to map your entire topic cluster, then batch-create content across related keywords simultaneously.
 
-To scale this beyond individual articles, organize your keyword research and content strategy in a centralized workspace. <a href='https://affiliate.notion.so/YOUR_REF_ID' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a> lets you document keyword research, competitive analysis, and content outlines in one place—and its AI features can help you generate content briefs automatically.
+To scale this beyond individual articles, organize your keyword research and content strategy in a centralized workspace. <a href='https://www.notion.so/product/ai' class='btn-affiliate' rel='nofollow sponsored'>Try Notion AI Free →</a> lets you document keyword research, competitive analysis, and content outlines in one place—and its AI features can help you generate content briefs automatically.
 
 ## FAQ
 
