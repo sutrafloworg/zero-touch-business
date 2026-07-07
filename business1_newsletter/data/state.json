@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-06-30T10:29:50.069528+00:00",
-  "issues_published": 9,
+  "last_run": "2026-07-07T10:22:39.989995+00:00",
+  "issues_published": 10,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://www.technologyreview.com/2026/03/10/1134083/building-a-strong-data-infrastructure-for-ai-agent-success/",
-    "https://www.producthunt.com/products/query-memory",
-    "https://www.producthunt.com/products/openmolt",
-    "https://www.producthunt.com/products/clawslist",
-    "https://www.producthunt.com/products/tokenzip",
-    "https://www.producthunt.com/products/raccoon-ai-cursor-for-anything",
-    "https://www.producthunt.com/products/prava-2",
-    "https://www.producthunt.com/products/signet",
-    "https://www.producthunt.com/products/huddle01-cloud-2",
-    "https://www.producthunt.com/products/neuralagent",
     "https://www.producthunt.com/products/jetbrains",
     "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
     "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
@@ -102,11 +92,21 @@
     "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
     "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
     "https://www.producthunt.com/products/pluno",
-    "https://www.producthunt.com/products/receiptor-ai"
+    "https://www.producthunt.com/products/receiptor-ai",
+    "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+    "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+    "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
+    "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+    "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+    "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+    "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+    "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+    "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+    "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/"
   ],
-  "affiliate_rotation_index": 24,
+  "affiliate_rotation_index": 26,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "24784826"
+  "last_broadcast_id": "24886476"
 }

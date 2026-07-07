@@ -1,0 +1,29 @@
+2026-07-07 10:22:13,069 [INFO] orchestrator — ============================================================
+2026-07-07 10:22:13,070 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-07-07 10:22:13,070 [INFO] orchestrator — Timestamp: 2026-07-07T10:22:13.070206+00:00
+2026-07-07 10:22:13,070 [INFO] orchestrator — ============================================================
+2026-07-07 10:22:13,104 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-07-07 10:22:13,184 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-07-07 10:22:13,792 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-07-07 10:22:14,410 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 6 fresh items
+2026-07-07 10:22:15,054 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-07-07 10:22:15,906 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-07-07 10:22:16,599 [INFO] agents.feed_agent —   Product Hunt AI: fetched 26 fresh items
+2026-07-07 10:22:21,815 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-07-07 10:22:23,060 [INFO] agents.feed_agent —   OpenAI Blog: fetched 0 fresh items
+2026-07-07 10:22:23,562 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 72 total
+2026-07-07 10:22:23,563 [INFO] orchestrator —       Got 10 items
+2026-07-07 10:22:23,563 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-07-07 10:22:23,563 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-07-07 10:22:39,309 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-07 10:22:39,332 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'LLMs have a pattern problem (and it's fixable)'
+2026-07-07 10:22:39,333 [INFO] orchestrator —       Subject: 'LLMs have a pattern problem (and it's fixable)'
+2026-07-07 10:22:39,333 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-07-07 10:22:39,333 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-07-07 10:22:39,903 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-07-07T10:25:39+0000, ID=24886476
+2026-07-07 10:22:39,989 [INFO] orchestrator —       Broadcast ID: 24886476, Subscribers: 2
+2026-07-07 10:22:39,989 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-07-07 10:22:39,990 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 24886476
+2026-07-07 10:22:39,990 [INFO] orchestrator — ============================================================
+2026-07-07 10:22:39,990 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-07-07 10:22:39,990 [INFO] orchestrator — ============================================================
