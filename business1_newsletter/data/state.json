@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-07-07T10:22:39.989995+00:00",
-  "issues_published": 10,
+  "last_run": "2026-07-14T09:01:46.695952+00:00",
+  "issues_published": 11,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://www.producthunt.com/products/jetbrains",
-    "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
-    "https://techcrunch.com/2026/03/16/merriam-webster-openai-encyclopedia-brittanica-lawsuit/",
-    "https://www.producthunt.com/products/openai",
-    "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
-    "https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/",
-    "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
-    "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
-    "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
-    "https://www.producthunt.com/products/bolt-foundry",
     "https://techcrunch.com/2026/03/23/sam-altman-openai-fusion-energy-board-helion/",
     "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
     "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
@@ -102,11 +92,21 @@
     "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
     "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
     "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-    "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/"
+    "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+    "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+    "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+    "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+    "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+    "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+    "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+    "https://openai.com/index/deutsche-telekom",
+    "https://openai.com/index/bio-bug-bounty",
+    "https://www.producthunt.com/products/sim-studio",
+    "https://www.producthunt.com/products/lemonlime"
   ],
-  "affiliate_rotation_index": 26,
+  "affiliate_rotation_index": 28,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "24886476"
+  "last_broadcast_id": "24985823"
 }
