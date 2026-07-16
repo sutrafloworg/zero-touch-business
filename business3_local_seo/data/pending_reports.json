@@ -28565,12 +28565,611 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.9,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 4
+            },
+            {
+              "date": "Apr 02",
+              "rank": 3
+            },
+            {
+              "date": "May 18",
+              "rank": 7
+            },
+            {
+              "date": "May 19",
+              "rank": 15
+            },
+            {
+              "date": "May 25",
+              "rank": 16
+            },
+            {
+              "date": "Jun 01",
+              "rank": 11
+            },
+            {
+              "date": "Jun 08",
+              "rank": 8
+            },
+            {
+              "date": "Jun 15",
+              "rank": 10
+            },
+            {
+              "date": "Jun 22",
+              "rank": 8
+            },
+            {
+              "date": "Jun 29",
+              "rank": 6
+            },
+            {
+              "date": "Jul 13",
+              "rank": 14
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 286
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 290
+            },
+            {
+              "date": "May 18",
+              "reviews": 299
+            },
+            {
+              "date": "May 19",
+              "reviews": 299
+            },
+            {
+              "date": "May 25",
+              "reviews": 299
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 300
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 300
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 303
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 303
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 302
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 302
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              4,
+              3,
+              7,
+              15,
+              16,
+              11,
+              8,
+              10,
+              8,
+              6,
+              14
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 19",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13"
+            ],
+            "direction": "declining",
+            "best_rank": 3,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 1.01,
+            "total_gained": 16,
+            "weeks": 15.9,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Bill Dorfman, DDS",
+              "rating": 5.0,
+              "reviews": 1756,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ07bbSvK7woARO_PyuqEoMqI"
+            },
+            {
+              "rank": 2,
+              "name": "Smile L.A. Downtown Modern Dentistry",
+              "rating": 4.9,
+              "reviews": 821,
+              "review_velocity": 5.11,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJlxusK0-3woARG9AAHdBJhpE"
+            },
+            {
+              "rank": 3,
+              "name": "Dr. Dani Benyaminy, DDS",
+              "rating": 4.9,
+              "reviews": 122,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ5y97j127woARBTqqQFuQNv8"
+            },
+            {
+              "rank": 4,
+              "name": "Smile Recreation Dentistry by Dr. Baseri",
+              "rating": 4.7,
+              "reviews": 359,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJgTMY5YG8woARIPC_kq6Y5hE"
+            },
+            {
+              "rank": 5,
+              "name": "Cosmetic Dental of Westwood",
+              "rating": 4.9,
+              "reviews": 640,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJnam0z4K7woARQ01rPodH9g0"
+            },
+            {
+              "rank": 6,
+              "name": "Luxe Dental Cosmetics",
+              "rating": 4.9,
+              "reviews": 172,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ075jpIm9woAR2p2y0nNNpkU"
+            },
+            {
+              "rank": 7,
+              "name": "Asaro Dental Aesthetics",
+              "rating": 5.0,
+              "reviews": 362,
+              "review_velocity": 1.77,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7-9CITm5woAR4y-8WU1oFQs"
+            },
+            {
+              "rank": 8,
+              "name": "Shervin M. Louie, DDS",
+              "rating": 5.0,
+              "reviews": 406,
+              "review_velocity": 9.84,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJpcRmm8e4woARHTCyXCBxia0"
+            },
+            {
+              "rank": 9,
+              "name": "Downtown Dental",
+              "rating": 4.7,
+              "reviews": 433,
+              "review_velocity": 2.52,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQTx0H03GwoARTZYFfr2X4m8"
+            },
+            {
+              "rank": 10,
+              "name": "Exquisite Dentistry",
+              "rating": 4.9,
+              "reviews": 271,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJgX86Uzm5woARyDReuv4z-kg"
+            },
+            {
+              "rank": 11,
+              "name": "Los Angeles Dentist - Studio Smiles",
+              "rating": 4.8,
+              "reviews": 920,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQCcOQG5woARBeSkZ1Jpuog"
+            },
+            {
+              "rank": 12,
+              "name": "Zakhor Dental Group- Beverly Hills cosmetic dentist",
+              "rating": 4.7,
+              "reviews": 202,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJHahXHX67woAR_CVE38NSXxk"
+            },
+            {
+              "rank": 13,
+              "name": "Beverly Hills Dentistry",
+              "rating": 4.9,
+              "reviews": 141,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ62ktOFG5woARjTzd4b6Y5c0"
+            },
+            {
+              "rank": 14,
+              "name": "Century Smile Maker",
+              "rating": 5.0,
+              "reviews": 302,
+              "review_velocity": 1.01,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ07bbSvK7woARM8WUEuU8fzc"
+            },
+            {
+              "rank": 15,
+              "name": "Beverly Hills Prestige Dental Group",
+              "rating": 4.6,
+              "reviews": 251,
+              "review_velocity": 1.17,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJtQ5fueO7woARuwFuvJd5y4w"
+            },
+            {
+              "rank": 16,
+              "name": "Playa District Dental",
+              "rating": 5.0,
+              "reviews": 599,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJxXAOkmSxwoAR0jksN2I8ciI"
+            },
+            {
+              "rank": 17,
+              "name": "Dr. Anthony Mobasser - Celebrity Dentist",
+              "rating": 5.0,
+              "reviews": 146,
+              "review_velocity": 0.35,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgXhLc6C-woARsVPH-UucW1c"
+            },
+            {
+              "rank": 18,
+              "name": "Brentwood Dental Spa - General, Veneers, Invisalign, Implants & Emergency Dentist",
+              "rating": 5.0,
+              "reviews": 206,
+              "review_velocity": 0.63,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJL4ELDNu7woARZZsgED8jA1o"
+            },
+            {
+              "rank": 19,
+              "name": "Wilshire Smile Studio - Los Angeles Dentist, Cosmetic and Emergency Dentistry",
+              "rating": 4.5,
+              "reviews": 255,
+              "review_velocity": 2.16,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJEZMyHTy5woARdGLs2hGNGYg"
+            },
+            {
+              "rank": 20,
+              "name": "Dental Veneers Specialist On Wilshire - Los Angeles Cosmetic Dentist",
+              "rating": 5.0,
+              "reviews": 10,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ18dpHTy5woARzR9B4Vx24K0"
+            }
+          ],
+          "subject": {
+            "rank": 14,
+            "name": "Century Smile Maker",
+            "rating": 5.0,
+            "reviews": 302,
+            "review_velocity": 1.01,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJ07bbSvK7woARM8WUEuU8fzc"
+          },
+          "benchmarks": {
+            "avg_rating": 4.87,
+            "avg_reviews": 419,
+            "median_reviews": 286,
+            "typical_reviews": 419,
+            "skewed": false,
+            "your_reviews": 302,
+            "your_rating": 5.0,
+            "reviews_percentile": 55,
+            "pack_size": 20,
+            "top_reviews": 1756
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Bill Dorfman, DDS",
+              "rating": 5.0,
+              "reviews": 1756,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ07bbSvK7woARO_PyuqEoMqI",
+              "rank_delta": 0,
+              "review_gain": 17
+            },
+            {
+              "rank": 2,
+              "name": "Smile L.A. Downtown Modern Dentistry",
+              "rating": 4.9,
+              "reviews": 821,
+              "review_velocity": 5.11,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJlxusK0-3woARG9AAHdBJhpE",
+              "rank_delta": 0,
+              "review_gain": 81
+            },
+            {
+              "rank": 3,
+              "name": "Dr. Dani Benyaminy, DDS",
+              "rating": 4.9,
+              "reviews": 122,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ5y97j127woARBTqqQFuQNv8",
+              "rank_delta": 0,
+              "review_gain": 2
+            },
+            {
+              "rank": 4,
+              "name": "Smile Recreation Dentistry by Dr. Baseri",
+              "rating": 4.7,
+              "reviews": 359,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJgTMY5YG8woARIPC_kq6Y5hE",
+              "rank_delta": 2,
+              "review_gain": 2
+            },
+            {
+              "rank": 5,
+              "name": "Cosmetic Dental of Westwood",
+              "rating": 4.9,
+              "reviews": 640,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJnam0z4K7woARQ01rPodH9g0",
+              "rank_delta": 0,
+              "review_gain": 6
+            },
+            {
+              "rank": 6,
+              "name": "Luxe Dental Cosmetics",
+              "rating": 4.9,
+              "reviews": 172,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ075jpIm9woAR2p2y0nNNpkU",
+              "rank_delta": 2,
+              "review_gain": 8
+            },
+            {
+              "rank": 7,
+              "name": "Asaro Dental Aesthetics",
+              "rating": 5.0,
+              "reviews": 362,
+              "review_velocity": 1.77,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7-9CITm5woAR4y-8WU1oFQs",
+              "rank_delta": 5,
+              "review_gain": 28
+            },
+            {
+              "rank": 8,
+              "name": "Shervin M. Louie, DDS",
+              "rating": 5.0,
+              "reviews": 406,
+              "review_velocity": 9.84,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJpcRmm8e4woARHTCyXCBxia0",
+              "rank_delta": 12,
+              "review_gain": 156
+            },
+            {
+              "rank": 9,
+              "name": "Downtown Dental",
+              "rating": 4.7,
+              "reviews": 433,
+              "review_velocity": 2.52,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQTx0H03GwoARTZYFfr2X4m8",
+              "rank_delta": 7,
+              "review_gain": 40
+            },
+            {
+              "rank": 10,
+              "name": "Exquisite Dentistry",
+              "rating": 4.9,
+              "reviews": 271,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJgX86Uzm5woARyDReuv4z-kg",
+              "rank_delta": 3,
+              "review_gain": 12
+            },
+            {
+              "rank": 12,
+              "name": "Zakhor Dental Group- Beverly Hills cosmetic dentist",
+              "rating": 4.7,
+              "reviews": 202,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJHahXHX67woAR_CVE38NSXxk",
+              "rank_delta": 2,
+              "review_gain": 11
+            },
+            {
+              "rank": 14,
+              "name": "Century Smile Maker",
+              "rating": 5.0,
+              "reviews": 302,
+              "review_velocity": 1.01,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ07bbSvK7woARM8WUEuU8fzc",
+              "rank_delta": -10,
+              "review_gain": 16
+            },
+            {
+              "rank": 16,
+              "name": "Playa District Dental",
+              "rating": 5.0,
+              "reviews": 599,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJxXAOkmSxwoAR0jksN2I8ciI",
+              "rank_delta": -9,
+              "review_gain": 9
+            },
+            {
+              "rank": 18,
+              "name": "Brentwood Dental Spa - General, Veneers, Invisalign, Implants & Emergency Dentist",
+              "rating": 5.0,
+              "reviews": 206,
+              "review_velocity": 0.63,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJL4ELDNu7woARZZsgED8jA1o",
+              "rank_delta": -1,
+              "review_gain": 10
+            }
+          ],
+          "fastest_climber": {
+            "rank": 8,
+            "name": "Shervin M. Louie, DDS",
+            "rating": 5.0,
+            "reviews": 406,
+            "review_velocity": 9.84,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJpcRmm8e4woARHTCyXCBxia0",
+            "rank_delta": 12,
+            "review_gain": 156
+          },
+          "fastest_review_gainer": {
+            "rank": 8,
+            "name": "Shervin M. Louie, DDS",
+            "rating": 5.0,
+            "reviews": 406,
+            "review_velocity": 9.84,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJpcRmm8e4woARHTCyXCBxia0",
+            "rank_delta": 12,
+            "review_gain": 156
+          },
+          "visibility": {
+            "current_rank": 14,
+            "best_rank": 3,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 15.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 14.3,
+            "lost_vs_best_rel": 95,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 302 vs a typical competitor's 419. Close the 117-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.87."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.01/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Shervin M. Louie, DDS added 156 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 14,
+          "start_rank": 4,
+          "net_change": -10,
+          "best_rank": 3,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 16, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-13T15:48:26.625334+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-16T15:09:29.196772+00:00",
+      "free_report_email": "info@centurysmilemaker.com"
     },
     {
       "id": "11bb6b0aa32c",
@@ -30253,12 +30852,649 @@
             "category_avg_rating": 4.8,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.9,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 9
+            },
+            {
+              "date": "Apr 02",
+              "rank": 4
+            },
+            {
+              "date": "May 18",
+              "rank": 3
+            },
+            {
+              "date": "May 25",
+              "rank": 6
+            },
+            {
+              "date": "Jun 01",
+              "rank": 2
+            },
+            {
+              "date": "Jun 08",
+              "rank": 2
+            },
+            {
+              "date": "Jun 15",
+              "rank": 2
+            },
+            {
+              "date": "Jun 22",
+              "rank": 3
+            },
+            {
+              "date": "Jun 29",
+              "rank": 5
+            },
+            {
+              "date": "Jul 13",
+              "rank": 18
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 705
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 707
+            },
+            {
+              "date": "May 18",
+              "reviews": 731
+            },
+            {
+              "date": "May 25",
+              "reviews": 730
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 732
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 733
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 733
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 725
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 727
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 729
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              9,
+              4,
+              3,
+              6,
+              2,
+              2,
+              2,
+              3,
+              5,
+              18
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13"
+            ],
+            "direction": "declining",
+            "best_rank": 2,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 1.51,
+            "total_gained": 24,
+            "weeks": 15.9,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Advanced Aesthetic Dentistry",
+              "rating": 4.8,
+              "reviews": 280,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9VIGbSx_bIcRJORO9sPztA8"
+            },
+            {
+              "rank": 2,
+              "name": "Cherry Creek Dental Spa",
+              "rating": 4.9,
+              "reviews": 651,
+              "review_velocity": 4.23,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c"
+            },
+            {
+              "rank": 3,
+              "name": "EC Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 129,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE"
+            },
+            {
+              "rank": 4,
+              "name": "Denver Place Dentistry",
+              "rating": 4.8,
+              "reviews": 340,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJq07tHdp4bIcR1lmnO62NwmE"
+            },
+            {
+              "rank": 5,
+              "name": "Denver Cosmetic & Implant Dentistry",
+              "rating": 4.7,
+              "reviews": 80,
+              "review_velocity": 0.19,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJq6o6O6F9bIcRbYFUiyYxbT8"
+            },
+            {
+              "rank": 6,
+              "name": "Icon Dental",
+              "rating": 4.6,
+              "reviews": 684,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM"
+            },
+            {
+              "rank": 7,
+              "name": "Pearl Dentistry",
+              "rating": 4.8,
+              "reviews": 190,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU"
+            },
+            {
+              "rank": 8,
+              "name": "The Denver Dentists",
+              "rating": 4.4,
+              "reviews": 610,
+              "review_velocity": 3.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyxDJBfR5bIcRLxwG8ibI42k"
+            },
+            {
+              "rank": 9,
+              "name": "Ascent Dental",
+              "rating": 4.7,
+              "reviews": 373,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJO6N_foN-bIcRti1deXlSPXg"
+            },
+            {
+              "rank": 10,
+              "name": "Espire Dental DTC",
+              "rating": 4.9,
+              "reviews": 506,
+              "review_velocity": 2.59,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJcwKeKjh9bIcR-EAtHOfec00"
+            },
+            {
+              "rank": 11,
+              "name": "Midtown Dental",
+              "rating": 4.8,
+              "reviews": 495,
+              "review_velocity": 2.02,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJTw72c0p5bIcRFy3LEorXoa4"
+            },
+            {
+              "rank": 12,
+              "name": "Denver Dream Dentistry",
+              "rating": 5.0,
+              "reviews": 579,
+              "review_velocity": 2.33,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR1F9Jxx8bIcRZDRbRJEEvKc"
+            },
+            {
+              "rank": 13,
+              "name": "RiNo Dental",
+              "rating": 4.8,
+              "reviews": 595,
+              "review_velocity": 1.26,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw"
+            },
+            {
+              "rank": 14,
+              "name": "Highland Smiles",
+              "rating": 4.9,
+              "reviews": 641,
+              "review_velocity": 12.74,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJKTxiy2KHa4cRTERrwayXX9A"
+            },
+            {
+              "rank": 15,
+              "name": "Serenity Dental Arts",
+              "rating": 4.8,
+              "reviews": 287,
+              "review_velocity": 1.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJLyIwtoZ4bIcRKQuVHR46Ffo"
+            },
+            {
+              "rank": 16,
+              "name": "Corson Dentistry",
+              "rating": 4.9,
+              "reviews": 2248,
+              "review_velocity": 1.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_____8J4bIcRc7K97P21sso"
+            },
+            {
+              "rank": 17,
+              "name": "5280 Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 193,
+              "review_velocity": 4.48,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs"
+            },
+            {
+              "rank": 18,
+              "name": "Smile Studio Dental",
+              "rating": 4.9,
+              "reviews": 729,
+              "review_velocity": 1.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns"
+            },
+            {
+              "rank": 19,
+              "name": "Colorado Dental Wellness Center - Cosmetic & Biological Dentistry Denver",
+              "rating": 5.0,
+              "reviews": 264,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJTW5m-rt9bIcRrdKjSnOunqE"
+            },
+            {
+              "rank": 20,
+              "name": "Espire Dental Riverfront",
+              "rating": 4.8,
+              "reviews": 653,
+              "review_velocity": 2.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJv3iKuMF4bIcRJORTCOxi5ss"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "Smile Studio Dental",
+            "rating": 4.9,
+            "reviews": 729,
+            "review_velocity": 1.51,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns"
+          },
+          "benchmarks": {
+            "avg_rating": 4.81,
+            "avg_reviews": 526,
+            "median_reviews": 500,
+            "typical_reviews": 526,
+            "skewed": false,
+            "your_reviews": 729,
+            "your_rating": 4.9,
+            "reviews_percentile": 95,
+            "pack_size": 20,
+            "top_reviews": 2248
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Advanced Aesthetic Dentistry",
+              "rating": 4.8,
+              "reviews": 280,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9VIGbSx_bIcRJORO9sPztA8",
+              "rank_delta": 0,
+              "review_gain": 8
+            },
+            {
+              "rank": 2,
+              "name": "Cherry Creek Dental Spa",
+              "rating": 4.9,
+              "reviews": 651,
+              "review_velocity": 4.23,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c",
+              "rank_delta": 2,
+              "review_gain": 67
+            },
+            {
+              "rank": 3,
+              "name": "EC Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 129,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE",
+              "rank_delta": -1,
+              "review_gain": 4
+            },
+            {
+              "rank": 4,
+              "name": "Denver Place Dentistry",
+              "rating": 4.8,
+              "reviews": 340,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJq07tHdp4bIcR1lmnO62NwmE",
+              "rank_delta": 2,
+              "review_gain": 8
+            },
+            {
+              "rank": 5,
+              "name": "Denver Cosmetic & Implant Dentistry",
+              "rating": 4.7,
+              "reviews": 80,
+              "review_velocity": 0.19,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJq6o6O6F9bIcRbYFUiyYxbT8",
+              "rank_delta": 2,
+              "review_gain": 3
+            },
+            {
+              "rank": 6,
+              "name": "Icon Dental",
+              "rating": 4.6,
+              "reviews": 684,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM",
+              "rank_delta": 2,
+              "review_gain": 18
+            },
+            {
+              "rank": 7,
+              "name": "Pearl Dentistry",
+              "rating": 4.8,
+              "reviews": 190,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU",
+              "rank_delta": 4,
+              "review_gain": 6
+            },
+            {
+              "rank": 8,
+              "name": "The Denver Dentists",
+              "rating": 4.4,
+              "reviews": 610,
+              "review_velocity": 3.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyxDJBfR5bIcRLxwG8ibI42k",
+              "rank_delta": 4,
+              "review_gain": 50
+            },
+            {
+              "rank": 10,
+              "name": "Espire Dental DTC",
+              "rating": 4.9,
+              "reviews": 506,
+              "review_velocity": 2.59,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJcwKeKjh9bIcR-EAtHOfec00",
+              "rank_delta": 3,
+              "review_gain": 41
+            },
+            {
+              "rank": 11,
+              "name": "Midtown Dental",
+              "rating": 4.8,
+              "reviews": 495,
+              "review_velocity": 2.02,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJTw72c0p5bIcRFy3LEorXoa4",
+              "rank_delta": 8,
+              "review_gain": 32
+            },
+            {
+              "rank": 12,
+              "name": "Denver Dream Dentistry",
+              "rating": 5.0,
+              "reviews": 579,
+              "review_velocity": 2.33,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR1F9Jxx8bIcRZDRbRJEEvKc",
+              "rank_delta": -7,
+              "review_gain": 37
+            },
+            {
+              "rank": 13,
+              "name": "RiNo Dental",
+              "rating": 4.8,
+              "reviews": 595,
+              "review_velocity": 1.26,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw",
+              "rank_delta": 5,
+              "review_gain": 20
+            },
+            {
+              "rank": 14,
+              "name": "Highland Smiles",
+              "rating": 4.9,
+              "reviews": 641,
+              "review_velocity": 12.74,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJKTxiy2KHa4cRTERrwayXX9A",
+              "rank_delta": 1,
+              "review_gain": 202
+            },
+            {
+              "rank": 16,
+              "name": "Corson Dentistry",
+              "rating": 4.9,
+              "reviews": 2248,
+              "review_velocity": 1.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_____8J4bIcRc7K97P21sso",
+              "rank_delta": 0,
+              "review_gain": 29
+            },
+            {
+              "rank": 17,
+              "name": "5280 Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 193,
+              "review_velocity": 4.48,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs",
+              "rank_delta": -7,
+              "review_gain": 71
+            },
+            {
+              "rank": 18,
+              "name": "Smile Studio Dental",
+              "rating": 4.9,
+              "reviews": 729,
+              "review_velocity": 1.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns",
+              "rank_delta": -9,
+              "review_gain": 24
+            },
+            {
+              "rank": 19,
+              "name": "Colorado Dental Wellness Center - Cosmetic & Biological Dentistry Denver",
+              "rating": 5.0,
+              "reviews": 264,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJTW5m-rt9bIcRrdKjSnOunqE",
+              "rank_delta": -16,
+              "review_gain": 12
+            },
+            {
+              "rank": 20,
+              "name": "Espire Dental Riverfront",
+              "rating": 4.8,
+              "reviews": 653,
+              "review_velocity": 2.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJv3iKuMF4bIcRJORTCOxi5ss",
+              "rank_delta": -6,
+              "review_gain": 34
+            }
+          ],
+          "fastest_climber": {
+            "rank": 11,
+            "name": "Midtown Dental",
+            "rating": 4.8,
+            "reviews": 495,
+            "review_velocity": 2.02,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJTw72c0p5bIcRFy3LEorXoa4",
+            "rank_delta": 8,
+            "review_gain": 32
+          },
+          "fastest_review_gainer": {
+            "rank": 14,
+            "name": "Highland Smiles",
+            "rating": 4.9,
+            "reviews": 641,
+            "review_velocity": 12.74,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJKTxiy2KHa4cRTERrwayXX9A",
+            "rank_delta": 1,
+            "review_gain": 202
+          },
+          "visibility": {
+            "current_rank": 18,
+            "best_rank": 2,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 22.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 21.3,
+            "lost_vs_best_rel": 96,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 729 vs a typical competitor's 526."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.81."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.51/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Highland Smiles added 202 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 18,
+          "start_rank": 9,
+          "net_change": -9,
+          "best_rank": 2,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 16, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-13T15:48:26.625441+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-16T15:08:51.866614+00:00",
+      "free_report_email": "frontoffice@smilestudiodenver.com"
     },
     {
       "id": "b86240bb9cfd",
@@ -30773,12 +32009,613 @@
             "category_avg_rating": 4.5,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.9,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 9
+            },
+            {
+              "date": "Apr 02",
+              "rank": 9
+            },
+            {
+              "date": "May 18",
+              "rank": 8
+            },
+            {
+              "date": "May 25",
+              "rank": 8
+            },
+            {
+              "date": "Jun 01",
+              "rank": 8
+            },
+            {
+              "date": "Jun 08",
+              "rank": 9
+            },
+            {
+              "date": "Jun 15",
+              "rank": 8
+            },
+            {
+              "date": "Jun 22",
+              "rank": 8
+            },
+            {
+              "date": "Jun 29",
+              "rank": 7
+            },
+            {
+              "date": "Jul 13",
+              "rank": 16
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 334
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 334
+            },
+            {
+              "date": "May 18",
+              "reviews": 340
+            },
+            {
+              "date": "May 25",
+              "reviews": 341
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 341
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 341
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 342
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 342
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 344
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 346
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              9,
+              9,
+              8,
+              8,
+              8,
+              9,
+              8,
+              8,
+              7,
+              16
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13"
+            ],
+            "direction": "declining",
+            "best_rank": 7,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 0.76,
+            "total_gained": 12,
+            "weeks": 15.9,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Luxury Homes Realty",
+              "rating": 4.9,
+              "reviews": 115,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ4c-sDvbBQIYRYI-uQ8SdUWE"
+            },
+            {
+              "rank": 2,
+              "name": "Rolls Royce Luxury Living Team | Houston REALTOR",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJCZA4iQ_pQIYRsVTLx3dZUnU"
+            },
+            {
+              "rank": 3,
+              "name": "Ms. Houston Real Estate",
+              "rating": 5.0,
+              "reviews": 89,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ-eD09bQ6dEsRl-Sxdi2zgdo"
+            },
+            {
+              "rank": 4,
+              "name": "Bernard W. Lee | Alumni Elite Agency | Exp Luxury Sports & Entertainment",
+              "rating": 5.0,
+              "reviews": 9,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJVUqb7sGkQIYRpSLSqj1lgds"
+            },
+            {
+              "rank": 5,
+              "name": "AUSTIN OZTAN FINE PROPERTIES - Residential, Luxury & Commercial Real Estate Houston Texas - KW MET",
+              "rating": 5.0,
+              "reviews": 95,
+              "review_velocity": 2.27,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJP0G2ODzBQIYRiQ591fV66-I"
+            },
+            {
+              "rank": 6,
+              "name": "Corcoran Prestige Realty",
+              "rating": 4.9,
+              "reviews": 501,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJP2UXRA2_QIYR4TIXK-iHxGw"
+            },
+            {
+              "rank": 7,
+              "name": "The SOLD with Santos Group - ST&A Realtors - Houston Home Buying & Selling Experts",
+              "rating": 5.0,
+              "reviews": 205,
+              "review_velocity": 0.63,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJoyMvpmyDQIYRk8zRNKsjgIA"
+            },
+            {
+              "rank": 8,
+              "name": "The Moore Real Estate Group in Houston, Texas - Cyndi Moore & Chris Moore",
+              "rating": 4.9,
+              "reviews": 64,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJEdTsRMLHQIYRsJY1QnQj7pw"
+            },
+            {
+              "rank": 9,
+              "name": "Huy Nguyen | Investment Property Specialist | eXp Realty Texas",
+              "rating": 4.9,
+              "reviews": 68,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO2Qce1XFQIYRVj8QGzdWwGM"
+            },
+            {
+              "rank": 10,
+              "name": "Luxury Real Estate",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJR2CBW7HEQIYRetPYVfOpsvE"
+            },
+            {
+              "rank": 11,
+              "name": "JL Fine Homes Group",
+              "rating": 5.0,
+              "reviews": 53,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJQwW_SWTEQIYRlj7nimLYJ7E"
+            },
+            {
+              "rank": 12,
+              "name": "Marnie Greenwood | Houston Luxury Real Estate",
+              "rating": 4.9,
+              "reviews": 34,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJUZI-LjjBQIYRBE6_iUWVWow"
+            },
+            {
+              "rank": 13,
+              "name": "City Group Properties - Real Estate Brokerage",
+              "rating": 5.0,
+              "reviews": 129,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy-YP1UvBQIYRIIKsbXoWaqQ"
+            },
+            {
+              "rank": 14,
+              "name": "REALTOWN Real Estate Group by May Pham | New Homes in Houston - Mua Ban Nha Texas | eXp Realty",
+              "rating": 5.0,
+              "reviews": 166,
+              "review_velocity": 1.04,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJHZhklkGR14ARNxRnoVbw5dY"
+            },
+            {
+              "rank": 15,
+              "name": "Stephen Eaton Licensed Real Estate Broker",
+              "rating": 5.0,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJLSFms2ueP4YRdtjEgWfm3FE"
+            },
+            {
+              "rank": 16,
+              "name": "Cesar Espinoza Realtor/ Equity Houston",
+              "rating": 5.0,
+              "reviews": 346,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJpRowVoHFQIYRuKYSK1DzZq0"
+            },
+            {
+              "rank": 17,
+              "name": "Found Realty Group",
+              "rating": 5.0,
+              "reviews": 668,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQX0PsWDHQIYRBCGp1Ydt-LM"
+            },
+            {
+              "rank": 18,
+              "name": "Jay Thomas Real Estate Team",
+              "rating": 4.9,
+              "reviews": 132,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJnWkDVzzBQIYR7OugrGTZNrU"
+            },
+            {
+              "rank": 19,
+              "name": "VIP Realty - Houston",
+              "rating": 5.0,
+              "reviews": 32,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ78Dn1WrBQIYRbJXmTAADXTY"
+            },
+            {
+              "rank": 20,
+              "name": "Champions Nextgen Real Estate",
+              "rating": 5.0,
+              "reviews": 66,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO9F08h_bQIYRWMdhLMr3vwM"
+            }
+          ],
+          "subject": {
+            "rank": 16,
+            "name": "Cesar Espinoza Realtor/ Equity Houston",
+            "rating": 5.0,
+            "reviews": 346,
+            "review_velocity": 0.76,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJpRowVoHFQIYRuKYSK1DzZq0"
+          },
+          "benchmarks": {
+            "avg_rating": 4.96,
+            "avg_reviews": 142,
+            "median_reviews": 78,
+            "typical_reviews": 78,
+            "skewed": true,
+            "your_reviews": 346,
+            "your_rating": 5.0,
+            "reviews_percentile": 90,
+            "pack_size": 20,
+            "top_reviews": 668
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Luxury Homes Realty",
+              "rating": 4.9,
+              "reviews": 115,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ4c-sDvbBQIYRYI-uQ8SdUWE",
+              "rank_delta": 0,
+              "review_gain": 8
+            },
+            {
+              "rank": 2,
+              "name": "Rolls Royce Luxury Living Team | Houston REALTOR",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJCZA4iQ_pQIYRsVTLx3dZUnU",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "Ms. Houston Real Estate",
+              "rating": 5.0,
+              "reviews": 89,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ-eD09bQ6dEsRl-Sxdi2zgdo",
+              "rank_delta": 10,
+              "review_gain": 6
+            },
+            {
+              "rank": 5,
+              "name": "AUSTIN OZTAN FINE PROPERTIES - Residential, Luxury & Commercial Real Estate Houston Texas - KW MET",
+              "rating": 5.0,
+              "reviews": 95,
+              "review_velocity": 2.27,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJP0G2ODzBQIYRiQ591fV66-I",
+              "rank_delta": 0,
+              "review_gain": 36
+            },
+            {
+              "rank": 6,
+              "name": "Corcoran Prestige Realty",
+              "rating": 4.9,
+              "reviews": 501,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJP2UXRA2_QIYR4TIXK-iHxGw",
+              "rank_delta": -3,
+              "review_gain": 3
+            },
+            {
+              "rank": 7,
+              "name": "The SOLD with Santos Group - ST&A Realtors - Houston Home Buying & Selling Experts",
+              "rating": 5.0,
+              "reviews": 205,
+              "review_velocity": 0.63,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJoyMvpmyDQIYRk8zRNKsjgIA",
+              "rank_delta": 4,
+              "review_gain": 10
+            },
+            {
+              "rank": 8,
+              "name": "The Moore Real Estate Group in Houston, Texas - Cyndi Moore & Chris Moore",
+              "rating": 4.9,
+              "reviews": 64,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJEdTsRMLHQIYRsJY1QnQj7pw",
+              "rank_delta": 6,
+              "review_gain": 3
+            },
+            {
+              "rank": 9,
+              "name": "Huy Nguyen | Investment Property Specialist | eXp Realty Texas",
+              "rating": 4.9,
+              "reviews": 68,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO2Qce1XFQIYRVj8QGzdWwGM",
+              "rank_delta": -3,
+              "review_gain": 2
+            },
+            {
+              "rank": 11,
+              "name": "JL Fine Homes Group",
+              "rating": 5.0,
+              "reviews": 53,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJQwW_SWTEQIYRlj7nimLYJ7E",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 12,
+              "name": "Marnie Greenwood | Houston Luxury Real Estate",
+              "rating": 4.9,
+              "reviews": 34,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJUZI-LjjBQIYRBE6_iUWVWow",
+              "rank_delta": -8,
+              "review_gain": 0
+            },
+            {
+              "rank": 13,
+              "name": "City Group Properties - Real Estate Brokerage",
+              "rating": 5.0,
+              "reviews": 129,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy-YP1UvBQIYRIIKsbXoWaqQ",
+              "rank_delta": -5,
+              "review_gain": 1
+            },
+            {
+              "rank": 16,
+              "name": "Cesar Espinoza Realtor/ Equity Houston",
+              "rating": 5.0,
+              "reviews": 346,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJpRowVoHFQIYRuKYSK1DzZq0",
+              "rank_delta": -7,
+              "review_gain": 12
+            },
+            {
+              "rank": 17,
+              "name": "Found Realty Group",
+              "rating": 5.0,
+              "reviews": 668,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQX0PsWDHQIYRBCGp1Ydt-LM",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 18,
+              "name": "Jay Thomas Real Estate Team",
+              "rating": 4.9,
+              "reviews": 132,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJnWkDVzzBQIYR7OugrGTZNrU",
+              "rank_delta": -2,
+              "review_gain": 5
+            },
+            {
+              "rank": 20,
+              "name": "Champions Nextgen Real Estate",
+              "rating": 5.0,
+              "reviews": 66,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO9F08h_bQIYRWMdhLMr3vwM",
+              "rank_delta": -5,
+              "review_gain": 2
+            }
+          ],
+          "fastest_climber": {
+            "rank": 3,
+            "name": "Ms. Houston Real Estate",
+            "rating": 5.0,
+            "reviews": 89,
+            "review_velocity": 0.38,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJ-eD09bQ6dEsRl-Sxdi2zgdo",
+            "rank_delta": 10,
+            "review_gain": 6
+          },
+          "fastest_review_gainer": {
+            "rank": 5,
+            "name": "AUSTIN OZTAN FINE PROPERTIES - Residential, Luxury & Commercial Real Estate Houston Texas - KW MET",
+            "rating": 5.0,
+            "reviews": 95,
+            "review_velocity": 2.27,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJP0G2ODzBQIYRiQ591fV66-I",
+            "rank_delta": 0,
+            "review_gain": 36
+          },
+          "visibility": {
+            "current_rank": 16,
+            "best_rank": 7,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 2.5,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 1.7,
+            "lost_vs_best_rel": 68,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 346 vs a typical competitor's 78."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.96."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.76/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "AUSTIN OZTAN FINE PROPERTIES - Reside. added 36 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 16,
+          "start_rank": 9,
+          "net_change": -7,
+          "best_rank": 7,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 16, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-13T15:48:26.625470+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-16T15:09:10.700053+00:00",
+      "free_report_email": "cesar@equityhouston.com"
     },
     {
       "id": "62e07730d848",
