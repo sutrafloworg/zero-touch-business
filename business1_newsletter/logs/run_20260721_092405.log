@@ -1,0 +1,30 @@
+2026-07-21 09:24:06,949 [INFO] orchestrator — ============================================================
+2026-07-21 09:24:06,949 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-07-21 09:24:06,949 [INFO] orchestrator — Timestamp: 2026-07-21T09:24:06.949264+00:00
+2026-07-21 09:24:06,949 [INFO] orchestrator — ============================================================
+2026-07-21 09:24:06,976 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-07-21 09:24:07,115 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-07-21 09:24:07,789 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-07-21 09:24:08,449 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 4 fresh items
+2026-07-21 09:24:09,247 [INFO] agents.feed_agent —   VentureBeat AI: fetched 5 fresh items
+2026-07-21 09:24:12,091 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-07-21 09:24:12,787 [INFO] agents.feed_agent —   Product Hunt AI: fetched 36 fresh items
+2026-07-21 09:24:16,586 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-07-21 09:24:17,739 [INFO] agents.feed_agent —   OpenAI Blog: fetched 7 fresh items
+2026-07-21 09:24:18,242 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 92 total
+2026-07-21 09:24:18,242 [INFO] orchestrator —       Got 10 items
+2026-07-21 09:24:18,242 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-07-21 09:24:18,243 [INFO] agents.content_agent — Generating newsletter with sponsors: Writesonic, Rytr
+2026-07-21 09:24:32,898 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-21 09:24:32,913 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'Why OpenAI built an AI hacker (and you should care)'
+2026-07-21 09:24:32,913 [INFO] orchestrator —       Subject: 'Why OpenAI built an AI hacker (and you should care)'
+2026-07-21 09:24:32,913 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-07-21 09:24:32,913 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-07-21 09:24:33,525 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-07-21T09:27:32+0000, ID=25086951
+2026-07-21 09:24:33,576 [INFO] orchestrator —       Broadcast ID: 25086951, Subscribers: 2
+2026-07-21 09:24:33,576 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-07-21 09:24:33,577 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 25086951
+2026-07-21 09:24:34,695 [INFO] agents.monitor_agent — Alert email sent: [Weekly Report] AI Tools Weekly
+2026-07-21 09:24:34,695 [INFO] orchestrator — ============================================================
+2026-07-21 09:24:34,695 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-07-21 09:24:34,695 [INFO] orchestrator — ============================================================
