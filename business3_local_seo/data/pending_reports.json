@@ -30034,7 +30034,654 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.9,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 13
+            },
+            {
+              "date": "Apr 02",
+              "rank": 6
+            },
+            {
+              "date": "May 18",
+              "rank": 13
+            },
+            {
+              "date": "May 25",
+              "rank": 13
+            },
+            {
+              "date": "Jun 01",
+              "rank": 12
+            },
+            {
+              "date": "Jun 08",
+              "rank": 14
+            },
+            {
+              "date": "Jun 15",
+              "rank": 16
+            },
+            {
+              "date": "Jun 22",
+              "rank": 14
+            },
+            {
+              "date": "Jun 29",
+              "rank": 8
+            },
+            {
+              "date": "Jul 13",
+              "rank": 15
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 850
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 849
+            },
+            {
+              "date": "May 18",
+              "reviews": 856
+            },
+            {
+              "date": "May 25",
+              "reviews": 856
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 856
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 858
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 858
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 859
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 860
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 863
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              13,
+              6,
+              13,
+              13,
+              12,
+              14,
+              16,
+              14,
+              8,
+              15
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13"
+            ],
+            "direction": "declining",
+            "best_rank": 6,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 0.82,
+            "total_gained": 13,
+            "weeks": 15.9,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Suarez And Montero Car Accident Lawyer Miami .Com",
+              "rating": 5.0,
+              "reviews": 1275,
+              "review_velocity": 1.77,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJESmju2-32YgRZ8EXSoRVxE8"
+            },
+            {
+              "rank": 2,
+              "name": "Gerson and Schwartz Accident & Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 277,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJIdhJ01O22YgRPl-xDV89q14"
+            },
+            {
+              "rank": 3,
+              "name": "Wolfson & Leon",
+              "rating": 4.9,
+              "reviews": 702,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJe_qhhlu22YgRvMCUVjbeAgo"
+            },
+            {
+              "rank": 4,
+              "name": "DLE Lawyers | Abogados De Accidentes Miami",
+              "rating": 4.8,
+              "reviews": 176,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJNQsT_5O32YgR-9gX8MAjW5k"
+            },
+            {
+              "rank": 5,
+              "name": "Morgan & Morgan",
+              "rating": 4.7,
+              "reviews": 4820,
+              "review_velocity": 7.63,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJvR5zpse52YgRmfIznnHkBUA"
+            },
+            {
+              "rank": 6,
+              "name": "Steinger, Greene & Feiner",
+              "rating": 4.9,
+              "reviews": 697,
+              "review_velocity": 5.99,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJRUed9D232YgRJMrwzSl33L0"
+            },
+            {
+              "rank": 7,
+              "name": "The Russo Firm - Miami",
+              "rating": 4.9,
+              "reviews": 975,
+              "review_velocity": -5.3,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJMyF3epu32YgR8Kt9VUk1BKU"
+            },
+            {
+              "rank": 8,
+              "name": "Aronfeld Trial Lawyers",
+              "rating": 4.8,
+              "reviews": 205,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJOc3NIpS32YgRAINIacnXDBA"
+            },
+            {
+              "rank": 9,
+              "name": "AccidentLawFirm.com",
+              "rating": 5.0,
+              "reviews": 268,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJZW1_Spm32YgRy04obhW_qq4"
+            },
+            {
+              "rank": 10,
+              "name": "Perkins Personal Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 102,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJG4QAa5m32YgRjbhD_IFl-ZQ"
+            },
+            {
+              "rank": 11,
+              "name": "Goldberg & Rosen",
+              "rating": 4.9,
+              "reviews": 998,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Law firm",
+              "_key": "ChIJs3vNeIG22YgRLXaXvZ_-yxU"
+            },
+            {
+              "rank": 12,
+              "name": "Mausner Group Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 654,
+              "review_velocity": -1.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5QDefp622YgRlNNrV7vEpzo"
+            },
+            {
+              "rank": 13,
+              "name": "Amanda Demanda Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 1050,
+              "review_velocity": 5.74,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJRcNTaaG52YgRwRajDIVhzco"
+            },
+            {
+              "rank": 14,
+              "name": "Law Offices Of Jose M. Francisco",
+              "rating": 4.9,
+              "reviews": 724,
+              "review_velocity": 2.52,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJk8z52YO52YgRE5NZ8mZkriY"
+            },
+            {
+              "rank": 15,
+              "name": "Bernstein & Maryanoff Injury Attorneys",
+              "rating": 4.8,
+              "reviews": 863,
+              "review_velocity": 0.82,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJVU8RL2DB2YgRhR8BnaW88Z0"
+            },
+            {
+              "rank": 16,
+              "name": "The Soffer Firm Miami Personal Injury Attorneys",
+              "rating": 5.0,
+              "reviews": 125,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJx2CH-5222YgRkC6svpsGHDw"
+            },
+            {
+              "rank": 17,
+              "name": "Blucas Law",
+              "rating": 5.0,
+              "reviews": 147,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJu2hdMI602YgRj7LZ4l047VM"
+            },
+            {
+              "rank": 18,
+              "name": "CarAccidentAttorney.com",
+              "rating": 4.9,
+              "reviews": 297,
+              "review_velocity": 0.44,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJERhT2JC32YgRCvKS7_e661o"
+            },
+            {
+              "rank": 19,
+              "name": "Zayed Law Personal Injury Attorneys",
+              "rating": 5.0,
+              "reviews": 80,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJyeECayy32YgRaBttLLT3NLU"
+            },
+            {
+              "rank": 20,
+              "name": "Emas Law Group, Personal Injury Y M\u00e1s",
+              "rating": 5.0,
+              "reviews": 46,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ9TEFk3Z_1AUR5rdSIyIaOxg"
+            }
+          ],
+          "subject": {
+            "rank": 15,
+            "name": "Bernstein & Maryanoff Injury Attorneys",
+            "rating": 4.8,
+            "reviews": 863,
+            "review_velocity": 0.82,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJVU8RL2DB2YgRhR8BnaW88Z0"
+          },
+          "benchmarks": {
+            "avg_rating": 4.91,
+            "avg_reviews": 724,
+            "median_reviews": 476,
+            "typical_reviews": 724,
+            "skewed": false,
+            "your_reviews": 863,
+            "your_rating": 4.8,
+            "reviews_percentile": 75,
+            "pack_size": 20,
+            "top_reviews": 4820
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Suarez And Montero Car Accident Lawyer Miami .Com",
+              "rating": 5.0,
+              "reviews": 1275,
+              "review_velocity": 1.77,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJESmju2-32YgRZ8EXSoRVxE8",
+              "rank_delta": 0,
+              "review_gain": 28
+            },
+            {
+              "rank": 2,
+              "name": "Gerson and Schwartz Accident & Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 277,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJIdhJ01O22YgRPl-xDV89q14",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 3,
+              "name": "Wolfson & Leon",
+              "rating": 4.9,
+              "reviews": 702,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJe_qhhlu22YgRvMCUVjbeAgo",
+              "rank_delta": 0,
+              "review_gain": 11
+            },
+            {
+              "rank": 4,
+              "name": "DLE Lawyers | Abogados De Accidentes Miami",
+              "rating": 4.8,
+              "reviews": 176,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJNQsT_5O32YgR-9gX8MAjW5k",
+              "rank_delta": 1,
+              "review_gain": 6
+            },
+            {
+              "rank": 5,
+              "name": "Morgan & Morgan",
+              "rating": 4.7,
+              "reviews": 4820,
+              "review_velocity": 7.63,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJvR5zpse52YgRmfIznnHkBUA",
+              "rank_delta": 7,
+              "review_gain": 121
+            },
+            {
+              "rank": 6,
+              "name": "Steinger, Greene & Feiner",
+              "rating": 4.9,
+              "reviews": 697,
+              "review_velocity": 5.99,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJRUed9D232YgRJMrwzSl33L0",
+              "rank_delta": -2,
+              "review_gain": 95
+            },
+            {
+              "rank": 7,
+              "name": "The Russo Firm - Miami",
+              "rating": 4.9,
+              "reviews": 975,
+              "review_velocity": -5.3,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJMyF3epu32YgR8Kt9VUk1BKU",
+              "rank_delta": -1,
+              "review_gain": -84
+            },
+            {
+              "rank": 8,
+              "name": "Aronfeld Trial Lawyers",
+              "rating": 4.8,
+              "reviews": 205,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJOc3NIpS32YgRAINIacnXDBA",
+              "rank_delta": 0,
+              "review_gain": -4
+            },
+            {
+              "rank": 9,
+              "name": "AccidentLawFirm.com",
+              "rating": 5.0,
+              "reviews": 268,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJZW1_Spm32YgRy04obhW_qq4",
+              "rank_delta": 5,
+              "review_gain": 6
+            },
+            {
+              "rank": 10,
+              "name": "Perkins Personal Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 102,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJG4QAa5m32YgRjbhD_IFl-ZQ",
+              "rank_delta": 1,
+              "review_gain": 11
+            },
+            {
+              "rank": 11,
+              "name": "Goldberg & Rosen",
+              "rating": 4.9,
+              "reviews": 998,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Law firm",
+              "_key": "ChIJs3vNeIG22YgRLXaXvZ_-yxU",
+              "rank_delta": -2,
+              "review_gain": 1
+            },
+            {
+              "rank": 12,
+              "name": "Mausner Group Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 654,
+              "review_velocity": -1.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5QDefp622YgRlNNrV7vEpzo",
+              "rank_delta": -2,
+              "review_gain": -18
+            },
+            {
+              "rank": 13,
+              "name": "Amanda Demanda Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 1050,
+              "review_velocity": 5.74,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJRcNTaaG52YgRwRajDIVhzco",
+              "rank_delta": 3,
+              "review_gain": 91
+            },
+            {
+              "rank": 14,
+              "name": "Law Offices Of Jose M. Francisco",
+              "rating": 4.9,
+              "reviews": 724,
+              "review_velocity": 2.52,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJk8z52YO52YgRE5NZ8mZkriY",
+              "rank_delta": 1,
+              "review_gain": 40
+            },
+            {
+              "rank": 15,
+              "name": "Bernstein & Maryanoff Injury Attorneys",
+              "rating": 4.8,
+              "reviews": 863,
+              "review_velocity": 0.82,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJVU8RL2DB2YgRhR8BnaW88Z0",
+              "rank_delta": -2,
+              "review_gain": 13
+            },
+            {
+              "rank": 16,
+              "name": "The Soffer Firm Miami Personal Injury Attorneys",
+              "rating": 5.0,
+              "reviews": 125,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJx2CH-5222YgRkC6svpsGHDw",
+              "rank_delta": 4,
+              "review_gain": 3
+            },
+            {
+              "rank": 17,
+              "name": "Blucas Law",
+              "rating": 5.0,
+              "reviews": 147,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJu2hdMI602YgRj7LZ4l047VM",
+              "rank_delta": 0,
+              "review_gain": 2
+            },
+            {
+              "rank": 18,
+              "name": "CarAccidentAttorney.com",
+              "rating": 4.9,
+              "reviews": 297,
+              "review_velocity": 0.44,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJERhT2JC32YgRCvKS7_e661o",
+              "rank_delta": 1,
+              "review_gain": 7
+            },
+            {
+              "rank": 19,
+              "name": "Zayed Law Personal Injury Attorneys",
+              "rating": 5.0,
+              "reviews": 80,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJyeECayy32YgRaBttLLT3NLU",
+              "rank_delta": -12,
+              "review_gain": 1
+            }
+          ],
+          "fastest_climber": {
+            "rank": 5,
+            "name": "Morgan & Morgan",
+            "rating": 4.7,
+            "reviews": 4820,
+            "review_velocity": 7.63,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJvR5zpse52YgRmfIznnHkBUA",
+            "rank_delta": 7,
+            "review_gain": 121
+          },
+          "fastest_review_gainer": {
+            "rank": 5,
+            "name": "Morgan & Morgan",
+            "rating": 4.7,
+            "reviews": 4820,
+            "review_velocity": 7.63,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJvR5zpse52YgRmfIznnHkBUA",
+            "rank_delta": 7,
+            "review_gain": 121
+          },
+          "visibility": {
+            "current_rank": 15,
+            "best_rank": 6,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 3.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 2.6,
+            "lost_vs_best_rel": 76,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 863 vs a typical competitor's 724."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.8 vs category 4.91. A 0.11-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.82/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Morgan & Morgan added 121 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 15,
+          "start_rank": 13,
+          "net_change": -2,
+          "best_rank": 6,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 23, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-13T15:48:26.625371+00:00",
@@ -30045,7 +30692,9 @@
           "type": "followup_1",
           "sent_at": "2026-07-20T15:51:52.372703+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-07-23T15:18:37.462951+00:00",
+      "free_report_email": "jack@bernsteinandmaryanoff.com"
     },
     {
       "id": "d868498a109c",
@@ -30381,7 +31030,558 @@
             "category_avg_rating": 5.0,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 4.9,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Jun 08",
+              "rank": 20
+            },
+            {
+              "date": "Jun 22",
+              "rank": 12
+            },
+            {
+              "date": "Jun 29",
+              "rank": 13
+            },
+            {
+              "date": "Jul 13",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jun 08",
+              "reviews": 37
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 38
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 38
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 38
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              20,
+              12,
+              13,
+              20
+            ],
+            "dates": [
+              "Jun 08",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13"
+            ],
+            "direction": "volatile",
+            "best_rank": 12,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 0.21,
+            "total_gained": 1,
+            "weeks": 4.9,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "LG Realty Group Inc. Miami Luxury Real Estate",
+              "rating": 4.9,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJtcUydFSx2YgRRfIJvVw3lIw"
+            },
+            {
+              "rank": 2,
+              "name": "Adrian Burke Luxury Real Estate At Sotheby's Realty",
+              "rating": 4.9,
+              "reviews": 74,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJtbftmgm32YgRcJCMO8fL1Fk"
+            },
+            {
+              "rank": 3,
+              "name": "Ivan and Mike Team | Luxury Real Estate Experts / Advisors | Miami, FL",
+              "rating": 5.0,
+              "reviews": 41,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJCQbzAGi12YgRP0uj32bq2RU"
+            },
+            {
+              "rank": 4,
+              "name": "Super Luxury Group",
+              "rating": 5.0,
+              "reviews": 118,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJd69-Thu12YgRpN8bijy4rXQ"
+            },
+            {
+              "rank": 5,
+              "name": "Miami Luxury Homes",
+              "rating": 4.9,
+              "reviews": 71,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJqYHjfOW32YgRKoCrNZ1D2-4"
+            },
+            {
+              "rank": 6,
+              "name": "Dimitri Joseph | Miami Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 70,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJZeWOzLPNGm4RNn5efI4YKA0"
+            },
+            {
+              "rank": 7,
+              "name": "Miami Beach Luxury Real Estate | David Hunt Solomon",
+              "rating": 5.0,
+              "reviews": 32,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJVVVVVWyz2YgRBh7-VpuN0Vc"
+            },
+            {
+              "rank": 8,
+              "name": "Kimberly Navas - Firm Luxury Real Estate",
+              "rating": 4.8,
+              "reviews": 20,
+              "review_velocity": 0.06,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJsx_4wV_B2YgRgJxiBEBRtAw"
+            },
+            {
+              "rank": 9,
+              "name": "Miami Luxury Real Estate LLC",
+              "rating": 5.0,
+              "reviews": 2,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJP5_oivS02YgR7tG6Uh8gE-o"
+            },
+            {
+              "rank": 10,
+              "name": "Coldwell Banker Global Luxury | Abraham Ash | Broker Assoc.",
+              "rating": 5.0,
+              "reviews": 66,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJKWwGsL232YgRQBqFwcy0J8Q"
+            },
+            {
+              "rank": 11,
+              "name": "Catherine Rodstein Real Estate Agent Miami Beach - Luxury Homes & Condos",
+              "rating": 5.0,
+              "reviews": 11,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJIcyZNH602YgR75FAf87k3cs"
+            },
+            {
+              "rank": 12,
+              "name": "Lauren Hershey",
+              "rating": 4.8,
+              "reviews": 44,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ4_QtEymy2YgRgsXIkPOgA8s"
+            },
+            {
+              "rank": 13,
+              "name": "Jonathan Bigelman I Miami Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 28,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ7YLhmoiz2YgRscOOsaPQSVo"
+            },
+            {
+              "rank": 14,
+              "name": "Barby Realtor | Miami Luxury Homes",
+              "rating": 5.0,
+              "reviews": 12,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJGaHTjKW32YgRg8COKJzzaso"
+            },
+            {
+              "rank": 15,
+              "name": "Miami Luxury Properties",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJfV6sFW6l2YgRf9_qNWtllSQ"
+            },
+            {
+              "rank": 16,
+              "name": "Luxury Real Estate | Miami | Jenny Gonzalez",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJVy-paCi02YgRFue872cw68U"
+            },
+            {
+              "rank": 17,
+              "name": "Mega Luxe Homes",
+              "rating": 5.0,
+              "reviews": 91,
+              "review_velocity": 0.44,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq6rO0I-32YgRUPgpDE_58yE"
+            },
+            {
+              "rank": 18,
+              "name": "Global Luxury Realty LLC",
+              "rating": 3.5,
+              "reviews": 72,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJEe51u4e02YgRu8Bx7shXfow"
+            },
+            {
+              "rank": 19,
+              "name": "Wesley Ulloa, Luxury Real Estate Advisor, South Florida",
+              "rating": 4.9,
+              "reviews": 50,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJtfoSod232YgRuZiV_md40yQ"
+            },
+            {
+              "rank": 20,
+              "name": "Cervera Real Estate: Jose Cipriani",
+              "rating": 5.0,
+              "reviews": 38,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJz1nvZoW32YgRMDiGeBCnjXY"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Cervera Real Estate: Jose Cipriani",
+            "rating": 5.0,
+            "reviews": 38,
+            "review_velocity": 0.21,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJz1nvZoW32YgRMDiGeBCnjXY"
+          },
+          "benchmarks": {
+            "avg_rating": 4.88,
+            "avg_reviews": 44,
+            "median_reviews": 40,
+            "typical_reviews": 44,
+            "skewed": false,
+            "your_reviews": 38,
+            "your_rating": 5.0,
+            "reviews_percentile": 50,
+            "pack_size": 20,
+            "top_reviews": 118
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "LG Realty Group Inc. Miami Luxury Real Estate",
+              "rating": 4.9,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJtcUydFSx2YgRRfIJvVw3lIw",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Adrian Burke Luxury Real Estate At Sotheby's Realty",
+              "rating": 4.9,
+              "reviews": 74,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJtbftmgm32YgRcJCMO8fL1Fk",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "Ivan and Mike Team | Luxury Real Estate Experts / Advisors | Miami, FL",
+              "rating": 5.0,
+              "reviews": 41,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJCQbzAGi12YgRP0uj32bq2RU",
+              "rank_delta": 0,
+              "review_gain": 1
+            },
+            {
+              "rank": 4,
+              "name": "Super Luxury Group",
+              "rating": 5.0,
+              "reviews": 118,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJd69-Thu12YgRpN8bijy4rXQ",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "Miami Luxury Homes",
+              "rating": 4.9,
+              "reviews": 71,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJqYHjfOW32YgRKoCrNZ1D2-4",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 6,
+              "name": "Dimitri Joseph | Miami Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 70,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJZeWOzLPNGm4RNn5efI4YKA0",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 8,
+              "name": "Kimberly Navas - Firm Luxury Real Estate",
+              "rating": 4.8,
+              "reviews": 20,
+              "review_velocity": 0.06,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJsx_4wV_B2YgRgJxiBEBRtAw",
+              "rank_delta": 0,
+              "review_gain": 1
+            },
+            {
+              "rank": 9,
+              "name": "Miami Luxury Real Estate LLC",
+              "rating": 5.0,
+              "reviews": 2,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJP5_oivS02YgR7tG6Uh8gE-o",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 11,
+              "name": "Catherine Rodstein Real Estate Agent Miami Beach - Luxury Homes & Condos",
+              "rating": 5.0,
+              "reviews": 11,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJIcyZNH602YgR75FAf87k3cs",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 12,
+              "name": "Lauren Hershey",
+              "rating": 4.8,
+              "reviews": 44,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ4_QtEymy2YgRgsXIkPOgA8s",
+              "rank_delta": 3,
+              "review_gain": 0
+            },
+            {
+              "rank": 13,
+              "name": "Jonathan Bigelman I Miami Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 28,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ7YLhmoiz2YgRscOOsaPQSVo",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 15,
+              "name": "Miami Luxury Properties",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJfV6sFW6l2YgRf9_qNWtllSQ",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 16,
+              "name": "Luxury Real Estate | Miami | Jenny Gonzalez",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJVy-paCi02YgRFue872cw68U",
+              "rank_delta": -4,
+              "review_gain": 0
+            },
+            {
+              "rank": 17,
+              "name": "Mega Luxe Homes",
+              "rating": 5.0,
+              "reviews": 91,
+              "review_velocity": 0.44,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq6rO0I-32YgRUPgpDE_58yE",
+              "rank_delta": 0,
+              "review_gain": 7
+            },
+            {
+              "rank": 18,
+              "name": "Global Luxury Realty LLC",
+              "rating": 3.5,
+              "reviews": 72,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJEe51u4e02YgRu8Bx7shXfow",
+              "rank_delta": -2,
+              "review_gain": 1
+            },
+            {
+              "rank": 19,
+              "name": "Wesley Ulloa, Luxury Real Estate Advisor, South Florida",
+              "rating": 4.9,
+              "reviews": 50,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJtfoSod232YgRuZiV_md40yQ",
+              "rank_delta": -5,
+              "review_gain": 0
+            }
+          ],
+          "fastest_climber": {
+            "rank": 12,
+            "name": "Lauren Hershey",
+            "rating": 4.8,
+            "reviews": 44,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJ4_QtEymy2YgRgsXIkPOgA8s",
+            "rank_delta": 3,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 17,
+            "name": "Mega Luxe Homes",
+            "rating": 5.0,
+            "reviews": 91,
+            "review_velocity": 0.44,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJq6rO0I-32YgRUPgpDE_58yE",
+            "rank_delta": 0,
+            "review_gain": 7
+          },
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 12,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 38 vs a typical competitor's 44. Close the 6-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.88."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.21/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Mega Luxe Homes added 7 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 20,
+          "net_change": 0,
+          "best_rank": 12,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 23, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-13T15:48:26.625392+00:00",
@@ -30392,7 +31592,9 @@
           "type": "followup_1",
           "sent_at": "2026-07-20T15:51:52.372703+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-07-23T15:18:56.989816+00:00",
+      "free_report_email": "dmolina@cervera.com"
     },
     {
       "id": "8050d5e8b48a",
@@ -30664,7 +31866,582 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.9,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 5
+            },
+            {
+              "date": "Apr 02",
+              "rank": 5
+            },
+            {
+              "date": "May 18",
+              "rank": 5
+            },
+            {
+              "date": "May 25",
+              "rank": 14
+            },
+            {
+              "date": "Jun 01",
+              "rank": 4
+            },
+            {
+              "date": "Jun 08",
+              "rank": 5
+            },
+            {
+              "date": "Jun 15",
+              "rank": 5
+            },
+            {
+              "date": "Jun 22",
+              "rank": 5
+            },
+            {
+              "date": "Jun 29",
+              "rank": 5
+            },
+            {
+              "date": "Jul 13",
+              "rank": 13
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 1718
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 1721
+            },
+            {
+              "date": "May 18",
+              "reviews": 1761
+            },
+            {
+              "date": "May 25",
+              "reviews": 1769
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 1768
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 1773
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 1767
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 1762
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 1766
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 1782
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              5,
+              5,
+              5,
+              14,
+              4,
+              5,
+              5,
+              5,
+              5,
+              13
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13"
+            ],
+            "direction": "declining",
+            "best_rank": 4,
+            "worst_rank": 14
+          },
+          "review_velocity": {
+            "per_week": 4.04,
+            "total_gained": 64,
+            "weeks": 15.9,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Biltmore Cosmetic & Restorative Dentistry Phoenix",
+              "rating": 5.0,
+              "reviews": 576,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ2-XwA2ANK4cRydE6O4fAYYM"
+            },
+            {
+              "rank": 2,
+              "name": "Central Valley Dentistry & Implants",
+              "rating": 4.9,
+              "reviews": 1039,
+              "review_velocity": 3.28,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJxdDee7MSK4cRs11vaVjHSAU"
+            },
+            {
+              "rank": 3,
+              "name": "Harris Dental",
+              "rating": 4.9,
+              "reviews": 782,
+              "review_velocity": 2.71,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7T3QuQgNK4cRuXhh-wdY3OM"
+            },
+            {
+              "rank": 4,
+              "name": "Biltmore Dental Center",
+              "rating": 4.9,
+              "reviews": 1279,
+              "review_velocity": 1.01,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2ZxE8qcNK4cRX-EPyMQNIC8"
+            },
+            {
+              "rank": 5,
+              "name": "Radiant Smiles Phoenix",
+              "rating": 4.9,
+              "reviews": 464,
+              "review_velocity": 2.21,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCf2brmgSK4cRsywpk3x90bg"
+            },
+            {
+              "rank": 6,
+              "name": "Biltmore Commons Dental Care",
+              "rating": 4.9,
+              "reviews": 1526,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6Vcc7qMSK4cRO5i7UAWtRFQ"
+            },
+            {
+              "rank": 7,
+              "name": "Arizona Biltmore Dentistry",
+              "rating": 4.7,
+              "reviews": 1350,
+              "review_velocity": 1.7,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ4ZWT6ggNK4cRYbJNuSOvfJE"
+            },
+            {
+              "rank": 8,
+              "name": "Artistic Dental at the biltmore",
+              "rating": 4.9,
+              "reviews": 949,
+              "review_velocity": 1.77,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJwUMDbnENK4cRd-JuAcW2G7c"
+            },
+            {
+              "rank": 9,
+              "name": "Desert Smiles Cosmetic & Restorative Dentistry",
+              "rating": 4.9,
+              "reviews": 452,
+              "review_velocity": 1.01,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFQgKG_RoK4cRla6YC9JM8mM"
+            },
+            {
+              "rank": 10,
+              "name": "Studio B Smiles - Phoenix, AZ",
+              "rating": 5.0,
+              "reviews": 376,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ35Qd6R8SK4cRtcHWbgfxrtg"
+            },
+            {
+              "rank": 11,
+              "name": "Dentique by Dr. B Cosmetic Dentistry",
+              "rating": 5.0,
+              "reviews": 491,
+              "review_velocity": 0.54,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJX3Gd724EK4cRa0moGdXI3yw"
+            },
+            {
+              "rank": 12,
+              "name": "Downtown Phoenix Dental",
+              "rating": 4.9,
+              "reviews": 555,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJodDpwCMSK4cRhfCtEktV4UQ"
+            },
+            {
+              "rank": 13,
+              "name": "Life Smiles Dental Care",
+              "rating": 5.0,
+              "reviews": 1782,
+              "review_velocity": 4.04,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyTeRHQxzK4cRAfV-824wkfk"
+            },
+            {
+              "rank": 14,
+              "name": "Phoenix Comprehensive Dentistry",
+              "rating": 4.9,
+              "reviews": 282,
+              "review_velocity": 2.42,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJS78ZuvNzK4cRXwwIx8FSYig"
+            },
+            {
+              "rank": 15,
+              "name": "Winning Smiles Dentistry",
+              "rating": 4.9,
+              "reviews": 81,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJsWF8LboSK4cRzAdHexflmnc"
+            },
+            {
+              "rank": 16,
+              "name": "The Smile Studio",
+              "rating": 5.0,
+              "reviews": 157,
+              "review_velocity": 1.91,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR_Nsg8xjK4cRl9xhzrBbdL0"
+            },
+            {
+              "rank": 17,
+              "name": "Nuvia Dental Implant Center",
+              "rating": 4.9,
+              "reviews": 1934,
+              "review_velocity": 8.65,
+              "website": true,
+              "type": "Dental implants provider",
+              "_key": "ChIJi5PfCIxxK4cRq1_Ctu6mq98"
+            },
+            {
+              "rank": 18,
+              "name": "Scottsdale Smile Center",
+              "rating": 5.0,
+              "reviews": 515,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJI97IxRQLK4cRCfWYJU6BEJc"
+            },
+            {
+              "rank": 19,
+              "name": "24th Street Dental Biltmore",
+              "rating": 4.9,
+              "reviews": 922,
+              "review_velocity": 8.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJi0jxa8QNK4cReDnpapUjZHY"
+            },
+            {
+              "rank": 20,
+              "name": "Phoenix Dental Design",
+              "rating": 5.0,
+              "reviews": 390,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDx-k2KASK4cRNf0Y8j02txA"
+            }
+          ],
+          "subject": {
+            "rank": 13,
+            "name": "Life Smiles Dental Care",
+            "rating": 5.0,
+            "reviews": 1782,
+            "review_velocity": 4.04,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJyTeRHQxzK4cRAfV-824wkfk"
+          },
+          "benchmarks": {
+            "avg_rating": 4.92,
+            "avg_reviews": 795,
+            "median_reviews": 566,
+            "typical_reviews": 795,
+            "skewed": false,
+            "your_reviews": 1782,
+            "your_rating": 5.0,
+            "reviews_percentile": 95,
+            "pack_size": 20,
+            "top_reviews": 1934
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Biltmore Cosmetic & Restorative Dentistry Phoenix",
+              "rating": 5.0,
+              "reviews": 576,
+              "review_velocity": 0.69,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ2-XwA2ANK4cRydE6O4fAYYM",
+              "rank_delta": 0,
+              "review_gain": 11
+            },
+            {
+              "rank": 2,
+              "name": "Central Valley Dentistry & Implants",
+              "rating": 4.9,
+              "reviews": 1039,
+              "review_velocity": 3.28,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJxdDee7MSK4cRs11vaVjHSAU",
+              "rank_delta": 0,
+              "review_gain": 52
+            },
+            {
+              "rank": 3,
+              "name": "Harris Dental",
+              "rating": 4.9,
+              "reviews": 782,
+              "review_velocity": 2.71,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7T3QuQgNK4cRuXhh-wdY3OM",
+              "rank_delta": 0,
+              "review_gain": 43
+            },
+            {
+              "rank": 4,
+              "name": "Biltmore Dental Center",
+              "rating": 4.9,
+              "reviews": 1279,
+              "review_velocity": 1.01,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2ZxE8qcNK4cRX-EPyMQNIC8",
+              "rank_delta": 0,
+              "review_gain": 16
+            },
+            {
+              "rank": 5,
+              "name": "Radiant Smiles Phoenix",
+              "rating": 4.9,
+              "reviews": 464,
+              "review_velocity": 2.21,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCf2brmgSK4cRsywpk3x90bg",
+              "rank_delta": 1,
+              "review_gain": 35
+            },
+            {
+              "rank": 6,
+              "name": "Biltmore Commons Dental Care",
+              "rating": 4.9,
+              "reviews": 1526,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6Vcc7qMSK4cRO5i7UAWtRFQ",
+              "rank_delta": 8,
+              "review_gain": 18
+            },
+            {
+              "rank": 7,
+              "name": "Arizona Biltmore Dentistry",
+              "rating": 4.7,
+              "reviews": 1350,
+              "review_velocity": 1.7,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ4ZWT6ggNK4cRYbJNuSOvfJE",
+              "rank_delta": 1,
+              "review_gain": 27
+            },
+            {
+              "rank": 8,
+              "name": "Artistic Dental at the biltmore",
+              "rating": 4.9,
+              "reviews": 949,
+              "review_velocity": 1.77,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJwUMDbnENK4cRd-JuAcW2G7c",
+              "rank_delta": 1,
+              "review_gain": 28
+            },
+            {
+              "rank": 9,
+              "name": "Desert Smiles Cosmetic & Restorative Dentistry",
+              "rating": 4.9,
+              "reviews": 452,
+              "review_velocity": 1.01,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFQgKG_RoK4cRla6YC9JM8mM",
+              "rank_delta": 1,
+              "review_gain": 16
+            },
+            {
+              "rank": 10,
+              "name": "Studio B Smiles - Phoenix, AZ",
+              "rating": 5.0,
+              "reviews": 376,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ35Qd6R8SK4cRtcHWbgfxrtg",
+              "rank_delta": -3,
+              "review_gain": 9
+            },
+            {
+              "rank": 12,
+              "name": "Downtown Phoenix Dental",
+              "rating": 4.9,
+              "reviews": 555,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJodDpwCMSK4cRhfCtEktV4UQ",
+              "rank_delta": 4,
+              "review_gain": 3
+            },
+            {
+              "rank": 13,
+              "name": "Life Smiles Dental Care",
+              "rating": 5.0,
+              "reviews": 1782,
+              "review_velocity": 4.04,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyTeRHQxzK4cRAfV-824wkfk",
+              "rank_delta": -8,
+              "review_gain": 64
+            },
+            {
+              "rank": 19,
+              "name": "24th Street Dental Biltmore",
+              "rating": 4.9,
+              "reviews": 922,
+              "review_velocity": 8.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJi0jxa8QNK4cReDnpapUjZHY",
+              "rank_delta": 1,
+              "review_gain": 129
+            }
+          ],
+          "fastest_climber": {
+            "rank": 6,
+            "name": "Biltmore Commons Dental Care",
+            "rating": 4.9,
+            "reviews": 1526,
+            "review_velocity": 1.14,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJ6Vcc7qMSK4cRO5i7UAWtRFQ",
+            "rank_delta": 8,
+            "review_gain": 18
+          },
+          "fastest_review_gainer": {
+            "rank": 19,
+            "name": "24th Street Dental Biltmore",
+            "rating": 4.9,
+            "reviews": 922,
+            "review_velocity": 8.14,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJi0jxa8QNK4cReDnpapUjZHY",
+            "rank_delta": 1,
+            "review_gain": 129
+          },
+          "visibility": {
+            "current_rank": 13,
+            "best_rank": 4,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 6.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 5.6,
+            "lost_vs_best_rel": 88,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 1782 vs a typical competitor's 795."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.92."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 4.04/week (strong)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "24th Street Dental Biltmore added 129 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 13,
+          "start_rank": 5,
+          "net_change": -8,
+          "best_rank": 4,
+          "worst_rank": 14
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 23, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-13T15:48:26.625408+00:00",
@@ -30675,7 +32452,9 @@
           "type": "followup_1",
           "sent_at": "2026-07-20T15:51:52.372703+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-07-23T15:18:17.812185+00:00",
+      "free_report_email": "info@lifesmilesdentalcare.com"
     },
     {
       "id": "7305017f71af",
