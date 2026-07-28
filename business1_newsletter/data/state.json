@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-07-21T09:24:33.576966+00:00",
-  "issues_published": 12,
+  "last_run": "2026-07-28T09:33:17.279775+00:00",
+  "issues_published": 13,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://www.technologyreview.com/2026/03/25/1134571/the-ai-hype-index-ai-goes-to-war/",
-    "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
-    "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
-    "https://openai.com/index/accelerating-the-next-phase-ai",
-    "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
-    "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
-    "https://www.producthunt.com/products/agentation",
-    "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
-    "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-    "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
     "https://openai.com/index/warp",
     "https://openai.com/index/mufg",
     "https://openai.com/index/building-self-improving-tax-agents-with-codex",
@@ -102,11 +92,21 @@
     "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
     "https://openai.com/index/managing-ai-investments-in-agentic-era",
     "https://www.producthunt.com/products/openai",
-    "https://www.producthunt.com/products/chikitai"
+    "https://www.producthunt.com/products/chikitai",
+    "https://openai.com/index/introducing-openai-presence",
+    "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+    "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+    "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+    "https://openai.com/index/how-news-organizations-are-using-ai",
+    "https://openai.com/index/introducing-chatgpt-small-business-program",
+    "https://www.producthunt.com/products/lamoom",
+    "https://www.producthunt.com/products/velane",
+    "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+    "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
   ],
-  "affiliate_rotation_index": 30,
+  "affiliate_rotation_index": 32,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "25086951"
+  "last_broadcast_id": "25188711"
 }

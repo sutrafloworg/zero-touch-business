@@ -1,0 +1,29 @@
+2026-07-28 09:32:52,482 [INFO] orchestrator — ============================================================
+2026-07-28 09:32:52,482 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-07-28 09:32:52,483 [INFO] orchestrator — Timestamp: 2026-07-28T09:32:52.483054+00:00
+2026-07-28 09:32:52,483 [INFO] orchestrator — ============================================================
+2026-07-28 09:32:52,518 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-07-28 09:32:52,596 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-07-28 09:32:53,241 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-07-28 09:32:53,917 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 6 fresh items
+2026-07-28 09:32:54,638 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-07-28 09:32:57,846 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-07-28 09:32:58,534 [INFO] agents.feed_agent —   Product Hunt AI: fetched 32 fresh items
+2026-07-28 09:32:59,174 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-07-28 09:33:00,222 [INFO] agents.feed_agent —   OpenAI Blog: fetched 8 fresh items
+2026-07-28 09:33:00,724 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 86 total
+2026-07-28 09:33:00,725 [INFO] orchestrator —       Got 10 items
+2026-07-28 09:33:00,725 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-07-28 09:33:00,726 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-07-28 09:33:16,566 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-07-28 09:33:16,588 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'Agents just got hacked (and that changes everything)'
+2026-07-28 09:33:16,588 [INFO] orchestrator —       Subject: 'Agents just got hacked (and that changes everything)'
+2026-07-28 09:33:16,588 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-07-28 09:33:16,588 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-07-28 09:33:17,185 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-07-28T09:36:16+0000, ID=25188711
+2026-07-28 09:33:17,279 [INFO] orchestrator —       Broadcast ID: 25188711, Subscribers: 2
+2026-07-28 09:33:17,279 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-07-28 09:33:17,280 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 25188711
+2026-07-28 09:33:17,280 [INFO] orchestrator — ============================================================
+2026-07-28 09:33:17,280 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-07-28 09:33:17,280 [INFO] orchestrator — ============================================================
