@@ -35877,12 +35877,569 @@
             "category_avg_rating": 4.4,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 9.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 18",
+              "rank": 13
+            },
+            {
+              "date": "May 19",
+              "rank": 6
+            },
+            {
+              "date": "May 25",
+              "rank": 12
+            },
+            {
+              "date": "Jun 01",
+              "rank": 8
+            },
+            {
+              "date": "Jun 08",
+              "rank": 9
+            },
+            {
+              "date": "Jun 15",
+              "rank": 5
+            },
+            {
+              "date": "Jul 13",
+              "rank": 9
+            },
+            {
+              "date": "Jul 27",
+              "rank": 15
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 18",
+              "reviews": 95
+            },
+            {
+              "date": "May 19",
+              "reviews": 95
+            },
+            {
+              "date": "May 25",
+              "reviews": 96
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 96
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 96
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 96
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 96
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 96
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              13,
+              6,
+              12,
+              8,
+              9,
+              5,
+              9,
+              15
+            ],
+            "dates": [
+              "May 18",
+              "May 19",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jul 13",
+              "Jul 27"
+            ],
+            "direction": "declining",
+            "best_rank": 5,
+            "worst_rank": 15
+          },
+          "review_velocity": {
+            "per_week": 0.1,
+            "total_gained": 1,
+            "weeks": 9.9,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Jessica Kaufman \u2013 Luxury Real Estate Expert | NY & FL",
+              "rating": 5.0,
+              "reviews": 17,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJTXMr7dtZwokRB8a1G-DUwFY"
+            },
+            {
+              "rank": 2,
+              "name": "Sere Conde Luxury Realtor",
+              "rating": 5.0,
+              "reviews": 27,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJTffV-FNZwokRKncqfNtNh7c"
+            },
+            {
+              "rank": 3,
+              "name": "Brian K. Lewis | NYC Luxury Property Sales",
+              "rating": 5.0,
+              "reviews": 12,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJaaxnbJtZwokROeCd5SdOdrk"
+            },
+            {
+              "rank": 4,
+              "name": "The NYC Luxury Homes (By Appointment Only)",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJnfdGHJ1ZwokR73RZnOvFzU4"
+            },
+            {
+              "rank": 5,
+              "name": "New York Living Solutions @ Keller Williams NYC",
+              "rating": 4.9,
+              "reviews": 246,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJzYoYXD1awokR0ALmdgugTcI"
+            },
+            {
+              "rank": 6,
+              "name": "Fausto Rodriguez | Upper East Side \u2022 Tribeca \u2022 Manhattan \u2022 New York City Luxury Real Estate | BARNES International Realty",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJI0ntMfhZwokRMoDNkhB1I1A"
+            },
+            {
+              "rank": 7,
+              "name": "Luxury NYC Living",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ62-_6KZZwokRdMU3UgpiP0M"
+            },
+            {
+              "rank": 8,
+              "name": "SERHANT. - NYC Real Estate Agency",
+              "rating": 4.3,
+              "reviews": 93,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJs0GwcsBbwokRIXdZ0KN3kv8"
+            },
+            {
+              "rank": 9,
+              "name": "LEVEN Real Estate",
+              "rating": 4.9,
+              "reviews": 57,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNd0kDxBZwokRs588bIut59k"
+            },
+            {
+              "rank": 10,
+              "name": "Sydney Blumstein New York Real Estate Expert",
+              "rating": 5.0,
+              "reviews": 60,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJQx9WuZVZwokRUDQHJrdx_vA"
+            },
+            {
+              "rank": 11,
+              "name": "Apple Luo \u7ebd\u7ea6\u4e13\u4e1a\u5730\u4ea7\u7ecf\u7eaa\u7f57\u5c0f\u59d0 New York Luxury Real Estate Agent Apple Luo",
+              "rating": 5.0,
+              "reviews": 30,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ6UaC6xNZwokRjHCOFW7_klk"
+            },
+            {
+              "rank": 12,
+              "name": "N\u014cVEM Real Estate | Top 1% NYC Realtors",
+              "rating": 5.0,
+              "reviews": 91,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ7xrBfrNZwokRcC2Y-nYn0UI"
+            },
+            {
+              "rank": 13,
+              "name": "Most NYC Realty \ub274\uc695\ubd80\ub3d9\uc0b0",
+              "rating": 5.0,
+              "reviews": 50,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU1N-484CGE8RLj19H7ONY4o"
+            },
+            {
+              "rank": 14,
+              "name": "ELIKA Real Estate",
+              "rating": 4.9,
+              "reviews": 75,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJISZMRRFawokRXE4xjDMVuxU"
+            },
+            {
+              "rank": 15,
+              "name": "Noble Black & Partners Real Estate",
+              "rating": 4.9,
+              "reviews": 96,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJbYR_w_pYwokRECeXDDTKWmU"
+            },
+            {
+              "rank": 16,
+              "name": "NYC Luxury Real Estate Advisory",
+              "rating": 5.0,
+              "reviews": 33,
+              "review_velocity": 1.62,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ6SHGayvwBGoRPea8LAGyDII"
+            },
+            {
+              "rank": 17,
+              "name": "LoHo Realty, Inc.",
+              "rating": 4.9,
+              "reviews": 192,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJkeQRoNVbwokRnZA-tjGd05E"
+            },
+            {
+              "rank": 18,
+              "name": "The Prince Team at The Corcoran Group Real Estate",
+              "rating": 5.0,
+              "reviews": 101,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJder3yO5ZwokRaEN9XYmQcBA"
+            },
+            {
+              "rank": 19,
+              "name": "Michael Bhagwandin - New York City - FIND Real Estate",
+              "rating": 5.0,
+              "reviews": 43,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJz9p-URtZwokRbfsXD0xndIs"
+            },
+            {
+              "rank": 20,
+              "name": "Alpha Properties NYC",
+              "rating": 4.8,
+              "reviews": 262,
+              "review_velocity": 0.95,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJTQDlG6hZwokRpCoDkGHHVEY"
+            }
+          ],
+          "subject": {
+            "rank": 15,
+            "name": "Noble Black & Partners Real Estate",
+            "rating": 4.9,
+            "reviews": 96,
+            "review_velocity": 0.1,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJbYR_w_pYwokRECeXDDTKWmU"
+          },
+          "benchmarks": {
+            "avg_rating": 4.93,
+            "avg_reviews": 74,
+            "median_reviews": 54,
+            "typical_reviews": 74,
+            "skewed": false,
+            "your_reviews": 96,
+            "your_rating": 4.9,
+            "reviews_percentile": 80,
+            "pack_size": 20,
+            "top_reviews": 262
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Jessica Kaufman \u2013 Luxury Real Estate Expert | NY & FL",
+              "rating": 5.0,
+              "reviews": 17,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJTXMr7dtZwokRB8a1G-DUwFY",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 2,
+              "name": "Sere Conde Luxury Realtor",
+              "rating": 5.0,
+              "reviews": 27,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJTffV-FNZwokRKncqfNtNh7c",
+              "rank_delta": 0,
+              "review_gain": 1
+            },
+            {
+              "rank": 4,
+              "name": "The NYC Luxury Homes (By Appointment Only)",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJnfdGHJ1ZwokR73RZnOvFzU4",
+              "rank_delta": 12,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "New York Living Solutions @ Keller Williams NYC",
+              "rating": 4.9,
+              "reviews": 246,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJzYoYXD1awokR0ALmdgugTcI",
+              "rank_delta": 2,
+              "review_gain": 11
+            },
+            {
+              "rank": 7,
+              "name": "Luxury NYC Living",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ62-_6KZZwokRdMU3UgpiP0M",
+              "rank_delta": 3,
+              "review_gain": 0
+            },
+            {
+              "rank": 8,
+              "name": "SERHANT. - NYC Real Estate Agency",
+              "rating": 4.3,
+              "reviews": 93,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJs0GwcsBbwokRIXdZ0KN3kv8",
+              "rank_delta": -3,
+              "review_gain": 12
+            },
+            {
+              "rank": 9,
+              "name": "LEVEN Real Estate",
+              "rating": 4.9,
+              "reviews": 57,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNd0kDxBZwokRs588bIut59k",
+              "rank_delta": -3,
+              "review_gain": 3
+            },
+            {
+              "rank": 10,
+              "name": "Sydney Blumstein New York Real Estate Expert",
+              "rating": 5.0,
+              "reviews": 60,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJQx9WuZVZwokRUDQHJrdx_vA",
+              "rank_delta": -6,
+              "review_gain": 2
+            },
+            {
+              "rank": 11,
+              "name": "Apple Luo \u7ebd\u7ea6\u4e13\u4e1a\u5730\u4ea7\u7ecf\u7eaa\u7f57\u5c0f\u59d0 New York Luxury Real Estate Agent Apple Luo",
+              "rating": 5.0,
+              "reviews": 30,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ6UaC6xNZwokRjHCOFW7_klk",
+              "rank_delta": 1,
+              "review_gain": 1
+            },
+            {
+              "rank": 13,
+              "name": "Most NYC Realty \ub274\uc695\ubd80\ub3d9\uc0b0",
+              "rating": 5.0,
+              "reviews": 50,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU1N-484CGE8RLj19H7ONY4o",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 14,
+              "name": "ELIKA Real Estate",
+              "rating": 4.9,
+              "reviews": 75,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJISZMRRFawokRXE4xjDMVuxU",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 19,
+              "name": "Michael Bhagwandin - New York City - FIND Real Estate",
+              "rating": 5.0,
+              "reviews": 43,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJz9p-URtZwokRbfsXD0xndIs",
+              "rank_delta": -2,
+              "review_gain": 1
+            },
+            {
+              "rank": 20,
+              "name": "Alpha Properties NYC",
+              "rating": 4.8,
+              "reviews": 262,
+              "review_velocity": 0.95,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJTQDlG6hZwokRpCoDkGHHVEY",
+              "rank_delta": -1,
+              "review_gain": 17
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "The NYC Luxury Homes (By Appointment Only)",
+            "rating": 5.0,
+            "reviews": 3,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJnfdGHJ1ZwokR73RZnOvFzU4",
+            "rank_delta": 12,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 20,
+            "name": "Alpha Properties NYC",
+            "rating": 4.8,
+            "reviews": 262,
+            "review_velocity": 0.95,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJTQDlG6hZwokRpCoDkGHHVEY",
+            "rank_delta": -1,
+            "review_gain": 17
+          },
+          "visibility": {
+            "current_rank": 15,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 96 vs a typical competitor's 74."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.93. A 0.03-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.1/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Alpha Properties NYC added 17 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 15,
+          "start_rank": 13,
+          "net_change": -2,
+          "best_rank": 5,
+          "worst_rank": 15
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 30, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-27T15:44:06.575094+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-30T15:18:40.199624+00:00",
+      "free_report_email": "noble@corcoran.com"
     },
     {
       "id": "a12fcda83f5f",
@@ -36074,12 +36631,597 @@
             "category_avg_rating": 4.4,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 17.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 20
+            },
+            {
+              "date": "Apr 02",
+              "rank": 1
+            },
+            {
+              "date": "May 18",
+              "rank": 3
+            },
+            {
+              "date": "May 19",
+              "rank": 2
+            },
+            {
+              "date": "May 25",
+              "rank": 2
+            },
+            {
+              "date": "Jun 01",
+              "rank": 4
+            },
+            {
+              "date": "Jun 08",
+              "rank": 4
+            },
+            {
+              "date": "Jun 15",
+              "rank": 4
+            },
+            {
+              "date": "Jun 22",
+              "rank": 4
+            },
+            {
+              "date": "Jun 29",
+              "rank": 5
+            },
+            {
+              "date": "Jul 13",
+              "rank": 3
+            },
+            {
+              "date": "Jul 27",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 120
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 117
+            },
+            {
+              "date": "May 18",
+              "reviews": 117
+            },
+            {
+              "date": "May 19",
+              "reviews": 117
+            },
+            {
+              "date": "May 25",
+              "reviews": 117
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 117
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 117
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 115
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 115
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 116
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 115
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 115
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              20,
+              1,
+              3,
+              2,
+              2,
+              4,
+              4,
+              4,
+              4,
+              5,
+              3,
+              20
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 19",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27"
+            ],
+            "direction": "volatile",
+            "best_rank": 1,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": -0.28,
+            "total_gained": -5,
+            "weeks": 17.9,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUVC0U-i5woARJn5BfN9v2O4"
+            },
+            {
+              "rank": 2,
+              "name": "Selling LA Luxury - Compass",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJg_7RYYy7woAR7I05VBepUZM"
+            },
+            {
+              "rank": 3,
+              "name": "Leslie Romenesko, Luxury Real Estate at Compass",
+              "rating": 5.0,
+              "reviews": 11,
+              "review_velocity": 0.39,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy5RPq72-woAROZfjDQa9Ds4"
+            },
+            {
+              "rank": 4,
+              "name": "Solomon Property Group | Luxury Los Angeles Real Estate Team",
+              "rating": 4.6,
+              "reviews": 34,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJiXLleqC8woARwIkpL3DXCHU"
+            },
+            {
+              "rank": 5,
+              "name": "The One Luxury Properties, Beverly Hills",
+              "rating": 5.0,
+              "reviews": 5,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJSwuEnkK7woARIX80cwgwJuQ"
+            },
+            {
+              "rank": 6,
+              "name": "Pezzini Luxury Homes",
+              "rating": 4.9,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJH8TTyZW-woARuJ3mC6r5Dms"
+            },
+            {
+              "rank": 7,
+              "name": "L34 Group",
+              "rating": 5.0,
+              "reviews": 159,
+              "review_velocity": 0.55,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJ___PerLAwoARtyrhtKFEG00"
+            },
+            {
+              "rank": 8,
+              "name": "Resident Group | Luxury Real Estate",
+              "rating": 4.6,
+              "reviews": 21,
+              "review_velocity": 0.45,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJtRbrFJ29woARZQlzWehCZO8"
+            },
+            {
+              "rank": 9,
+              "name": "ARIA Properties",
+              "rating": 4.9,
+              "reviews": 116,
+              "review_velocity": 1.72,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ_ZdEaJGxwoARfbr7bz9aCAk"
+            },
+            {
+              "rank": 10,
+              "name": "Angela Bond Group | Los Angeles Realtor @ KW Larchmont",
+              "rating": 4.9,
+              "reviews": 34,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNxehrcC4woARBI3nMVbJXbQ"
+            },
+            {
+              "rank": 11,
+              "name": "Aspire Los Angeles",
+              "rating": 4.9,
+              "reviews": 25,
+              "review_velocity": -0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU1WlqbTHwoAR0UvRX_ChR58"
+            },
+            {
+              "rank": 12,
+              "name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJJSPGtAi7woARIobkpy_kqAI"
+            },
+            {
+              "rank": 13,
+              "name": "Monica Der",
+              "rating": 5.0,
+              "reviews": 266,
+              "review_velocity": -0.12,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJkxlpFJG5woAR_zfEmVYOHUE"
+            },
+            {
+              "rank": 14,
+              "name": "Ross Weinstein Real Estate Group - Brentwood-Santa Monica-Los Angeles",
+              "rating": 4.9,
+              "reviews": 63,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJS23TV1-7woARsqS82gzravo"
+            },
+            {
+              "rank": 15,
+              "name": "Sharon Tay - Los Angeles Luxury Real Estate Agent | The Altman Brothers Team | Douglas Elliman| DRE #02134774",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJGyoXx4m5faER5YOfL-peykM"
+            },
+            {
+              "rank": 16,
+              "name": "Carrie Eckert Greater Los Angeles Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJeftps0HBwoARWuNSEN5i0R0"
+            },
+            {
+              "rank": 17,
+              "name": "Hollywood Estates",
+              "rating": 4.8,
+              "reviews": 43,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq7vszP67woARVgq_Wq2a6lE"
+            },
+            {
+              "rank": 18,
+              "name": "Heyler Realty",
+              "rating": 4.6,
+              "reviews": 67,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJE2_tkr27woARtj526OgEyho"
+            },
+            {
+              "rank": 19,
+              "name": "Sotheby's International Realty",
+              "rating": 5.0,
+              "reviews": 11,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJrbsZHq7AwoAR3EKY1z4Urs0"
+            },
+            {
+              "rank": 20,
+              "name": "Grace Globus",
+              "rating": 4.9,
+              "reviews": 115,
+              "review_velocity": -0.28,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJOZSwofi7woARNbioX-Q8kEw"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Grace Globus",
+            "rating": 4.9,
+            "reviews": 115,
+            "review_velocity": -0.28,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJOZSwofi7woARNbioX-Q8kEw"
+          },
+          "benchmarks": {
+            "avg_rating": 4.89,
+            "avg_reviews": 52,
+            "median_reviews": 28,
+            "typical_reviews": 28,
+            "skewed": true,
+            "your_reviews": 115,
+            "your_rating": 4.9,
+            "reviews_percentile": 85,
+            "pack_size": 20,
+            "top_reviews": 266
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUVC0U-i5woARJn5BfN9v2O4",
+              "rank_delta": 17,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Selling LA Luxury - Compass",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJg_7RYYy7woAR7I05VBepUZM",
+              "rank_delta": 1,
+              "review_gain": -1
+            },
+            {
+              "rank": 3,
+              "name": "Leslie Romenesko, Luxury Real Estate at Compass",
+              "rating": 5.0,
+              "reviews": 11,
+              "review_velocity": 0.39,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy5RPq72-woAROZfjDQa9Ds4",
+              "rank_delta": 13,
+              "review_gain": 7
+            },
+            {
+              "rank": 4,
+              "name": "Solomon Property Group | Luxury Los Angeles Real Estate Team",
+              "rating": 4.6,
+              "reviews": 34,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJiXLleqC8woARwIkpL3DXCHU",
+              "rank_delta": 1,
+              "review_gain": -1
+            },
+            {
+              "rank": 6,
+              "name": "Pezzini Luxury Homes",
+              "rating": 4.9,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJH8TTyZW-woARuJ3mC6r5Dms",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 8,
+              "name": "Resident Group | Luxury Real Estate",
+              "rating": 4.6,
+              "reviews": 21,
+              "review_velocity": 0.45,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJtRbrFJ29woARZQlzWehCZO8",
+              "rank_delta": 2,
+              "review_gain": 8
+            },
+            {
+              "rank": 10,
+              "name": "Angela Bond Group | Los Angeles Realtor @ KW Larchmont",
+              "rating": 4.9,
+              "reviews": 34,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNxehrcC4woARBI3nMVbJXbQ",
+              "rank_delta": 5,
+              "review_gain": 1
+            },
+            {
+              "rank": 11,
+              "name": "Aspire Los Angeles",
+              "rating": 4.9,
+              "reviews": 25,
+              "review_velocity": -0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU1WlqbTHwoAR0UvRX_ChR58",
+              "rank_delta": 0,
+              "review_gain": -2
+            },
+            {
+              "rank": 12,
+              "name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJJSPGtAi7woARIobkpy_kqAI",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 16,
+              "name": "Carrie Eckert Greater Los Angeles Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJeftps0HBwoARWuNSEN5i0R0",
+              "rank_delta": -7,
+              "review_gain": 0
+            },
+            {
+              "rank": 19,
+              "name": "Sotheby's International Realty",
+              "rating": 5.0,
+              "reviews": 11,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJrbsZHq7AwoAR3EKY1z4Urs0",
+              "rank_delta": -11,
+              "review_gain": -1
+            },
+            {
+              "rank": 20,
+              "name": "Grace Globus",
+              "rating": 4.9,
+              "reviews": 115,
+              "review_velocity": -0.28,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJOZSwofi7woARNbioX-Q8kEw",
+              "rank_delta": 0,
+              "review_gain": -5
+            }
+          ],
+          "fastest_climber": {
+            "rank": 1,
+            "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+            "rating": 0.0,
+            "reviews": 0,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJUVC0U-i5woARJn5BfN9v2O4",
+            "rank_delta": 17,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 8,
+            "name": "Resident Group | Luxury Real Estate",
+            "rating": 4.6,
+            "reviews": 21,
+            "review_velocity": 0.45,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJtRbrFJ29woARZQlzWehCZO8",
+            "rank_delta": 2,
+            "review_gain": 8
+          },
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 1,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 33.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 32.3,
+            "lost_vs_best_rel": 98,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 115 vs a typical competitor's 28."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.89."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at -0.28/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Resident Group | Luxury Real Estate added 8 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 20,
+          "net_change": 0,
+          "best_rank": 1,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 30, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-27T15:44:06.575115+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-30T15:17:58.353358+00:00",
+      "free_report_email": "grace@globuscollections.com"
     },
     {
       "id": "4960acf9d9ce",
@@ -37697,12 +38839,647 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 17.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Mar 23",
+              "rank": 13
+            },
+            {
+              "date": "Apr 02",
+              "rank": 3
+            },
+            {
+              "date": "May 18",
+              "rank": 3
+            },
+            {
+              "date": "May 25",
+              "rank": 4
+            },
+            {
+              "date": "Jun 01",
+              "rank": 3
+            },
+            {
+              "date": "Jun 08",
+              "rank": 3
+            },
+            {
+              "date": "Jun 15",
+              "rank": 3
+            },
+            {
+              "date": "Jun 22",
+              "rank": 5
+            },
+            {
+              "date": "Jun 29",
+              "rank": 3
+            },
+            {
+              "date": "Jul 13",
+              "rank": 3
+            },
+            {
+              "date": "Jul 27",
+              "rank": 13
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Mar 23",
+              "reviews": 83
+            },
+            {
+              "date": "Apr 02",
+              "reviews": 83
+            },
+            {
+              "date": "May 18",
+              "reviews": 88
+            },
+            {
+              "date": "May 25",
+              "reviews": 88
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 88
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 89
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 89
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 88
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 88
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 89
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 88
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              13,
+              3,
+              3,
+              4,
+              3,
+              3,
+              3,
+              5,
+              3,
+              3,
+              13
+            ],
+            "dates": [
+              "Mar 23",
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27"
+            ],
+            "direction": "volatile",
+            "best_rank": 3,
+            "worst_rank": 13
+          },
+          "review_velocity": {
+            "per_week": 0.28,
+            "total_gained": 5,
+            "weeks": 17.9,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Luxury Homes Realty",
+              "rating": 4.9,
+              "reviews": 114,
+              "review_velocity": 0.39,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ4c-sDvbBQIYRYI-uQ8SdUWE"
+            },
+            {
+              "rank": 2,
+              "name": "Rolls Royce Luxury Living Team | Houston REALTOR",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJCZA4iQ_pQIYRsVTLx3dZUnU"
+            },
+            {
+              "rank": 3,
+              "name": "Corcoran Prestige Realty",
+              "rating": 4.9,
+              "reviews": 502,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJP2UXRA2_QIYR4TIXK-iHxGw"
+            },
+            {
+              "rank": 4,
+              "name": "Bernard W. Lee | Alumni Elite Agency | Exp Luxury Sports & Entertainment",
+              "rating": 5.0,
+              "reviews": 9,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJVUqb7sGkQIYRpSLSqj1lgds"
+            },
+            {
+              "rank": 5,
+              "name": "Marnie Greenwood | Houston Luxury Real Estate",
+              "rating": 4.9,
+              "reviews": 34,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJUZI-LjjBQIYRBE6_iUWVWow"
+            },
+            {
+              "rank": 6,
+              "name": "AUSTIN OZTAN FINE PROPERTIES - Residential, Luxury & Commercial Real Estate Houston Texas - KW MET",
+              "rating": 5.0,
+              "reviews": 95,
+              "review_velocity": 2.02,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJP0G2ODzBQIYRiQ591fV66-I"
+            },
+            {
+              "rank": 7,
+              "name": "City Group Properties - Real Estate Brokerage",
+              "rating": 5.0,
+              "reviews": 129,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy-YP1UvBQIYRIIKsbXoWaqQ"
+            },
+            {
+              "rank": 8,
+              "name": "Huy Nguyen | Investment Property Specialist | eXp Realty Texas",
+              "rating": 4.9,
+              "reviews": 68,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO2Qce1XFQIYRVj8QGzdWwGM"
+            },
+            {
+              "rank": 9,
+              "name": "Cesar Espinoza Realtor/ Equity Houston",
+              "rating": 5.0,
+              "reviews": 346,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJpRowVoHFQIYRuKYSK1DzZq0"
+            },
+            {
+              "rank": 10,
+              "name": "Brooks Ballard International Real Estate",
+              "rating": 4.8,
+              "reviews": 28,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJJYatpkG_QIYR5XPxMrDDBWo"
+            },
+            {
+              "rank": 11,
+              "name": "JL Fine Homes Group",
+              "rating": 5.0,
+              "reviews": 53,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJQwW_SWTEQIYRlj7nimLYJ7E"
+            },
+            {
+              "rank": 12,
+              "name": "The SOLD with Santos Group - ST&A Realtors - Houston Home Buying & Selling Experts",
+              "rating": 5.0,
+              "reviews": 205,
+              "review_velocity": 0.56,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJoyMvpmyDQIYRk8zRNKsjgIA"
+            },
+            {
+              "rank": 13,
+              "name": "Ms. Houston Real Estate",
+              "rating": 5.0,
+              "reviews": 88,
+              "review_velocity": 0.28,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ-eD09bQ6dEsRl-Sxdi2zgdo"
+            },
+            {
+              "rank": 14,
+              "name": "The Moore Real Estate Group in Houston, Texas - Cyndi Moore & Chris Moore",
+              "rating": 4.9,
+              "reviews": 64,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJEdTsRMLHQIYRsJY1QnQj7pw"
+            },
+            {
+              "rank": 15,
+              "name": "Found Realty Group",
+              "rating": 5.0,
+              "reviews": 669,
+              "review_velocity": 0.34,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQX0PsWDHQIYRBCGp1Ydt-LM"
+            },
+            {
+              "rank": 16,
+              "name": "Champions Nextgen Real Estate",
+              "rating": 5.0,
+              "reviews": 66,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO9F08h_bQIYRWMdhLMr3vwM"
+            },
+            {
+              "rank": 17,
+              "name": "Jay Thomas Real Estate Team",
+              "rating": 4.9,
+              "reviews": 132,
+              "review_velocity": 0.28,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJnWkDVzzBQIYR7OugrGTZNrU"
+            },
+            {
+              "rank": 18,
+              "name": "Brombacher & Co. - Houston Real Estate",
+              "rating": 4.9,
+              "reviews": 37,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ-2Vw0rO_QIYRMRrZDzzkUMA"
+            },
+            {
+              "rank": 19,
+              "name": "VIP Realty - Houston",
+              "rating": 5.0,
+              "reviews": 32,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ78Dn1WrBQIYRbJXmTAADXTY"
+            },
+            {
+              "rank": 20,
+              "name": "REALTOWN Real Estate Group by May Pham | New Homes in Houston - Mua Ban Nha Texas | eXp Realty",
+              "rating": 5.0,
+              "reviews": 167,
+              "review_velocity": 0.97,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJHZhklkGR14ARNxRnoVbw5dY"
+            }
+          ],
+          "subject": {
+            "rank": 13,
+            "name": "Ms. Houston Real Estate",
+            "rating": 5.0,
+            "reviews": 88,
+            "review_velocity": 0.28,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJ-eD09bQ6dEsRl-Sxdi2zgdo"
+          },
+          "benchmarks": {
+            "avg_rating": 4.95,
+            "avg_reviews": 144,
+            "median_reviews": 78,
+            "typical_reviews": 78,
+            "skewed": true,
+            "your_reviews": 88,
+            "your_rating": 5.0,
+            "reviews_percentile": 55,
+            "pack_size": 20,
+            "top_reviews": 669
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Luxury Homes Realty",
+              "rating": 4.9,
+              "reviews": 114,
+              "review_velocity": 0.39,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ4c-sDvbBQIYRYI-uQ8SdUWE",
+              "rank_delta": 0,
+              "review_gain": 7
+            },
+            {
+              "rank": 2,
+              "name": "Rolls Royce Luxury Living Team | Houston REALTOR",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJCZA4iQ_pQIYRsVTLx3dZUnU",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "Corcoran Prestige Realty",
+              "rating": 4.9,
+              "reviews": 502,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJP2UXRA2_QIYR4TIXK-iHxGw",
+              "rank_delta": 0,
+              "review_gain": 4
+            },
+            {
+              "rank": 5,
+              "name": "Marnie Greenwood | Houston Luxury Real Estate",
+              "rating": 4.9,
+              "reviews": 34,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJUZI-LjjBQIYRBE6_iUWVWow",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 6,
+              "name": "AUSTIN OZTAN FINE PROPERTIES - Residential, Luxury & Commercial Real Estate Houston Texas - KW MET",
+              "rating": 5.0,
+              "reviews": 95,
+              "review_velocity": 2.02,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJP0G2ODzBQIYRiQ591fV66-I",
+              "rank_delta": -1,
+              "review_gain": 36
+            },
+            {
+              "rank": 7,
+              "name": "City Group Properties - Real Estate Brokerage",
+              "rating": 5.0,
+              "reviews": 129,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy-YP1UvBQIYRIIKsbXoWaqQ",
+              "rank_delta": 1,
+              "review_gain": 1
+            },
+            {
+              "rank": 8,
+              "name": "Huy Nguyen | Investment Property Specialist | eXp Realty Texas",
+              "rating": 4.9,
+              "reviews": 68,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO2Qce1XFQIYRVj8QGzdWwGM",
+              "rank_delta": -2,
+              "review_gain": 2
+            },
+            {
+              "rank": 9,
+              "name": "Cesar Espinoza Realtor/ Equity Houston",
+              "rating": 5.0,
+              "reviews": 346,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJpRowVoHFQIYRuKYSK1DzZq0",
+              "rank_delta": 0,
+              "review_gain": 12
+            },
+            {
+              "rank": 10,
+              "name": "Brooks Ballard International Real Estate",
+              "rating": 4.8,
+              "reviews": 28,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJJYatpkG_QIYR5XPxMrDDBWo",
+              "rank_delta": -3,
+              "review_gain": 2
+            },
+            {
+              "rank": 11,
+              "name": "JL Fine Homes Group",
+              "rating": 5.0,
+              "reviews": 53,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJQwW_SWTEQIYRlj7nimLYJ7E",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 12,
+              "name": "The SOLD with Santos Group - ST&A Realtors - Houston Home Buying & Selling Experts",
+              "rating": 5.0,
+              "reviews": 205,
+              "review_velocity": 0.56,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJoyMvpmyDQIYRk8zRNKsjgIA",
+              "rank_delta": -1,
+              "review_gain": 10
+            },
+            {
+              "rank": 13,
+              "name": "Ms. Houston Real Estate",
+              "rating": 5.0,
+              "reviews": 88,
+              "review_velocity": 0.28,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ-eD09bQ6dEsRl-Sxdi2zgdo",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 14,
+              "name": "The Moore Real Estate Group in Houston, Texas - Cyndi Moore & Chris Moore",
+              "rating": 4.9,
+              "reviews": 64,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJEdTsRMLHQIYRsJY1QnQj7pw",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 15,
+              "name": "Found Realty Group",
+              "rating": 5.0,
+              "reviews": 669,
+              "review_velocity": 0.34,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQX0PsWDHQIYRBCGp1Ydt-LM",
+              "rank_delta": 2,
+              "review_gain": 6
+            },
+            {
+              "rank": 16,
+              "name": "Champions Nextgen Real Estate",
+              "rating": 5.0,
+              "reviews": 66,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO9F08h_bQIYRWMdhLMr3vwM",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 17,
+              "name": "Jay Thomas Real Estate Team",
+              "rating": 4.9,
+              "reviews": 132,
+              "review_velocity": 0.28,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJnWkDVzzBQIYR7OugrGTZNrU",
+              "rank_delta": -1,
+              "review_gain": 5
+            },
+            {
+              "rank": 18,
+              "name": "Brombacher & Co. - Houston Real Estate",
+              "rating": 4.9,
+              "reviews": 37,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ-2Vw0rO_QIYRMRrZDzzkUMA",
+              "rank_delta": 2,
+              "review_gain": 2
+            }
+          ],
+          "fastest_climber": {
+            "rank": 15,
+            "name": "Found Realty Group",
+            "rating": 5.0,
+            "reviews": 669,
+            "review_velocity": 0.34,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJQX0PsWDHQIYRBCGp1Ydt-LM",
+            "rank_delta": 2,
+            "review_gain": 6
+          },
+          "fastest_review_gainer": {
+            "rank": 6,
+            "name": "AUSTIN OZTAN FINE PROPERTIES - Residential, Luxury & Commercial Real Estate Houston Texas - KW MET",
+            "rating": 5.0,
+            "reviews": 95,
+            "review_velocity": 2.02,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJP0G2ODzBQIYRiQ591fV66-I",
+            "rank_delta": -1,
+            "review_gain": 36
+          },
+          "visibility": {
+            "current_rank": 13,
+            "best_rank": 3,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 15.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 14.3,
+            "lost_vs_best_rel": 95,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 88 vs a typical competitor's 78."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.95."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.28/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "AUSTIN OZTAN FINE PROPERTIES - Reside. added 36 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 13,
+          "start_rank": 13,
+          "net_change": 0,
+          "best_rank": 3,
+          "worst_rank": 13
+        },
+        "_confidence_score": 10,
+        "_scan_date": "July 30, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-07-27T15:44:06.575254+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-07-30T15:18:18.658729+00:00",
+      "free_report_email": "katy@mshoustonrealestate.com"
     },
     {
       "id": "15bbc4665917",
