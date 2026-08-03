@@ -1,0 +1,150 @@
+2026-08-03 15:34:17,852 [INFO] local_seo_orchestrator — ============================================================
+2026-08-03 15:34:17,852 [INFO] local_seo_orchestrator — Starting Search Sentinel pipeline
+2026-08-03 15:34:17,852 [INFO] local_seo_orchestrator — Timestamp: 2026-08-03T15:34:17.852887+00:00
+2026-08-03 15:34:17,852 [INFO] local_seo_orchestrator — ============================================================
+2026-08-03 15:34:17,853 [INFO] local_seo_orchestrator — [1/5] Scanner Agent: fetching Google Maps rankings...
+2026-08-03 15:34:17,853 [INFO] local_seo_orchestrator —       Rotation group B (ISO week 32); 0 subscriber categories always included
+2026-08-03 15:34:17,853 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Atlanta GA' in Atlanta, GA
+2026-08-03 15:34:19,171 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Atlanta GA'
+2026-08-03 15:34:23,171 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Atlanta GA' in Atlanta, GA
+2026-08-03 15:34:24,022 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Atlanta GA'
+2026-08-03 15:34:28,022 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Atlanta GA' in Atlanta, GA
+2026-08-03 15:34:28,695 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Atlanta GA'
+2026-08-03 15:34:32,695 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Atlanta GA' in Atlanta, GA
+2026-08-03 15:34:35,211 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Atlanta GA'
+2026-08-03 15:34:39,211 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Atlanta GA' in Atlanta, GA
+2026-08-03 15:34:40,753 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Atlanta GA'
+2026-08-03 15:34:44,753 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Boston MA' in Boston, MA
+2026-08-03 15:34:46,482 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Boston MA'
+2026-08-03 15:34:50,482 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Boston MA' in Boston, MA
+2026-08-03 15:34:51,480 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Boston MA'
+2026-08-03 15:34:55,480 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Boston MA' in Boston, MA
+2026-08-03 15:34:56,980 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Boston MA'
+2026-08-03 15:35:00,980 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Boston MA' in Boston, MA
+2026-08-03 15:35:02,320 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Boston MA'
+2026-08-03 15:35:06,320 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Boston MA' in Boston, MA
+2026-08-03 15:35:07,439 [INFO] agents.scanner_agent — Scanner [serpapi]: 9 results for 'regenerative medicine clinic in Boston MA'
+2026-08-03 15:35:11,439 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in San Diego CA' in San Diego, CA
+2026-08-03 15:35:12,839 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in San Diego CA'
+2026-08-03 15:35:16,840 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in San Diego CA' in San Diego, CA
+2026-08-03 15:35:19,888 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in San Diego CA'
+2026-08-03 15:35:23,889 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in San Diego CA' in San Diego, CA
+2026-08-03 15:35:25,102 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in San Diego CA'
+2026-08-03 15:35:29,102 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in San Diego CA' in San Diego, CA
+2026-08-03 15:35:30,277 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in San Diego CA'
+2026-08-03 15:35:34,277 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in San Diego CA' in San Diego, CA
+2026-08-03 15:35:35,937 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in San Diego CA'
+2026-08-03 15:35:39,937 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Las Vegas NV' in Las Vegas, NV
+2026-08-03 15:35:41,613 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Las Vegas NV'
+2026-08-03 15:35:45,614 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Las Vegas NV' in Las Vegas, NV
+2026-08-03 15:35:46,742 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Las Vegas NV'
+2026-08-03 15:35:50,742 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Las Vegas NV' in Las Vegas, NV
+2026-08-03 15:35:51,840 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Las Vegas NV'
+2026-08-03 15:35:55,840 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Las Vegas NV' in Las Vegas, NV
+2026-08-03 15:35:58,817 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Las Vegas NV'
+2026-08-03 15:36:02,817 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Las Vegas NV' in Las Vegas, NV
+2026-08-03 15:36:04,018 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Las Vegas NV'
+2026-08-03 15:36:08,018 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Washington DC' in Washington, DC
+2026-08-03 15:36:14,385 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Washington DC'
+2026-08-03 15:36:18,386 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Washington DC' in Washington, DC
+2026-08-03 15:36:19,638 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Washington DC'
+2026-08-03 15:36:23,638 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Washington DC' in Washington, DC
+2026-08-03 15:36:28,156 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Washington DC'
+2026-08-03 15:36:32,156 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Washington DC' in Washington, DC
+2026-08-03 15:36:34,218 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Washington DC'
+2026-08-03 15:36:38,219 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Washington DC' in Washington, DC
+2026-08-03 15:36:39,450 [INFO] agents.scanner_agent — Scanner [serpapi]: 6 results for 'regenerative medicine clinic in Washington DC'
+2026-08-03 15:36:43,451 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Nashville TN' in Nashville, TN
+2026-08-03 15:36:44,809 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Nashville TN'
+2026-08-03 15:36:48,809 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Nashville TN' in Nashville, TN
+2026-08-03 15:36:50,746 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Nashville TN'
+2026-08-03 15:36:54,746 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Nashville TN' in Nashville, TN
+2026-08-03 15:36:56,339 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Nashville TN'
+2026-08-03 15:37:00,340 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Nashville TN' in Nashville, TN
+2026-08-03 15:37:06,560 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Nashville TN'
+2026-08-03 15:37:10,561 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Nashville TN' in Nashville, TN
+2026-08-03 15:37:11,786 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Nashville TN'
+2026-08-03 15:37:15,786 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Charlotte NC' in Charlotte, NC
+2026-08-03 15:37:22,454 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Charlotte NC'
+2026-08-03 15:37:26,454 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Charlotte NC' in Charlotte, NC
+2026-08-03 15:37:27,517 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Charlotte NC'
+2026-08-03 15:37:31,517 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Charlotte NC' in Charlotte, NC
+2026-08-03 15:37:35,000 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Charlotte NC'
+2026-08-03 15:37:39,000 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Charlotte NC' in Charlotte, NC
+2026-08-03 15:37:40,651 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Charlotte NC'
+2026-08-03 15:37:44,651 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Charlotte NC' in Charlotte, NC
+2026-08-03 15:37:46,066 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Charlotte NC'
+2026-08-03 15:37:50,066 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Tampa FL' in Tampa, FL
+2026-08-03 15:37:51,229 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Tampa FL'
+2026-08-03 15:37:55,229 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Tampa FL' in Tampa, FL
+2026-08-03 15:37:56,323 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Tampa FL'
+2026-08-03 15:38:00,323 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Tampa FL' in Tampa, FL
+2026-08-03 15:38:01,630 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Tampa FL'
+2026-08-03 15:38:05,631 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Tampa FL' in Tampa, FL
+2026-08-03 15:38:06,669 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Tampa FL'
+2026-08-03 15:38:10,669 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Tampa FL' in Tampa, FL
+2026-08-03 15:38:11,435 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Tampa FL'
+2026-08-03 15:38:15,435 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Portland OR' in Portland, OR
+2026-08-03 15:38:18,214 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Portland OR'
+2026-08-03 15:38:22,214 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Portland OR' in Portland, OR
+2026-08-03 15:38:28,172 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Portland OR'
+2026-08-03 15:38:32,173 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Portland OR' in Portland, OR
+2026-08-03 15:38:33,832 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Portland OR'
+2026-08-03 15:38:37,832 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Portland OR' in Portland, OR
+2026-08-03 15:38:39,727 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Portland OR'
+2026-08-03 15:38:43,727 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Portland OR' in Portland, OR
+2026-08-03 15:38:45,008 [INFO] agents.scanner_agent — Scanner [serpapi]: 14 results for 'regenerative medicine clinic in Portland OR'
+2026-08-03 15:38:49,008 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Minneapolis MN' in Minneapolis, MN
+2026-08-03 15:38:50,111 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Minneapolis MN'
+2026-08-03 15:38:54,111 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Minneapolis MN' in Minneapolis, MN
+2026-08-03 15:38:55,975 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Minneapolis MN'
+2026-08-03 15:38:59,976 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Minneapolis MN' in Minneapolis, MN
+2026-08-03 15:39:01,683 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Minneapolis MN'
+2026-08-03 15:39:05,683 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Minneapolis MN' in Minneapolis, MN
+2026-08-03 15:39:07,085 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Minneapolis MN'
+2026-08-03 15:39:11,086 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Minneapolis MN' in Minneapolis, MN
+2026-08-03 15:39:17,124 [INFO] agents.scanner_agent — Scanner [serpapi]: 15 results for 'regenerative medicine clinic in Minneapolis MN'
+2026-08-03 15:39:21,124 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in San Antonio TX' in San Antonio, TX
+2026-08-03 15:39:22,286 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in San Antonio TX'
+2026-08-03 15:39:26,286 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in San Antonio TX' in San Antonio, TX
+2026-08-03 15:39:27,485 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in San Antonio TX'
+2026-08-03 15:39:31,485 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in San Antonio TX' in San Antonio, TX
+2026-08-03 15:39:32,698 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in San Antonio TX'
+2026-08-03 15:39:36,698 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in San Antonio TX' in San Antonio, TX
+2026-08-03 15:39:40,056 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in San Antonio TX'
+2026-08-03 15:39:44,057 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in San Antonio TX' in San Antonio, TX
+2026-08-03 15:39:44,964 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in San Antonio TX'
+2026-08-03 15:39:48,964 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Orlando FL' in Orlando, FL
+2026-08-03 15:39:50,228 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Orlando FL'
+2026-08-03 15:39:54,229 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Orlando FL' in Orlando, FL
+2026-08-03 15:39:55,512 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Orlando FL'
+2026-08-03 15:39:59,512 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Orlando FL' in Orlando, FL
+2026-08-03 15:40:00,773 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Orlando FL'
+2026-08-03 15:40:04,773 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Orlando FL' in Orlando, FL
+2026-08-03 15:40:09,071 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Orlando FL'
+2026-08-03 15:40:13,071 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Orlando FL' in Orlando, FL
+2026-08-03 15:40:14,578 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Orlando FL'
+2026-08-03 15:40:18,579 [INFO] agents.scanner_agent — Scanner: rotation group B — scanned 60, skipped 60 off-week combos
+2026-08-03 15:40:18,579 [INFO] agents.scanner_agent — Scanner: monthly usage after this run — SerpAPI 120/245, Outscraper 0/95, ValueSERP 0/95
+2026-08-03 15:40:18,579 [INFO] local_seo_orchestrator —       Scanned 60 categories
+2026-08-03 15:40:18,579 [INFO] local_seo_orchestrator — [2/5] Analyzer Agent: detecting rank changes...
+2026-08-03 15:40:18,967 [INFO] agents.analyzer_agent — Analyzer: found 7 rank drop alerts across 60 categories
+2026-08-03 15:40:18,977 [INFO] local_seo_orchestrator —       Found 7 rank drop alerts
+2026-08-03 15:40:18,985 [INFO] local_seo_orchestrator — [3/5] Outreach Agent: sending teaser emails for 7 drops...
+2026-08-03 15:40:19,955 [INFO] agents.outreach_agent — Outreach: no valid email for John Foy & Associates, Accident & Injury Lawyers - Atlanta (got: None)
+2026-08-03 15:40:22,438 [INFO] agents.outreach_agent — Outreach: no valid email for The Brown Firm Injury and Accident Attorneys (got: None)
+2026-08-03 15:40:22,571 [INFO] agents.outreach_agent — Outreach: no valid email for Emergency Plumber Atlanta Kings (got: None)
+2026-08-03 15:40:24,174 [INFO] agents.outreach_agent — Outreach: no valid email for Art of Cosmetic Dentistry (got: None)
+2026-08-03 15:40:24,438 [INFO] agents.outreach_agent — Found email info@atlantadentalspa.com on http://www.atlantadentalspa.com/?utm_source=GMBlisting&utm_medium=organic
+2026-08-03 15:40:24,439 [INFO] agents.outreach_agent — Outreach: subject variant 0 for Atlanta Dental Spa - Buckhead
+2026-08-03 15:40:24,620 [INFO] agents.email_sender — Resend: sent to info@atlantadentalspa.com (id=3322e6c8-af6f-43de-8951-d0530735ad3b)
+2026-08-03 15:40:24,622 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@atlantadentalspa.com (Atlanta Dental Spa - Buckhead)
+2026-08-03 15:40:28,186 [INFO] agents.outreach_agent — Outreach: no valid email for HOME Luxury Real Estate (got: None)
+2026-08-03 15:40:28,733 [INFO] agents.outreach_agent — Outreach: no valid email for Clay Henderson Group - Atlanta Fine Homes Sotheby's International Realty (got: None)
+2026-08-03 15:40:28,733 [INFO] agents.outreach_agent — Outreach batch complete: sent=1 (subscribers=0), no_email=6, failed=0
+2026-08-03 15:40:28,734 [INFO] local_seo_orchestrator — [4/5] Fulfillment: registering 1 alerts for payment...
+2026-08-03 15:40:28,782 [INFO] agents.fulfillment_agent — Fulfillment: registered 1 alerts for post-payment delivery
+2026-08-03 15:40:28,784 [INFO] local_seo_orchestrator — [5/5] Monitor Agent: recording stats...
+2026-08-03 15:40:30,249 [INFO] local_seo_orchestrator — ============================================================
+2026-08-03 15:40:30,249 [INFO] local_seo_orchestrator — Pipeline complete. 7 rank drop alerts, emails sent.
+2026-08-03 15:40:30,249 [INFO] local_seo_orchestrator — ============================================================
