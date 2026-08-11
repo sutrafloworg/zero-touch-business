@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-08-04T09:36:26.163021+00:00",
-  "issues_published": 14,
+  "last_run": "2026-08-11T08:06:58.972105+00:00",
+  "issues_published": 15,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://openai.com/index/codex-for-knowledge-work",
-    "https://www.producthunt.com/products/paste",
-    "https://www.businessinsider.com/big-short-michael-burry-spacex-anthropic-ipo-ai-bubble-claude-2026-6",
-    "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
-    "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
-    "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-    "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
-    "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
-    "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-    "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
     "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
     "https://openai.com/index/endava-frontiers",
     "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
@@ -102,11 +92,21 @@
     "https://openai.com/index/chatgpt-for-academic-researchers",
     "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
     "https://www.producthunt.com/products/glasp-mcp-connector",
-    "https://www.producthunt.com/products/agentsky"
+    "https://www.producthunt.com/products/agentsky",
+    "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+    "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+    "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+    "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+    "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+    "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+    "https://openai.com/index/hsp-gruppe",
+    "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+    "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+    "https://www.producthunt.com/products/tines"
   ],
-  "affiliate_rotation_index": 34,
+  "affiliate_rotation_index": 36,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "25290716"
+  "last_broadcast_id": "25390134"
 }
