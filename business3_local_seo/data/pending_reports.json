@@ -42971,12 +42971,623 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 18.4,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Apr 02",
+              "rank": 2
+            },
+            {
+              "date": "May 18",
+              "rank": 3
+            },
+            {
+              "date": "May 25",
+              "rank": 6
+            },
+            {
+              "date": "Jun 01",
+              "rank": 3
+            },
+            {
+              "date": "Jun 08",
+              "rank": 3
+            },
+            {
+              "date": "Jun 15",
+              "rank": 3
+            },
+            {
+              "date": "Jun 22",
+              "rank": 3
+            },
+            {
+              "date": "Jun 29",
+              "rank": 3
+            },
+            {
+              "date": "Jul 13",
+              "rank": 3
+            },
+            {
+              "date": "Jul 27",
+              "rank": 4
+            },
+            {
+              "date": "Aug 10",
+              "rank": 11
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Apr 02",
+              "reviews": 681
+            },
+            {
+              "date": "May 18",
+              "reviews": 685
+            },
+            {
+              "date": "May 25",
+              "reviews": 688
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 689
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 691
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 692
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 694
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 698
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 700
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 699
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 699
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              2,
+              3,
+              6,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              11
+            ],
+            "dates": [
+              "Apr 02",
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10"
+            ],
+            "direction": "declining",
+            "best_rank": 2,
+            "worst_rank": 11
+          },
+          "review_velocity": {
+            "per_week": 0.98,
+            "total_gained": 18,
+            "weeks": 18.4,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Lux Smiles Cosmetic Dentistry and Prosthodontics",
+              "rating": 5.0,
+              "reviews": 304,
+              "review_velocity": 1.03,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgbomGDnTD4gRsZ9tZQkDuuc"
+            },
+            {
+              "rank": 2,
+              "name": "Chicago Style Smiles",
+              "rating": 5.0,
+              "reviews": 629,
+              "review_velocity": 2.82,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJw4BItKUsDogRrf37rqBzoWA"
+            },
+            {
+              "rank": 3,
+              "name": "The Magnificent Smile",
+              "rating": 4.9,
+              "reviews": 402,
+              "review_velocity": 4.45,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJl8NTEawsDogRimXCCD7FThU"
+            },
+            {
+              "rank": 4,
+              "name": "Dr. Brittany Dickinson, D.M.D, M.S.",
+              "rating": 4.9,
+              "reviews": 179,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJydNSoVvSD4gRB7_KWvL4xbI"
+            },
+            {
+              "rank": 5,
+              "name": "Mitchell Dental Spa",
+              "rating": 4.8,
+              "reviews": 194,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJsbWvhVPTD4gRXKC_vXXGqMc"
+            },
+            {
+              "rank": 6,
+              "name": "Smile Chicago Cosmetic, General Dentistry",
+              "rating": 4.8,
+              "reviews": 80,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJO-S6va4sDogRf2xZq7OigL4"
+            },
+            {
+              "rank": 7,
+              "name": "Chicago Dental Boutique",
+              "rating": 4.9,
+              "reviews": 531,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJa1cL_1crDogR0XGCikrNr2w"
+            },
+            {
+              "rank": 8,
+              "name": "Advanced Cosmetic & Implant Dentistry",
+              "rating": 5.0,
+              "reviews": 82,
+              "review_velocity": 0.49,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJg4i4E6QsDogRePhl1MjFX1Y"
+            },
+            {
+              "rank": 9,
+              "name": "The Chicago Dental Studio, River North",
+              "rating": 4.9,
+              "reviews": 751,
+              "review_velocity": 1.63,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJhdSsvMosDogRaS6YSKJWSJw"
+            },
+            {
+              "rank": 10,
+              "name": "Smile Science Chicago",
+              "rating": 4.9,
+              "reviews": 1332,
+              "review_velocity": 5.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdUoFEMTSD4gRJrvIDSERQB8"
+            },
+            {
+              "rank": 11,
+              "name": "Enamel Dental Studio",
+              "rating": 4.9,
+              "reviews": 699,
+              "review_velocity": 0.98,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUZYCad4sDogR2TF_RoJfEcg"
+            },
+            {
+              "rank": 12,
+              "name": "Lincoln Square Dental Spa",
+              "rating": 5.0,
+              "reviews": 500,
+              "review_velocity": 2.19,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJAbqy76LTD4gRtSkJR1kjYNI"
+            },
+            {
+              "rank": 13,
+              "name": "Smile 312 Chicago's Premier Dentist",
+              "rating": 4.9,
+              "reviews": 282,
+              "review_velocity": 0.42,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJk40LNKQsDogRzYb8tA39aPo"
+            },
+            {
+              "rank": 14,
+              "name": "MG Dentistry",
+              "rating": 4.9,
+              "reviews": 321,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJGU2UmKUsDogRcf9dshyDH34"
+            },
+            {
+              "rank": 15,
+              "name": "Chicago Smile Design",
+              "rating": 4.9,
+              "reviews": 412,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaY1X_rEsDogRLqH01yPIKD4"
+            },
+            {
+              "rank": 16,
+              "name": "Kimberly Smiles Cosmetic & General Dentistry",
+              "rating": 4.7,
+              "reviews": 481,
+              "review_velocity": 0.54,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ34Q4v73SD4gRZxhSjifBzSk"
+            },
+            {
+              "rank": 17,
+              "name": "Chicago Loop Dentistry",
+              "rating": 4.9,
+              "reviews": 453,
+              "review_velocity": 1.01,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJu3JTqaUsDogRIEFwaQEsUYA"
+            },
+            {
+              "rank": 18,
+              "name": "West Loop Smile Studio",
+              "rating": 4.9,
+              "reviews": 595,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJh7k4ctwsDogRA4KFkuuyUs0"
+            },
+            {
+              "rank": 19,
+              "name": "Lovesmile Dental Studio",
+              "rating": 4.9,
+              "reviews": 136,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJWe8lXlPTD4gRV3VlueVwj1Q"
+            },
+            {
+              "rank": 20,
+              "name": "Dental Smiles of West Loop - Chicago",
+              "rating": 4.9,
+              "reviews": 354,
+              "review_velocity": 0.18,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJbT7Xu9gsDogRHfND3xqVLYE"
+            }
+          ],
+          "subject": {
+            "rank": 11,
+            "name": "Enamel Dental Studio",
+            "rating": 4.9,
+            "reviews": 699,
+            "review_velocity": 0.98,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJUZYCad4sDogR2TF_RoJfEcg"
+          },
+          "benchmarks": {
+            "avg_rating": 4.9,
+            "avg_reviews": 436,
+            "median_reviews": 407,
+            "typical_reviews": 436,
+            "skewed": false,
+            "your_reviews": 699,
+            "your_rating": 4.9,
+            "reviews_percentile": 90,
+            "pack_size": 20,
+            "top_reviews": 1332
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Lux Smiles Cosmetic Dentistry and Prosthodontics",
+              "rating": 5.0,
+              "reviews": 304,
+              "review_velocity": 1.03,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgbomGDnTD4gRsZ9tZQkDuuc",
+              "rank_delta": 0,
+              "review_gain": 19
+            },
+            {
+              "rank": 2,
+              "name": "Chicago Style Smiles",
+              "rating": 5.0,
+              "reviews": 629,
+              "review_velocity": 2.82,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJw4BItKUsDogRrf37rqBzoWA",
+              "rank_delta": 6,
+              "review_gain": 52
+            },
+            {
+              "rank": 3,
+              "name": "The Magnificent Smile",
+              "rating": 4.9,
+              "reviews": 402,
+              "review_velocity": 4.45,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJl8NTEawsDogRimXCCD7FThU",
+              "rank_delta": 0,
+              "review_gain": 82
+            },
+            {
+              "rank": 4,
+              "name": "Dr. Brittany Dickinson, D.M.D, M.S.",
+              "rating": 4.9,
+              "reviews": 179,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJydNSoVvSD4gRB7_KWvL4xbI",
+              "rank_delta": 15,
+              "review_gain": 7
+            },
+            {
+              "rank": 5,
+              "name": "Mitchell Dental Spa",
+              "rating": 4.8,
+              "reviews": 194,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJsbWvhVPTD4gRXKC_vXXGqMc",
+              "rank_delta": 8,
+              "review_gain": -1
+            },
+            {
+              "rank": 6,
+              "name": "Smile Chicago Cosmetic, General Dentistry",
+              "rating": 4.8,
+              "reviews": 80,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJO-S6va4sDogRf2xZq7OigL4",
+              "rank_delta": -2,
+              "review_gain": 3
+            },
+            {
+              "rank": 7,
+              "name": "Chicago Dental Boutique",
+              "rating": 4.9,
+              "reviews": 531,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJa1cL_1crDogR0XGCikrNr2w",
+              "rank_delta": 0,
+              "review_gain": 8
+            },
+            {
+              "rank": 8,
+              "name": "Advanced Cosmetic & Implant Dentistry",
+              "rating": 5.0,
+              "reviews": 82,
+              "review_velocity": 0.49,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJg4i4E6QsDogRePhl1MjFX1Y",
+              "rank_delta": -2,
+              "review_gain": 9
+            },
+            {
+              "rank": 9,
+              "name": "The Chicago Dental Studio, River North",
+              "rating": 4.9,
+              "reviews": 751,
+              "review_velocity": 1.63,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJhdSsvMosDogRaS6YSKJWSJw",
+              "rank_delta": -4,
+              "review_gain": 30
+            },
+            {
+              "rank": 11,
+              "name": "Enamel Dental Studio",
+              "rating": 4.9,
+              "reviews": 699,
+              "review_velocity": 0.98,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUZYCad4sDogR2TF_RoJfEcg",
+              "rank_delta": -9,
+              "review_gain": 18
+            },
+            {
+              "rank": 14,
+              "name": "MG Dentistry",
+              "rating": 4.9,
+              "reviews": 321,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJGU2UmKUsDogRcf9dshyDH34",
+              "rank_delta": 1,
+              "review_gain": 11
+            },
+            {
+              "rank": 15,
+              "name": "Chicago Smile Design",
+              "rating": 4.9,
+              "reviews": 412,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaY1X_rEsDogRLqH01yPIKD4",
+              "rank_delta": -6,
+              "review_gain": 24
+            },
+            {
+              "rank": 16,
+              "name": "Kimberly Smiles Cosmetic & General Dentistry",
+              "rating": 4.7,
+              "reviews": 481,
+              "review_velocity": 0.54,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ34Q4v73SD4gRZxhSjifBzSk",
+              "rank_delta": 0,
+              "review_gain": 10
+            },
+            {
+              "rank": 18,
+              "name": "West Loop Smile Studio",
+              "rating": 4.9,
+              "reviews": 595,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJh7k4ctwsDogRA4KFkuuyUs0",
+              "rank_delta": -8,
+              "review_gain": 13
+            },
+            {
+              "rank": 19,
+              "name": "Lovesmile Dental Studio",
+              "rating": 4.9,
+              "reviews": 136,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJWe8lXlPTD4gRV3VlueVwj1Q",
+              "rank_delta": 1,
+              "review_gain": 2
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "Dr. Brittany Dickinson, D.M.D, M.S.",
+            "rating": 4.9,
+            "reviews": 179,
+            "review_velocity": 0.38,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJydNSoVvSD4gRB7_KWvL4xbI",
+            "rank_delta": 15,
+            "review_gain": 7
+          },
+          "fastest_review_gainer": {
+            "rank": 3,
+            "name": "The Magnificent Smile",
+            "rating": 4.9,
+            "reviews": 402,
+            "review_velocity": 4.45,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJl8NTEawsDogRimXCCD7FThU",
+            "rank_delta": 0,
+            "review_gain": 82
+          },
+          "visibility": {
+            "current_rank": 11,
+            "best_rank": 2,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 22.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 21.3,
+            "lost_vs_best_rel": 96,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 699 vs a typical competitor's 436."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.9."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.98/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "The Magnificent Smile added 82 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 11,
+          "start_rank": 2,
+          "net_change": -9,
+          "best_rank": 2,
+          "worst_rank": 11
+        },
+        "_confidence_score": 10,
+        "_scan_date": "August 13, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-10T14:22:49.810516+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-08-13T14:25:16.528732+00:00",
+      "free_report_email": "enamel@enameldentalchicago.com"
     },
     {
       "id": "ed9f851cdf93",
@@ -43035,12 +43646,601 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 11.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 18",
+              "rank": 10
+            },
+            {
+              "date": "May 25",
+              "rank": 14
+            },
+            {
+              "date": "Jun 01",
+              "rank": 10
+            },
+            {
+              "date": "Jun 08",
+              "rank": 9
+            },
+            {
+              "date": "Jun 15",
+              "rank": 10
+            },
+            {
+              "date": "Jun 22",
+              "rank": 10
+            },
+            {
+              "date": "Jun 29",
+              "rank": 10
+            },
+            {
+              "date": "Jul 13",
+              "rank": 11
+            },
+            {
+              "date": "Jul 27",
+              "rank": 10
+            },
+            {
+              "date": "Aug 10",
+              "rank": 19
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 18",
+              "reviews": 129
+            },
+            {
+              "date": "May 25",
+              "reviews": 128
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 128
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 128
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 129
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 128
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 129
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 129
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 130
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 129
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              10,
+              14,
+              10,
+              9,
+              10,
+              10,
+              10,
+              11,
+              10,
+              19
+            ],
+            "dates": [
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10"
+            ],
+            "direction": "declining",
+            "best_rank": 9,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 11.9,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Rafael Murillo, RM Luxury Group \u2014 Luxury Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 62,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJByArCqssDogRRA-lc2KsglQ"
+            },
+            {
+              "rank": 2,
+              "name": "Melissa Dondalski | Luxury Real Estate, Development & Investment \u2013 Chicago & Naples",
+              "rating": 4.8,
+              "reviews": 25,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJPWtu4kDTD4gRIclg9UsLSYk"
+            },
+            {
+              "rank": 3,
+              "name": "Chicago Luxury Listings",
+              "rating": 5.0,
+              "reviews": 69,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJoUAIqe4tDogRpqC7UqxlZ0E"
+            },
+            {
+              "rank": 4,
+              "name": "Gillman Group Luxury Real Estate | Compass Chicago",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJTT3c8R3TD4gRoucxBoAfops"
+            },
+            {
+              "rank": 5,
+              "name": "Luxury Living | Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 1100,
+              "review_velocity": 1.74,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ3cyoR7EsDogR75uz0WwQcW0"
+            },
+            {
+              "rank": 6,
+              "name": "The Scott Group | Compass Chicago | Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 194,
+              "review_velocity": 0.65,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ8wdbMJ3TD4gRu03eXasL_Lc"
+            },
+            {
+              "rank": 7,
+              "name": "MB Luxury Group & Margaret Baczkowski",
+              "rating": 4.8,
+              "reviews": 20,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJI-Mi4KwsDogRK1nx_Vjo43s"
+            },
+            {
+              "rank": 8,
+              "name": "Ryan Hardy | Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 49,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ56XbmrIsDogRd55axqIxOzo"
+            },
+            {
+              "rank": 9,
+              "name": "Janie Luxury Realty",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJw3vtClUtDogROyc8O7CII9M"
+            },
+            {
+              "rank": 10,
+              "name": "Emily Sachs Wong Luxury Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJjaNtDuLSD4gR2ZO-Mew8MuE"
+            },
+            {
+              "rank": 11,
+              "name": "Crystal Tran Team",
+              "rating": 5.0,
+              "reviews": 116,
+              "review_velocity": -0.26,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJZ47ZkffED4gRQ5WYXlwAZ_c"
+            },
+            {
+              "rank": 12,
+              "name": "Best Chicago Properties",
+              "rating": 5.0,
+              "reviews": 68,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJcY1_mNwsDogR57XctJHnwCs"
+            },
+            {
+              "rank": 13,
+              "name": "CHICAGO LUXURY REAL ESTATE",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ_-DLI7UsDogRiMmaXjWvbNk"
+            },
+            {
+              "rank": 14,
+              "name": "Vesta Preferred Realty",
+              "rating": 4.9,
+              "reviews": 391,
+              "review_velocity": 0.98,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJYW3sX_TSD4gRXyz-nqpj6QI"
+            },
+            {
+              "rank": 15,
+              "name": "Gold Coast Realty Chicago",
+              "rating": 4.9,
+              "reviews": 157,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJmyyvlE_TD4gRYwReGcinQoo"
+            },
+            {
+              "rank": 16,
+              "name": "Pearson Realty Group",
+              "rating": 4.6,
+              "reviews": 104,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJf6jzNtTSD4gRixqpzCI1P9U"
+            },
+            {
+              "rank": 17,
+              "name": "Jameson Sotheby's International Realty",
+              "rating": 4.1,
+              "reviews": 99,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJiQXVNz_TD4gRbb37Zy9-fHc"
+            },
+            {
+              "rank": 18,
+              "name": "Sohail Real Estate Team, eXp Realty | Chicago and NorthShore Realtor",
+              "rating": 4.8,
+              "reviews": 231,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQfyYA8DSD4gR-UaDhX2t6BI"
+            },
+            {
+              "rank": 19,
+              "name": "Carrie McCormick Real Estate",
+              "rating": 5.0,
+              "reviews": 129,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJL9NNIy3TD4gRq5wv5kFXccY"
+            },
+            {
+              "rank": 20,
+              "name": "Leading Real Estate Companies",
+              "rating": 4.9,
+              "reviews": 17,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQ9iniLosDogRgk__bExVxZ0"
+            }
+          ],
+          "subject": {
+            "rank": 19,
+            "name": "Carrie McCormick Real Estate",
+            "rating": 5.0,
+            "reviews": 129,
+            "review_velocity": 0.16,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJL9NNIy3TD4gRq5wv5kFXccY"
+          },
+          "benchmarks": {
+            "avg_rating": 4.87,
+            "avg_reviews": 146,
+            "median_reviews": 68,
+            "typical_reviews": 68,
+            "skewed": true,
+            "your_reviews": 129,
+            "your_rating": 5.0,
+            "reviews_percentile": 75,
+            "pack_size": 20,
+            "top_reviews": 1100
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Rafael Murillo, RM Luxury Group \u2014 Luxury Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 62,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJByArCqssDogRRA-lc2KsglQ",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "Chicago Luxury Listings",
+              "rating": 5.0,
+              "reviews": 69,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJoUAIqe4tDogRpqC7UqxlZ0E",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 4,
+              "name": "Gillman Group Luxury Real Estate | Compass Chicago",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJTT3c8R3TD4gRoucxBoAfops",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "Luxury Living | Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 1100,
+              "review_velocity": 1.74,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ3cyoR7EsDogR75uz0WwQcW0",
+              "rank_delta": 0,
+              "review_gain": 32
+            },
+            {
+              "rank": 6,
+              "name": "The Scott Group | Compass Chicago | Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 194,
+              "review_velocity": 0.65,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ8wdbMJ3TD4gRu03eXasL_Lc",
+              "rank_delta": -2,
+              "review_gain": 12
+            },
+            {
+              "rank": 7,
+              "name": "MB Luxury Group & Margaret Baczkowski",
+              "rating": 4.8,
+              "reviews": 20,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJI-Mi4KwsDogRK1nx_Vjo43s",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 8,
+              "name": "Ryan Hardy | Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 49,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ56XbmrIsDogRd55axqIxOzo",
+              "rank_delta": 1,
+              "review_gain": 1
+            },
+            {
+              "rank": 9,
+              "name": "Janie Luxury Realty",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJw3vtClUtDogROyc8O7CII9M",
+              "rank_delta": 1,
+              "review_gain": -1
+            },
+            {
+              "rank": 10,
+              "name": "Emily Sachs Wong Luxury Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJjaNtDuLSD4gR2ZO-Mew8MuE",
+              "rank_delta": 1,
+              "review_gain": -1
+            },
+            {
+              "rank": 12,
+              "name": "Best Chicago Properties",
+              "rating": 5.0,
+              "reviews": 68,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJcY1_mNwsDogR57XctJHnwCs",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 14,
+              "name": "Vesta Preferred Realty",
+              "rating": 4.9,
+              "reviews": 391,
+              "review_velocity": 0.98,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJYW3sX_TSD4gRXyz-nqpj6QI",
+              "rank_delta": -2,
+              "review_gain": 18
+            },
+            {
+              "rank": 15,
+              "name": "Gold Coast Realty Chicago",
+              "rating": 4.9,
+              "reviews": 157,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJmyyvlE_TD4gRYwReGcinQoo",
+              "rank_delta": -1,
+              "review_gain": 4
+            },
+            {
+              "rank": 18,
+              "name": "Sohail Real Estate Team, eXp Realty | Chicago and NorthShore Realtor",
+              "rating": 4.8,
+              "reviews": 231,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQfyYA8DSD4gR-UaDhX2t6BI",
+              "rank_delta": 1,
+              "review_gain": 2
+            },
+            {
+              "rank": 19,
+              "name": "Carrie McCormick Real Estate",
+              "rating": 5.0,
+              "reviews": 129,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJL9NNIy3TD4gRq5wv5kFXccY",
+              "rank_delta": -11,
+              "review_gain": 3
+            }
+          ],
+          "fastest_climber": {
+            "rank": 1,
+            "name": "Rafael Murillo, RM Luxury Group \u2014 Luxury Chicago Real Estate",
+            "rating": 5.0,
+            "reviews": 62,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJByArCqssDogRRA-lc2KsglQ",
+            "rank_delta": 2,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 5,
+            "name": "Luxury Living | Chicago Real Estate",
+            "rating": 5.0,
+            "reviews": 1100,
+            "review_velocity": 1.74,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJ3cyoR7EsDogR75uz0WwQcW0",
+            "rank_delta": 0,
+            "review_gain": 32
+          },
+          "visibility": {
+            "current_rank": 19,
+            "best_rank": 9,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.5,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.7,
+            "lost_vs_best_rel": 47,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 129 vs a typical competitor's 68."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.87."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Luxury Living | Chicago Real Estate added 32 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 19,
+          "start_rank": 10,
+          "net_change": -9,
+          "best_rank": 9,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "August 13, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-10T14:22:49.810521+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-08-13T14:24:57.373711+00:00",
+      "free_report_email": "Carrie@atproperties.com"
     },
     {
       "id": "823454c7d88a",
@@ -43815,12 +45015,531 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 3.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Jul 13",
+              "rank": 11
+            },
+            {
+              "date": "Jul 27",
+              "rank": 11
+            },
+            {
+              "date": "Aug 10",
+              "rank": 18
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 13",
+              "reviews": 297
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 301
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 303
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              11,
+              11,
+              18
+            ],
+            "dates": [
+              "Jul 13",
+              "Jul 27",
+              "Aug 10"
+            ],
+            "direction": "declining",
+            "best_rank": 11,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 1.56,
+            "total_gained": 6,
+            "weeks": 3.9,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Dallas Cosmetic Dental",
+              "rating": 5.0,
+              "reviews": 61,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2X_8e0SeToYRxFa4icgpppk"
+            },
+            {
+              "rank": 2,
+              "name": "Dallas Laser Dentistry",
+              "rating": 4.9,
+              "reviews": 870,
+              "review_velocity": 1.03,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJs7rSHvCfToYR5BhVR00AL9A"
+            },
+            {
+              "rank": 3,
+              "name": "Cowdin Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 434,
+              "review_velocity": 1.47,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7zZsptcjTIYReCm-NmJ-x2s"
+            },
+            {
+              "rank": 4,
+              "name": "The Dental Method - Dentist of Dallas",
+              "rating": 4.9,
+              "reviews": 292,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJo7P8gGCeToYRVjtQIgvqngE"
+            },
+            {
+              "rank": 5,
+              "name": "North Dallas Cosmetic Dentistry - Robert B. Mitchell",
+              "rating": 5.0,
+              "reviews": 333,
+              "review_velocity": 0.65,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ7S4H_90gTIYR5wb3uOg6Npw"
+            },
+            {
+              "rank": 6,
+              "name": "Dallas Dental Arts",
+              "rating": 4.9,
+              "reviews": 410,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJm5LO_yOZToYRCbeDL_aYfCo"
+            },
+            {
+              "rank": 7,
+              "name": "White Dental Spa",
+              "rating": 4.9,
+              "reviews": 225,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJta2WeNCeToYRZj9QbLdPJGg"
+            },
+            {
+              "rank": 8,
+              "name": "Dallas Esthetics",
+              "rating": 4.9,
+              "reviews": 734,
+              "review_velocity": 1.9,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJw1pE3MSYToYRt-WE5q3E0lk"
+            },
+            {
+              "rank": 9,
+              "name": "Dallas Designer Smiles",
+              "rating": 4.9,
+              "reviews": 216,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJOYCHgESeToYR-GjgzHZK5CM"
+            },
+            {
+              "rank": 10,
+              "name": "Highland Park Dental",
+              "rating": 4.9,
+              "reviews": 595,
+              "review_velocity": 1.27,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJVYg1zlsgTIYR9fi7F5zUSMY"
+            },
+            {
+              "rank": 11,
+              "name": "Royal Lane Dental Center - Best Dentist in Dallas | Clear Aligners and Veneers in Dallas",
+              "rating": 4.9,
+              "reviews": 374,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJh12zqW-fToYRUE-Y7rDAoD0"
+            },
+            {
+              "rank": 12,
+              "name": "CR Dental Group",
+              "rating": 5.0,
+              "reviews": 329,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJw5I1L20gTIYRh2FUQsv9xvE"
+            },
+            {
+              "rank": 13,
+              "name": "Mariya Barnett, DDS Family & Cosmetic Dentistry",
+              "rating": 5.0,
+              "reviews": 191,
+              "review_velocity": 0.54,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ-bSgEkGfToYRjZog765aXN4"
+            },
+            {
+              "rank": 14,
+              "name": "ConfiDent Smile Studio",
+              "rating": 5.0,
+              "reviews": 194,
+              "review_velocity": 1.03,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ888gOMmhToYRI7USgt73WVw"
+            },
+            {
+              "rank": 15,
+              "name": "Contemporary Dentistry of Dallas",
+              "rating": 5.0,
+              "reviews": 478,
+              "review_velocity": 2.12,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJY4Tfq9idToYR_WmCRPtbKc8"
+            },
+            {
+              "rank": 16,
+              "name": "Beyond Dental and Implant Center Dallas, TX",
+              "rating": 4.7,
+              "reviews": 334,
+              "review_velocity": 0.42,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq3-HvA8eTIYR1AVuK8Vmjno"
+            },
+            {
+              "rank": 17,
+              "name": "Dallas Dental Concierge",
+              "rating": 5.0,
+              "reviews": 169,
+              "review_velocity": 0.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJRc2qLCGfToYRIfy_Uv84Ng8"
+            },
+            {
+              "rank": 18,
+              "name": "Redefine: Dental Aesthetic and Wellness Center of Dallas by Darya Timin DDS",
+              "rating": 4.9,
+              "reviews": 303,
+              "review_velocity": 0.98,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJDRDDv2WfToYRzrFqwpjN-Zk"
+            },
+            {
+              "rank": 19,
+              "name": "Inwood Village Dental",
+              "rating": 4.8,
+              "reviews": 335,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdXUTf2GeToYRoNU7LY89JbA"
+            },
+            {
+              "rank": 20,
+              "name": "Katy Trail Dental",
+              "rating": 4.8,
+              "reviews": 388,
+              "review_velocity": 0.08,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJi9n5NNieToYRt88Wvmr2C88"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "Redefine: Dental Aesthetic and Wellness Center of Dallas by Darya Timin DDS",
+            "rating": 4.9,
+            "reviews": 303,
+            "review_velocity": 0.98,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJDRDDv2WfToYRzrFqwpjN-Zk"
+          },
+          "benchmarks": {
+            "avg_rating": 4.92,
+            "avg_reviews": 363,
+            "median_reviews": 334,
+            "typical_reviews": 363,
+            "skewed": false,
+            "your_reviews": 303,
+            "your_rating": 4.9,
+            "reviews_percentile": 40,
+            "pack_size": 20,
+            "top_reviews": 870
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Dallas Cosmetic Dental",
+              "rating": 5.0,
+              "reviews": 61,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2X_8e0SeToYRxFa4icgpppk",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Dallas Laser Dentistry",
+              "rating": 4.9,
+              "reviews": 870,
+              "review_velocity": 1.03,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJs7rSHvCfToYR5BhVR00AL9A",
+              "rank_delta": -1,
+              "review_gain": 19
+            },
+            {
+              "rank": 3,
+              "name": "Cowdin Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 434,
+              "review_velocity": 1.47,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7zZsptcjTIYReCm-NmJ-x2s",
+              "rank_delta": 1,
+              "review_gain": 27
+            },
+            {
+              "rank": 4,
+              "name": "The Dental Method - Dentist of Dallas",
+              "rating": 4.9,
+              "reviews": 292,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJo7P8gGCeToYRVjtQIgvqngE",
+              "rank_delta": 11,
+              "review_gain": 3
+            },
+            {
+              "rank": 5,
+              "name": "North Dallas Cosmetic Dentistry - Robert B. Mitchell",
+              "rating": 5.0,
+              "reviews": 333,
+              "review_velocity": 0.65,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ7S4H_90gTIYR5wb3uOg6Npw",
+              "rank_delta": -2,
+              "review_gain": 12
+            },
+            {
+              "rank": 6,
+              "name": "Dallas Dental Arts",
+              "rating": 4.9,
+              "reviews": 410,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJm5LO_yOZToYRCbeDL_aYfCo",
+              "rank_delta": -1,
+              "review_gain": 17
+            },
+            {
+              "rank": 7,
+              "name": "White Dental Spa",
+              "rating": 4.9,
+              "reviews": 225,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJta2WeNCeToYRZj9QbLdPJGg",
+              "rank_delta": 3,
+              "review_gain": 17
+            },
+            {
+              "rank": 8,
+              "name": "Dallas Esthetics",
+              "rating": 4.9,
+              "reviews": 734,
+              "review_velocity": 1.9,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJw1pE3MSYToYRt-WE5q3E0lk",
+              "rank_delta": -2,
+              "review_gain": 35
+            },
+            {
+              "rank": 9,
+              "name": "Dallas Designer Smiles",
+              "rating": 4.9,
+              "reviews": 216,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJOYCHgESeToYR-GjgzHZK5CM",
+              "rank_delta": 0,
+              "review_gain": 8
+            },
+            {
+              "rank": 13,
+              "name": "Mariya Barnett, DDS Family & Cosmetic Dentistry",
+              "rating": 5.0,
+              "reviews": 191,
+              "review_velocity": 0.54,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ-bSgEkGfToYRjZog765aXN4",
+              "rank_delta": -6,
+              "review_gain": 10
+            },
+            {
+              "rank": 14,
+              "name": "ConfiDent Smile Studio",
+              "rating": 5.0,
+              "reviews": 194,
+              "review_velocity": 1.03,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ888gOMmhToYRI7USgt73WVw",
+              "rank_delta": 4,
+              "review_gain": 19
+            },
+            {
+              "rank": 15,
+              "name": "Contemporary Dentistry of Dallas",
+              "rating": 5.0,
+              "reviews": 478,
+              "review_velocity": 2.12,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJY4Tfq9idToYR_WmCRPtbKc8",
+              "rank_delta": -4,
+              "review_gain": 39
+            },
+            {
+              "rank": 18,
+              "name": "Redefine: Dental Aesthetic and Wellness Center of Dallas by Darya Timin DDS",
+              "rating": 4.9,
+              "reviews": 303,
+              "review_velocity": 0.98,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJDRDDv2WfToYRzrFqwpjN-Zk",
+              "rank_delta": -10,
+              "review_gain": 18
+            },
+            {
+              "rank": 19,
+              "name": "Inwood Village Dental",
+              "rating": 4.8,
+              "reviews": 335,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdXUTf2GeToYRoNU7LY89JbA",
+              "rank_delta": -3,
+              "review_gain": 17
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "The Dental Method - Dentist of Dallas",
+            "rating": 4.9,
+            "reviews": 292,
+            "review_velocity": 0.16,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJo7P8gGCeToYRVjtQIgvqngE",
+            "rank_delta": 11,
+            "review_gain": 3
+          },
+          "fastest_review_gainer": {
+            "rank": 15,
+            "name": "Contemporary Dentistry of Dallas",
+            "rating": 5.0,
+            "reviews": 478,
+            "review_velocity": 2.12,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJY4Tfq9idToYR_WmCRPtbKc8",
+            "rank_delta": -4,
+            "review_gain": 39
+          },
+          "visibility": {
+            "current_rank": 18,
+            "best_rank": 11,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 303 vs a typical competitor's 363. Close the 60-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.92. A 0.02-star gap costs trust at a glance."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.56/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Contemporary Dentistry of Dallas added 39 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 18,
+          "start_rank": 11,
+          "net_change": -7,
+          "best_rank": 11,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "August 13, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-10T14:22:49.810608+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-08-13T14:25:35.776685+00:00",
+      "free_report_email": "Info@redefinedfw.com"
     },
     {
       "id": "773e2151822f",
