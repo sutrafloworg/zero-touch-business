@@ -131,6 +131,10 @@
     "help@kit.com": {
       "added_at": "2026-07-30T12:29:05.966936+00:00",
       "reason": "unsubscribe_reply"
+    },
+    "carrie@atproperties.com": {
+      "added_at": "2026-08-14T11:43:00.140818+00:00",
+      "reason": "hard_bounce"
     }
   }
 }
