@@ -1,0 +1,30 @@
+2026-08-18 07:32:51,017 [INFO] orchestrator — ============================================================
+2026-08-18 07:32:51,017 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-08-18 07:32:51,017 [INFO] orchestrator — Timestamp: 2026-08-18T07:32:51.017480+00:00
+2026-08-18 07:32:51,017 [INFO] orchestrator — ============================================================
+2026-08-18 07:32:51,057 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-08-18 07:32:51,242 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-08-18 07:32:51,893 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-08-18 07:32:52,669 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 5 fresh items
+2026-08-18 07:32:53,496 [INFO] agents.feed_agent —   VentureBeat AI: fetched 0 fresh items
+2026-08-18 07:32:55,463 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-08-18 07:32:56,166 [INFO] agents.feed_agent —   Product Hunt AI: fetched 35 fresh items
+2026-08-18 07:32:56,808 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-08-18 07:32:58,038 [INFO] agents.feed_agent —   OpenAI Blog: fetched 10 fresh items
+2026-08-18 07:32:58,540 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 90 total
+2026-08-18 07:32:58,540 [INFO] orchestrator —       Got 10 items
+2026-08-18 07:32:58,541 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-08-18 07:32:58,541 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-08-18 07:33:13,559 [INFO] httpx — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-08-18 07:33:13,582 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'The model selection hack nobody talks about'
+2026-08-18 07:33:13,582 [INFO] orchestrator —       Subject: 'The model selection hack nobody talks about'
+2026-08-18 07:33:13,582 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-08-18 07:33:13,582 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-08-18 07:33:14,288 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-08-18T07:36:13+0000, ID=25492436
+2026-08-18 07:33:14,400 [INFO] orchestrator —       Broadcast ID: 25492436, Subscribers: 2
+2026-08-18 07:33:14,400 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-08-18 07:33:14,401 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 25492436
+2026-08-18 07:33:16,996 [INFO] agents.monitor_agent — Alert email sent: [Weekly Report] AI Tools Weekly
+2026-08-18 07:33:16,996 [INFO] orchestrator — ============================================================
+2026-08-18 07:33:16,996 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-08-18 07:33:16,996 [INFO] orchestrator — ============================================================

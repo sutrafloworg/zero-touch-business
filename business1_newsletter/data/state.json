@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-08-11T08:06:58.972105+00:00",
-  "issues_published": 15,
+  "last_run": "2026-08-18T07:33:14.401256+00:00",
+  "issues_published": 16,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
-    "https://openai.com/index/endava-frontiers",
-    "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
-    "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
-    "https://openai.com/index/economic-research-exchange",
-    "https://www.producthunt.com/products/agentcad",
-    "https://www.producthunt.com/products/agent-browser-shield",
-    "https://www.producthunt.com/products/taskgpt-2",
-    "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
-    "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
     "https://openai.com/index/academy-courses-applying-ai-at-work",
     "https://openai.com/index/openai-to-acquire-ona",
     "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
@@ -102,11 +92,21 @@
     "https://openai.com/index/hsp-gruppe",
     "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
     "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-    "https://www.producthunt.com/products/tines"
+    "https://www.producthunt.com/products/tines",
+    "https://openai.com/index/builders-guide-to-gpt-5-6",
+    "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "https://www.producthunt.com/products/threadport",
+    "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+    "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+    "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+    "https://openai.com/index/previewing-ultrafast",
+    "https://openai.com/index/dali-rajic-chief-revenue-officer",
+    "https://openai.com/index/testing-ads-in-chatgpt",
+    "https://openai.com/index/daybreak-models-are-now-available-on-aws"
   ],
-  "affiliate_rotation_index": 36,
+  "affiliate_rotation_index": 38,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "25390134"
+  "last_broadcast_id": "25492436"
 }
