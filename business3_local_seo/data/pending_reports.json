@@ -46220,7 +46220,594 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 18.4,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Apr 02",
+              "rank": 10
+            },
+            {
+              "date": "May 18",
+              "rank": 10
+            },
+            {
+              "date": "Jun 01",
+              "rank": 12
+            },
+            {
+              "date": "Jun 08",
+              "rank": 12
+            },
+            {
+              "date": "Jun 15",
+              "rank": 12
+            },
+            {
+              "date": "Jun 22",
+              "rank": 10
+            },
+            {
+              "date": "Jun 29",
+              "rank": 10
+            },
+            {
+              "date": "Jul 13",
+              "rank": 9
+            },
+            {
+              "date": "Jul 27",
+              "rank": 9
+            },
+            {
+              "date": "Aug 10",
+              "rank": 16
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Apr 02",
+              "reviews": 440
+            },
+            {
+              "date": "May 18",
+              "reviews": 444
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 446
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 447
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 449
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 450
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 451
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 452
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 452
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 455
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              10,
+              10,
+              12,
+              12,
+              12,
+              10,
+              10,
+              9,
+              9,
+              16
+            ],
+            "dates": [
+              "Apr 02",
+              "May 18",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10"
+            ],
+            "direction": "declining",
+            "best_rank": 9,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 0.81,
+            "total_gained": 15,
+            "weeks": 18.4,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Biltmore Cosmetic & Restorative Dentistry Phoenix",
+              "rating": 5.0,
+              "reviews": 581,
+              "review_velocity": 0.81,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ2-XwA2ANK4cRydE6O4fAYYM"
+            },
+            {
+              "rank": 2,
+              "name": "Central Valley Dentistry & Implants",
+              "rating": 4.9,
+              "reviews": 1047,
+              "review_velocity": 2.82,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJxdDee7MSK4cRs11vaVjHSAU"
+            },
+            {
+              "rank": 3,
+              "name": "Harris Dental",
+              "rating": 4.9,
+              "reviews": 786,
+              "review_velocity": 2.22,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7T3QuQgNK4cRuXhh-wdY3OM"
+            },
+            {
+              "rank": 4,
+              "name": "Biltmore Commons Dental Care",
+              "rating": 4.9,
+              "reviews": 1522,
+              "review_velocity": 1.19,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6Vcc7qMSK4cRO5i7UAWtRFQ"
+            },
+            {
+              "rank": 5,
+              "name": "Arizona Biltmore Dentistry",
+              "rating": 4.7,
+              "reviews": 1352,
+              "review_velocity": 0.54,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ4ZWT6ggNK4cRYbJNuSOvfJE"
+            },
+            {
+              "rank": 6,
+              "name": "Artistic Dental at the biltmore",
+              "rating": 4.9,
+              "reviews": 954,
+              "review_velocity": 1.74,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJwUMDbnENK4cRd-JuAcW2G7c"
+            },
+            {
+              "rank": 7,
+              "name": "Biltmore Dental Center",
+              "rating": 4.9,
+              "reviews": 1281,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2ZxE8qcNK4cRX-EPyMQNIC8"
+            },
+            {
+              "rank": 8,
+              "name": "AZ Cosmetic & Family Dentistry: Dentist in Peoria",
+              "rating": 4.9,
+              "reviews": 1600,
+              "review_velocity": 3.58,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_cPbYnFpK4cR1AJI-dPyUmc"
+            },
+            {
+              "rank": 9,
+              "name": "Radiant Smiles Phoenix",
+              "rating": 4.9,
+              "reviews": 475,
+              "review_velocity": 2.28,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCf2brmgSK4cRsywpk3x90bg"
+            },
+            {
+              "rank": 10,
+              "name": "Life Smiles Dental Care",
+              "rating": 5.0,
+              "reviews": 1786,
+              "review_velocity": 3.53,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyTeRHQxzK4cRAfV-824wkfk"
+            },
+            {
+              "rank": 11,
+              "name": "Phoenician Dentistry",
+              "rating": 5.0,
+              "reviews": 215,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2-XwA2ANK4cRdLrLR_FmGWk"
+            },
+            {
+              "rank": 12,
+              "name": "Studio B Smiles - Phoenix, AZ",
+              "rating": 5.0,
+              "reviews": 380,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ35Qd6R8SK4cRtcHWbgfxrtg"
+            },
+            {
+              "rank": 13,
+              "name": "Downtown Smiles Phoenix Dental Care",
+              "rating": 5.0,
+              "reviews": 338,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJoyKLfp0TK4cR7m6Yq9IYGh4"
+            },
+            {
+              "rank": 14,
+              "name": "Phoenix Dental Design",
+              "rating": 5.0,
+              "reviews": 395,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDx-k2KASK4cRNf0Y8j02txA"
+            },
+            {
+              "rank": 15,
+              "name": "Dentique by Dr. B Cosmetic Dentistry",
+              "rating": 5.0,
+              "reviews": 493,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJX3Gd724EK4cRa0moGdXI3yw"
+            },
+            {
+              "rank": 16,
+              "name": "Desert Smiles Cosmetic & Restorative Dentistry",
+              "rating": 4.9,
+              "reviews": 455,
+              "review_velocity": 0.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFQgKG_RoK4cRla6YC9JM8mM"
+            },
+            {
+              "rank": 17,
+              "name": "Downtown Phoenix Dental",
+              "rating": 4.9,
+              "reviews": 553,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJodDpwCMSK4cRhfCtEktV4UQ"
+            },
+            {
+              "rank": 18,
+              "name": "Advanced Laser Dentistry",
+              "rating": 4.9,
+              "reviews": 235,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJhZQ9nfAMK4cRH7w6lQwrZpw"
+            },
+            {
+              "rank": 19,
+              "name": "Thomas Dental",
+              "rating": 4.8,
+              "reviews": 785,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJRxIPvKJsK4cRAq_Bk1JPti4"
+            },
+            {
+              "rank": 20,
+              "name": "The Peak Dental (formerly Squaw Peak Dental)",
+              "rating": 5.0,
+              "reviews": 435,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQVdVJKZyK4cRYiaxe67Edgg"
+            }
+          ],
+          "subject": {
+            "rank": 16,
+            "name": "Desert Smiles Cosmetic & Restorative Dentistry",
+            "rating": 4.9,
+            "reviews": 455,
+            "review_velocity": 0.81,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJFQgKG_RoK4cRla6YC9JM8mM"
+          },
+          "benchmarks": {
+            "avg_rating": 4.92,
+            "avg_reviews": 783,
+            "median_reviews": 567,
+            "typical_reviews": 783,
+            "skewed": false,
+            "your_reviews": 455,
+            "your_rating": 4.9,
+            "reviews_percentile": 35,
+            "pack_size": 20,
+            "top_reviews": 1786
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Biltmore Cosmetic & Restorative Dentistry Phoenix",
+              "rating": 5.0,
+              "reviews": 581,
+              "review_velocity": 0.81,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ2-XwA2ANK4cRydE6O4fAYYM",
+              "rank_delta": 0,
+              "review_gain": 15
+            },
+            {
+              "rank": 2,
+              "name": "Central Valley Dentistry & Implants",
+              "rating": 4.9,
+              "reviews": 1047,
+              "review_velocity": 2.82,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJxdDee7MSK4cRs11vaVjHSAU",
+              "rank_delta": 0,
+              "review_gain": 52
+            },
+            {
+              "rank": 3,
+              "name": "Harris Dental",
+              "rating": 4.9,
+              "reviews": 786,
+              "review_velocity": 2.22,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ7T3QuQgNK4cRuXhh-wdY3OM",
+              "rank_delta": 0,
+              "review_gain": 41
+            },
+            {
+              "rank": 4,
+              "name": "Biltmore Commons Dental Care",
+              "rating": 4.9,
+              "reviews": 1522,
+              "review_velocity": 1.19,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6Vcc7qMSK4cRO5i7UAWtRFQ",
+              "rank_delta": 15,
+              "review_gain": 22
+            },
+            {
+              "rank": 5,
+              "name": "Arizona Biltmore Dentistry",
+              "rating": 4.7,
+              "reviews": 1352,
+              "review_velocity": 0.54,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ4ZWT6ggNK4cRYbJNuSOvfJE",
+              "rank_delta": 6,
+              "review_gain": 10
+            },
+            {
+              "rank": 6,
+              "name": "Artistic Dental at the biltmore",
+              "rating": 4.9,
+              "reviews": 954,
+              "review_velocity": 1.74,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJwUMDbnENK4cRd-JuAcW2G7c",
+              "rank_delta": 3,
+              "review_gain": 32
+            },
+            {
+              "rank": 7,
+              "name": "Biltmore Dental Center",
+              "rating": 4.9,
+              "reviews": 1281,
+              "review_velocity": 0.92,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2ZxE8qcNK4cRX-EPyMQNIC8",
+              "rank_delta": -1,
+              "review_gain": 17
+            },
+            {
+              "rank": 8,
+              "name": "AZ Cosmetic & Family Dentistry: Dentist in Peoria",
+              "rating": 4.9,
+              "reviews": 1600,
+              "review_velocity": 3.58,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_cPbYnFpK4cR1AJI-dPyUmc",
+              "rank_delta": 5,
+              "review_gain": 66
+            },
+            {
+              "rank": 9,
+              "name": "Radiant Smiles Phoenix",
+              "rating": 4.9,
+              "reviews": 475,
+              "review_velocity": 2.28,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCf2brmgSK4cRsywpk3x90bg",
+              "rank_delta": -5,
+              "review_gain": 42
+            },
+            {
+              "rank": 10,
+              "name": "Life Smiles Dental Care",
+              "rating": 5.0,
+              "reviews": 1786,
+              "review_velocity": 3.53,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyTeRHQxzK4cRAfV-824wkfk",
+              "rank_delta": -5,
+              "review_gain": 65
+            },
+            {
+              "rank": 11,
+              "name": "Phoenician Dentistry",
+              "rating": 5.0,
+              "reviews": 215,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2-XwA2ANK4cRdLrLR_FmGWk",
+              "rank_delta": 9,
+              "review_gain": 1
+            },
+            {
+              "rank": 12,
+              "name": "Studio B Smiles - Phoenix, AZ",
+              "rating": 5.0,
+              "reviews": 380,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ35Qd6R8SK4cRtcHWbgfxrtg",
+              "rank_delta": -4,
+              "review_gain": 11
+            },
+            {
+              "rank": 16,
+              "name": "Desert Smiles Cosmetic & Restorative Dentistry",
+              "rating": 4.9,
+              "reviews": 455,
+              "review_velocity": 0.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFQgKG_RoK4cRla6YC9JM8mM",
+              "rank_delta": -6,
+              "review_gain": 15
+            },
+            {
+              "rank": 17,
+              "name": "Downtown Phoenix Dental",
+              "rating": 4.9,
+              "reviews": 553,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJodDpwCMSK4cRhfCtEktV4UQ",
+              "rank_delta": 0,
+              "review_gain": 2
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "Biltmore Commons Dental Care",
+            "rating": 4.9,
+            "reviews": 1522,
+            "review_velocity": 1.19,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJ6Vcc7qMSK4cRO5i7UAWtRFQ",
+            "rank_delta": 15,
+            "review_gain": 22
+          },
+          "fastest_review_gainer": {
+            "rank": 8,
+            "name": "AZ Cosmetic & Family Dentistry: Dentist in Peoria",
+            "rating": 4.9,
+            "reviews": 1600,
+            "review_velocity": 3.58,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJ_cPbYnFpK4cR1AJI-dPyUmc",
+            "rank_delta": 5,
+            "review_gain": 66
+          },
+          "visibility": {
+            "current_rank": 16,
+            "best_rank": 9,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.5,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.7,
+            "lost_vs_best_rel": 47,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 455 vs a typical competitor's 783. Close the 328-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.92. A 0.02-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.81/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "AZ Cosmetic & Family Dentistry: Denti. added 66 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 16,
+          "start_rank": 10,
+          "net_change": -6,
+          "best_rank": 9,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "August 20, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-10T14:22:49.810640+00:00",
@@ -46231,7 +46818,9 @@
           "type": "followup_1",
           "sent_at": "2026-08-17T13:41:35.665792+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-08-20T13:52:44.462365+00:00",
+      "free_report_email": "info@desertsmiles.com"
     },
     {
       "id": "28eaea4c121e",
@@ -46787,7 +47376,630 @@
             "category_avg_rating": 4.8,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 11.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 18",
+              "rank": 12
+            },
+            {
+              "date": "May 25",
+              "rank": 9
+            },
+            {
+              "date": "Jun 01",
+              "rank": 11
+            },
+            {
+              "date": "Jun 08",
+              "rank": 12
+            },
+            {
+              "date": "Jun 15",
+              "rank": 7
+            },
+            {
+              "date": "Jun 22",
+              "rank": 5
+            },
+            {
+              "date": "Jun 29",
+              "rank": 7
+            },
+            {
+              "date": "Jul 13",
+              "rank": 9
+            },
+            {
+              "date": "Jul 27",
+              "rank": 8
+            },
+            {
+              "date": "Aug 10",
+              "rank": 15
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 18",
+              "reviews": 247
+            },
+            {
+              "date": "May 25",
+              "reviews": 246
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 246
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 246
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 246
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 247
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 247
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 247
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 248
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 248
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              12,
+              9,
+              11,
+              12,
+              7,
+              5,
+              7,
+              9,
+              8,
+              15
+            ],
+            "dates": [
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10"
+            ],
+            "direction": "declining",
+            "best_rank": 5,
+            "worst_rank": 15
+          },
+          "review_velocity": {
+            "per_week": 0.08,
+            "total_gained": 1,
+            "weeks": 11.9,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Rand Spear: The Accident Lawyer",
+              "rating": 4.7,
+              "reviews": 758,
+              "review_velocity": 3.36,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJkQy5S6nkb0ARU24apUyBAWI"
+            },
+            {
+              "rank": 2,
+              "name": "Philadelphia Personal Injury Attorney at Law, Brandon J. Broderick",
+              "rating": 4.9,
+              "reviews": 461,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJOdx460zHxokRb_1DcVuBMH8"
+            },
+            {
+              "rank": 3,
+              "name": "Morgan & Morgan",
+              "rating": 4.6,
+              "reviews": 7712,
+              "review_velocity": 58.98,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJXdmUuDPGxokRr4N_QjjSppI"
+            },
+            {
+              "rank": 4,
+              "name": "The Levin Firm",
+              "rating": 5.0,
+              "reviews": 240,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJvav1hS_GxokRLswkH2W1W0g"
+            },
+            {
+              "rank": 5,
+              "name": "Zavodnick & Lasky - Personal Injury Lawyers Philadelphia",
+              "rating": 4.9,
+              "reviews": 189,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJu80y30fHxokRUol7D4C7QNk"
+            },
+            {
+              "rank": 6,
+              "name": "Philly Injury Lawyer - Philadelphia Car Accident Attorneys",
+              "rating": 4.4,
+              "reviews": 250,
+              "review_velocity": 2.01,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJO-s5VSXGxokR0oivsW6PiiQ"
+            },
+            {
+              "rank": 7,
+              "name": "MyPhillyLawyer",
+              "rating": 4.7,
+              "reviews": 309,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJATCdEC7GxokRmNSZOIvZb_Q"
+            },
+            {
+              "rank": 8,
+              "name": "Philadelphia Personal Injury Lawyers, KaplunMarx",
+              "rating": 5.0,
+              "reviews": 354,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJU6hH5gHJxokRTt9l2dFOr0E"
+            },
+            {
+              "rank": 9,
+              "name": "Philadelphia Injury Lawyers P.C.",
+              "rating": 5.0,
+              "reviews": 60,
+              "review_velocity": -0.11,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJWaKa8SrHxokRfhPEKdqcQMY"
+            },
+            {
+              "rank": 10,
+              "name": "TopDog Law Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 757,
+              "review_velocity": 7.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJzzwM2pXHxokRILH7XPjbTjI"
+            },
+            {
+              "rank": 11,
+              "name": "The Pearce Law Firm, Personal Injury and Car Accident Lawyers Philadelphia",
+              "rating": 4.8,
+              "reviews": 116,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJB_6YZALHxokRXRlM6Y-r9iY"
+            },
+            {
+              "rank": 12,
+              "name": "Kwartler Manus, LLC",
+              "rating": 4.9,
+              "reviews": 499,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJc_X3qTfGxokRV0rwa5z0Fb8"
+            },
+            {
+              "rank": 13,
+              "name": "Cousin Benny",
+              "rating": 4.8,
+              "reviews": 155,
+              "review_velocity": 0.65,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJDS8l4BnHxokR6mSFl-4YakA"
+            },
+            {
+              "rank": 14,
+              "name": "PhillyLaw",
+              "rating": 5.0,
+              "reviews": 34,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJa_XdyjnGxokRR4qYn_DOnhY"
+            },
+            {
+              "rank": 15,
+              "name": "Jeffrey H. Penneys Esq., P.C.",
+              "rating": 5.0,
+              "reviews": 248,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJH36T7THGxokRaC-EI2rPHZU"
+            },
+            {
+              "rank": 16,
+              "name": "Gibbons Legal",
+              "rating": 5.0,
+              "reviews": 329,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJATCdEC7GxokREKR-gfkjUuY"
+            },
+            {
+              "rank": 17,
+              "name": "Wapner Newman Personal Injury and Medical Malpractice Lawyers",
+              "rating": 4.7,
+              "reviews": 217,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJoWNv3jbGxokRahVWoHbcnv4"
+            },
+            {
+              "rank": 18,
+              "name": "Jacobs & Comerota",
+              "rating": 5.0,
+              "reviews": 479,
+              "review_velocity": 1.18,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJN05AHy7GxokRzqKete57dJc"
+            },
+            {
+              "rank": 19,
+              "name": "Philly Injury Lawyer - Philadelphia Car Accident Attorneys",
+              "rating": 4.8,
+              "reviews": 88,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ11WBM_W2xokR38-dgudq254"
+            },
+            {
+              "rank": 20,
+              "name": "Soloff & Zervanos Personal Injury Attorneys",
+              "rating": 4.9,
+              "reviews": 227,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJYc2JuDrGxokRXdlmCqu3GQU"
+            }
+          ],
+          "subject": {
+            "rank": 15,
+            "name": "Jeffrey H. Penneys Esq., P.C.",
+            "rating": 5.0,
+            "reviews": 248,
+            "review_velocity": 0.11,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJH36T7THGxokRaC-EI2rPHZU"
+          },
+          "benchmarks": {
+            "avg_rating": 4.85,
+            "avg_reviews": 674,
+            "median_reviews": 249,
+            "typical_reviews": 249,
+            "skewed": true,
+            "your_reviews": 248,
+            "your_rating": 5.0,
+            "reviews_percentile": 50,
+            "pack_size": 20,
+            "top_reviews": 7712
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Rand Spear: The Accident Lawyer",
+              "rating": 4.7,
+              "reviews": 758,
+              "review_velocity": 3.36,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJkQy5S6nkb0ARU24apUyBAWI",
+              "rank_delta": 3,
+              "review_gain": 62
+            },
+            {
+              "rank": 2,
+              "name": "Philadelphia Personal Injury Attorney at Law, Brandon J. Broderick",
+              "rating": 4.9,
+              "reviews": 461,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJOdx460zHxokRb_1DcVuBMH8",
+              "rank_delta": -1,
+              "review_gain": 13
+            },
+            {
+              "rank": 3,
+              "name": "Morgan & Morgan",
+              "rating": 4.6,
+              "reviews": 7712,
+              "review_velocity": 58.98,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJXdmUuDPGxokRr4N_QjjSppI",
+              "rank_delta": 2,
+              "review_gain": 1087
+            },
+            {
+              "rank": 4,
+              "name": "The Levin Firm",
+              "rating": 5.0,
+              "reviews": 240,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJvav1hS_GxokRLswkH2W1W0g",
+              "rank_delta": -1,
+              "review_gain": 13
+            },
+            {
+              "rank": 5,
+              "name": "Zavodnick & Lasky - Personal Injury Lawyers Philadelphia",
+              "rating": 4.9,
+              "reviews": 189,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJu80y30fHxokRUol7D4C7QNk",
+              "rank_delta": 4,
+              "review_gain": 8
+            },
+            {
+              "rank": 6,
+              "name": "Philly Injury Lawyer - Philadelphia Car Accident Attorneys",
+              "rating": 4.4,
+              "reviews": 250,
+              "review_velocity": 2.01,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJO-s5VSXGxokR0oivsW6PiiQ",
+              "rank_delta": 0,
+              "review_gain": 37
+            },
+            {
+              "rank": 7,
+              "name": "MyPhillyLawyer",
+              "rating": 4.7,
+              "reviews": 309,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJATCdEC7GxokRmNSZOIvZb_Q",
+              "rank_delta": 6,
+              "review_gain": 5
+            },
+            {
+              "rank": 8,
+              "name": "Philadelphia Personal Injury Lawyers, KaplunMarx",
+              "rating": 5.0,
+              "reviews": 354,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJU6hH5gHJxokRTt9l2dFOr0E",
+              "rank_delta": 2,
+              "review_gain": 8
+            },
+            {
+              "rank": 9,
+              "name": "Philadelphia Injury Lawyers P.C.",
+              "rating": 5.0,
+              "reviews": 60,
+              "review_velocity": -0.11,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJWaKa8SrHxokRfhPEKdqcQMY",
+              "rank_delta": -7,
+              "review_gain": -2
+            },
+            {
+              "rank": 10,
+              "name": "TopDog Law Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 757,
+              "review_velocity": 7.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJzzwM2pXHxokRILH7XPjbTjI",
+              "rank_delta": -2,
+              "review_gain": 137
+            },
+            {
+              "rank": 11,
+              "name": "The Pearce Law Firm, Personal Injury and Car Accident Lawyers Philadelphia",
+              "rating": 4.8,
+              "reviews": 116,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJB_6YZALHxokRXRlM6Y-r9iY",
+              "rank_delta": -4,
+              "review_gain": 6
+            },
+            {
+              "rank": 12,
+              "name": "Kwartler Manus, LLC",
+              "rating": 4.9,
+              "reviews": 499,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJc_X3qTfGxokRV0rwa5z0Fb8",
+              "rank_delta": 4,
+              "review_gain": 14
+            },
+            {
+              "rank": 13,
+              "name": "Cousin Benny",
+              "rating": 4.8,
+              "reviews": 155,
+              "review_velocity": 0.65,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJDS8l4BnHxokR6mSFl-4YakA",
+              "rank_delta": -2,
+              "review_gain": 12
+            },
+            {
+              "rank": 14,
+              "name": "PhillyLaw",
+              "rating": 5.0,
+              "reviews": 34,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJa_XdyjnGxokRR4qYn_DOnhY",
+              "rank_delta": 0,
+              "review_gain": -1
+            },
+            {
+              "rank": 15,
+              "name": "Jeffrey H. Penneys Esq., P.C.",
+              "rating": 5.0,
+              "reviews": 248,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJH36T7THGxokRaC-EI2rPHZU",
+              "rank_delta": -3,
+              "review_gain": 2
+            },
+            {
+              "rank": 16,
+              "name": "Gibbons Legal",
+              "rating": 5.0,
+              "reviews": 329,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJATCdEC7GxokREKR-gfkjUuY",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 19,
+              "name": "Philly Injury Lawyer - Philadelphia Car Accident Attorneys",
+              "rating": 4.8,
+              "reviews": 88,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ11WBM_W2xokR38-dgudq254",
+              "rank_delta": -1,
+              "review_gain": 3
+            }
+          ],
+          "fastest_climber": {
+            "rank": 7,
+            "name": "MyPhillyLawyer",
+            "rating": 4.7,
+            "reviews": 309,
+            "review_velocity": 0.27,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJATCdEC7GxokRmNSZOIvZb_Q",
+            "rank_delta": 6,
+            "review_gain": 5
+          },
+          "fastest_review_gainer": {
+            "rank": 3,
+            "name": "Morgan & Morgan",
+            "rating": 4.6,
+            "reviews": 7712,
+            "review_velocity": 58.98,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJXdmUuDPGxokRr4N_QjjSppI",
+            "rank_delta": 2,
+            "review_gain": 1087
+          },
+          "visibility": {
+            "current_rank": 15,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 248 vs a typical competitor's 249. Close the 1-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.85."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.08/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Morgan & Morgan added 1087 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 15,
+          "start_rank": 12,
+          "net_change": -3,
+          "best_rank": 5,
+          "worst_rank": 15
+        },
+        "_confidence_score": 10,
+        "_scan_date": "August 20, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-10T14:22:49.810681+00:00",
@@ -46798,7 +48010,9 @@
           "type": "followup_1",
           "sent_at": "2026-08-17T13:41:35.665792+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-08-20T13:53:05.630518+00:00",
+      "free_report_email": "jhpenneys@1-800injurylaw.com"
     },
     {
       "id": "46e828fdec1d",
@@ -48443,12 +49657,579 @@
             "their_rating": 4.8,
             "their_current_rank": 2
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 5.9,
+          "n_snapshots": 4,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 17
+            },
+            {
+              "date": "Aug 03",
+              "rank": 8
+            },
+            {
+              "date": "Aug 17",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 413
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 418
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 421
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              17,
+              8,
+              20
+            ],
+            "dates": [
+              "Jul 06",
+              "Aug 03",
+              "Aug 17"
+            ],
+            "direction": "declining",
+            "best_rank": 8,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 1.37,
+            "total_gained": 8,
+            "weeks": 5.9,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Rose Cosmetic & Family Dentistry",
+              "rating": 5.0,
+              "reviews": 267,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJr7mcOFfbyIARwOImSKjtymI"
+            },
+            {
+              "rank": 2,
+              "name": "Lasting Smiles Dental Implant Center",
+              "rating": 4.8,
+              "reviews": 542,
+              "review_velocity": 0.85,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJIzzmoHzByIARxKUMzqf2VoQ"
+            },
+            {
+              "rank": 3,
+              "name": "Summerlin Center for Aesthetic Dentistry",
+              "rating": 5.0,
+              "reviews": 482,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl8xDLeG_yIAR8bQFCVBLuak"
+            },
+            {
+              "rank": 4,
+              "name": "Vegas Choice Dental",
+              "rating": 4.9,
+              "reviews": 605,
+              "review_velocity": 5.63,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJz0xTXebDyIARGNnG3Tzptgk"
+            },
+            {
+              "rank": 5,
+              "name": "Las Vegas Dental Group",
+              "rating": 4.8,
+              "reviews": 401,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJZSpiEObDyIARyTWhsLXEd5E"
+            },
+            {
+              "rank": 6,
+              "name": "Dental Atelier",
+              "rating": 5.0,
+              "reviews": 295,
+              "review_velocity": 1.71,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdaVb0wm_yIARN2nWf1Zu7Sk"
+            },
+            {
+              "rank": 7,
+              "name": "Vegas Smile Suite | Tozzi & Lawler",
+              "rating": 5.0,
+              "reviews": 160,
+              "review_velocity": 0.85,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ4ede5t7HyIARz2PtbRsefdY"
+            },
+            {
+              "rank": 8,
+              "name": "Stunning Smiles of Las Vegas",
+              "rating": 4.9,
+              "reviews": 660,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJk4xsZny4yIARSXWcWgKWHyQ"
+            },
+            {
+              "rank": 9,
+              "name": "Gardens Cosmetic and Family Dentistry",
+              "rating": 4.8,
+              "reviews": 199,
+              "review_velocity": 0.54,
+              "website": true,
+              "type": "Doctor",
+              "_key": "ChIJSdXfRCG_yIARUgDxUYJSabU"
+            },
+            {
+              "rank": 10,
+              "name": "Dr Snyder Cosmetic Dentistry Las Vegas",
+              "rating": 5.0,
+              "reviews": 55,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJhwPtqoG_yIAR-M0dfSR9koI"
+            },
+            {
+              "rank": 11,
+              "name": "Smile Designers of Las Vegas",
+              "rating": 4.8,
+              "reviews": 254,
+              "review_velocity": 0.34,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf9CoLsLGyIARhH8GHwo5OlM"
+            },
+            {
+              "rank": 12,
+              "name": "Sahara Modern Dentistry",
+              "rating": 4.8,
+              "reviews": 530,
+              "review_velocity": 6.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJczXGdufByIARZtq8oK-xd30"
+            },
+            {
+              "rank": 13,
+              "name": "Discovery Dental & Implants",
+              "rating": 4.9,
+              "reviews": 874,
+              "review_velocity": 2.73,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl39FMzvByIARX8Pw1Vnzw38"
+            },
+            {
+              "rank": 14,
+              "name": "True Dentistry - Cosmetic and Dental Implants",
+              "rating": 4.9,
+              "reviews": 1580,
+              "review_velocity": 0.85,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJIfjoKHy4yIAROZ9xlIKrhnY"
+            },
+            {
+              "rank": 15,
+              "name": "Lone Mountain Dental Las Vegas",
+              "rating": 4.8,
+              "reviews": 772,
+              "review_velocity": 5.8,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJRWOLZDfqyIAR68249triFEk"
+            },
+            {
+              "rank": 16,
+              "name": "Delicate Dental",
+              "rating": 4.9,
+              "reviews": 2352,
+              "review_velocity": 6.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJV8MzvEy5yIARo1ei8kMq_ic"
+            },
+            {
+              "rank": 17,
+              "name": "Hillcrest Dental Las Vegas",
+              "rating": 4.8,
+              "reviews": 1640,
+              "review_velocity": 4.95,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJbwkX1-O_yIARKAIhOmA8TL0"
+            },
+            {
+              "rank": 18,
+              "name": "Divine Dental",
+              "rating": 4.8,
+              "reviews": 362,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJSZ7WKA7ryIARDKwKneBekxQ"
+            },
+            {
+              "rank": 19,
+              "name": "Nevada Dental Esthetics",
+              "rating": 4.9,
+              "reviews": 455,
+              "review_velocity": 2.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB7xEN-bGyIAREi6HADcFZKU"
+            },
+            {
+              "rank": 20,
+              "name": "Somerset Dental Las Vegas",
+              "rating": 4.7,
+              "reviews": 421,
+              "review_velocity": 1.37,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ07hxBsDAyIAR1ZW28oIXJ-4"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Somerset Dental Las Vegas",
+            "rating": 4.7,
+            "reviews": 421,
+            "review_velocity": 1.37,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJ07hxBsDAyIAR1ZW28oIXJ-4"
+          },
+          "benchmarks": {
+            "avg_rating": 4.88,
+            "avg_reviews": 645,
+            "median_reviews": 468,
+            "typical_reviews": 645,
+            "skewed": false,
+            "your_reviews": 421,
+            "your_rating": 4.7,
+            "reviews_percentile": 45,
+            "pack_size": 20,
+            "top_reviews": 2352
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Rose Cosmetic & Family Dentistry",
+              "rating": 5.0,
+              "reviews": 267,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJr7mcOFfbyIARwOImSKjtymI",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Lasting Smiles Dental Implant Center",
+              "rating": 4.8,
+              "reviews": 542,
+              "review_velocity": 0.85,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJIzzmoHzByIARxKUMzqf2VoQ",
+              "rank_delta": 2,
+              "review_gain": 5
+            },
+            {
+              "rank": 3,
+              "name": "Summerlin Center for Aesthetic Dentistry",
+              "rating": 5.0,
+              "reviews": 482,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl8xDLeG_yIAR8bQFCVBLuak",
+              "rank_delta": 0,
+              "review_gain": -1
+            },
+            {
+              "rank": 4,
+              "name": "Vegas Choice Dental",
+              "rating": 4.9,
+              "reviews": 605,
+              "review_velocity": 5.63,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJz0xTXebDyIARGNnG3Tzptgk",
+              "rank_delta": -2,
+              "review_gain": 33
+            },
+            {
+              "rank": 5,
+              "name": "Las Vegas Dental Group",
+              "rating": 4.8,
+              "reviews": 401,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJZSpiEObDyIARyTWhsLXEd5E",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 6,
+              "name": "Dental Atelier",
+              "rating": 5.0,
+              "reviews": 295,
+              "review_velocity": 1.71,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdaVb0wm_yIARN2nWf1Zu7Sk",
+              "rank_delta": 0,
+              "review_gain": 10
+            },
+            {
+              "rank": 7,
+              "name": "Vegas Smile Suite | Tozzi & Lawler",
+              "rating": 5.0,
+              "reviews": 160,
+              "review_velocity": 0.85,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ4ede5t7HyIARz2PtbRsefdY",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 8,
+              "name": "Stunning Smiles of Las Vegas",
+              "rating": 4.9,
+              "reviews": 660,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJk4xsZny4yIARSXWcWgKWHyQ",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 10,
+              "name": "Dr Snyder Cosmetic Dentistry Las Vegas",
+              "rating": 5.0,
+              "reviews": 55,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJhwPtqoG_yIAR-M0dfSR9koI",
+              "rank_delta": 2,
+              "review_gain": 11
+            },
+            {
+              "rank": 11,
+              "name": "Smile Designers of Las Vegas",
+              "rating": 4.8,
+              "reviews": 254,
+              "review_velocity": 0.34,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf9CoLsLGyIARhH8GHwo5OlM",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 12,
+              "name": "Sahara Modern Dentistry",
+              "rating": 4.8,
+              "reviews": 530,
+              "review_velocity": 6.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJczXGdufByIARZtq8oK-xd30",
+              "rank_delta": 4,
+              "review_gain": 36
+            },
+            {
+              "rank": 13,
+              "name": "Discovery Dental & Implants",
+              "rating": 4.9,
+              "reviews": 874,
+              "review_velocity": 2.73,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl39FMzvByIARX8Pw1Vnzw38",
+              "rank_delta": 0,
+              "review_gain": 16
+            },
+            {
+              "rank": 14,
+              "name": "True Dentistry - Cosmetic and Dental Implants",
+              "rating": 4.9,
+              "reviews": 1580,
+              "review_velocity": 0.85,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJIfjoKHy4yIAROZ9xlIKrhnY",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 15,
+              "name": "Lone Mountain Dental Las Vegas",
+              "rating": 4.8,
+              "reviews": 772,
+              "review_velocity": 5.8,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJRWOLZDfqyIAR68249triFEk",
+              "rank_delta": -4,
+              "review_gain": 34
+            },
+            {
+              "rank": 16,
+              "name": "Delicate Dental",
+              "rating": 4.9,
+              "reviews": 2352,
+              "review_velocity": 6.15,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJV8MzvEy5yIARo1ei8kMq_ic",
+              "rank_delta": -1,
+              "review_gain": 36
+            },
+            {
+              "rank": 17,
+              "name": "Hillcrest Dental Las Vegas",
+              "rating": 4.8,
+              "reviews": 1640,
+              "review_velocity": 4.95,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJbwkX1-O_yIARKAIhOmA8TL0",
+              "rank_delta": 2,
+              "review_gain": 29
+            },
+            {
+              "rank": 18,
+              "name": "Divine Dental",
+              "rating": 4.8,
+              "reviews": 362,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJSZ7WKA7ryIARDKwKneBekxQ",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 20,
+              "name": "Somerset Dental Las Vegas",
+              "rating": 4.7,
+              "reviews": 421,
+              "review_velocity": 1.37,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ07hxBsDAyIAR1ZW28oIXJ-4",
+              "rank_delta": -3,
+              "review_gain": 8
+            }
+          ],
+          "fastest_climber": {
+            "rank": 12,
+            "name": "Sahara Modern Dentistry",
+            "rating": 4.8,
+            "reviews": 530,
+            "review_velocity": 6.15,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJczXGdufByIARZtq8oK-xd30",
+            "rank_delta": 4,
+            "review_gain": 36
+          },
+          "fastest_review_gainer": {
+            "rank": 12,
+            "name": "Sahara Modern Dentistry",
+            "rating": 4.8,
+            "reviews": 530,
+            "review_velocity": 6.15,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJczXGdufByIARZtq8oK-xd30",
+            "rank_delta": 4,
+            "review_gain": 36
+          },
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 8,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.9,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 1.1,
+            "lost_vs_best_rel": 58,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 421 vs a typical competitor's 645. Close the 224-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.7 vs category 4.88. A 0.18-star gap costs trust at a glance."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.37/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Sahara Modern Dentistry added 36 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 17,
+          "net_change": -3,
+          "best_rank": 8,
+          "worst_rank": 20
+        },
+        "_confidence_score": 9,
+        "_scan_date": "August 20, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-17T13:41:31.799808+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-08-20T13:52:23.417300+00:00",
+      "free_report_email": "info@DrPalluck.com"
     },
     {
       "id": "8f6e9a68005c",
