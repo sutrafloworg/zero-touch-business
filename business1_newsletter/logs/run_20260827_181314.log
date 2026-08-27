@@ -1,0 +1,6 @@
+2026-08-27 18:13:15,331 [INFO] orchestrator — ============================================================
+2026-08-27 18:13:15,332 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-08-27 18:13:15,332 [INFO] orchestrator — Timestamp: 2026-08-27T18:13:15.332148+00:00
+2026-08-27 18:13:15,332 [INFO] orchestrator — ============================================================
+2026-08-27 18:13:15,332 [INFO] orchestrator — Last run was 2d 10h ago — within 5d guard. Skipping to avoid duplicate send.
+2026-08-27 18:13:15,332 [INFO] orchestrator — Already ran this week — exiting cleanly (this is not a failure)
