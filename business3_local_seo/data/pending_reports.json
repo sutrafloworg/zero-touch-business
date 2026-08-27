@@ -53159,12 +53159,649 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 13.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 18",
+              "rank": 11
+            },
+            {
+              "date": "Jun 01",
+              "rank": 11
+            },
+            {
+              "date": "Jun 08",
+              "rank": 12
+            },
+            {
+              "date": "Jun 15",
+              "rank": 8
+            },
+            {
+              "date": "Jun 22",
+              "rank": 8
+            },
+            {
+              "date": "Jun 29",
+              "rank": 10
+            },
+            {
+              "date": "Jul 13",
+              "rank": 9
+            },
+            {
+              "date": "Jul 27",
+              "rank": 9
+            },
+            {
+              "date": "Aug 10",
+              "rank": 10
+            },
+            {
+              "date": "Aug 24",
+              "rank": 18
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 18",
+              "reviews": 470
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 483
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 492
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 502
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 505
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 512
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 520
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 526
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 535
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 544
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              11,
+              11,
+              12,
+              8,
+              8,
+              10,
+              9,
+              9,
+              10,
+              18
+            ],
+            "dates": [
+              "May 18",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24"
+            ],
+            "direction": "declining",
+            "best_rank": 8,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 5.34,
+            "total_gained": 74,
+            "weeks": 13.9,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "My Smile Miami",
+              "rating": 5.0,
+              "reviews": 1570,
+              "review_velocity": 0.87,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJZ524ymi32YgR4HrN8bg9vzU"
+            },
+            {
+              "rank": 2,
+              "name": "Miami Sedation & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 488,
+              "review_velocity": 2.38,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ90NRrq232YgROx9mQGh-ap4"
+            },
+            {
+              "rank": 3,
+              "name": "Biscayne Dental & Facial Aesthetics",
+              "rating": 4.9,
+              "reviews": 340,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJH9_tZqq22YgRb84aw-ZQDrI"
+            },
+            {
+              "rank": 4,
+              "name": "High Cosmetic Dentist",
+              "rating": 5.0,
+              "reviews": 224,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJN9mGkCS32YgR9ZFHfyCvhJ0"
+            },
+            {
+              "rank": 5,
+              "name": "Miami Center for Cosmetic & Implant Dentistry",
+              "rating": 4.9,
+              "reviews": 1595,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ3_sVOHvA2YgRgfccJ7agrBg"
+            },
+            {
+              "rank": 6,
+              "name": "Smile Design Mia - Cosmetic Dental Clinic Miami",
+              "rating": 4.7,
+              "reviews": 206,
+              "review_velocity": 1.8,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJhcX2zvS32YgR6PR6OI87G1s"
+            },
+            {
+              "rank": 7,
+              "name": "Miami Dental Sedation Spa",
+              "rating": 5.0,
+              "reviews": 1304,
+              "review_velocity": 2.89,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ8Sx_2nC32YgReiUaspXKIYs"
+            },
+            {
+              "rank": 8,
+              "name": "Dentists in Brickell - HQ Dontics Dental Centre",
+              "rating": 4.9,
+              "reviews": 751,
+              "review_velocity": 3.54,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0XSP4IO22YgRhKT-1BNj3Z0"
+            },
+            {
+              "rank": 9,
+              "name": "Brickell Avenue Cosmetic & Holistic Dentistry",
+              "rating": 4.8,
+              "reviews": 60,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJI8QcVXy22YgRzuVJ-EzNU0A"
+            },
+            {
+              "rank": 10,
+              "name": "Dr. Patty Miami Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 684,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJOamCf6sB2YgRLeG2dzHx4AE"
+            },
+            {
+              "rank": 11,
+              "name": "Miami Designer Smiles",
+              "rating": 5.0,
+              "reviews": 761,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJQcKZzWPH2YgRPY0cJ46_A9I"
+            },
+            {
+              "rank": 12,
+              "name": "CG Smile",
+              "rating": 4.7,
+              "reviews": 1747,
+              "review_velocity": 1.08,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJvS5Npx232YgRcl7zAtefOL4"
+            },
+            {
+              "rank": 13,
+              "name": "Ultra Smile Miami",
+              "rating": 4.8,
+              "reviews": 854,
+              "review_velocity": 2.16,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJzfnoM5y22YgR1GGcGrWwfH8"
+            },
+            {
+              "rank": 14,
+              "name": "Precious Smiles Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 305,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJASh4mIm02YgRa1DIBFOCm9o"
+            },
+            {
+              "rank": 15,
+              "name": "Smile Design Miami",
+              "rating": 4.9,
+              "reviews": 515,
+              "review_velocity": 1.23,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCV_9C_y42YgRjJ5r9MY2fTA"
+            },
+            {
+              "rank": 16,
+              "name": "5 Star Smiles",
+              "rating": 4.9,
+              "reviews": 389,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJrVsAzgy32YgR3nJl0Sxg-6Q"
+            },
+            {
+              "rank": 17,
+              "name": "Elite Smiles Dental Center",
+              "rating": 5.0,
+              "reviews": 293,
+              "review_velocity": 4.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJlePrEiO32YgRRNKyopwgvuE"
+            },
+            {
+              "rank": 18,
+              "name": "LP Dental & Cosmetic",
+              "rating": 4.9,
+              "reviews": 544,
+              "review_velocity": 5.34,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJt-q6LTO42YgRoBE2S91u_gI"
+            },
+            {
+              "rank": 19,
+              "name": "Svelta Dental Design",
+              "rating": 4.7,
+              "reviews": 394,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJFbqv3gG32YgRBDTYTQUdrYY"
+            },
+            {
+              "rank": 20,
+              "name": "ONE Dental Miami",
+              "rating": 4.8,
+              "reviews": 367,
+              "review_velocity": 0.78,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJOeo2vFu22YgRnXmUhbsc1LE"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "LP Dental & Cosmetic",
+            "rating": 4.9,
+            "reviews": 544,
+            "review_velocity": 5.34,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJt-q6LTO42YgRoBE2S91u_gI"
+          },
+          "benchmarks": {
+            "avg_rating": 4.88,
+            "avg_reviews": 670,
+            "median_reviews": 502,
+            "typical_reviews": 670,
+            "skewed": false,
+            "your_reviews": 544,
+            "your_rating": 4.9,
+            "reviews_percentile": 60,
+            "pack_size": 20,
+            "top_reviews": 1747
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "My Smile Miami",
+              "rating": 5.0,
+              "reviews": 1570,
+              "review_velocity": 0.87,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJZ524ymi32YgR4HrN8bg9vzU",
+              "rank_delta": 0,
+              "review_gain": 12
+            },
+            {
+              "rank": 2,
+              "name": "Miami Sedation & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 488,
+              "review_velocity": 2.38,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ90NRrq232YgROx9mQGh-ap4",
+              "rank_delta": 1,
+              "review_gain": 33
+            },
+            {
+              "rank": 3,
+              "name": "Biscayne Dental & Facial Aesthetics",
+              "rating": 4.9,
+              "reviews": 340,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJH9_tZqq22YgRb84aw-ZQDrI",
+              "rank_delta": 1,
+              "review_gain": 5
+            },
+            {
+              "rank": 4,
+              "name": "High Cosmetic Dentist",
+              "rating": 5.0,
+              "reviews": 224,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJN9mGkCS32YgR9ZFHfyCvhJ0",
+              "rank_delta": -2,
+              "review_gain": 26
+            },
+            {
+              "rank": 5,
+              "name": "Miami Center for Cosmetic & Implant Dentistry",
+              "rating": 4.9,
+              "reviews": 1595,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ3_sVOHvA2YgRgfccJ7agrBg",
+              "rank_delta": 2,
+              "review_gain": 8
+            },
+            {
+              "rank": 6,
+              "name": "Smile Design Mia - Cosmetic Dental Clinic Miami",
+              "rating": 4.7,
+              "reviews": 206,
+              "review_velocity": 1.8,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJhcX2zvS32YgR6PR6OI87G1s",
+              "rank_delta": -1,
+              "review_gain": 25
+            },
+            {
+              "rank": 7,
+              "name": "Miami Dental Sedation Spa",
+              "rating": 5.0,
+              "reviews": 1304,
+              "review_velocity": 2.89,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ8Sx_2nC32YgReiUaspXKIYs",
+              "rank_delta": -1,
+              "review_gain": 40
+            },
+            {
+              "rank": 8,
+              "name": "Dentists in Brickell - HQ Dontics Dental Centre",
+              "rating": 4.9,
+              "reviews": 751,
+              "review_velocity": 3.54,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0XSP4IO22YgRhKT-1BNj3Z0",
+              "rank_delta": 0,
+              "review_gain": 49
+            },
+            {
+              "rank": 9,
+              "name": "Brickell Avenue Cosmetic & Holistic Dentistry",
+              "rating": 4.8,
+              "reviews": 60,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJI8QcVXy22YgRzuVJ-EzNU0A",
+              "rank_delta": 0,
+              "review_gain": 1
+            },
+            {
+              "rank": 10,
+              "name": "Dr. Patty Miami Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 684,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJOamCf6sB2YgRLeG2dzHx4AE",
+              "rank_delta": 0,
+              "review_gain": 18
+            },
+            {
+              "rank": 11,
+              "name": "Miami Designer Smiles",
+              "rating": 5.0,
+              "reviews": 761,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJQcKZzWPH2YgRPY0cJ46_A9I",
+              "rank_delta": 1,
+              "review_gain": 13
+            },
+            {
+              "rank": 12,
+              "name": "CG Smile",
+              "rating": 4.7,
+              "reviews": 1747,
+              "review_velocity": 1.08,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJvS5Npx232YgRcl7zAtefOL4",
+              "rank_delta": 1,
+              "review_gain": 15
+            },
+            {
+              "rank": 13,
+              "name": "Ultra Smile Miami",
+              "rating": 4.8,
+              "reviews": 854,
+              "review_velocity": 2.16,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJzfnoM5y22YgR1GGcGrWwfH8",
+              "rank_delta": 3,
+              "review_gain": 30
+            },
+            {
+              "rank": 14,
+              "name": "Precious Smiles Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 305,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJASh4mIm02YgRa1DIBFOCm9o",
+              "rank_delta": 3,
+              "review_gain": 10
+            },
+            {
+              "rank": 15,
+              "name": "Smile Design Miami",
+              "rating": 4.9,
+              "reviews": 515,
+              "review_velocity": 1.23,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCV_9C_y42YgRjJ5r9MY2fTA",
+              "rank_delta": 0,
+              "review_gain": 17
+            },
+            {
+              "rank": 16,
+              "name": "5 Star Smiles",
+              "rating": 4.9,
+              "reviews": 389,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJrVsAzgy32YgR3nJl0Sxg-6Q",
+              "rank_delta": 2,
+              "review_gain": 8
+            },
+            {
+              "rank": 17,
+              "name": "Elite Smiles Dental Center",
+              "rating": 5.0,
+              "reviews": 293,
+              "review_velocity": 4.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJlePrEiO32YgRRNKyopwgvuE",
+              "rank_delta": 2,
+              "review_gain": 66
+            },
+            {
+              "rank": 18,
+              "name": "LP Dental & Cosmetic",
+              "rating": 4.9,
+              "reviews": 544,
+              "review_velocity": 5.34,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJt-q6LTO42YgRoBE2S91u_gI",
+              "rank_delta": -7,
+              "review_gain": 74
+            }
+          ],
+          "fastest_climber": {
+            "rank": 13,
+            "name": "Ultra Smile Miami",
+            "rating": 4.8,
+            "reviews": 854,
+            "review_velocity": 2.16,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJzfnoM5y22YgR1GGcGrWwfH8",
+            "rank_delta": 3,
+            "review_gain": 30
+          },
+          "fastest_review_gainer": {
+            "rank": 18,
+            "name": "LP Dental & Cosmetic",
+            "rating": 4.9,
+            "reviews": 544,
+            "review_velocity": 5.34,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJt-q6LTO42YgRoBE2S91u_gI",
+            "rank_delta": -7,
+            "review_gain": 74
+          },
+          "visibility": {
+            "current_rank": 18,
+            "best_rank": 8,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.9,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 1.1,
+            "lost_vs_best_rel": 58,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 544 vs a typical competitor's 670. Close the 126-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.88."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 5.34/week (strong)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "LP Dental & Cosmetic added 74 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 18,
+          "start_rank": 11,
+          "net_change": -7,
+          "best_rank": 8,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "August 27, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-24T13:50:01.522614+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-08-27T22:55:48.298474+00:00",
+      "free_report_email": "info@lpdentalcosmetic.com"
     },
     {
       "id": "96ef90f84d49",
@@ -54104,12 +54741,611 @@
             "category_avg_rating": 4.8,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 13.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 18",
+              "rank": 9
+            },
+            {
+              "date": "May 25",
+              "rank": 8
+            },
+            {
+              "date": "Jun 01",
+              "rank": 1
+            },
+            {
+              "date": "Jun 08",
+              "rank": 1
+            },
+            {
+              "date": "Jun 15",
+              "rank": 8
+            },
+            {
+              "date": "Jun 22",
+              "rank": 8
+            },
+            {
+              "date": "Jun 29",
+              "rank": 4
+            },
+            {
+              "date": "Jul 13",
+              "rank": 6
+            },
+            {
+              "date": "Jul 27",
+              "rank": 6
+            },
+            {
+              "date": "Aug 10",
+              "rank": 4
+            },
+            {
+              "date": "Aug 24",
+              "rank": 14
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 18",
+              "reviews": 670
+            },
+            {
+              "date": "May 25",
+              "reviews": 672
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 673
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 675
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 678
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 680
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 681
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 684
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 688
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 689
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 747
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              9,
+              8,
+              1,
+              1,
+              8,
+              8,
+              4,
+              6,
+              6,
+              4,
+              14
+            ],
+            "dates": [
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24"
+            ],
+            "direction": "declining",
+            "best_rank": 1,
+            "worst_rank": 14
+          },
+          "review_velocity": {
+            "per_week": 5.56,
+            "total_gained": 77,
+            "weeks": 13.9,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Cherry Creek Dental Spa",
+              "rating": 4.9,
+              "reviews": 654,
+              "review_velocity": 4.47,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c"
+            },
+            {
+              "rank": 2,
+              "name": "Denver Place Dentistry",
+              "rating": 4.8,
+              "reviews": 347,
+              "review_velocity": 0.87,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJq07tHdp4bIcR1lmnO62NwmE"
+            },
+            {
+              "rank": 3,
+              "name": "EC Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 128,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE"
+            },
+            {
+              "rank": 4,
+              "name": "Advanced Aesthetic Dentistry",
+              "rating": 4.8,
+              "reviews": 280,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9VIGbSx_bIcRJORO9sPztA8"
+            },
+            {
+              "rank": 5,
+              "name": "Ascent Dental",
+              "rating": 4.7,
+              "reviews": 373,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJO6N_foN-bIcRti1deXlSPXg"
+            },
+            {
+              "rank": 6,
+              "name": "Dental Elements",
+              "rating": 4.9,
+              "reviews": 396,
+              "review_velocity": 0.26,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJDVhKWMF4bIcRT0HG2IGYUkY"
+            },
+            {
+              "rank": 7,
+              "name": "Denver Dream Dentistry",
+              "rating": 5.0,
+              "reviews": 590,
+              "review_velocity": 1.95,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR1F9Jxx8bIcRZDRbRJEEvKc"
+            },
+            {
+              "rank": 8,
+              "name": "5280 Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 196,
+              "review_velocity": 1.8,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs"
+            },
+            {
+              "rank": 9,
+              "name": "Denver Cosmetic & Implant Dentistry",
+              "rating": 4.7,
+              "reviews": 82,
+              "review_velocity": 0.14,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJq6o6O6F9bIcRbYFUiyYxbT8"
+            },
+            {
+              "rank": 10,
+              "name": "Midtown Dental",
+              "rating": 4.8,
+              "reviews": 494,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJTw72c0p5bIcRFy3LEorXoa4"
+            },
+            {
+              "rank": 11,
+              "name": "Highland Smiles",
+              "rating": 4.9,
+              "reviews": 658,
+              "review_velocity": 4.69,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJKTxiy2KHa4cRTERrwayXX9A"
+            },
+            {
+              "rank": 12,
+              "name": "Smile Studio Dental",
+              "rating": 4.9,
+              "reviews": 741,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns"
+            },
+            {
+              "rank": 13,
+              "name": "Corson Dentistry",
+              "rating": 4.9,
+              "reviews": 2256,
+              "review_velocity": 1.52,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_____8J4bIcRc7K97P21sso"
+            },
+            {
+              "rank": 14,
+              "name": "Icon Dental",
+              "rating": 4.6,
+              "reviews": 747,
+              "review_velocity": 5.56,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM"
+            },
+            {
+              "rank": 15,
+              "name": "Espire Dental Riverfront",
+              "rating": 4.8,
+              "reviews": 670,
+              "review_velocity": 2.33,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJv3iKuMF4bIcRJORTCOxi5ss"
+            },
+            {
+              "rank": 16,
+              "name": "Pearl Dentistry",
+              "rating": 4.9,
+              "reviews": 194,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU"
+            },
+            {
+              "rank": 17,
+              "name": "My Cherry Creek Dentist",
+              "rating": 4.9,
+              "reviews": 596,
+              "review_velocity": 1.24,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR89E6St8bIcRnlX5zXwXup0"
+            },
+            {
+              "rank": 18,
+              "name": "The Denver Dentists",
+              "rating": 4.5,
+              "reviews": 640,
+              "review_velocity": 4.04,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyxDJBfR5bIcRLxwG8ibI42k"
+            },
+            {
+              "rank": 19,
+              "name": "RiNo Dental",
+              "rating": 4.8,
+              "reviews": 602,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw"
+            },
+            {
+              "rank": 20,
+              "name": "Aurum Dental Aesthetics",
+              "rating": 5.0,
+              "reviews": 79,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ50gF4zeBbIcRa_S00cv5e7E"
+            }
+          ],
+          "subject": {
+            "rank": 14,
+            "name": "Icon Dental",
+            "rating": 4.6,
+            "reviews": 747,
+            "review_velocity": 5.56,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM"
+          },
+          "benchmarks": {
+            "avg_rating": 4.83,
+            "avg_reviews": 536,
+            "median_reviews": 542,
+            "typical_reviews": 536,
+            "skewed": false,
+            "your_reviews": 747,
+            "your_rating": 4.6,
+            "reviews_percentile": 95,
+            "pack_size": 20,
+            "top_reviews": 2256
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Cherry Creek Dental Spa",
+              "rating": 4.9,
+              "reviews": 654,
+              "review_velocity": 4.47,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c",
+              "rank_delta": 4,
+              "review_gain": 62
+            },
+            {
+              "rank": 2,
+              "name": "Denver Place Dentistry",
+              "rating": 4.8,
+              "reviews": 347,
+              "review_velocity": 0.87,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJq07tHdp4bIcR1lmnO62NwmE",
+              "rank_delta": 4,
+              "review_gain": 12
+            },
+            {
+              "rank": 3,
+              "name": "EC Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 128,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE",
+              "rank_delta": 1,
+              "review_gain": -1
+            },
+            {
+              "rank": 4,
+              "name": "Advanced Aesthetic Dentistry",
+              "rating": 4.8,
+              "reviews": 280,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9VIGbSx_bIcRJORO9sPztA8",
+              "rank_delta": -3,
+              "review_gain": 4
+            },
+            {
+              "rank": 7,
+              "name": "Denver Dream Dentistry",
+              "rating": 5.0,
+              "reviews": 590,
+              "review_velocity": 1.95,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR1F9Jxx8bIcRZDRbRJEEvKc",
+              "rank_delta": -5,
+              "review_gain": 27
+            },
+            {
+              "rank": 8,
+              "name": "5280 Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 196,
+              "review_velocity": 1.8,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs",
+              "rank_delta": -1,
+              "review_gain": 25
+            },
+            {
+              "rank": 9,
+              "name": "Denver Cosmetic & Implant Dentistry",
+              "rating": 4.7,
+              "reviews": 82,
+              "review_velocity": 0.14,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJq6o6O6F9bIcRbYFUiyYxbT8",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 11,
+              "name": "Highland Smiles",
+              "rating": 4.9,
+              "reviews": 658,
+              "review_velocity": 4.69,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJKTxiy2KHa4cRTERrwayXX9A",
+              "rank_delta": 0,
+              "review_gain": 65
+            },
+            {
+              "rank": 12,
+              "name": "Smile Studio Dental",
+              "rating": 4.9,
+              "reviews": 741,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns",
+              "rank_delta": -9,
+              "review_gain": 10
+            },
+            {
+              "rank": 13,
+              "name": "Corson Dentistry",
+              "rating": 4.9,
+              "reviews": 2256,
+              "review_velocity": 1.52,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_____8J4bIcRc7K97P21sso",
+              "rank_delta": 3,
+              "review_gain": 21
+            },
+            {
+              "rank": 14,
+              "name": "Icon Dental",
+              "rating": 4.6,
+              "reviews": 747,
+              "review_velocity": 5.56,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM",
+              "rank_delta": -5,
+              "review_gain": 77
+            },
+            {
+              "rank": 16,
+              "name": "Pearl Dentistry",
+              "rating": 4.9,
+              "reviews": 194,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU",
+              "rank_delta": -6,
+              "review_gain": 5
+            },
+            {
+              "rank": 18,
+              "name": "The Denver Dentists",
+              "rating": 4.5,
+              "reviews": 640,
+              "review_velocity": 4.04,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyxDJBfR5bIcRLxwG8ibI42k",
+              "rank_delta": -3,
+              "review_gain": 56
+            },
+            {
+              "rank": 19,
+              "name": "RiNo Dental",
+              "rating": 4.8,
+              "reviews": 602,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw",
+              "rank_delta": -6,
+              "review_gain": 18
+            }
+          ],
+          "fastest_climber": {
+            "rank": 1,
+            "name": "Cherry Creek Dental Spa",
+            "rating": 4.9,
+            "reviews": 654,
+            "review_velocity": 4.47,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c",
+            "rank_delta": 4,
+            "review_gain": 62
+          },
+          "fastest_review_gainer": {
+            "rank": 14,
+            "name": "Icon Dental",
+            "rating": 4.6,
+            "reviews": 747,
+            "review_velocity": 5.56,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM",
+            "rank_delta": -5,
+            "review_gain": 77
+          },
+          "visibility": {
+            "current_rank": 14,
+            "best_rank": 1,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 33.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 32.3,
+            "lost_vs_best_rel": 98,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 747 vs a typical competitor's 536."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.6 vs category 4.83. A 0.23-star gap costs trust at a glance."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 5.56/week (strong)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Icon Dental added 77 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 14,
+          "start_rank": 9,
+          "net_change": -5,
+          "best_rank": 1,
+          "worst_rank": 14
+        },
+        "_confidence_score": 10,
+        "_scan_date": "August 27, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-24T13:50:01.522692+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-08-27T22:55:26.811169+00:00",
+      "free_report_email": "info@icondentaldenver.com"
     },
     {
       "id": "59ac47658578",
@@ -54672,12 +55908,635 @@
             "category_avg_rating": 4.8,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 13.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 18",
+              "rank": 8
+            },
+            {
+              "date": "May 25",
+              "rank": 8
+            },
+            {
+              "date": "Jun 01",
+              "rank": 7
+            },
+            {
+              "date": "Jun 08",
+              "rank": 9
+            },
+            {
+              "date": "Jun 15",
+              "rank": 5
+            },
+            {
+              "date": "Jun 22",
+              "rank": 6
+            },
+            {
+              "date": "Jun 29",
+              "rank": 5
+            },
+            {
+              "date": "Jul 13",
+              "rank": 8
+            },
+            {
+              "date": "Jul 27",
+              "rank": 8
+            },
+            {
+              "date": "Aug 10",
+              "rank": 6
+            },
+            {
+              "date": "Aug 24",
+              "rank": 18
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 18",
+              "reviews": 28
+            },
+            {
+              "date": "May 25",
+              "reviews": 28
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 29
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 29
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 30
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 32
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 36
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 34
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 36
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 41
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 48
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              8,
+              8,
+              7,
+              9,
+              5,
+              6,
+              5,
+              8,
+              8,
+              6,
+              18
+            ],
+            "dates": [
+              "May 18",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24"
+            ],
+            "direction": "declining",
+            "best_rank": 5,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 1.44,
+            "total_gained": 20,
+            "weeks": 13.9,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Morgan & Morgan",
+              "rating": 4.8,
+              "reviews": 866,
+              "review_velocity": 6.42,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJD-ZIXEqBhYARy5MjrNN1Z4E"
+            },
+            {
+              "rank": 2,
+              "name": "Jacoby & Meyers Accident & Injury Lawyers - San Francisco",
+              "rating": 4.8,
+              "reviews": 146,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5zHy54CBhYARunYYrx7Cs2Y"
+            },
+            {
+              "rank": 3,
+              "name": "Dolan Law Firm, PC Personal Injury Lawyers",
+              "rating": 4.6,
+              "reviews": 298,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJn_7ZH5yAhYARW_Db1-qHwiA"
+            },
+            {
+              "rank": 4,
+              "name": "Walkup Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 168,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ8_xkpIuAhYARM7FopYHxIRA"
+            },
+            {
+              "rank": 5,
+              "name": "Harris Personal Injury Lawyers, Inc.",
+              "rating": 4.9,
+              "reviews": 128,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJqbJLineAhYARixqWab6HM_g"
+            },
+            {
+              "rank": 6,
+              "name": "Omega Law Group Accident & Injury Attorneys",
+              "rating": 4.9,
+              "reviews": 72,
+              "review_velocity": 1.59,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJvXApbZmBhYAR-fzzXx-4hBw"
+            },
+            {
+              "rank": 7,
+              "name": "Sweet James Accident Attorneys",
+              "rating": 4.9,
+              "reviews": 21,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ4ektz-mBhYARfy4Ixn7i5sA"
+            },
+            {
+              "rank": 8,
+              "name": "Sally Morin Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 123,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ2SAhxYmAhYAR4_oNFMAP_Dg"
+            },
+            {
+              "rank": 9,
+              "name": "San Francisco Personal Injury Attorney",
+              "rating": 5.0,
+              "reviews": 36,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJWxtti2Z_j4ARf6jNV82D1bo"
+            },
+            {
+              "rank": 10,
+              "name": "Scarlett Law Group Injury and Accident Attorneys",
+              "rating": 4.7,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJERrt4vSAhYARbvSR51pozwk"
+            },
+            {
+              "rank": 11,
+              "name": "Delfino Green & Green - San Francisco Personal Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 29,
+              "review_velocity": 1.08,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJiTlcsqOBhYARM1xz7XKeiLc"
+            },
+            {
+              "rank": 12,
+              "name": "Anderson Franco Law",
+              "rating": 5.0,
+              "reviews": 107,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJd_2bY1KBhYARAvlwiXb7oy0"
+            },
+            {
+              "rank": 13,
+              "name": "Arash Law",
+              "rating": 4.9,
+              "reviews": 159,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJX4awes6BhYARr8D560HdTgM"
+            },
+            {
+              "rank": 14,
+              "name": "Adamson Ahdoot Accident and Injury Lawyers - San Francisco",
+              "rating": 4.8,
+              "reviews": 32,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ__-zt1-AhYAR59hVcAYQvNU"
+            },
+            {
+              "rank": 15,
+              "name": "Nadrich Accident Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 79,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJydXa4GSAhYARPEgA-8HG4JE"
+            },
+            {
+              "rank": 16,
+              "name": "Silva Injury Law, Inc.",
+              "rating": 5.0,
+              "reviews": 116,
+              "review_velocity": 0.78,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJyxXdmW-BhYARWUHb33lWj8k"
+            },
+            {
+              "rank": 17,
+              "name": "Law Office Of Daniel H. Rose",
+              "rating": 4.9,
+              "reviews": 27,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJC0R_YmGAhYARahWcW6LOmpo"
+            },
+            {
+              "rank": 18,
+              "name": "Mova Law Group",
+              "rating": 5.0,
+              "reviews": 48,
+              "review_velocity": 1.44,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJI4dbd--BhYARXEXoYS0T6tw"
+            },
+            {
+              "rank": 19,
+              "name": "Choulos, Choulos, & Wyle",
+              "rating": 4.8,
+              "reviews": 67,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJbdFtCoqAhYARisco8ynuCOQ"
+            },
+            {
+              "rank": 20,
+              "name": "Callaway & Wolf",
+              "rating": 4.4,
+              "reviews": 24,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJAShaJ4aAhYAR7jJ3KZmjfQI"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "Mova Law Group",
+            "rating": 5.0,
+            "reviews": 48,
+            "review_velocity": 1.44,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJI4dbd--BhYARXEXoYS0T6tw"
+          },
+          "benchmarks": {
+            "avg_rating": 4.85,
+            "avg_reviews": 129,
+            "median_reviews": 76,
+            "typical_reviews": 129,
+            "skewed": false,
+            "your_reviews": 48,
+            "your_rating": 5.0,
+            "reviews_percentile": 40,
+            "pack_size": 20,
+            "top_reviews": 866
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Morgan & Morgan",
+              "rating": 4.8,
+              "reviews": 866,
+              "review_velocity": 6.42,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJD-ZIXEqBhYARy5MjrNN1Z4E",
+              "rank_delta": 0,
+              "review_gain": 89
+            },
+            {
+              "rank": 2,
+              "name": "Jacoby & Meyers Accident & Injury Lawyers - San Francisco",
+              "rating": 4.8,
+              "reviews": 146,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5zHy54CBhYARunYYrx7Cs2Y",
+              "rank_delta": 0,
+              "review_gain": 2
+            },
+            {
+              "rank": 3,
+              "name": "Dolan Law Firm, PC Personal Injury Lawyers",
+              "rating": 4.6,
+              "reviews": 298,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJn_7ZH5yAhYARW_Db1-qHwiA",
+              "rank_delta": 0,
+              "review_gain": 10
+            },
+            {
+              "rank": 4,
+              "name": "Walkup Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 168,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ8_xkpIuAhYARM7FopYHxIRA",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 5,
+              "name": "Harris Personal Injury Lawyers, Inc.",
+              "rating": 4.9,
+              "reviews": 128,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJqbJLineAhYARixqWab6HM_g",
+              "rank_delta": 0,
+              "review_gain": 4
+            },
+            {
+              "rank": 6,
+              "name": "Omega Law Group Accident & Injury Attorneys",
+              "rating": 4.9,
+              "reviews": 72,
+              "review_velocity": 1.59,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJvXApbZmBhYAR-fzzXx-4hBw",
+              "rank_delta": 3,
+              "review_gain": 22
+            },
+            {
+              "rank": 8,
+              "name": "Sally Morin Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 123,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ2SAhxYmAhYAR4_oNFMAP_Dg",
+              "rank_delta": -2,
+              "review_gain": 3
+            },
+            {
+              "rank": 9,
+              "name": "San Francisco Personal Injury Attorney",
+              "rating": 5.0,
+              "reviews": 36,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJWxtti2Z_j4ARf6jNV82D1bo",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 10,
+              "name": "Scarlett Law Group Injury and Accident Attorneys",
+              "rating": 4.7,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJERrt4vSAhYARbvSR51pozwk",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 12,
+              "name": "Anderson Franco Law",
+              "rating": 5.0,
+              "reviews": 107,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJd_2bY1KBhYARAvlwiXb7oy0",
+              "rank_delta": -1,
+              "review_gain": 6
+            },
+            {
+              "rank": 13,
+              "name": "Arash Law",
+              "rating": 4.9,
+              "reviews": 159,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJX4awes6BhYARr8D560HdTgM",
+              "rank_delta": 0,
+              "review_gain": 18
+            },
+            {
+              "rank": 14,
+              "name": "Adamson Ahdoot Accident and Injury Lawyers - San Francisco",
+              "rating": 4.8,
+              "reviews": 32,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ__-zt1-AhYAR59hVcAYQvNU",
+              "rank_delta": 0,
+              "review_gain": 6
+            },
+            {
+              "rank": 15,
+              "name": "Nadrich Accident Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 79,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJydXa4GSAhYARPEgA-8HG4JE",
+              "rank_delta": -3,
+              "review_gain": 2
+            },
+            {
+              "rank": 17,
+              "name": "Law Office Of Daniel H. Rose",
+              "rating": 4.9,
+              "reviews": 27,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJC0R_YmGAhYARahWcW6LOmpo",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 18,
+              "name": "Mova Law Group",
+              "rating": 5.0,
+              "reviews": 48,
+              "review_velocity": 1.44,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJI4dbd--BhYARXEXoYS0T6tw",
+              "rank_delta": -10,
+              "review_gain": 20
+            },
+            {
+              "rank": 19,
+              "name": "Choulos, Choulos, & Wyle",
+              "rating": 4.8,
+              "reviews": 67,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJbdFtCoqAhYARisco8ynuCOQ",
+              "rank_delta": -4,
+              "review_gain": 2
+            }
+          ],
+          "fastest_climber": {
+            "rank": 6,
+            "name": "Omega Law Group Accident & Injury Attorneys",
+            "rating": 4.9,
+            "reviews": 72,
+            "review_velocity": 1.59,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJvXApbZmBhYAR-fzzXx-4hBw",
+            "rank_delta": 3,
+            "review_gain": 22
+          },
+          "fastest_review_gainer": {
+            "rank": 1,
+            "name": "Morgan & Morgan",
+            "rating": 4.8,
+            "reviews": 866,
+            "review_velocity": 6.42,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJD-ZIXEqBhYARy5MjrNN1Z4E",
+            "rank_delta": 0,
+            "review_gain": 89
+          },
+          "visibility": {
+            "current_rank": 18,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 48 vs a typical competitor's 129. Close the 81-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.85."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.44/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Morgan & Morgan added 89 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 18,
+          "start_rank": 8,
+          "net_change": -10,
+          "best_rank": 5,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "August 27, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-24T13:50:01.522739+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-08-27T22:55:07.295684+00:00",
+      "free_report_email": "chris@movalegal.com"
     },
     {
       "id": "d66023c5069c",
