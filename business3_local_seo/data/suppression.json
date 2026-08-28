@@ -135,6 +135,10 @@
     "carrie@atproperties.com": {
       "added_at": "2026-08-14T11:43:00.140818+00:00",
       "reason": "hard_bounce"
+    },
+    "info@lpdentalcosmetic.com": {
+      "added_at": "2026-08-28T21:19:40.061209+00:00",
+      "reason": "hard_bounce"
     }
   }
 }
