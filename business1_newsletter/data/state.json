@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-08-25T07:39:20.937008+00:00",
-  "issues_published": 17,
+  "last_run": "2026-09-01T12:18:15.562517+00:00",
+  "issues_published": 18,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://openai.com/index/daybreak-securing-the-world",
-    "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
-    "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-    "https://openai.com/index/chatgpt-enterprise-spend-controls",
-    "https://openai.com/index/ai-chemist-improves-reaction",
-    "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-    "https://www.producthunt.com/products/ask-ad-manager",
-    "https://openai.com/index/daybreak-securing-the-world/",
-    "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
-    "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
     "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
     "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
     "https://openai.com/index/mapping-ai-jobs-transition-eu",
@@ -102,11 +92,21 @@
     "https://www.producthunt.com/products/decawork",
     "https://www.producthunt.com/products/claude-academy",
     "https://github.com/dragthelake/ambient-context",
-    "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/"
+    "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+    "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+    "https://openai.com/index/polimill",
+    "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+    "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+    "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "https://openai.com/index/learning-never-stops",
+    "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+    "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+    "https://www.producthunt.com/products/omlx",
+    "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents"
   ],
-  "affiliate_rotation_index": 40,
+  "affiliate_rotation_index": 42,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "25595979"
+  "last_broadcast_id": "25705801"
 }
