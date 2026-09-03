@@ -52769,7 +52769,674 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 13.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 18",
+              "rank": 6
+            },
+            {
+              "date": "May 19",
+              "rank": 5
+            },
+            {
+              "date": "May 25",
+              "rank": 6
+            },
+            {
+              "date": "Jun 01",
+              "rank": 7
+            },
+            {
+              "date": "Jun 08",
+              "rank": 6
+            },
+            {
+              "date": "Jun 15",
+              "rank": 8
+            },
+            {
+              "date": "Jun 22",
+              "rank": 8
+            },
+            {
+              "date": "Jun 29",
+              "rank": 7
+            },
+            {
+              "date": "Jul 13",
+              "rank": 7
+            },
+            {
+              "date": "Jul 27",
+              "rank": 7
+            },
+            {
+              "date": "Aug 10",
+              "rank": 7
+            },
+            {
+              "date": "Aug 24",
+              "rank": 14
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 18",
+              "reviews": 73
+            },
+            {
+              "date": "May 19",
+              "reviews": 73
+            },
+            {
+              "date": "May 25",
+              "reviews": 73
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 73
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 74
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 74
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 74
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 74
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 74
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 75
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 75
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 77
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              6,
+              5,
+              6,
+              7,
+              6,
+              8,
+              8,
+              7,
+              7,
+              7,
+              7,
+              14
+            ],
+            "dates": [
+              "May 18",
+              "May 19",
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24"
+            ],
+            "direction": "declining",
+            "best_rank": 5,
+            "worst_rank": 14
+          },
+          "review_velocity": {
+            "per_week": 0.29,
+            "total_gained": 4,
+            "weeks": 13.9,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Making You Smile Cosmetic Dentist Studio NYC: Dr. Ziad Jalbout DDS",
+              "rating": 4.9,
+              "reviews": 486,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJL66tzAZZwokRU_AfukjEIgg"
+            },
+            {
+              "rank": 2,
+              "name": "The New York Center for Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 220,
+              "review_velocity": 0.65,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJ4yLMCOtYwokRwvP--IrJZrI"
+            },
+            {
+              "rank": 3,
+              "name": "The Smile Code NYC",
+              "rating": 4.9,
+              "reviews": 282,
+              "review_velocity": 1.08,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJrfIOxpdYwokRdIKgoSPfBdA"
+            },
+            {
+              "rank": 4,
+              "name": "NYC Smile Spa",
+              "rating": 4.9,
+              "reviews": 402,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJXYDvn_BYwokRLo_zCc7yz7Y"
+            },
+            {
+              "rank": 5,
+              "name": "Cosmetic Dental Studios - Victoria Veytsman DDS",
+              "rating": 4.9,
+              "reviews": 288,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJG7bZuPpYwokRv9EfGwCtkhU"
+            },
+            {
+              "rank": 6,
+              "name": "Luxury & Cosmetic Dentistry NYC",
+              "rating": 5.0,
+              "reviews": 110,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaWxvvsBYwokRMd9OMpzKh8g"
+            },
+            {
+              "rank": 7,
+              "name": "Dr. Alex Rubinov - NYC Cosmetic Dentist",
+              "rating": 5.0,
+              "reviews": 226,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq6q-NvxYwokRj8h5qe9jVO0"
+            },
+            {
+              "rank": 8,
+              "name": "Midtown Cosmetic Dental",
+              "rating": 5.0,
+              "reviews": 166,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJpS60CuyBt4cR_BDDRVYhFvY"
+            },
+            {
+              "rank": 9,
+              "name": "Soho Smile",
+              "rating": 4.9,
+              "reviews": 209,
+              "review_velocity": -0.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJfYPFMYlZwokRZ8-dgWvO9cU"
+            },
+            {
+              "rank": 10,
+              "name": "SmilesNY",
+              "rating": 4.9,
+              "reviews": 313,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJI1YIlehYwokRip_o3rHiF_A"
+            },
+            {
+              "rank": 11,
+              "name": "Park Smiles NYC Cosmetic Dentistry",
+              "rating": 4.8,
+              "reviews": 564,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaT-yiqNYwokRjC18nrpyb60"
+            },
+            {
+              "rank": 12,
+              "name": "Aesthetic Dentistry of Manhattan",
+              "rating": 5.0,
+              "reviews": 302,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6-sH4QxZwokRRFBQhButnj8"
+            },
+            {
+              "rank": 13,
+              "name": "Smile Arts of NY",
+              "rating": 4.8,
+              "reviews": 820,
+              "review_velocity": 2.16,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJy2FDGQFZwokRObY90eoCKcM"
+            },
+            {
+              "rank": 14,
+              "name": "Cosmetic Dentistry Center NYC - Dr. Pia Lieb",
+              "rating": 4.6,
+              "reviews": 77,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJCW4xJu5YwokRNT23W9h8jkc"
+            },
+            {
+              "rank": 15,
+              "name": "Luxe Rx Dental and Wellness Studio NYC",
+              "rating": 4.9,
+              "reviews": 284,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJVYXF02ZZwokRVyNbM4Nvlx8"
+            },
+            {
+              "rank": 16,
+              "name": "Rockefeller Cosmetic Dentistry Grand Central, New York",
+              "rating": 4.8,
+              "reviews": 39,
+              "review_velocity": 0.79,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJY1CARAFZwokRQ61vWb2p6zE"
+            },
+            {
+              "rank": 17,
+              "name": "Smile Design Manhattan",
+              "rating": 4.9,
+              "reviews": 582,
+              "review_velocity": 1.59,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJR7iIeO9YwokRNrKU4p-gUlk"
+            },
+            {
+              "rank": 18,
+              "name": "FaktorDMD Cosmetic Dentistry & Implants - NYC",
+              "rating": 5.0,
+              "reviews": 127,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJMTacs_tYwokR_q5Gg8yNZCM"
+            },
+            {
+              "rank": 19,
+              "name": "Rockefeller Cosmetic Dentistry Chelsea",
+              "rating": 4.9,
+              "reviews": 144,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ14E1qv5YwokRGplQ0ti77ck"
+            },
+            {
+              "rank": 20,
+              "name": "Empire Dental Aesthetics",
+              "rating": 5.0,
+              "reviews": 136,
+              "review_velocity": 0.16,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ36rai_tYwokRJANtQh2WsmQ"
+            }
+          ],
+          "subject": {
+            "rank": 14,
+            "name": "Cosmetic Dentistry Center NYC - Dr. Pia Lieb",
+            "rating": 4.6,
+            "reviews": 77,
+            "review_velocity": 0.29,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJCW4xJu5YwokRNT23W9h8jkc"
+          },
+          "benchmarks": {
+            "avg_rating": 4.9,
+            "avg_reviews": 289,
+            "median_reviews": 254,
+            "typical_reviews": 289,
+            "skewed": false,
+            "your_reviews": 77,
+            "your_rating": 4.6,
+            "reviews_percentile": 10,
+            "pack_size": 20,
+            "top_reviews": 820
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Making You Smile Cosmetic Dentist Studio NYC: Dr. Ziad Jalbout DDS",
+              "rating": 4.9,
+              "reviews": 486,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJL66tzAZZwokRU_AfukjEIgg",
+              "rank_delta": 1,
+              "review_gain": 7
+            },
+            {
+              "rank": 2,
+              "name": "The New York Center for Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 220,
+              "review_velocity": 0.65,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJ4yLMCOtYwokRwvP--IrJZrI",
+              "rank_delta": -1,
+              "review_gain": 9
+            },
+            {
+              "rank": 3,
+              "name": "The Smile Code NYC",
+              "rating": 4.9,
+              "reviews": 282,
+              "review_velocity": 1.08,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJrfIOxpdYwokRdIKgoSPfBdA",
+              "rank_delta": 5,
+              "review_gain": 15
+            },
+            {
+              "rank": 4,
+              "name": "NYC Smile Spa",
+              "rating": 4.9,
+              "reviews": 402,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJXYDvn_BYwokRLo_zCc7yz7Y",
+              "rank_delta": 1,
+              "review_gain": 7
+            },
+            {
+              "rank": 5,
+              "name": "Cosmetic Dental Studios - Victoria Veytsman DDS",
+              "rating": 4.9,
+              "reviews": 288,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJG7bZuPpYwokRv9EfGwCtkhU",
+              "rank_delta": -1,
+              "review_gain": 1
+            },
+            {
+              "rank": 6,
+              "name": "Luxury & Cosmetic Dentistry NYC",
+              "rating": 5.0,
+              "reviews": 110,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaWxvvsBYwokRMd9OMpzKh8g",
+              "rank_delta": -3,
+              "review_gain": 2
+            },
+            {
+              "rank": 7,
+              "name": "Dr. Alex Rubinov - NYC Cosmetic Dentist",
+              "rating": 5.0,
+              "reviews": 226,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq6q-NvxYwokRj8h5qe9jVO0",
+              "rank_delta": 2,
+              "review_gain": 10
+            },
+            {
+              "rank": 8,
+              "name": "Midtown Cosmetic Dental",
+              "rating": 5.0,
+              "reviews": 166,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJpS60CuyBt4cR_BDDRVYhFvY",
+              "rank_delta": 2,
+              "review_gain": 3
+            },
+            {
+              "rank": 9,
+              "name": "Soho Smile",
+              "rating": 4.9,
+              "reviews": 209,
+              "review_velocity": -0.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJfYPFMYlZwokRZ8-dgWvO9cU",
+              "rank_delta": -2,
+              "review_gain": -2
+            },
+            {
+              "rank": 10,
+              "name": "SmilesNY",
+              "rating": 4.9,
+              "reviews": 313,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJI1YIlehYwokRip_o3rHiF_A",
+              "rank_delta": 2,
+              "review_gain": 5
+            },
+            {
+              "rank": 11,
+              "name": "Park Smiles NYC Cosmetic Dentistry",
+              "rating": 4.8,
+              "reviews": 564,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaT-yiqNYwokRjC18nrpyb60",
+              "rank_delta": 0,
+              "review_gain": 26
+            },
+            {
+              "rank": 12,
+              "name": "Aesthetic Dentistry of Manhattan",
+              "rating": 5.0,
+              "reviews": 302,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6-sH4QxZwokRRFBQhButnj8",
+              "rank_delta": 1,
+              "review_gain": 8
+            },
+            {
+              "rank": 13,
+              "name": "Smile Arts of NY",
+              "rating": 4.8,
+              "reviews": 820,
+              "review_velocity": 2.16,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJy2FDGQFZwokRObY90eoCKcM",
+              "rank_delta": 1,
+              "review_gain": 30
+            },
+            {
+              "rank": 14,
+              "name": "Cosmetic Dentistry Center NYC - Dr. Pia Lieb",
+              "rating": 4.6,
+              "reviews": 77,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJCW4xJu5YwokRNT23W9h8jkc",
+              "rank_delta": -8,
+              "review_gain": 4
+            },
+            {
+              "rank": 15,
+              "name": "Luxe Rx Dental and Wellness Studio NYC",
+              "rating": 4.9,
+              "reviews": 284,
+              "review_velocity": 0.51,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJVYXF02ZZwokRVyNbM4Nvlx8",
+              "rank_delta": 3,
+              "review_gain": 7
+            },
+            {
+              "rank": 16,
+              "name": "Rockefeller Cosmetic Dentistry Grand Central, New York",
+              "rating": 4.8,
+              "reviews": 39,
+              "review_velocity": 0.79,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJY1CARAFZwokRQ61vWb2p6zE",
+              "rank_delta": 4,
+              "review_gain": 11
+            },
+            {
+              "rank": 17,
+              "name": "Smile Design Manhattan",
+              "rating": 4.9,
+              "reviews": 582,
+              "review_velocity": 1.59,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJR7iIeO9YwokRNrKU4p-gUlk",
+              "rank_delta": 0,
+              "review_gain": 22
+            },
+            {
+              "rank": 18,
+              "name": "FaktorDMD Cosmetic Dentistry & Implants - NYC",
+              "rating": 5.0,
+              "reviews": 127,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJMTacs_tYwokR_q5Gg8yNZCM",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 19,
+              "name": "Rockefeller Cosmetic Dentistry Chelsea",
+              "rating": 4.9,
+              "reviews": 144,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ14E1qv5YwokRGplQ0ti77ck",
+              "rank_delta": 0,
+              "review_gain": 3
+            }
+          ],
+          "fastest_climber": {
+            "rank": 3,
+            "name": "The Smile Code NYC",
+            "rating": 4.9,
+            "reviews": 282,
+            "review_velocity": 1.08,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJrfIOxpdYwokRdIKgoSPfBdA",
+            "rank_delta": 5,
+            "review_gain": 15
+          },
+          "fastest_review_gainer": {
+            "rank": 13,
+            "name": "Smile Arts of NY",
+            "rating": 4.8,
+            "reviews": 820,
+            "review_velocity": 2.16,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJy2FDGQFZwokRObY90eoCKcM",
+            "rank_delta": 1,
+            "review_gain": 30
+          },
+          "visibility": {
+            "current_rank": 14,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 77 vs a typical competitor's 289. Close the 212-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.6 vs category 4.9. A 0.3-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.29/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Smile Arts of NY added 30 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 14,
+          "start_rank": 6,
+          "net_change": -8,
+          "best_rank": 5,
+          "worst_rank": 14
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 03, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-24T13:50:01.522545+00:00",
@@ -52780,7 +53447,9 @@
           "type": "followup_1",
           "sent_at": "2026-08-31T19:28:42.979815+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-09-03T17:00:44.852102+00:00",
+      "free_report_email": "hello@doctorpia.com"
     },
     {
       "id": "e536b5e66f72",
@@ -55023,7 +55692,554 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 13.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 18",
+              "rank": 17
+            },
+            {
+              "date": "Jun 01",
+              "rank": 16
+            },
+            {
+              "date": "Jun 22",
+              "rank": 19
+            },
+            {
+              "date": "Jul 13",
+              "rank": 17
+            },
+            {
+              "date": "Aug 10",
+              "rank": 8
+            },
+            {
+              "date": "Aug 24",
+              "rank": 14
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 18",
+              "reviews": 29
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 29
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 29
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 29
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 29
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 29
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              17,
+              16,
+              19,
+              17,
+              8,
+              14
+            ],
+            "dates": [
+              "May 18",
+              "Jun 01",
+              "Jun 22",
+              "Jul 13",
+              "Aug 10",
+              "Aug 24"
+            ],
+            "direction": "improving",
+            "best_rank": 8,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 13.9,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Josh Zuniga | Luxury Real Estate Expert - Peoria, AZ - Phoenix, AZ",
+              "rating": 5.0,
+              "reviews": 44,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJq6p657N1K4cRcGS0P19PERE"
+            },
+            {
+              "rank": 2,
+              "name": "Local Luxury | Christie's International Real Estate - Arcadia Phoenix, Arizona",
+              "rating": 5.0,
+              "reviews": 8,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJuff9BLN0K4cR2omNk0LKBlc"
+            },
+            {
+              "rank": 3,
+              "name": "Scott Bryant - Bryant Real Estate",
+              "rating": 5.0,
+              "reviews": 107,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJtXcq-eYLK4cRXCP3ULf_Bgc"
+            },
+            {
+              "rank": 4,
+              "name": "John Gluch Phoenix Real Estate Agent - EXP",
+              "rating": 5.0,
+              "reviews": 225,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ6TNy4IATK4cRdyJtbdRvy8M"
+            },
+            {
+              "rank": 5,
+              "name": "Local Luxury - Meredith Lane",
+              "rating": 5.0,
+              "reviews": 30,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJFc0egTgLK4cRM4XMGzdaYm4"
+            },
+            {
+              "rank": 6,
+              "name": "The Riddle Group",
+              "rating": 5.0,
+              "reviews": 635,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQVQWQ7F7K4cRC6QlLN6_GxM"
+            },
+            {
+              "rank": 7,
+              "name": "Daniel Papin | Arizona Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 45,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ3VahL7nk24oRVYSpsOGxXxI"
+            },
+            {
+              "rank": 8,
+              "name": "Arizona Luxury Partners - Real Estate Group",
+              "rating": 5.0,
+              "reviews": 50,
+              "review_velocity": -0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJRRcW5lR3K4cRf5cQ1ohpAaE"
+            },
+            {
+              "rank": 9,
+              "name": "Arizona Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 10,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJVY7UciV0K4cRHITISv8iB0U"
+            },
+            {
+              "rank": 10,
+              "name": "Arizona Luxury Homes - HomeSmart AZ Luxury Real Estate",
+              "rating": 3.7,
+              "reviews": 7,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJdTi5cTGsK4cRbMfQcp0Gw-4"
+            },
+            {
+              "rank": 11,
+              "name": "Compass: Schneider Luxury Real Estate Team",
+              "rating": 5.0,
+              "reviews": 14,
+              "review_velocity": 0.34,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNfZ88QILK4cR-ZidO79rY84"
+            },
+            {
+              "rank": 12,
+              "name": "America One Luxury Real Estate",
+              "rating": 3.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ00kmtqN1K4cRQy-7FJi0vGc"
+            },
+            {
+              "rank": 13,
+              "name": "ROCO Luxury Homes",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJc1wTOHQLK4cRfTsVi0LJKUc"
+            },
+            {
+              "rank": 14,
+              "name": "Urban Luxe Real Estate",
+              "rating": 4.6,
+              "reviews": 29,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNfNTINdzK4cRGliNuxCwLGU"
+            },
+            {
+              "rank": 15,
+              "name": "Doria Del Real - Bilingual REALTOR in Arizona - eXp Realty",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJ28REjCUTK4cR6VVe6o48pvY"
+            },
+            {
+              "rank": 16,
+              "name": "Local Luxury | Christie's International Real Estate",
+              "rating": 5.0,
+              "reviews": 20,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJKR48PxULK4cRDs1FWyb6pmk"
+            },
+            {
+              "rank": 17,
+              "name": "Michele Tyler: Luxury Real Estate Agent: DeLex Realty Scottsdale",
+              "rating": 5.0,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJEVtqgYNxK4cR6JUwrMZBfeA"
+            },
+            {
+              "rank": 18,
+              "name": "Local Luxury | Christie's International Real Estate - Scottsdale",
+              "rating": 5.0,
+              "reviews": 20,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ82vDmF13K4cRddFk2JUm-WM"
+            },
+            {
+              "rank": 19,
+              "name": "Gina Dow - Arizona REALTOR",
+              "rating": 5.0,
+              "reviews": 14,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJg5SWUBEFK4cR8uzXRe4dTqY"
+            },
+            {
+              "rank": 20,
+              "name": "Phoenix Real Estate Group",
+              "rating": 4.9,
+              "reviews": 60,
+              "review_velocity": 1.08,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJfcIoviESK4cRWP9hAL5L4x8"
+            }
+          ],
+          "subject": {
+            "rank": 14,
+            "name": "Urban Luxe Real Estate",
+            "rating": 4.6,
+            "reviews": 29,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJNfNTINdzK4cRGliNuxCwLGU"
+          },
+          "benchmarks": {
+            "avg_rating": 4.81,
+            "avg_reviews": 68,
+            "median_reviews": 24,
+            "typical_reviews": 24,
+            "skewed": true,
+            "your_reviews": 29,
+            "your_rating": 4.6,
+            "reviews_percentile": 55,
+            "pack_size": 20,
+            "top_reviews": 635
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Josh Zuniga | Luxury Real Estate Expert - Peoria, AZ - Phoenix, AZ",
+              "rating": 5.0,
+              "reviews": 44,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJq6p657N1K4cRcGS0P19PERE",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Local Luxury | Christie's International Real Estate - Arcadia Phoenix, Arizona",
+              "rating": 5.0,
+              "reviews": 8,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJuff9BLN0K4cR2omNk0LKBlc",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "Scott Bryant - Bryant Real Estate",
+              "rating": 5.0,
+              "reviews": 107,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJtXcq-eYLK4cRXCP3ULf_Bgc",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 4,
+              "name": "John Gluch Phoenix Real Estate Agent - EXP",
+              "rating": 5.0,
+              "reviews": 225,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ6TNy4IATK4cRdyJtbdRvy8M",
+              "rank_delta": 2,
+              "review_gain": 4
+            },
+            {
+              "rank": 5,
+              "name": "Local Luxury - Meredith Lane",
+              "rating": 5.0,
+              "reviews": 30,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJFc0egTgLK4cRM4XMGzdaYm4",
+              "rank_delta": 4,
+              "review_gain": 3
+            },
+            {
+              "rank": 6,
+              "name": "The Riddle Group",
+              "rating": 5.0,
+              "reviews": 635,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQVQWQ7F7K4cRC6QlLN6_GxM",
+              "rank_delta": 2,
+              "review_gain": 5
+            },
+            {
+              "rank": 8,
+              "name": "Arizona Luxury Partners - Real Estate Group",
+              "rating": 5.0,
+              "reviews": 50,
+              "review_velocity": -0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJRRcW5lR3K4cRf5cQ1ohpAaE",
+              "rank_delta": -4,
+              "review_gain": -3
+            },
+            {
+              "rank": 9,
+              "name": "Arizona Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 10,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJVY7UciV0K4cRHITISv8iB0U",
+              "rank_delta": -4,
+              "review_gain": 0
+            },
+            {
+              "rank": 10,
+              "name": "Arizona Luxury Homes - HomeSmart AZ Luxury Real Estate",
+              "rating": 3.7,
+              "reviews": 7,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJdTi5cTGsK4cRbMfQcp0Gw-4",
+              "rank_delta": -3,
+              "review_gain": 0
+            },
+            {
+              "rank": 14,
+              "name": "Urban Luxe Real Estate",
+              "rating": 4.6,
+              "reviews": 29,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJNfNTINdzK4cRGliNuxCwLGU",
+              "rank_delta": 3,
+              "review_gain": 0
+            },
+            {
+              "rank": 16,
+              "name": "Local Luxury | Christie's International Real Estate",
+              "rating": 5.0,
+              "reviews": 20,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJKR48PxULK4cRDs1FWyb6pmk",
+              "rank_delta": -5,
+              "review_gain": -1
+            },
+            {
+              "rank": 17,
+              "name": "Michele Tyler: Luxury Real Estate Agent: DeLex Realty Scottsdale",
+              "rating": 5.0,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJEVtqgYNxK4cR6JUwrMZBfeA",
+              "rank_delta": -4,
+              "review_gain": 0
+            },
+            {
+              "rank": 18,
+              "name": "Local Luxury | Christie's International Real Estate - Scottsdale",
+              "rating": 5.0,
+              "reviews": 20,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ82vDmF13K4cRddFk2JUm-WM",
+              "rank_delta": -6,
+              "review_gain": 0
+            },
+            {
+              "rank": 19,
+              "name": "Gina Dow - Arizona REALTOR",
+              "rating": 5.0,
+              "reviews": 14,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJg5SWUBEFK4cR8uzXRe4dTqY",
+              "rank_delta": 1,
+              "review_gain": 0
+            }
+          ],
+          "fastest_climber": {
+            "rank": 5,
+            "name": "Local Luxury - Meredith Lane",
+            "rating": 5.0,
+            "reviews": 30,
+            "review_velocity": 0.22,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJFc0egTgLK4cRM4XMGzdaYm4",
+            "rank_delta": 4,
+            "review_gain": 3
+          },
+          "fastest_review_gainer": {
+            "rank": 6,
+            "name": "The Riddle Group",
+            "rating": 5.0,
+            "reviews": 635,
+            "review_velocity": 0.36,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJQVQWQ7F7K4cRC6QlLN6_GxM",
+            "rank_delta": 2,
+            "review_gain": 5
+          },
+          "visibility": {
+            "current_rank": 14,
+            "best_rank": 8,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.9,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 1.1,
+            "lost_vs_best_rel": 58,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 29 vs a typical competitor's 24."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.6 vs category 4.81. A 0.21-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "The Riddle Group added 5 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 14,
+          "start_rank": 17,
+          "net_change": 3,
+          "best_rank": 8,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 03, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-24T13:50:01.522672+00:00",
@@ -55034,7 +56250,9 @@
           "type": "followup_1",
           "sent_at": "2026-08-31T19:28:42.979815+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-09-03T17:01:05.557885+00:00",
+      "free_report_email": "info@urbanluxere.com"
     },
     {
       "id": "e10c06c41617",
@@ -59571,12 +60789,599 @@
             "their_rating": 4.9,
             "their_current_rank": 11
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 8.0,
+          "n_snapshots": 5,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 10
+            },
+            {
+              "date": "Jul 20",
+              "rank": 11
+            },
+            {
+              "date": "Aug 03",
+              "rank": 7
+            },
+            {
+              "date": "Aug 17",
+              "rank": 6
+            },
+            {
+              "date": "Aug 31",
+              "rank": 14
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 136
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 137
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 137
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 138
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 138
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              10,
+              11,
+              7,
+              6,
+              14
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31"
+            ],
+            "direction": "declining",
+            "best_rank": 6,
+            "worst_rank": 14
+          },
+          "review_velocity": {
+            "per_week": 0.25,
+            "total_gained": 2,
+            "weeks": 8.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Ivory Dental Group",
+              "rating": 4.9,
+              "reviews": 433,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJMRW_45Yys1IRRGnrVCsnqWU"
+            },
+            {
+              "rank": 2,
+              "name": "Minneapolis Dental PA",
+              "rating": 4.9,
+              "reviews": 84,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJpX7Wtpsys1IRT5mbD-eFwk4"
+            },
+            {
+              "rank": 3,
+              "name": "J & D Dental",
+              "rating": 4.9,
+              "reviews": 727,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ90t95Jkys1IRhydLDGmRQsg"
+            },
+            {
+              "rank": 4,
+              "name": "Dental Arts of Minneapolis",
+              "rating": 4.9,
+              "reviews": 412,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRIDMvwAStVDM"
+            },
+            {
+              "rank": 5,
+              "name": "Linden Hills Dentistry",
+              "rating": 4.9,
+              "reviews": 319,
+              "review_velocity": 0.88,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJzxrzTxcn9ocRnUq7zuouA2I"
+            },
+            {
+              "rank": 6,
+              "name": "Cosmetic, Family & Sports Dentistry",
+              "rating": 5.0,
+              "reviews": 179,
+              "review_velocity": 1.75,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB5kUDqUm9ocRlOau-lR4tBw"
+            },
+            {
+              "rank": 7,
+              "name": "Smiles At France",
+              "rating": 5.0,
+              "reviews": 132,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJd6efINgm9ocRMg5vHSAjwmY"
+            },
+            {
+              "rank": 8,
+              "name": "Mill District Dental",
+              "rating": 4.9,
+              "reviews": 388,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJtzl3X2Yts1IRC-sYByhDCWs"
+            },
+            {
+              "rank": 9,
+              "name": "Isles Dental",
+              "rating": 4.9,
+              "reviews": 545,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdfTKStQys1IRDr2OZYIS0cE"
+            },
+            {
+              "rank": 10,
+              "name": "Parkway Dental Center - Minneapolis",
+              "rating": 4.9,
+              "reviews": 660,
+              "review_velocity": 1.75,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQV9oj8on9ocR5lXl56PTIAs"
+            },
+            {
+              "rank": 11,
+              "name": "Holger Dental Group - Minneapolis",
+              "rating": 4.9,
+              "reviews": 156,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRjwMR4wuSCQ4"
+            },
+            {
+              "rank": 12,
+              "name": "CityScape Dental Arts - Dr. Oz, DDS",
+              "rating": 4.9,
+              "reviews": 124,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRck6VszVDXOY"
+            },
+            {
+              "rank": 13,
+              "name": "CityTooth Ltd",
+              "rating": 4.9,
+              "reviews": 153,
+              "review_velocity": 0.88,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJI2_P45Yys1IRp-jPU7fvdK8"
+            },
+            {
+              "rank": 14,
+              "name": "Minneapolis Dentistry Company",
+              "rating": 4.7,
+              "reviews": 138,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJkUjgOikn9ocR-jG3nC9m_Tc"
+            },
+            {
+              "rank": 15,
+              "name": "Diamond Lake Dental",
+              "rating": 4.9,
+              "reviews": 220,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB5kUDqUm9ocRYz-ZwbEF4cM"
+            },
+            {
+              "rank": 16,
+              "name": "Nicollet Station Dental",
+              "rating": 4.9,
+              "reviews": 372,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAdDfQJoys1IRlJOST_UGi2o"
+            },
+            {
+              "rank": 17,
+              "name": "Le Centre Dentistry",
+              "rating": 4.8,
+              "reviews": 342,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJM1j2eHkts1IRer2BZQP7OC0"
+            },
+            {
+              "rank": 18,
+              "name": "Skyway Dental Clinic",
+              "rating": 4.9,
+              "reviews": 402,
+              "review_velocity": 2.12,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJmaXYl5wys1IRQqYaIPE5yn8"
+            },
+            {
+              "rank": 19,
+              "name": "Loop Dental",
+              "rating": 4.9,
+              "reviews": 353,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJE1_ax4gys1IR_BHzBs95AmM"
+            },
+            {
+              "rank": 20,
+              "name": "City Dental",
+              "rating": 4.9,
+              "reviews": 251,
+              "review_velocity": 2.62,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQcCP9l4n9ocRhnMvePSWlOI"
+            }
+          ],
+          "subject": {
+            "rank": 14,
+            "name": "Minneapolis Dentistry Company",
+            "rating": 4.7,
+            "reviews": 138,
+            "review_velocity": 0.25,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJkUjgOikn9ocR-jG3nC9m_Tc"
+          },
+          "benchmarks": {
+            "avg_rating": 4.9,
+            "avg_reviews": 320,
+            "median_reviews": 330,
+            "typical_reviews": 320,
+            "skewed": false,
+            "your_reviews": 138,
+            "your_rating": 4.7,
+            "reviews_percentile": 20,
+            "pack_size": 20,
+            "top_reviews": 727
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Ivory Dental Group",
+              "rating": 4.9,
+              "reviews": 433,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJMRW_45Yys1IRRGnrVCsnqWU",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 2,
+              "name": "Minneapolis Dental PA",
+              "rating": 4.9,
+              "reviews": 84,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJpX7Wtpsys1IRT5mbD-eFwk4",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "J & D Dental",
+              "rating": 4.9,
+              "reviews": 727,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ90t95Jkys1IRhydLDGmRQsg",
+              "rank_delta": -1,
+              "review_gain": 4
+            },
+            {
+              "rank": 4,
+              "name": "Dental Arts of Minneapolis",
+              "rating": 4.9,
+              "reviews": 412,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRIDMvwAStVDM",
+              "rank_delta": 1,
+              "review_gain": 5
+            },
+            {
+              "rank": 5,
+              "name": "Linden Hills Dentistry",
+              "rating": 4.9,
+              "reviews": 319,
+              "review_velocity": 0.88,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJzxrzTxcn9ocRnUq7zuouA2I",
+              "rank_delta": -1,
+              "review_gain": 7
+            },
+            {
+              "rank": 6,
+              "name": "Cosmetic, Family & Sports Dentistry",
+              "rating": 5.0,
+              "reviews": 179,
+              "review_velocity": 1.75,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB5kUDqUm9ocRlOau-lR4tBw",
+              "rank_delta": 6,
+              "review_gain": 14
+            },
+            {
+              "rank": 7,
+              "name": "Smiles At France",
+              "rating": 5.0,
+              "reviews": 132,
+              "review_velocity": 1.88,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJd6efINgm9ocRMg5vHSAjwmY",
+              "rank_delta": 0,
+              "review_gain": 15
+            },
+            {
+              "rank": 8,
+              "name": "Mill District Dental",
+              "rating": 4.9,
+              "reviews": 388,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJtzl3X2Yts1IRC-sYByhDCWs",
+              "rank_delta": 1,
+              "review_gain": 8
+            },
+            {
+              "rank": 9,
+              "name": "Isles Dental",
+              "rating": 4.9,
+              "reviews": 545,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdfTKStQys1IRDr2OZYIS0cE",
+              "rank_delta": -3,
+              "review_gain": -2
+            },
+            {
+              "rank": 10,
+              "name": "Parkway Dental Center - Minneapolis",
+              "rating": 4.9,
+              "reviews": 660,
+              "review_velocity": 1.75,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQV9oj8on9ocR5lXl56PTIAs",
+              "rank_delta": -2,
+              "review_gain": 14
+            },
+            {
+              "rank": 11,
+              "name": "Holger Dental Group - Minneapolis",
+              "rating": 4.9,
+              "reviews": 156,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRjwMR4wuSCQ4",
+              "rank_delta": 9,
+              "review_gain": 3
+            },
+            {
+              "rank": 12,
+              "name": "CityScape Dental Arts - Dr. Oz, DDS",
+              "rating": 4.9,
+              "reviews": 124,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRck6VszVDXOY",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 13,
+              "name": "CityTooth Ltd",
+              "rating": 4.9,
+              "reviews": 153,
+              "review_velocity": 0.88,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJI2_P45Yys1IRp-jPU7fvdK8",
+              "rank_delta": 5,
+              "review_gain": 7
+            },
+            {
+              "rank": 14,
+              "name": "Minneapolis Dentistry Company",
+              "rating": 4.7,
+              "reviews": 138,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJkUjgOikn9ocR-jG3nC9m_Tc",
+              "rank_delta": -4,
+              "review_gain": 2
+            },
+            {
+              "rank": 15,
+              "name": "Diamond Lake Dental",
+              "rating": 4.9,
+              "reviews": 220,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB5kUDqUm9ocRYz-ZwbEF4cM",
+              "rank_delta": 2,
+              "review_gain": 2
+            },
+            {
+              "rank": 16,
+              "name": "Nicollet Station Dental",
+              "rating": 4.9,
+              "reviews": 372,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAdDfQJoys1IRlJOST_UGi2o",
+              "rank_delta": 0,
+              "review_gain": 1
+            },
+            {
+              "rank": 18,
+              "name": "Skyway Dental Clinic",
+              "rating": 4.9,
+              "reviews": 402,
+              "review_velocity": 2.12,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJmaXYl5wys1IRQqYaIPE5yn8",
+              "rank_delta": -3,
+              "review_gain": 17
+            },
+            {
+              "rank": 20,
+              "name": "City Dental",
+              "rating": 4.9,
+              "reviews": 251,
+              "review_velocity": 2.62,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQcCP9l4n9ocRhnMvePSWlOI",
+              "rank_delta": -7,
+              "review_gain": 21
+            }
+          ],
+          "fastest_climber": {
+            "rank": 11,
+            "name": "Holger Dental Group - Minneapolis",
+            "rating": 4.9,
+            "reviews": 156,
+            "review_velocity": 0.38,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJrd9SHJcys1IRjwMR4wuSCQ4",
+            "rank_delta": 9,
+            "review_gain": 3
+          },
+          "fastest_review_gainer": {
+            "rank": 20,
+            "name": "City Dental",
+            "rating": 4.9,
+            "reviews": 251,
+            "review_velocity": 2.62,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJQcCP9l4n9ocRhnMvePSWlOI",
+            "rank_delta": -7,
+            "review_gain": 21
+          },
+          "visibility": {
+            "current_rank": 14,
+            "best_rank": 6,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 3.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 2.6,
+            "lost_vs_best_rel": 76,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 138 vs a typical competitor's 320. Close the 182-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.7 vs category 4.9. A 0.2-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.25/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "City Dental added 21 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 14,
+          "start_rank": 10,
+          "net_change": -4,
+          "best_rank": 6,
+          "worst_rank": 14
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 03, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-31T19:28:41.746952+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-09-03T17:01:26.871412+00:00",
+      "free_report_email": "info@indiantypefoundry.com"
     },
     {
       "id": "029b32a1cb8a",
