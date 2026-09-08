@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-09-01T12:18:15.562517+00:00",
-  "issues_published": 18,
+  "last_run": "2026-09-08T11:56:35.257765+00:00",
+  "issues_published": 19,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
-    "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
-    "https://openai.com/index/mapping-ai-jobs-transition-eu",
-    "https://openai.com/index/how-agents-are-transforming-work",
-    "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-    "https://openai.com/index/previewing-gpt-5-6-sol",
-    "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-    "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-    "https://www.producthunt.com/products/pluno",
-    "https://www.producthunt.com/products/receiptor-ai",
     "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
     "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
     "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
@@ -102,11 +92,21 @@
     "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
     "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
     "https://www.producthunt.com/products/omlx",
-    "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents"
+    "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents",
+    "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+    "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+    "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+    "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+    "https://openai.com/index/research-acceleration-view-inside-openai",
+    "https://openai.com/index/ai-native-company-workflows",
+    "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+    "https://www.producthunt.com/products/speakeasydev",
+    "https://www.producthunt.com/products/google"
   ],
-  "affiliate_rotation_index": 42,
+  "affiliate_rotation_index": 44,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "25705801"
+  "last_broadcast_id": "25813620"
 }
