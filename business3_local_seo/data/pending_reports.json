@@ -63711,12 +63711,415 @@
             "category_avg_rating": 4.8,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 16
+            },
+            {
+              "date": "Jun 01",
+              "rank": 9
+            },
+            {
+              "date": "Jun 08",
+              "rank": 8
+            },
+            {
+              "date": "Jun 15",
+              "rank": 8
+            },
+            {
+              "date": "Jun 22",
+              "rank": 5
+            },
+            {
+              "date": "Jun 29",
+              "rank": 9
+            },
+            {
+              "date": "Jul 13",
+              "rank": 9
+            },
+            {
+              "date": "Jul 27",
+              "rank": 9
+            },
+            {
+              "date": "Aug 10",
+              "rank": 9
+            },
+            {
+              "date": "Aug 24",
+              "rank": 8
+            },
+            {
+              "date": "Sep 07",
+              "rank": 16
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 44
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 45
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 46
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 48
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 51
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 51
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 52
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 54
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 56
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 58
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 61
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              16,
+              9,
+              8,
+              8,
+              5,
+              9,
+              9,
+              9,
+              9,
+              8,
+              16
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "volatile",
+            "best_rank": 5,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 1.13,
+            "total_gained": 17,
+            "weeks": 15.0,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Dallas Stem Cell Center",
+              "rating": 5.0,
+              "reviews": 19,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJkx5vLw2fToYRLtjAnin-x80"
+            },
+            {
+              "rank": 2,
+              "name": "RegenOrthoSport Dallas",
+              "rating": 4.9,
+              "reviews": 117,
+              "review_velocity": 1.73,
+              "website": true,
+              "type": "Orthopedic clinic",
+              "_key": "ChIJsTdFUsKfToYRMBISPNn7Qmc"
+            },
+            {
+              "rank": 3,
+              "name": "Dallas Regenerative & Anti-Aging",
+              "rating": 4.9,
+              "reviews": 26,
+              "review_velocity": 0.47,
+              "website": true,
+              "type": "Wellness center",
+              "_key": "ChIJMRMhW1IhTIYRxPwJ4GZqJfE"
+            },
+            {
+              "rank": 4,
+              "name": "Innovations Stem Cell Center",
+              "rating": 4.4,
+              "reviews": 28,
+              "review_velocity": 0.53,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJh0KEqD8gTIYRyjWO7jQG4ZQ"
+            },
+            {
+              "rank": 5,
+              "name": "QC Kinetix - Dallas",
+              "rating": 4.8,
+              "reviews": 100,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJO0qK8A2fToYR_Bhg0aBnKZI"
+            },
+            {
+              "rank": 6,
+              "name": "Dallas Regenerative Solutions",
+              "rating": 4.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Business to business service",
+              "_key": "ChIJnYn-yjyhToYRyjuvRUvqqJo"
+            },
+            {
+              "rank": 7,
+              "name": "Regen Wellness",
+              "rating": 4.8,
+              "reviews": 57,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Alternative medicine practitioner",
+              "_key": "ChIJy1bxHkOfToYRt6JhIfJWz88"
+            },
+            {
+              "rank": 8,
+              "name": "Regenerative Medicine of Texas",
+              "rating": 4.9,
+              "reviews": 100,
+              "review_velocity": 0.2,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ2yZHBdulToYRxs6qspJs26w"
+            },
+            {
+              "rank": 9,
+              "name": "ReMed Pain and Wellness Clinic",
+              "rating": 5.0,
+              "reviews": 89,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJ0yOLJcghTIYRugBioxrmjk0"
+            },
+            {
+              "rank": 10,
+              "name": "Principal Stem Cell Therapy and Wellness Institute",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJo9zedGIlTIYR7d6WfLmR0w8"
+            },
+            {
+              "rank": 11,
+              "name": "North Texas Musculoskeletal Medicine",
+              "rating": 4.9,
+              "reviews": 100,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJcw4oKMLUTYYRlJSmoCI2Gjw"
+            },
+            {
+              "rank": 12,
+              "name": "Innovations Medical",
+              "rating": 4.5,
+              "reviews": 140,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Plastic surgery clinic",
+              "_key": "ChIJi27uqD8gTIYRR11w59NFkf0"
+            },
+            {
+              "rank": 13,
+              "name": "Advanced Regeneration",
+              "rating": 4.9,
+              "reviews": 69,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Alternative medicine practitioner",
+              "_key": "ChIJCaBicLufToYRCLLUewVKaK0"
+            },
+            {
+              "rank": 14,
+              "name": "Regenerative Institute of America",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical Center",
+              "_key": "ChIJnTGr0WCfToYRo_QR6qAuPGk"
+            },
+            {
+              "rank": 15,
+              "name": "Optimal Pain & Regenerative Medicine",
+              "rating": 4.7,
+              "reviews": 58,
+              "review_velocity": 0.53,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJJ8XcisZiToYR6NCKCjYQoKg"
+            },
+            {
+              "rank": 16,
+              "name": "InnovareTx Regenerative & Wellness Clinic",
+              "rating": 5.0,
+              "reviews": 61,
+              "review_velocity": 1.13,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJn_hozpUhTIYRKQoQN5LYKOo"
+            },
+            {
+              "rank": 17,
+              "name": "Legacy Pain and Regenerative Medicine: Trace Alexander, DC, FNP",
+              "rating": 4.9,
+              "reviews": 553,
+              "review_velocity": 1.2,
+              "website": true,
+              "type": "Pain management physician",
+              "_key": "ChIJm_V8dHQjTIYRzpczCf09sq0"
+            },
+            {
+              "rank": 18,
+              "name": "Advanced Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 6,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Doctor",
+              "_key": "ChIJ_4dJAbkbTIYRKo1mFYNRNmQ"
+            },
+            {
+              "rank": 19,
+              "name": "The Stem Cell Hair Restoration Clinic | Cendant",
+              "rating": 5.0,
+              "reviews": 5,
+              "review_velocity": 1.5,
+              "website": true,
+              "type": "Hair transplantation clinic",
+              "_key": "ChIJU6cCwoAjTIYRF8Y6gSrkNWc"
+            },
+            {
+              "rank": 20,
+              "name": "Dr. J Regenerative Medicine",
+              "rating": 4.8,
+              "reviews": 25,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Doctor",
+              "_key": "ChIJDZ1kFYrUTYYRNNbQDw_YykU"
+            }
+          ],
+          "subject": {
+            "rank": 16,
+            "name": "InnovareTx Regenerative & Wellness Clinic",
+            "rating": 5.0,
+            "reviews": 61,
+            "review_velocity": 1.13,
+            "website": true,
+            "type": "Medical clinic",
+            "_key": "ChIJn_hozpUhTIYRKQoQN5LYKOo"
+          },
+          "benchmarks": {
+            "avg_rating": 4.81,
+            "avg_reviews": 78,
+            "median_reviews": 58,
+            "typical_reviews": 78,
+            "skewed": false,
+            "your_reviews": 61,
+            "your_rating": 5.0,
+            "reviews_percentile": 60,
+            "pack_size": 20,
+            "top_reviews": 553
+          },
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 16,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 61 vs a typical competitor's 78. Close the 17-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.81."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.13/week (moderate)."
+            }
+          ],
+          "current_rank": 16,
+          "start_rank": 16,
+          "net_change": 0,
+          "best_rank": 5,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 10, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547351+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-09-10T16:58:34.408922+00:00",
+      "free_report_email": "contact@innovaretx.com"
     },
     {
       "id": "2dd901705446",
@@ -64228,12 +64631,405 @@
             "category_avg_rating": 4.8,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 19
+            },
+            {
+              "date": "Jun 01",
+              "rank": 19
+            },
+            {
+              "date": "Jun 08",
+              "rank": 20
+            },
+            {
+              "date": "Jun 15",
+              "rank": 20
+            },
+            {
+              "date": "Jun 22",
+              "rank": 20
+            },
+            {
+              "date": "Jun 29",
+              "rank": 19
+            },
+            {
+              "date": "Jul 13",
+              "rank": 20
+            },
+            {
+              "date": "Aug 10",
+              "rank": 17
+            },
+            {
+              "date": "Aug 24",
+              "rank": 10
+            },
+            {
+              "date": "Sep 07",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 58
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 58
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 58
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 58
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 58
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 58
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 58
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 57
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 57
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 57
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              19,
+              19,
+              20,
+              20,
+              20,
+              19,
+              20,
+              17,
+              10,
+              20
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "volatile",
+            "best_rank": 10,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": -0.07,
+            "total_gained": -1,
+            "weeks": 15.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Denver Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 14,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJASNAa3F_bIcRSO-FN_MEoGg"
+            },
+            {
+              "rank": 2,
+              "name": "Mile High Luxury",
+              "rating": 4.8,
+              "reviews": 76,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ95RPzJJ_bIcRyPgDnVhkVSQ"
+            },
+            {
+              "rank": 3,
+              "name": "LUX Real Estate Company ERA Powered (formerly LUX Denver)",
+              "rating": 5.0,
+              "reviews": 144,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJw2JMnwd_bIcRPrPOConT2lQ"
+            },
+            {
+              "rank": 4,
+              "name": "Amy Newman - Live.Luxury. Realtor",
+              "rating": 5.0,
+              "reviews": 45,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJLf_YYPx5bIcR5Q7m3QwcExI"
+            },
+            {
+              "rank": 5,
+              "name": "Urban Luxe Real Estate",
+              "rating": 4.9,
+              "reviews": 47,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJl8d0JJd-bIcRMbloe4fTgE0"
+            },
+            {
+              "rank": 6,
+              "name": "Rick Janson Luxury Properties at Compass Real Estate",
+              "rating": 4.8,
+              "reviews": 44,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ83s9ZPN-bIcRCu5WnDdNxUo"
+            },
+            {
+              "rank": 7,
+              "name": "Team Vivi at eXp Realty Denver",
+              "rating": 4.7,
+              "reviews": 162,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJa-3cyjp_bIcRI5984DeKfMo"
+            },
+            {
+              "rank": 8,
+              "name": "Denver Luxe Team",
+              "rating": 5.0,
+              "reviews": 10,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJA29KYpp-bIcR81k7wksyrQo"
+            },
+            {
+              "rank": 9,
+              "name": "Coldwell Banker Realty - Global Luxury Denver",
+              "rating": 3.7,
+              "reviews": 23,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJY9DVV5Z-bIcRI9IG2MQ6GbE"
+            },
+            {
+              "rank": 10,
+              "name": "Coleen Sanders - Denver Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 7,
+              "review_velocity": 0.2,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJHR3IA9d_bIcROQQ0lTjquOI"
+            },
+            {
+              "rank": 11,
+              "name": "The Luxe Group",
+              "rating": 5.0,
+              "reviews": 20,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJ27RzDFN5bIcRFW4-Yquv4Lk"
+            },
+            {
+              "rank": 12,
+              "name": "LIV Sotheby's International Realty",
+              "rating": 3.7,
+              "reviews": 26,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJYwIVimxwaocRLKL49gnMChI"
+            },
+            {
+              "rank": 13,
+              "name": "Herzog Real Estate - Denver",
+              "rating": 5.0,
+              "reviews": 54,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ18kn3ZeHbIcRooFOXRAqyOI"
+            },
+            {
+              "rank": 14,
+              "name": "Thrive Real Estate Group",
+              "rating": 5.0,
+              "reviews": 950,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJefTzAJV-bIcRFSGB41GHUrA"
+            },
+            {
+              "rank": 15,
+              "name": "D-Lux Real Estate, Denver\u2019s Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 2,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ96XF5Kh3bIcRxkNbsufqELc"
+            },
+            {
+              "rank": 16,
+              "name": "Elise LoSasso | The Agency",
+              "rating": 5.0,
+              "reviews": 56,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJq6pq2pl-bIcR3qPGX8xA_z4"
+            },
+            {
+              "rank": 17,
+              "name": "Mile High Home Pro",
+              "rating": 5.0,
+              "reviews": 31,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJBwgLt5t-bIcRMSzYPtwBe3o"
+            },
+            {
+              "rank": 18,
+              "name": "Katherine McCaslin, Mile High Luxury Real Estate LLC",
+              "rating": 5.0,
+              "reviews": 6,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJoUiX345_bIcRYvcYWjPYxfA"
+            },
+            {
+              "rank": 19,
+              "name": "Jade Real Estate- Lauren Wilson",
+              "rating": 5.0,
+              "reviews": 215,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJFcBohuF5bIcRrcKaseAAUSA"
+            },
+            {
+              "rank": 20,
+              "name": "Taylor Simmons - Denver & Summit County Real Estate Agent",
+              "rating": 4.9,
+              "reviews": 57,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ85SHqK95bIcRLK96ZeAmsx8"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Taylor Simmons - Denver & Summit County Real Estate Agent",
+            "rating": 4.9,
+            "reviews": 57,
+            "review_velocity": -0.07,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJ85SHqK95bIcRLK96ZeAmsx8"
+          },
+          "benchmarks": {
+            "avg_rating": 4.83,
+            "avg_reviews": 99,
+            "median_reviews": 44,
+            "typical_reviews": 44,
+            "skewed": true,
+            "your_reviews": 57,
+            "your_rating": 4.9,
+            "reviews_percentile": 75,
+            "pack_size": 20,
+            "top_reviews": 950
+          },
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 10,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.2,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.4,
+            "lost_vs_best_rel": 33,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 57 vs a typical competitor's 44."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.83."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at -0.07/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 19,
+          "net_change": -1,
+          "best_rank": 10,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 10, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547397+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-09-10T16:57:53.227218+00:00",
+      "free_report_email": "TaylorSimmonsRE@gmail.com"
     },
     {
       "id": "ffcedde5bfba",
@@ -65389,12 +66185,415 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 15
+            },
+            {
+              "date": "Jun 01",
+              "rank": 4
+            },
+            {
+              "date": "Jun 08",
+              "rank": 4
+            },
+            {
+              "date": "Jun 15",
+              "rank": 3
+            },
+            {
+              "date": "Jun 22",
+              "rank": 4
+            },
+            {
+              "date": "Jun 29",
+              "rank": 19
+            },
+            {
+              "date": "Jul 13",
+              "rank": 2
+            },
+            {
+              "date": "Jul 27",
+              "rank": 2
+            },
+            {
+              "date": "Aug 10",
+              "rank": 2
+            },
+            {
+              "date": "Aug 24",
+              "rank": 4
+            },
+            {
+              "date": "Sep 07",
+              "rank": 13
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 375
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 375
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 377
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 379
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 381
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 381
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 381
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 381
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 381
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 382
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 382
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              15,
+              4,
+              4,
+              3,
+              4,
+              19,
+              2,
+              2,
+              2,
+              4,
+              13
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "improving",
+            "best_rank": 2,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.47,
+            "total_gained": 7,
+            "weeks": 15.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Aesthetic Dental Associates",
+              "rating": 4.8,
+              "reviews": 416,
+              "review_velocity": 0.4,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrdhDMksVkFQRoUjLpf42SIA"
+            },
+            {
+              "rank": 2,
+              "name": "Advanced Cosmetic and Implant Dentistry",
+              "rating": 4.9,
+              "reviews": 100,
+              "review_velocity": 0.4,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaa0lachqkFQRSHXoJ5gzvjs"
+            },
+            {
+              "rank": 3,
+              "name": "Seattle Dental Studio",
+              "rating": 4.9,
+              "reviews": 335,
+              "review_velocity": 0.87,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ66j7OLRqkFQRyamKSmYu5z8"
+            },
+            {
+              "rank": 4,
+              "name": "Prestige Dental",
+              "rating": 4.8,
+              "reviews": 281,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJRYj2dzYVkFQRzTxDWRiy4Oo"
+            },
+            {
+              "rank": 5,
+              "name": "Seattle Dental Co.",
+              "rating": 4.9,
+              "reviews": 807,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ3-zUBQsVkFQRbQnY5uvhS6U"
+            },
+            {
+              "rank": 6,
+              "name": "Aesthetica Contemporary Dentistry",
+              "rating": 4.9,
+              "reviews": 370,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0zXvmeMUkFQRdefKo0gzdXg"
+            },
+            {
+              "rank": 7,
+              "name": "Seattle's Capitol Hill Dentist",
+              "rating": 4.8,
+              "reviews": 185,
+              "review_velocity": 0.53,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ5Uves4MVkFQRI9LGDeccKJ8"
+            },
+            {
+              "rank": 8,
+              "name": "Seattle Smiles Company",
+              "rating": 4.9,
+              "reviews": 62,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_1-wwsZrkFQRTEgO-yLuALw"
+            },
+            {
+              "rank": 9,
+              "name": "Johnston Dental Artistry",
+              "rating": 4.8,
+              "reviews": 600,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuyJ3l_dAkFQRbgD-8Kxvg7w"
+            },
+            {
+              "rank": 10,
+              "name": "Pacific Modern Dentistry",
+              "rating": 4.9,
+              "reviews": 279,
+              "review_velocity": 0.47,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6VP0kxkVkFQRuzUfpgJQ-Mk"
+            },
+            {
+              "rank": 11,
+              "name": "Smile Art by Jaime Lee DDS",
+              "rating": 4.7,
+              "reviews": 256,
+              "review_velocity": -0.2,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJARF1XclqkFQRwGHaP6VF85w"
+            },
+            {
+              "rank": 12,
+              "name": "32 Pearls Seattle",
+              "rating": 4.8,
+              "reviews": 298,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ3QKVn-FqkFQRIXY0fQvkzRk"
+            },
+            {
+              "rank": 13,
+              "name": "Seattle Specialty Dentistry",
+              "rating": 4.9,
+              "reviews": 382,
+              "review_velocity": 0.47,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrdhDMksVkFQRDJDErSQzsRY"
+            },
+            {
+              "rank": 14,
+              "name": "Seattle Crown Hill Dental",
+              "rating": 4.8,
+              "reviews": 634,
+              "review_velocity": 0.2,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgUyY44IWkFQRJQraMVNuYgQ"
+            },
+            {
+              "rank": 15,
+              "name": "FLOSS general + cosmetic dentistry",
+              "rating": 5.0,
+              "reviews": 316,
+              "review_velocity": 0.53,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJi57ixoUTkFQRuI3v0ZVo0FA"
+            },
+            {
+              "rank": 16,
+              "name": "Dental Care Seattle",
+              "rating": 4.9,
+              "reviews": 679,
+              "review_velocity": 1.13,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaa0lachqkFQRPxAn3OJG59U"
+            },
+            {
+              "rank": 17,
+              "name": "Green Lake Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 83,
+              "review_velocity": 0.53,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFc_b0hkUkFQRC7kGOC3exmc"
+            },
+            {
+              "rank": 18,
+              "name": "Seattle Cornerstone Dental",
+              "rating": 4.9,
+              "reviews": 169,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJMZ1iiohrkFQReonjacIJHn0"
+            },
+            {
+              "rank": 19,
+              "name": "Smile Ballard",
+              "rating": 4.8,
+              "reviews": 251,
+              "review_velocity": 0.53,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJF_VkkMgVkFQRg31r3im8598"
+            },
+            {
+              "rank": 20,
+              "name": "Downtown Seattle Dentists",
+              "rating": 4.8,
+              "reviews": 289,
+              "review_velocity": 2.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJGdlZNEsVkFQRrPXw5_EHcus"
+            }
+          ],
+          "subject": {
+            "rank": 13,
+            "name": "Seattle Specialty Dentistry",
+            "rating": 4.9,
+            "reviews": 382,
+            "review_velocity": 0.47,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJrdhDMksVkFQRDJDErSQzsRY"
+          },
+          "benchmarks": {
+            "avg_rating": 4.86,
+            "avg_reviews": 340,
+            "median_reviews": 294,
+            "typical_reviews": 340,
+            "skewed": false,
+            "your_reviews": 382,
+            "your_rating": 4.9,
+            "reviews_percentile": 75,
+            "pack_size": 20,
+            "top_reviews": 807
+          },
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 13,
+            "best_rank": 2,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 22.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 21.3,
+            "lost_vs_best_rel": 96,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 382 vs a typical competitor's 340."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.86."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.47/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            }
+          ],
+          "current_rank": 13,
+          "start_rank": 15,
+          "net_change": 2,
+          "best_rank": 2,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 10, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547505+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-09-10T16:58:15.025808+00:00",
+      "free_report_email": "form@seattledentistry.com"
     },
     {
       "id": "93919784a5fd",
