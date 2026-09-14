@@ -1,0 +1,310 @@
+2026-09-14 18:14:07,206 [INFO] local_seo_orchestrator — ============================================================
+2026-09-14 18:14:07,206 [INFO] local_seo_orchestrator — Starting Search Sentinel pipeline
+2026-09-14 18:14:07,206 [INFO] local_seo_orchestrator — Timestamp: 2026-09-14T18:14:07.206881+00:00
+2026-09-14 18:14:07,206 [INFO] local_seo_orchestrator — ============================================================
+2026-09-14 18:14:07,207 [INFO] local_seo_orchestrator — [1/5] Scanner Agent: fetching Google Maps rankings...
+2026-09-14 18:14:07,207 [INFO] local_seo_orchestrator —       Rotation group B (ISO week 38); 0 subscriber categories always included
+2026-09-14 18:14:07,207 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Atlanta GA' in Atlanta, GA
+2026-09-14 18:14:09,410 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Atlanta GA'
+2026-09-14 18:14:13,411 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Atlanta GA' in Atlanta, GA
+2026-09-14 18:14:15,498 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Atlanta GA'
+2026-09-14 18:14:19,498 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Atlanta GA' in Atlanta, GA
+2026-09-14 18:14:21,218 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Atlanta GA'
+2026-09-14 18:14:25,218 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Atlanta GA' in Atlanta, GA
+2026-09-14 18:14:26,367 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Atlanta GA'
+2026-09-14 18:14:30,367 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Atlanta GA' in Atlanta, GA
+2026-09-14 18:14:31,904 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Atlanta GA'
+2026-09-14 18:14:35,905 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Boston MA' in Boston, MA
+2026-09-14 18:14:37,785 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Boston MA'
+2026-09-14 18:14:41,785 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Boston MA' in Boston, MA
+2026-09-14 18:14:43,496 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Boston MA'
+2026-09-14 18:14:47,497 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Boston MA' in Boston, MA
+2026-09-14 18:14:48,797 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Boston MA'
+2026-09-14 18:14:52,798 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Boston MA' in Boston, MA
+2026-09-14 18:14:54,596 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Boston MA'
+2026-09-14 18:14:58,596 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Boston MA' in Boston, MA
+2026-09-14 18:14:59,619 [INFO] agents.scanner_agent — Scanner [serpapi]: 7 results for 'regenerative medicine clinic in Boston MA'
+2026-09-14 18:15:03,619 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in San Diego CA' in San Diego, CA
+2026-09-14 18:15:05,521 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in San Diego CA'
+2026-09-14 18:15:09,521 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in San Diego CA' in San Diego, CA
+2026-09-14 18:15:10,542 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in San Diego CA'
+2026-09-14 18:15:14,543 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in San Diego CA' in San Diego, CA
+2026-09-14 18:15:15,429 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in San Diego CA'
+2026-09-14 18:15:19,430 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in San Diego CA' in San Diego, CA
+2026-09-14 18:15:21,358 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in San Diego CA'
+2026-09-14 18:15:25,358 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in San Diego CA' in San Diego, CA
+2026-09-14 18:15:26,829 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in San Diego CA'
+2026-09-14 18:15:30,829 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Las Vegas NV' in Las Vegas, NV
+2026-09-14 18:15:31,790 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Las Vegas NV'
+2026-09-14 18:15:35,791 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Las Vegas NV' in Las Vegas, NV
+2026-09-14 18:15:36,837 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Las Vegas NV'
+2026-09-14 18:15:40,837 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Las Vegas NV' in Las Vegas, NV
+2026-09-14 18:15:42,095 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Las Vegas NV'
+2026-09-14 18:15:46,096 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Las Vegas NV' in Las Vegas, NV
+2026-09-14 18:15:47,711 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Las Vegas NV'
+2026-09-14 18:15:51,711 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Las Vegas NV' in Las Vegas, NV
+2026-09-14 18:15:52,878 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Las Vegas NV'
+2026-09-14 18:15:56,878 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Washington DC' in Washington, DC
+2026-09-14 18:15:58,182 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Washington DC'
+2026-09-14 18:16:02,182 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Washington DC' in Washington, DC
+2026-09-14 18:16:03,396 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Washington DC'
+2026-09-14 18:16:07,397 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Washington DC' in Washington, DC
+2026-09-14 18:16:08,461 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Washington DC'
+2026-09-14 18:16:12,461 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Washington DC' in Washington, DC
+2026-09-14 18:16:13,707 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Washington DC'
+2026-09-14 18:16:17,708 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Washington DC' in Washington, DC
+2026-09-14 18:16:18,755 [INFO] agents.scanner_agent — Scanner [serpapi]: 10 results for 'regenerative medicine clinic in Washington DC'
+2026-09-14 18:16:22,755 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Nashville TN' in Nashville, TN
+2026-09-14 18:16:24,701 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Nashville TN'
+2026-09-14 18:16:28,701 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Nashville TN' in Nashville, TN
+2026-09-14 18:16:30,218 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Nashville TN'
+2026-09-14 18:16:34,219 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Nashville TN' in Nashville, TN
+2026-09-14 18:16:40,089 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Nashville TN'
+2026-09-14 18:16:44,089 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Nashville TN' in Nashville, TN
+2026-09-14 18:16:46,011 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Nashville TN'
+2026-09-14 18:16:50,011 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Nashville TN' in Nashville, TN
+2026-09-14 18:16:51,195 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Nashville TN'
+2026-09-14 18:16:55,196 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Charlotte NC' in Charlotte, NC
+2026-09-14 18:16:56,473 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Charlotte NC'
+2026-09-14 18:17:00,473 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Charlotte NC' in Charlotte, NC
+2026-09-14 18:17:01,824 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Charlotte NC'
+2026-09-14 18:17:05,824 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Charlotte NC' in Charlotte, NC
+2026-09-14 18:17:06,955 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Charlotte NC'
+2026-09-14 18:17:10,955 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Charlotte NC' in Charlotte, NC
+2026-09-14 18:17:12,090 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Charlotte NC'
+2026-09-14 18:17:16,090 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Charlotte NC' in Charlotte, NC
+2026-09-14 18:17:17,278 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Charlotte NC'
+2026-09-14 18:17:21,278 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Tampa FL' in Tampa, FL
+2026-09-14 18:17:22,583 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Tampa FL'
+2026-09-14 18:17:26,583 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Tampa FL' in Tampa, FL
+2026-09-14 18:17:27,549 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Tampa FL'
+2026-09-14 18:17:31,550 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Tampa FL' in Tampa, FL
+2026-09-14 18:17:32,555 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Tampa FL'
+2026-09-14 18:17:36,556 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Tampa FL' in Tampa, FL
+2026-09-14 18:17:37,839 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Tampa FL'
+2026-09-14 18:17:41,840 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Tampa FL' in Tampa, FL
+2026-09-14 18:17:43,913 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Tampa FL'
+2026-09-14 18:17:47,913 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Portland OR' in Portland, OR
+2026-09-14 18:17:48,996 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Portland OR'
+2026-09-14 18:17:52,996 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Portland OR' in Portland, OR
+2026-09-14 18:17:54,203 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Portland OR'
+2026-09-14 18:17:58,203 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Portland OR' in Portland, OR
+2026-09-14 18:18:01,002 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Portland OR'
+2026-09-14 18:18:05,002 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Portland OR' in Portland, OR
+2026-09-14 18:18:06,087 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Portland OR'
+2026-09-14 18:18:10,087 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Portland OR' in Portland, OR
+2026-09-14 18:18:11,019 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Portland OR'
+2026-09-14 18:18:15,019 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Minneapolis MN' in Minneapolis, MN
+2026-09-14 18:18:16,238 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Minneapolis MN'
+2026-09-14 18:18:20,238 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Minneapolis MN' in Minneapolis, MN
+2026-09-14 18:18:21,681 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Minneapolis MN'
+2026-09-14 18:18:25,682 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Minneapolis MN' in Minneapolis, MN
+2026-09-14 18:18:27,099 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Minneapolis MN'
+2026-09-14 18:18:31,099 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Minneapolis MN' in Minneapolis, MN
+2026-09-14 18:18:37,963 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Minneapolis MN'
+2026-09-14 18:18:41,963 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Minneapolis MN' in Minneapolis, MN
+2026-09-14 18:18:43,134 [INFO] agents.scanner_agent — Scanner [serpapi]: 14 results for 'regenerative medicine clinic in Minneapolis MN'
+2026-09-14 18:18:47,134 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in San Antonio TX' in San Antonio, TX
+2026-09-14 18:18:48,017 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in San Antonio TX'
+2026-09-14 18:18:52,017 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in San Antonio TX' in San Antonio, TX
+2026-09-14 18:18:53,039 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in San Antonio TX'
+2026-09-14 18:18:57,039 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in San Antonio TX' in San Antonio, TX
+2026-09-14 18:19:04,257 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in San Antonio TX'
+2026-09-14 18:19:08,257 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in San Antonio TX' in San Antonio, TX
+2026-09-14 18:19:09,687 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in San Antonio TX'
+2026-09-14 18:19:13,687 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in San Antonio TX' in San Antonio, TX
+2026-09-14 18:19:15,666 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in San Antonio TX'
+2026-09-14 18:19:19,666 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Orlando FL' in Orlando, FL
+2026-09-14 18:19:20,831 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Orlando FL'
+2026-09-14 18:19:24,831 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Orlando FL' in Orlando, FL
+2026-09-14 18:19:26,028 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Orlando FL'
+2026-09-14 18:19:30,028 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Orlando FL' in Orlando, FL
+2026-09-14 18:19:31,456 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Orlando FL'
+2026-09-14 18:19:35,456 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Orlando FL' in Orlando, FL
+2026-09-14 18:19:41,532 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Orlando FL'
+2026-09-14 18:19:45,532 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Orlando FL' in Orlando, FL
+2026-09-14 18:19:46,661 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Orlando FL'
+2026-09-14 18:19:50,661 [INFO] agents.scanner_agent — Scanner: rotation group B — scanned 60, skipped 60 off-week combos
+2026-09-14 18:19:50,661 [INFO] agents.scanner_agent — Scanner: monthly usage after this run — SerpAPI 240/245, Outscraper 0/95, ValueSERP 0/95
+2026-09-14 18:19:50,661 [INFO] local_seo_orchestrator —       Scanned 60 categories
+2026-09-14 18:19:50,661 [INFO] local_seo_orchestrator — [2/5] Analyzer Agent: detecting rank changes...
+2026-09-14 18:19:51,046 [INFO] agents.analyzer_agent — Analyzer: found 79 rank drop alerts across 60 categories
+2026-09-14 18:19:51,053 [INFO] local_seo_orchestrator —       Found 79 rank drop alerts
+2026-09-14 18:19:51,065 [INFO] local_seo_orchestrator — [3/5] Outreach Agent: sending teaser emails for 79 drops...
+2026-09-14 18:19:54,249 [INFO] agents.outreach_agent — Outreach: no valid email for Intown Smile Studio (got: None)
+2026-09-14 18:19:55,988 [INFO] agents.outreach_agent — Outreach: no valid email for The Agency Atlanta (got: None)
+2026-09-14 18:19:57,019 [INFO] agents.outreach_agent — Found email info@rtoga.com on https://www.regenerativetherapyofgeorgia.com/
+2026-09-14 18:19:57,021 [INFO] agents.outreach_agent — Outreach: subject variant 1 for Regenerative Therapy of Georgia
+2026-09-14 18:19:57,303 [INFO] agents.email_sender — Resend: sent to info@rtoga.com (id=8a59afd8-c84d-4cec-b744-1bbddc21f4be)
+2026-09-14 18:19:57,304 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@rtoga.com (Regenerative Therapy of Georgia)
+2026-09-14 18:20:01,560 [INFO] agents.outreach_agent — Outreach: no valid email for Earley Law Group Injury Lawyers (got: None)
+2026-09-14 18:20:07,294 [INFO] agents.outreach_agent — Outreach: no valid email for Law Office of Joseph Linnehan, Jr. (got: None)
+2026-09-14 18:20:07,580 [INFO] agents.outreach_agent — Outreach: no valid email for I&C MECHANICAL , INC. - Plumbing, Heating and Air Conditioning (got: None)
+2026-09-14 18:20:08,137 [INFO] agents.outreach_agent — Found email 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com on https://www.dentalestheticsboston.com/
+2026-09-14 18:20:08,138 [INFO] agents.outreach_agent — Outreach: no valid email for Dental Esthetics Boston | Hirayama & Papaspyridakos (got: '605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com')
+2026-09-14 18:20:08,558 [INFO] agents.outreach_agent — Found email aaron@psinjury.com on https://seriousaccidents.com/la-jolla-personal-injury-lawyer/
+2026-09-14 18:20:08,559 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Pines Salomon Personal Injury Lawyers
+2026-09-14 18:20:08,826 [INFO] agents.email_sender — Resend: sent to aaron@psinjury.com (id=b4912c28-bbfa-405c-a0c9-4257b72a9c43)
+2026-09-14 18:20:08,827 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to aaron@psinjury.com (Pines Salomon Personal Injury Lawyers)
+2026-09-14 18:20:15,475 [INFO] agents.outreach_agent — Outreach: no valid email for Morgan & Morgan (got: None)
+2026-09-14 18:20:20,862 [INFO] agents.outreach_agent — Outreach: no valid email for EZ Plumbing USA - Emergency Plumbing & Leak Detection San Diego (got: None)
+2026-09-14 18:20:21,426 [INFO] agents.outreach_agent — Found email s.yazdanmehr@gmail.com on https://saltandsmile.com/
+2026-09-14 18:20:21,428 [INFO] agents.outreach_agent — Outreach: subject variant 0 for Salt and Smile Dental Co.
+2026-09-14 18:20:21,692 [INFO] agents.email_sender — Resend: sent to s.yazdanmehr@gmail.com (id=09029133-2cd9-4356-a2fa-5406a5bc36d1)
+2026-09-14 18:20:21,693 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to s.yazdanmehr@gmail.com (Salt and Smile Dental Co.)
+2026-09-14 18:20:26,003 [INFO] agents.outreach_agent — Outreach: no valid email for Coastal Dental Arts (got: None)
+2026-09-14 18:20:27,436 [INFO] agents.outreach_agent — Found email info@marinadistrictdentistry.com on https://www.marinadistrictdentistry.com/?utm_campaign=gmb
+2026-09-14 18:20:27,438 [INFO] agents.outreach_agent — Outreach: subject variant 0 for Marina District Dentistry
+2026-09-14 18:20:27,646 [INFO] agents.email_sender — Resend: sent to info@marinadistrictdentistry.com (id=3b266544-4feb-46f0-8ea7-cb7bef0a83be)
+2026-09-14 18:20:27,647 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@marinadistrictdentistry.com (Marina District Dentistry)
+2026-09-14 18:20:32,390 [INFO] agents.outreach_agent — Outreach: no valid email for Define Real Estate San Diego - Real Estate Sales and Service (got: None)
+2026-09-14 18:20:33,480 [INFO] agents.outreach_agent — Outreach: no valid email for Valiente Mott Injury Attorneys (got: None)
+2026-09-14 18:20:36,232 [INFO] agents.outreach_agent — Found email example@gmail.com on http://www.precisionplumbinglv.com/
+2026-09-14 18:20:36,235 [INFO] agents.outreach_agent — Outreach: skipping suppressed email example@gmail.com (Precision Plumbing)
+2026-09-14 18:20:42,155 [INFO] agents.outreach_agent — Outreach: no valid email for Pure Plumbing & Air (got: None)
+2026-09-14 18:20:46,046 [INFO] agents.outreach_agent — Outreach: no valid email for Vegas Valley Plumbing (got: None)
+2026-09-14 18:20:47,322 [INFO] agents.outreach_agent — Outreach: no valid email for Regenerate Medical Concierge (got: None)
+2026-09-14 18:20:49,631 [INFO] agents.outreach_agent — Found email llapidus@lapiduslawfirm.com on https://lapiduslawfirm.com/?utm_source=gbp&utm_medium=organic&utm_campaign=website+link
+2026-09-14 18:20:49,633 [INFO] agents.outreach_agent — Outreach: subject variant 2 for The Lapidus Law Firm, PLLC
+2026-09-14 18:20:49,830 [INFO] agents.email_sender — Resend: sent to llapidus@lapiduslawfirm.com (id=c5934386-f451-439e-b9ec-486febf7ba7d)
+2026-09-14 18:20:49,831 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to llapidus@lapiduslawfirm.com (The Lapidus Law Firm, PLLC)
+2026-09-14 18:20:53,848 [INFO] agents.outreach_agent — Outreach: no valid email for District Dental Center (got: None)
+2026-09-14 18:20:54,097 [INFO] agents.outreach_agent — Found email info@siranlidental.com on https://www.siranlidental.com/
+2026-09-14 18:20:54,098 [INFO] agents.outreach_agent — Outreach: subject variant 1 for Siranli Implants & Facial Aesthetics & Prosthodontics
+2026-09-14 18:20:54,360 [INFO] agents.email_sender — Resend: sent to info@siranlidental.com (id=64f8abf4-55fc-47f8-aafc-000e586ca02c)
+2026-09-14 18:20:54,362 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@siranlidental.com (Siranli Implants & Facial Aesthetics & Prosthodontics)
+2026-09-14 18:20:57,655 [INFO] agents.outreach_agent — Outreach: no valid email for MG Residential Real Estate Sales Team (got: None)
+2026-09-14 18:20:59,320 [INFO] agents.outreach_agent — Found email 2da842c767f04973985018dd9924b335@sentry.io on https://lovelivedc.com/
+2026-09-14 18:20:59,321 [INFO] agents.outreach_agent — Outreach: no valid email for Love Live DC Real Estate Team (got: '2da842c767f04973985018dd9924b335@sentry.io')
+2026-09-14 18:20:59,323 [INFO] agents.suppression — Suppression: added 2da842c767f04973985018dd9924b335@sentry.io (reason: invalid_format)
+2026-09-14 18:21:01,781 [INFO] agents.outreach_agent — Outreach: no valid email for Nashville Injury Attorneys (got: None)
+2026-09-14 18:21:02,358 [INFO] agents.outreach_agent — Found email johndoe@email.com on https://woodardinjurylaw.com/?utm_source=google&utm_medium=organic&utm_campaign=gmblisting
+2026-09-14 18:21:02,359 [INFO] agents.outreach_agent — Outreach: no valid email for Woodard Injury Law - Nashville (got: 'johndoe@email.com')
+2026-09-14 18:21:02,360 [INFO] agents.suppression — Suppression: added johndoe@email.com (reason: invalid_format)
+2026-09-14 18:21:04,530 [INFO] agents.outreach_agent — Outreach: no valid email for Ponce Law Tennessee Car & Truck Accident Injury Attorneys (got: None)
+2026-09-14 18:21:12,218 [INFO] agents.outreach_agent — Outreach: no valid email for Parthenon Plumbing, Heating, & AC Repair (got: None)
+2026-09-14 18:21:12,464 [INFO] agents.outreach_agent — Outreach: no valid email for Mr Good Plumber (got: None)
+2026-09-14 18:21:13,838 [INFO] agents.outreach_agent — Outreach: no valid email for Dentistry of Nashville (got: None)
+2026-09-14 18:21:14,960 [INFO] agents.outreach_agent — Found email webreporting@gargle.com on https://www.ifdnashville.com/
+2026-09-14 18:21:14,962 [INFO] agents.outreach_agent — Outreach: subject variant 0 for Iroquois Dentistry
+2026-09-14 18:21:15,273 [INFO] agents.email_sender — Resend: sent to webreporting@gargle.com (id=d79b5a08-4279-434d-9e63-5b1978378062)
+2026-09-14 18:21:15,274 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to webreporting@gargle.com (Iroquois Dentistry)
+2026-09-14 18:21:18,768 [INFO] agents.outreach_agent — Found email email@address.com on http://www.12southdentalstudio.com/
+2026-09-14 18:21:18,769 [INFO] agents.outreach_agent — Outreach: subject variant 2 for 12 South Dental Studio
+2026-09-14 18:21:19,022 [INFO] agents.email_sender — Resend: sent to email@address.com (id=fe5cb9b5-6084-4d0f-af4e-00176c3892ad)
+2026-09-14 18:21:19,023 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to email@address.com (12 South Dental Studio)
+2026-09-14 18:21:22,458 [INFO] agents.outreach_agent — Found email ddstenn@gmail.com on https://ddsnashville.com/
+2026-09-14 18:21:22,459 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Dental Design Studios
+2026-09-14 18:21:22,727 [INFO] agents.email_sender — Resend: sent to ddstenn@gmail.com (id=a893c9df-d810-4ca7-8525-633c7c869966)
+2026-09-14 18:21:22,728 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to ddstenn@gmail.com (Dental Design Studios)
+2026-09-14 18:21:26,058 [INFO] agents.outreach_agent — Outreach: no valid email for Zeitlin Sotheby's International Realty (got: None)
+2026-09-14 18:21:40,239 [INFO] agents.outreach_agent — Outreach: no valid email for The Center For Restorative Medicine (got: None)
+2026-09-14 18:21:40,457 [INFO] agents.outreach_agent — Found email alf-intakes@akimlawfirm.com on https://gobiginjurylaw.com/
+2026-09-14 18:21:40,458 [INFO] agents.outreach_agent — Outreach: subject variant 1 for Go Big Injury Law
+2026-09-14 18:21:40,725 [INFO] agents.email_sender — Resend: sent to alf-intakes@akimlawfirm.com (id=641e57b3-8380-45ba-8b0a-d6d04ccdb53c)
+2026-09-14 18:21:40,726 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to alf-intakes@akimlawfirm.com (Go Big Injury Law)
+2026-09-14 18:21:44,348 [INFO] agents.outreach_agent — Found email vmehta@mehtamcconnell.com on https://mehtamcconnell.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb
+2026-09-14 18:21:44,350 [INFO] agents.outreach_agent — Outreach: subject variant 1 for Mehta & McConnell, PLLC
+2026-09-14 18:21:44,552 [INFO] agents.email_sender — Resend: sent to vmehta@mehtamcconnell.com (id=f598f2b0-5955-4918-8cfd-fbe4b1af46f9)
+2026-09-14 18:21:44,553 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to vmehta@mehtamcconnell.com (Mehta & McConnell, PLLC)
+2026-09-14 18:21:47,844 [INFO] agents.outreach_agent — Found email crobinson@branchtec.com on https://smilesavvydentistry.com/
+2026-09-14 18:21:47,846 [INFO] agents.outreach_agent — Outreach: subject variant 1 for Smile Savvy Cosmetic Dentistry
+2026-09-14 18:21:48,045 [INFO] agents.email_sender — Resend: sent to crobinson@branchtec.com (id=c9f60414-b865-49a1-943b-ff16e37e6bb1)
+2026-09-14 18:21:48,046 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to crobinson@branchtec.com (Smile Savvy Cosmetic Dentistry)
+2026-09-14 18:21:51,291 [INFO] agents.outreach_agent — Found email office@dentistryonmonroe.com on https://dentistryonmonroe.com/
+2026-09-14 18:21:51,292 [INFO] agents.outreach_agent — Outreach: subject variant 0 for Dentistry On Monroe
+2026-09-14 18:21:51,575 [INFO] agents.email_sender — Resend: sent to office@dentistryonmonroe.com (id=a0d8bf67-ed12-4f11-b78a-9d521ddf7a90)
+2026-09-14 18:21:51,576 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to office@dentistryonmonroe.com (Dentistry On Monroe)
+2026-09-14 18:21:55,996 [INFO] agents.outreach_agent — Outreach: no valid email for Charlotte Dentistry (got: None)
+2026-09-14 18:21:55,996 [INFO] agents.outreach_agent — Outreach: no valid email for Eli Magids Charlotte Luxury Homes (got: None)
+2026-09-14 18:21:56,797 [INFO] agents.outreach_agent — Found email claude@carolinarealtyagents.com on https://www.carolinarealtysearch.com/
+2026-09-14 18:21:56,798 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Jane Francis Cross - Carolina Luxury Realtor - a Christie's International Affiliate at Ivester Jackson
+2026-09-14 18:21:57,044 [INFO] agents.email_sender — Resend: sent to claude@carolinarealtyagents.com (id=9b5d72a6-d597-48e8-ae71-5d80d0aa6a5f)
+2026-09-14 18:21:57,045 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to claude@carolinarealtyagents.com (Jane Francis Cross - Carolina Luxury Realtor - a Christie's International Affiliate at Ivester Jackson)
+2026-09-14 18:22:01,462 [INFO] agents.outreach_agent — Outreach: no valid email for Mickey Keenan, P.A. - Tampa Personal Injury Attorneys (got: None)
+2026-09-14 18:22:02,677 [INFO] agents.outreach_agent — Outreach: no valid email for Brooks Law Group - Tampa Personal Injury Lawyer (got: None)
+2026-09-14 18:22:09,355 [INFO] agents.outreach_agent — Outreach: no valid email for Burnetti, P.A. (got: None)
+2026-09-14 18:22:09,628 [INFO] agents.outreach_agent — Found email info@vanguardinjuryattorneys.com on https://www.vanguardinjuryattorneys.com/tampa-personal-injury-lawyer/
+2026-09-14 18:22:09,629 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Vanguard Attorneys
+2026-09-14 18:22:09,939 [INFO] agents.email_sender — Resend: sent to info@vanguardinjuryattorneys.com (id=5661a023-ad1c-48ee-9efa-fb7a5e2d7f1f)
+2026-09-14 18:22:09,940 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@vanguardinjuryattorneys.com (Vanguard Attorneys)
+2026-09-14 18:22:13,260 [INFO] agents.outreach_agent — Outreach: no valid email for Emergency Plumbing (got: None)
+2026-09-14 18:22:13,519 [INFO] agents.outreach_agent — Found email info@tampadental.com on https://www.tampadental.com/
+2026-09-14 18:22:13,520 [INFO] agents.outreach_agent — Outreach: subject variant 0 for Tampa Dental
+2026-09-14 18:22:13,732 [INFO] agents.email_sender — Resend: sent to info@tampadental.com (id=6d9d5746-a3e3-4ad2-9bce-0e83d1e85643)
+2026-09-14 18:22:13,733 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@tampadental.com (Tampa Dental)
+2026-09-14 18:22:21,205 [INFO] agents.outreach_agent — Outreach: no valid email for South Tampa Smiles (got: None)
+2026-09-14 18:22:25,261 [INFO] agents.outreach_agent — Outreach: no valid email for Tampa Smile Co. - South Tampa (got: None)
+2026-09-14 18:22:27,924 [INFO] agents.outreach_agent — Outreach: no valid email for Tampa Dental Excellence (Formerly Kernagis Dental Excellence) (got: None)
+2026-09-14 18:22:28,306 [INFO] agents.outreach_agent — Outreach: no valid email for ELG Injury & Accident Lawyers - Portland (got: None)
+2026-09-14 18:22:28,750 [INFO] agents.outreach_agent — Found email contact@advocates.com on https://www.advocateslaw.com/?utm_source=google&utm_medium=local&utm_campaign=gmb-portland
+2026-09-14 18:22:28,751 [INFO] agents.outreach_agent — Outreach: subject variant 0 for The Advocates Injury Attorneys
+2026-09-14 18:22:29,033 [INFO] agents.email_sender — Resend: sent to contact@advocates.com (id=2824570b-8b99-48ed-be35-b30e824c82c2)
+2026-09-14 18:22:29,034 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to contact@advocates.com (The Advocates Injury Attorneys)
+2026-09-14 18:22:32,605 [INFO] agents.outreach_agent — Found email webreporting@gargle.com on https://www.portlanddentaldesign.com/
+2026-09-14 18:22:32,607 [INFO] agents.outreach_agent — Outreach: subject variant 0 for Portland Smile Design
+2026-09-14 18:22:32,819 [INFO] agents.email_sender — Resend: sent to webreporting@gargle.com (id=82faca06-1b74-4c98-ab60-db0c501f2d47)
+2026-09-14 18:22:32,820 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to webreporting@gargle.com (Portland Smile Design)
+2026-09-14 18:22:36,192 [INFO] agents.outreach_agent — Outreach: no valid email for Cascade Hasson Sotheby's International Realty | Suzanne Clark Cambray (got: None)
+2026-09-14 18:23:01,285 [INFO] agents.outreach_agent — Outreach: no valid email for Jason Mendell - Portland's Top Luxury Real Estate Broker (got: None)
+2026-09-14 18:23:01,967 [INFO] agents.outreach_agent — Found email info@soderlin.com on https://www.soderlin.com/
+2026-09-14 18:23:01,969 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Soderlin Plumbing, Heating & Air Conditioning
+2026-09-14 18:23:02,168 [INFO] agents.email_sender — Resend: sent to info@soderlin.com (id=5fabb1c8-b555-4998-81d1-c7e54ef34dbf)
+2026-09-14 18:23:02,169 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@soderlin.com (Soderlin Plumbing, Heating & Air Conditioning)
+2026-09-14 18:23:11,842 [INFO] agents.outreach_agent — Found email service@bedrockplumbers.com on https://bedrockplumbers.com/plumbing-company-st-louis-park-mn/
+2026-09-14 18:23:11,844 [INFO] agents.outreach_agent — Outreach: subject variant 1 for Bedrock Plumbing & Drain Cleaning
+2026-09-14 18:23:12,041 [INFO] agents.email_sender — Resend: sent to service@bedrockplumbers.com (id=eba1d024-b9aa-4461-b904-1aceef9b250c)
+2026-09-14 18:23:12,042 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to service@bedrockplumbers.com (Bedrock Plumbing & Drain Cleaning)
+2026-09-14 18:23:16,579 [INFO] agents.outreach_agent — Found email solutions@waterheatersnow.com on https://www.waterheatersnow.com/?utm_source=google&utm_medium=organic&utm_campaign=google-business-profile&utm_content=minneapolis
+2026-09-14 18:23:16,581 [INFO] agents.outreach_agent — Outreach: subject variant 1 for Water Heaters Now!
+2026-09-14 18:23:16,785 [INFO] agents.email_sender — Resend: sent to solutions@waterheatersnow.com (id=c5eece4c-dc47-4d57-a077-1d17b98ef6ad)
+2026-09-14 18:23:16,787 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to solutions@waterheatersnow.com (Water Heaters Now!)
+2026-09-14 18:23:21,288 [INFO] agents.outreach_agent — Found email smiles@yoursmiledocs.com on http://www.yoursmiledocs.com/
+2026-09-14 18:23:21,290 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Cosmetic, Family & Sports Dentistry
+2026-09-14 18:23:21,506 [INFO] agents.email_sender — Resend: sent to smiles@yoursmiledocs.com (id=69b2d38a-8736-4d00-90af-cffae2ad3646)
+2026-09-14 18:23:21,507 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to smiles@yoursmiledocs.com (Cosmetic, Family & Sports Dentistry)
+2026-09-14 18:23:24,901 [INFO] agents.outreach_agent — Found email info@mkt-msp.com on http://mktrealestateadvisors.com/
+2026-09-14 18:23:24,902 [INFO] agents.outreach_agent — Outreach: subject variant 0 for MKT Real Estate Advisors
+2026-09-14 18:23:25,098 [INFO] agents.email_sender — Resend: sent to info@mkt-msp.com (id=fbb5489a-5c33-49e1-9db4-aefe6550ed96)
+2026-09-14 18:23:25,099 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@mkt-msp.com (MKT Real Estate Advisors)
+2026-09-14 18:23:28,702 [INFO] agents.outreach_agent — Outreach: no valid email for Austin Housh Real Estate LLC (got: None)
+2026-09-14 18:23:30,038 [INFO] agents.outreach_agent — Outreach: no valid email for Hill Law Firm Accident and Injury Lawyers (got: None)
+2026-09-14 18:23:30,319 [INFO] agents.outreach_agent — Found email sanantonio@1tomplumber.com on https://www.1tomplumber.com/sanantonio/
+2026-09-14 18:23:30,320 [INFO] agents.outreach_agent — Outreach: subject variant 2 for 1-Tom-Plumber
+2026-09-14 18:23:30,769 [INFO] agents.email_sender — Resend: sent to sanantonio@1tomplumber.com (id=f54aec70-922b-4d37-b105-70e41dc3769a)
+2026-09-14 18:23:30,770 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to sanantonio@1tomplumber.com (1-Tom-Plumber)
+2026-09-14 18:23:34,926 [INFO] agents.outreach_agent — Outreach: no valid email for Roto-Rooter Plumbing & Water Cleanup (got: None)
+2026-09-14 18:23:36,812 [INFO] agents.outreach_agent — Outreach: no valid email for Ambition Plumbing & Drain Services (got: None)
+2026-09-14 18:23:37,944 [INFO] agents.outreach_agent — Outreach: no valid email for Nicholas Kjos, Luxury Real Estate Advisor (got: None)
+2026-09-14 18:23:38,320 [INFO] agents.outreach_agent — Found email team@preema.org on https://preema.org/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing&utm_content=PREEMA&y_source=1_MTA5MTY0MTcyNi03MTUtbG9jYXRpb24ud2Vic2l0ZQ==
+2026-09-14 18:23:38,321 [INFO] agents.outreach_agent — Outreach: subject variant 2 for PREEMA Regenerative Aesthetics
+2026-09-14 18:23:38,537 [INFO] agents.email_sender — Resend: sent to team@preema.org (id=ff66446a-d7ee-4963-a651-c3b7c0d17c61)
+2026-09-14 18:23:38,538 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to team@preema.org (PREEMA Regenerative Aesthetics)
+2026-09-14 18:23:43,464 [INFO] agents.outreach_agent — Outreach: no valid email for The Jaspon Firm, P.A. (got: None)
+2026-09-14 18:23:50,215 [INFO] agents.outreach_agent — Outreach: no valid email for Morgan & Morgan (got: None)
+2026-09-14 18:23:51,595 [INFO] agents.outreach_agent — Outreach: no valid email for Spetsas Buist Personal Injury & Car Accident Lawyers (got: None)
+2026-09-14 18:23:52,816 [INFO] agents.outreach_agent — Outreach: no valid email for Benjamin Franklin Plumbing (got: None)
+2026-09-14 18:23:53,361 [INFO] agents.outreach_agent — Found email ask@frankgayservices.com on https://frankgayservices.com/service-area/orlando/?utm_source=google-gbp&utm_medium=organic&utm_campaign=*107*frank-gay-orlando
+2026-09-14 18:23:53,362 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Frank Gay Services
+2026-09-14 18:23:53,595 [INFO] agents.email_sender — Resend: sent to ask@frankgayservices.com (id=5976e938-c6e0-475a-a8be-e1f1eeed513c)
+2026-09-14 18:23:53,596 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to ask@frankgayservices.com (Frank Gay Services)
+2026-09-14 18:23:57,113 [INFO] agents.outreach_agent — Found email herrellplumbing@gmail.com on https://www.herrellplumbing.com/
+2026-09-14 18:23:57,114 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Herrell Plumbing
+2026-09-14 18:23:57,318 [INFO] agents.email_sender — Resend: sent to herrellplumbing@gmail.com (id=65651e01-d6d0-4d27-b2f4-743a45b1cf02)
+2026-09-14 18:23:57,319 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to herrellplumbing@gmail.com (Herrell Plumbing)
+2026-09-14 18:24:01,206 [INFO] agents.outreach_agent — Outreach: no valid email for NuLife Dental: Cosmetic Dentist Orlando (got: None)
+2026-09-14 18:24:01,663 [INFO] agents.outreach_agent — Found email 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com on http://www.orlandodentalcenter.com/
+2026-09-14 18:24:01,664 [INFO] agents.outreach_agent — Outreach: no valid email for Orlando Dental Center (got: '605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com')
+2026-09-14 18:24:06,096 [INFO] agents.outreach_agent — Outreach: no valid email for Lake Eola Dental (got: None)
+2026-09-14 18:24:06,549 [INFO] agents.outreach_agent — Found email Info@RealEstateProsFl.com on http://www.reprosfl.com/
+2026-09-14 18:24:06,550 [INFO] agents.outreach_agent — Outreach: subject variant 0 for RE/Pros Team - Florida's Best Realtors
+2026-09-14 18:24:06,743 [INFO] agents.email_sender — Resend: sent to Info@RealEstateProsFl.com (id=27e54684-9975-4305-883c-1f352ed57937)
+2026-09-14 18:24:06,744 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to Info@RealEstateProsFl.com (RE/Pros Team - Florida's Best Realtors)
+2026-09-14 18:24:11,017 [INFO] agents.outreach_agent — Outreach: no valid email for Sanz Luxury Team, Valentino Sanchez (got: None)
+2026-09-14 18:24:11,018 [INFO] agents.outreach_agent — Outreach batch complete: sent=28 (subscribers=0), no_email=51, failed=0
+2026-09-14 18:24:11,018 [INFO] local_seo_orchestrator — [4/5] Fulfillment: registering 28 alerts for payment...
+2026-09-14 18:24:11,088 [INFO] agents.fulfillment_agent — Fulfillment: registered 28 alerts for post-payment delivery
+2026-09-14 18:24:11,090 [INFO] local_seo_orchestrator — [5/5] Monitor Agent: recording stats...
+2026-09-14 18:24:12,366 [INFO] local_seo_orchestrator — ============================================================
+2026-09-14 18:24:12,366 [INFO] local_seo_orchestrator — Pipeline complete. 79 rank drop alerts, emails sent.
+2026-09-14 18:24:12,366 [INFO] local_seo_orchestrator — ============================================================
