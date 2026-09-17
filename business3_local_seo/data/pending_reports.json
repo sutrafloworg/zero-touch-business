@@ -63231,7 +63231,572 @@
             "category_avg_rating": 4.4,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.9,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 19",
+              "rank": 18
+            },
+            {
+              "date": "Jun 01",
+              "rank": 17
+            },
+            {
+              "date": "Jun 08",
+              "rank": 17
+            },
+            {
+              "date": "Jun 22",
+              "rank": 17
+            },
+            {
+              "date": "Jul 13",
+              "rank": 16
+            },
+            {
+              "date": "Jul 27",
+              "rank": 14
+            },
+            {
+              "date": "Aug 10",
+              "rank": 11
+            },
+            {
+              "date": "Aug 24",
+              "rank": 9
+            },
+            {
+              "date": "Sep 07",
+              "rank": 15
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 19",
+              "reviews": 63
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 63
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 63
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 63
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 63
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 63
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 63
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 63
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 63
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              18,
+              17,
+              17,
+              17,
+              16,
+              14,
+              11,
+              9,
+              15
+            ],
+            "dates": [
+              "May 19",
+              "Jun 01",
+              "Jun 08",
+              "Jun 22",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "improving",
+            "best_rank": 9,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 15.9,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUVC0U-i5woARJn5BfN9v2O4"
+            },
+            {
+              "rank": 2,
+              "name": "Pezzini Luxury Homes",
+              "rating": 4.9,
+              "reviews": 30,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJH8TTyZW-woARuJ3mC6r5Dms"
+            },
+            {
+              "rank": 3,
+              "name": "Leslie Romenesko, Luxury Real Estate at Compass",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy5RPq72-woAROZfjDQa9Ds4"
+            },
+            {
+              "rank": 4,
+              "name": "Selling LA Luxury - Compass",
+              "rating": 5.0,
+              "reviews": 20,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJg_7RYYy7woAR7I05VBepUZM"
+            },
+            {
+              "rank": 5,
+              "name": "Grace Globus",
+              "rating": 4.9,
+              "reviews": 114,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJOZSwofi7woARNbioX-Q8kEw"
+            },
+            {
+              "rank": 6,
+              "name": "Keyes Real Estate",
+              "rating": 4.9,
+              "reviews": 212,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJDxLfE_i7woAR0wWk71od210"
+            },
+            {
+              "rank": 7,
+              "name": "The One Luxury Properties, Beverly Hills",
+              "rating": 5.0,
+              "reviews": 6,
+              "review_velocity": 0.12,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJSwuEnkK7woARIX80cwgwJuQ"
+            },
+            {
+              "rank": 8,
+              "name": "Resident Group | Luxury Real Estate",
+              "rating": 4.7,
+              "reviews": 23,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJtRbrFJ29woARZQlzWehCZO8"
+            },
+            {
+              "rank": 9,
+              "name": "Carrie Eckert Greater Los Angeles Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJeftps0HBwoARWuNSEN5i0R0"
+            },
+            {
+              "rank": 10,
+              "name": "L34 Group",
+              "rating": 5.0,
+              "reviews": 160,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJ___PerLAwoARtyrhtKFEG00"
+            },
+            {
+              "rank": 11,
+              "name": "Aspire Los Angeles",
+              "rating": 4.9,
+              "reviews": 25,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU1WlqbTHwoAR0UvRX_ChR58"
+            },
+            {
+              "rank": 12,
+              "name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJJSPGtAi7woARIobkpy_kqAI"
+            },
+            {
+              "rank": 13,
+              "name": "Lauren Reichenberg - Los Angeles Realtor",
+              "rating": 4.7,
+              "reviews": 12,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJW9SBcP2_woAR1_wYvZyLHFM"
+            },
+            {
+              "rank": 14,
+              "name": "Melissa Stein-Singer | Luxury Residential Real Estate in Los Angeles",
+              "rating": 5.0,
+              "reviews": 8,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJkXvpkHE1EEgRlx09Jq3asdk"
+            },
+            {
+              "rank": 15,
+              "name": "Ross Weinstein Real Estate Group - Brentwood-Santa Monica-Los Angeles",
+              "rating": 4.9,
+              "reviews": 63,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJS23TV1-7woARsqS82gzravo"
+            },
+            {
+              "rank": 16,
+              "name": "Monica Der, Realtor",
+              "rating": 5.0,
+              "reviews": 265,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJkxlpFJG5woAR_zfEmVYOHUE"
+            },
+            {
+              "rank": 17,
+              "name": "Anne Loveland, Realtor Loveland Carr Group Hancock Park Real Estate Agents",
+              "rating": 4.9,
+              "reviews": 46,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ0XEidse4woARaR5kO7XWJKo"
+            },
+            {
+              "rank": 18,
+              "name": "Sharon Tay - Los Angeles Luxury Real Estate Agent | The Altman Brothers Team | Douglas Elliman| DRE #02134774",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJGyoXx4m5faER5YOfL-peykM"
+            },
+            {
+              "rank": 19,
+              "name": "The Local Real Estate Group (formerly C+K) | Compass",
+              "rating": 4.7,
+              "reviews": 70,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJcycNBNvAwoARpTihO7EEE3Q"
+            },
+            {
+              "rank": 20,
+              "name": "Glaser Group | Los Angeles Multifamily Real Estate Broker",
+              "rating": 5.0,
+              "reviews": 117,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Commercial real estate agency",
+              "_key": "ChIJFZekZ5WZwoARlQnLlQPuYp4"
+            }
+          ],
+          "subject": {
+            "rank": 15,
+            "name": "Ross Weinstein Real Estate Group - Brentwood-Santa Monica-Los Angeles",
+            "rating": 4.9,
+            "reviews": 63,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJS23TV1-7woARsqS82gzravo"
+          },
+          "benchmarks": {
+            "avg_rating": 4.92,
+            "avg_reviews": 60,
+            "median_reviews": 24,
+            "typical_reviews": 24,
+            "skewed": true,
+            "your_reviews": 63,
+            "your_rating": 4.9,
+            "reviews_percentile": 70,
+            "pack_size": 20,
+            "top_reviews": 265
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUVC0U-i5woARJn5BfN9v2O4",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Pezzini Luxury Homes",
+              "rating": 4.9,
+              "reviews": 30,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJH8TTyZW-woARuJ3mC6r5Dms",
+              "rank_delta": 3,
+              "review_gain": -1
+            },
+            {
+              "rank": 3,
+              "name": "Leslie Romenesko, Luxury Real Estate at Compass",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy5RPq72-woAROZfjDQa9Ds4",
+              "rank_delta": 4,
+              "review_gain": 8
+            },
+            {
+              "rank": 4,
+              "name": "Selling LA Luxury - Compass",
+              "rating": 5.0,
+              "reviews": 20,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJg_7RYYy7woAR7I05VBepUZM",
+              "rank_delta": 8,
+              "review_gain": 1
+            },
+            {
+              "rank": 5,
+              "name": "Grace Globus",
+              "rating": 4.9,
+              "reviews": 114,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJOZSwofi7woARNbioX-Q8kEw",
+              "rank_delta": -3,
+              "review_gain": -3
+            },
+            {
+              "rank": 8,
+              "name": "Resident Group | Luxury Real Estate",
+              "rating": 4.7,
+              "reviews": 23,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJtRbrFJ29woARZQlzWehCZO8",
+              "rank_delta": -2,
+              "review_gain": 5
+            },
+            {
+              "rank": 10,
+              "name": "L34 Group",
+              "rating": 5.0,
+              "reviews": 160,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJ___PerLAwoARtyrhtKFEG00",
+              "rank_delta": 4,
+              "review_gain": 5
+            },
+            {
+              "rank": 11,
+              "name": "Aspire Los Angeles",
+              "rating": 4.9,
+              "reviews": 25,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU1WlqbTHwoAR0UvRX_ChR58",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 12,
+              "name": "Laurent Mamann | Los Angeles Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJJSPGtAi7woARIobkpy_kqAI",
+              "rank_delta": -4,
+              "review_gain": 0
+            },
+            {
+              "rank": 15,
+              "name": "Ross Weinstein Real Estate Group - Brentwood-Santa Monica-Los Angeles",
+              "rating": 4.9,
+              "reviews": 63,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJS23TV1-7woARsqS82gzravo",
+              "rank_delta": 3,
+              "review_gain": 0
+            },
+            {
+              "rank": 16,
+              "name": "Monica Der, Realtor",
+              "rating": 5.0,
+              "reviews": 265,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJkxlpFJG5woAR_zfEmVYOHUE",
+              "rank_delta": -6,
+              "review_gain": -3
+            },
+            {
+              "rank": 18,
+              "name": "Sharon Tay - Los Angeles Luxury Real Estate Agent | The Altman Brothers Team | Douglas Elliman| DRE #02134774",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJGyoXx4m5faER5YOfL-peykM",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 20,
+              "name": "Glaser Group | Los Angeles Multifamily Real Estate Broker",
+              "rating": 5.0,
+              "reviews": 117,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Commercial real estate agency",
+              "_key": "ChIJFZekZ5WZwoARlQnLlQPuYp4",
+              "rank_delta": 0,
+              "review_gain": 5
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "Selling LA Luxury - Compass",
+            "rating": 5.0,
+            "reviews": 20,
+            "review_velocity": 0.06,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJg_7RYYy7woAR7I05VBepUZM",
+            "rank_delta": 8,
+            "review_gain": 1
+          },
+          "fastest_review_gainer": {
+            "rank": 3,
+            "name": "Leslie Romenesko, Luxury Real Estate at Compass",
+            "rating": 5.0,
+            "reviews": 15,
+            "review_velocity": 0.5,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJy5RPq72-woAROZfjDQa9Ds4",
+            "rank_delta": 4,
+            "review_gain": 8
+          },
+          "visibility": {
+            "current_rank": 15,
+            "best_rank": 9,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.5,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.7,
+            "lost_vs_best_rel": 47,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 63 vs a typical competitor's 24."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.92. A 0.02-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Leslie Romenesko, Luxury Real Estate. added 8 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 15,
+          "start_rank": 18,
+          "net_change": 3,
+          "best_rank": 9,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 17, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547269+00:00",
@@ -63242,7 +63807,9 @@
           "type": "followup_1",
           "sent_at": "2026-09-14T18:24:12.509747+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-09-17T17:35:45.954570+00:00",
+      "free_report_email": "ross@rossweinstein.com"
     },
     {
       "id": "386edb4ee494",
@@ -63709,7 +64276,318 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 2.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Aug 24",
+              "rank": 13
+            },
+            {
+              "date": "Sep 07",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Aug 24",
+              "reviews": 67
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 67
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              13,
+              20
+            ],
+            "dates": [
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "declining",
+            "best_rank": 13,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 2.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Rafael Murillo, RM Luxury Group \u2014 Luxury Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 62,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJByArCqssDogRRA-lc2KsglQ"
+            },
+            {
+              "rank": 2,
+              "name": "Gillman Group Luxury Real Estate | Compass Chicago",
+              "rating": 4.9,
+              "reviews": 33,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJTT3c8R3TD4gRoucxBoAfops"
+            },
+            {
+              "rank": 3,
+              "name": "Melissa Dondalski | Luxury Real Estate, Development & Investment \u2013 Chicago & Naples",
+              "rating": 4.8,
+              "reviews": 25,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJPWtu4kDTD4gRIclg9UsLSYk"
+            },
+            {
+              "rank": 4,
+              "name": "Chicago Luxury Listings",
+              "rating": 5.0,
+              "reviews": 69,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJoUAIqe4tDogRpqC7UqxlZ0E"
+            },
+            {
+              "rank": 5,
+              "name": "Luxury Living | Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 1099,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ3cyoR7EsDogR75uz0WwQcW0"
+            },
+            {
+              "rank": 6,
+              "name": "The Scott Group | Compass Chicago | Luxury Real Estate",
+              "rating": 5.0,
+              "reviews": 194,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ8wdbMJ3TD4gRu03eXasL_Lc"
+            },
+            {
+              "rank": 7,
+              "name": "MB Luxury Group & Margaret Baczkowski",
+              "rating": 4.8,
+              "reviews": 20,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJI-Mi4KwsDogRK1nx_Vjo43s"
+            },
+            {
+              "rank": 8,
+              "name": "Ryan Hardy | Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 50,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ56XbmrIsDogRd55axqIxOzo"
+            },
+            {
+              "rank": 9,
+              "name": "Janie Luxury Realty",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJw3vtClUtDogROyc8O7CII9M"
+            },
+            {
+              "rank": 10,
+              "name": "Emily Sachs Wong Luxury Chicago Real Estate",
+              "rating": 5.0,
+              "reviews": 18,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJjaNtDuLSD4gR2ZO-Mew8MuE"
+            },
+            {
+              "rank": 11,
+              "name": "Crystal Tran Team",
+              "rating": 5.0,
+              "reviews": 118,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJZ47ZkffED4gRQ5WYXlwAZ_c"
+            },
+            {
+              "rank": 12,
+              "name": "CHICAGO LUXURY REAL ESTATE",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ_-DLI7UsDogRiMmaXjWvbNk"
+            },
+            {
+              "rank": 13,
+              "name": "IRPINO Real Estate",
+              "rating": 5.0,
+              "reviews": 209,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJkWES_8vTD4gRFvKdJzNMFpI"
+            },
+            {
+              "rank": 14,
+              "name": "Gold Coast Realty Chicago",
+              "rating": 4.9,
+              "reviews": 157,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJmyyvlE_TD4gRYwReGcinQoo"
+            },
+            {
+              "rank": 15,
+              "name": "Vesta Preferred Realty",
+              "rating": 4.9,
+              "reviews": 392,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJYW3sX_TSD4gRXyz-nqpj6QI"
+            },
+            {
+              "rank": 16,
+              "name": "Sohail Real Estate Team, eXp Realty | Chicago and NorthShore Realtor",
+              "rating": 4.9,
+              "reviews": 234,
+              "review_velocity": 0.53,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJQfyYA8DSD4gR-UaDhX2t6BI"
+            },
+            {
+              "rank": 17,
+              "name": "Jameson Sotheby's International Realty",
+              "rating": 4.1,
+              "reviews": 100,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJiQXVNz_TD4gRbb37Zy9-fHc"
+            },
+            {
+              "rank": 18,
+              "name": "Carrie McCormick Real Estate",
+              "rating": 5.0,
+              "reviews": 130,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJL9NNIy3TD4gRq5wv5kFXccY"
+            },
+            {
+              "rank": 19,
+              "name": "YUB Realty Inc. - Your Ultimate Brokers",
+              "rating": 4.8,
+              "reviews": 258,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJBQpEQGkwDogRtGmDFOBA69c"
+            },
+            {
+              "rank": 20,
+              "name": "Joanne & Rachel Nemerovski - Compass Real Estate",
+              "rating": 5.0,
+              "reviews": 67,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJcXLoFKrTD4gRtWsUMxP-n_8"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Joanne & Rachel Nemerovski - Compass Real Estate",
+            "rating": 5.0,
+            "reviews": 67,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJcXLoFKrTD4gRtWsUMxP-n_8"
+          },
+          "benchmarks": {
+            "avg_rating": 4.89,
+            "avg_reviews": 163,
+            "median_reviews": 84,
+            "typical_reviews": 84,
+            "skewed": true,
+            "your_reviews": 67,
+            "your_rating": 5.0,
+            "reviews_percentile": 45,
+            "pack_size": 20,
+            "top_reviews": 1099
+          },
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 13,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 67 vs a typical competitor's 84. Close the 17-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.89."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 13,
+          "net_change": -7,
+          "best_rank": 13,
+          "worst_rank": 20
+        },
+        "_confidence_score": 9,
+        "_scan_date": "September 17, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547310+00:00",
@@ -63720,7 +64598,9 @@
           "type": "followup_1",
           "sent_at": "2026-09-14T18:24:12.509747+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-09-17T17:35:25.984506+00:00",
+      "free_report_email": "joannesellschicago@gmail.com"
     },
     {
       "id": "dc4db1ad4f99",
@@ -66464,7 +67344,408 @@
             "category_avg_rating": 4.8,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 7
+            },
+            {
+              "date": "Jun 01",
+              "rank": 8
+            },
+            {
+              "date": "Jun 08",
+              "rank": 7
+            },
+            {
+              "date": "Jun 15",
+              "rank": 8
+            },
+            {
+              "date": "Jun 22",
+              "rank": 8
+            },
+            {
+              "date": "Jun 29",
+              "rank": 8
+            },
+            {
+              "date": "Jul 13",
+              "rank": 8
+            },
+            {
+              "date": "Jul 27",
+              "rank": 8
+            },
+            {
+              "date": "Aug 10",
+              "rank": 7
+            },
+            {
+              "date": "Aug 24",
+              "rank": 6
+            },
+            {
+              "date": "Sep 07",
+              "rank": 13
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 1613
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 1629
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 1635
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 1647
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 1652
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 1664
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 1680
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 1700
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 1724
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 1741
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 1757
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              7,
+              8,
+              7,
+              8,
+              8,
+              8,
+              8,
+              8,
+              7,
+              6,
+              13
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "declining",
+            "best_rank": 6,
+            "worst_rank": 13
+          },
+          "review_velocity": {
+            "per_week": 9.6,
+            "total_gained": 144,
+            "weeks": 15.0,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "24/7 Rooter & Plumbing",
+              "rating": 4.7,
+              "reviews": 1005,
+              "review_velocity": 4.87,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ32Ps4z9_j4ARa1ZKOPyrKqQ"
+            },
+            {
+              "rank": 2,
+              "name": "Ace Plumbing & Rooter, Inc.",
+              "rating": 4.9,
+              "reviews": 1155,
+              "review_velocity": 8.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJJS26mxl_j4AR_tw1KauEilM"
+            },
+            {
+              "rank": 3,
+              "name": "Genteel Plumbers",
+              "rating": 4.8,
+              "reviews": 459,
+              "review_velocity": 3.27,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJfxb8ao-HhYARhlHKaEvyqxc"
+            },
+            {
+              "rank": 4,
+              "name": "Mr. Rooter Plumbing of San Francisco",
+              "rating": 4.8,
+              "reviews": 276,
+              "review_velocity": 0.53,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJDyG3YQB_j4ARtj546okvmJk"
+            },
+            {
+              "rank": 5,
+              "name": "Advanced Plumbing & Drain",
+              "rating": 4.9,
+              "reviews": 751,
+              "review_velocity": 2.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJU1-Ztct_j4ARWwn9E-DJyQs"
+            },
+            {
+              "rank": 6,
+              "name": "Precision Flow Plumbing",
+              "rating": 4.8,
+              "reviews": 71,
+              "review_velocity": 0.07,
+              "website": false,
+              "type": "Plumber",
+              "_key": "ChIJq86ydO5-j4ARwrxxQISVAJU"
+            },
+            {
+              "rank": 7,
+              "name": "Arch Plumbing Inc.",
+              "rating": 4.9,
+              "reviews": 300,
+              "review_velocity": 0.4,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJm62HnKKAhYAR0TL7id_7_tk"
+            },
+            {
+              "rank": 8,
+              "name": "Chosen Rooter & Plumbing Inc.",
+              "rating": 4.8,
+              "reviews": 348,
+              "review_velocity": 1.93,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ_ajcrQ6HhYARa-hKcYRdpkE"
+            },
+            {
+              "rank": 9,
+              "name": "Bay Area Plumbing",
+              "rating": 4.6,
+              "reviews": 29,
+              "review_velocity": 0.13,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJD-VtjRaHhYARThJFW273zpM"
+            },
+            {
+              "rank": 10,
+              "name": "Fast Response Plumbing & Rooter",
+              "rating": 4.9,
+              "reviews": 646,
+              "review_velocity": 4.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJbwuTuup9j4AR0cGJFo_bEhI"
+            },
+            {
+              "rank": 11,
+              "name": "O'Grady Plumbing",
+              "rating": 4.9,
+              "reviews": 174,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJSwYgisl5j4AR4Ygggj9CucQ"
+            },
+            {
+              "rank": 12,
+              "name": "Discount Plumbing Rooter Services",
+              "rating": 4.9,
+              "reviews": 3164,
+              "review_velocity": 16.87,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJLXVVkBN8j4ARkHGvt36GfxA"
+            },
+            {
+              "rank": 13,
+              "name": "Heise's Plumbing",
+              "rating": 4.9,
+              "reviews": 1757,
+              "review_velocity": 9.6,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJRRcNQIF-j4ARypyLvagRagY"
+            },
+            {
+              "rank": 14,
+              "name": "Roto-Rooter Plumbing & Water Cleanup",
+              "rating": 4.9,
+              "reviews": 434,
+              "review_velocity": 1.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJVVVVVamHhYARR_QEw_Qf1D0"
+            },
+            {
+              "rank": 15,
+              "name": "Discount Plumbing San Francisco",
+              "rating": 4.9,
+              "reviews": 503,
+              "review_velocity": 1.73,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJN3FWmcJ_j4ARttj3o5NPdGo"
+            },
+            {
+              "rank": 16,
+              "name": "Magic Plumbing Heating & Cooling",
+              "rating": 4.9,
+              "reviews": 1928,
+              "review_velocity": 1.53,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJa1dbNWh_j4ARtr7m-n1xie4"
+            },
+            {
+              "rank": 17,
+              "name": "Atlas Plumbing & Rooter",
+              "rating": 4.8,
+              "reviews": 89,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ0dUTJEN-j4ARPtKJj6qRfAs"
+            },
+            {
+              "rank": 18,
+              "name": "Lutz Plumbing Inc",
+              "rating": 4.9,
+              "reviews": 125,
+              "review_velocity": 0.8,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJz2KkLDt-j4AR9LGJ6F0FzPc"
+            },
+            {
+              "rank": 19,
+              "name": "Starboy Plumbing Inc.",
+              "rating": 4.8,
+              "reviews": 137,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJJc0-17N5j4ARHYFKLXt8IRM"
+            },
+            {
+              "rank": 20,
+              "name": "George Salet Plumbing, Inc.",
+              "rating": 5.0,
+              "reviews": 563,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJKSCFAyd5j4ARAbhfGw9VGPo"
+            }
+          ],
+          "subject": {
+            "rank": 13,
+            "name": "Heise's Plumbing",
+            "rating": 4.9,
+            "reviews": 1757,
+            "review_velocity": 9.6,
+            "website": true,
+            "type": "Plumber",
+            "_key": "ChIJRRcNQIF-j4ARypyLvagRagY"
+          },
+          "benchmarks": {
+            "avg_rating": 4.85,
+            "avg_reviews": 696,
+            "median_reviews": 446,
+            "typical_reviews": 696,
+            "skewed": false,
+            "your_reviews": 1757,
+            "your_rating": 4.9,
+            "reviews_percentile": 90,
+            "pack_size": 20,
+            "top_reviews": 3164
+          },
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 13,
+            "best_rank": 6,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 3.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 2.6,
+            "lost_vs_best_rel": 76,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 1757 vs a typical competitor's 696."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.85."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 9.6/week (strong)."
+            }
+          ],
+          "current_rank": 13,
+          "start_rank": 7,
+          "net_change": -6,
+          "best_rank": 6,
+          "worst_rank": 13
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 17, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547477+00:00",
@@ -66475,7 +67756,9 @@
           "type": "followup_1",
           "sent_at": "2026-09-14T18:24:12.509747+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-09-17T17:36:05.948609+00:00",
+      "free_report_email": "info@heisesplumbing.com"
     },
     {
       "id": "62f3a19b19d6",
