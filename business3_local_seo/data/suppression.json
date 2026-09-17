@@ -143,6 +143,10 @@
     "zuzka@apify.com": {
       "added_at": "2026-09-07T16:17:54.257172+00:00",
       "reason": "unsubscribe_reply"
+    },
+    "forward@updates.resend.com": {
+      "added_at": "2026-09-17T15:27:00.576408+00:00",
+      "reason": "unsubscribe_reply"
     }
   }
 }
