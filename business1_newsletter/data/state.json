@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-09-15T12:25:18.995178+00:00",
-  "issues_published": 20,
+  "last_run": "2026-09-22T12:17:58.406286+00:00",
+  "issues_published": 21,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
-    "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-    "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-    "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-    "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
-    "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
-    "https://openai.com/index/deutsche-telekom",
-    "https://openai.com/index/bio-bug-bounty",
-    "https://www.producthunt.com/products/sim-studio",
-    "https://www.producthunt.com/products/lemonlime",
     "https://openai.com/index/why-teens-deserve-access-safe-ai",
     "https://openai.com/index/cars24",
     "https://openai.com/index/unlocking-self-improvement-gpt-red",
@@ -102,11 +92,21 @@
     "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
     "https://www.producthunt.com/products/accordio",
     "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
-    "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/"
+    "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+    "https://openai.com/index/reimagining-advertising-with-ai",
+    "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+    "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+    "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+    "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+    "https://openai.com/index/v7",
+    "https://openai.com/index/astra-for-law",
+    "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+    "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+    "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/"
   ],
-  "affiliate_rotation_index": 46,
+  "affiliate_rotation_index": 48,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "25925130"
+  "last_broadcast_id": "26033602"
 }

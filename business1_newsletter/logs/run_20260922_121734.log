@@ -1,0 +1,29 @@
+2026-09-22 12:17:36,219 [INFO] orchestrator — ============================================================
+2026-09-22 12:17:36,219 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-09-22 12:17:36,219 [INFO] orchestrator — Timestamp: 2026-09-22T12:17:36.219720+00:00
+2026-09-22 12:17:36,219 [INFO] orchestrator — ============================================================
+2026-09-22 12:17:36,244 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-09-22 12:17:36,377 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-09-22 12:17:37,064 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-09-22 12:17:37,693 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 8 fresh items
+2026-09-22 12:17:38,380 [WARNING] agents.feed_agent — Feed error for VentureBeat AI: <unknown>:2:39: not well-formed (invalid token)
+2026-09-22 12:17:38,972 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-09-22 12:17:39,647 [INFO] agents.feed_agent —   Product Hunt AI: fetched 36 fresh items
+2026-09-22 12:17:40,282 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-09-22 12:17:41,476 [INFO] agents.feed_agent —   OpenAI Blog: fetched 14 fresh items
+2026-09-22 12:17:41,979 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 98 total
+2026-09-22 12:17:41,980 [INFO] orchestrator —       Got 10 items
+2026-09-22 12:17:41,980 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-09-22 12:17:41,980 [INFO] agents.content_agent — Generating newsletter with sponsors: Writesonic, Rytr
+2026-09-22 12:17:57,717 [INFO] httpx2 — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-22 12:17:57,740 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'Meta's AI agent just broke ChatGPT's record'
+2026-09-22 12:17:57,740 [INFO] orchestrator —       Subject: 'Meta's AI agent just broke ChatGPT's record'
+2026-09-22 12:17:57,740 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-09-22 12:17:57,741 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-09-22 12:17:58,359 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-09-22T12:20:57+0000, ID=26033602
+2026-09-22 12:17:58,405 [INFO] orchestrator —       Broadcast ID: 26033602, Subscribers: 2
+2026-09-22 12:17:58,405 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-09-22 12:17:58,406 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 26033602
+2026-09-22 12:17:58,406 [INFO] orchestrator — ============================================================
+2026-09-22 12:17:58,406 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-09-22 12:17:58,406 [INFO] orchestrator — ============================================================
