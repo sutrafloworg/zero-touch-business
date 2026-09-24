@@ -45152,7 +45152,418 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 17.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 11
+            },
+            {
+              "date": "Jun 01",
+              "rank": 12
+            },
+            {
+              "date": "Jun 08",
+              "rank": 14
+            },
+            {
+              "date": "Jun 15",
+              "rank": 13
+            },
+            {
+              "date": "Jun 22",
+              "rank": 10
+            },
+            {
+              "date": "Jun 29",
+              "rank": 12
+            },
+            {
+              "date": "Jul 13",
+              "rank": 13
+            },
+            {
+              "date": "Jul 27",
+              "rank": 10
+            },
+            {
+              "date": "Aug 10",
+              "rank": 16
+            },
+            {
+              "date": "Aug 24",
+              "rank": 14
+            },
+            {
+              "date": "Sep 07",
+              "rank": 15
+            },
+            {
+              "date": "Sep 21",
+              "rank": 5
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 585
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 587
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 589
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 592
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 593
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 592
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 572
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 562
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 562
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 584
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 584
+            },
+            {
+              "date": "Sep 21",
+              "reviews": 645
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              11,
+              12,
+              14,
+              13,
+              10,
+              12,
+              13,
+              10,
+              16,
+              14,
+              15,
+              5
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07",
+              "Sep 21"
+            ],
+            "direction": "improving",
+            "best_rank": 5,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 3.53,
+            "total_gained": 60,
+            "weeks": 17.0,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Thompson Law",
+              "rating": 4.9,
+              "reviews": 2000,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "16840706042231000235"
+            },
+            {
+              "rank": 2,
+              "name": "DFW Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 998,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "9760651932951211036"
+            },
+            {
+              "rank": 3,
+              "name": "Mullen & Mullen Law Firm",
+              "rating": 4.9,
+              "reviews": 514,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "11485388820171870737"
+            },
+            {
+              "rank": 4,
+              "name": "Anderson Injury Lawyers Dallas",
+              "rating": 4.9,
+              "reviews": 504,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "13934388938565946403"
+            },
+            {
+              "rank": 5,
+              "name": "Shamieh Law - Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 645,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "15870043975361994883"
+            },
+            {
+              "rank": 6,
+              "name": "Herrman & Herrman P.L.L.C.",
+              "rating": 5.0,
+              "reviews": 653,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "10685684794841081838"
+            },
+            {
+              "rank": 7,
+              "name": "Jay Murray Car Accident and Truck Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 314,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "16753038606814063130"
+            },
+            {
+              "rank": 8,
+              "name": "Montgomery Law",
+              "rating": 4.7,
+              "reviews": 945,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "18085480387975559622"
+            },
+            {
+              "rank": 9,
+              "name": "Amaro Law Firm",
+              "rating": 4.9,
+              "reviews": 183,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "3096509194838129206"
+            },
+            {
+              "rank": 10,
+              "name": "Allbee Law Firm",
+              "rating": 4.9,
+              "reviews": 243,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "16908182963512034580"
+            },
+            {
+              "rank": 11,
+              "name": "Benton Accident & Injury Lawyers Dallas",
+              "rating": 4.9,
+              "reviews": 306,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "14289907506564640965"
+            },
+            {
+              "rank": 12,
+              "name": "Jim Adler & Associates",
+              "rating": 4.6,
+              "reviews": 4300,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "1859706844903081741"
+            },
+            {
+              "rank": 13,
+              "name": "AMS Law Group Car and Truck Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 552,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "17235184931791158402"
+            },
+            {
+              "rank": 14,
+              "name": "Ben Abbott & Associates",
+              "rating": 4.8,
+              "reviews": 4700,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "1845169242266611960"
+            },
+            {
+              "rank": 15,
+              "name": "AK Law Firm Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 249,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "14095495077479578878"
+            },
+            {
+              "rank": 16,
+              "name": "J. Alexander Law Firm",
+              "rating": 4.9,
+              "reviews": 538,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "1418594826962764650"
+            },
+            {
+              "rank": 17,
+              "name": "Rad Law Firm",
+              "rating": 4.6,
+              "reviews": 551,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "2200564480477399081"
+            },
+            {
+              "rank": 18,
+              "name": "LAWBOSS - Uvalle Law Firm, PLLC",
+              "rating": 4.7,
+              "reviews": 2700,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "4819023910709439184"
+            },
+            {
+              "rank": 19,
+              "name": "Robert C. Slim Law Firm, PLLC",
+              "rating": 5.0,
+              "reviews": 100,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "7043185073596312551"
+            },
+            {
+              "rank": 20,
+              "name": "Witherite Law Group",
+              "rating": 4.6,
+              "reviews": 1900,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "15926770285491064005"
+            }
+          ],
+          "subject": {
+            "rank": 5,
+            "name": "Shamieh Law - Accident & Injury Lawyers",
+            "rating": 5.0,
+            "reviews": 645,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "15870043975361994883"
+          },
+          "benchmarks": {
+            "avg_rating": 4.85,
+            "avg_reviews": 1145,
+            "median_reviews": 552,
+            "typical_reviews": 552,
+            "skewed": true,
+            "your_reviews": 645,
+            "your_rating": 5.0,
+            "reviews_percentile": 60,
+            "pack_size": 20,
+            "top_reviews": 4700
+          },
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 5,
+            "best_rank": 5,
+            "your_ctr_pct": 4.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 4.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 14.6
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 645 vs a typical competitor's 552."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.85."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 3.53/week (strong)."
+            }
+          ],
+          "current_rank": 5,
+          "start_rank": 11,
+          "net_change": 6,
+          "best_rank": 5,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 24, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-10T14:22:49.810586+00:00",
@@ -45171,7 +45582,9 @@
           "type": "followup_3",
           "sent_at": "2026-08-31T19:28:42.979815+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-09-24T17:50:34.604359+00:00",
+      "free_report_email": "ramez@shamiehlaw.com"
     },
     {
       "id": "43d23dd118d1",
@@ -68248,7 +68661,102 @@
             "category_avg_rating": 4.7,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 13.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Jun 08",
+              "rank": 19
+            },
+            {
+              "date": "Aug 10",
+              "rank": 20
+            },
+            {
+              "date": "Aug 24",
+              "rank": 14
+            },
+            {
+              "date": "Sep 07",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jun 08",
+              "reviews": 12
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 12
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 12
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 12
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              19,
+              20,
+              14,
+              20
+            ],
+            "dates": [
+              "Jun 08",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "volatile",
+            "best_rank": 14,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 13.0,
+            "verdict": "stalled"
+          },
+          "competitors": [],
+          "subject": null,
+          "benchmarks": null,
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 14,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 19,
+          "net_change": -1,
+          "best_rank": 14,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 24, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547488+00:00",
@@ -68263,7 +68771,9 @@
           "type": "followup_2",
           "sent_at": "2026-09-21T19:26:08.851643+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-09-24T17:50:15.960564+00:00",
+      "free_report_email": "info@advancedtrtclinic.com"
     },
     {
       "id": "00f1669ca387",
@@ -71360,12 +71870,597 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 17.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 14
+            },
+            {
+              "date": "Jun 01",
+              "rank": 14
+            },
+            {
+              "date": "Jun 08",
+              "rank": 14
+            },
+            {
+              "date": "Jun 15",
+              "rank": 14
+            },
+            {
+              "date": "Jun 22",
+              "rank": 14
+            },
+            {
+              "date": "Jun 29",
+              "rank": 15
+            },
+            {
+              "date": "Jul 13",
+              "rank": 14
+            },
+            {
+              "date": "Jul 27",
+              "rank": 14
+            },
+            {
+              "date": "Aug 10",
+              "rank": 14
+            },
+            {
+              "date": "Aug 24",
+              "rank": 13
+            },
+            {
+              "date": "Sep 07",
+              "rank": 13
+            },
+            {
+              "date": "Sep 21",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 791
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 795
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 797
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 800
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 799
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 801
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 803
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 810
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 811
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 820
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 821
+            },
+            {
+              "date": "Sep 21",
+              "reviews": 828
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              14,
+              14,
+              14,
+              14,
+              14,
+              15,
+              14,
+              14,
+              14,
+              13,
+              13,
+              20
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07",
+              "Sep 21"
+            ],
+            "direction": "declining",
+            "best_rank": 13,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 2.18,
+            "total_gained": 37,
+            "weeks": 17.0,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "The Smile Code NYC",
+              "rating": 4.9,
+              "reviews": 287,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJrfIOxpdYwokRdIKgoSPfBdA"
+            },
+            {
+              "rank": 2,
+              "name": "The New York Center for Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 222,
+              "review_velocity": 0.59,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJ4yLMCOtYwokRwvP--IrJZrI"
+            },
+            {
+              "rank": 3,
+              "name": "Park Smiles NYC Cosmetic Dentistry",
+              "rating": 4.8,
+              "reviews": 568,
+              "review_velocity": 1.59,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaT-yiqNYwokRjC18nrpyb60"
+            },
+            {
+              "rank": 4,
+              "name": "Luxury & Cosmetic Dentistry NYC",
+              "rating": 5.0,
+              "reviews": 110,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaWxvvsBYwokRMd9OMpzKh8g"
+            },
+            {
+              "rank": 5,
+              "name": "NYC Smile Spa",
+              "rating": 4.9,
+              "reviews": 400,
+              "review_velocity": 0.35,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJXYDvn_BYwokRLo_zCc7yz7Y"
+            },
+            {
+              "rank": 6,
+              "name": "Cosmetic Dental Studios - Victoria Veytsman DDS",
+              "rating": 4.9,
+              "reviews": 288,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJG7bZuPpYwokRv9EfGwCtkhU"
+            },
+            {
+              "rank": 7,
+              "name": "SmilesNY",
+              "rating": 4.9,
+              "reviews": 314,
+              "review_velocity": 0.35,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJI1YIlehYwokRip_o3rHiF_A"
+            },
+            {
+              "rank": 8,
+              "name": "Keith F. Silverman , D.M.D. Upper West Side",
+              "rating": 5.0,
+              "reviews": 422,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrdYC04RYwokRU9cvOdMLHN4"
+            },
+            {
+              "rank": 9,
+              "name": "Making You Smile Cosmetic Dentist Studio NYC: Dr. Ziad Jalbout DDS",
+              "rating": 4.9,
+              "reviews": 492,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJL66tzAZZwokRU_AfukjEIgg"
+            },
+            {
+              "rank": 10,
+              "name": "Midtown Cosmetic Dental",
+              "rating": 5.0,
+              "reviews": 167,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJpS60CuyBt4cR_BDDRVYhFvY"
+            },
+            {
+              "rank": 11,
+              "name": "Cosmetic Dentist Midtown",
+              "rating": 5.0,
+              "reviews": 8,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJcwdYSZBZwokR9tHTebO1oRQ"
+            },
+            {
+              "rank": 12,
+              "name": "Gause Dentistry (formerly Aesthetic Dentistry of Manhattan)",
+              "rating": 5.0,
+              "reviews": 306,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6-sH4QxZwokRRFBQhButnj8"
+            },
+            {
+              "rank": 13,
+              "name": "Dr. Alex Rubinov - NYC Cosmetic Dentist",
+              "rating": 5.0,
+              "reviews": 236,
+              "review_velocity": 1.24,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq6q-NvxYwokRj8h5qe9jVO0"
+            },
+            {
+              "rank": 14,
+              "name": "Dr. Dylan T Sallerson",
+              "rating": 4.9,
+              "reviews": 185,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ28F4GgpZwokRVJsr5Scevzg"
+            },
+            {
+              "rank": 15,
+              "name": "Rockefeller Cosmetic Dentistry Grand Central, New York",
+              "rating": 4.8,
+              "reviews": 43,
+              "review_velocity": 0.73,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJY1CARAFZwokRQ61vWb2p6zE"
+            },
+            {
+              "rank": 16,
+              "name": "212 Smiling Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 265,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Dental implants periodontist",
+              "_key": "ChIJ4_5YpulZwokRYTEPLSugt94"
+            },
+            {
+              "rank": 17,
+              "name": "Manhattan Dental Care",
+              "rating": 5.0,
+              "reviews": 322,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJ5VPZNY9YwokRPkJTUtKE0nE"
+            },
+            {
+              "rank": 18,
+              "name": "Aesthetic and Laser Dentistry of New York",
+              "rating": 5.0,
+              "reviews": 44,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJGzEVdkNZwokRF-GleagwybI"
+            },
+            {
+              "rank": 19,
+              "name": "Stewart Gordon, DDS",
+              "rating": 4.9,
+              "reviews": 70,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ_8nzDptYwokRNtdWej__ias"
+            },
+            {
+              "rank": 20,
+              "name": "Smile Arts of NY",
+              "rating": 4.8,
+              "reviews": 828,
+              "review_velocity": 2.18,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJy2FDGQFZwokRObY90eoCKcM"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Smile Arts of NY",
+            "rating": 4.8,
+            "reviews": 828,
+            "review_velocity": 2.18,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJy2FDGQFZwokRObY90eoCKcM"
+          },
+          "benchmarks": {
+            "avg_rating": 4.92,
+            "avg_reviews": 279,
+            "median_reviews": 276,
+            "typical_reviews": 279,
+            "skewed": false,
+            "your_reviews": 828,
+            "your_rating": 4.8,
+            "reviews_percentile": 100,
+            "pack_size": 20,
+            "top_reviews": 828
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "The Smile Code NYC",
+              "rating": 4.9,
+              "reviews": 287,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJrfIOxpdYwokRdIKgoSPfBdA",
+              "rank_delta": 6,
+              "review_gain": 17
+            },
+            {
+              "rank": 2,
+              "name": "The New York Center for Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 222,
+              "review_velocity": 0.59,
+              "website": true,
+              "type": "Dental clinic",
+              "_key": "ChIJ4yLMCOtYwokRwvP--IrJZrI",
+              "rank_delta": -1,
+              "review_gain": 10
+            },
+            {
+              "rank": 3,
+              "name": "Park Smiles NYC Cosmetic Dentistry",
+              "rating": 4.8,
+              "reviews": 568,
+              "review_velocity": 1.59,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaT-yiqNYwokRjC18nrpyb60",
+              "rank_delta": 8,
+              "review_gain": 27
+            },
+            {
+              "rank": 4,
+              "name": "Luxury & Cosmetic Dentistry NYC",
+              "rating": 5.0,
+              "reviews": 110,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJaWxvvsBYwokRMd9OMpzKh8g",
+              "rank_delta": -2,
+              "review_gain": 2
+            },
+            {
+              "rank": 5,
+              "name": "NYC Smile Spa",
+              "rating": 4.9,
+              "reviews": 400,
+              "review_velocity": 0.35,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJXYDvn_BYwokRLo_zCc7yz7Y",
+              "rank_delta": -1,
+              "review_gain": 6
+            },
+            {
+              "rank": 6,
+              "name": "Cosmetic Dental Studios - Victoria Veytsman DDS",
+              "rating": 4.9,
+              "reviews": 288,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJG7bZuPpYwokRv9EfGwCtkhU",
+              "rank_delta": -3,
+              "review_gain": 1
+            },
+            {
+              "rank": 7,
+              "name": "SmilesNY",
+              "rating": 4.9,
+              "reviews": 314,
+              "review_velocity": 0.35,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJI1YIlehYwokRip_o3rHiF_A",
+              "rank_delta": 5,
+              "review_gain": 6
+            },
+            {
+              "rank": 9,
+              "name": "Making You Smile Cosmetic Dentist Studio NYC: Dr. Ziad Jalbout DDS",
+              "rating": 4.9,
+              "reviews": 492,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJL66tzAZZwokRU_AfukjEIgg",
+              "rank_delta": -1,
+              "review_gain": 12
+            },
+            {
+              "rank": 10,
+              "name": "Midtown Cosmetic Dental",
+              "rating": 5.0,
+              "reviews": 167,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJpS60CuyBt4cR_BDDRVYhFvY",
+              "rank_delta": 0,
+              "review_gain": 2
+            },
+            {
+              "rank": 12,
+              "name": "Gause Dentistry (formerly Aesthetic Dentistry of Manhattan)",
+              "rating": 5.0,
+              "reviews": 306,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6-sH4QxZwokRRFBQhButnj8",
+              "rank_delta": 1,
+              "review_gain": 12
+            },
+            {
+              "rank": 13,
+              "name": "Dr. Alex Rubinov - NYC Cosmetic Dentist",
+              "rating": 5.0,
+              "reviews": 236,
+              "review_velocity": 1.24,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJq6q-NvxYwokRj8h5qe9jVO0",
+              "rank_delta": -4,
+              "review_gain": 21
+            },
+            {
+              "rank": 20,
+              "name": "Smile Arts of NY",
+              "rating": 4.8,
+              "reviews": 828,
+              "review_velocity": 2.18,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJy2FDGQFZwokRObY90eoCKcM",
+              "rank_delta": -6,
+              "review_gain": 37
+            }
+          ],
+          "fastest_climber": {
+            "rank": 3,
+            "name": "Park Smiles NYC Cosmetic Dentistry",
+            "rating": 4.8,
+            "reviews": 568,
+            "review_velocity": 1.59,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJaT-yiqNYwokRjC18nrpyb60",
+            "rank_delta": 8,
+            "review_gain": 27
+          },
+          "fastest_review_gainer": {
+            "rank": 20,
+            "name": "Smile Arts of NY",
+            "rating": 4.8,
+            "reviews": 828,
+            "review_velocity": 2.18,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJy2FDGQFZwokRObY90eoCKcM",
+            "rank_delta": -6,
+            "review_gain": 37
+          },
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 13,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 828 vs a typical competitor's 279."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.8 vs category 4.92. A 0.12-star gap costs trust at a glance."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 2.18/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Smile Arts of NY added 37 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 14,
+          "net_change": -6,
+          "best_rank": 13,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "September 24, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-21T19:26:07.144793+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-09-24T17:49:57.055008+00:00",
+      "free_report_email": "SmileArtsofNY@gmail.com"
     },
     {
       "id": "b478ae348fe3",
