@@ -1,0 +1,29 @@
+2026-09-29 13:40:49,080 [INFO] orchestrator — ============================================================
+2026-09-29 13:40:49,080 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-09-29 13:40:49,080 [INFO] orchestrator — Timestamp: 2026-09-29T13:40:49.080801+00:00
+2026-09-29 13:40:49,080 [INFO] orchestrator — ============================================================
+2026-09-29 13:40:49,103 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-09-29 13:40:49,202 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-09-29 13:40:49,872 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-09-29 13:40:50,481 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 6 fresh items
+2026-09-29 13:40:51,178 [WARNING] agents.feed_agent — Feed error for VentureBeat AI: <unknown>:2:39: not well-formed (invalid token)
+2026-09-29 13:40:52,072 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-09-29 13:40:52,792 [INFO] agents.feed_agent —   Product Hunt AI: fetched 28 fresh items
+2026-09-29 13:40:53,469 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-09-29 13:40:54,558 [INFO] agents.feed_agent —   OpenAI Blog: fetched 18 fresh items
+2026-09-29 13:40:55,060 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 92 total
+2026-09-29 13:40:55,061 [INFO] orchestrator —       Got 10 items
+2026-09-29 13:40:55,061 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-09-29 13:40:55,062 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-09-29 13:41:11,371 [INFO] httpx2 — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-29 13:41:11,390 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'AI agents are hacking their own tests'
+2026-09-29 13:41:11,390 [INFO] orchestrator —       Subject: 'AI agents are hacking their own tests'
+2026-09-29 13:41:11,390 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-09-29 13:41:11,390 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-09-29 13:41:11,845 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-09-29T13:44:11+0000, ID=26147512
+2026-09-29 13:41:11,895 [INFO] orchestrator —       Broadcast ID: 26147512, Subscribers: 2
+2026-09-29 13:41:11,895 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-09-29 13:41:11,896 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 26147512
+2026-09-29 13:41:11,896 [INFO] orchestrator — ============================================================
+2026-09-29 13:41:11,896 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-09-29 13:41:11,896 [INFO] orchestrator — ============================================================
