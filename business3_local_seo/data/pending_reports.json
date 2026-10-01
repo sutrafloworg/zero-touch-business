@@ -45644,7 +45644,398 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 20
+            },
+            {
+              "date": "Jun 01",
+              "rank": 17
+            },
+            {
+              "date": "Jun 15",
+              "rank": 20
+            },
+            {
+              "date": "Jun 22",
+              "rank": 20
+            },
+            {
+              "date": "Jun 29",
+              "rank": 19
+            },
+            {
+              "date": "Jul 13",
+              "rank": 16
+            },
+            {
+              "date": "Jul 27",
+              "rank": 12
+            },
+            {
+              "date": "Aug 10",
+              "rank": 18
+            },
+            {
+              "date": "Aug 24",
+              "rank": 12
+            },
+            {
+              "date": "Sep 07",
+              "rank": 12
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 178
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 179
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 184
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 186
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 188
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 191
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 196
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 207
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 181
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 181
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              20,
+              17,
+              20,
+              20,
+              19,
+              16,
+              12,
+              18,
+              12,
+              12
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "improving",
+            "best_rank": 12,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 0.2,
+            "total_gained": 3,
+            "weeks": 15.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Thompson Law",
+              "rating": 4.9,
+              "reviews": 2000,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "16840706042231000235"
+            },
+            {
+              "rank": 2,
+              "name": "DFW Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 998,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "9760651932951211036"
+            },
+            {
+              "rank": 3,
+              "name": "Mullen & Mullen Law Firm",
+              "rating": 4.9,
+              "reviews": 514,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "11485388820171870737"
+            },
+            {
+              "rank": 4,
+              "name": "Anderson Injury Lawyers Dallas",
+              "rating": 4.9,
+              "reviews": 504,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "13934388938565946403"
+            },
+            {
+              "rank": 5,
+              "name": "Shamieh Law - Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 645,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "15870043975361994883"
+            },
+            {
+              "rank": 6,
+              "name": "Herrman & Herrman P.L.L.C.",
+              "rating": 5.0,
+              "reviews": 653,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "10685684794841081838"
+            },
+            {
+              "rank": 7,
+              "name": "Jay Murray Car Accident and Truck Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 314,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "16753038606814063130"
+            },
+            {
+              "rank": 8,
+              "name": "Montgomery Law",
+              "rating": 4.7,
+              "reviews": 945,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "18085480387975559622"
+            },
+            {
+              "rank": 9,
+              "name": "Amaro Law Firm",
+              "rating": 4.9,
+              "reviews": 183,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "3096509194838129206"
+            },
+            {
+              "rank": 10,
+              "name": "Allbee Law Firm",
+              "rating": 4.9,
+              "reviews": 243,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "16908182963512034580"
+            },
+            {
+              "rank": 11,
+              "name": "Benton Accident & Injury Lawyers Dallas",
+              "rating": 4.9,
+              "reviews": 306,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "14289907506564640965"
+            },
+            {
+              "rank": 12,
+              "name": "Jim Adler & Associates",
+              "rating": 4.6,
+              "reviews": 4300,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "1859706844903081741"
+            },
+            {
+              "rank": 13,
+              "name": "AMS Law Group Car and Truck Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 552,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "17235184931791158402"
+            },
+            {
+              "rank": 14,
+              "name": "Ben Abbott & Associates",
+              "rating": 4.8,
+              "reviews": 4700,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "1845169242266611960"
+            },
+            {
+              "rank": 15,
+              "name": "AK Law Firm Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 249,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "14095495077479578878"
+            },
+            {
+              "rank": 16,
+              "name": "J. Alexander Law Firm",
+              "rating": 4.9,
+              "reviews": 538,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "1418594826962764650"
+            },
+            {
+              "rank": 17,
+              "name": "Rad Law Firm",
+              "rating": 4.6,
+              "reviews": 551,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "2200564480477399081"
+            },
+            {
+              "rank": 18,
+              "name": "LAWBOSS - Uvalle Law Firm, PLLC",
+              "rating": 4.7,
+              "reviews": 2700,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "4819023910709439184"
+            },
+            {
+              "rank": 19,
+              "name": "Robert C. Slim Law Firm, PLLC",
+              "rating": 5.0,
+              "reviews": 100,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "7043185073596312551"
+            },
+            {
+              "rank": 20,
+              "name": "Witherite Law Group",
+              "rating": 4.6,
+              "reviews": 1900,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "15926770285491064005"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "LAWBOSS - Uvalle Law Firm, PLLC",
+            "rating": 4.7,
+            "reviews": 2700,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "4819023910709439184"
+          },
+          "benchmarks": {
+            "avg_rating": 4.85,
+            "avg_reviews": 1145,
+            "median_reviews": 552,
+            "typical_reviews": 552,
+            "skewed": true,
+            "your_reviews": 2700,
+            "your_rating": 4.7,
+            "reviews_percentile": 90,
+            "pack_size": 20,
+            "top_reviews": 4700
+          },
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 12,
+            "best_rank": 12,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 2700 vs a typical competitor's 552."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.7 vs category 4.85. A 0.15-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.2/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            }
+          ],
+          "current_rank": 12,
+          "start_rank": 20,
+          "net_change": 8,
+          "best_rank": 12,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 01, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-10T14:22:49.810592+00:00",
@@ -45663,7 +46054,9 @@
           "type": "followup_3",
           "sent_at": "2026-08-31T19:28:42.979815+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-10-01T18:47:50.044725+00:00",
+      "free_report_email": "tim@apple.com"
     },
     {
       "id": "70ae63bbe289",
@@ -49746,7 +50139,172 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 19
+            },
+            {
+              "date": "Jun 01",
+              "rank": 7
+            },
+            {
+              "date": "Jun 08",
+              "rank": 6
+            },
+            {
+              "date": "Jun 15",
+              "rank": 6
+            },
+            {
+              "date": "Jun 22",
+              "rank": 6
+            },
+            {
+              "date": "Jun 29",
+              "rank": 4
+            },
+            {
+              "date": "Jul 13",
+              "rank": 6
+            },
+            {
+              "date": "Jul 27",
+              "rank": 5
+            },
+            {
+              "date": "Aug 10",
+              "rank": 11
+            },
+            {
+              "date": "Aug 24",
+              "rank": 5
+            },
+            {
+              "date": "Sep 07",
+              "rank": 17
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 75
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 76
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 77
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 79
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 82
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 83
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              19,
+              7,
+              6,
+              6,
+              6,
+              4,
+              6,
+              5,
+              11,
+              5,
+              17
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "improving",
+            "best_rank": 4,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.53,
+            "total_gained": 8,
+            "weeks": 15.0,
+            "verdict": "slow"
+          },
+          "competitors": [],
+          "subject": null,
+          "benchmarks": null,
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 17,
+            "best_rank": 4,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 6.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 5.6,
+            "lost_vs_best_rel": 88,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.53/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            }
+          ],
+          "current_rank": 17,
+          "start_rank": 19,
+          "net_change": 2,
+          "best_rank": 4,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 01, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-08-10T14:22:49.810747+00:00",
@@ -49765,7 +50323,9 @@
           "type": "followup_3",
           "sent_at": "2026-08-31T19:28:42.979815+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-10-01T18:48:07.505350+00:00",
+      "free_report_email": "office@greenlakecosmeticdentistry.com"
     },
     {
       "id": "48b034815d29",
@@ -73690,12 +74250,631 @@
             "category_avg_rating": 4.8,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 12.0,
+          "n_snapshots": 7,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 9
+            },
+            {
+              "date": "Jul 20",
+              "rank": 4
+            },
+            {
+              "date": "Aug 03",
+              "rank": 9
+            },
+            {
+              "date": "Aug 17",
+              "rank": 5
+            },
+            {
+              "date": "Aug 31",
+              "rank": 5
+            },
+            {
+              "date": "Sep 14",
+              "rank": 4
+            },
+            {
+              "date": "Sep 28",
+              "rank": 12
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 369
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 381
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 392
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 399
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 390
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 396
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 399
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              9,
+              4,
+              9,
+              5,
+              5,
+              4,
+              12
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28"
+            ],
+            "direction": "declining",
+            "best_rank": 4,
+            "worst_rank": 12
+          },
+          "review_velocity": {
+            "per_week": 2.5,
+            "total_gained": 30,
+            "weeks": 12.0,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Code Red Emergency Plumbing",
+              "rating": 4.8,
+              "reviews": 160,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJy5aTTKjGyIARG3sne_yd2uE"
+            },
+            {
+              "rank": 2,
+              "name": "Anytime Plumbing, Heating & Cooling",
+              "rating": 4.8,
+              "reviews": 1953,
+              "review_velocity": 6.08,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJL-zrDFbdyIARyAThBx5eOzg"
+            },
+            {
+              "rank": 3,
+              "name": "Precision Plumbing",
+              "rating": 4.8,
+              "reviews": 2455,
+              "review_velocity": 9.33,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJW0a40CLAyIARA_o98jtJQoQ"
+            },
+            {
+              "rank": 4,
+              "name": "Focus Plumbing LLC",
+              "rating": 4.8,
+              "reviews": 1762,
+              "review_velocity": 2.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ4WGi1o_DyIAR6ax0bjtbFBs"
+            },
+            {
+              "rank": 5,
+              "name": "Rodeo Plumbing of Las Vegas",
+              "rating": 5.0,
+              "reviews": 777,
+              "review_velocity": 3.42,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJgeazYv0uMkURTQCnMwPlWjE"
+            },
+            {
+              "rank": 6,
+              "name": "Hips Plumbing",
+              "rating": 4.9,
+              "reviews": 1063,
+              "review_velocity": 3.42,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJX6NDyjHByIARho7E4MH5vyA"
+            },
+            {
+              "rank": 7,
+              "name": "City Wide Plumbing",
+              "rating": 4.8,
+              "reviews": 722,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJaWOEwMjByIARI-bINWfStzQ"
+            },
+            {
+              "rank": 8,
+              "name": "OSP Plumbing & Rooter",
+              "rating": 4.7,
+              "reviews": 417,
+              "review_velocity": 9.17,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJD7xW-Ak2bYkRi1kbaJr8bB0"
+            },
+            {
+              "rank": 9,
+              "name": "Butter Plumbing",
+              "rating": 4.7,
+              "reviews": 579,
+              "review_velocity": 0.75,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ_____0vCyIARNXcgPXVkZJw"
+            },
+            {
+              "rank": 10,
+              "name": "Active Plumbing",
+              "rating": 4.9,
+              "reviews": 885,
+              "review_velocity": 0.42,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJoXg-mRrEyIARE5a7H6Mpr3I"
+            },
+            {
+              "rank": 11,
+              "name": "Monkey Wrench Plumbing",
+              "rating": 5.0,
+              "reviews": 626,
+              "review_velocity": 7.92,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJM5XxnaPG7QQRK0mLg-FXGjA"
+            },
+            {
+              "rank": 12,
+              "name": "On Time Service Plumbing",
+              "rating": 5.0,
+              "reviews": 399,
+              "review_velocity": 2.5,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJJT_yGIm4yIARAa0Um3xlx3I"
+            },
+            {
+              "rank": 13,
+              "name": "Las Vegas Emergency Plumber CLM Repairs",
+              "rating": 5.0,
+              "reviews": 21,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJl1pcyUjEyIARoZtPubJDdyU"
+            },
+            {
+              "rank": 14,
+              "name": "Roto-Rooter Plumbing & Water Cleanup",
+              "rating": 4.7,
+              "reviews": 385,
+              "review_velocity": 1.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJHUF-NY3CyIARh17CEBwEQkQ"
+            },
+            {
+              "rank": 15,
+              "name": "Second Opinion Plumbing LLC",
+              "rating": 4.7,
+              "reviews": 293,
+              "review_velocity": 5.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJP3mVIJHCyIARLXLWnKgu8yc"
+            },
+            {
+              "rank": 16,
+              "name": "Dignity Plumbing",
+              "rating": 4.9,
+              "reviews": 916,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJZyIAaBfDyIARqEuqs93x0H4"
+            },
+            {
+              "rank": 17,
+              "name": "DMS Plumbing LLC",
+              "rating": 4.8,
+              "reviews": 409,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJgbkEtNrAyIARurcHI5vUp3Q"
+            },
+            {
+              "rank": 18,
+              "name": "Emergency Plumber Las Vegas",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJiZ57HeDHyIARaxqr_qK7NB0"
+            },
+            {
+              "rank": 19,
+              "name": "Resolution Plumbing",
+              "rating": 4.9,
+              "reviews": 1012,
+              "review_velocity": -0.42,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJBwwGbSLtyIARP7oCNPi68Sw"
+            },
+            {
+              "rank": 20,
+              "name": "Alpha Plumbing LLC",
+              "rating": 5.0,
+              "reviews": 1199,
+              "review_velocity": 16.58,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJF5fvQrzFyIARIabzyRvMVVg"
+            }
+          ],
+          "subject": {
+            "rank": 12,
+            "name": "On Time Service Plumbing",
+            "rating": 5.0,
+            "reviews": 399,
+            "review_velocity": 2.5,
+            "website": true,
+            "type": "Plumber",
+            "_key": "ChIJJT_yGIm4yIARAa0Um3xlx3I"
+          },
+          "benchmarks": {
+            "avg_rating": 4.86,
+            "avg_reviews": 802,
+            "median_reviews": 674,
+            "typical_reviews": 802,
+            "skewed": false,
+            "your_reviews": 399,
+            "your_rating": 5.0,
+            "reviews_percentile": 30,
+            "pack_size": 20,
+            "top_reviews": 2455
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Code Red Emergency Plumbing",
+              "rating": 4.8,
+              "reviews": 160,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJy5aTTKjGyIARG3sne_yd2uE",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Anytime Plumbing, Heating & Cooling",
+              "rating": 4.8,
+              "reviews": 1953,
+              "review_velocity": 6.08,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJL-zrDFbdyIARyAThBx5eOzg",
+              "rank_delta": 1,
+              "review_gain": 73
+            },
+            {
+              "rank": 3,
+              "name": "Precision Plumbing",
+              "rating": 4.8,
+              "reviews": 2455,
+              "review_velocity": 9.33,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJW0a40CLAyIARA_o98jtJQoQ",
+              "rank_delta": -1,
+              "review_gain": 112
+            },
+            {
+              "rank": 4,
+              "name": "Focus Plumbing LLC",
+              "rating": 4.8,
+              "reviews": 1762,
+              "review_velocity": 2.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ4WGi1o_DyIAR6ax0bjtbFBs",
+              "rank_delta": 0,
+              "review_gain": 32
+            },
+            {
+              "rank": 5,
+              "name": "Rodeo Plumbing of Las Vegas",
+              "rating": 5.0,
+              "reviews": 777,
+              "review_velocity": 3.42,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJgeazYv0uMkURTQCnMwPlWjE",
+              "rank_delta": 1,
+              "review_gain": 41
+            },
+            {
+              "rank": 6,
+              "name": "Hips Plumbing",
+              "rating": 4.9,
+              "reviews": 1063,
+              "review_velocity": 3.42,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJX6NDyjHByIARho7E4MH5vyA",
+              "rank_delta": -1,
+              "review_gain": 41
+            },
+            {
+              "rank": 7,
+              "name": "City Wide Plumbing",
+              "rating": 4.8,
+              "reviews": 722,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJaWOEwMjByIARI-bINWfStzQ",
+              "rank_delta": 0,
+              "review_gain": 4
+            },
+            {
+              "rank": 8,
+              "name": "OSP Plumbing & Rooter",
+              "rating": 4.7,
+              "reviews": 417,
+              "review_velocity": 9.17,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJD7xW-Ak2bYkRi1kbaJr8bB0",
+              "rank_delta": 4,
+              "review_gain": 110
+            },
+            {
+              "rank": 9,
+              "name": "Butter Plumbing",
+              "rating": 4.7,
+              "reviews": 579,
+              "review_velocity": 0.75,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ_____0vCyIARNXcgPXVkZJw",
+              "rank_delta": 1,
+              "review_gain": 9
+            },
+            {
+              "rank": 10,
+              "name": "Active Plumbing",
+              "rating": 4.9,
+              "reviews": 885,
+              "review_velocity": 0.42,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJoXg-mRrEyIARE5a7H6Mpr3I",
+              "rank_delta": 5,
+              "review_gain": 5
+            },
+            {
+              "rank": 11,
+              "name": "Monkey Wrench Plumbing",
+              "rating": 5.0,
+              "reviews": 626,
+              "review_velocity": 7.92,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJM5XxnaPG7QQRK0mLg-FXGjA",
+              "rank_delta": 0,
+              "review_gain": 95
+            },
+            {
+              "rank": 12,
+              "name": "On Time Service Plumbing",
+              "rating": 5.0,
+              "reviews": 399,
+              "review_velocity": 2.5,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJJT_yGIm4yIARAa0Um3xlx3I",
+              "rank_delta": -3,
+              "review_gain": 30
+            },
+            {
+              "rank": 13,
+              "name": "Las Vegas Emergency Plumber CLM Repairs",
+              "rating": 5.0,
+              "reviews": 21,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJl1pcyUjEyIARoZtPubJDdyU",
+              "rank_delta": -5,
+              "review_gain": -2
+            },
+            {
+              "rank": 14,
+              "name": "Roto-Rooter Plumbing & Water Cleanup",
+              "rating": 4.7,
+              "reviews": 385,
+              "review_velocity": 1.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJHUF-NY3CyIARh17CEBwEQkQ",
+              "rank_delta": 0,
+              "review_gain": 20
+            },
+            {
+              "rank": 15,
+              "name": "Second Opinion Plumbing LLC",
+              "rating": 4.7,
+              "reviews": 293,
+              "review_velocity": 5.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJP3mVIJHCyIARLXLWnKgu8yc",
+              "rank_delta": 3,
+              "review_gain": 68
+            },
+            {
+              "rank": 16,
+              "name": "Dignity Plumbing",
+              "rating": 4.9,
+              "reviews": 916,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJZyIAaBfDyIARqEuqs93x0H4",
+              "rank_delta": -3,
+              "review_gain": 8
+            },
+            {
+              "rank": 17,
+              "name": "DMS Plumbing LLC",
+              "rating": 4.8,
+              "reviews": 409,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJgbkEtNrAyIARurcHI5vUp3Q",
+              "rank_delta": 3,
+              "review_gain": 4
+            },
+            {
+              "rank": 19,
+              "name": "Resolution Plumbing",
+              "rating": 4.9,
+              "reviews": 1012,
+              "review_velocity": -0.42,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJBwwGbSLtyIARP7oCNPi68Sw",
+              "rank_delta": -3,
+              "review_gain": -5
+            },
+            {
+              "rank": 20,
+              "name": "Alpha Plumbing LLC",
+              "rating": 5.0,
+              "reviews": 1199,
+              "review_velocity": 16.58,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJF5fvQrzFyIARIabzyRvMVVg",
+              "rank_delta": -1,
+              "review_gain": 199
+            }
+          ],
+          "fastest_climber": {
+            "rank": 10,
+            "name": "Active Plumbing",
+            "rating": 4.9,
+            "reviews": 885,
+            "review_velocity": 0.42,
+            "website": true,
+            "type": "Plumber",
+            "_key": "ChIJoXg-mRrEyIARE5a7H6Mpr3I",
+            "rank_delta": 5,
+            "review_gain": 5
+          },
+          "fastest_review_gainer": {
+            "rank": 20,
+            "name": "Alpha Plumbing LLC",
+            "rating": 5.0,
+            "reviews": 1199,
+            "review_velocity": 16.58,
+            "website": true,
+            "type": "Plumber",
+            "_key": "ChIJF5fvQrzFyIARIabzyRvMVVg",
+            "rank_delta": -1,
+            "review_gain": 199
+          },
+          "visibility": {
+            "current_rank": 12,
+            "best_rank": 4,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 6.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 5.6,
+            "lost_vs_best_rel": 88,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 399 vs a typical competitor's 802. Close the 403-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.86."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 2.5/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Alpha Plumbing LLC added 199 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 12,
+          "start_rank": 9,
+          "net_change": -3,
+          "best_rank": 4,
+          "worst_rank": 12
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 01, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-28T20:02:03.863155+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-10-01T18:47:31.558929+00:00",
+      "free_report_email": "ontimeservice1@gmail.com"
     },
     {
       "id": "54fa76b3451e",
