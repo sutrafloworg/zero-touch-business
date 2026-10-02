@@ -155,6 +155,10 @@
     "info@advancedtrtclinic.com": {
       "added_at": "2026-09-25T15:44:28.872131+00:00",
       "reason": "hard_bounce"
+    },
+    "tim@apple.com": {
+      "added_at": "2026-10-02T16:30:51.889747+00:00",
+      "reason": "hard_bounce"
     }
   }
 }
