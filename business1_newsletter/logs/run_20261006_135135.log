@@ -1,0 +1,29 @@
+2026-10-06 13:51:37,063 [INFO] orchestrator — ============================================================
+2026-10-06 13:51:37,063 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-10-06 13:51:37,063 [INFO] orchestrator — Timestamp: 2026-10-06T13:51:37.063887+00:00
+2026-10-06 13:51:37,063 [INFO] orchestrator — ============================================================
+2026-10-06 13:51:37,086 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-10-06 13:51:37,187 [INFO] agents.feed_agent —   TechCrunch AI: fetched 18 fresh items
+2026-10-06 13:51:37,846 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-10-06 13:51:38,465 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 7 fresh items
+2026-10-06 13:51:39,064 [WARNING] agents.feed_agent — Feed error for VentureBeat AI: <unknown>:2:39: not well-formed (invalid token)
+2026-10-06 13:51:40,040 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-10-06 13:51:40,706 [INFO] agents.feed_agent —   Product Hunt AI: fetched 40 fresh items
+2026-10-06 13:51:41,349 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-10-06 13:51:42,468 [INFO] agents.feed_agent —   OpenAI Blog: fetched 9 fresh items
+2026-10-06 13:51:42,971 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 94 total
+2026-10-06 13:51:42,972 [INFO] orchestrator —       Got 10 items
+2026-10-06 13:51:42,972 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-10-06 13:51:42,973 [INFO] agents.content_agent — Generating newsletter with sponsors: Rytr, Notion
+2026-10-06 13:52:02,514 [INFO] httpx2 — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-10-06 13:52:02,534 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'GPT-6 just got serious (and Albertsons is already using it)'
+2026-10-06 13:52:02,534 [INFO] orchestrator —       Subject: 'GPT-6 just got serious (and Albertsons is already using it)'
+2026-10-06 13:52:02,534 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-10-06 13:52:02,534 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-10-06 13:52:03,005 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-10-06T13:55:02+0000, ID=26269161
+2026-10-06 13:52:03,063 [INFO] orchestrator —       Broadcast ID: 26269161, Subscribers: 2
+2026-10-06 13:52:03,063 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-10-06 13:52:03,064 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 26269161
+2026-10-06 13:52:03,064 [INFO] orchestrator — ============================================================
+2026-10-06 13:52:03,064 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-10-06 13:52:03,064 [INFO] orchestrator — ============================================================
