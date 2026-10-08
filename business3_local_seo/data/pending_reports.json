@@ -65122,7 +65122,378 @@
             "category_avg_rating": 4.4,
             "position_summary": "needs attention"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 15
+            },
+            {
+              "date": "Jun 15",
+              "rank": 18
+            },
+            {
+              "date": "Jun 29",
+              "rank": 18
+            },
+            {
+              "date": "Jul 13",
+              "rank": 17
+            },
+            {
+              "date": "Jul 27",
+              "rank": 15
+            },
+            {
+              "date": "Aug 10",
+              "rank": 13
+            },
+            {
+              "date": "Aug 24",
+              "rank": 12
+            },
+            {
+              "date": "Sep 07",
+              "rank": 18
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 3
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 3
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 3
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 3
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 3
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 3
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 3
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 3
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              15,
+              18,
+              18,
+              17,
+              15,
+              13,
+              12,
+              18
+            ],
+            "dates": [
+              "May 25",
+              "Jun 15",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "declining",
+            "best_rank": 12,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 15.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Buy California Luxury Homes Realty Brokered Keller Williams Larchmont, Los Angeles Realtor",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "17210628981649407526"
+            },
+            {
+              "rank": 2,
+              "name": "Selling LA Luxury - Compass",
+              "rating": 5.0,
+              "reviews": 22,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "10615451714351369708"
+            },
+            {
+              "rank": 3,
+              "name": "Brock & Lori Harris Real Estate Team",
+              "rating": 5.0,
+              "reviews": 251,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "7720622355281092287"
+            },
+            {
+              "rank": 4,
+              "name": "Keyes Real Estate",
+              "rating": 4.9,
+              "reviews": 209,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "6763031541831697875"
+            },
+            {
+              "rank": 5,
+              "name": "Stephanie Younger Group",
+              "rating": 4.9,
+              "reviews": 503,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "13206131727772523268"
+            },
+            {
+              "rank": 6,
+              "name": "Melissa Stein-Singer | Luxury Residential Real Estate in Los Angeles",
+              "rating": 5.0,
+              "reviews": 8,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "15686559414313885079"
+            },
+            {
+              "rank": 7,
+              "name": "Pezzini Luxury Homes",
+              "rating": 4.9,
+              "reviews": 30,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "7714377720471657912"
+            },
+            {
+              "rank": 8,
+              "name": "Los Angeles Realtors-Nahed & Krys Benyamein's Estate of Grace Real Estate",
+              "rating": 5.0,
+              "reviews": 323,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "11343904443183339929"
+            },
+            {
+              "rank": 9,
+              "name": "TruLine Realty",
+              "rating": 5.0,
+              "reviews": 1800,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "2260099867277482183"
+            },
+            {
+              "rank": 10,
+              "name": "Grace Globus",
+              "rating": 4.9,
+              "reviews": 112,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "5516976495083960373"
+            },
+            {
+              "rank": 11,
+              "name": "LA Luxuries | Luxury Vacation Homes & Real Estate",
+              "rating": 5.0,
+              "reviews": 7,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Vacation home rental agency",
+              "_key": "1543402391107991135"
+            },
+            {
+              "rank": 12,
+              "name": "The One Luxury Properties, Beverly Hills",
+              "rating": 5.0,
+              "reviews": 6,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "16439880302613266209"
+            },
+            {
+              "rank": 13,
+              "name": "Anne Loveland, Realtor Loveland Carr Group Hancock Park Real Estate Agents",
+              "rating": 4.9,
+              "reviews": 46,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "12260160159483174505"
+            },
+            {
+              "rank": 14,
+              "name": "Elite Luxury Homes",
+              "rating": 4.6,
+              "reviews": 14,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate rental agency",
+              "_key": "13194372971625151969"
+            },
+            {
+              "rank": 15,
+              "name": "ARIA Properties",
+              "rating": 4.9,
+              "reviews": 127,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "650869374663244413"
+            },
+            {
+              "rank": 16,
+              "name": "Laura Anderson Real Estate Group",
+              "rating": 4.9,
+              "reviews": 51,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "7258155496082841571"
+            },
+            {
+              "rank": 17,
+              "name": "Dear LA Real Estate Team - Compass",
+              "rating": 5.0,
+              "reviews": 62,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "3225877377187788635"
+            },
+            {
+              "rank": 18,
+              "name": "Ross Weinstein Real Estate Group - Brentwood-Santa Monica-Los Angeles",
+              "rating": 4.9,
+              "reviews": 63,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "18044493297455244466"
+            },
+            {
+              "rank": 19,
+              "name": "Ben Kruger - Luxury Real Estate Agent in Beverly Hills, CA",
+              "rating": 4.9,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "4482060346661480634"
+            },
+            {
+              "rank": 20,
+              "name": "Hollywood Estates",
+              "rating": 4.8,
+              "reviews": 43,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "5902700330964945494"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "Ross Weinstein Real Estate Group - Brentwood-Santa Monica-Los Angeles",
+            "rating": 4.9,
+            "reviews": 63,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "18044493297455244466"
+          },
+          "benchmarks": {
+            "avg_rating": 4.92,
+            "avg_reviews": 185,
+            "median_reviews": 48,
+            "typical_reviews": 48,
+            "skewed": true,
+            "your_reviews": 63,
+            "your_rating": 4.9,
+            "reviews_percentile": 65,
+            "pack_size": 20,
+            "top_reviews": 1800
+          },
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 18,
+            "best_rank": 12,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 63 vs a typical competitor's 48."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.92. A 0.02-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            }
+          ],
+          "current_rank": 18,
+          "start_rank": 15,
+          "net_change": -3,
+          "best_rank": 12,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 08, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547275+00:00",
@@ -65141,7 +65512,9 @@
           "type": "followup_3",
           "sent_at": "2026-09-28T20:02:05.763572+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-10-08T19:14:22.191148+00:00",
+      "free_report_email": "Marketing@TheAltmanBrothers.com"
     },
     {
       "id": "194089101e7e",
@@ -66920,7 +67293,172 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 8
+            },
+            {
+              "date": "Jun 01",
+              "rank": 3
+            },
+            {
+              "date": "Jun 08",
+              "rank": 3
+            },
+            {
+              "date": "Jun 15",
+              "rank": 3
+            },
+            {
+              "date": "Jun 22",
+              "rank": 3
+            },
+            {
+              "date": "Jun 29",
+              "rank": 3
+            },
+            {
+              "date": "Jul 13",
+              "rank": 3
+            },
+            {
+              "date": "Jul 27",
+              "rank": 3
+            },
+            {
+              "date": "Aug 10",
+              "rank": 3
+            },
+            {
+              "date": "Aug 24",
+              "rank": 2
+            },
+            {
+              "date": "Sep 07",
+              "rank": 8
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 768
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 773
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 778
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 784
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 774
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 778
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 782
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 786
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 786
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 788
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 784
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              8,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              8
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "volatile",
+            "best_rank": 2,
+            "worst_rank": 8
+          },
+          "review_velocity": {
+            "per_week": 1.07,
+            "total_gained": 16,
+            "weeks": 15.0,
+            "verdict": "moderate"
+          },
+          "competitors": [],
+          "subject": null,
+          "benchmarks": null,
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 8,
+            "best_rank": 2,
+            "your_ctr_pct": 1.9,
+            "best_ctr_pct": 22.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 1.9,
+            "lost_vs_best_pct": 20.2,
+            "lost_vs_best_rel": 91,
+            "reach_vs_top3_x": 37.0
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.07/week (moderate)."
+            }
+          ],
+          "current_rank": 8,
+          "start_rank": 8,
+          "net_change": 0,
+          "best_rank": 2,
+          "worst_rank": 8
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 08, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547357+00:00",
@@ -66939,7 +67477,9 @@
           "type": "followup_3",
           "sent_at": "2026-09-28T20:02:05.763572+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-10-08T19:14:41.183489+00:00",
+      "free_report_email": "info@harrisdental.com"
     },
     {
       "id": "a5c7f859557e",
@@ -70304,7 +70844,172 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 15.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "May 25",
+              "rank": 19
+            },
+            {
+              "date": "Jun 01",
+              "rank": 7
+            },
+            {
+              "date": "Jun 08",
+              "rank": 6
+            },
+            {
+              "date": "Jun 15",
+              "rank": 6
+            },
+            {
+              "date": "Jun 22",
+              "rank": 6
+            },
+            {
+              "date": "Jun 29",
+              "rank": 4
+            },
+            {
+              "date": "Jul 13",
+              "rank": 6
+            },
+            {
+              "date": "Jul 27",
+              "rank": 5
+            },
+            {
+              "date": "Aug 10",
+              "rank": 11
+            },
+            {
+              "date": "Aug 24",
+              "rank": 5
+            },
+            {
+              "date": "Sep 07",
+              "rank": 17
+            }
+          ],
+          "review_history": [
+            {
+              "date": "May 25",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 01",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 08",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 75
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 75
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 76
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 77
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 79
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 82
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 83
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              19,
+              7,
+              6,
+              6,
+              6,
+              4,
+              6,
+              5,
+              11,
+              5,
+              17
+            ],
+            "dates": [
+              "May 25",
+              "Jun 01",
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07"
+            ],
+            "direction": "improving",
+            "best_rank": 4,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.53,
+            "total_gained": 8,
+            "weeks": 15.0,
+            "verdict": "slow"
+          },
+          "competitors": [],
+          "subject": null,
+          "benchmarks": null,
+          "movement": [],
+          "fastest_climber": null,
+          "fastest_review_gainer": null,
+          "visibility": {
+            "current_rank": 17,
+            "best_rank": 4,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 6.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 5.6,
+            "lost_vs_best_rel": 88,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.53/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            }
+          ],
+          "current_rank": 17,
+          "start_rank": 19,
+          "net_change": 2,
+          "best_rank": 4,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 08, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-09-07T18:09:38.547516+00:00",
@@ -70323,7 +71028,9 @@
           "type": "followup_3",
           "sent_at": "2026-09-28T20:02:05.763572+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-10-08T19:14:01.893164+00:00",
+      "free_report_email": "office@greenlakecosmeticdentistry.com"
     },
     {
       "id": "e37b7fcd35fd",
