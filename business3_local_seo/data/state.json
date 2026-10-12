@@ -1,12 +1,12 @@
 {
-  "total_runs": 22,
-  "total_emails_sent": 620,
+  "total_runs": 23,
+  "total_emails_sent": 672,
   "total_reports_generated": 0,
   "consecutive_failures": 0,
   "last_status": "OK",
-  "last_run": "2026-09-28T20:02:03.946618+00:00",
+  "last_run": "2026-10-12T21:38:17.713328+00:00",
   "last_scans": 60,
-  "last_alerts": 89,
+  "last_alerts": 130,
   "last_reports": 0,
-  "last_emails_sent": 37
+  "last_emails_sent": 52
 }
