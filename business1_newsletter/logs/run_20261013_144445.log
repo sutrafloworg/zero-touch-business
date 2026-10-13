@@ -1,0 +1,30 @@
+2026-10-13 14:44:47,077 [INFO] orchestrator — ============================================================
+2026-10-13 14:44:47,078 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-10-13 14:44:47,078 [INFO] orchestrator — Timestamp: 2026-10-13T14:44:47.078178+00:00
+2026-10-13 14:44:47,078 [INFO] orchestrator — ============================================================
+2026-10-13 14:44:47,103 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-10-13 14:44:47,219 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-10-13 14:44:47,946 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-10-13 14:44:48,578 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 6 fresh items
+2026-10-13 14:44:49,151 [WARNING] agents.feed_agent — Feed error for VentureBeat AI: <unknown>:2:39: not well-formed (invalid token)
+2026-10-13 14:44:51,874 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-10-13 14:44:52,486 [INFO] agents.feed_agent —   Product Hunt AI: fetched 34 fresh items
+2026-10-13 14:44:53,292 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-10-13 14:44:54,409 [INFO] agents.feed_agent —   OpenAI Blog: fetched 10 fresh items
+2026-10-13 14:44:54,913 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 90 total
+2026-10-13 14:44:54,913 [INFO] orchestrator —       Got 10 items
+2026-10-13 14:44:54,913 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-10-13 14:44:54,914 [INFO] agents.content_agent — Generating newsletter with sponsors: Writesonic, Rytr
+2026-10-13 14:45:12,582 [INFO] httpx2 — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-10-13 14:45:12,596 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'Character.AI just went bankrupt (here's why that matters)'
+2026-10-13 14:45:12,596 [INFO] orchestrator —       Subject: 'Character.AI just went bankrupt (here's why that matters)'
+2026-10-13 14:45:12,596 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-10-13 14:45:12,596 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-10-13 14:45:13,100 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-10-13T14:48:12+0000, ID=26387801
+2026-10-13 14:45:13,164 [INFO] orchestrator —       Broadcast ID: 26387801, Subscribers: 2
+2026-10-13 14:45:13,164 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-10-13 14:45:13,165 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 26387801
+2026-10-13 14:45:14,886 [INFO] agents.monitor_agent — Alert email sent: [Weekly Report] AI Tools Weekly
+2026-10-13 14:45:14,886 [INFO] orchestrator — ============================================================
+2026-10-13 14:45:14,886 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-10-13 14:45:14,886 [INFO] orchestrator — ============================================================
