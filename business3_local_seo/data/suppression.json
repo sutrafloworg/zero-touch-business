@@ -159,6 +159,10 @@
     "tim@apple.com": {
       "added_at": "2026-10-02T16:30:51.889747+00:00",
       "reason": "hard_bounce"
+    },
+    "team@notifications.resend.com": {
+      "added_at": "2026-10-13T17:57:57.262927+00:00",
+      "reason": "unsubscribe_reply"
     }
   }
 }
