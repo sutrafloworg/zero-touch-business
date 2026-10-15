@@ -78645,12 +78645,565 @@
             "category_avg_rating": 5.0,
             "position_summary": "needs attention"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 8.0,
+          "n_snapshots": 8,
+          "rank_history": [
+            {
+              "date": "Aug 17",
+              "rank": 5
+            },
+            {
+              "date": "Sep 14",
+              "rank": 7
+            },
+            {
+              "date": "Sep 28",
+              "rank": 7
+            },
+            {
+              "date": "Oct 12",
+              "rank": 19
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Aug 17",
+              "reviews": 26
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 26
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 26
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 26
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              5,
+              7,
+              7,
+              19
+            ],
+            "dates": [
+              "Aug 17",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12"
+            ],
+            "direction": "declining",
+            "best_rank": 5,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 8.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "LUXURYSOCALREALTY",
+              "rating": 5.0,
+              "reviews": 93,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJtRu12-sM3IARvvdChGAJc0U"
+            },
+            {
+              "rank": 2,
+              "name": "Luxury & Coastal Group - Sotheby's Int'l Realty",
+              "rating": 5.0,
+              "reviews": 9,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJI_qnOoEB3IARBQwmO-4dA0s"
+            },
+            {
+              "rank": 3,
+              "name": "Blend Luxury Real Estate: Listing Experts",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJdaiJxisB3IARxfyJvRO7C28"
+            },
+            {
+              "rank": 4,
+              "name": "SV Premier Real Estate",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ2Y_E8FtT2YARWINEjlTO398"
+            },
+            {
+              "rank": 5,
+              "name": "Whissel Beer Group",
+              "rating": 4.9,
+              "reviews": 869,
+              "review_velocity": 2.79,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJVb64XC7-24ARtdjzMkILR24"
+            },
+            {
+              "rank": 6,
+              "name": "Dream Homes Team San Diego/ Compass",
+              "rating": 4.9,
+              "reviews": 102,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJL-ptpahV2YARiv9_a4I3Zo4"
+            },
+            {
+              "rank": 7,
+              "name": "Andrew Skirde - Luxury Realtor",
+              "rating": 5.0,
+              "reviews": 51,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJuWvaPaUJ3IARM_NX085B_48"
+            },
+            {
+              "rank": 8,
+              "name": "PorchLight Realty brokered by eXp Realty of Southern California, Inc.",
+              "rating": 4.9,
+              "reviews": 385,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJz4pdMx5V2YARmi8y7n6rTdA"
+            },
+            {
+              "rank": 9,
+              "name": "NewTown Real Estate",
+              "rating": 5.0,
+              "reviews": 66,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJCydpgTtV2YARTxpDm9qrRZU"
+            },
+            {
+              "rank": 10,
+              "name": "Alex Saavedra with Core Real Estate Services",
+              "rating": 5.0,
+              "reviews": 137,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJdTvcljtV2YAR1RK4GXLbSSM"
+            },
+            {
+              "rank": 11,
+              "name": "The Oppenheim Group Real Estate, San Diego",
+              "rating": 5.0,
+              "reviews": 39,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJl3p2cGUD3IARFzgGiPOQaYo"
+            },
+            {
+              "rank": 12,
+              "name": "Julie Boyadjian, Realtor-Pacific Sotheby's International Realty",
+              "rating": 4.9,
+              "reviews": 55,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ_YV27DxX2YAR-NDR4LHd99A"
+            },
+            {
+              "rank": 13,
+              "name": "Mike & Jessica Wolf, Coldwell Banker West, Wolf Real Estate Team",
+              "rating": 5.0,
+              "reviews": 309,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJaU6jArpU2YAR21jCnTwRIjs"
+            },
+            {
+              "rank": 14,
+              "name": "The Neuman Team",
+              "rating": 4.9,
+              "reviews": 144,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJdWuvlFlT2YARPv7Zbhoo7xk"
+            },
+            {
+              "rank": 15,
+              "name": "Julie Han | San Diego Coastal Luxury Group",
+              "rating": 4.8,
+              "reviews": 27,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJxw2pix5z3IARL5Eth4gy5D4"
+            },
+            {
+              "rank": 16,
+              "name": "The Greg Cummings Group | San Diego Real Estate | Compass",
+              "rating": 5.0,
+              "reviews": 62,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ3ReFZO0B3IARSmniuKAuU6w"
+            },
+            {
+              "rank": 17,
+              "name": "Luxury Realty - San Diego",
+              "rating": 5.0,
+              "reviews": 2,
+              "review_velocity": -0.07,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJXREds1dT2YARCGLkHk3pG-4"
+            },
+            {
+              "rank": 18,
+              "name": "Jeff Underdahl Real Estate - eXp Realty",
+              "rating": 4.9,
+              "reviews": 60,
+              "review_velocity": 0.2,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJy3JnHpl23IARgRhqW_LH0_M"
+            },
+            {
+              "rank": 19,
+              "name": "Elizabeth Diaz Realtor",
+              "rating": 5.0,
+              "reviews": 26,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJs8caZSBV2YARPwvgzSpuK9g"
+            },
+            {
+              "rank": 20,
+              "name": "Define Real Estate San Diego - Real Estate Sales and Service",
+              "rating": 5.0,
+              "reviews": 62,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJZUSSZsVYfIAR-Ay7QwWkJik"
+            }
+          ],
+          "subject": {
+            "rank": 19,
+            "name": "Elizabeth Diaz Realtor",
+            "rating": 5.0,
+            "reviews": 26,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJs8caZSBV2YARPwvgzSpuK9g"
+          },
+          "benchmarks": {
+            "avg_rating": 4.96,
+            "avg_reviews": 126,
+            "median_reviews": 61,
+            "typical_reviews": 61,
+            "skewed": true,
+            "your_reviews": 26,
+            "your_rating": 5.0,
+            "reviews_percentile": 25,
+            "pack_size": 20,
+            "top_reviews": 869
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "LUXURYSOCALREALTY",
+              "rating": 5.0,
+              "reviews": 93,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJtRu12-sM3IARvvdChGAJc0U",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Luxury & Coastal Group - Sotheby's Int'l Realty",
+              "rating": 5.0,
+              "reviews": 9,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJI_qnOoEB3IARBQwmO-4dA0s",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 3,
+              "name": "Blend Luxury Real Estate: Listing Experts",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJdaiJxisB3IARxfyJvRO7C28",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 4,
+              "name": "SV Premier Real Estate",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ2Y_E8FtT2YARWINEjlTO398",
+              "rank_delta": 3,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "Whissel Beer Group",
+              "rating": 4.9,
+              "reviews": 869,
+              "review_velocity": 2.79,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJVb64XC7-24ARtdjzMkILR24",
+              "rank_delta": -1,
+              "review_gain": 39
+            },
+            {
+              "rank": 6,
+              "name": "Dream Homes Team San Diego/ Compass",
+              "rating": 4.9,
+              "reviews": 102,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJL-ptpahV2YARiv9_a4I3Zo4",
+              "rank_delta": 0,
+              "review_gain": 4
+            },
+            {
+              "rank": 7,
+              "name": "Andrew Skirde - Luxury Realtor",
+              "rating": 5.0,
+              "reviews": 51,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJuWvaPaUJ3IARM_NX085B_48",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 8,
+              "name": "PorchLight Realty brokered by eXp Realty of Southern California, Inc.",
+              "rating": 4.9,
+              "reviews": 385,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJz4pdMx5V2YARmi8y7n6rTdA",
+              "rank_delta": -6,
+              "review_gain": 2
+            },
+            {
+              "rank": 9,
+              "name": "NewTown Real Estate",
+              "rating": 5.0,
+              "reviews": 66,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJCydpgTtV2YARTxpDm9qrRZU",
+              "rank_delta": 1,
+              "review_gain": 4
+            },
+            {
+              "rank": 10,
+              "name": "Alex Saavedra with Core Real Estate Services",
+              "rating": 5.0,
+              "reviews": 137,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJdTvcljtV2YAR1RK4GXLbSSM",
+              "rank_delta": -1,
+              "review_gain": 1
+            },
+            {
+              "rank": 12,
+              "name": "Julie Boyadjian, Realtor-Pacific Sotheby's International Realty",
+              "rating": 4.9,
+              "reviews": 55,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ_YV27DxX2YAR-NDR4LHd99A",
+              "rank_delta": -1,
+              "review_gain": 1
+            },
+            {
+              "rank": 13,
+              "name": "Mike & Jessica Wolf, Coldwell Banker West, Wolf Real Estate Team",
+              "rating": 5.0,
+              "reviews": 309,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJaU6jArpU2YAR21jCnTwRIjs",
+              "rank_delta": -1,
+              "review_gain": 4
+            },
+            {
+              "rank": 14,
+              "name": "The Neuman Team",
+              "rating": 4.9,
+              "reviews": 144,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJdWuvlFlT2YARPv7Zbhoo7xk",
+              "rank_delta": -1,
+              "review_gain": 1
+            },
+            {
+              "rank": 16,
+              "name": "The Greg Cummings Group | San Diego Real Estate | Compass",
+              "rating": 5.0,
+              "reviews": 62,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ3ReFZO0B3IARSmniuKAuU6w",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 17,
+              "name": "Luxury Realty - San Diego",
+              "rating": 5.0,
+              "reviews": 2,
+              "review_velocity": -0.07,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJXREds1dT2YARCGLkHk3pG-4",
+              "rank_delta": 1,
+              "review_gain": -1
+            },
+            {
+              "rank": 20,
+              "name": "Define Real Estate San Diego - Real Estate Sales and Service",
+              "rating": 5.0,
+              "reviews": 62,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJZUSSZsVYfIAR-Ay7QwWkJik",
+              "rank_delta": -1,
+              "review_gain": -1
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "SV Premier Real Estate",
+            "rating": 5.0,
+            "reviews": 15,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJ2Y_E8FtT2YARWINEjlTO398",
+            "rank_delta": 3,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 5,
+            "name": "Whissel Beer Group",
+            "rating": 4.9,
+            "reviews": 869,
+            "review_velocity": 2.79,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJVb64XC7-24ARtdjzMkILR24",
+            "rank_delta": -1,
+            "review_gain": 39
+          },
+          "visibility": {
+            "current_rank": 19,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 26 vs a typical competitor's 61. Close the 35-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.96."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Whissel Beer Group added 39 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 19,
+          "start_rank": 5,
+          "net_change": -14,
+          "best_rank": 5,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 15, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-12T21:38:17.602874+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-10-15T17:43:49.804843+00:00",
+      "free_report_email": "elizabeth.diaz@compass.com"
     },
     {
       "id": "31e9350ab82c",
@@ -79879,12 +80432,617 @@
             "category_avg_rating": 4.8,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 8,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 8
+            },
+            {
+              "date": "Jul 20",
+              "rank": 5
+            },
+            {
+              "date": "Aug 03",
+              "rank": 9
+            },
+            {
+              "date": "Aug 17",
+              "rank": 8
+            },
+            {
+              "date": "Aug 31",
+              "rank": 10
+            },
+            {
+              "date": "Sep 14",
+              "rank": 10
+            },
+            {
+              "date": "Sep 28",
+              "rank": 7
+            },
+            {
+              "date": "Oct 12",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 251
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 253
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 253
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 256
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 258
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 262
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 264
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 268
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              8,
+              5,
+              9,
+              8,
+              10,
+              10,
+              7,
+              20
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12"
+            ],
+            "direction": "declining",
+            "best_rank": 5,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 1.21,
+            "total_gained": 17,
+            "weeks": 14.0,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Dawson Law Group: Portland Car Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 105,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJJZgbOhsKlVQRik28cJWi7a0"
+            },
+            {
+              "rank": 2,
+              "name": "Tillmann Law - Personal Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 103,
+              "review_velocity": 0.64,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ_0NiVAUKlVQRCTQ09UVMGuE"
+            },
+            {
+              "rank": 3,
+              "name": "Law Offices of Jon Friedman",
+              "rating": 5.0,
+              "reviews": 163,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJsbdENxsKlVQRHuZ7b4kcxC8"
+            },
+            {
+              "rank": 4,
+              "name": "Johnston Law Firm",
+              "rating": 4.9,
+              "reviews": 170,
+              "review_velocity": 0.79,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5Qgc4hEKlVQRYGk_09tvNro"
+            },
+            {
+              "rank": 5,
+              "name": "Rob Kline Personal Injury Lawyer",
+              "rating": 4.9,
+              "reviews": 56,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJuR9-eg8KlVQRCsp3sdeqNp0"
+            },
+            {
+              "rank": 6,
+              "name": "Kaplan Law, LLC",
+              "rating": 4.8,
+              "reviews": 52,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5Qgc4hEKlVQR8tZUHoYvTs4"
+            },
+            {
+              "rank": 7,
+              "name": "Michael A. Colbach, Attorney At Law, PC",
+              "rating": 4.7,
+              "reviews": 43,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJCX2py_kJlVQR6dI0a7rQRzM"
+            },
+            {
+              "rank": 8,
+              "name": "Rosenbaum Law Group",
+              "rating": 4.9,
+              "reviews": 69,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJqWUeicqglVQRpoBmFZLNKfM"
+            },
+            {
+              "rank": 9,
+              "name": "DuBois Law Group - PDX Injury Law",
+              "rating": 4.8,
+              "reviews": 69,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ00hIFesKlVQRyVfEWpD28hk"
+            },
+            {
+              "rank": 10,
+              "name": "Goldberg & Loren",
+              "rating": 4.6,
+              "reviews": 500,
+              "review_velocity": 0.86,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ278PTVINlVQRtBPZMfSOjLI"
+            },
+            {
+              "rank": 11,
+              "name": "ELG Injury & Accident Lawyers - Portland",
+              "rating": 5.0,
+              "reviews": 121,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ3_PYzEGhlVQRCT1XVzMmz7k"
+            },
+            {
+              "rank": 12,
+              "name": "Portland Legal Group",
+              "rating": 5.0,
+              "reviews": 587,
+              "review_velocity": 4.21,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJuR9Z_yuhlVQRYwrZkN7RBoo"
+            },
+            {
+              "rank": 13,
+              "name": "Law Office of Chad Stavley",
+              "rating": 5.0,
+              "reviews": 96,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJCX2py_kJlVQRvMvd_zUOA_k"
+            },
+            {
+              "rank": 14,
+              "name": "Mayor Law: Car Accident & Wrongful Death Lawyer",
+              "rating": 4.9,
+              "reviews": 80,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJqWUeicqglVQR3h6IH-UyakA"
+            },
+            {
+              "rank": 15,
+              "name": "Rizk Law",
+              "rating": 4.7,
+              "reviews": 83,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJR2ieGhALlVQR2NbegRncjAI"
+            },
+            {
+              "rank": 16,
+              "name": "Morgan & Morgan",
+              "rating": 4.7,
+              "reviews": 613,
+              "review_velocity": 5.57,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJu0fvRP8LlVQRHfyUy_dsKv0"
+            },
+            {
+              "rank": 17,
+              "name": "Sears Injury Law",
+              "rating": 4.8,
+              "reviews": 138,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ6T9PGKihlVQRFTNOjBtYK-0"
+            },
+            {
+              "rank": 18,
+              "name": "D'Amore Law Group",
+              "rating": 4.9,
+              "reviews": 58,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJC6GEqxoKlVQRrOeFKPrSEUE"
+            },
+            {
+              "rank": 19,
+              "name": "Thomas, Coon, Newton & Frost",
+              "rating": 4.9,
+              "reviews": 181,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJuR9-eg8KlVQRMnaz1WSu23c"
+            },
+            {
+              "rank": 20,
+              "name": "Bridge City Law",
+              "rating": 4.9,
+              "reviews": 268,
+              "review_velocity": 1.21,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ8xKrshwKlVQRqUlvM6nhs5s"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Bridge City Law",
+            "rating": 4.9,
+            "reviews": 268,
+            "review_velocity": 1.21,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJ8xKrshwKlVQRqUlvM6nhs5s"
+          },
+          "benchmarks": {
+            "avg_rating": 4.86,
+            "avg_reviews": 178,
+            "median_reviews": 104,
+            "typical_reviews": 178,
+            "skewed": false,
+            "your_reviews": 268,
+            "your_rating": 4.9,
+            "reviews_percentile": 85,
+            "pack_size": 20,
+            "top_reviews": 613
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Dawson Law Group: Portland Car Accident & Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 105,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJJZgbOhsKlVQRik28cJWi7a0",
+              "rank_delta": 0,
+              "review_gain": 2
+            },
+            {
+              "rank": 2,
+              "name": "Tillmann Law - Personal Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 103,
+              "review_velocity": 0.64,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ_0NiVAUKlVQRCTQ09UVMGuE",
+              "rank_delta": 2,
+              "review_gain": 9
+            },
+            {
+              "rank": 3,
+              "name": "Law Offices of Jon Friedman",
+              "rating": 5.0,
+              "reviews": 163,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJsbdENxsKlVQRHuZ7b4kcxC8",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 4,
+              "name": "Johnston Law Firm",
+              "rating": 4.9,
+              "reviews": 170,
+              "review_velocity": 0.79,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5Qgc4hEKlVQRYGk_09tvNro",
+              "rank_delta": -1,
+              "review_gain": 11
+            },
+            {
+              "rank": 5,
+              "name": "Rob Kline Personal Injury Lawyer",
+              "rating": 4.9,
+              "reviews": 56,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJuR9-eg8KlVQRCsp3sdeqNp0",
+              "rank_delta": 5,
+              "review_gain": -1
+            },
+            {
+              "rank": 6,
+              "name": "Kaplan Law, LLC",
+              "rating": 4.8,
+              "reviews": 52,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ5Qgc4hEKlVQR8tZUHoYvTs4",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 7,
+              "name": "Michael A. Colbach, Attorney At Law, PC",
+              "rating": 4.7,
+              "reviews": 43,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJCX2py_kJlVQR6dI0a7rQRzM",
+              "rank_delta": 10,
+              "review_gain": 1
+            },
+            {
+              "rank": 8,
+              "name": "Rosenbaum Law Group",
+              "rating": 4.9,
+              "reviews": 69,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJqWUeicqglVQRpoBmFZLNKfM",
+              "rank_delta": 5,
+              "review_gain": 13
+            },
+            {
+              "rank": 9,
+              "name": "DuBois Law Group - PDX Injury Law",
+              "rating": 4.8,
+              "reviews": 69,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ00hIFesKlVQRyVfEWpD28hk",
+              "rank_delta": 5,
+              "review_gain": 4
+            },
+            {
+              "rank": 10,
+              "name": "Goldberg & Loren",
+              "rating": 4.6,
+              "reviews": 500,
+              "review_velocity": 0.86,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ278PTVINlVQRtBPZMfSOjLI",
+              "rank_delta": -4,
+              "review_gain": 12
+            },
+            {
+              "rank": 11,
+              "name": "ELG Injury & Accident Lawyers - Portland",
+              "rating": 5.0,
+              "reviews": 121,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ3_PYzEGhlVQRCT1XVzMmz7k",
+              "rank_delta": -4,
+              "review_gain": 16
+            },
+            {
+              "rank": 12,
+              "name": "Portland Legal Group",
+              "rating": 5.0,
+              "reviews": 587,
+              "review_velocity": 4.21,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJuR9Z_yuhlVQRYwrZkN7RBoo",
+              "rank_delta": 3,
+              "review_gain": 59
+            },
+            {
+              "rank": 14,
+              "name": "Mayor Law: Car Accident & Wrongful Death Lawyer",
+              "rating": 4.9,
+              "reviews": 80,
+              "review_velocity": -0.07,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJqWUeicqglVQR3h6IH-UyakA",
+              "rank_delta": -2,
+              "review_gain": -1
+            },
+            {
+              "rank": 16,
+              "name": "Morgan & Morgan",
+              "rating": 4.7,
+              "reviews": 613,
+              "review_velocity": 5.57,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJu0fvRP8LlVQRHfyUy_dsKv0",
+              "rank_delta": -5,
+              "review_gain": 78
+            },
+            {
+              "rank": 17,
+              "name": "Sears Injury Law",
+              "rating": 4.8,
+              "reviews": 138,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ6T9PGKihlVQRFTNOjBtYK-0",
+              "rank_delta": 1,
+              "review_gain": 3
+            },
+            {
+              "rank": 18,
+              "name": "D'Amore Law Group",
+              "rating": 4.9,
+              "reviews": 58,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJC6GEqxoKlVQRrOeFKPrSEUE",
+              "rank_delta": 1,
+              "review_gain": 1
+            },
+            {
+              "rank": 20,
+              "name": "Bridge City Law",
+              "rating": 4.9,
+              "reviews": 268,
+              "review_velocity": 1.21,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ8xKrshwKlVQRqUlvM6nhs5s",
+              "rank_delta": -12,
+              "review_gain": 17
+            }
+          ],
+          "fastest_climber": {
+            "rank": 7,
+            "name": "Michael A. Colbach, Attorney At Law, PC",
+            "rating": 4.7,
+            "reviews": 43,
+            "review_velocity": 0.07,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJCX2py_kJlVQR6dI0a7rQRzM",
+            "rank_delta": 10,
+            "review_gain": 1
+          },
+          "fastest_review_gainer": {
+            "rank": 16,
+            "name": "Morgan & Morgan",
+            "rating": 4.7,
+            "reviews": 613,
+            "review_velocity": 5.57,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJu0fvRP8LlVQRHfyUy_dsKv0",
+            "rank_delta": -5,
+            "review_gain": 78
+          },
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 268 vs a typical competitor's 178."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.86."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.21/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Morgan & Morgan added 78 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 8,
+          "net_change": -12,
+          "best_rank": 5,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 15, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-12T21:38:17.602960+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-10-15T17:43:09.428027+00:00",
+      "free_report_email": "howmaywehelp@bridgecitylawfirm.com"
     },
     {
       "id": "25bc96f5c0cc",
@@ -80258,12 +81416,605 @@
             "category_avg_rating": 4.9,
             "position_summary": "needs attention"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 8,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 5
+            },
+            {
+              "date": "Jul 20",
+              "rank": 8
+            },
+            {
+              "date": "Aug 03",
+              "rank": 4
+            },
+            {
+              "date": "Aug 17",
+              "rank": 5
+            },
+            {
+              "date": "Aug 31",
+              "rank": 5
+            },
+            {
+              "date": "Sep 14",
+              "rank": 7
+            },
+            {
+              "date": "Sep 28",
+              "rank": 7
+            },
+            {
+              "date": "Oct 12",
+              "rank": 19
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 3
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 3
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 3
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 3
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 3
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 3
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 3
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 3
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              5,
+              8,
+              4,
+              5,
+              5,
+              7,
+              7,
+              19
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12"
+            ],
+            "direction": "declining",
+            "best_rank": 4,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 14.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Cascade Regenerative Medicine",
+              "rating": 4.9,
+              "reviews": 155,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ14XQghQLlVQR_Z-C0Ij37S0"
+            },
+            {
+              "rank": 2,
+              "name": "Oregon Regenerative Medicine",
+              "rating": 4.8,
+              "reviews": 43,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Alternative medicine practitioner",
+              "_key": "ChIJkdP5zY90lVQRAlAeUMN9hpA"
+            },
+            {
+              "rank": 3,
+              "name": "Regenerative Health Solutions",
+              "rating": 5.0,
+              "reviews": 30,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJV9s_uHILlVQR9ySvYJq-Y7I"
+            },
+            {
+              "rank": 4,
+              "name": "TPC Regenerative Health",
+              "rating": 5.0,
+              "reviews": 35,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Wellness center",
+              "_key": "ChIJWzqCuU8MlVQR7MP2PimOyuU"
+            },
+            {
+              "rank": 5,
+              "name": "NW Regen",
+              "rating": 4.7,
+              "reviews": 78,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Orthopedic clinic",
+              "_key": "ChIJd4s2Q8wNlVQReH0WD9FGTbo"
+            },
+            {
+              "rank": 6,
+              "name": "Northwest Center for Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 6,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Doctor",
+              "_key": "ChIJ9RBcagCvlVQRypVmB4jjFIc"
+            },
+            {
+              "rank": 7,
+              "name": "Lumera Regenerative Medicine",
+              "rating": 4.8,
+              "reviews": 51,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Medical spa",
+              "_key": "ChIJGQOxItxzlVQR4_P6TLq_qsc"
+            },
+            {
+              "rank": 8,
+              "name": "Opdahl Regenerative Medicine Gresham",
+              "rating": 5.0,
+              "reviews": 9,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJ2UD-W_mZlVQRVnPhfQbAB2A"
+            },
+            {
+              "rank": 9,
+              "name": "FoRM Health",
+              "rating": 4.9,
+              "reviews": 79,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Naturopathic practitioner",
+              "_key": "ChIJc7awWXYLlVQRnx5hHnyFCd4"
+            },
+            {
+              "rank": 10,
+              "name": "Upgrade Medical",
+              "rating": 5.0,
+              "reviews": 80,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJaTqcxoEC6kYRjddEA4aKeCg"
+            },
+            {
+              "rank": 11,
+              "name": "Portland Clinic of Holistic Health",
+              "rating": 4.8,
+              "reviews": 224,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Holistic medicine practitioner",
+              "_key": "ChIJUSivTRsKlVQRc6p41epTvPY"
+            },
+            {
+              "rank": 12,
+              "name": "Oregon Regenerative Stem Cell Medical Center",
+              "rating": 3.7,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Medical Center",
+              "_key": "ChIJ3fOk-IdvlVQRxrfp6JIaB-U"
+            },
+            {
+              "rank": 13,
+              "name": "NATURE CARE - Community Health & Regenerative Medicine",
+              "rating": 3.8,
+              "reviews": 8,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJVyoSF1wNlVQRiODDPoU1zz0"
+            },
+            {
+              "rank": 14,
+              "name": "Open Wellness PDX",
+              "rating": 4.9,
+              "reviews": 325,
+              "review_velocity": 3.64,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ6yBFGeMJlVQRSR20N5-ZnLo"
+            },
+            {
+              "rank": 15,
+              "name": "Restorative Health Clinic of Portland",
+              "rating": 4.8,
+              "reviews": 76,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ20I1LeZylVQRsWYIoczGh18"
+            },
+            {
+              "rank": 16,
+              "name": "Pacific Clinic of Natural Medicine",
+              "rating": 4.9,
+              "reviews": 41,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Alternative medicine practitioner",
+              "_key": "ChIJzciC2ZoLlVQRO0cyqUGPdbc"
+            },
+            {
+              "rank": 17,
+              "name": "Opdahl Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 96,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJd5bVyO61lVQRXeP3nAz6yls"
+            },
+            {
+              "rank": 18,
+              "name": "Opdahl Regenerative Medicine East Vancouver",
+              "rating": 5.0,
+              "reviews": 13,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJaTCYKoa7lVQRbRFoAwSHBis"
+            },
+            {
+              "rank": 19,
+              "name": "Center For Traditional Medicine",
+              "rating": 3.7,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ81_NypB0lVQRO85gBHzbxo4"
+            },
+            {
+              "rank": 20,
+              "name": "Freedom Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 21,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJD3CJ3pfHuFQRvbto38m1Lxk"
+            }
+          ],
+          "subject": {
+            "rank": 19,
+            "name": "Center For Traditional Medicine",
+            "rating": 3.7,
+            "reviews": 3,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Medical clinic",
+            "_key": "ChIJ81_NypB0lVQRO85gBHzbxo4"
+          },
+          "benchmarks": {
+            "avg_rating": 4.74,
+            "avg_reviews": 69,
+            "median_reviews": 42,
+            "typical_reviews": 69,
+            "skewed": false,
+            "your_reviews": 3,
+            "your_rating": 3.7,
+            "reviews_percentile": 10,
+            "pack_size": 20,
+            "top_reviews": 325
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Cascade Regenerative Medicine",
+              "rating": 4.9,
+              "reviews": 155,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ14XQghQLlVQR_Z-C0Ij37S0",
+              "rank_delta": 0,
+              "review_gain": 7
+            },
+            {
+              "rank": 2,
+              "name": "Oregon Regenerative Medicine",
+              "rating": 4.8,
+              "reviews": 43,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Alternative medicine practitioner",
+              "_key": "ChIJkdP5zY90lVQRAlAeUMN9hpA",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 3,
+              "name": "Regenerative Health Solutions",
+              "rating": 5.0,
+              "reviews": 30,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJV9s_uHILlVQR9ySvYJq-Y7I",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 4,
+              "name": "TPC Regenerative Health",
+              "rating": 5.0,
+              "reviews": 35,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Wellness center",
+              "_key": "ChIJWzqCuU8MlVQR7MP2PimOyuU",
+              "rank_delta": 9,
+              "review_gain": 2
+            },
+            {
+              "rank": 5,
+              "name": "NW Regen",
+              "rating": 4.7,
+              "reviews": 78,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Orthopedic clinic",
+              "_key": "ChIJd4s2Q8wNlVQReH0WD9FGTbo",
+              "rank_delta": -1,
+              "review_gain": 6
+            },
+            {
+              "rank": 6,
+              "name": "Northwest Center for Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 6,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Doctor",
+              "_key": "ChIJ9RBcagCvlVQRypVmB4jjFIc",
+              "rank_delta": 6,
+              "review_gain": 1
+            },
+            {
+              "rank": 7,
+              "name": "Lumera Regenerative Medicine",
+              "rating": 4.8,
+              "reviews": 51,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Medical spa",
+              "_key": "ChIJGQOxItxzlVQR4_P6TLq_qsc",
+              "rank_delta": 7,
+              "review_gain": 2
+            },
+            {
+              "rank": 8,
+              "name": "Opdahl Regenerative Medicine Gresham",
+              "rating": 5.0,
+              "reviews": 9,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJ2UD-W_mZlVQRVnPhfQbAB2A",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 9,
+              "name": "FoRM Health",
+              "rating": 4.9,
+              "reviews": 79,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Naturopathic practitioner",
+              "_key": "ChIJc7awWXYLlVQRnx5hHnyFCd4",
+              "rank_delta": -1,
+              "review_gain": 1
+            },
+            {
+              "rank": 10,
+              "name": "Upgrade Medical",
+              "rating": 5.0,
+              "reviews": 80,
+              "review_velocity": 0.21,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJaTqcxoEC6kYRjddEA4aKeCg",
+              "rank_delta": -1,
+              "review_gain": 3
+            },
+            {
+              "rank": 12,
+              "name": "Oregon Regenerative Stem Cell Medical Center",
+              "rating": 3.7,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Medical Center",
+              "_key": "ChIJ3fOk-IdvlVQRxrfp6JIaB-U",
+              "rank_delta": 7,
+              "review_gain": 0
+            },
+            {
+              "rank": 13,
+              "name": "NATURE CARE - Community Health & Regenerative Medicine",
+              "rating": 3.8,
+              "reviews": 8,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJVyoSF1wNlVQRiODDPoU1zz0",
+              "rank_delta": -7,
+              "review_gain": 0
+            },
+            {
+              "rank": 14,
+              "name": "Open Wellness PDX",
+              "rating": 4.9,
+              "reviews": 325,
+              "review_velocity": 3.64,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ6yBFGeMJlVQRSR20N5-ZnLo",
+              "rank_delta": 6,
+              "review_gain": 51
+            },
+            {
+              "rank": 17,
+              "name": "Opdahl Regenerative Medicine",
+              "rating": 5.0,
+              "reviews": 96,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJd5bVyO61lVQRXeP3nAz6yls",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 18,
+              "name": "Opdahl Regenerative Medicine East Vancouver",
+              "rating": 5.0,
+              "reviews": 13,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJaTCYKoa7lVQRbRFoAwSHBis",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 19,
+              "name": "Center For Traditional Medicine",
+              "rating": 3.7,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ81_NypB0lVQRO85gBHzbxo4",
+              "rank_delta": -14,
+              "review_gain": 0
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "TPC Regenerative Health",
+            "rating": 5.0,
+            "reviews": 35,
+            "review_velocity": 0.14,
+            "website": true,
+            "type": "Wellness center",
+            "_key": "ChIJWzqCuU8MlVQR7MP2PimOyuU",
+            "rank_delta": 9,
+            "review_gain": 2
+          },
+          "fastest_review_gainer": {
+            "rank": 14,
+            "name": "Open Wellness PDX",
+            "rating": 4.9,
+            "reviews": 325,
+            "review_velocity": 3.64,
+            "website": true,
+            "type": "Medical clinic",
+            "_key": "ChIJ6yBFGeMJlVQRSR20N5-ZnLo",
+            "rank_delta": 6,
+            "review_gain": 51
+          },
+          "visibility": {
+            "current_rank": 19,
+            "best_rank": 4,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 6.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 5.6,
+            "lost_vs_best_rel": 88,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 3 vs a typical competitor's 69. Close the 66-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 3.7 vs category 4.74. A 1.04-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Open Wellness PDX added 51 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 19,
+          "start_rank": 5,
+          "net_change": -14,
+          "best_rank": 4,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 15, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-12T21:38:17.602986+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-10-15T17:43:31.150440+00:00",
+      "free_report_email": "info@oregenmed.com"
     },
     {
       "id": "0fcbe74e2602",
