@@ -1,0 +1,179 @@
+2026-10-19 18:51:55,904 [INFO] local_seo_orchestrator — ============================================================
+2026-10-19 18:51:55,904 [INFO] local_seo_orchestrator — Starting Search Sentinel pipeline
+2026-10-19 18:51:55,904 [INFO] local_seo_orchestrator — Timestamp: 2026-10-19T18:51:55.904490+00:00
+2026-10-19 18:51:55,904 [INFO] local_seo_orchestrator — ============================================================
+2026-10-19 18:51:55,904 [INFO] local_seo_orchestrator — [1/5] Scanner Agent: fetching Google Maps rankings...
+2026-10-19 18:51:55,904 [INFO] local_seo_orchestrator —       Rotation group A (ISO week 43); 0 subscriber categories always included
+2026-10-19 18:51:55,904 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in New York NY' in New York, NY
+2026-10-19 18:51:57,029 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in New York NY'
+2026-10-19 18:52:01,029 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in New York NY' in New York, NY
+2026-10-19 18:52:02,010 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in New York NY'
+2026-10-19 18:52:06,010 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in New York NY' in New York, NY
+2026-10-19 18:52:07,441 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in New York NY'
+2026-10-19 18:52:11,441 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in New York NY' in New York, NY
+2026-10-19 18:52:12,722 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in New York NY'
+2026-10-19 18:52:16,723 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in New York NY' in New York, NY
+2026-10-19 18:52:18,011 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in New York NY'
+2026-10-19 18:52:22,011 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Los Angeles CA' in Los Angeles, CA
+2026-10-19 18:52:23,310 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Los Angeles CA'
+2026-10-19 18:52:27,310 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Los Angeles CA' in Los Angeles, CA
+2026-10-19 18:52:28,389 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Los Angeles CA'
+2026-10-19 18:52:32,389 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Los Angeles CA' in Los Angeles, CA
+2026-10-19 18:52:33,635 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Los Angeles CA'
+2026-10-19 18:52:37,635 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Los Angeles CA' in Los Angeles, CA
+2026-10-19 18:52:38,712 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Los Angeles CA'
+2026-10-19 18:52:42,712 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Los Angeles CA' in Los Angeles, CA
+2026-10-19 18:52:44,946 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Los Angeles CA'
+2026-10-19 18:52:48,947 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Chicago IL' in Chicago, IL
+2026-10-19 18:52:49,977 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Chicago IL'
+2026-10-19 18:52:53,977 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Chicago IL' in Chicago, IL
+2026-10-19 18:52:55,241 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Chicago IL'
+2026-10-19 18:52:59,241 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Chicago IL' in Chicago, IL
+2026-10-19 18:53:00,710 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Chicago IL'
+2026-10-19 18:53:04,710 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Chicago IL' in Chicago, IL
+2026-10-19 18:53:06,180 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Chicago IL'
+2026-10-19 18:53:10,180 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Chicago IL' in Chicago, IL
+2026-10-19 18:53:11,264 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Chicago IL'
+2026-10-19 18:53:15,264 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Austin TX' in Austin, TX
+2026-10-19 18:53:16,790 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Austin TX'
+2026-10-19 18:53:20,790 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Austin TX' in Austin, TX
+2026-10-19 18:53:26,811 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Austin TX'
+2026-10-19 18:53:30,811 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Austin TX' in Austin, TX
+2026-10-19 18:53:31,887 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Austin TX'
+2026-10-19 18:53:35,887 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Austin TX' in Austin, TX
+2026-10-19 18:53:37,186 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Austin TX'
+2026-10-19 18:53:41,186 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Austin TX' in Austin, TX
+2026-10-19 18:53:43,132 [INFO] agents.scanner_agent — Scanner [serpapi]: 12 results for 'regenerative medicine clinic in Austin TX'
+2026-10-19 18:53:47,133 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Miami FL' in Miami, FL
+2026-10-19 18:53:48,765 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Miami FL'
+2026-10-19 18:53:52,765 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Miami FL' in Miami, FL
+2026-10-19 18:53:53,819 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Miami FL'
+2026-10-19 18:53:57,819 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Miami FL' in Miami, FL
+2026-10-19 18:53:59,505 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Miami FL'
+2026-10-19 18:54:03,506 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Miami FL' in Miami, FL
+2026-10-19 18:54:04,857 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Miami FL'
+2026-10-19 18:54:08,858 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Miami FL' in Miami, FL
+2026-10-19 18:54:10,051 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Miami FL'
+2026-10-19 18:54:14,051 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Dallas TX' in Dallas, TX
+2026-10-19 18:54:15,079 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Dallas TX'
+2026-10-19 18:54:19,080 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Dallas TX' in Dallas, TX
+2026-10-19 18:54:20,550 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Dallas TX'
+2026-10-19 18:54:24,550 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Dallas TX' in Dallas, TX
+2026-10-19 18:54:25,515 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Dallas TX'
+2026-10-19 18:54:29,515 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Dallas TX' in Dallas, TX
+2026-10-19 18:54:31,564 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Dallas TX'
+2026-10-19 18:54:35,565 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Dallas TX' in Dallas, TX
+2026-10-19 18:54:36,478 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Dallas TX'
+2026-10-19 18:54:40,478 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Phoenix AZ' in Phoenix, AZ
+2026-10-19 18:54:41,755 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Phoenix AZ'
+2026-10-19 18:54:45,755 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Phoenix AZ' in Phoenix, AZ
+2026-10-19 18:54:46,651 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Phoenix AZ'
+2026-10-19 18:54:50,651 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Phoenix AZ' in Phoenix, AZ
+2026-10-19 18:54:51,895 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Phoenix AZ'
+2026-10-19 18:54:55,895 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Phoenix AZ' in Phoenix, AZ
+2026-10-19 18:54:57,199 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Phoenix AZ'
+2026-10-19 18:55:01,199 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Phoenix AZ' in Phoenix, AZ
+2026-10-19 18:55:02,566 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Phoenix AZ'
+2026-10-19 18:55:06,566 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Denver CO' in Denver, CO
+2026-10-19 18:55:08,520 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Denver CO'
+2026-10-19 18:55:12,521 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Denver CO' in Denver, CO
+2026-10-19 18:55:13,752 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Denver CO'
+2026-10-19 18:55:17,753 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Denver CO' in Denver, CO
+2026-10-19 18:55:18,656 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Denver CO'
+2026-10-19 18:55:22,656 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Denver CO' in Denver, CO
+2026-10-19 18:55:23,704 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Denver CO'
+2026-10-19 18:55:27,705 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Denver CO' in Denver, CO
+2026-10-19 18:55:28,973 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Denver CO'
+2026-10-19 18:55:32,973 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Philadelphia PA' in Philadelphia, PA
+2026-10-19 18:55:37,105 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Philadelphia PA'
+2026-10-19 18:55:41,105 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Philadelphia PA' in Philadelphia, PA
+2026-10-19 18:55:41,923 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Philadelphia PA'
+2026-10-19 18:55:45,923 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Philadelphia PA' in Philadelphia, PA
+2026-10-19 18:55:46,823 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Philadelphia PA'
+2026-10-19 18:55:50,823 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Philadelphia PA' in Philadelphia, PA
+2026-10-19 18:55:52,066 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Philadelphia PA'
+2026-10-19 18:55:56,067 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Philadelphia PA' in Philadelphia, PA
+2026-10-19 18:55:57,276 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Philadelphia PA'
+2026-10-19 18:56:01,277 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Houston TX' in Houston, TX
+2026-10-19 18:56:02,625 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Houston TX'
+2026-10-19 18:56:06,626 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Houston TX' in Houston, TX
+2026-10-19 18:56:07,811 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Houston TX'
+2026-10-19 18:56:11,811 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Houston TX' in Houston, TX
+2026-10-19 18:56:13,701 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Houston TX'
+2026-10-19 18:56:17,701 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Houston TX' in Houston, TX
+2026-10-19 18:56:18,770 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Houston TX'
+2026-10-19 18:56:22,771 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Houston TX' in Houston, TX
+2026-10-19 18:56:23,809 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in Houston TX'
+2026-10-19 18:56:27,809 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in San Francisco CA' in San Francisco, CA
+2026-10-19 18:56:28,860 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in San Francisco CA'
+2026-10-19 18:56:32,860 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in San Francisco CA' in San Francisco, CA
+2026-10-19 18:56:34,861 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in San Francisco CA'
+2026-10-19 18:56:38,861 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in San Francisco CA' in San Francisco, CA
+2026-10-19 18:56:40,027 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in San Francisco CA'
+2026-10-19 18:56:44,027 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in San Francisco CA' in San Francisco, CA
+2026-10-19 18:56:45,319 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in San Francisco CA'
+2026-10-19 18:56:49,319 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in San Francisco CA' in San Francisco, CA
+2026-10-19 18:56:50,119 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'regenerative medicine clinic in San Francisco CA'
+2026-10-19 18:56:54,119 [INFO] agents.scanner_agent — Scanner: scanning 'personal injury lawyer in Seattle WA' in Seattle, WA
+2026-10-19 18:56:55,483 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'personal injury lawyer in Seattle WA'
+2026-10-19 18:56:59,483 [INFO] agents.scanner_agent — Scanner: scanning 'emergency plumber in Seattle WA' in Seattle, WA
+2026-10-19 18:57:00,511 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'emergency plumber in Seattle WA'
+2026-10-19 18:57:04,511 [INFO] agents.scanner_agent — Scanner: scanning 'cosmetic dentist in Seattle WA' in Seattle, WA
+2026-10-19 18:57:06,125 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'cosmetic dentist in Seattle WA'
+2026-10-19 18:57:10,126 [INFO] agents.scanner_agent — Scanner: scanning 'luxury real estate agent in Seattle WA' in Seattle, WA
+2026-10-19 18:57:11,768 [INFO] agents.scanner_agent — Scanner [serpapi]: 20 results for 'luxury real estate agent in Seattle WA'
+2026-10-19 18:57:15,768 [INFO] agents.scanner_agent — Scanner: scanning 'regenerative medicine clinic in Seattle WA' in Seattle, WA
+2026-10-19 18:57:17,172 [INFO] agents.scanner_agent — Scanner [serpapi]: 10 results for 'regenerative medicine clinic in Seattle WA'
+2026-10-19 18:57:21,172 [INFO] agents.scanner_agent — Scanner: rotation group A — scanned 60, skipped 60 off-week combos
+2026-10-19 18:57:21,173 [INFO] agents.scanner_agent — Scanner: monthly usage after this run — SerpAPI 180/245, Outscraper 0/95, ValueSERP 0/95
+2026-10-19 18:57:21,173 [INFO] local_seo_orchestrator —       Scanned 60 categories
+2026-10-19 18:57:21,173 [INFO] local_seo_orchestrator — [2/5] Analyzer Agent: detecting rank changes...
+2026-10-19 18:57:21,517 [INFO] agents.analyzer_agent — Analyzer: found 17 rank drop alerts across 60 categories
+2026-10-19 18:57:21,528 [INFO] local_seo_orchestrator —       Found 17 rank drop alerts
+2026-10-19 18:57:21,540 [INFO] local_seo_orchestrator — [3/5] Outreach Agent: sending teaser emails for 17 drops...
+2026-10-19 18:57:22,692 [INFO] agents.outreach_agent — Outreach: no valid email for Shulman & Hill (got: None)
+2026-10-19 18:57:22,884 [INFO] agents.outreach_agent — Found email 24hoursPlumbingny@gmail.com on http://24hoursplumbing.com/
+2026-10-19 18:57:22,885 [INFO] agents.outreach_agent — Outreach: subject variant 0 for 24 Hours Plumbing
+2026-10-19 18:57:23,331 [INFO] agents.email_sender — Resend: sent to 24hoursPlumbingny@gmail.com (id=01a15586-8b39-7d24-b56f-ec6a9e6738da)
+2026-10-19 18:57:23,332 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to 24hoursPlumbingny@gmail.com (24 Hours Plumbing)
+2026-10-19 18:57:27,249 [INFO] agents.outreach_agent — Outreach: no valid email for Emergency Heights Plumbing LIC (got: None)
+2026-10-19 18:57:29,157 [INFO] agents.outreach_agent — Outreach: no valid email for A1 24 Hour Plumbings (got: None)
+2026-10-19 18:57:31,182 [INFO] agents.outreach_agent — Found email service.gplumbing@gmail.com on https://gplumbingny.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-gplumbing
+2026-10-19 18:57:31,183 [INFO] agents.outreach_agent — Outreach: subject variant 0 for G-Plumbing (Emergency Repair Services)
+2026-10-19 18:57:31,405 [INFO] agents.email_sender — Resend: sent to service.gplumbing@gmail.com (id=01a15586-aab3-7ce9-b035-f45393812ce2)
+2026-10-19 18:57:31,406 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to service.gplumbing@gmail.com (G-Plumbing (Emergency Repair Services))
+2026-10-19 18:57:34,766 [INFO] agents.outreach_agent — Found email email@address.com on https://www.parksmilesnyc.com/our-locations/carnegie-hill-dentist/#gmb
+2026-10-19 18:57:34,767 [INFO] agents.outreach_agent — Outreach: subject variant 2 for Park Smiles NYC Cosmetic Dentistry
+2026-10-19 18:57:35,009 [INFO] agents.email_sender — Resend: sent to email@address.com (id=01a15586-b8d0-75ea-be3e-d79d6e4433b2)
+2026-10-19 18:57:35,010 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to email@address.com (Park Smiles NYC Cosmetic Dentistry)
+2026-10-19 18:57:45,118 [INFO] agents.outreach_agent — Outreach: no valid email for SmilesNY (got: None)
+2026-10-19 18:57:45,696 [INFO] agents.outreach_agent — Found email info@212smiling.com on https://www.212smiling.com/?utm_source=gmb_212_bp&utm_medium=gmb
+2026-10-19 18:57:45,697 [INFO] agents.outreach_agent — Outreach: subject variant 1 for 212 Smiling Cosmetic Dentistry
+2026-10-19 18:57:45,970 [INFO] agents.email_sender — Resend: sent to info@212smiling.com (id=01a15586-e3b3-7945-a183-dc038fad4dd0)
+2026-10-19 18:57:45,970 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@212smiling.com (212 Smiling Cosmetic Dentistry)
+2026-10-19 18:57:51,448 [INFO] agents.outreach_agent — Outreach: no valid email for Stefani Pace | Luxury Apartments For Sale (got: None)
+2026-10-19 18:57:51,694 [INFO] agents.outreach_agent — Found email info@elikarealestate.com on https://www.elikarealestate.com/
+2026-10-19 18:57:51,695 [INFO] agents.outreach_agent — Outreach: subject variant 1 for ELIKA Real Estate
+2026-10-19 18:57:51,917 [INFO] agents.email_sender — Resend: sent to info@elikarealestate.com (id=01a15586-faf0-7dbb-9e85-214601df9216)
+2026-10-19 18:57:51,918 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to info@elikarealestate.com (ELIKA Real Estate)
+2026-10-19 18:57:55,083 [INFO] agents.outreach_agent — Found email noble@corcoran.com on https://nobleblackandpartners.com/?utm_source=gbp&utm_medium=organic
+2026-10-19 18:57:55,083 [INFO] agents.outreach_agent — Outreach: subject variant 0 for Noble Black & Partners Real Estate
+2026-10-19 18:57:55,317 [INFO] agents.email_sender — Resend: sent to noble@corcoran.com (id=01a15587-0830-70b7-9f2a-e335c3c28689)
+2026-10-19 18:57:55,318 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to noble@corcoran.com (Noble Black & Partners Real Estate)
+2026-10-19 18:57:58,544 [INFO] agents.outreach_agent — Outreach: no valid email for Apple Luo 纽约专业地产经纪罗小姐 New York Luxury Real Estate Agent Apple Luo (got: None)
+2026-10-19 18:57:58,683 [INFO] agents.outreach_agent — Found email dan@digsrealtynyc.com on https://digsrealtynyc.com/
+2026-10-19 18:57:58,684 [INFO] agents.outreach_agent — Outreach: subject variant 1 for Digs Realty Group
+2026-10-19 18:57:58,915 [INFO] agents.email_sender — Resend: sent to dan@digsrealtynyc.com (id=01a15587-163e-7d4d-9932-f390e74af90b)
+2026-10-19 18:57:58,916 [INFO] agents.outreach_agent — Outreach[resend]: teaser email sent to dan@digsrealtynyc.com (Digs Realty Group)
+2026-10-19 18:58:04,106 [INFO] agents.outreach_agent — Outreach: no valid email for Michael Bhagwandin - New York City - FIND Real Estate (got: None)
+2026-10-19 18:58:04,510 [INFO] agents.outreach_agent — Found email 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com on http://www.regensportscare.com/
+2026-10-19 18:58:04,511 [INFO] agents.outreach_agent — Outreach: no valid email for Regenerative SportsCare Institute (RSI+) (got: '605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com')
+2026-10-19 18:58:05,607 [INFO] agents.outreach_agent — Outreach: no valid email for Regenerative Health NY (got: None)
+2026-10-19 18:58:07,879 [INFO] agents.outreach_agent — Outreach: no valid email for Stem Cell Therapy (got: None)
+2026-10-19 18:58:07,879 [INFO] agents.outreach_agent — Outreach batch complete: sent=7 (subscribers=0), no_email=10, failed=0
+2026-10-19 18:58:07,879 [INFO] local_seo_orchestrator — [4/5] Fulfillment: registering 7 alerts for payment...
+2026-10-19 18:58:07,943 [INFO] agents.fulfillment_agent — Fulfillment: registered 7 alerts for post-payment delivery
+2026-10-19 18:58:07,945 [INFO] local_seo_orchestrator — [5/5] Monitor Agent: recording stats...
+2026-10-19 18:58:09,241 [INFO] local_seo_orchestrator — ============================================================
+2026-10-19 18:58:09,241 [INFO] local_seo_orchestrator — Pipeline complete. 17 rank drop alerts, emails sent.
+2026-10-19 18:58:09,241 [INFO] local_seo_orchestrator — ============================================================
