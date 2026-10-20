@@ -1,0 +1,29 @@
+2026-10-20 12:29:07,698 [INFO] orchestrator — ============================================================
+2026-10-20 12:29:07,698 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-10-20 12:29:07,698 [INFO] orchestrator — Timestamp: 2026-10-20T12:29:07.698291+00:00
+2026-10-20 12:29:07,698 [INFO] orchestrator — ============================================================
+2026-10-20 12:29:07,739 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-10-20 12:29:07,888 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-10-20 12:29:08,541 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-10-20 12:29:09,232 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 5 fresh items
+2026-10-20 12:29:09,879 [WARNING] agents.feed_agent — Feed error for VentureBeat AI: <unknown>:2:39: not well-formed (invalid token)
+2026-10-20 12:29:13,751 [WARNING] agents.feed_agent — Feed error for Hacker News (Top): <unknown>:7:2: mismatched tag
+2026-10-20 12:29:14,466 [INFO] agents.feed_agent —   Product Hunt AI: fetched 36 fresh items
+2026-10-20 12:29:15,145 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-10-20 12:29:16,465 [INFO] agents.feed_agent —   OpenAI Blog: fetched 12 fresh items
+2026-10-20 12:29:16,969 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 73 total
+2026-10-20 12:29:16,969 [INFO] orchestrator —       Got 10 items
+2026-10-20 12:29:16,969 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-10-20 12:29:16,970 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-10-20 12:29:37,035 [INFO] httpx2 — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-10-20 12:29:37,052 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'AI agents are the new security nightmare'
+2026-10-20 12:29:37,052 [INFO] orchestrator —       Subject: 'AI agents are the new security nightmare'
+2026-10-20 12:29:37,052 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-10-20 12:29:37,052 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-10-20 12:29:37,722 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-10-20T12:32:37+0000, ID=26507440
+2026-10-20 12:29:37,820 [INFO] orchestrator —       Broadcast ID: 26507440, Subscribers: 2
+2026-10-20 12:29:37,820 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-10-20 12:29:37,821 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 26507440
+2026-10-20 12:29:37,821 [INFO] orchestrator — ============================================================
+2026-10-20 12:29:37,821 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-10-20 12:29:37,821 [INFO] orchestrator — ============================================================
