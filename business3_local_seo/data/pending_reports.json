@@ -77965,7 +77965,610 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 8,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 10
+            },
+            {
+              "date": "Jul 20",
+              "rank": 12
+            },
+            {
+              "date": "Aug 03",
+              "rank": 14
+            },
+            {
+              "date": "Aug 17",
+              "rank": 10
+            },
+            {
+              "date": "Aug 31",
+              "rank": 12
+            },
+            {
+              "date": "Sep 14",
+              "rank": 12
+            },
+            {
+              "date": "Sep 28",
+              "rank": 8
+            },
+            {
+              "date": "Oct 12",
+              "rank": 16
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 454
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 456
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 457
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 461
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 461
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 461
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 463
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 466
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              10,
+              12,
+              14,
+              10,
+              12,
+              12,
+              8,
+              16
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12"
+            ],
+            "direction": "declining",
+            "best_rank": 8,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 0.86,
+            "total_gained": 12,
+            "weeks": 14.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Buckhead Cosmetic & Family Dentistry",
+              "rating": 4.9,
+              "reviews": 1755,
+              "review_velocity": 3.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6bheDY0F9YgRcR04vFjsg4k"
+            },
+            {
+              "rank": 2,
+              "name": "Midtown Smile Center",
+              "rating": 4.7,
+              "reviews": 999,
+              "review_velocity": 3.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJb6DsgEIE9YgRLnWOwvhTrbg"
+            },
+            {
+              "rank": 3,
+              "name": "Atlanta Center for Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 785,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJzS5TCuIO9YgRa_jEZ1jhs4U"
+            },
+            {
+              "rank": 4,
+              "name": "Perl Smile Co.",
+              "rating": 4.9,
+              "reviews": 362,
+              "review_velocity": 1.86,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ-RClyDIF9YgRZoL51tNLQ9A"
+            },
+            {
+              "rank": 5,
+              "name": "Cosmetic Dentistry of Atlanta",
+              "rating": 4.9,
+              "reviews": 23,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJC7GMsVAF9YgREJ29pHayNYk"
+            },
+            {
+              "rank": 6,
+              "name": "Art of Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 336,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ_____4YD9YgRSavQkDkq61Q"
+            },
+            {
+              "rank": 7,
+              "name": "Atlanta Dental Spa - Buckhead",
+              "rating": 4.9,
+              "reviews": 1126,
+              "review_velocity": 5.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJVa75ZfQF9YgRo6cNZTu596k"
+            },
+            {
+              "rank": 8,
+              "name": "Atlanta Dental Spa - Highlands",
+              "rating": 5.0,
+              "reviews": 694,
+              "review_velocity": 1.29,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJLU6FOKcG9YgRbY112XCdODA"
+            },
+            {
+              "rank": 9,
+              "name": "Elegant Smiles",
+              "rating": 4.9,
+              "reviews": 1525,
+              "review_velocity": 2.93,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJNSGj9T4G9YgR4xSIzPtPdbE"
+            },
+            {
+              "rank": 10,
+              "name": "Smile Forever Atlanta",
+              "rating": 4.8,
+              "reviews": 754,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ_yM99u0F9YgRrkPbrJrwVfU"
+            },
+            {
+              "rank": 11,
+              "name": "Intown Smile Studio",
+              "rating": 4.9,
+              "reviews": 218,
+              "review_velocity": 0.75,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf7jLj2cE9YgRjfcugrcZU3w"
+            },
+            {
+              "rank": 12,
+              "name": "Dental Esthetics Studio",
+              "rating": 4.9,
+              "reviews": 694,
+              "review_velocity": 4.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJd0ZRTxcF9YgRRM8S7CKntjw"
+            },
+            {
+              "rank": 13,
+              "name": "Ponce Dental Studio - Atlanta",
+              "rating": 4.9,
+              "reviews": 1391,
+              "review_velocity": 4.64,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ8-YOB3QF9YgRHTqUxYQ8NI0"
+            },
+            {
+              "rank": 14,
+              "name": "Dentique",
+              "rating": 5.0,
+              "reviews": 441,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJI_5yU_IF9YgR7FbwG1PwtAQ"
+            },
+            {
+              "rank": 15,
+              "name": "Atlanta Dentistry by Design",
+              "rating": 4.9,
+              "reviews": 759,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJHR3_NaoF9YgRlfRMvOdM0js"
+            },
+            {
+              "rank": 16,
+              "name": "Atlanta Smiles & Wellness",
+              "rating": 4.9,
+              "reviews": 466,
+              "review_velocity": 0.86,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJt-Ld8BAQ9YgRZ4w2l3e_qpc"
+            },
+            {
+              "rank": 17,
+              "name": "Midtown Dental Center",
+              "rating": 4.9,
+              "reviews": 583,
+              "review_velocity": 1.17,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6cBjtBAE9YgRbjc17ihBGrM"
+            },
+            {
+              "rank": 18,
+              "name": "Artistic Dentistry of Atlanta",
+              "rating": 4.9,
+              "reviews": 433,
+              "review_velocity": 1.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJg98ZU-Wn9YgREhOAlyJPDt4"
+            },
+            {
+              "rank": 19,
+              "name": "Smile ATL Buckhead",
+              "rating": 5.0,
+              "reviews": 91,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJC7GMsVAF9YgR2lE2wcqH5h0"
+            },
+            {
+              "rank": 20,
+              "name": "Executive Park Dentistry",
+              "rating": 4.9,
+              "reviews": 945,
+              "review_velocity": 2.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJidaFrhYG9YgRbOcL3dZOwtQ"
+            }
+          ],
+          "subject": {
+            "rank": 16,
+            "name": "Atlanta Smiles & Wellness",
+            "rating": 4.9,
+            "reviews": 466,
+            "review_velocity": 0.86,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJt-Ld8BAQ9YgRZ4w2l3e_qpc"
+          },
+          "benchmarks": {
+            "avg_rating": 4.9,
+            "avg_reviews": 719,
+            "median_reviews": 694,
+            "typical_reviews": 719,
+            "skewed": false,
+            "your_reviews": 466,
+            "your_rating": 4.9,
+            "reviews_percentile": 40,
+            "pack_size": 20,
+            "top_reviews": 1755
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Buckhead Cosmetic & Family Dentistry",
+              "rating": 4.9,
+              "reviews": 1755,
+              "review_velocity": 3.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ6bheDY0F9YgRcR04vFjsg4k",
+              "rank_delta": 0,
+              "review_gain": 42
+            },
+            {
+              "rank": 2,
+              "name": "Midtown Smile Center",
+              "rating": 4.7,
+              "reviews": 999,
+              "review_velocity": 3.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJb6DsgEIE9YgRLnWOwvhTrbg",
+              "rank_delta": 4,
+              "review_gain": 43
+            },
+            {
+              "rank": 3,
+              "name": "Atlanta Center for Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 785,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJzS5TCuIO9YgRa_jEZ1jhs4U",
+              "rank_delta": -1,
+              "review_gain": 16
+            },
+            {
+              "rank": 4,
+              "name": "Perl Smile Co.",
+              "rating": 4.9,
+              "reviews": 362,
+              "review_velocity": 1.86,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ-RClyDIF9YgRZoL51tNLQ9A",
+              "rank_delta": 3,
+              "review_gain": 26
+            },
+            {
+              "rank": 5,
+              "name": "Cosmetic Dentistry of Atlanta",
+              "rating": 4.9,
+              "reviews": 23,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJC7GMsVAF9YgREJ29pHayNYk",
+              "rank_delta": -1,
+              "review_gain": 1
+            },
+            {
+              "rank": 6,
+              "name": "Art of Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 336,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ_____4YD9YgRSavQkDkq61Q",
+              "rank_delta": 6,
+              "review_gain": 8
+            },
+            {
+              "rank": 7,
+              "name": "Atlanta Dental Spa - Buckhead",
+              "rating": 4.9,
+              "reviews": 1126,
+              "review_velocity": 5.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJVa75ZfQF9YgRo6cNZTu596k",
+              "rank_delta": 7,
+              "review_gain": 76
+            },
+            {
+              "rank": 8,
+              "name": "Atlanta Dental Spa - Highlands",
+              "rating": 5.0,
+              "reviews": 694,
+              "review_velocity": 1.29,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJLU6FOKcG9YgRbY112XCdODA",
+              "rank_delta": -5,
+              "review_gain": 18
+            },
+            {
+              "rank": 9,
+              "name": "Elegant Smiles",
+              "rating": 4.9,
+              "reviews": 1525,
+              "review_velocity": 2.93,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJNSGj9T4G9YgR4xSIzPtPdbE",
+              "rank_delta": -4,
+              "review_gain": 41
+            },
+            {
+              "rank": 12,
+              "name": "Dental Esthetics Studio",
+              "rating": 4.9,
+              "reviews": 694,
+              "review_velocity": 4.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJd0ZRTxcF9YgRRM8S7CKntjw",
+              "rank_delta": -4,
+              "review_gain": 58
+            },
+            {
+              "rank": 13,
+              "name": "Ponce Dental Studio - Atlanta",
+              "rating": 4.9,
+              "reviews": 1391,
+              "review_velocity": 4.64,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ8-YOB3QF9YgRHTqUxYQ8NI0",
+              "rank_delta": -2,
+              "review_gain": 65
+            },
+            {
+              "rank": 14,
+              "name": "Dentique",
+              "rating": 5.0,
+              "reviews": 441,
+              "review_velocity": 0.93,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJI_5yU_IF9YgR7FbwG1PwtAQ",
+              "rank_delta": -5,
+              "review_gain": 13
+            },
+            {
+              "rank": 15,
+              "name": "Atlanta Dentistry by Design",
+              "rating": 4.9,
+              "reviews": 759,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJHR3_NaoF9YgRlfRMvOdM0js",
+              "rank_delta": 3,
+              "review_gain": 5
+            },
+            {
+              "rank": 16,
+              "name": "Atlanta Smiles & Wellness",
+              "rating": 4.9,
+              "reviews": 466,
+              "review_velocity": 0.86,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJt-Ld8BAQ9YgRZ4w2l3e_qpc",
+              "rank_delta": -6,
+              "review_gain": 12
+            },
+            {
+              "rank": 18,
+              "name": "Artistic Dentistry of Atlanta",
+              "rating": 4.9,
+              "reviews": 433,
+              "review_velocity": 1.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJg98ZU-Wn9YgREhOAlyJPDt4",
+              "rank_delta": 2,
+              "review_gain": 20
+            },
+            {
+              "rank": 19,
+              "name": "Smile ATL Buckhead",
+              "rating": 5.0,
+              "reviews": 91,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJC7GMsVAF9YgR2lE2wcqH5h0",
+              "rank_delta": -3,
+              "review_gain": 4
+            },
+            {
+              "rank": 20,
+              "name": "Executive Park Dentistry",
+              "rating": 4.9,
+              "reviews": 945,
+              "review_velocity": 2.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJidaFrhYG9YgRbOcL3dZOwtQ",
+              "rank_delta": -7,
+              "review_gain": 29
+            }
+          ],
+          "fastest_climber": {
+            "rank": 7,
+            "name": "Atlanta Dental Spa - Buckhead",
+            "rating": 4.9,
+            "reviews": 1126,
+            "review_velocity": 5.43,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJVa75ZfQF9YgRo6cNZTu596k",
+            "rank_delta": 7,
+            "review_gain": 76
+          },
+          "fastest_review_gainer": {
+            "rank": 7,
+            "name": "Atlanta Dental Spa - Buckhead",
+            "rating": 4.9,
+            "reviews": 1126,
+            "review_velocity": 5.43,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJVa75ZfQF9YgRo6cNZTu596k",
+            "rank_delta": 7,
+            "review_gain": 76
+          },
+          "visibility": {
+            "current_rank": 16,
+            "best_rank": 8,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.9,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 1.1,
+            "lost_vs_best_rel": 58,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 466 vs a typical competitor's 719. Close the 253-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.9."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.86/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Atlanta Dental Spa - Buckhead added 76 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 16,
+          "start_rank": 10,
+          "net_change": -6,
+          "best_rank": 8,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 22, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-12T21:38:17.602811+00:00",
@@ -77976,7 +78579,9 @@
           "type": "followup_1",
           "sent_at": "2026-10-19T18:58:09.365041+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-10-22T17:56:31.046495+00:00",
+      "free_report_email": "frontdesk@atlantasmiles.com"
     },
     {
       "id": "6c4987d1cef9",
@@ -79646,7 +80251,598 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 8,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 7
+            },
+            {
+              "date": "Jul 20",
+              "rank": 5
+            },
+            {
+              "date": "Aug 03",
+              "rank": 7
+            },
+            {
+              "date": "Aug 17",
+              "rank": 7
+            },
+            {
+              "date": "Aug 31",
+              "rank": 8
+            },
+            {
+              "date": "Sep 14",
+              "rank": 9
+            },
+            {
+              "date": "Sep 28",
+              "rank": 5
+            },
+            {
+              "date": "Oct 12",
+              "rank": 14
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 155
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 158
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 158
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 160
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 164
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 164
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 169
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 174
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              7,
+              5,
+              7,
+              7,
+              8,
+              9,
+              5,
+              14
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12"
+            ],
+            "direction": "declining",
+            "best_rank": 5,
+            "worst_rank": 14
+          },
+          "review_velocity": {
+            "per_week": 1.36,
+            "total_gained": 19,
+            "weeks": 14.0,
+            "verdict": "moderate"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Rose Cosmetic & Family Dentistry",
+              "rating": 5.0,
+              "reviews": 267,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJr7mcOFfbyIARwOImSKjtymI"
+            },
+            {
+              "rank": 2,
+              "name": "Vegas Choice Dental",
+              "rating": 4.9,
+              "reviews": 667,
+              "review_velocity": 6.79,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJz0xTXebDyIARGNnG3Tzptgk"
+            },
+            {
+              "rank": 3,
+              "name": "Lasting Smiles",
+              "rating": 4.8,
+              "reviews": 554,
+              "review_velocity": 1.21,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJIzzmoHzByIARxKUMzqf2VoQ"
+            },
+            {
+              "rank": 4,
+              "name": "Dental Atelier",
+              "rating": 5.0,
+              "reviews": 314,
+              "review_velocity": 2.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdaVb0wm_yIARN2nWf1Zu7Sk"
+            },
+            {
+              "rank": 5,
+              "name": "Summerlin Center for Aesthetic Dentistry",
+              "rating": 5.0,
+              "reviews": 484,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl8xDLeG_yIAR8bQFCVBLuak"
+            },
+            {
+              "rank": 6,
+              "name": "Dr Snyder Cosmetic Dentistry Las Vegas",
+              "rating": 5.0,
+              "reviews": 60,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJhwPtqoG_yIAR-M0dfSR9koI"
+            },
+            {
+              "rank": 7,
+              "name": "Las Vegas Dental Group",
+              "rating": 4.8,
+              "reviews": 412,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJZSpiEObDyIARyTWhsLXEd5E"
+            },
+            {
+              "rank": 8,
+              "name": "Gardens Cosmetic and Family Dentistry",
+              "rating": 4.8,
+              "reviews": 199,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Doctor",
+              "_key": "ChIJSdXfRCG_yIARUgDxUYJSabU"
+            },
+            {
+              "rank": 9,
+              "name": "Stunning Smiles of Las Vegas",
+              "rating": 4.9,
+              "reviews": 663,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJk4xsZny4yIARSXWcWgKWHyQ"
+            },
+            {
+              "rank": 10,
+              "name": "Somerset Dental Las Vegas",
+              "rating": 4.7,
+              "reviews": 428,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ07hxBsDAyIAR1ZW28oIXJ-4"
+            },
+            {
+              "rank": 11,
+              "name": "Smile Designers of Las Vegas",
+              "rating": 4.8,
+              "reviews": 259,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf9CoLsLGyIARhH8GHwo5OlM"
+            },
+            {
+              "rank": 12,
+              "name": "Sahara Modern Dentistry",
+              "rating": 4.8,
+              "reviews": 541,
+              "review_velocity": 3.36,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJczXGdufByIARZtq8oK-xd30"
+            },
+            {
+              "rank": 13,
+              "name": "Discovery Dental & Implants",
+              "rating": 4.9,
+              "reviews": 886,
+              "review_velocity": 2.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl39FMzvByIARX8Pw1Vnzw38"
+            },
+            {
+              "rank": 14,
+              "name": "Vegas Smile Suite | Tozzi & Lawler",
+              "rating": 5.0,
+              "reviews": 174,
+              "review_velocity": 1.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ4ede5t7HyIARz2PtbRsefdY"
+            },
+            {
+              "rank": 15,
+              "name": "Supreme Dental",
+              "rating": 4.8,
+              "reviews": 895,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPSy7jL_HyIARv9SxSFxQ78w"
+            },
+            {
+              "rank": 16,
+              "name": "Midtown Dental",
+              "rating": 4.9,
+              "reviews": 134,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJJ1ydSxHByIAR89uxbsbPqos"
+            },
+            {
+              "rank": 17,
+              "name": "Hillcrest Dental Las Vegas",
+              "rating": 4.8,
+              "reviews": 1674,
+              "review_velocity": 4.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJbwkX1-O_yIARKAIhOmA8TL0"
+            },
+            {
+              "rank": 18,
+              "name": "Dental Designs of Las Vegas",
+              "rating": 4.9,
+              "reviews": 493,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ96cRlFTHyIAR7GSwKiXwpkg"
+            },
+            {
+              "rank": 19,
+              "name": "Delicate Dental",
+              "rating": 4.9,
+              "reviews": 2439,
+              "review_velocity": 8.79,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJV8MzvEy5yIARo1ei8kMq_ic"
+            },
+            {
+              "rank": 20,
+              "name": "A Great Smile Dental",
+              "rating": 4.9,
+              "reviews": 507,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJYVnPdAHAyIARnBRO7cHLPXY"
+            }
+          ],
+          "subject": {
+            "rank": 14,
+            "name": "Vegas Smile Suite | Tozzi & Lawler",
+            "rating": 5.0,
+            "reviews": 174,
+            "review_velocity": 1.36,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJ4ede5t7HyIARz2PtbRsefdY"
+          },
+          "benchmarks": {
+            "avg_rating": 4.88,
+            "avg_reviews": 602,
+            "median_reviews": 488,
+            "typical_reviews": 602,
+            "skewed": false,
+            "your_reviews": 174,
+            "your_rating": 5.0,
+            "reviews_percentile": 15,
+            "pack_size": 20,
+            "top_reviews": 2439
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Rose Cosmetic & Family Dentistry",
+              "rating": 5.0,
+              "reviews": 267,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJr7mcOFfbyIARwOImSKjtymI",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Vegas Choice Dental",
+              "rating": 4.9,
+              "reviews": 667,
+              "review_velocity": 6.79,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJz0xTXebDyIARGNnG3Tzptgk",
+              "rank_delta": 0,
+              "review_gain": 95
+            },
+            {
+              "rank": 3,
+              "name": "Lasting Smiles",
+              "rating": 4.8,
+              "reviews": 554,
+              "review_velocity": 1.21,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJIzzmoHzByIARxKUMzqf2VoQ",
+              "rank_delta": 1,
+              "review_gain": 17
+            },
+            {
+              "rank": 4,
+              "name": "Dental Atelier",
+              "rating": 5.0,
+              "reviews": 314,
+              "review_velocity": 2.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdaVb0wm_yIARN2nWf1Zu7Sk",
+              "rank_delta": 2,
+              "review_gain": 29
+            },
+            {
+              "rank": 5,
+              "name": "Summerlin Center for Aesthetic Dentistry",
+              "rating": 5.0,
+              "reviews": 484,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl8xDLeG_yIAR8bQFCVBLuak",
+              "rank_delta": -2,
+              "review_gain": 1
+            },
+            {
+              "rank": 6,
+              "name": "Dr Snyder Cosmetic Dentistry Las Vegas",
+              "rating": 5.0,
+              "reviews": 60,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJhwPtqoG_yIAR-M0dfSR9koI",
+              "rank_delta": 6,
+              "review_gain": 16
+            },
+            {
+              "rank": 7,
+              "name": "Las Vegas Dental Group",
+              "rating": 4.8,
+              "reviews": 412,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJZSpiEObDyIARyTWhsLXEd5E",
+              "rank_delta": -2,
+              "review_gain": 14
+            },
+            {
+              "rank": 9,
+              "name": "Stunning Smiles of Las Vegas",
+              "rating": 4.9,
+              "reviews": 663,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJk4xsZny4yIARSXWcWgKWHyQ",
+              "rank_delta": -1,
+              "review_gain": 6
+            },
+            {
+              "rank": 10,
+              "name": "Somerset Dental Las Vegas",
+              "rating": 4.7,
+              "reviews": 428,
+              "review_velocity": 1.07,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ07hxBsDAyIAR1ZW28oIXJ-4",
+              "rank_delta": 7,
+              "review_gain": 15
+            },
+            {
+              "rank": 11,
+              "name": "Smile Designers of Las Vegas",
+              "rating": 4.8,
+              "reviews": 259,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf9CoLsLGyIARhH8GHwo5OlM",
+              "rank_delta": -1,
+              "review_gain": 7
+            },
+            {
+              "rank": 12,
+              "name": "Sahara Modern Dentistry",
+              "rating": 4.8,
+              "reviews": 541,
+              "review_velocity": 3.36,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJczXGdufByIARZtq8oK-xd30",
+              "rank_delta": 4,
+              "review_gain": 47
+            },
+            {
+              "rank": 13,
+              "name": "Discovery Dental & Implants",
+              "rating": 4.9,
+              "reviews": 886,
+              "review_velocity": 2.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl39FMzvByIARX8Pw1Vnzw38",
+              "rank_delta": 0,
+              "review_gain": 28
+            },
+            {
+              "rank": 14,
+              "name": "Vegas Smile Suite | Tozzi & Lawler",
+              "rating": 5.0,
+              "reviews": 174,
+              "review_velocity": 1.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ4ede5t7HyIARz2PtbRsefdY",
+              "rank_delta": -7,
+              "review_gain": 19
+            },
+            {
+              "rank": 15,
+              "name": "Supreme Dental",
+              "rating": 4.8,
+              "reviews": 895,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPSy7jL_HyIARv9SxSFxQ78w",
+              "rank_delta": -6,
+              "review_gain": 2
+            },
+            {
+              "rank": 17,
+              "name": "Hillcrest Dental Las Vegas",
+              "rating": 4.8,
+              "reviews": 1674,
+              "review_velocity": 4.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJbwkX1-O_yIARKAIhOmA8TL0",
+              "rank_delta": 2,
+              "review_gain": 63
+            },
+            {
+              "rank": 19,
+              "name": "Delicate Dental",
+              "rating": 4.9,
+              "reviews": 2439,
+              "review_velocity": 8.79,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJV8MzvEy5yIARo1ei8kMq_ic",
+              "rank_delta": -4,
+              "review_gain": 123
+            }
+          ],
+          "fastest_climber": {
+            "rank": 10,
+            "name": "Somerset Dental Las Vegas",
+            "rating": 4.7,
+            "reviews": 428,
+            "review_velocity": 1.07,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJ07hxBsDAyIAR1ZW28oIXJ-4",
+            "rank_delta": 7,
+            "review_gain": 15
+          },
+          "fastest_review_gainer": {
+            "rank": 19,
+            "name": "Delicate Dental",
+            "rating": 4.9,
+            "reviews": 2439,
+            "review_velocity": 8.79,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJV8MzvEy5yIARo1ei8kMq_ic",
+            "rank_delta": -4,
+            "review_gain": 123
+          },
+          "visibility": {
+            "current_rank": 14,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 174 vs a typical competitor's 602. Close the 428-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.88."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 1.36/week (moderate)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Delicate Dental added 123 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 14,
+          "start_rank": 7,
+          "net_change": -7,
+          "best_rank": 5,
+          "worst_rank": 14
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 22, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-12T21:38:17.602883+00:00",
@@ -79657,7 +80853,9 @@
           "type": "followup_1",
           "sent_at": "2026-10-19T18:58:09.365041+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-10-22T17:56:10.719236+00:00",
+      "free_report_email": "office@vegassmilesuite.com"
     },
     {
       "id": "16b1a23517b1",
@@ -81516,7 +82714,550 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 8,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 5
+            },
+            {
+              "date": "Jul 20",
+              "rank": 6
+            },
+            {
+              "date": "Aug 03",
+              "rank": 5
+            },
+            {
+              "date": "Aug 17",
+              "rank": 5
+            },
+            {
+              "date": "Aug 31",
+              "rank": 3
+            },
+            {
+              "date": "Sep 14",
+              "rank": 4
+            },
+            {
+              "date": "Sep 28",
+              "rank": 5
+            },
+            {
+              "date": "Oct 12",
+              "rank": 14
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 752
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 752
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 752
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 753
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 753
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 752
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 755
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 756
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              5,
+              6,
+              5,
+              5,
+              3,
+              4,
+              5,
+              14
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12"
+            ],
+            "direction": "declining",
+            "best_rank": 3,
+            "worst_rank": 14
+          },
+          "review_velocity": {
+            "per_week": 0.29,
+            "total_gained": 4,
+            "weeks": 14.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Bling Dental",
+              "rating": 4.9,
+              "reviews": 925,
+              "review_velocity": 2.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJEYeemv4JlVQRmtaWPNQSuP4"
+            },
+            {
+              "rank": 2,
+              "name": "Centerport Cosmetic & Implant Dentistry",
+              "rating": 5.0,
+              "reviews": 404,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuSby9wQKlVQRv12-wBkJt3k"
+            },
+            {
+              "rank": 3,
+              "name": "Healthy Smiles Dental Group | We Fix Smiles Cosmetic & Implants",
+              "rating": 4.9,
+              "reviews": 153,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ7Vll_EihlVQRBIm_L04sSEc"
+            },
+            {
+              "rank": 4,
+              "name": "Aesthetic Smiles Family & Cosmetic Dentistry",
+              "rating": 4.6,
+              "reviews": 54,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJy8ndh9QIlVQR1Kimd6zcykE"
+            },
+            {
+              "rank": 5,
+              "name": "Portland Smile Design",
+              "rating": 4.8,
+              "reviews": 189,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgwo6rpKjlVQRp0PKtdQwFRU"
+            },
+            {
+              "rank": 6,
+              "name": "Smiles On Sandy - Portland, OR",
+              "rating": 4.9,
+              "reviews": 672,
+              "review_velocity": 0.17,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJz_1vATehlVQR4YoNfqKVGK8"
+            },
+            {
+              "rank": 7,
+              "name": "Ryan F. Mueller, DMD",
+              "rating": 5.0,
+              "reviews": 397,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUSivTRsKlVQRf27SqwfWpdc"
+            },
+            {
+              "rank": 8,
+              "name": "Advanced Dentistry",
+              "rating": 4.9,
+              "reviews": 184,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Prosthodontist",
+              "_key": "ChIJC5nIeDEJlVQRQjxGMUNNzJ4"
+            },
+            {
+              "rank": 9,
+              "name": "Mint Dental Works",
+              "rating": 4.9,
+              "reviews": 316,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJxaUXtaOglVQRvpLKOtlHaj4"
+            },
+            {
+              "rank": 10,
+              "name": "Friendly Smiles Dental Group",
+              "rating": 4.9,
+              "reviews": 292,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJs53ePZqglVQRt_vx476mmJY"
+            },
+            {
+              "rank": 11,
+              "name": "Rachel Cole DDS PC",
+              "rating": 4.3,
+              "reviews": 43,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJcw4RxvYJlVQRzSeTns18xZ8"
+            },
+            {
+              "rank": 12,
+              "name": "Advanced Dental Arts NW",
+              "rating": 4.9,
+              "reviews": 254,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJqyW7VgMKlVQRo8aLkTPMW_o"
+            },
+            {
+              "rank": 13,
+              "name": "Lovejoy Dental",
+              "rating": 4.9,
+              "reviews": 769,
+              "review_velocity": 3.36,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJP3eUmP4JlVQRhfkahCuF23A"
+            },
+            {
+              "rank": 14,
+              "name": "Portland Dental",
+              "rating": 4.9,
+              "reviews": 756,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJeXt4fAMKlVQRaPiIrra70J4"
+            },
+            {
+              "rank": 15,
+              "name": "Portland Modern Dentistry",
+              "rating": 4.6,
+              "reviews": 239,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9Zf06SanlVQRstVP_Ljos34"
+            },
+            {
+              "rank": 16,
+              "name": "Bravo Smile",
+              "rating": 4.9,
+              "reviews": 323,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJP9EmhhQKlVQRvf7wuCUYehk"
+            },
+            {
+              "rank": 17,
+              "name": "City Dental",
+              "rating": 4.8,
+              "reviews": 553,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJhfM3fAMKlVQRCyCKQVUVgzg"
+            },
+            {
+              "rank": 18,
+              "name": "Timber Dental East Burnside",
+              "rating": 4.7,
+              "reviews": 961,
+              "review_velocity": 1.6,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJWYA0AEehlVQRN6Rq10I_70Q"
+            },
+            {
+              "rank": 19,
+              "name": "Laurelwood Dental",
+              "rating": 4.9,
+              "reviews": 729,
+              "review_velocity": 2.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJNVsW0MiglVQRu00Ca3ln95c"
+            },
+            {
+              "rank": 20,
+              "name": "Timber Dental",
+              "rating": 4.7,
+              "reviews": 1425,
+              "review_velocity": 3.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJZSKmKjmnlVQRp70gjHQ0wgc"
+            }
+          ],
+          "subject": {
+            "rank": 14,
+            "name": "Portland Dental",
+            "rating": 4.9,
+            "reviews": 756,
+            "review_velocity": 0.29,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJeXt4fAMKlVQRaPiIrra70J4"
+          },
+          "benchmarks": {
+            "avg_rating": 4.82,
+            "avg_reviews": 482,
+            "median_reviews": 360,
+            "typical_reviews": 482,
+            "skewed": false,
+            "your_reviews": 756,
+            "your_rating": 4.9,
+            "reviews_percentile": 80,
+            "pack_size": 20,
+            "top_reviews": 1425
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Bling Dental",
+              "rating": 4.9,
+              "reviews": 925,
+              "review_velocity": 2.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJEYeemv4JlVQRmtaWPNQSuP4",
+              "rank_delta": 0,
+              "review_gain": 28
+            },
+            {
+              "rank": 2,
+              "name": "Centerport Cosmetic & Implant Dentistry",
+              "rating": 5.0,
+              "reviews": 404,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuSby9wQKlVQRv12-wBkJt3k",
+              "rank_delta": 0,
+              "review_gain": 8
+            },
+            {
+              "rank": 3,
+              "name": "Healthy Smiles Dental Group | We Fix Smiles Cosmetic & Implants",
+              "rating": 4.9,
+              "reviews": 153,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ7Vll_EihlVQRBIm_L04sSEc",
+              "rank_delta": 8,
+              "review_gain": 1
+            },
+            {
+              "rank": 4,
+              "name": "Aesthetic Smiles Family & Cosmetic Dentistry",
+              "rating": 4.6,
+              "reviews": 54,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJy8ndh9QIlVQR1Kimd6zcykE",
+              "rank_delta": 12,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "Portland Smile Design",
+              "rating": 4.8,
+              "reviews": 189,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgwo6rpKjlVQRp0PKtdQwFRU",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 7,
+              "name": "Ryan F. Mueller, DMD",
+              "rating": 5.0,
+              "reviews": 397,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUSivTRsKlVQRf27SqwfWpdc",
+              "rank_delta": 2,
+              "review_gain": 16
+            },
+            {
+              "rank": 9,
+              "name": "Mint Dental Works",
+              "rating": 4.9,
+              "reviews": 316,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJxaUXtaOglVQRvpLKOtlHaj4",
+              "rank_delta": -1,
+              "review_gain": 5
+            },
+            {
+              "rank": 13,
+              "name": "Lovejoy Dental",
+              "rating": 4.9,
+              "reviews": 769,
+              "review_velocity": 3.36,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJP3eUmP4JlVQRhfkahCuF23A",
+              "rank_delta": -10,
+              "review_gain": 47
+            },
+            {
+              "rank": 14,
+              "name": "Portland Dental",
+              "rating": 4.9,
+              "reviews": 756,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJeXt4fAMKlVQRaPiIrra70J4",
+              "rank_delta": -9,
+              "review_gain": 4
+            },
+            {
+              "rank": 16,
+              "name": "Bravo Smile",
+              "rating": 4.9,
+              "reviews": 323,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJP9EmhhQKlVQRvf7wuCUYehk",
+              "rank_delta": -9,
+              "review_gain": 4
+            },
+            {
+              "rank": 19,
+              "name": "Laurelwood Dental",
+              "rating": 4.9,
+              "reviews": 729,
+              "review_velocity": 2.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJNVsW0MiglVQRu00Ca3ln95c",
+              "rank_delta": -5,
+              "review_gain": 34
+            },
+            {
+              "rank": 20,
+              "name": "Timber Dental",
+              "rating": 4.7,
+              "reviews": 1425,
+              "review_velocity": 3.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJZSKmKjmnlVQRp70gjHQ0wgc",
+              "rank_delta": -1,
+              "review_gain": 43
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "Aesthetic Smiles Family & Cosmetic Dentistry",
+            "rating": 4.6,
+            "reviews": 54,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJy8ndh9QIlVQR1Kimd6zcykE",
+            "rank_delta": 12,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 13,
+            "name": "Lovejoy Dental",
+            "rating": 4.9,
+            "reviews": 769,
+            "review_velocity": 3.36,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJP3eUmP4JlVQRhfkahCuF23A",
+            "rank_delta": -10,
+            "review_gain": 47
+          },
+          "visibility": {
+            "current_rank": 14,
+            "best_rank": 3,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 15.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 14.3,
+            "lost_vs_best_rel": 95,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 756 vs a typical competitor's 482."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.82."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.29/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Lovejoy Dental added 47 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 14,
+          "start_rank": 5,
+          "net_change": -9,
+          "best_rank": 3,
+          "worst_rank": 14
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 22, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-12T21:38:17.602965+00:00",
@@ -81527,7 +83268,9 @@
           "type": "followup_1",
           "sent_at": "2026-10-19T18:58:09.365041+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-10-22T17:55:50.604738+00:00",
+      "free_report_email": "reception@portlanddental.com"
     },
     {
       "id": "e5a017888ea3",
