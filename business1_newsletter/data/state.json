@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-10-20T12:29:37.821128+00:00",
-  "issues_published": 25,
+  "last_run": "2026-10-27T12:55:48.258239+00:00",
+  "issues_published": 26,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://openai.com/index/builders-guide-to-gpt-5-6",
-    "https://openai.com/index/how-enterprises-put-ai-to-work",
-    "https://www.producthunt.com/products/threadport",
-    "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
-    "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
-    "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
-    "https://openai.com/index/previewing-ultrafast",
-    "https://openai.com/index/dali-rajic-chief-revenue-officer",
-    "https://openai.com/index/testing-ads-in-chatgpt",
-    "https://openai.com/index/daybreak-models-are-now-available-on-aws",
     "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
     "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
     "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
@@ -102,11 +92,21 @@
     "https://openai.com/index/low-resource-programming-languages",
     "https://openai.com/index/sullivan-cromwell",
     "https://openai.com/index/third-moment-research",
-    "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+    "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+    "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+    "https://openai.com/index/uber-chatgpt-work-rollout",
+    "https://openai.com/index/openai-models-google-cloud",
+    "https://openai.com/index/building-chatgpt-ad-stack",
+    "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+    "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+    "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "https://openai.com/index/chatgpt-expanding-world-of-work",
+    "https://openai.com/index/openai-cut-incident-investigation"
   ],
-  "affiliate_rotation_index": 56,
+  "affiliate_rotation_index": 58,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "26507440"
+  "last_broadcast_id": "26635081"
 }

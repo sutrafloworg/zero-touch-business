@@ -1,0 +1,29 @@
+2026-10-27 12:55:24,820 [INFO] orchestrator — ============================================================
+2026-10-27 12:55:24,820 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-10-27 12:55:24,820 [INFO] orchestrator — Timestamp: 2026-10-27T12:55:24.820459+00:00
+2026-10-27 12:55:24,820 [INFO] orchestrator — ============================================================
+2026-10-27 12:55:24,861 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-10-27 12:55:24,993 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-10-27 12:55:25,610 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-10-27 12:55:26,217 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 8 fresh items
+2026-10-27 12:55:26,825 [WARNING] agents.feed_agent — Feed error for VentureBeat AI: <unknown>:2:39: not well-formed (invalid token)
+2026-10-27 12:55:27,594 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-10-27 12:55:28,204 [INFO] agents.feed_agent —   Product Hunt AI: fetched 35 fresh items
+2026-10-27 12:55:28,912 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-10-27 12:55:30,123 [INFO] agents.feed_agent —   OpenAI Blog: fetched 22 fresh items
+2026-10-27 12:55:30,626 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 105 total
+2026-10-27 12:55:30,627 [INFO] orchestrator —       Got 10 items
+2026-10-27 12:55:30,627 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-10-27 12:55:30,627 [INFO] agents.content_agent — Generating newsletter with sponsors: Rytr, Notion
+2026-10-27 12:55:47,672 [INFO] httpx2 — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-10-27 12:55:47,689 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'OpenAI's new "always-on" assistant just made meetings obsolete'
+2026-10-27 12:55:47,689 [INFO] orchestrator —       Subject: 'OpenAI's new "always-on" assistant just made meetings obsolete'
+2026-10-27 12:55:47,689 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-10-27 12:55:47,689 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-10-27 12:55:48,186 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-10-27T12:58:47+0000, ID=26635081
+2026-10-27 12:55:48,257 [INFO] orchestrator —       Broadcast ID: 26635081, Subscribers: 2
+2026-10-27 12:55:48,257 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-10-27 12:55:48,258 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 26635081
+2026-10-27 12:55:48,258 [INFO] orchestrator — ============================================================
+2026-10-27 12:55:48,258 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-10-27 12:55:48,258 [INFO] orchestrator — ============================================================
