@@ -86305,12 +86305,595 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 12.0,
+          "n_snapshots": 9,
+          "rank_history": [
+            {
+              "date": "Aug 03",
+              "rank": 14
+            },
+            {
+              "date": "Aug 17",
+              "rank": 16
+            },
+            {
+              "date": "Aug 31",
+              "rank": 16
+            },
+            {
+              "date": "Sep 14",
+              "rank": 17
+            },
+            {
+              "date": "Sep 28",
+              "rank": 14
+            },
+            {
+              "date": "Oct 12",
+              "rank": 10
+            },
+            {
+              "date": "Oct 26",
+              "rank": 19
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Aug 03",
+              "reviews": 166
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 166
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 166
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 166
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 167
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 167
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 167
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              14,
+              16,
+              16,
+              17,
+              14,
+              10,
+              19
+            ],
+            "dates": [
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12",
+              "Oct 26"
+            ],
+            "direction": "declining",
+            "best_rank": 10,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.08,
+            "total_gained": 1,
+            "weeks": 12.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Smileboston Cosmetic and Implant Dentistry",
+              "rating": 4.9,
+              "reviews": 530,
+              "review_velocity": 1.56,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJs1m1mOx544kRaFc0D1zRjno"
+            },
+            {
+              "rank": 2,
+              "name": "Dental Arts of Boston",
+              "rating": 4.9,
+              "reviews": 239,
+              "review_velocity": 0.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJNdpQS3V644kRe0z0iN1j_0s"
+            },
+            {
+              "rank": 3,
+              "name": "Advanced Cosmetic & Implant Dentistry",
+              "rating": 4.9,
+              "reviews": 29,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJqVVJQ4Zw44kR-3bY0WRAhXI"
+            },
+            {
+              "rank": 4,
+              "name": "Integrity Dental Boston",
+              "rating": 4.9,
+              "reviews": 50,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ3e3Ukfxx44kR4HxtiLFqTJE"
+            },
+            {
+              "rank": 5,
+              "name": "Dental Associates of New England",
+              "rating": 4.8,
+              "reviews": 79,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0f8WPQx644kRHTxGgc6e5NY"
+            },
+            {
+              "rank": 6,
+              "name": "Ace Dental Boston",
+              "rating": 4.9,
+              "reviews": 1382,
+              "review_velocity": 2.81,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPVVoP41-44kRi5D7gMqd6yE"
+            },
+            {
+              "rank": 7,
+              "name": "Smile Design Boston",
+              "rating": 4.8,
+              "reviews": 168,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJNRzsAodw44kRDuwybIEPu2w"
+            },
+            {
+              "rank": 8,
+              "name": "Warshauer & Santamaria Dental",
+              "rating": 4.8,
+              "reviews": 397,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJWbt_twR644kRcqtPO1kkKaA"
+            },
+            {
+              "rank": 9,
+              "name": "Devonshire Dental of Boston",
+              "rating": 4.9,
+              "reviews": 612,
+              "review_velocity": 0.58,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJTYeHlINw44kRWcyGq4ifDNY"
+            },
+            {
+              "rank": 10,
+              "name": "Turning Leaf Dental",
+              "rating": 4.9,
+              "reviews": 409,
+              "review_velocity": 1.69,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQ6cmOwl744kRo9MDOHpymHo"
+            },
+            {
+              "rank": 11,
+              "name": "Boston Dental",
+              "rating": 4.9,
+              "reviews": 455,
+              "review_velocity": 0.56,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJD96Y64Jw44kRW3CFAudEMrE"
+            },
+            {
+              "rank": 12,
+              "name": "Boston Dental - Seaport",
+              "rating": 4.9,
+              "reviews": 196,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCyGqA_9x44kRA-L7GHeJibk"
+            },
+            {
+              "rank": 13,
+              "name": "Dental Esthetics Boston | Hirayama & Papaspyridakos",
+              "rating": 4.9,
+              "reviews": 206,
+              "review_velocity": 0.88,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJI_6Ujg5644kR_S5mO_vn1s0"
+            },
+            {
+              "rank": 14,
+              "name": "The Face Dental Group",
+              "rating": 5.0,
+              "reviews": 143,
+              "review_velocity": 0.31,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf_IYuAR644kRmvAzinu-ziU"
+            },
+            {
+              "rank": 15,
+              "name": "New England Dental Group",
+              "rating": 4.8,
+              "reviews": 541,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDV42Ug5644kRirft4BgN_6o"
+            },
+            {
+              "rank": 16,
+              "name": "Acro Dental Boston",
+              "rating": 4.8,
+              "reviews": 293,
+              "review_velocity": 1.17,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJteP1O4Jw44kRkuYIgKA3vVE"
+            },
+            {
+              "rank": 17,
+              "name": "CITIDental",
+              "rating": 4.8,
+              "reviews": 1166,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJqcle_IRw44kRpZWtFVPLWyc"
+            },
+            {
+              "rank": 18,
+              "name": "Finesse Dental & Implant Center of Boston",
+              "rating": 4.9,
+              "reviews": 151,
+              "review_velocity": 0.56,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJndglnnh644kRK7de6CZDwpI"
+            },
+            {
+              "rank": 19,
+              "name": "Boston Smile Center.",
+              "rating": 5.0,
+              "reviews": 167,
+              "review_velocity": 0.08,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ1Rd2Jr5544kRXYFXlo-KZ64"
+            },
+            {
+              "rank": 20,
+              "name": "Kraft & Schrott Dental Associates",
+              "rating": 4.8,
+              "reviews": 227,
+              "review_velocity": 0.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJIVzhq5pw44kRGSreF43XkLU"
+            }
+          ],
+          "subject": {
+            "rank": 19,
+            "name": "Boston Smile Center.",
+            "rating": 5.0,
+            "reviews": 167,
+            "review_velocity": 0.08,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJ1Rd2Jr5544kRXYFXlo-KZ64"
+          },
+          "benchmarks": {
+            "avg_rating": 4.88,
+            "avg_reviews": 372,
+            "median_reviews": 233,
+            "typical_reviews": 372,
+            "skewed": false,
+            "your_reviews": 167,
+            "your_rating": 5.0,
+            "reviews_percentile": 30,
+            "pack_size": 20,
+            "top_reviews": 1382
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Smileboston Cosmetic and Implant Dentistry",
+              "rating": 4.9,
+              "reviews": 530,
+              "review_velocity": 1.56,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJs1m1mOx544kRaFc0D1zRjno",
+              "rank_delta": 2,
+              "review_gain": 25
+            },
+            {
+              "rank": 2,
+              "name": "Dental Arts of Boston",
+              "rating": 4.9,
+              "reviews": 239,
+              "review_velocity": 0.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJNdpQS3V644kRe0z0iN1j_0s",
+              "rank_delta": 0,
+              "review_gain": 13
+            },
+            {
+              "rank": 3,
+              "name": "Advanced Cosmetic & Implant Dentistry",
+              "rating": 4.9,
+              "reviews": 29,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJqVVJQ4Zw44kR-3bY0WRAhXI",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 4,
+              "name": "Integrity Dental Boston",
+              "rating": 4.9,
+              "reviews": 50,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ3e3Ukfxx44kR4HxtiLFqTJE",
+              "rank_delta": -3,
+              "review_gain": 15
+            },
+            {
+              "rank": 5,
+              "name": "Dental Associates of New England",
+              "rating": 4.8,
+              "reviews": 79,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0f8WPQx644kRHTxGgc6e5NY",
+              "rank_delta": 1,
+              "review_gain": 1
+            },
+            {
+              "rank": 6,
+              "name": "Ace Dental Boston",
+              "rating": 4.9,
+              "reviews": 1382,
+              "review_velocity": 2.81,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPVVoP41-44kRi5D7gMqd6yE",
+              "rank_delta": -1,
+              "review_gain": 45
+            },
+            {
+              "rank": 7,
+              "name": "Smile Design Boston",
+              "rating": 4.8,
+              "reviews": 168,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJNRzsAodw44kRDuwybIEPu2w",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 8,
+              "name": "Warshauer & Santamaria Dental",
+              "rating": 4.8,
+              "reviews": 397,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJWbt_twR644kRcqtPO1kkKaA",
+              "rank_delta": 0,
+              "review_gain": -4
+            },
+            {
+              "rank": 10,
+              "name": "Turning Leaf Dental",
+              "rating": 4.9,
+              "reviews": 409,
+              "review_velocity": 1.69,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQ6cmOwl744kRo9MDOHpymHo",
+              "rank_delta": 4,
+              "review_gain": 27
+            },
+            {
+              "rank": 11,
+              "name": "Boston Dental",
+              "rating": 4.9,
+              "reviews": 455,
+              "review_velocity": 0.56,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJD96Y64Jw44kRW3CFAudEMrE",
+              "rank_delta": 2,
+              "review_gain": 9
+            },
+            {
+              "rank": 13,
+              "name": "Dental Esthetics Boston | Hirayama & Papaspyridakos",
+              "rating": 4.9,
+              "reviews": 206,
+              "review_velocity": 0.88,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJI_6Ujg5644kR_S5mO_vn1s0",
+              "rank_delta": -4,
+              "review_gain": 14
+            },
+            {
+              "rank": 14,
+              "name": "The Face Dental Group",
+              "rating": 5.0,
+              "reviews": 143,
+              "review_velocity": 0.31,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf_IYuAR644kRmvAzinu-ziU",
+              "rank_delta": 1,
+              "review_gain": 5
+            },
+            {
+              "rank": 15,
+              "name": "New England Dental Group",
+              "rating": 4.8,
+              "reviews": 541,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDV42Ug5644kRirft4BgN_6o",
+              "rank_delta": -3,
+              "review_gain": 6
+            },
+            {
+              "rank": 17,
+              "name": "CITIDental",
+              "rating": 4.8,
+              "reviews": 1166,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJqcle_IRw44kRpZWtFVPLWyc",
+              "rank_delta": -1,
+              "review_gain": -3
+            },
+            {
+              "rank": 18,
+              "name": "Finesse Dental & Implant Center of Boston",
+              "rating": 4.9,
+              "reviews": 151,
+              "review_velocity": 0.56,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJndglnnh644kRK7de6CZDwpI",
+              "rank_delta": 0,
+              "review_gain": 9
+            },
+            {
+              "rank": 20,
+              "name": "Kraft & Schrott Dental Associates",
+              "rating": 4.8,
+              "reviews": 227,
+              "review_velocity": 0.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJIVzhq5pw44kRGSreF43XkLU",
+              "rank_delta": 0,
+              "review_gain": 7
+            }
+          ],
+          "fastest_climber": {
+            "rank": 10,
+            "name": "Turning Leaf Dental",
+            "rating": 4.9,
+            "reviews": 409,
+            "review_velocity": 1.69,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJQ6cmOwl744kRo9MDOHpymHo",
+            "rank_delta": 4,
+            "review_gain": 27
+          },
+          "fastest_review_gainer": {
+            "rank": 6,
+            "name": "Ace Dental Boston",
+            "rating": 4.9,
+            "reviews": 1382,
+            "review_velocity": 2.81,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJPVVoP41-44kRi5D7gMqd6yE",
+            "rank_delta": -1,
+            "review_gain": 45
+          },
+          "visibility": {
+            "current_rank": 19,
+            "best_rank": 10,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.2,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.4,
+            "lost_vs_best_rel": 33,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 167 vs a typical competitor's 372. Close the 205-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.88."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.08/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Ace Dental Boston added 45 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 19,
+          "start_rank": 14,
+          "net_change": -5,
+          "best_rank": 10,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 29, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-26T19:05:53.837365+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-10-29T18:55:47.749227+00:00",
+      "free_report_email": "office@bostonsmilecenter.com"
     },
     {
       "id": "77483909e119",
@@ -86567,12 +87150,639 @@
             "category_avg_rating": 4.8,
             "position_summary": "needs attention"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 16.0,
+          "n_snapshots": 9,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 15
+            },
+            {
+              "date": "Jul 20",
+              "rank": 20
+            },
+            {
+              "date": "Aug 03",
+              "rank": 16
+            },
+            {
+              "date": "Aug 17",
+              "rank": 9
+            },
+            {
+              "date": "Aug 31",
+              "rank": 15
+            },
+            {
+              "date": "Sep 14",
+              "rank": 18
+            },
+            {
+              "date": "Sep 28",
+              "rank": 10
+            },
+            {
+              "date": "Oct 12",
+              "rank": 3
+            },
+            {
+              "date": "Oct 26",
+              "rank": 18
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 39
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 39
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 39
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 39
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 38
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 38
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 38
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 38
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 37
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              15,
+              20,
+              16,
+              9,
+              15,
+              18,
+              10,
+              3,
+              18
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12",
+              "Oct 26"
+            ],
+            "direction": "declining",
+            "best_rank": 3,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": -0.12,
+            "total_gained": -2,
+            "weeks": 16.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Elite Rooter Plumbers",
+              "rating": 4.8,
+              "reviews": 2760,
+              "review_velocity": 6.88,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJE1wFeYxV2YAR5N3NvdyYvcE"
+            },
+            {
+              "rank": 2,
+              "name": "Bill Howe Plumbing, Heating & Air, Restoration & Flood Services",
+              "rating": 4.8,
+              "reviews": 6037,
+              "review_velocity": 25.06,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ7SRNp9b_24ARud-UZvhgX9k"
+            },
+            {
+              "rank": 3,
+              "name": "Anderson Plumbing, Heating & Air",
+              "rating": 4.8,
+              "reviews": 6605,
+              "review_velocity": 19.56,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ_e9_diVY2YARFdDC-cvxKJE"
+            },
+            {
+              "rank": 4,
+              "name": "Core Plumbing",
+              "rating": 4.8,
+              "reviews": 1424,
+              "review_velocity": 1.56,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ6RUPFcb524ARFbhgsKE4wbY"
+            },
+            {
+              "rank": 5,
+              "name": "San Diego Emergency Plumbing & Leak Detection",
+              "rating": 4.7,
+              "reviews": 47,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJybmO-ElZ2YARlL4--21Qoc8"
+            },
+            {
+              "rank": 6,
+              "name": "Plumbing Tree",
+              "rating": 4.8,
+              "reviews": 292,
+              "review_velocity": 1.81,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJb2o48m9O2YARThQtVSDIgvQ"
+            },
+            {
+              "rank": 7,
+              "name": "American Plumbing Co | Plumber in San Diego",
+              "rating": 5.0,
+              "reviews": 393,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ_3iUbmZT2YARntaBbzEIKpU"
+            },
+            {
+              "rank": 8,
+              "name": "805 Plumbing And Drains San Diego 24HRS EMERGENCY PLUMBING REPAIRS",
+              "rating": 4.6,
+              "reviews": 29,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJs_j1pxBU2YARLnBUdrbJHII"
+            },
+            {
+              "rank": 9,
+              "name": "United Plumbing Heating Air & Electric",
+              "rating": 4.9,
+              "reviews": 1797,
+              "review_velocity": 4.33,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJxWlMH1cH3IARbsv6v6umqAE"
+            },
+            {
+              "rank": 10,
+              "name": "Black Mountain Plumbing",
+              "rating": 4.8,
+              "reviews": 1684,
+              "review_velocity": 3.44,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ3dXEeD3524ARFdds6JrErHU"
+            },
+            {
+              "rank": 11,
+              "name": "Cali's Choice Plumbing & Restoration - 24 Hour Emergency Plumber",
+              "rating": 5.0,
+              "reviews": 26,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJGawD-Wj324ARPY2Sj9joaUU"
+            },
+            {
+              "rank": 12,
+              "name": "All Aloha Plumbing San Diego",
+              "rating": 4.9,
+              "reviews": 320,
+              "review_velocity": 2.75,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJmVzUpFTrOq0Ra-bkF-3LXic"
+            },
+            {
+              "rank": 13,
+              "name": "Fraser Plumbing of San Diego",
+              "rating": 4.8,
+              "reviews": 302,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJrb02lrBT2YAR8LOqPb6h9J4"
+            },
+            {
+              "rank": 14,
+              "name": "Discount Plumbing San Diego",
+              "rating": 4.6,
+              "reviews": 295,
+              "review_velocity": 3.38,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJFQchifZV2YAR9O9lX6He12Y"
+            },
+            {
+              "rank": 15,
+              "name": "Mr. Rooter Plumbing of San Diego County",
+              "rating": 4.7,
+              "reviews": 563,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJQQUZEE3-24AR-MoaIT-aZBQ"
+            },
+            {
+              "rank": 16,
+              "name": "San Diego Emergency Plumbing & Leak Detection",
+              "rating": 4.8,
+              "reviews": 20,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ9XOfKvVP2YARZeQMPpfzheI"
+            },
+            {
+              "rank": 17,
+              "name": "Rooter Hero Plumbing of San Diego",
+              "rating": 4.8,
+              "reviews": 1247,
+              "review_velocity": 4.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJE6Cyp63_24ARZVxlvbgM38c"
+            },
+            {
+              "rank": 18,
+              "name": "EZ Plumbing USA - Emergency Plumbing & Leak Detection San Diego",
+              "rating": 4.5,
+              "reviews": 37,
+              "review_velocity": -0.12,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ29dhL5H524AR3Mauhq-3QgU"
+            },
+            {
+              "rank": 19,
+              "name": "Roto-Rooter Plumbing & Water Cleanup of San Diego",
+              "rating": 4.5,
+              "reviews": 116,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJtfTx6GBV2YAREQe5j96VU10"
+            },
+            {
+              "rank": 20,
+              "name": "San Diego Emergency Plumbing Tite",
+              "rating": 5.0,
+              "reviews": 2,
+              "review_velocity": -0.56,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJHZnAYgpV2YARhLthnmnwIuQ"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "EZ Plumbing USA - Emergency Plumbing & Leak Detection San Diego",
+            "rating": 4.5,
+            "reviews": 37,
+            "review_velocity": -0.12,
+            "website": true,
+            "type": "Plumber",
+            "_key": "ChIJ29dhL5H524AR3Mauhq-3QgU"
+          },
+          "benchmarks": {
+            "avg_rating": 4.78,
+            "avg_reviews": 1200,
+            "median_reviews": 311,
+            "typical_reviews": 311,
+            "skewed": true,
+            "your_reviews": 37,
+            "your_rating": 4.5,
+            "reviews_percentile": 25,
+            "pack_size": 20,
+            "top_reviews": 6605
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Elite Rooter Plumbers",
+              "rating": 4.8,
+              "reviews": 2760,
+              "review_velocity": 6.88,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJE1wFeYxV2YAR5N3NvdyYvcE",
+              "rank_delta": 0,
+              "review_gain": 110
+            },
+            {
+              "rank": 2,
+              "name": "Bill Howe Plumbing, Heating & Air, Restoration & Flood Services",
+              "rating": 4.8,
+              "reviews": 6037,
+              "review_velocity": 25.06,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ7SRNp9b_24ARud-UZvhgX9k",
+              "rank_delta": 2,
+              "review_gain": 401
+            },
+            {
+              "rank": 3,
+              "name": "Anderson Plumbing, Heating & Air",
+              "rating": 4.8,
+              "reviews": 6605,
+              "review_velocity": 19.56,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ_e9_diVY2YARFdDC-cvxKJE",
+              "rank_delta": -1,
+              "review_gain": 313
+            },
+            {
+              "rank": 4,
+              "name": "Core Plumbing",
+              "rating": 4.8,
+              "reviews": 1424,
+              "review_velocity": 1.56,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ6RUPFcb524ARFbhgsKE4wbY",
+              "rank_delta": 1,
+              "review_gain": 25
+            },
+            {
+              "rank": 5,
+              "name": "San Diego Emergency Plumbing & Leak Detection",
+              "rating": 4.7,
+              "reviews": 47,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJybmO-ElZ2YARlL4--21Qoc8",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 6,
+              "name": "Plumbing Tree",
+              "rating": 4.8,
+              "reviews": 292,
+              "review_velocity": 1.81,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJb2o48m9O2YARThQtVSDIgvQ",
+              "rank_delta": 3,
+              "review_gain": 29
+            },
+            {
+              "rank": 7,
+              "name": "American Plumbing Co | Plumber in San Diego",
+              "rating": 5.0,
+              "reviews": 393,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ_3iUbmZT2YARntaBbzEIKpU",
+              "rank_delta": 1,
+              "review_gain": 15
+            },
+            {
+              "rank": 8,
+              "name": "805 Plumbing And Drains San Diego 24HRS EMERGENCY PLUMBING REPAIRS",
+              "rating": 4.6,
+              "reviews": 29,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJs_j1pxBU2YARLnBUdrbJHII",
+              "rank_delta": 4,
+              "review_gain": 1
+            },
+            {
+              "rank": 10,
+              "name": "Black Mountain Plumbing",
+              "rating": 4.8,
+              "reviews": 1684,
+              "review_velocity": 3.44,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ3dXEeD3524ARFdds6JrErHU",
+              "rank_delta": 1,
+              "review_gain": 55
+            },
+            {
+              "rank": 11,
+              "name": "Cali's Choice Plumbing & Restoration - 24 Hour Emergency Plumber",
+              "rating": 5.0,
+              "reviews": 26,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJGawD-Wj324ARPY2Sj9joaUU",
+              "rank_delta": 2,
+              "review_gain": 4
+            },
+            {
+              "rank": 12,
+              "name": "All Aloha Plumbing San Diego",
+              "rating": 4.9,
+              "reviews": 320,
+              "review_velocity": 2.75,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJmVzUpFTrOq0Ra-bkF-3LXic",
+              "rank_delta": -5,
+              "review_gain": 44
+            },
+            {
+              "rank": 13,
+              "name": "Fraser Plumbing of San Diego",
+              "rating": 4.8,
+              "reviews": 302,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJrb02lrBT2YAR8LOqPb6h9J4",
+              "rank_delta": -3,
+              "review_gain": 1
+            },
+            {
+              "rank": 14,
+              "name": "Discount Plumbing San Diego",
+              "rating": 4.6,
+              "reviews": 295,
+              "review_velocity": 3.38,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJFQchifZV2YAR9O9lX6He12Y",
+              "rank_delta": 4,
+              "review_gain": 54
+            },
+            {
+              "rank": 15,
+              "name": "Mr. Rooter Plumbing of San Diego County",
+              "rating": 4.7,
+              "reviews": 563,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJQQUZEE3-24AR-MoaIT-aZBQ",
+              "rank_delta": -1,
+              "review_gain": 10
+            },
+            {
+              "rank": 16,
+              "name": "San Diego Emergency Plumbing & Leak Detection",
+              "rating": 4.8,
+              "reviews": 20,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ9XOfKvVP2YARZeQMPpfzheI",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 17,
+              "name": "Rooter Hero Plumbing of San Diego",
+              "rating": 4.8,
+              "reviews": 1247,
+              "review_velocity": 4.0,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJE6Cyp63_24ARZVxlvbgM38c",
+              "rank_delta": -1,
+              "review_gain": 64
+            },
+            {
+              "rank": 18,
+              "name": "EZ Plumbing USA - Emergency Plumbing & Leak Detection San Diego",
+              "rating": 4.5,
+              "reviews": 37,
+              "review_velocity": -0.12,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJ29dhL5H524AR3Mauhq-3QgU",
+              "rank_delta": -3,
+              "review_gain": -2
+            },
+            {
+              "rank": 20,
+              "name": "San Diego Emergency Plumbing Tite",
+              "rating": 5.0,
+              "reviews": 2,
+              "review_velocity": -0.56,
+              "website": true,
+              "type": "Plumber",
+              "_key": "ChIJHZnAYgpV2YARhLthnmnwIuQ",
+              "rank_delta": -17,
+              "review_gain": -9
+            }
+          ],
+          "fastest_climber": {
+            "rank": 14,
+            "name": "Discount Plumbing San Diego",
+            "rating": 4.6,
+            "reviews": 295,
+            "review_velocity": 3.38,
+            "website": true,
+            "type": "Plumber",
+            "_key": "ChIJFQchifZV2YAR9O9lX6He12Y",
+            "rank_delta": 4,
+            "review_gain": 54
+          },
+          "fastest_review_gainer": {
+            "rank": 2,
+            "name": "Bill Howe Plumbing, Heating & Air, Restoration & Flood Services",
+            "rating": 4.8,
+            "reviews": 6037,
+            "review_velocity": 25.06,
+            "website": true,
+            "type": "Plumber",
+            "_key": "ChIJ7SRNp9b_24ARud-UZvhgX9k",
+            "rank_delta": 2,
+            "review_gain": 401
+          },
+          "visibility": {
+            "current_rank": 18,
+            "best_rank": 3,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 15.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 14.3,
+            "lost_vs_best_rel": 95,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 37 vs a typical competitor's 311. Close the 274-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.5 vs category 4.78. A 0.28-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at -0.12/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Bill Howe Plumbing, Heating & Air, Re. added 401 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 18,
+          "start_rank": 15,
+          "net_change": -3,
+          "best_rank": 3,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 29, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-26T19:05:53.837386+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-10-29T18:55:08.744925+00:00",
+      "free_report_email": "sales@ezplumbingusa.com"
     },
     {
       "id": "23a0548a7ac5",
@@ -88614,12 +89824,597 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 14.0,
+          "n_snapshots": 9,
+          "rank_history": [
+            {
+              "date": "Jul 20",
+              "rank": 16
+            },
+            {
+              "date": "Aug 31",
+              "rank": 16
+            },
+            {
+              "date": "Sep 14",
+              "rank": 16
+            },
+            {
+              "date": "Sep 28",
+              "rank": 16
+            },
+            {
+              "date": "Oct 12",
+              "rank": 6
+            },
+            {
+              "date": "Oct 26",
+              "rank": 20
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 20",
+              "reviews": 665
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 671
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 673
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 673
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 672
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 674
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              16,
+              16,
+              16,
+              16,
+              6,
+              20
+            ],
+            "dates": [
+              "Jul 20",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12",
+              "Oct 26"
+            ],
+            "direction": "declining",
+            "best_rank": 6,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 0.64,
+            "total_gained": 9,
+            "weeks": 14.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Bling Dental",
+              "rating": 4.9,
+              "reviews": 926,
+              "review_velocity": 1.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJEYeemv4JlVQRmtaWPNQSuP4"
+            },
+            {
+              "rank": 2,
+              "name": "Centerport Cosmetic & Implant Dentistry",
+              "rating": 5.0,
+              "reviews": 404,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuSby9wQKlVQRv12-wBkJt3k"
+            },
+            {
+              "rank": 3,
+              "name": "Laurelhurst Dentistry - Portland",
+              "rating": 4.9,
+              "reviews": 1211,
+              "review_velocity": 1.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJn4Qhv76glVQRKtd1t3rhxMU"
+            },
+            {
+              "rank": 4,
+              "name": "Lovejoy Dental",
+              "rating": 4.9,
+              "reviews": 781,
+              "review_velocity": 3.69,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJP3eUmP4JlVQRhfkahCuF23A"
+            },
+            {
+              "rank": 5,
+              "name": "Portland Dental",
+              "rating": 4.9,
+              "reviews": 757,
+              "review_velocity": 0.31,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJeXt4fAMKlVQRaPiIrra70J4"
+            },
+            {
+              "rank": 6,
+              "name": "Portland Smile Design",
+              "rating": 4.8,
+              "reviews": 189,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgwo6rpKjlVQRp0PKtdQwFRU"
+            },
+            {
+              "rank": 7,
+              "name": "Bravo Smile",
+              "rating": 4.9,
+              "reviews": 323,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJP9EmhhQKlVQRvf7wuCUYehk"
+            },
+            {
+              "rank": 8,
+              "name": "Haven Dental PDX",
+              "rating": 4.9,
+              "reviews": 288,
+              "review_velocity": 0.31,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJW_VA-R6hlVQRmypKoLWb-1w"
+            },
+            {
+              "rank": 9,
+              "name": "Ryan F. Mueller, DMD",
+              "rating": 5.0,
+              "reviews": 398,
+              "review_velocity": 1.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUSivTRsKlVQRf27SqwfWpdc"
+            },
+            {
+              "rank": 10,
+              "name": "Healthy Smiles Dental Group | We Fix Smiles Cosmetic & Implants",
+              "rating": 4.9,
+              "reviews": 153,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ7Vll_EihlVQRBIm_L04sSEc"
+            },
+            {
+              "rank": 11,
+              "name": "Dougherty Laybourn Menashe Dental",
+              "rating": 4.9,
+              "reviews": 355,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJGea_HfgJlVQRDPejCMw-Aw0"
+            },
+            {
+              "rank": 12,
+              "name": "Mint Dental Works",
+              "rating": 4.9,
+              "reviews": 316,
+              "review_velocity": 0.31,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJxaUXtaOglVQRvpLKOtlHaj4"
+            },
+            {
+              "rank": 13,
+              "name": "East Burn Dentistry - Portland Dentist",
+              "rating": 4.9,
+              "reviews": 117,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf0T-0KSglVQR5BImAh6LgPs"
+            },
+            {
+              "rank": 14,
+              "name": "PDX Center for Dentistry",
+              "rating": 4.8,
+              "reviews": 452,
+              "review_velocity": 0.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJwyN9igEKlVQR8dUtN9UC0Zg"
+            },
+            {
+              "rank": 15,
+              "name": "Timber Dental East Burnside",
+              "rating": 4.7,
+              "reviews": 963,
+              "review_velocity": 1.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJWYA0AEehlVQRN6Rq10I_70Q"
+            },
+            {
+              "rank": 16,
+              "name": "Aesthetic Smiles Family & Cosmetic Dentistry",
+              "rating": 4.6,
+              "reviews": 54,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJy8ndh9QIlVQR1Kimd6zcykE"
+            },
+            {
+              "rank": 17,
+              "name": "Optima Dental Spa Portland",
+              "rating": 4.5,
+              "reviews": 166,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJB2PChf4JlVQRjXQGyJB0tLQ"
+            },
+            {
+              "rank": 18,
+              "name": "Five Pines Dental",
+              "rating": 4.8,
+              "reviews": 279,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJOx8wsQYKlVQRZKmaXYH4eLQ"
+            },
+            {
+              "rank": 19,
+              "name": "Timber Dental",
+              "rating": 4.7,
+              "reviews": 1431,
+              "review_velocity": 3.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJZSKmKjmnlVQRp70gjHQ0wgc"
+            },
+            {
+              "rank": 20,
+              "name": "Smiles On Sandy - Portland, OR",
+              "rating": 4.9,
+              "reviews": 674,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJz_1vATehlVQR4YoNfqKVGK8"
+            }
+          ],
+          "subject": {
+            "rank": 20,
+            "name": "Smiles On Sandy - Portland, OR",
+            "rating": 4.9,
+            "reviews": 674,
+            "review_velocity": 0.38,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJz_1vATehlVQR4YoNfqKVGK8"
+          },
+          "benchmarks": {
+            "avg_rating": 4.84,
+            "avg_reviews": 512,
+            "median_reviews": 376,
+            "typical_reviews": 512,
+            "skewed": false,
+            "your_reviews": 674,
+            "your_rating": 4.9,
+            "reviews_percentile": 70,
+            "pack_size": 20,
+            "top_reviews": 1431
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Bling Dental",
+              "rating": 4.9,
+              "reviews": 926,
+              "review_velocity": 1.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJEYeemv4JlVQRmtaWPNQSuP4",
+              "rank_delta": 0,
+              "review_gain": 29
+            },
+            {
+              "rank": 2,
+              "name": "Centerport Cosmetic & Implant Dentistry",
+              "rating": 5.0,
+              "reviews": 404,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJuSby9wQKlVQRv12-wBkJt3k",
+              "rank_delta": 0,
+              "review_gain": 8
+            },
+            {
+              "rank": 3,
+              "name": "Laurelhurst Dentistry - Portland",
+              "rating": 4.9,
+              "reviews": 1211,
+              "review_velocity": 1.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJn4Qhv76glVQRKtd1t3rhxMU",
+              "rank_delta": 1,
+              "review_gain": 19
+            },
+            {
+              "rank": 4,
+              "name": "Lovejoy Dental",
+              "rating": 4.9,
+              "reviews": 781,
+              "review_velocity": 3.69,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJP3eUmP4JlVQRhfkahCuF23A",
+              "rank_delta": -1,
+              "review_gain": 59
+            },
+            {
+              "rank": 5,
+              "name": "Portland Dental",
+              "rating": 4.9,
+              "reviews": 757,
+              "review_velocity": 0.31,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJeXt4fAMKlVQRaPiIrra70J4",
+              "rank_delta": 0,
+              "review_gain": 5
+            },
+            {
+              "rank": 6,
+              "name": "Portland Smile Design",
+              "rating": 4.8,
+              "reviews": 189,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJgwo6rpKjlVQRp0PKtdQwFRU",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 7,
+              "name": "Bravo Smile",
+              "rating": 4.9,
+              "reviews": 323,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJP9EmhhQKlVQRvf7wuCUYehk",
+              "rank_delta": 0,
+              "review_gain": 4
+            },
+            {
+              "rank": 8,
+              "name": "Haven Dental PDX",
+              "rating": 4.9,
+              "reviews": 288,
+              "review_velocity": 0.31,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJW_VA-R6hlVQRmypKoLWb-1w",
+              "rank_delta": 2,
+              "review_gain": 5
+            },
+            {
+              "rank": 9,
+              "name": "Ryan F. Mueller, DMD",
+              "rating": 5.0,
+              "reviews": 398,
+              "review_velocity": 1.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUSivTRsKlVQRf27SqwfWpdc",
+              "rank_delta": 0,
+              "review_gain": 17
+            },
+            {
+              "rank": 10,
+              "name": "Healthy Smiles Dental Group | We Fix Smiles Cosmetic & Implants",
+              "rating": 4.9,
+              "reviews": 153,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ7Vll_EihlVQRBIm_L04sSEc",
+              "rank_delta": 1,
+              "review_gain": 1
+            },
+            {
+              "rank": 11,
+              "name": "Dougherty Laybourn Menashe Dental",
+              "rating": 4.9,
+              "reviews": 355,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJGea_HfgJlVQRDPejCMw-Aw0",
+              "rank_delta": 1,
+              "review_gain": 8
+            },
+            {
+              "rank": 12,
+              "name": "Mint Dental Works",
+              "rating": 4.9,
+              "reviews": 316,
+              "review_velocity": 0.31,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJxaUXtaOglVQRvpLKOtlHaj4",
+              "rank_delta": -4,
+              "review_gain": 5
+            },
+            {
+              "rank": 13,
+              "name": "East Burn Dentistry - Portland Dentist",
+              "rating": 4.9,
+              "reviews": 117,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJf0T-0KSglVQR5BImAh6LgPs",
+              "rank_delta": 2,
+              "review_gain": 3
+            },
+            {
+              "rank": 16,
+              "name": "Aesthetic Smiles Family & Cosmetic Dentistry",
+              "rating": 4.6,
+              "reviews": 54,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJy8ndh9QIlVQR1Kimd6zcykE",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 17,
+              "name": "Optima Dental Spa Portland",
+              "rating": 4.5,
+              "reviews": 166,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJB2PChf4JlVQRjXQGyJB0tLQ",
+              "rank_delta": 0,
+              "review_gain": -1
+            },
+            {
+              "rank": 18,
+              "name": "Five Pines Dental",
+              "rating": 4.8,
+              "reviews": 279,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJOx8wsQYKlVQRZKmaXYH4eLQ",
+              "rank_delta": 0,
+              "review_gain": 1
+            },
+            {
+              "rank": 19,
+              "name": "Timber Dental",
+              "rating": 4.7,
+              "reviews": 1431,
+              "review_velocity": 3.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJZSKmKjmnlVQRp70gjHQ0wgc",
+              "rank_delta": 0,
+              "review_gain": 49
+            }
+          ],
+          "fastest_climber": {
+            "rank": 8,
+            "name": "Haven Dental PDX",
+            "rating": 4.9,
+            "reviews": 288,
+            "review_velocity": 0.31,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJW_VA-R6hlVQRmypKoLWb-1w",
+            "rank_delta": 2,
+            "review_gain": 5
+          },
+          "fastest_review_gainer": {
+            "rank": 4,
+            "name": "Lovejoy Dental",
+            "rating": 4.9,
+            "reviews": 781,
+            "review_velocity": 3.69,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJP3eUmP4JlVQRhfkahCuF23A",
+            "rank_delta": -1,
+            "review_gain": 59
+          },
+          "visibility": {
+            "current_rank": 20,
+            "best_rank": 6,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 3.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 2.6,
+            "lost_vs_best_rel": 76,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 674 vs a typical competitor's 512."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.84."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.64/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Lovejoy Dental added 59 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 20,
+          "start_rank": 16,
+          "net_change": -4,
+          "best_rank": 6,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "October 29, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-26T19:05:53.837567+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-10-29T18:55:28.084629+00:00",
+      "free_report_email": "info@smilesonsandy.com"
     },
     {
       "id": "172b8f1d3823",
