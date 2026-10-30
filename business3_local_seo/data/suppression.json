@@ -163,6 +163,10 @@
     "team@notifications.resend.com": {
       "added_at": "2026-10-13T17:57:57.262927+00:00",
       "reason": "unsubscribe_reply"
+    },
+    "sales@ezplumbingusa.com": {
+      "added_at": "2026-10-30T16:56:54.447822+00:00",
+      "reason": "hard_bounce"
     }
   }
 }
