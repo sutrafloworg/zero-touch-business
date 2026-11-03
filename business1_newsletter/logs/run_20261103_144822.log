@@ -1,0 +1,29 @@
+2026-11-03 14:48:24,477 [INFO] orchestrator — ============================================================
+2026-11-03 14:48:24,477 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-11-03 14:48:24,477 [INFO] orchestrator — Timestamp: 2026-11-03T14:48:24.477527+00:00
+2026-11-03 14:48:24,477 [INFO] orchestrator — ============================================================
+2026-11-03 14:48:24,520 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-11-03 14:48:24,660 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-11-03 14:48:25,305 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-11-03 14:48:25,889 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 8 fresh items
+2026-11-03 14:48:26,573 [WARNING] agents.feed_agent — Feed error for VentureBeat AI: <unknown>:2:39: not well-formed (invalid token)
+2026-11-03 14:48:30,398 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-11-03 14:48:30,996 [INFO] agents.feed_agent —   Product Hunt AI: fetched 39 fresh items
+2026-11-03 14:48:32,822 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-11-03 14:48:34,058 [INFO] agents.feed_agent —   OpenAI Blog: fetched 19 fresh items
+2026-11-03 14:48:34,561 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 106 total
+2026-11-03 14:48:34,561 [INFO] orchestrator —       Got 10 items
+2026-11-03 14:48:34,561 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-11-03 14:48:34,562 [INFO] agents.content_agent — Generating newsletter with sponsors: Writesonic, Rytr
+2026-11-03 14:48:53,057 [INFO] httpx2 — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-03 14:48:53,074 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'AI agents just got enterprise-grade (and it's not a drill)'
+2026-11-03 14:48:53,074 [INFO] orchestrator —       Subject: 'AI agents just got enterprise-grade (and it's not a drill)'
+2026-11-03 14:48:53,075 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-11-03 14:48:53,075 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-11-03 14:48:53,605 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-11-03T14:51:53+0000, ID=26774868
+2026-11-03 14:48:53,653 [INFO] orchestrator —       Broadcast ID: 26774868, Subscribers: 2
+2026-11-03 14:48:53,653 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-11-03 14:48:53,654 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 26774868
+2026-11-03 14:48:53,654 [INFO] orchestrator — ============================================================
+2026-11-03 14:48:53,655 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-11-03 14:48:53,655 [INFO] orchestrator — ============================================================
