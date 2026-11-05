@@ -92606,12 +92606,693 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 21.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Jun 08",
+              "rank": 10
+            },
+            {
+              "date": "Jun 15",
+              "rank": 11
+            },
+            {
+              "date": "Jun 22",
+              "rank": 8
+            },
+            {
+              "date": "Jun 29",
+              "rank": 9
+            },
+            {
+              "date": "Jul 13",
+              "rank": 10
+            },
+            {
+              "date": "Jul 27",
+              "rank": 8
+            },
+            {
+              "date": "Aug 10",
+              "rank": 9
+            },
+            {
+              "date": "Aug 24",
+              "rank": 9
+            },
+            {
+              "date": "Sep 07",
+              "rank": 8
+            },
+            {
+              "date": "Sep 21",
+              "rank": 10
+            },
+            {
+              "date": "Oct 19",
+              "rank": 8
+            },
+            {
+              "date": "Nov 02",
+              "rank": 18
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jun 08",
+              "reviews": 1196
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 1202
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 1207
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 1213
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 1215
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 1224
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 1229
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 1238
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 1244
+            },
+            {
+              "date": "Sep 21",
+              "reviews": 1200
+            },
+            {
+              "date": "Oct 19",
+              "reviews": 1283
+            },
+            {
+              "date": "Nov 02",
+              "reviews": 1285
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              10,
+              11,
+              8,
+              9,
+              10,
+              8,
+              9,
+              9,
+              8,
+              10,
+              8,
+              18
+            ],
+            "dates": [
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07",
+              "Sep 21",
+              "Oct 19",
+              "Nov 02"
+            ],
+            "direction": "declining",
+            "best_rank": 8,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 4.24,
+            "total_gained": 89,
+            "weeks": 21.0,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Malman Law",
+              "rating": 4.8,
+              "reviews": 5376,
+              "review_velocity": 24.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJNX5Q7LksDogRyP2RQqDa4uk"
+            },
+            {
+              "rank": 2,
+              "name": "Abels & Annes, P.C.",
+              "rating": 5.0,
+              "reviews": 251,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJp6pa2LosDogR18tVV9R9gQM"
+            },
+            {
+              "rank": 3,
+              "name": "Levin & Perconti",
+              "rating": 4.8,
+              "reviews": 603,
+              "review_velocity": -0.33,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJVYFIH7EsDogR7qVPXG2TT4M"
+            },
+            {
+              "rank": 4,
+              "name": "McCreadyLaw Injury Attorneys",
+              "rating": 4.7,
+              "reviews": 931,
+              "review_velocity": 4.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJPWO5FjwlDogR1aT6WGSROVE"
+            },
+            {
+              "rank": 5,
+              "name": "Attorneys of Chicago Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 140,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJL0Yu-oo_DogRD2GRrDdaw9U"
+            },
+            {
+              "rank": 6,
+              "name": "Morgan & Morgan",
+              "rating": 4.8,
+              "reviews": 2147,
+              "review_velocity": 1.1,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJl7dE1JstDogRiHSXrsFqFxU"
+            },
+            {
+              "rank": 7,
+              "name": "The Kryder Law Group, LLC",
+              "rating": 4.9,
+              "reviews": 556,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ64RsIrosDogRm7DEZnr7-Vg"
+            },
+            {
+              "rank": 8,
+              "name": "Ankin Law",
+              "rating": 4.8,
+              "reviews": 1365,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ_YEhdbQsDogRwVaIZxKs7H0"
+            },
+            {
+              "rank": 9,
+              "name": "Shea Law Group",
+              "rating": 4.9,
+              "reviews": 315,
+              "review_velocity": 0.95,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ3er_oJrSD4gReMs5rCvCOmo"
+            },
+            {
+              "rank": 10,
+              "name": "Willens & Baez Personal Injury Lawyers, P.C.",
+              "rating": 5.0,
+              "reviews": 163,
+              "review_velocity": -0.29,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJSwAazbssDogRz5Kw4LrDj4A"
+            },
+            {
+              "rank": 11,
+              "name": "Salvi, Schostok & Pritchard P.C.",
+              "rating": 4.8,
+              "reviews": 222,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJCfpx0bosDogRbAxDNZclqnU"
+            },
+            {
+              "rank": 12,
+              "name": "Gainsberg Injury and Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 522,
+              "review_velocity": 0.86,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJhYmczbosDogRwkmGwY0BUlo"
+            },
+            {
+              "rank": 13,
+              "name": "Midwest Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 139,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJX5sP4sAtDogR_ShU3Rmr5pk"
+            },
+            {
+              "rank": 14,
+              "name": "Horwitz, Horwitz & Associates, Ltd.",
+              "rating": 4.9,
+              "reviews": 1128,
+              "review_velocity": 0.95,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJTZHMAqUsDogRTMUnm0mOjjg"
+            },
+            {
+              "rank": 15,
+              "name": "Staver Accident Injury Lawyers, P.C.",
+              "rating": 4.9,
+              "reviews": 327,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJc6Wsu7ssDogRljDWsfcqUAw"
+            },
+            {
+              "rank": 16,
+              "name": "Powell and Pisman",
+              "rating": 4.8,
+              "reviews": 457,
+              "review_velocity": 1.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ1Vtpk03TD4gRN_oPxUEQNVM"
+            },
+            {
+              "rank": 17,
+              "name": "Connolly Injury Law - Chicago Workers Comp Lawyer",
+              "rating": 5.0,
+              "reviews": 234,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJfaMs7RnTD4gRwm0KeOFE2Ow"
+            },
+            {
+              "rank": 18,
+              "name": "Costa Ivone, LLC",
+              "rating": 4.7,
+              "reviews": 1285,
+              "review_velocity": 4.24,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJGSENjmc0DogRM2VTcv3KPE8"
+            },
+            {
+              "rank": 19,
+              "name": "Rosenfeld Injury Lawyers LLC",
+              "rating": 4.8,
+              "reviews": 444,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJp6pa2LosDogRnEqIt5kGI94"
+            },
+            {
+              "rank": 20,
+              "name": "Zayed Law Personal Injury Attorneys",
+              "rating": 4.8,
+              "reviews": 603,
+              "review_velocity": 3.19,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJRym6wbssDogRbAhYrIj82h8"
+            }
+          ],
+          "subject": {
+            "rank": 18,
+            "name": "Costa Ivone, LLC",
+            "rating": 4.7,
+            "reviews": 1285,
+            "review_velocity": 4.24,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJGSENjmc0DogRM2VTcv3KPE8"
+          },
+          "benchmarks": {
+            "avg_rating": 4.86,
+            "avg_reviews": 860,
+            "median_reviews": 490,
+            "typical_reviews": 860,
+            "skewed": false,
+            "your_reviews": 1285,
+            "your_rating": 4.7,
+            "reviews_percentile": 85,
+            "pack_size": 20,
+            "top_reviews": 5376
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Malman Law",
+              "rating": 4.8,
+              "reviews": 5376,
+              "review_velocity": 24.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJNX5Q7LksDogRyP2RQqDa4uk",
+              "rank_delta": 0,
+              "review_gain": 517
+            },
+            {
+              "rank": 2,
+              "name": "Abels & Annes, P.C.",
+              "rating": 5.0,
+              "reviews": 251,
+              "review_velocity": 0.71,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJp6pa2LosDogR18tVV9R9gQM",
+              "rank_delta": 0,
+              "review_gain": 15
+            },
+            {
+              "rank": 3,
+              "name": "Levin & Perconti",
+              "rating": 4.8,
+              "reviews": 603,
+              "review_velocity": -0.33,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJVYFIH7EsDogR7qVPXG2TT4M",
+              "rank_delta": 0,
+              "review_gain": -7
+            },
+            {
+              "rank": 4,
+              "name": "McCreadyLaw Injury Attorneys",
+              "rating": 4.7,
+              "reviews": 931,
+              "review_velocity": 4.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJPWO5FjwlDogR1aT6WGSROVE",
+              "rank_delta": 0,
+              "review_gain": 97
+            },
+            {
+              "rank": 5,
+              "name": "Attorneys of Chicago Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 140,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJL0Yu-oo_DogRD2GRrDdaw9U",
+              "rank_delta": 1,
+              "review_gain": 21
+            },
+            {
+              "rank": 6,
+              "name": "Morgan & Morgan",
+              "rating": 4.8,
+              "reviews": 2147,
+              "review_velocity": 1.1,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJl7dE1JstDogRiHSXrsFqFxU",
+              "rank_delta": 6,
+              "review_gain": 23
+            },
+            {
+              "rank": 7,
+              "name": "The Kryder Law Group, LLC",
+              "rating": 4.9,
+              "reviews": 556,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ64RsIrosDogRm7DEZnr7-Vg",
+              "rank_delta": -2,
+              "review_gain": 8
+            },
+            {
+              "rank": 8,
+              "name": "Ankin Law",
+              "rating": 4.8,
+              "reviews": 1365,
+              "review_velocity": 0.62,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ_YEhdbQsDogRwVaIZxKs7H0",
+              "rank_delta": 6,
+              "review_gain": 13
+            },
+            {
+              "rank": 9,
+              "name": "Shea Law Group",
+              "rating": 4.9,
+              "reviews": 315,
+              "review_velocity": 0.95,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ3er_oJrSD4gReMs5rCvCOmo",
+              "rank_delta": -1,
+              "review_gain": 20
+            },
+            {
+              "rank": 10,
+              "name": "Willens & Baez Personal Injury Lawyers, P.C.",
+              "rating": 5.0,
+              "reviews": 163,
+              "review_velocity": -0.29,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJSwAazbssDogRz5Kw4LrDj4A",
+              "rank_delta": 5,
+              "review_gain": -6
+            },
+            {
+              "rank": 11,
+              "name": "Salvi, Schostok & Pritchard P.C.",
+              "rating": 4.8,
+              "reviews": 222,
+              "review_velocity": 0.29,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJCfpx0bosDogRbAxDNZclqnU",
+              "rank_delta": 2,
+              "review_gain": 6
+            },
+            {
+              "rank": 12,
+              "name": "Gainsberg Injury and Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 522,
+              "review_velocity": 0.86,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJhYmczbosDogRwkmGwY0BUlo",
+              "rank_delta": 6,
+              "review_gain": 18
+            },
+            {
+              "rank": 13,
+              "name": "Midwest Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 139,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJX5sP4sAtDogR_ShU3Rmr5pk",
+              "rank_delta": 3,
+              "review_gain": 9
+            },
+            {
+              "rank": 14,
+              "name": "Horwitz, Horwitz & Associates, Ltd.",
+              "rating": 4.9,
+              "reviews": 1128,
+              "review_velocity": 0.95,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJTZHMAqUsDogRTMUnm0mOjjg",
+              "rank_delta": 3,
+              "review_gain": 20
+            },
+            {
+              "rank": 15,
+              "name": "Staver Accident Injury Lawyers, P.C.",
+              "rating": 4.9,
+              "reviews": 327,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJc6Wsu7ssDogRljDWsfcqUAw",
+              "rank_delta": 4,
+              "review_gain": 8
+            },
+            {
+              "rank": 16,
+              "name": "Powell and Pisman",
+              "rating": 4.8,
+              "reviews": 457,
+              "review_velocity": 1.38,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ1Vtpk03TD4gRN_oPxUEQNVM",
+              "rank_delta": -5,
+              "review_gain": 29
+            },
+            {
+              "rank": 17,
+              "name": "Connolly Injury Law - Chicago Workers Comp Lawyer",
+              "rating": 5.0,
+              "reviews": 234,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJfaMs7RnTD4gRwm0KeOFE2Ow",
+              "rank_delta": -8,
+              "review_gain": 1
+            },
+            {
+              "rank": 18,
+              "name": "Costa Ivone, LLC",
+              "rating": 4.7,
+              "reviews": 1285,
+              "review_velocity": 4.24,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJGSENjmc0DogRM2VTcv3KPE8",
+              "rank_delta": -8,
+              "review_gain": 89
+            },
+            {
+              "rank": 19,
+              "name": "Rosenfeld Injury Lawyers LLC",
+              "rating": 4.8,
+              "reviews": 444,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJp6pa2LosDogRnEqIt5kGI94",
+              "rank_delta": 1,
+              "review_gain": 24
+            },
+            {
+              "rank": 20,
+              "name": "Zayed Law Personal Injury Attorneys",
+              "rating": 4.8,
+              "reviews": 603,
+              "review_velocity": 3.19,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJRym6wbssDogRbAhYrIj82h8",
+              "rank_delta": -13,
+              "review_gain": 67
+            }
+          ],
+          "fastest_climber": {
+            "rank": 6,
+            "name": "Morgan & Morgan",
+            "rating": 4.8,
+            "reviews": 2147,
+            "review_velocity": 1.1,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJl7dE1JstDogRiHSXrsFqFxU",
+            "rank_delta": 6,
+            "review_gain": 23
+          },
+          "fastest_review_gainer": {
+            "rank": 1,
+            "name": "Malman Law",
+            "rating": 4.8,
+            "reviews": 5376,
+            "review_velocity": 24.62,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJNX5Q7LksDogRyP2RQqDa4uk",
+            "rank_delta": 0,
+            "review_gain": 517
+          },
+          "visibility": {
+            "current_rank": 18,
+            "best_rank": 8,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 1.9,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 1.1,
+            "lost_vs_best_rel": 58,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 1285 vs a typical competitor's 860."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.7 vs category 4.86. A 0.16-star gap costs trust at a glance."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 4.24/week (strong)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Malman Law added 517 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 18,
+          "start_rank": 10,
+          "net_change": -8,
+          "best_rank": 8,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 05, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094218+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-05T20:34:12.818337+00:00",
+      "free_report_email": "socialmedia@costaivone.com"
     },
     {
       "id": "726ded89f3c3",
@@ -93562,12 +94243,647 @@
             "category_avg_rating": 4.8,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 21.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Jun 08",
+              "rank": 11
+            },
+            {
+              "date": "Jun 15",
+              "rank": 5
+            },
+            {
+              "date": "Jun 22",
+              "rank": 4
+            },
+            {
+              "date": "Jun 29",
+              "rank": 2
+            },
+            {
+              "date": "Jul 13",
+              "rank": 3
+            },
+            {
+              "date": "Jul 27",
+              "rank": 3
+            },
+            {
+              "date": "Aug 10",
+              "rank": 2
+            },
+            {
+              "date": "Aug 24",
+              "rank": 3
+            },
+            {
+              "date": "Sep 07",
+              "rank": 3
+            },
+            {
+              "date": "Oct 19",
+              "rank": 5
+            },
+            {
+              "date": "Nov 02",
+              "rank": 13
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jun 08",
+              "reviews": 129
+            },
+            {
+              "date": "Jun 15",
+              "reviews": 129
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 129
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 129
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 129
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 128
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 128
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 128
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 128
+            },
+            {
+              "date": "Oct 19",
+              "reviews": 129
+            },
+            {
+              "date": "Nov 02",
+              "reviews": 128
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              11,
+              5,
+              4,
+              2,
+              3,
+              3,
+              2,
+              3,
+              3,
+              5,
+              13
+            ],
+            "dates": [
+              "Jun 08",
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07",
+              "Oct 19",
+              "Nov 02"
+            ],
+            "direction": "declining",
+            "best_rank": 2,
+            "worst_rank": 13
+          },
+          "review_velocity": {
+            "per_week": -0.05,
+            "total_gained": -1,
+            "weeks": 21.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Advanced Aesthetic Dentistry",
+              "rating": 4.9,
+              "reviews": 274,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9VIGbSx_bIcRJORO9sPztA8"
+            },
+            {
+              "rank": 2,
+              "name": "Cherry Creek Dental Spa",
+              "rating": 4.9,
+              "reviews": 690,
+              "review_velocity": 4.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c"
+            },
+            {
+              "rank": 3,
+              "name": "Smile Studio Dental - Denver",
+              "rating": 4.9,
+              "reviews": 749,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns"
+            },
+            {
+              "rank": 4,
+              "name": "Icon Dental",
+              "rating": 4.6,
+              "reviews": 835,
+              "review_velocity": 7.62,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM"
+            },
+            {
+              "rank": 5,
+              "name": "Denver Dream Dentistry",
+              "rating": 4.9,
+              "reviews": 614,
+              "review_velocity": 2.33,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR1F9Jxx8bIcRZDRbRJEEvKc"
+            },
+            {
+              "rank": 6,
+              "name": "Denver Cosmetic & Implant Dentistry",
+              "rating": 4.7,
+              "reviews": 84,
+              "review_velocity": 0.14,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJq6o6O6F9bIcRbYFUiyYxbT8"
+            },
+            {
+              "rank": 7,
+              "name": "5280 Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 202,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs"
+            },
+            {
+              "rank": 8,
+              "name": "Denver Place Dentistry",
+              "rating": 4.8,
+              "reviews": 349,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJq07tHdp4bIcR1lmnO62NwmE"
+            },
+            {
+              "rank": 9,
+              "name": "Pearl Dentistry",
+              "rating": 4.8,
+              "reviews": 199,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU"
+            },
+            {
+              "rank": 10,
+              "name": "The Denver Dentists",
+              "rating": 4.5,
+              "reviews": 669,
+              "review_velocity": 3.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyxDJBfR5bIcRLxwG8ibI42k"
+            },
+            {
+              "rank": 11,
+              "name": "RiNo Dental",
+              "rating": 4.8,
+              "reviews": 607,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw"
+            },
+            {
+              "rank": 12,
+              "name": "Serenity Dental Arts",
+              "rating": 4.9,
+              "reviews": 306,
+              "review_velocity": 1.2,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJLyIwtoZ4bIcRKQuVHR46Ffo"
+            },
+            {
+              "rank": 13,
+              "name": "EC Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 128,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE"
+            },
+            {
+              "rank": 14,
+              "name": "Dental Elements",
+              "rating": 4.9,
+              "reviews": 400,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJDVhKWMF4bIcRT0HG2IGYUkY"
+            },
+            {
+              "rank": 15,
+              "name": "Corson Dentistry",
+              "rating": 4.9,
+              "reviews": 2263,
+              "review_velocity": 1.05,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_____8J4bIcRc7K97P21sso"
+            },
+            {
+              "rank": 16,
+              "name": "Midtown Dental",
+              "rating": 4.8,
+              "reviews": 512,
+              "review_velocity": 1.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJTw72c0p5bIcRFy3LEorXoa4"
+            },
+            {
+              "rank": 17,
+              "name": "Espire Dental DTC",
+              "rating": 4.9,
+              "reviews": 533,
+              "review_velocity": 1.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJcwKeKjh9bIcR-EAtHOfec00"
+            },
+            {
+              "rank": 18,
+              "name": "OG Dental",
+              "rating": 4.9,
+              "reviews": 562,
+              "review_velocity": 0.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCcRktGF4bIcR8z4C2iebbEM"
+            },
+            {
+              "rank": 19,
+              "name": "Ascent Dental",
+              "rating": 4.8,
+              "reviews": 373,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJO6N_foN-bIcRti1deXlSPXg"
+            },
+            {
+              "rank": 20,
+              "name": "We Whiten Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 481,
+              "review_velocity": 2.52,
+              "website": true,
+              "type": "Teeth whitening service",
+              "_key": "ChIJEwkP9HyBbIcRlK8NuaZ2VG4"
+            }
+          ],
+          "subject": {
+            "rank": 13,
+            "name": "EC Family & Cosmetic Dentistry",
+            "rating": 4.9,
+            "reviews": 128,
+            "review_velocity": -0.05,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE"
+          },
+          "benchmarks": {
+            "avg_rating": 4.82,
+            "avg_reviews": 542,
+            "median_reviews": 496,
+            "typical_reviews": 542,
+            "skewed": false,
+            "your_reviews": 128,
+            "your_rating": 4.9,
+            "reviews_percentile": 10,
+            "pack_size": 20,
+            "top_reviews": 2263
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Advanced Aesthetic Dentistry",
+              "rating": 4.9,
+              "reviews": 274,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ9VIGbSx_bIcRJORO9sPztA8",
+              "rank_delta": 4,
+              "review_gain": -4
+            },
+            {
+              "rank": 2,
+              "name": "Cherry Creek Dental Spa",
+              "rating": 4.9,
+              "reviews": 690,
+              "review_velocity": 4.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAQBwNJt-bIcRC-SLYMMqU0c",
+              "rank_delta": 7,
+              "review_gain": 93
+            },
+            {
+              "rank": 3,
+              "name": "Smile Studio Dental - Denver",
+              "rating": 4.9,
+              "reviews": 749,
+              "review_velocity": 0.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJaQCaATt9bIcR_CiTHG4R5ns",
+              "rank_delta": -1,
+              "review_gain": 16
+            },
+            {
+              "rank": 4,
+              "name": "Icon Dental",
+              "rating": 4.6,
+              "reviews": 835,
+              "review_velocity": 7.62,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM",
+              "rank_delta": -3,
+              "review_gain": 160
+            },
+            {
+              "rank": 5,
+              "name": "Denver Dream Dentistry",
+              "rating": 4.9,
+              "reviews": 614,
+              "review_velocity": 2.33,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJR1F9Jxx8bIcRZDRbRJEEvKc",
+              "rank_delta": -1,
+              "review_gain": 49
+            },
+            {
+              "rank": 6,
+              "name": "Denver Cosmetic & Implant Dentistry",
+              "rating": 4.7,
+              "reviews": 84,
+              "review_velocity": 0.14,
+              "website": false,
+              "type": "Dentist",
+              "_key": "ChIJq6o6O6F9bIcRbYFUiyYxbT8",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 7,
+              "name": "5280 Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 202,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJifC8S7d9bIcRDyBsUK7sNbs",
+              "rank_delta": 0,
+              "review_gain": 9
+            },
+            {
+              "rank": 8,
+              "name": "Denver Place Dentistry",
+              "rating": 4.8,
+              "reviews": 349,
+              "review_velocity": 0.57,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJq07tHdp4bIcR1lmnO62NwmE",
+              "rank_delta": -5,
+              "review_gain": 12
+            },
+            {
+              "rank": 9,
+              "name": "Pearl Dentistry",
+              "rating": 4.8,
+              "reviews": 199,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU",
+              "rank_delta": 10,
+              "review_gain": 9
+            },
+            {
+              "rank": 10,
+              "name": "The Denver Dentists",
+              "rating": 4.5,
+              "reviews": 669,
+              "review_velocity": 3.76,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJyxDJBfR5bIcRLxwG8ibI42k",
+              "rank_delta": -2,
+              "review_gain": 79
+            },
+            {
+              "rank": 11,
+              "name": "RiNo Dental",
+              "rating": 4.8,
+              "reviews": 607,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ6_831Bt5bIcRpplXBEpZUjw",
+              "rank_delta": 3,
+              "review_gain": 14
+            },
+            {
+              "rank": 13,
+              "name": "EC Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 128,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJe9k3wid_bIcR7B5_EWFj8GE",
+              "rank_delta": -2,
+              "review_gain": -1
+            },
+            {
+              "rank": 15,
+              "name": "Corson Dentistry",
+              "rating": 4.9,
+              "reviews": 2263,
+              "review_velocity": 1.05,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ_____8J4bIcRc7K97P21sso",
+              "rank_delta": 2,
+              "review_gain": 22
+            },
+            {
+              "rank": 16,
+              "name": "Midtown Dental",
+              "rating": 4.8,
+              "reviews": 512,
+              "review_velocity": 1.19,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJTw72c0p5bIcRFy3LEorXoa4",
+              "rank_delta": -1,
+              "review_gain": 25
+            },
+            {
+              "rank": 17,
+              "name": "Espire Dental DTC",
+              "rating": 4.9,
+              "reviews": 533,
+              "review_velocity": 1.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJcwKeKjh9bIcR-EAtHOfec00",
+              "rank_delta": -4,
+              "review_gain": 38
+            },
+            {
+              "rank": 18,
+              "name": "OG Dental",
+              "rating": 4.9,
+              "reviews": 562,
+              "review_velocity": 0.81,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJCcRktGF4bIcR8z4C2iebbEM",
+              "rank_delta": -6,
+              "review_gain": 17
+            },
+            {
+              "rank": 20,
+              "name": "We Whiten Teeth Whitening",
+              "rating": 4.8,
+              "reviews": 481,
+              "review_velocity": 2.52,
+              "website": true,
+              "type": "Teeth whitening service",
+              "_key": "ChIJEwkP9HyBbIcRlK8NuaZ2VG4",
+              "rank_delta": 0,
+              "review_gain": 53
+            }
+          ],
+          "fastest_climber": {
+            "rank": 9,
+            "name": "Pearl Dentistry",
+            "rating": 4.8,
+            "reviews": 199,
+            "review_velocity": 0.43,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJPyRXOJR4bIcRK2zXoRQeVKU",
+            "rank_delta": 10,
+            "review_gain": 9
+          },
+          "fastest_review_gainer": {
+            "rank": 4,
+            "name": "Icon Dental",
+            "rating": 4.6,
+            "reviews": 835,
+            "review_velocity": 7.62,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJDYsdqcV4bIcRd3HhDPOgrpM",
+            "rank_delta": -3,
+            "review_gain": 160
+          },
+          "visibility": {
+            "current_rank": 13,
+            "best_rank": 2,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 22.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 21.3,
+            "lost_vs_best_rel": 96,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 128 vs a typical competitor's 542. Close the 414-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.82."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at -0.05/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Icon Dental added 160 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 13,
+          "start_rank": 11,
+          "net_change": -2,
+          "best_rank": 2,
+          "worst_rank": 13
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 05, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094273+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-05T20:34:32.709373+00:00",
+      "free_report_email": "info@ecfamilydentist.com"
     },
     {
       "id": "46a45e7fec7e",
@@ -94596,12 +95912,497 @@
             "category_avg_rating": 5.0,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 2.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Oct 19",
+              "rank": 3
+            },
+            {
+              "date": "Nov 02",
+              "rank": 10
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Oct 19",
+              "reviews": 49
+            },
+            {
+              "date": "Nov 02",
+              "reviews": 49
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              3,
+              10
+            ],
+            "dates": [
+              "Oct 19",
+              "Nov 02"
+            ],
+            "direction": "declining",
+            "best_rank": 3,
+            "worst_rank": 10
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 2.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Sasha Mazur | Selling San Francisco | Luxury Residential Real Estate Team",
+              "rating": 5.0,
+              "reviews": 37,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJOwRI9fNogk0ReKeKXgZd8Hc"
+            },
+            {
+              "rank": 2,
+              "name": "Anna Shea San Francisco Realtor",
+              "rating": 5.0,
+              "reviews": 48,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJj_zlz_V9j4ARK8YKmZIsUxU"
+            },
+            {
+              "rank": 3,
+              "name": "Danielle Lazier - Vivre Real Estate",
+              "rating": 5.0,
+              "reviews": 155,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJCV-bbRN-j4AR6vPYV0-qnq4"
+            },
+            {
+              "rank": 4,
+              "name": "Grant Edward Beggs, Sotheby's International Realty, Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq6r6RtiAhYAReiI-86Qz8b8"
+            },
+            {
+              "rank": 5,
+              "name": "Philip Farr Properties - Luxury San Francisco Bay Area Real Estate",
+              "rating": 5.0,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO3lMPOQ5S6cRYM31eAegUuw"
+            },
+            {
+              "rank": 6,
+              "name": "Kevin & Nini Gueco | Kinoko Real Estate | San Francisco Realtors",
+              "rating": 4.9,
+              "reviews": 108,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJlc_Z-NV_j4ARFhqSzFaIFKc"
+            },
+            {
+              "rank": 7,
+              "name": "Pacific Edge Real Estate",
+              "rating": 5.0,
+              "reviews": 80,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJ19YBiWh_j4AREoHHkJbgKjQ"
+            },
+            {
+              "rank": 8,
+              "name": "Michelle Kim | Mosaik Real Estate | Top 1% SF Realtor",
+              "rating": 5.0,
+              "reviews": 79,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq7RBrgZ_j4ARS2bdvSo_hAI"
+            },
+            {
+              "rank": 9,
+              "name": "Luxe Places International Realty: Jeffrey Marples",
+              "rating": 5.0,
+              "reviews": 107,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJQ5nKRpeBhYARX_aF34N-zEI"
+            },
+            {
+              "rank": 10,
+              "name": "Janice Lee - San Francisco Real Estate",
+              "rating": 4.9,
+              "reviews": 49,
+              "review_velocity": 0.24,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ6eP0hGKHhYARINxcNrp5b_o"
+            },
+            {
+              "rank": 11,
+              "name": "Haven Group - San Francisco Real Estate Agents",
+              "rating": 5.0,
+              "reviews": 49,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJvclXc6mBhYARvJgC4H1kmf4"
+            },
+            {
+              "rank": 12,
+              "name": "Jennifer Rosdail Real Estate Team; a KW Advisors Partner",
+              "rating": 4.8,
+              "reviews": 30,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ_--0BJWAhYAR7S4c276D-Bo"
+            },
+            {
+              "rank": 13,
+              "name": "Christopher Lee Real Estate Agent San Francisco",
+              "rating": 5.0,
+              "reviews": 177,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJlaPSrojwfg8RKyFKPa81Dxs"
+            },
+            {
+              "rank": 14,
+              "name": "Luba Muzichenko, San Francisco Real Estate Expert",
+              "rating": 5.0,
+              "reviews": 43,
+              "review_velocity": 0.12,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJaRCAVBJ-j4AR3a9iJPTO2HI"
+            },
+            {
+              "rank": 15,
+              "name": "Nick Johnson, Certified Luxury Home Marketing Specialist",
+              "rating": 4.9,
+              "reviews": 30,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJN3nyhGKHhYARo7ZZvCXF-40"
+            },
+            {
+              "rank": 16,
+              "name": "Charles Jacob Top Real Estate Agent San Francisco",
+              "rating": 5.0,
+              "reviews": 107,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJXWjzyTi7j4ARF8uGWKU8aZw"
+            },
+            {
+              "rank": 17,
+              "name": "Calvin Kam Real Estate Group | Compass",
+              "rating": 5.0,
+              "reviews": 112,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ_WvM4nh_j4ARyrtj4qu-D2U"
+            },
+            {
+              "rank": 18,
+              "name": "Karen Mai San Francisco REALTOR\u00ae",
+              "rating": 5.0,
+              "reviews": 89,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJt6-Pn759j4ARzhOh_EbvG40"
+            },
+            {
+              "rank": 19,
+              "name": "The SF Team | James Shinbori + Eva Stoyanov + Kasia Meron | Compass - Top 1% Real Estate Company San Francisco",
+              "rating": 5.0,
+              "reviews": 23,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJu5sBndSBhYARFdJYsBMx5ec"
+            },
+            {
+              "rank": 20,
+              "name": "Miriam Wells Real Estate at Sotheby's International Realty",
+              "rating": 5.0,
+              "reviews": 43,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJS0arSvGBhYARiRZCEHIRRek"
+            }
+          ],
+          "subject": {
+            "rank": 10,
+            "name": "Janice Lee - San Francisco Real Estate",
+            "rating": 4.9,
+            "reviews": 49,
+            "review_velocity": 0.24,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJ6eP0hGKHhYARINxcNrp5b_o"
+          },
+          "benchmarks": {
+            "avg_rating": 4.97,
+            "avg_reviews": 72,
+            "median_reviews": 49,
+            "typical_reviews": 72,
+            "skewed": false,
+            "your_reviews": 49,
+            "your_rating": 4.9,
+            "reviews_percentile": 55,
+            "pack_size": 20,
+            "top_reviews": 177
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Sasha Mazur | Selling San Francisco | Luxury Residential Real Estate Team",
+              "rating": 5.0,
+              "reviews": 37,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJOwRI9fNogk0ReKeKXgZd8Hc",
+              "rank_delta": 3,
+              "review_gain": 2
+            },
+            {
+              "rank": 2,
+              "name": "Anna Shea San Francisco Realtor",
+              "rating": 5.0,
+              "reviews": 48,
+              "review_velocity": -0.19,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJj_zlz_V9j4ARK8YKmZIsUxU",
+              "rank_delta": 5,
+              "review_gain": -4
+            },
+            {
+              "rank": 4,
+              "name": "Grant Edward Beggs, Sotheby's International Realty, Luxury Real Estate Agent",
+              "rating": 5.0,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq6r6RtiAhYAReiI-86Qz8b8",
+              "rank_delta": 7,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "Philip Farr Properties - Luxury San Francisco Bay Area Real Estate",
+              "rating": 5.0,
+              "reviews": 31,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJO3lMPOQ5S6cRYM31eAegUuw",
+              "rank_delta": -3,
+              "review_gain": 0
+            },
+            {
+              "rank": 6,
+              "name": "Kevin & Nini Gueco | Kinoko Real Estate | San Francisco Realtors",
+              "rating": 4.9,
+              "reviews": 108,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJlc_Z-NV_j4ARFhqSzFaIFKc",
+              "rank_delta": -5,
+              "review_gain": 2
+            },
+            {
+              "rank": 7,
+              "name": "Pacific Edge Real Estate",
+              "rating": 5.0,
+              "reviews": 80,
+              "review_velocity": 0.14,
+              "website": true,
+              "type": "Real estate consultant",
+              "_key": "ChIJ19YBiWh_j4AREoHHkJbgKjQ",
+              "rank_delta": 5,
+              "review_gain": 3
+            },
+            {
+              "rank": 8,
+              "name": "Michelle Kim | Mosaik Real Estate | Top 1% SF Realtor",
+              "rating": 5.0,
+              "reviews": 79,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq7RBrgZ_j4ARS2bdvSo_hAI",
+              "rank_delta": 9,
+              "review_gain": 1
+            },
+            {
+              "rank": 9,
+              "name": "Luxe Places International Realty: Jeffrey Marples",
+              "rating": 5.0,
+              "reviews": 107,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJQ5nKRpeBhYARX_aF34N-zEI",
+              "rank_delta": -6,
+              "review_gain": 7
+            },
+            {
+              "rank": 10,
+              "name": "Janice Lee - San Francisco Real Estate",
+              "rating": 4.9,
+              "reviews": 49,
+              "review_velocity": 0.24,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ6eP0hGKHhYARINxcNrp5b_o",
+              "rank_delta": -5,
+              "review_gain": 5
+            },
+            {
+              "rank": 11,
+              "name": "Haven Group - San Francisco Real Estate Agents",
+              "rating": 5.0,
+              "reviews": 49,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJvclXc6mBhYARvJgC4H1kmf4",
+              "rank_delta": 9,
+              "review_gain": 8
+            },
+            {
+              "rank": 13,
+              "name": "Christopher Lee Real Estate Agent San Francisco",
+              "rating": 5.0,
+              "reviews": 177,
+              "review_velocity": 0.38,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJlaPSrojwfg8RKyFKPa81Dxs",
+              "rank_delta": 1,
+              "review_gain": 8
+            },
+            {
+              "rank": 19,
+              "name": "The SF Team | James Shinbori + Eva Stoyanov + Kasia Meron | Compass - Top 1% Real Estate Company San Francisco",
+              "rating": 5.0,
+              "reviews": 23,
+              "review_velocity": 0.19,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJu5sBndSBhYARFdJYsBMx5ec",
+              "rank_delta": -3,
+              "review_gain": 4
+            }
+          ],
+          "fastest_climber": {
+            "rank": 11,
+            "name": "Haven Group - San Francisco Real Estate Agents",
+            "rating": 5.0,
+            "reviews": 49,
+            "review_velocity": 0.38,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJvclXc6mBhYARvJgC4H1kmf4",
+            "rank_delta": 9,
+            "review_gain": 8
+          },
+          "fastest_review_gainer": {
+            "rank": 11,
+            "name": "Haven Group - San Francisco Real Estate Agents",
+            "rating": 5.0,
+            "reviews": 49,
+            "review_velocity": 0.38,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJvclXc6mBhYARvJgC4H1kmf4",
+            "rank_delta": 9,
+            "review_gain": 8
+          },
+          "visibility": {
+            "current_rank": 10,
+            "best_rank": 3,
+            "your_ctr_pct": 1.2,
+            "best_ctr_pct": 15.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 1.2,
+            "lost_vs_best_pct": 13.9,
+            "lost_vs_best_rel": 92,
+            "reach_vs_top3_x": 58.6
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 49 vs a typical competitor's 72. Close the 23-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.97. A 0.07-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Haven Group - San Francisco Real Esta. added 8 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 10,
+          "start_rank": 3,
+          "net_change": -7,
+          "best_rank": 3,
+          "worst_rank": 10
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 05, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094329+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-05T20:34:52.385692+00:00",
+      "free_report_email": "janice.lee@cbnorcal.com"
     },
     {
       "id": "49b06aff5c68",
