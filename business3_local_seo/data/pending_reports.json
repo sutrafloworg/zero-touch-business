@@ -79394,6 +79394,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -81871,6 +81875,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -81947,6 +81955,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -82101,6 +82113,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -82256,6 +82272,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85074,6 +85094,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85149,6 +85173,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85460,6 +85488,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85535,6 +85567,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85685,6 +85721,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85761,6 +85801,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85837,6 +85881,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85911,6 +85959,10 @@
         {
           "type": "followup_2",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_3",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -85981,6 +86033,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -86051,6 +86107,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -86123,6 +86183,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -86189,7 +86253,13 @@
       "pdf_path": "",
       "created_at": "2026-10-26T19:05:53.837329+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "4f799af9654f",
@@ -86259,6 +86329,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -86330,6 +86404,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -86400,6 +86478,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -86470,6 +86552,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -86528,6 +86614,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -87182,6 +87272,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -87253,6 +87347,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -87325,6 +87423,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -87397,6 +87499,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88161,6 +88267,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88232,6 +88342,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88302,6 +88416,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88373,6 +88491,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88442,6 +88564,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88513,6 +88639,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88584,6 +88714,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88652,6 +88786,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88794,6 +88932,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88865,6 +89007,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -88936,6 +89082,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89006,6 +89156,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89065,6 +89219,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89135,6 +89293,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89205,6 +89367,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89275,6 +89441,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89347,6 +89517,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89418,6 +89592,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89488,6 +89666,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89559,6 +89741,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89630,6 +89816,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89701,6 +89891,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89773,6 +89967,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89844,6 +90042,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89915,6 +90117,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -89986,6 +90192,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -90044,6 +90254,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -90116,6 +90330,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -90187,6 +90405,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -90259,6 +90481,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -90913,6 +91139,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -90984,6 +91214,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91055,6 +91289,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91127,6 +91365,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91199,6 +91441,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91269,6 +91515,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91340,6 +91590,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91411,6 +91665,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91483,6 +91741,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91546,7 +91808,13 @@
       "pdf_path": "",
       "created_at": "2026-10-26T19:05:53.837613+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "326b5caf7c7a",
@@ -91616,6 +91884,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91758,6 +92030,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91829,6 +92105,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91899,6 +92179,10 @@
         {
           "type": "followup_1",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
+        },
+        {
+          "type": "followup_2",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
       ]
     },
@@ -91964,7 +92248,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094157+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "54f6f74b2c54",
@@ -92028,7 +92318,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094183+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "9912c35ffbe0",
@@ -92158,7 +92454,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094193+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "a78e263fb7c5",
@@ -92223,7 +92525,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094196+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "77765bf456b1",
@@ -92287,7 +92595,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094200+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "4bdcd5da1352",
@@ -92352,7 +92666,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094204+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "543f83d11b1f",
@@ -92417,7 +92737,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094208+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "951f9cee91e6",
@@ -92482,7 +92808,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094211+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "3bb10089fc27",
@@ -92546,7 +92878,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094214+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "aa5ed791b0a8",
@@ -93292,7 +93630,13 @@
       "status": "pending",
       "delivered_at": null,
       "free_report_sent": "2026-11-05T20:34:12.818337+00:00",
-      "free_report_email": "socialmedia@costaivone.com"
+      "free_report_email": "socialmedia@costaivone.com",
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "726ded89f3c3",
@@ -93357,7 +93701,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094223+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "0940025bc32f",
@@ -93423,7 +93773,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094227+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "07df0cc31650",
@@ -93470,7 +93826,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094231+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "e072b52c69c0",
@@ -93534,7 +93896,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094234+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "0b7f25c1f00e",
@@ -93599,7 +93967,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094238+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "befdbb1d5e3a",
@@ -93665,7 +94039,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094241+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "c4be214d9d99",
@@ -93729,7 +94109,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094245+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "c34fd2cbc122",
@@ -93795,7 +94181,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094248+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "a8f3ec61007e",
@@ -93860,7 +94252,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094252+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "0e18311032d8",
@@ -93925,7 +94323,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094255+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "bfe1e800bb51",
@@ -93990,7 +94394,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094258+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "dcdeea1d13a9",
@@ -94054,7 +94464,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094262+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "50e36714856f",
@@ -94119,7 +94535,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094265+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "338d56901b1d",
@@ -94184,7 +94606,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094270+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "648d0897f1aa",
@@ -94883,7 +95311,13 @@
       "status": "pending",
       "delivered_at": null,
       "free_report_sent": "2026-11-05T20:34:32.709373+00:00",
-      "free_report_email": "info@ecfamilydentist.com"
+      "free_report_email": "info@ecfamilydentist.com",
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "46a45e7fec7e",
@@ -94948,7 +95382,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094277+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "9a64dd3d9bac",
@@ -95013,7 +95453,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094280+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "8cd5fe0dde65",
@@ -95077,7 +95523,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094283+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "105f288436aa",
@@ -95143,7 +95595,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094287+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "64450ff3280b",
@@ -95208,7 +95666,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094291+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "6ff7357236a8",
@@ -95272,7 +95736,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094294+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "50e48289ed33",
@@ -95336,7 +95806,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094298+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "350faddd1656",
@@ -95401,7 +95877,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094302+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "0808adc3f2c6",
@@ -95462,7 +95944,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094305+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "71d015c1ab58",
@@ -95528,7 +96016,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094309+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "3378cc367c62",
@@ -95592,7 +96086,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094312+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "7213772b733d",
@@ -95656,7 +96156,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094316+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "747795ec99ec",
@@ -95722,7 +96228,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094319+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "30977868c37e",
@@ -95787,7 +96299,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094322+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "0e60b7edb98b",
@@ -95851,7 +96369,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094326+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "4fff9e827e9e",
@@ -96402,7 +96926,13 @@
       "status": "pending",
       "delivered_at": null,
       "free_report_sent": "2026-11-05T20:34:52.385692+00:00",
-      "free_report_email": "janice.lee@cbnorcal.com"
+      "free_report_email": "janice.lee@cbnorcal.com",
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "49b06aff5c68",
@@ -96467,7 +96997,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094332+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "8457d9a24215",
@@ -96532,7 +97068,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094335+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "3601df5a904d",
@@ -96597,7 +97139,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094339+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "2e125f225c2d",
@@ -96663,7 +97211,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094342+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "1be2e067f796",
@@ -96728,7 +97282,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094345+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "510ab0531622",
@@ -96793,7 +97353,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094348+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "4be5997e9d58",
@@ -96858,7 +97424,13 @@
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094351+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
     },
     {
       "id": "74b92f8fd865",
@@ -96922,6 +97494,2928 @@
       },
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094354+00:00",
+      "status": "pending",
+      "delivered_at": null,
+      "followup_history": [
+        {
+          "type": "followup_1",
+          "sent_at": "2026-11-09T22:56:00.683662+00:00"
+        }
+      ]
+    },
+    {
+      "id": "2ce4e18d0a06",
+      "email": "info@atlantadentalspa.com",
+      "business_name": "Atlanta Dental Spa - Highlands",
+      "category_key": "atlanta_ga_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "atlanta_ga_cosmetic-dentist",
+        "business_name": "Atlanta Dental Spa - Highlands",
+        "address": "664 N Highland Ave NE, Atlanta, GA 30306",
+        "phone": "(404) 418-7445",
+        "website": "https://www.atlantadentalspa.com/",
+        "prev_rank": 2,
+        "curr_rank": 8,
+        "rank_change": 6,
+        "rating": 5,
+        "reviews": 694,
+        "prev_reviews": 694,
+        "reasons": [
+          "Competitors above you gained reviews: Atlanta Center for Cosmetic Dentistry gained 3 new reviews; Perl Smile Co. gained 4 new reviews; Art of Cosmetic Dentistry gained 3 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 2.2,
+            "total_gained": 18,
+            "over_weeks": 8,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              3,
+              4,
+              4,
+              5,
+              8,
+              2
+            ],
+            "best_rank": 2,
+            "worst_rank": 8
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Atlanta Dental Spa - Buckhead",
+            "climbed_positions": 7,
+            "their_review_gain": 76,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 9.1,
+            "your_reviews": 694,
+            "category_avg_reviews": 838,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039674+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "27c9a06e7bc3",
+      "email": "Sushil.Kumar@swissdigitech.com",
+      "business_name": "Elegant Smiles",
+      "category_key": "atlanta_ga_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "atlanta_ga_cosmetic-dentist",
+        "business_name": "Elegant Smiles",
+        "address": "2882 N Druid Hills Rd Ste A, Atlanta, GA 30329",
+        "phone": "(404) 634-4224",
+        "website": "https://dentalatl.com/",
+        "prev_rank": 5,
+        "curr_rank": 9,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 1531,
+        "prev_reviews": 1529,
+        "reasons": [
+          "Competitors above you gained reviews: Atlanta Center for Cosmetic Dentistry gained 3 new reviews; Perl Smile Co. gained 4 new reviews; Art of Cosmetic Dentistry gained 3 new reviews",
+          "1 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 5.6,
+            "total_gained": 45,
+            "over_weeks": 8,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              5,
+              3,
+              5,
+              2,
+              9,
+              5
+            ],
+            "best_rank": 2,
+            "worst_rank": 9
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Atlanta Dental Spa - Buckhead",
+            "climbed_positions": 7,
+            "their_review_gain": 76,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 1531,
+            "category_avg_reviews": 838,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039696+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3a68b1a70c91",
+      "email": "smileforeveratlanta@gmail.com",
+      "business_name": "Smile Forever Atlanta",
+      "category_key": "atlanta_ga_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "atlanta_ga_cosmetic-dentist",
+        "business_name": "Smile Forever Atlanta",
+        "address": "2960 Hardman Ct NE, Atlanta, GA 30305",
+        "phone": "(404) 261-8880",
+        "website": "https://www.smileforeveratlanta.com/",
+        "prev_rank": 6,
+        "curr_rank": 10,
+        "rank_change": 4,
+        "rating": 4.8,
+        "reviews": 752,
+        "prev_reviews": 751,
+        "reasons": [
+          "Competitors above you gained reviews: Atlanta Center for Cosmetic Dentistry gained 3 new reviews; Perl Smile Co. gained 4 new reviews; Art of Cosmetic Dentistry gained 3 new reviews",
+          "8 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.7,
+            "total_gained": 5,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              8,
+              9,
+              6,
+              9,
+              10,
+              6
+            ],
+            "best_rank": 6,
+            "worst_rank": 11
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Atlanta Dental Spa - Buckhead",
+            "climbed_positions": 7,
+            "their_review_gain": 76,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 9.3,
+            "your_reviews": 752,
+            "category_avg_reviews": 838,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039703+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "74b5b15f06b0",
+      "email": "info@poncedentalstudio.com",
+      "business_name": "Ponce Dental Studio - Atlanta",
+      "category_key": "atlanta_ga_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "atlanta_ga_cosmetic-dentist",
+        "business_name": "Ponce Dental Studio - Atlanta",
+        "address": "892 Ponce De Leon Ave NE Ste 101, Atlanta, GA 30306",
+        "phone": "(404) 476-6589",
+        "website": "https://poncedentalstudio.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+        "prev_rank": 10,
+        "curr_rank": 14,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 1397,
+        "prev_reviews": 1392,
+        "reasons": [
+          "Competitors above you gained reviews: Atlanta Center for Cosmetic Dentistry gained 3 new reviews; Perl Smile Co. gained 4 new reviews; Art of Cosmetic Dentistry gained 3 new reviews",
+          "2 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 8.2,
+            "total_gained": 66,
+            "over_weeks": 8,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              11,
+              16,
+              11,
+              17,
+              13,
+              10
+            ],
+            "best_rank": 10,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Atlanta Dental Spa - Buckhead",
+            "climbed_positions": 7,
+            "their_review_gain": 76,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 1397,
+            "category_avg_reviews": 838,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039708+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "10d10172392f",
+      "email": "frontdesk@atlantasmiles.com",
+      "business_name": "Atlanta Smiles & Wellness",
+      "category_key": "atlanta_ga_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "atlanta_ga_cosmetic-dentist",
+        "business_name": "Atlanta Smiles & Wellness",
+        "address": "4405 Northside Pkwy NW Unit 110, Atlanta, GA 30327",
+        "phone": "(404) 262-7733",
+        "website": "https://www.atlantasmiles.com/?y_source=1_MjQ2MTUyNDctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+        "prev_rank": 14,
+        "curr_rank": 17,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 465,
+        "prev_reviews": 466,
+        "reasons": [
+          "Competitors above you gained reviews: Atlanta Center for Cosmetic Dentistry gained 3 new reviews; Perl Smile Co. gained 4 new reviews; Art of Cosmetic Dentistry gained 3 new reviews",
+          "3 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.5,
+            "total_gained": 12,
+            "over_weeks": 8,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              10,
+              12,
+              12,
+              8,
+              16,
+              14
+            ],
+            "best_rank": 8,
+            "worst_rank": 16
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Atlanta Dental Spa - Buckhead",
+            "climbed_positions": 7,
+            "their_review_gain": 76,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 7.3,
+            "your_reviews": 465,
+            "category_avg_reviews": 838,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039713+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "36c1e3e2805a",
+      "email": "tflowplumbing@yahoo.com",
+      "business_name": "T-Flow Inc. Plumbing Repair",
+      "category_key": "boston_ma_emergency-plumber",
+      "alert_data": {
+        "category_key": "boston_ma_emergency-plumber",
+        "business_name": "T-Flow Inc. Plumbing Repair",
+        "address": "",
+        "phone": "(617) 818-1229",
+        "website": "https://www.bostonsplumber.com/",
+        "prev_rank": 5,
+        "curr_rank": 9,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 110,
+        "prev_reviews": 110,
+        "reasons": [
+          "Competitors above you gained reviews: Roto-Rooter Plumbing & Water Cleanup gained 4 new reviews; Boston Budget Plumbing Heating and Cooling gained 29 new reviews; Horvitz Plumbing & Heating gained 2 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "2 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.1,
+            "total_gained": 1,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              4,
+              2,
+              2,
+              2,
+              3,
+              5
+            ],
+            "best_rank": 2,
+            "worst_rank": 5
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Boston Clear Drain",
+            "climbed_positions": 4,
+            "their_review_gain": 14,
+            "their_rating": 5,
+            "their_current_rank": 14
+          },
+          "category_health": {
+            "score": 5.5,
+            "your_reviews": 110,
+            "category_avg_reviews": 545,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.6,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039718+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "20e846fd8a62",
+      "email": "contact@smiledesignboston.com",
+      "business_name": "Smile Design Boston",
+      "category_key": "boston_ma_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "boston_ma_cosmetic-dentist",
+        "business_name": "Smile Design Boston",
+        "address": "21 Custom House St, Boston, MA 02110",
+        "phone": "(617) 314-6399",
+        "website": "https://www.smiledesignboston.com/",
+        "prev_rank": 7,
+        "curr_rank": 11,
+        "rank_change": 4,
+        "rating": 4.8,
+        "reviews": 160,
+        "prev_reviews": 168,
+        "reasons": [
+          "Competitors above you gained reviews: Integrity Dental Boston gained 4 new reviews; Ace Dental Boston gained 4 new reviews; Dental Esthetics Boston | Hirayama & Papaspyridakos gained 3 new reviews",
+          "9 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.4,
+            "total_gained": 3,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              5,
+              5,
+              5,
+              6,
+              11,
+              7
+            ],
+            "best_rank": 5,
+            "worst_rank": 11
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Boston Dental",
+            "climbed_positions": 6,
+            "their_review_gain": 9,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 6.8,
+            "your_reviews": 160,
+            "category_avg_reviews": 334,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039723+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5e169f532168",
+      "email": "office@devonshiredental.net",
+      "business_name": "Devonshire Dental of Boston",
+      "category_key": "boston_ma_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "boston_ma_cosmetic-dentist",
+        "business_name": "Devonshire Dental of Boston",
+        "address": "185 Devonshire St Ste 410, Boston, MA 02110",
+        "phone": "(617) 350-7474",
+        "website": "https://www.devonshiredental.net/",
+        "prev_rank": 9,
+        "curr_rank": 13,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 611,
+        "prev_reviews": 612,
+        "reasons": [
+          "Competitors above you gained reviews: Integrity Dental Boston gained 4 new reviews; Ace Dental Boston gained 4 new reviews; Dental Esthetics Boston | Hirayama & Papaspyridakos gained 3 new reviews",
+          "1 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.2,
+            "total_gained": 7,
+            "over_weeks": 6,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              11,
+              10,
+              10,
+              9,
+              13,
+              9
+            ],
+            "best_rank": 9,
+            "worst_rank": 13
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Boston Dental",
+            "climbed_positions": 6,
+            "their_review_gain": 9,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 611,
+            "category_avg_reviews": 334,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039727+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "3ef36ed12bbc",
+      "email": "info@backbaybostondentist.com",
+      "business_name": "Warshauer & Santamaria Dental",
+      "category_key": "boston_ma_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "boston_ma_cosmetic-dentist",
+        "business_name": "Warshauer & Santamaria Dental",
+        "address": "396 Commonwealth Ave 2nd floor, Boston, MA 02215",
+        "phone": "(617) 681-7988",
+        "website": "https://www.backbaybostondentist.com/",
+        "prev_rank": 8,
+        "curr_rank": 14,
+        "rank_change": 6,
+        "rating": 4.8,
+        "reviews": 399,
+        "prev_reviews": 397,
+        "reasons": [
+          "Competitors above you gained reviews: Integrity Dental Boston gained 4 new reviews; Ace Dental Boston gained 4 new reviews; Dental Esthetics Boston | Hirayama & Papaspyridakos gained 3 new reviews",
+          "10 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": -0.6,
+            "total_gained": -4,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              9,
+              8,
+              9,
+              8,
+              14,
+              8
+            ],
+            "best_rank": 8,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Boston Dental",
+            "climbed_positions": 6,
+            "their_review_gain": 9,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 399,
+            "category_avg_reviews": 334,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039732+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "90bea2556fb5",
+      "email": "frontdesk@turningleafdental.com",
+      "business_name": "Turning Leaf Dental",
+      "category_key": "boston_ma_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "boston_ma_cosmetic-dentist",
+        "business_name": "Turning Leaf Dental",
+        "address": "328 Newbury St, Boston, MA 02115",
+        "phone": "(617) 536-5182",
+        "website": "https://www.mybackbaydentist.com/",
+        "prev_rank": 10,
+        "curr_rank": 17,
+        "rank_change": 7,
+        "rating": 4.9,
+        "reviews": 411,
+        "prev_reviews": 409,
+        "reasons": [
+          "Competitors above you gained reviews: Integrity Dental Boston gained 4 new reviews; Ace Dental Boston gained 4 new reviews; Dental Esthetics Boston | Hirayama & Papaspyridakos gained 3 new reviews",
+          "1 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 3.9,
+            "total_gained": 27,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              10,
+              14,
+              8,
+              15,
+              18,
+              10
+            ],
+            "best_rank": 8,
+            "worst_rank": 18
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Boston Dental",
+            "climbed_positions": 6,
+            "their_review_gain": 9,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 411,
+            "category_avg_reviews": 334,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039736+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "a4b3a7aac6d4",
+      "email": "office@facedentalgroup.com",
+      "business_name": "The Face Dental Group",
+      "category_key": "boston_ma_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "boston_ma_cosmetic-dentist",
+        "business_name": "The Face Dental Group",
+        "address": "392 Commonwealth Ave, Boston, MA 02215",
+        "phone": "(617) 236-5969",
+        "website": "https://www.facedentalgroup.com/",
+        "prev_rank": 14,
+        "curr_rank": 20,
+        "rank_change": 6,
+        "rating": 5,
+        "reviews": 144,
+        "prev_reviews": 143,
+        "reasons": [
+          "Competitors above you gained reviews: Integrity Dental Boston gained 4 new reviews; Ace Dental Boston gained 4 new reviews; Dental Esthetics Boston | Hirayama & Papaspyridakos gained 3 new reviews"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.8,
+            "total_gained": 5,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              11,
+              12,
+              13,
+              11,
+              12,
+              14
+            ],
+            "best_rank": 11,
+            "worst_rank": 15
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Boston Dental",
+            "climbed_positions": 6,
+            "their_review_gain": 9,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 6.7,
+            "your_reviews": 144,
+            "category_avg_reviews": 334,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039741+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "f7abc60aa687",
+      "email": "info@luxurylivingre.com",
+      "business_name": "Luxury Living Real Estate",
+      "category_key": "boston_ma_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "boston_ma_luxury-real-estate-agent",
+        "business_name": "Luxury Living Real Estate",
+        "address": "46 Cross St, Boston, MA 02113",
+        "phone": "(617) 877-1998",
+        "website": "http://www.luxurylivingre.com/",
+        "prev_rank": 2,
+        "curr_rank": 12,
+        "rank_change": 10,
+        "rating": 5,
+        "reviews": 4,
+        "prev_reviews": 4,
+        "reasons": [
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "best_rank": 2,
+            "worst_rank": 2
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Cheri Meckley -Luxury Real Estate Boston",
+            "climbed_positions": 17,
+            "their_review_gain": 0,
+            "their_rating": 4.8,
+            "their_current_rank": 1
+          },
+          "category_health": {
+            "score": 4.5,
+            "your_reviews": 4,
+            "category_avg_reviews": 56,
+            "your_rating": 5,
+            "category_avg_rating": 5.0,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039745+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "bee08ab0cede",
+      "email": "info@plumbersandiegoonline.com",
+      "business_name": "American Plumbing Co | Plumber in San Diego",
+      "category_key": "san diego_ca_emergency-plumber",
+      "alert_data": {
+        "category_key": "san diego_ca_emergency-plumber",
+        "business_name": "American Plumbing Co | Plumber in San Diego",
+        "address": "422 21st St, San Diego, CA 92102",
+        "phone": "(619) 723-1114",
+        "website": "https://plumbersandiegoonline.com/",
+        "prev_rank": 7,
+        "curr_rank": 10,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 397,
+        "prev_reviews": 393,
+        "reasons": [
+          "Competitors above you gained reviews: Elite Rooter Plumbers gained 13 new reviews; Bill Howe Plumbing, Heating & Air, Restoration & Flood Services gained 41 new reviews; Anderson Plumbing, Heating & Air gained 31 new reviews"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 2.1,
+            "total_gained": 15,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              12,
+              7,
+              8,
+              8,
+              15,
+              7
+            ],
+            "best_rank": 7,
+            "worst_rank": 15
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Black Mountain Plumbing",
+            "climbed_positions": 4,
+            "their_review_gain": 61,
+            "their_rating": 4.8,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 5.4,
+            "your_reviews": 397,
+            "category_avg_reviews": 1940,
+            "your_rating": 5,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039750+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "4c78af88d52b",
+      "email": "office@keepsmilingsandiego.com",
+      "business_name": "Aesthetic Dentistry of San Diego / Martin P. Abelar DDS",
+      "category_key": "san diego_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "san diego_ca_cosmetic-dentist",
+        "business_name": "Aesthetic Dentistry of San Diego / Martin P. Abelar DDS",
+        "address": "11515 El Camino Real #160, San Diego, CA 92130",
+        "phone": "(858) 500-5711",
+        "website": "https://www.keepsmilingsandiego.com/?utm_source=gbp&utm_medium=organic&utm_campaign=google-business-profile",
+        "prev_rank": 2,
+        "curr_rank": 14,
+        "rank_change": 12,
+        "rating": 4.9,
+        "reviews": 448,
+        "prev_reviews": 445,
+        "reasons": [
+          "Competitors above you gained reviews: Dentique\u2122 Cosmetic Dentistry Studio gained 2 new reviews; The Art of Dentistry gained 2 new reviews; Fifth Avenue Dental Arts gained 2 new reviews",
+          "4 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 2.0,
+            "total_gained": 12,
+            "over_weeks": 6,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              18,
+              13,
+              15,
+              11,
+              13,
+              2
+            ],
+            "best_rank": 2,
+            "worst_rank": 18
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Libby Dental",
+            "climbed_positions": 10,
+            "their_review_gain": 25,
+            "their_rating": 5,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 8.3,
+            "your_reviews": 448,
+            "category_avg_reviews": 622,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039754+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "23038c6b8b01",
+      "email": "CS@PearlCosmeticDDS.com",
+      "business_name": "Pearl Cosmetic and Family Dentistry",
+      "category_key": "san diego_ca_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "san diego_ca_cosmetic-dentist",
+        "business_name": "Pearl Cosmetic and Family Dentistry",
+        "address": "13522 Sabre Springs Pkwy Ste 201, San Diego, CA 92128",
+        "phone": "(858) 513-1747",
+        "website": "http://pearlcosmeticdds.com/",
+        "prev_rank": 8,
+        "curr_rank": 19,
+        "rank_change": 11,
+        "rating": 4.9,
+        "reviews": 255,
+        "prev_reviews": 251,
+        "reasons": [
+          "Competitors above you gained reviews: Dentique\u2122 Cosmetic Dentistry Studio gained 2 new reviews; The Art of Dentistry gained 2 new reviews; Fifth Avenue Dental Arts gained 2 new reviews",
+          "4 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.8,
+            "total_gained": 5,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              12,
+              15,
+              13,
+              18,
+              19,
+              8
+            ],
+            "best_rank": 8,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Libby Dental",
+            "climbed_positions": 10,
+            "their_review_gain": 25,
+            "their_rating": 5,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 6.5,
+            "your_reviews": 255,
+            "category_avg_reviews": 622,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039758+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "1467ae3e9fb8",
+      "email": "office@ogroup.com",
+      "business_name": "The Oppenheim Group Real Estate, San Diego",
+      "category_key": "san diego_ca_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "san diego_ca_luxury-real-estate-agent",
+        "business_name": "The Oppenheim Group Real Estate, San Diego",
+        "address": "7925 Girard Ave, La Jolla, CA 92037",
+        "phone": "(949) 635-4478",
+        "website": "https://ogroup.com/",
+        "prev_rank": 13,
+        "curr_rank": 16,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 40,
+        "prev_reviews": 38,
+        "reasons": [
+          "Google's local algorithm fluctuates \u2014 monitor over 2-3 weeks for a trend"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.7,
+            "total_gained": 2,
+            "over_weeks": 3,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              16,
+              18,
+              11,
+              13
+            ],
+            "best_rank": 11,
+            "worst_rank": 18
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Blend Luxury Real Estate: Listing Experts",
+            "climbed_positions": 3,
+            "their_review_gain": 0,
+            "their_rating": 5,
+            "their_current_rank": 2
+          },
+          "category_health": {
+            "score": 5.4,
+            "your_reviews": 40,
+            "category_avg_reviews": 174,
+            "your_rating": 5,
+            "category_avg_rating": 5.0,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039762+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "6b29f7dcebe6",
+      "email": "ladah@ladahlaw.com",
+      "business_name": "Ladah Injury & Car Accident Lawyers Las Vegas",
+      "category_key": "las vegas_nv_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "las vegas_nv_personal-injury-lawyer",
+        "business_name": "Ladah Injury & Car Accident Lawyers Las Vegas",
+        "address": "517 S 3rd St, Las Vegas, NV 89101",
+        "phone": "(702) 605-2686",
+        "website": "https://www.ladahlaw.com/?utm_source=gbp&utm_medium=maps&utm_campaign=las_vegas",
+        "prev_rank": 9,
+        "curr_rank": 13,
+        "rank_change": 4,
+        "rating": 4.8,
+        "reviews": 606,
+        "prev_reviews": 609,
+        "reasons": [
+          "Competitors above you gained reviews: Richard Harris Law Firm gained 73 new reviews; Naqvi Accident Injury Law gained 10 new reviews; Adam S. Kutner, Injury Attorneys gained 10 new reviews",
+          "8 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 12.4,
+            "total_gained": 87,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              8,
+              12,
+              8,
+              12,
+              11,
+              9
+            ],
+            "best_rank": 8,
+            "worst_rank": 16
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Edward M. Bernstein & Associates Accident and Injury Lawyers",
+            "climbed_positions": 5,
+            "their_review_gain": 18,
+            "their_rating": 4.6,
+            "their_current_rank": 9
+          },
+          "category_health": {
+            "score": 6.9,
+            "your_reviews": 606,
+            "category_avg_reviews": 1251,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039766+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d68d238c1ff8",
+      "email": "info@cvbnlaw.com",
+      "business_name": "CVBN LAW",
+      "category_key": "las vegas_nv_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "las vegas_nv_personal-injury-lawyer",
+        "business_name": "CVBN LAW",
+        "address": "8861 W Sahara Ave #215, Las Vegas, NV 89117",
+        "phone": "(702) 255-0700",
+        "website": "https://cvbnlaw.com/",
+        "prev_rank": 16,
+        "curr_rank": 19,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 513,
+        "prev_reviews": 509,
+        "reasons": [
+          "Competitors above you gained reviews: Richard Harris Law Firm gained 73 new reviews; Naqvi Accident Injury Law gained 10 new reviews; Adam S. Kutner, Injury Attorneys gained 10 new reviews",
+          "5 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.7,
+            "total_gained": 4,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              17,
+              17,
+              17,
+              18,
+              20,
+              16
+            ],
+            "best_rank": 16,
+            "worst_rank": 20
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Edward M. Bernstein & Associates Accident and Injury Lawyers",
+            "climbed_positions": 5,
+            "their_review_gain": 18,
+            "their_rating": 4.6,
+            "their_current_rank": 9
+          },
+          "category_health": {
+            "score": 6.5,
+            "your_reviews": 513,
+            "category_avg_reviews": 1251,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039771+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "0e05838ac0e8",
+      "email": "fryplumbinghvac@gmail.com",
+      "business_name": "Fry Plumbing, Heating And Air Conditioning Corp.",
+      "category_key": "washington_dc_emergency-plumber",
+      "alert_data": {
+        "category_key": "washington_dc_emergency-plumber",
+        "business_name": "Fry Plumbing, Heating And Air Conditioning Corp.",
+        "address": "327 L St NE REAR, Washington, DC 20002, United States",
+        "phone": "+1 202-769-0338",
+        "website": "https://www.fryplumbing.com/",
+        "prev_rank": 5,
+        "curr_rank": 10,
+        "rank_change": 5,
+        "rating": 4.8,
+        "reviews": 109,
+        "prev_reviews": 108,
+        "reasons": [
+          "Competitors above you gained reviews: Roto-Rooter Plumbing & Water Cleanup gained 8 new reviews; Haynes Plumbing gained 2 new reviews; The Honest Plumbing & Drain Service near Washington, DC gained 1 new review",
+          "1 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.0,
+            "total_gained": 7,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              7,
+              6,
+              6,
+              8,
+              14,
+              5
+            ],
+            "best_rank": 5,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Emerald Plumbing Co.",
+            "climbed_positions": 10,
+            "their_review_gain": 136,
+            "their_rating": 4.8,
+            "their_current_rank": 8
+          },
+          "category_health": {
+            "score": 5.3,
+            "your_reviews": 109,
+            "category_avg_reviews": 581,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.6,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039776+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ea24421cdb02",
+      "email": "dcmetroplumbingheating@gmail.com",
+      "business_name": "DC Metro Plumbing & Heating",
+      "category_key": "washington_dc_emergency-plumber",
+      "alert_data": {
+        "category_key": "washington_dc_emergency-plumber",
+        "business_name": "DC Metro Plumbing & Heating",
+        "address": "6119 Chillum Pl NE, Washington, DC 20011, United States",
+        "phone": "+1 240-888-9739",
+        "website": "http://dcmetroplumbingheating.com/",
+        "prev_rank": 6,
+        "curr_rank": 12,
+        "rank_change": 6,
+        "rating": 5,
+        "reviews": 24,
+        "prev_reviews": 24,
+        "reasons": [
+          "Competitors above you gained reviews: Roto-Rooter Plumbing & Water Cleanup gained 8 new reviews; Haynes Plumbing gained 2 new reviews; The Honest Plumbing & Drain Service near Washington, DC gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.9,
+            "total_gained": 13,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              8,
+              7,
+              7,
+              10,
+              10,
+              6
+            ],
+            "best_rank": 6,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Emerald Plumbing Co.",
+            "climbed_positions": 10,
+            "their_review_gain": 136,
+            "their_rating": 4.8,
+            "their_current_rank": 8
+          },
+          "category_health": {
+            "score": 4.6,
+            "your_reviews": 24,
+            "category_avg_reviews": 581,
+            "your_rating": 5,
+            "category_avg_rating": 4.6,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039780+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "9531273b035e",
+      "email": "info@metrodentaldc.com",
+      "business_name": "Washington Metro Dental",
+      "category_key": "washington_dc_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "washington_dc_cosmetic-dentist",
+        "business_name": "Washington Metro Dental",
+        "address": "1828 L St NW Ste 870, Washington, DC 20036",
+        "phone": "(202) 952-1467",
+        "website": "https://www.washingtonmetrodental.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+        "prev_rank": 13,
+        "curr_rank": 16,
+        "rank_change": 3,
+        "rating": 4.6,
+        "reviews": 459,
+        "prev_reviews": 459,
+        "reasons": [
+          "Competitors above you gained reviews: District Cosmetic Dental: Shaun Alex, DDS gained 4 new reviews; DC Pearls Dental Boutique gained 14 new reviews; DC Dental Spa - Dentist Washington DC gained 2 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "15 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.5,
+            "total_gained": 3,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              14,
+              14,
+              13,
+              19,
+              16,
+              13
+            ],
+            "best_rank": 13,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "DentalPolitan",
+            "climbed_positions": 6,
+            "their_review_gain": 7,
+            "their_rating": 4.9,
+            "their_current_rank": 10
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 459,
+            "category_avg_reviews": 291,
+            "your_rating": 4.6,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039784+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "4ba9272853e2",
+      "email": "info@joelnelsongroup.com",
+      "business_name": "Joel Nelson Group",
+      "category_key": "washington_dc_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "washington_dc_luxury-real-estate-agent",
+        "business_name": "Joel Nelson Group",
+        "address": "519 C St NE, Washington, DC 20002",
+        "phone": "(202) 243-7707",
+        "website": "http://www.joelnelsongroup.com/",
+        "prev_rank": 1,
+        "curr_rank": 4,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 127,
+        "prev_reviews": 127,
+        "reasons": [
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.7,
+            "total_gained": 5,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              5,
+              6,
+              4,
+              3,
+              3,
+              1
+            ],
+            "best_rank": 1,
+            "worst_rank": 6
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Love Live DC Real Estate Team",
+            "climbed_positions": 6,
+            "their_review_gain": 1,
+            "their_rating": 5,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 9.5,
+            "your_reviews": 127,
+            "category_avg_reviews": 151,
+            "your_rating": 5,
+            "category_avg_rating": 4.5,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039789+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "c7a43ee79436",
+      "email": "neil@thebacchusgroup.net",
+      "business_name": "The Bacchus Group with EXP Realty",
+      "category_key": "washington_dc_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "washington_dc_luxury-real-estate-agent",
+        "business_name": "The Bacchus Group with EXP Realty",
+        "address": "800 Maine Ave SW #200, Washington, DC 20024",
+        "phone": "(301) 674-8090",
+        "website": "https://www.thebacchusgroup.net/t?source_string=googlebiz&page_url=%2F",
+        "prev_rank": 7,
+        "curr_rank": 14,
+        "rank_change": 7,
+        "rating": 4.9,
+        "reviews": 68,
+        "prev_reviews": 72,
+        "reasons": [
+          "5 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.1,
+            "total_gained": 1,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              10,
+              11,
+              7,
+              8,
+              10,
+              7
+            ],
+            "best_rank": 6,
+            "worst_rank": 11
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Love Live DC Real Estate Team",
+            "climbed_positions": 6,
+            "their_review_gain": 1,
+            "their_rating": 5,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 7.1,
+            "your_reviews": 68,
+            "category_avg_reviews": 151,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.5,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039793+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "821aa66caeac",
+      "email": "hello@100percentplumbingtn.com",
+      "business_name": "100 Percent Plumbing",
+      "category_key": "nashville_tn_emergency-plumber",
+      "alert_data": {
+        "category_key": "nashville_tn_emergency-plumber",
+        "business_name": "100 Percent Plumbing",
+        "address": "1515 Elm Hill Pike #201, Nashville, TN 37210",
+        "phone": "(615) 431-1100",
+        "website": "https://100percentplumbingtn.com/",
+        "prev_rank": 5,
+        "curr_rank": 8,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 367,
+        "prev_reviews": 356,
+        "reasons": [
+          "Competitors above you gained reviews: Roto-Rooter Plumbing & Water Cleanup gained 1 new review; 615 Plumbing gained 3 new reviews; Doctor Drips Plumbing - Nashville gained 2 new reviews"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 9.1,
+            "total_gained": 64,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              8,
+              9,
+              8,
+              6,
+              10,
+              5
+            ],
+            "best_rank": 5,
+            "worst_rank": 10
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "615 Plumbing",
+            "climbed_positions": 3,
+            "their_review_gain": 72,
+            "their_rating": 4.7,
+            "their_current_rank": 3
+          },
+          "category_health": {
+            "score": 7.5,
+            "your_reviews": 367,
+            "category_avg_reviews": 658,
+            "your_rating": 5,
+            "category_avg_rating": 4.8,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039797+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d656ede24e53",
+      "email": "office@eastnashvilledentistry.com",
+      "business_name": "East Nashville Aesthetic and Implant Dentistry",
+      "category_key": "nashville_tn_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "nashville_tn_cosmetic-dentist",
+        "business_name": "East Nashville Aesthetic and Implant Dentistry",
+        "address": "815 Gallatin Ave, Nashville, TN 37206",
+        "phone": "(615) 208-4447",
+        "website": "https://eastnashvilledentistry.com/?utm_source=businessprofiles&utm_medium=organic&utm_campaign=offsiteSEO",
+        "prev_rank": 14,
+        "curr_rank": 17,
+        "rank_change": 3,
+        "rating": 4.8,
+        "reviews": 577,
+        "prev_reviews": 576,
+        "reasons": [
+          "Competitors above you gained reviews: Smile on Nashville gained 1 new review; Nashville Aesthetic Dentistry gained 4 new reviews; Nashville Smile Creations gained 7 new reviews",
+          "13 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 6.6,
+            "total_gained": 46,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              13,
+              12,
+              14,
+              13,
+              17,
+              14
+            ],
+            "best_rank": 10,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Nashville Smile Creations",
+            "climbed_positions": 10,
+            "their_review_gain": 86,
+            "their_rating": 4.7,
+            "their_current_rank": 4
+          },
+          "category_health": {
+            "score": 9.2,
+            "your_reviews": 577,
+            "category_avg_reviews": 656,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039802+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "bf4e87ca3042",
+      "email": "email@address.com",
+      "business_name": "12 South Dental Studio",
+      "category_key": "nashville_tn_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "nashville_tn_cosmetic-dentist",
+        "business_name": "12 South Dental Studio",
+        "address": "2700 12th Ave S, Nashville, TN 37204",
+        "phone": "(615) 832-6300",
+        "website": "http://www.12southdentalstudio.com/",
+        "prev_rank": 12,
+        "curr_rank": 20,
+        "rank_change": 8,
+        "rating": 5,
+        "reviews": 581,
+        "prev_reviews": 580,
+        "reasons": [
+          "Competitors above you gained reviews: Smile on Nashville gained 1 new review; Nashville Aesthetic Dentistry gained 4 new reviews; Nashville Smile Creations gained 7 new reviews"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 2.4,
+            "total_gained": 17,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              12,
+              10,
+              13,
+              11,
+              19,
+              12
+            ],
+            "best_rank": 10,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Nashville Smile Creations",
+            "climbed_positions": 10,
+            "their_review_gain": 86,
+            "their_rating": 4.7,
+            "their_current_rank": 4
+          },
+          "category_health": {
+            "score": 9.4,
+            "your_reviews": 581,
+            "category_avg_reviews": 656,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039806+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "1a9a144aa723",
+      "email": "contact@felixhomes.com",
+      "business_name": "Felix Homes",
+      "category_key": "nashville_tn_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "nashville_tn_luxury-real-estate-agent",
+        "business_name": "Felix Homes",
+        "address": "1033 Demonbreun St #300, Nashville, TN 37203",
+        "phone": "(615) 354-5731",
+        "website": "https://www.felixhomes.com/",
+        "prev_rank": 15,
+        "curr_rank": 18,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 221,
+        "prev_reviews": 221,
+        "reasons": [
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "13 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.4,
+            "total_gained": 10,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              12,
+              14,
+              15,
+              13,
+              13,
+              15
+            ],
+            "best_rank": 12,
+            "worst_rank": 15
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "The Anderson Group Real Estate Services",
+            "climbed_positions": 8,
+            "their_review_gain": 1,
+            "their_rating": 5,
+            "their_current_rank": 1
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 221,
+            "category_avg_reviews": 145,
+            "your_rating": 4.9,
+            "category_avg_rating": 5.0,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039810+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "89469fb4d2f2",
+      "email": "excellent@excellentplumbingservices.com",
+      "business_name": "Excellent Plumbing Services",
+      "category_key": "tampa_fl_emergency-plumber",
+      "alert_data": {
+        "category_key": "tampa_fl_emergency-plumber",
+        "business_name": "Excellent Plumbing Services",
+        "address": "2129 W Marianna St, Tampa, FL 33612",
+        "phone": "(813) 734-9192",
+        "website": "https://www.excellentplumbingtampa.com/",
+        "prev_rank": 14,
+        "curr_rank": 17,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 203,
+        "prev_reviews": 204,
+        "reasons": [
+          "Competitors above you gained reviews: EVERYDAYPLUMBER.com gained 39 new reviews; The Clean Plumbers - Tampa gained 10 new reviews; Olin Plumbing Inc. gained 7 new reviews",
+          "1 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.4,
+            "total_gained": 10,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              10,
+              10,
+              9,
+              10,
+              12,
+              14
+            ],
+            "best_rank": 9,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Formula Plumbing South Tampa, FL",
+            "climbed_positions": 11,
+            "their_review_gain": 36,
+            "their_rating": 4.9,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 5.1,
+            "your_reviews": 203,
+            "category_avg_reviews": 1165,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039815+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "800a634388d0",
+      "email": "info@tampadental.com",
+      "business_name": "Tampa Dental",
+      "category_key": "tampa_fl_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "tampa_fl_cosmetic-dentist",
+        "business_name": "Tampa Dental",
+        "address": "6421 Sheldon Rd, Tampa, FL 33615",
+        "phone": "(813) 888-9004",
+        "website": "https://www.tampadental.com/",
+        "prev_rank": 10,
+        "curr_rank": 20,
+        "rank_change": 10,
+        "rating": 4.9,
+        "reviews": 1081,
+        "prev_reviews": 1081,
+        "reasons": [
+          "Competitors above you gained reviews: General and Cosmetic Dentistry of South Tampa gained 1 new review; General and Cosmetic Dentistry of Tampa - Randall Diez and Michael Diez gained 1 new review; Tampa Bay Smile Makers gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "4 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.1,
+            "total_gained": 1,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              9,
+              12,
+              16,
+              13,
+              16,
+              10
+            ],
+            "best_rank": 9,
+            "worst_rank": 16
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "South Tampa Smiles",
+            "climbed_positions": 13,
+            "their_review_gain": 85,
+            "their_rating": 4.9,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 1081,
+            "category_avg_reviews": 857,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039819+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "434c654359eb",
+      "email": "fausto@faustorealestate.com",
+      "business_name": "The Fausto Group | Global Estates | Tampa / St. Pete / Miami Luxury Real Estate Team",
+      "category_key": "tampa_fl_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "tampa_fl_luxury-real-estate-agent",
+        "business_name": "The Fausto Group | Global Estates | Tampa / St. Pete / Miami Luxury Real Estate Team",
+        "address": "250 Westshore Plaza, Tampa, FL 33609",
+        "phone": "(323) 880-9555",
+        "website": "https://www.faustorealestate.com/",
+        "prev_rank": 4,
+        "curr_rank": 8,
+        "rank_change": 4,
+        "rating": 5,
+        "reviews": 10,
+        "prev_reviews": 10,
+        "reasons": [
+          "Competitors above you gained reviews: Tampa FL Listings | Alex Antonakos Luxury Group - Quicksilver Real Estate gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              5,
+              3,
+              4,
+              4,
+              4,
+              4
+            ],
+            "best_rank": 3,
+            "worst_rank": 5
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Tillung Tampa Bay",
+            "climbed_positions": 6,
+            "their_review_gain": 17,
+            "their_rating": 5,
+            "their_current_rank": 12
+          },
+          "category_health": {
+            "score": 4.3,
+            "your_reviews": 10,
+            "category_avg_reviews": 187,
+            "your_rating": 5,
+            "category_avg_rating": 5.0,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039824+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "66bc1a097a75",
+      "email": "joelewk@me.com",
+      "business_name": "The Lewkowicz Group | Realtor In Tampa FL",
+      "category_key": "tampa_fl_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "tampa_fl_luxury-real-estate-agent",
+        "business_name": "The Lewkowicz Group | Realtor In Tampa FL",
+        "address": "500 N Westshore Blvd #850, Tampa, FL 33609",
+        "phone": "(813) 215-6374",
+        "website": "http://www.thelewkowiczgroup.com/",
+        "prev_rank": 9,
+        "curr_rank": 16,
+        "rank_change": 7,
+        "rating": 4.9,
+        "reviews": 55,
+        "prev_reviews": 55,
+        "reasons": [
+          "Competitors above you gained reviews: Tampa FL Listings | Alex Antonakos Luxury Group - Quicksilver Real Estate gained 1 new review; Tillung Tampa Bay gained 13 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "12 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.6,
+            "total_gained": 4,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              10,
+              8,
+              8,
+              8,
+              9,
+              9
+            ],
+            "best_rank": 8,
+            "worst_rank": 20
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Tillung Tampa Bay",
+            "climbed_positions": 6,
+            "their_review_gain": 17,
+            "their_rating": 5,
+            "their_current_rank": 12
+          },
+          "category_health": {
+            "score": 5.7,
+            "your_reviews": 55,
+            "category_avg_reviews": 187,
+            "your_rating": 4.9,
+            "category_avg_rating": 5.0,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039828+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "402b6a55fd96",
+      "email": "info@rnawellness.com",
+      "business_name": "R&A Wellness and Regenerative Medicine",
+      "category_key": "tampa_fl_regenerative-medicine",
+      "alert_data": {
+        "category_key": "tampa_fl_regenerative-medicine",
+        "business_name": "R&A Wellness and Regenerative Medicine",
+        "address": "400 N Ashley Dr #2600, Tampa, FL 33602",
+        "phone": "(813) 440-3060",
+        "website": "https://www.rnawellness.com/",
+        "prev_rank": 6,
+        "curr_rank": 9,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 129,
+        "prev_reviews": 127,
+        "reasons": [
+          "Competitors above you gained reviews: Tampa Regenerative Therapy gained 2 new reviews"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 2.6,
+            "total_gained": 18,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              6,
+              7,
+              7,
+              6,
+              6,
+              6
+            ],
+            "best_rank": 6,
+            "worst_rank": 8
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Phoenix Regenerative Services LLC",
+            "climbed_positions": 10,
+            "their_review_gain": 2,
+            "their_rating": 5,
+            "their_current_rank": 4
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 129,
+            "category_avg_reviews": 71,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039833+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "71f38e3727f7",
+      "email": "info@legalgroup.email",
+      "business_name": "Portland Legal Group",
+      "category_key": "portland_or_personal-injury-lawyer",
+      "alert_data": {
+        "category_key": "portland_or_personal-injury-lawyer",
+        "business_name": "Portland Legal Group",
+        "address": "9818 E Burnside St, Portland, OR 97216",
+        "phone": "(503) 902-4260",
+        "website": "https://portlandlegalgroup.com/?utm_source=google&utm_medium=organic&utm_campaign=GMB",
+        "prev_rank": 14,
+        "curr_rank": 17,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 602,
+        "prev_reviews": 594,
+        "reasons": [
+          "Competitors above you gained reviews: Johnston Law Firm gained 4 new reviews; Moseley Collins Law gained 15 new reviews; Goldberg & Loren gained 1 new review"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 11.0,
+            "total_gained": 66,
+            "over_weeks": 6,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              19,
+              17,
+              18,
+              15,
+              12,
+              14
+            ],
+            "best_rank": 12,
+            "worst_rank": 19
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Law Tigers - Portland Motorcycle Lawyers",
+            "climbed_positions": 6,
+            "their_review_gain": 1,
+            "their_rating": 5,
+            "their_current_rank": 14
+          },
+          "category_health": {
+            "score": 10,
+            "your_reviews": 602,
+            "category_avg_reviews": 394,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039837+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ed76ea68c5e8",
+      "email": "info@perfectservice.pro",
+      "business_name": "Perfect Service Plumbing and Drain Cleaning",
+      "category_key": "portland_or_emergency-plumber",
+      "alert_data": {
+        "category_key": "portland_or_emergency-plumber",
+        "business_name": "Perfect Service Plumbing and Drain Cleaning",
+        "address": "1011 SE Oak St, Portland, OR 97214",
+        "phone": "(503) 964-4000",
+        "website": "https://www.theperfectservice.com/",
+        "prev_rank": 4,
+        "curr_rank": 7,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 283,
+        "prev_reviews": 287,
+        "reasons": [
+          "Competitors above you gained reviews: Proline Plumbing gained 4 new reviews; D&F Plumbing, Heating and Cooling gained 6 new reviews; Anytime Plumbing gained 4 new reviews"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 9.0,
+            "total_gained": 63,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              5,
+              5,
+              7,
+              6,
+              6,
+              4
+            ],
+            "best_rank": 4,
+            "worst_rank": 7
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Roto-Rooter Plumbing & Water Cleanup",
+            "climbed_positions": 13,
+            "their_review_gain": 101,
+            "their_rating": 4.9,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 6.3,
+            "your_reviews": 283,
+            "category_avg_reviews": 810,
+            "your_rating": 5,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039841+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "07870326747b",
+      "email": "info@lovettservices.com",
+      "business_name": "Lovett Inc.",
+      "category_key": "portland_or_emergency-plumber",
+      "alert_data": {
+        "category_key": "portland_or_emergency-plumber",
+        "business_name": "Lovett Inc.",
+        "address": "6920 NE 42nd Ave, Portland, OR 97218",
+        "phone": "(971) 364-8423",
+        "website": "https://www.lovettservices.com/",
+        "prev_rank": 5,
+        "curr_rank": 11,
+        "rank_change": 6,
+        "rating": 4.9,
+        "reviews": 565,
+        "prev_reviews": 556,
+        "reasons": [
+          "Competitors above you gained reviews: Proline Plumbing gained 4 new reviews; D&F Plumbing, Heating and Cooling gained 6 new reviews; Anytime Plumbing gained 4 new reviews",
+          "2 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 4.6,
+            "total_gained": 32,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              6,
+              6,
+              5,
+              7,
+              7,
+              5
+            ],
+            "best_rank": 4,
+            "worst_rank": 7
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Roto-Rooter Plumbing & Water Cleanup",
+            "climbed_positions": 13,
+            "their_review_gain": 101,
+            "their_rating": 4.9,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 8.3,
+            "your_reviews": 565,
+            "category_avg_reviews": 810,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.8,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039845+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "fe79112e0362",
+      "email": "hello@pdxplumber.com",
+      "business_name": "PDX Plumber",
+      "category_key": "portland_or_emergency-plumber",
+      "alert_data": {
+        "category_key": "portland_or_emergency-plumber",
+        "business_name": "PDX Plumber",
+        "address": "9310 SW 4th Ave, Portland, OR 97219",
+        "phone": "(503) 451-6723",
+        "website": "https://pdxplumber.com/",
+        "prev_rank": 9,
+        "curr_rank": 15,
+        "rank_change": 6,
+        "rating": 5,
+        "reviews": 197,
+        "prev_reviews": 190,
+        "reasons": [
+          "Competitors above you gained reviews: Proline Plumbing gained 4 new reviews; D&F Plumbing, Heating and Cooling gained 6 new reviews; Anytime Plumbing gained 4 new reviews"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 5.3,
+            "total_gained": 37,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              11,
+              12,
+              10,
+              10,
+              10,
+              9
+            ],
+            "best_rank": 9,
+            "worst_rank": 14
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Roto-Rooter Plumbing & Water Cleanup",
+            "climbed_positions": 13,
+            "their_review_gain": 101,
+            "their_rating": 4.9,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 5.7,
+            "your_reviews": 197,
+            "category_avg_reviews": 810,
+            "your_rating": 5,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039850+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "ea6eb11acf9f",
+      "email": "frame-77B769057CEE4A5E7DE8F073243A18BB@mhtml.blink",
+      "business_name": "Twin Cities Premier Plumbing",
+      "category_key": "minneapolis_mn_emergency-plumber",
+      "alert_data": {
+        "category_key": "minneapolis_mn_emergency-plumber",
+        "business_name": "Twin Cities Premier Plumbing",
+        "address": "5775 Wayzata Blvd Suite 700, St Louis Park, MN 55416",
+        "phone": "(763) 299-6909",
+        "website": "http://twincitiespremierplumbing.com/",
+        "prev_rank": 5,
+        "curr_rank": 9,
+        "rank_change": 4,
+        "rating": 4.9,
+        "reviews": 378,
+        "prev_reviews": 375,
+        "reasons": [
+          "Competitors above you gained reviews: Roto-Rooter Plumbing & Water Cleanup gained 17 new reviews; Mr. Rooter Plumbing of the Twin Cities North gained 19 new reviews; Paul Bunyan Plumbing & Drains gained 6 new reviews",
+          "1 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 3.6,
+            "total_gained": 25,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "improving",
+            "history": [
+              17,
+              12,
+              6,
+              6,
+              10,
+              5
+            ],
+            "best_rank": 5,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Roto-Rooter Plumbing & Water Cleanup",
+            "climbed_positions": 5,
+            "their_review_gain": 129,
+            "their_rating": 4.9,
+            "their_current_rank": 15
+          },
+          "category_health": {
+            "score": 5.4,
+            "your_reviews": 378,
+            "category_avg_reviews": 1696,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039854+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "088f24b964ac",
+      "email": "Service@callplumbright.com",
+      "business_name": "Plumb Right",
+      "category_key": "minneapolis_mn_emergency-plumber",
+      "alert_data": {
+        "category_key": "minneapolis_mn_emergency-plumber",
+        "business_name": "Plumb Right",
+        "address": "6900 Winnetka Cir Ste 350, Brooklyn Park, MN 55428",
+        "phone": "(763) 307-6988",
+        "website": "http://www.callplumbright.com/",
+        "prev_rank": 11,
+        "curr_rank": 17,
+        "rank_change": 6,
+        "rating": 4.8,
+        "reviews": 932,
+        "prev_reviews": 932,
+        "reasons": [
+          "Competitors above you gained reviews: Roto-Rooter Plumbing & Water Cleanup gained 17 new reviews; Mr. Rooter Plumbing of the Twin Cities North gained 19 new reviews; Paul Bunyan Plumbing & Drains gained 6 new reviews",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "9 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.1,
+            "total_gained": 8,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              13,
+              14,
+              16,
+              17,
+              14,
+              11
+            ],
+            "best_rank": 9,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Twin Cities Premier Plumbing",
+            "climbed_positions": 8,
+            "their_review_gain": 28,
+            "their_rating": 4.9,
+            "their_current_rank": 9
+          },
+          "category_health": {
+            "score": 7.3,
+            "your_reviews": 932,
+            "category_avg_reviews": 1696,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.8,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039858+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "827cc11e45e1",
+      "email": "frontdesk@citytooth.com",
+      "business_name": "CityTooth Ltd",
+      "category_key": "minneapolis_mn_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "minneapolis_mn_cosmetic-dentist",
+        "business_name": "CityTooth Ltd",
+        "address": "Medical Arts Bldg, 825 Nicollet Mall Suite 812, Minneapolis, MN 55402",
+        "phone": "(612) 338-2835",
+        "website": "http://citytooth.com/",
+        "prev_rank": 14,
+        "curr_rank": 19,
+        "rank_change": 5,
+        "rating": 4.9,
+        "reviews": 158,
+        "prev_reviews": 157,
+        "reasons": [
+          "Competitors above you gained reviews: J & D Dental gained 1 new review; Parkway Dental Center - Minneapolis gained 5 new reviews; Linden Hills Dentistry gained 3 new reviews",
+          "3 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.8,
+            "total_gained": 11,
+            "over_weeks": 6,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              12,
+              14,
+              13,
+              14,
+              14,
+              14
+            ],
+            "best_rank": 12,
+            "worst_rank": 18
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Diamond Lake Dental",
+            "climbed_positions": 10,
+            "their_review_gain": 1,
+            "their_rating": 4.9,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 6.3,
+            "your_reviews": 158,
+            "category_avg_reviews": 404,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039863+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "d4f33f987f7a",
+      "email": "info@encinofamilydds.com",
+      "business_name": "Encino Family Dentistry, Cosmetic & Implant Center",
+      "category_key": "san antonio_tx_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "san antonio_tx_cosmetic-dentist",
+        "business_name": "Encino Family Dentistry, Cosmetic & Implant Center",
+        "address": "2339 E Evans Rd #100, San Antonio, TX 78259",
+        "phone": "(210) 503-0230",
+        "website": "https://encinofamilydds.com/",
+        "prev_rank": 16,
+        "curr_rank": 19,
+        "rank_change": 3,
+        "rating": 5,
+        "reviews": 254,
+        "prev_reviews": 254,
+        "reasons": [
+          "Competitors above you gained reviews: Cosmetic Dentistry of San Antonio gained 1 new review; Cosmetic Dental Associates - Medical Center gained 5 new reviews; The Smile Institute gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 2.3,
+            "total_gained": 14,
+            "over_weeks": 6,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              15,
+              16,
+              15,
+              17,
+              16,
+              16
+            ],
+            "best_rank": 14,
+            "worst_rank": 17
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Jurich Dental",
+            "climbed_positions": 9,
+            "their_review_gain": 5,
+            "their_rating": 5,
+            "their_current_rank": 9
+          },
+          "category_health": {
+            "score": 7.0,
+            "your_reviews": 254,
+            "category_avg_reviews": 517,
+            "your_rating": 5,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039867+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "5d78360ae9af",
+      "email": "info@indiantypefoundry.com",
+      "business_name": "Legendary Realty - Real Estate Broker, Realtor",
+      "category_key": "san antonio_tx_luxury-real-estate-agent",
+      "alert_data": {
+        "category_key": "san antonio_tx_luxury-real-estate-agent",
+        "business_name": "Legendary Realty - Real Estate Broker, Realtor",
+        "address": "126 Lanark Dr, San Antonio, TX 78218",
+        "phone": "(210) 214-2685",
+        "website": "http://www.satxsold.com/",
+        "prev_rank": 13,
+        "curr_rank": 16,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 28,
+        "prev_reviews": 32,
+        "reasons": [
+          "Competitors above you gained reviews: Patti Nelson Luxury Realty gained 1 new review",
+          "11 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.0,
+            "total_gained": 0,
+            "over_weeks": 6,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              14,
+              14,
+              14,
+              14,
+              15,
+              13
+            ],
+            "best_rank": 12,
+            "worst_rank": 15
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Nicholas Kjos, Luxury Real Estate Advisor",
+            "climbed_positions": 8,
+            "their_review_gain": 7,
+            "their_rating": 5,
+            "their_current_rank": 3
+          },
+          "category_health": {
+            "score": 8.0,
+            "your_reviews": 28,
+            "category_avg_reviews": 46,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.5,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039871+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "02f877566123",
+      "email": "jobs@greenwayplumber.com",
+      "business_name": "Greenway Plumbing Services",
+      "category_key": "orlando_fl_emergency-plumber",
+      "alert_data": {
+        "category_key": "orlando_fl_emergency-plumber",
+        "business_name": "Greenway Plumbing Services",
+        "address": "751 W Colonial Dr, Orlando, FL 32804",
+        "phone": "(407) 234-0003",
+        "website": "https://greenwayplumber.com/",
+        "prev_rank": 13,
+        "curr_rank": 19,
+        "rank_change": 6,
+        "rating": 4.9,
+        "reviews": 671,
+        "prev_reviews": 668,
+        "reasons": [
+          "Competitors above you gained reviews: Emerald Plumbing gained 1 new review; Choice Plumbing Orlando gained 11 new reviews; El Plomero Latino Inc. gained 5 new reviews"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 3.6,
+            "total_gained": 25,
+            "over_weeks": 7,
+            "verdict": "strong"
+          },
+          "rank_trend": {
+            "direction": "declining",
+            "history": [
+              12,
+              14,
+              14,
+              13,
+              20,
+              13
+            ],
+            "best_rank": 12,
+            "worst_rank": 20
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Hers & His Plumbing Services",
+            "climbed_positions": 8,
+            "their_review_gain": 274,
+            "their_rating": 4.7,
+            "their_current_rank": 11
+          },
+          "category_health": {
+            "score": 6.7,
+            "your_reviews": 671,
+            "category_avg_reviews": 1548,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.8,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039876+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "4b0e123fa97b",
+      "email": "herrellplumbing@gmail.com",
+      "business_name": "Herrell Plumbing",
+      "category_key": "orlando_fl_emergency-plumber",
+      "alert_data": {
+        "category_key": "orlando_fl_emergency-plumber",
+        "business_name": "Herrell Plumbing",
+        "address": "5613 E Colonial Dr, Orlando, FL 32807",
+        "phone": "(407) 273-6260",
+        "website": "https://www.herrellplumbing.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-website",
+        "prev_rank": 16,
+        "curr_rank": 20,
+        "rank_change": 4,
+        "rating": 4.5,
+        "reviews": 188,
+        "prev_reviews": 184,
+        "reasons": [
+          "Competitors above you gained reviews: Emerald Plumbing gained 1 new review; Choice Plumbing Orlando gained 11 new reviews; El Plomero Latino Inc. gained 5 new reviews",
+          "19 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.6,
+            "total_gained": 11,
+            "over_weeks": 7,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "volatile",
+            "history": [
+              14,
+              16,
+              20,
+              16,
+              17,
+              16
+            ],
+            "best_rank": 14,
+            "worst_rank": 20
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "Hers & His Plumbing Services",
+            "climbed_positions": 8,
+            "their_review_gain": 274,
+            "their_rating": 4.7,
+            "their_current_rank": 11
+          },
+          "category_health": {
+            "score": 4.5,
+            "your_reviews": 188,
+            "category_avg_reviews": 1548,
+            "your_rating": 4.5,
+            "category_avg_rating": 4.8,
+            "position_summary": "needs attention"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039880+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "e258248c5d96",
+      "email": "info@elegantlydental.com",
+      "business_name": "Elegantly Dental of Sand Lake",
+      "category_key": "orlando_fl_cosmetic-dentist",
+      "alert_data": {
+        "category_key": "orlando_fl_cosmetic-dentist",
+        "business_name": "Elegantly Dental of Sand Lake",
+        "address": "1325 Florida Mall Ave, Orlando, FL 32809",
+        "phone": "(407) 851-0784",
+        "website": "https://www.elegantlydental.com/sand-lake-orlando/",
+        "prev_rank": 15,
+        "curr_rank": 18,
+        "rank_change": 3,
+        "rating": 4.9,
+        "reviews": 734,
+        "prev_reviews": 735,
+        "reasons": [
+          "Competitors above you gained reviews: Fine Dentistry of Downtown Orlando gained 5 new reviews; Orlando Family & Cosmetic Dentistry gained 2 new reviews; The Smile Mission - South Orlando gained 28 new reviews",
+          "2 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 1.0,
+            "total_gained": 6,
+            "over_weeks": 6,
+            "verdict": "moderate"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              13,
+              12,
+              13,
+              13,
+              15,
+              15
+            ],
+            "best_rank": 12,
+            "worst_rank": 16
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "The Smile Mission - South Orlando",
+            "climbed_positions": 12,
+            "their_review_gain": 226,
+            "their_rating": 4.9,
+            "their_current_rank": 6
+          },
+          "category_health": {
+            "score": 9.0,
+            "your_reviews": 734,
+            "category_avg_reviews": 874,
+            "your_rating": 4.9,
+            "category_avg_rating": 4.9,
+            "position_summary": "above average"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039884+00:00",
+      "status": "pending",
+      "delivered_at": null
+    },
+    {
+      "id": "9b78892faff0",
+      "email": "info@pure-renewal.com",
+      "business_name": "Pure Renewal Regenerative Concierge Medicine",
+      "category_key": "orlando_fl_regenerative-medicine",
+      "alert_data": {
+        "category_key": "orlando_fl_regenerative-medicine",
+        "business_name": "Pure Renewal Regenerative Concierge Medicine",
+        "address": "801 N Orange Ave Ste 710A, Orlando, FL 32801",
+        "phone": "(407) 333-0496",
+        "website": "https://www.pure-renewal.com/",
+        "prev_rank": 2,
+        "curr_rank": 6,
+        "rank_change": 4,
+        "rating": 4.8,
+        "reviews": 17,
+        "prev_reviews": 17,
+        "reasons": [
+          "Competitors above you gained reviews: Regenerative Sport, Spine and Spa gained 2 new reviews; PrimeCell Regenerative & Aesthetic Medicine gained 1 new review; Infinity Regenerative Medicine gained 1 new review",
+          "No new reviews this week \u2014 Google favors actively reviewed businesses",
+          "4 competitor(s) above you have higher ratings"
+        ],
+        "scan_date": "2026-11-09T22:50:52.358923+00:00",
+        "weeks_tracked": 10,
+        "insights": {
+          "review_velocity": {
+            "reviews_per_week": 0.9,
+            "total_gained": 6,
+            "over_weeks": 7,
+            "verdict": "stagnant"
+          },
+          "rank_trend": {
+            "direction": "stable",
+            "history": [
+              3,
+              3,
+              3,
+              1,
+              4,
+              2
+            ],
+            "best_rank": 1,
+            "worst_rank": 4
+          },
+          "competitor_spotlight": {
+            "fastest_climber": "REV\u012aV Regenerative Medicine",
+            "climbed_positions": 5,
+            "their_review_gain": 0,
+            "their_rating": 5,
+            "their_current_rank": 7
+          },
+          "category_health": {
+            "score": 5.4,
+            "your_reviews": 17,
+            "category_avg_reviews": 70,
+            "your_rating": 4.8,
+            "category_avg_rating": 4.9,
+            "position_summary": "competitive"
+          }
+        }
+      },
+      "pdf_path": "",
+      "created_at": "2026-11-09T22:55:59.039889+00:00",
       "status": "pending",
       "delivered_at": null
     }
