@@ -1,0 +1,30 @@
+2026-11-10 15:22:19,213 [INFO] orchestrator — ============================================================
+2026-11-10 15:22:19,213 [INFO] orchestrator — Starting AI Tools Weekly pipeline
+2026-11-10 15:22:19,214 [INFO] orchestrator — Timestamp: 2026-11-10T15:22:19.214012+00:00
+2026-11-10 15:22:19,214 [INFO] orchestrator — ============================================================
+2026-11-10 15:22:19,258 [INFO] orchestrator — [1/4] Feed Agent: fetching RSS sources...
+2026-11-10 15:22:19,452 [INFO] agents.feed_agent —   TechCrunch AI: fetched 20 fresh items
+2026-11-10 15:22:20,097 [WARNING] agents.feed_agent — Feed error for The Verge AI: <unknown>:7:28: not well-formed (invalid token)
+2026-11-10 15:22:20,776 [INFO] agents.feed_agent —   MIT Technology Review AI: fetched 6 fresh items
+2026-11-10 15:22:21,443 [WARNING] agents.feed_agent — Feed error for VentureBeat AI: <unknown>:2:39: not well-formed (invalid token)
+2026-11-10 15:22:22,267 [INFO] agents.feed_agent —   Hacker News (Top): fetched 20 fresh items
+2026-11-10 15:22:22,932 [INFO] agents.feed_agent —   Product Hunt AI: fetched 37 fresh items
+2026-11-10 15:22:24,113 [WARNING] agents.feed_agent — Feed error for Anthropic Blog: text/html; charset=utf-8 is not an XML media type
+2026-11-10 15:22:25,473 [INFO] agents.feed_agent —   OpenAI Blog: fetched 21 fresh items
+2026-11-10 15:22:25,976 [INFO] agents.feed_agent — Feed Agent: selected 10 items from 104 total
+2026-11-10 15:22:25,977 [INFO] orchestrator —       Got 10 items
+2026-11-10 15:22:25,977 [INFO] orchestrator — [2/4] Content Agent: generating newsletter via Claude...
+2026-11-10 15:22:25,977 [INFO] agents.content_agent — Generating newsletter with sponsors: Notion, Writesonic
+2026-11-10 15:22:41,964 [INFO] httpx2 — HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-11-10 15:22:41,977 [INFO] agents.content_agent — Content Agent: generated issue — Subject: 'Code shipped 20x faster (here's how)'
+2026-11-10 15:22:41,977 [INFO] orchestrator —       Subject: 'Code shipped 20x faster (here's how)'
+2026-11-10 15:22:41,977 [INFO] orchestrator — [3/4] Publisher Agent: sending via Kit API...
+2026-11-10 15:22:41,977 [INFO] agents.publisher_agent — Creating and scheduling broadcast via Kit API v3...
+2026-11-10 15:22:42,744 [INFO] agents.publisher_agent — Publisher Agent: broadcast scheduled for 2026-11-10T15:25:41+0000, ID=26929425
+2026-11-10 15:22:42,843 [INFO] orchestrator —       Broadcast ID: 26929425, Subscribers: 2
+2026-11-10 15:22:42,843 [INFO] orchestrator — [4/4] Monitor Agent: health checks + self-correction...
+2026-11-10 15:22:42,843 [INFO] agents.monitor_agent — Monitor: Newsletter published OK. Broadcast ID: 26929425
+2026-11-10 15:22:45,159 [INFO] agents.monitor_agent — Alert email sent: [Weekly Report] AI Tools Weekly
+2026-11-10 15:22:45,159 [INFO] orchestrator — ============================================================
+2026-11-10 15:22:45,159 [INFO] orchestrator — Pipeline complete. Status: SUCCESS
+2026-11-10 15:22:45,159 [INFO] orchestrator — ============================================================
