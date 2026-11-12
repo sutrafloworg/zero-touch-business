@@ -92095,7 +92095,620 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 18.0,
+          "n_snapshots": 10,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 18
+            },
+            {
+              "date": "Jul 20",
+              "rank": 15
+            },
+            {
+              "date": "Aug 03",
+              "rank": 20
+            },
+            {
+              "date": "Aug 31",
+              "rank": 17
+            },
+            {
+              "date": "Sep 14",
+              "rank": 11
+            },
+            {
+              "date": "Sep 28",
+              "rank": 15
+            },
+            {
+              "date": "Oct 12",
+              "rank": 5
+            },
+            {
+              "date": "Oct 26",
+              "rank": 13
+            },
+            {
+              "date": "Nov 09",
+              "rank": 6
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 694
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 707
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 726
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 797
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 823
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 855
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 875
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 892
+            },
+            {
+              "date": "Nov 09",
+              "reviews": 920
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              18,
+              15,
+              20,
+              17,
+              11,
+              15,
+              5,
+              13,
+              6
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12",
+              "Oct 26",
+              "Nov 09"
+            ],
+            "direction": "improving",
+            "best_rank": 5,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 12.56,
+            "total_gained": 226,
+            "weeks": 18.0,
+            "verdict": "strong"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Fine Dentistry of Downtown Orlando",
+              "rating": 4.8,
+              "reviews": 1132,
+              "review_velocity": 3.39,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUzExMN1654gRpjuhnGLcpOw"
+            },
+            {
+              "rank": 2,
+              "name": "Orlando Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 258,
+              "review_velocity": 4.11,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJkzdc9Mp654gRUT7aOtic0_0"
+            },
+            {
+              "rank": 3,
+              "name": "NuLife Dental: Cosmetic Dentist Orlando",
+              "rating": 4.9,
+              "reviews": 794,
+              "review_velocity": 0.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJtZF1YiBn54gRDD23rVi8FVg"
+            },
+            {
+              "rank": 4,
+              "name": "Orlando Center for Cosmetic Dentistry: Jose Marcano, DMD",
+              "rating": 4.8,
+              "reviews": 282,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJb7DiV31754gR1VFiPwrkaUU"
+            },
+            {
+              "rank": 5,
+              "name": "Mosaic Dental Center",
+              "rating": 4.9,
+              "reviews": 2009,
+              "review_velocity": 4.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ65v4nB9554gRuuCFYD_MO6U"
+            },
+            {
+              "rank": 6,
+              "name": "The Smile Mission - South Orlando",
+              "rating": 4.9,
+              "reviews": 920,
+              "review_velocity": 12.56,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJf2BzWgB954gR64KJxUnnSro"
+            },
+            {
+              "rank": 7,
+              "name": "Koyfman Dental",
+              "rating": 4.9,
+              "reviews": 1773,
+              "review_velocity": 2.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJn9EQEUZ654gRHLoURQK8KiE"
+            },
+            {
+              "rank": 8,
+              "name": "Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 584,
+              "review_velocity": 1.28,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJn1Qsm-5j54gRMuB8Ozhn7YY"
+            },
+            {
+              "rank": 9,
+              "name": "Lake Lucerne Cosmetic and Implant Dentistry",
+              "rating": 5.0,
+              "reviews": 664,
+              "review_velocity": 2.17,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJRcdOjwN754gRuppwyVpMo4c"
+            },
+            {
+              "rank": 10,
+              "name": "Dynamic Smile Design",
+              "rating": 4.9,
+              "reviews": 326,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJta5E9sJ654gRCgqNFlMVXOI"
+            },
+            {
+              "rank": 11,
+              "name": "Legacy Smiles of Orlando",
+              "rating": 4.9,
+              "reviews": 170,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJv_hOzvt654gRjycieXh0qMk"
+            },
+            {
+              "rank": 12,
+              "name": "Orlando Dental Center",
+              "rating": 4.8,
+              "reviews": 841,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJszmVtGJ754gRuKD6IByXoBo"
+            },
+            {
+              "rank": 13,
+              "name": "John E. Russo, DMD Family and Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 333,
+              "review_velocity": -0.11,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJU-DuMuZ654gR3258cvyqtzc"
+            },
+            {
+              "rank": 14,
+              "name": "Life Enhancing Dentistry",
+              "rating": 4.9,
+              "reviews": 385,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJGS7gASOK3YgRcNYQH43BMwU"
+            },
+            {
+              "rank": 15,
+              "name": "Equinox Dental",
+              "rating": 4.9,
+              "reviews": 215,
+              "review_velocity": 1.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJtU5iNc1_54gRDPY08jo3hPg"
+            },
+            {
+              "rank": 16,
+              "name": "Eternally Lit Smiles llc",
+              "rating": 5.0,
+              "reviews": 356,
+              "review_velocity": 1.25,
+              "website": true,
+              "type": "Teeth whitening service",
+              "_key": "ChIJxV_MRk9354gRsCbh0TQxl0U"
+            },
+            {
+              "rank": 17,
+              "name": "Lake Eola Dental",
+              "rating": 4.8,
+              "reviews": 235,
+              "review_velocity": 0.07,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJjcHh0ft654gRiLkQvXNQp7w"
+            },
+            {
+              "rank": 18,
+              "name": "Elegantly Dental of Sand Lake",
+              "rating": 4.9,
+              "reviews": 734,
+              "review_velocity": 0.28,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJJQOmPU1854gRTv0J4xiQImw"
+            },
+            {
+              "rank": 19,
+              "name": "Universal Dental Spa",
+              "rating": 4.9,
+              "reviews": 517,
+              "review_velocity": 1.22,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFw64xiF_54gRIos564Se6W4"
+            },
+            {
+              "rank": 20,
+              "name": "Your Downtown Dentistry",
+              "rating": 4.9,
+              "reviews": 441,
+              "review_velocity": 1.22,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJQZuGkfB654gRwQf3zBTc9g8"
+            }
+          ],
+          "subject": {
+            "rank": 6,
+            "name": "The Smile Mission - South Orlando",
+            "rating": 4.9,
+            "reviews": 920,
+            "review_velocity": 12.56,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJf2BzWgB954gR64KJxUnnSro"
+          },
+          "benchmarks": {
+            "avg_rating": 4.89,
+            "avg_reviews": 648,
+            "median_reviews": 479,
+            "typical_reviews": 648,
+            "skewed": false,
+            "your_reviews": 920,
+            "your_rating": 4.9,
+            "reviews_percentile": 85,
+            "pack_size": 20,
+            "top_reviews": 2009
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Fine Dentistry of Downtown Orlando",
+              "rating": 4.8,
+              "reviews": 1132,
+              "review_velocity": 3.39,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJUzExMN1654gRpjuhnGLcpOw",
+              "rank_delta": 1,
+              "review_gain": 61
+            },
+            {
+              "rank": 2,
+              "name": "Orlando Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 258,
+              "review_velocity": 4.11,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJkzdc9Mp654gRUT7aOtic0_0",
+              "rank_delta": -1,
+              "review_gain": 74
+            },
+            {
+              "rank": 3,
+              "name": "NuLife Dental: Cosmetic Dentist Orlando",
+              "rating": 4.9,
+              "reviews": 794,
+              "review_velocity": 0.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJtZF1YiBn54gRDD23rVi8FVg",
+              "rank_delta": 1,
+              "review_gain": 15
+            },
+            {
+              "rank": 4,
+              "name": "Orlando Center for Cosmetic Dentistry: Jose Marcano, DMD",
+              "rating": 4.8,
+              "reviews": 282,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJb7DiV31754gR1VFiPwrkaUU",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 5,
+              "name": "Mosaic Dental Center",
+              "rating": 4.9,
+              "reviews": 2009,
+              "review_velocity": 4.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ65v4nB9554gRuuCFYD_MO6U",
+              "rank_delta": 3,
+              "review_gain": 87
+            },
+            {
+              "rank": 6,
+              "name": "The Smile Mission - South Orlando",
+              "rating": 4.9,
+              "reviews": 920,
+              "review_velocity": 12.56,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJf2BzWgB954gR64KJxUnnSro",
+              "rank_delta": 12,
+              "review_gain": 226
+            },
+            {
+              "rank": 7,
+              "name": "Koyfman Dental",
+              "rating": 4.9,
+              "reviews": 1773,
+              "review_velocity": 2.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJn9EQEUZ654gRHLoURQK8KiE",
+              "rank_delta": -2,
+              "review_gain": 37
+            },
+            {
+              "rank": 8,
+              "name": "Family & Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 584,
+              "review_velocity": 1.28,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJn1Qsm-5j54gRMuB8Ozhn7YY",
+              "rank_delta": 2,
+              "review_gain": 23
+            },
+            {
+              "rank": 9,
+              "name": "Lake Lucerne Cosmetic and Implant Dentistry",
+              "rating": 5.0,
+              "reviews": 664,
+              "review_velocity": 2.17,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJRcdOjwN754gRuppwyVpMo4c",
+              "rank_delta": -2,
+              "review_gain": 39
+            },
+            {
+              "rank": 10,
+              "name": "Dynamic Smile Design",
+              "rating": 4.9,
+              "reviews": 326,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJta5E9sJ654gRCgqNFlMVXOI",
+              "rank_delta": -4,
+              "review_gain": 18
+            },
+            {
+              "rank": 11,
+              "name": "Legacy Smiles of Orlando",
+              "rating": 4.9,
+              "reviews": 170,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJv_hOzvt654gRjycieXh0qMk",
+              "rank_delta": -2,
+              "review_gain": 12
+            },
+            {
+              "rank": 12,
+              "name": "Orlando Dental Center",
+              "rating": 4.8,
+              "reviews": 841,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJszmVtGJ754gRuKD6IByXoBo",
+              "rank_delta": 0,
+              "review_gain": 18
+            },
+            {
+              "rank": 13,
+              "name": "John E. Russo, DMD Family and Cosmetic Dentistry",
+              "rating": 4.9,
+              "reviews": 333,
+              "review_velocity": -0.11,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJU-DuMuZ654gR3258cvyqtzc",
+              "rank_delta": -2,
+              "review_gain": -2
+            },
+            {
+              "rank": 15,
+              "name": "Equinox Dental",
+              "rating": 4.9,
+              "reviews": 215,
+              "review_velocity": 1.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJtU5iNc1_54gRDPY08jo3hPg",
+              "rank_delta": 2,
+              "review_gain": 26
+            },
+            {
+              "rank": 18,
+              "name": "Elegantly Dental of Sand Lake",
+              "rating": 4.9,
+              "reviews": 734,
+              "review_velocity": 0.28,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJJQOmPU1854gRTv0J4xiQImw",
+              "rank_delta": -2,
+              "review_gain": 5
+            },
+            {
+              "rank": 19,
+              "name": "Universal Dental Spa",
+              "rating": 4.9,
+              "reviews": 517,
+              "review_velocity": 1.22,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJFw64xiF_54gRIos564Se6W4",
+              "rank_delta": -5,
+              "review_gain": 22
+            },
+            {
+              "rank": 20,
+              "name": "Your Downtown Dentistry",
+              "rating": 4.9,
+              "reviews": 441,
+              "review_velocity": 1.22,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJQZuGkfB654gRwQf3zBTc9g8",
+              "rank_delta": -7,
+              "review_gain": 22
+            }
+          ],
+          "fastest_climber": {
+            "rank": 6,
+            "name": "The Smile Mission - South Orlando",
+            "rating": 4.9,
+            "reviews": 920,
+            "review_velocity": 12.56,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJf2BzWgB954gR64KJxUnnSro",
+            "rank_delta": 12,
+            "review_gain": 226
+          },
+          "fastest_review_gainer": {
+            "rank": 6,
+            "name": "The Smile Mission - South Orlando",
+            "rating": 4.9,
+            "reviews": 920,
+            "review_velocity": 12.56,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJf2BzWgB954gR64KJxUnnSro",
+            "rank_delta": 12,
+            "review_gain": 226
+          },
+          "visibility": {
+            "current_rank": 6,
+            "best_rank": 5,
+            "your_ctr_pct": 3.4,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 3.4,
+            "lost_vs_best_pct": 1.4,
+            "lost_vs_best_rel": 29,
+            "reach_vs_top3_x": 20.7
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": true,
+              "label": "Review volume at/above category average",
+              "detail": "You have 920 vs a typical competitor's 648."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.89."
+            },
+            {
+              "ok": true,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 12.56/week (strong)."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "The Smile Mission - South Orlando added 226 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 6,
+          "start_rank": 18,
+          "net_change": 12,
+          "best_rank": 5,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 12, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-26T19:05:53.837632+00:00",
@@ -92110,7 +92723,9 @@
           "type": "followup_2",
           "sent_at": "2026-11-09T22:56:00.683662+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-11-12T20:44:58.276416+00:00",
+      "free_report_email": "southorlando@thesmilemission.com"
     },
     {
       "id": "7f16d7acba7a",
@@ -98275,12 +98890,543 @@
             "category_avg_rating": 5.0,
             "position_summary": "needs attention"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 18.0,
+          "n_snapshots": 10,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 2
+            },
+            {
+              "date": "Jul 20",
+              "rank": 2
+            },
+            {
+              "date": "Aug 03",
+              "rank": 2
+            },
+            {
+              "date": "Aug 17",
+              "rank": 2
+            },
+            {
+              "date": "Aug 31",
+              "rank": 2
+            },
+            {
+              "date": "Sep 14",
+              "rank": 2
+            },
+            {
+              "date": "Sep 28",
+              "rank": 2
+            },
+            {
+              "date": "Oct 26",
+              "rank": 2
+            },
+            {
+              "date": "Nov 09",
+              "rank": 12
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 4
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 4
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 4
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 4
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 4
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 4
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 4
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 4
+            },
+            {
+              "date": "Nov 09",
+              "reviews": 4
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              12
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 26",
+              "Nov 09"
+            ],
+            "direction": "declining",
+            "best_rank": 2,
+            "worst_rank": 12
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 18.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Cheri Meckley -Luxury Real Estate Boston",
+              "rating": 4.8,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ80Igcwt644kRY6GbyEEcrB8"
+            },
+            {
+              "rank": 2,
+              "name": "Miles Wright - Luxury Real Estate Advisor",
+              "rating": 4.9,
+              "reviews": 33,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJEQJSs8l744kRkh0c_LVJ-y0"
+            },
+            {
+              "rank": 3,
+              "name": "Remmes & Co. Boston Real Estate",
+              "rating": 5.0,
+              "reviews": 121,
+              "review_velocity": -0.39,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJV4ZK7Ep744kR_aXDU8la8Q4"
+            },
+            {
+              "rank": 4,
+              "name": "Esin Susol-Real Estate Broker I Luxury Home Marketing Specialist | New Construction & High-End Homes",
+              "rating": 5.0,
+              "reviews": 38,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJZZy6xD1744kRtjWNCAAAmyk"
+            },
+            {
+              "rank": 5,
+              "name": "CS Luxury Group | Keller Williams Realty",
+              "rating": 5.0,
+              "reviews": 29,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ1_N_Dv5744kRshLBvqGZYEE"
+            },
+            {
+              "rank": 6,
+              "name": "Hilary Dunlavey Homes",
+              "rating": 5.0,
+              "reviews": 88,
+              "review_velocity": -0.28,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJyasiwd8L44kR5t_kiONu-j0"
+            },
+            {
+              "rank": 7,
+              "name": "Jax Crerar Luxury Homes International Brokered by eXp Realty",
+              "rating": 5.0,
+              "reviews": 37,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ_2YOsBp744kRv3RQa7H4Row"
+            },
+            {
+              "rank": 8,
+              "name": "Covelle & Company | Greater Boston | Real Estate & Design Team",
+              "rating": 5.0,
+              "reviews": 112,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJqV3UQYJ744kRuSsmeACWjUA"
+            },
+            {
+              "rank": 9,
+              "name": "Ricardo Rodriguez & Associates | Boston, MA Real Estate",
+              "rating": 5.0,
+              "reviews": 65,
+              "review_velocity": -0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ13f9yt5744kRaTEZ0G9pRVI"
+            },
+            {
+              "rank": 10,
+              "name": "Paul Whaley, Luxury Real Estate Agent, Boston, MA",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ17AZhQt644kRmGWwWGhx3ls"
+            },
+            {
+              "rank": 11,
+              "name": "Luxury Living Boston Team at Regatta Realty",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJk_-Vzq1yv2QRVQHV21gpYZM"
+            },
+            {
+              "rank": 12,
+              "name": "Luxury Living Real Estate",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJTw6mOo9w44kRABsW7zSbiUE"
+            },
+            {
+              "rank": 13,
+              "name": "Carlisle Group Boston Real Estate",
+              "rating": 5.0,
+              "reviews": 94,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ1WqbLUJ744kRxaEFVm7NAMY"
+            },
+            {
+              "rank": 14,
+              "name": "Zack Harwood Real Estate at Berkshire Hathaway HomeServices Warren Residential",
+              "rating": 5.0,
+              "reviews": 195,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJjdjeknF744kR8iL2GY4WZhs"
+            },
+            {
+              "rank": 15,
+              "name": "Steven Cohen Team of Keller Williams Realty",
+              "rating": 5.0,
+              "reviews": 271,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJHUQqZQx644kRpM607uZpoQQ"
+            },
+            {
+              "rank": 16,
+              "name": "Angel Willis | Willis Luxury Group, Real Estate Brokerage",
+              "rating": 5.0,
+              "reviews": 20,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJb3vtHcd744kRBd7xplMc-to"
+            },
+            {
+              "rank": 17,
+              "name": "Elevated Boston",
+              "rating": 4.7,
+              "reviews": 53,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJR_yu431644kRLu49LniwYXE"
+            },
+            {
+              "rank": 18,
+              "name": "Kaitlynn Milone Luxury Real Estate Specialist at Compass",
+              "rating": 5.0,
+              "reviews": 2,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJIf732uJ744kRBVcewWgYpdU"
+            },
+            {
+              "rank": 19,
+              "name": "Brian Gagnon Realtor / Boston MA",
+              "rating": 5.0,
+              "reviews": 46,
+              "review_velocity": -0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJjxuOiXF844kRGpa77syxcok"
+            },
+            {
+              "rank": 20,
+              "name": "Muhammed YILDIZ Luxury Real Estate Professional In Boston, MA",
+              "rating": 5.0,
+              "reviews": 8,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Real estate agent",
+              "_key": "ChIJteRP_Wp744kRDOqRqd_3CDY"
+            }
+          ],
+          "subject": {
+            "rank": 12,
+            "name": "Luxury Living Real Estate",
+            "rating": 5.0,
+            "reviews": 4,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJTw6mOo9w44kRABsW7zSbiUE"
+          },
+          "benchmarks": {
+            "avg_rating": 4.97,
+            "avg_reviews": 63,
+            "median_reviews": 38,
+            "typical_reviews": 63,
+            "skewed": false,
+            "your_reviews": 4,
+            "your_rating": 5.0,
+            "reviews_percentile": 20,
+            "pack_size": 20,
+            "top_reviews": 271
+          },
+          "movement": [
+            {
+              "rank": 2,
+              "name": "Miles Wright - Luxury Real Estate Advisor",
+              "rating": 4.9,
+              "reviews": 33,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJEQJSs8l744kRkh0c_LVJ-y0",
+              "rank_delta": 1,
+              "review_gain": 1
+            },
+            {
+              "rank": 3,
+              "name": "Remmes & Co. Boston Real Estate",
+              "rating": 5.0,
+              "reviews": 121,
+              "review_velocity": -0.39,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJV4ZK7Ep744kR_aXDU8la8Q4",
+              "rank_delta": 3,
+              "review_gain": -7
+            },
+            {
+              "rank": 5,
+              "name": "CS Luxury Group | Keller Williams Realty",
+              "rating": 5.0,
+              "reviews": 29,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ1_N_Dv5744kRshLBvqGZYEE",
+              "rank_delta": -4,
+              "review_gain": 2
+            },
+            {
+              "rank": 6,
+              "name": "Hilary Dunlavey Homes",
+              "rating": 5.0,
+              "reviews": 88,
+              "review_velocity": -0.28,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJyasiwd8L44kR5t_kiONu-j0",
+              "rank_delta": -1,
+              "review_gain": -5
+            },
+            {
+              "rank": 7,
+              "name": "Jax Crerar Luxury Homes International Brokered by eXp Realty",
+              "rating": 5.0,
+              "reviews": 37,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ_2YOsBp744kRv3RQa7H4Row",
+              "rank_delta": 9,
+              "review_gain": 1
+            },
+            {
+              "rank": 8,
+              "name": "Covelle & Company | Greater Boston | Real Estate & Design Team",
+              "rating": 5.0,
+              "reviews": 112,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJqV3UQYJ744kRuSsmeACWjUA",
+              "rank_delta": 4,
+              "review_gain": 4
+            },
+            {
+              "rank": 9,
+              "name": "Ricardo Rodriguez & Associates | Boston, MA Real Estate",
+              "rating": 5.0,
+              "reviews": 65,
+              "review_velocity": -0.5,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ13f9yt5744kRaTEZ0G9pRVI",
+              "rank_delta": -1,
+              "review_gain": -9
+            },
+            {
+              "rank": 10,
+              "name": "Paul Whaley, Luxury Real Estate Agent, Boston, MA",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ17AZhQt644kRmGWwWGhx3ls",
+              "rank_delta": -6,
+              "review_gain": 0
+            },
+            {
+              "rank": 11,
+              "name": "Luxury Living Boston Team at Regatta Realty",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJk_-Vzq1yv2QRVQHV21gpYZM",
+              "rank_delta": -4,
+              "review_gain": 2
+            },
+            {
+              "rank": 12,
+              "name": "Luxury Living Real Estate",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJTw6mOo9w44kRABsW7zSbiUE",
+              "rank_delta": -10,
+              "review_gain": 0
+            }
+          ],
+          "fastest_climber": {
+            "rank": 7,
+            "name": "Jax Crerar Luxury Homes International Brokered by eXp Realty",
+            "rating": 5.0,
+            "reviews": 37,
+            "review_velocity": 0.06,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJ_2YOsBp744kRv3RQa7H4Row",
+            "rank_delta": 9,
+            "review_gain": 1
+          },
+          "fastest_review_gainer": {
+            "rank": 8,
+            "name": "Covelle & Company | Greater Boston | Real Estate & Design Team",
+            "rating": 5.0,
+            "reviews": 112,
+            "review_velocity": 0.22,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJqV3UQYJ744kRuSsmeACWjUA",
+            "rank_delta": 4,
+            "review_gain": 4
+          },
+          "visibility": {
+            "current_rank": 12,
+            "best_rank": 2,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 22.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 21.3,
+            "lost_vs_best_rel": 96,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 4 vs a typical competitor's 63. Close the 59-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.97."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Covelle & Company | Greater Boston |. added 4 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 12,
+          "start_rank": 2,
+          "net_change": -10,
+          "best_rank": 2,
+          "worst_rank": 12
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 12, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-09T22:55:59.039745+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-12T20:44:39.544981+00:00",
+      "free_report_email": "info@luxurylivingre.com"
     },
     {
       "id": "bee08ab0cede",
@@ -98404,12 +99550,629 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 18.0,
+          "n_snapshots": 10,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 13
+            },
+            {
+              "date": "Aug 17",
+              "rank": 18
+            },
+            {
+              "date": "Aug 31",
+              "rank": 13
+            },
+            {
+              "date": "Sep 14",
+              "rank": 15
+            },
+            {
+              "date": "Sep 28",
+              "rank": 11
+            },
+            {
+              "date": "Oct 12",
+              "rank": 13
+            },
+            {
+              "date": "Oct 26",
+              "rank": 2
+            },
+            {
+              "date": "Nov 09",
+              "rank": 14
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 433
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 436
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 437
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 438
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 439
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 442
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 445
+            },
+            {
+              "date": "Nov 09",
+              "reviews": 448
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              13,
+              18,
+              13,
+              15,
+              11,
+              13,
+              2,
+              14
+            ],
+            "dates": [
+              "Jul 06",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12",
+              "Oct 26",
+              "Nov 09"
+            ],
+            "direction": "volatile",
+            "best_rank": 2,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 0.83,
+            "total_gained": 15,
+            "weeks": 18.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Dentique\u2122 Cosmetic Dentistry Studio",
+              "rating": 4.9,
+              "reviews": 200,
+              "review_velocity": 0.78,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJlSXTRkVV2YAR6O0B62lWadA"
+            },
+            {
+              "rank": 2,
+              "name": "Mesa Dental",
+              "rating": 4.9,
+              "reviews": 1873,
+              "review_velocity": 3.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJN1xwauL_24ARho0EDmozQRY"
+            },
+            {
+              "rank": 3,
+              "name": "Cosmetic Dentistry Center",
+              "rating": 4.6,
+              "reviews": 91,
+              "review_velocity": 0.39,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJK1YdDadU2YARErJEpHPpn5E"
+            },
+            {
+              "rank": 4,
+              "name": "David S Eshom, DDS",
+              "rating": 4.9,
+              "reviews": 517,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJuyZ7wNMG3IARw-j1YmP6ZCM"
+            },
+            {
+              "rank": 5,
+              "name": "La Jolla Cosmetic Dentistry and Orthodontics",
+              "rating": 4.9,
+              "reviews": 187,
+              "review_velocity": 1.22,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2-JkWtMA3IAROtE7nl99DsE"
+            },
+            {
+              "rank": 6,
+              "name": "The Art of Dentistry",
+              "rating": 5.0,
+              "reviews": 323,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJcxTAErhU2YAR9GldeTgN37I"
+            },
+            {
+              "rank": 7,
+              "name": "Libby Dental",
+              "rating": 5.0,
+              "reviews": 869,
+              "review_velocity": 1.79,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ0X6DeJ2q3oARjr2-vk3_iG8"
+            },
+            {
+              "rank": 8,
+              "name": "Fifth Avenue Dental Arts",
+              "rating": 4.7,
+              "reviews": 941,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJD7BYFKZU2YARWRTPiGYHmKc"
+            },
+            {
+              "rank": 9,
+              "name": "Farshin Farokhian, DDS",
+              "rating": 4.9,
+              "reviews": 684,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ0Vg678VU2YARTKC_xs3XwGE"
+            },
+            {
+              "rank": 10,
+              "name": "SmileStyle Dental Studio",
+              "rating": 4.9,
+              "reviews": 539,
+              "review_velocity": 3.94,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrVnkI3VV2YARVUiOMselsjM"
+            },
+            {
+              "rank": 11,
+              "name": "Dentist Marcos Ortega",
+              "rating": 5.0,
+              "reviews": 258,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJE7yfXM9U2YARm-ljtihgAj4"
+            },
+            {
+              "rank": 12,
+              "name": "Brighton Dental",
+              "rating": 4.9,
+              "reviews": 565,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ18rncOpV2YARYmqOPbmtWvo"
+            },
+            {
+              "rank": 13,
+              "name": "Salt and Smile Dental Co.",
+              "rating": 5.0,
+              "reviews": 346,
+              "review_velocity": 5.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ45cqaCVV2YAR4vk1CYi90Ik"
+            },
+            {
+              "rank": 14,
+              "name": "Aesthetic Dentistry of San Diego / Martin P. Abelar DDS",
+              "rating": 4.9,
+              "reviews": 448,
+              "review_velocity": 0.83,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJP-BcyDgG3IAR8yOdnrsJOlI"
+            },
+            {
+              "rank": 15,
+              "name": "Marina District Dentistry",
+              "rating": 4.9,
+              "reviews": 244,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJz_psN1ZT2YARQZLOvNLvQgU"
+            },
+            {
+              "rank": 16,
+              "name": "Espire Dental Mission Valley",
+              "rating": 4.9,
+              "reviews": 334,
+              "review_velocity": 2.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl3lCrDtV2YARvctFOJe8nss"
+            },
+            {
+              "rank": 17,
+              "name": "Signature Dental Studio",
+              "rating": 4.9,
+              "reviews": 583,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJzQ_I1edV2YARh_rdD0U1lvA"
+            },
+            {
+              "rank": 18,
+              "name": "Coastal Dental Arts",
+              "rating": 4.8,
+              "reviews": 356,
+              "review_velocity": 1.22,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJsRClV6lU2YARbzQ2jmdDUA8"
+            },
+            {
+              "rank": 19,
+              "name": "Pearl Cosmetic and Family Dentistry",
+              "rating": 4.9,
+              "reviews": 255,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJH7qCe-3524ARRGGlhVo0y8o"
+            },
+            {
+              "rank": 20,
+              "name": "Teeth Whitening San Diego by Smile Studios",
+              "rating": 5.0,
+              "reviews": 145,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Teeth whitening service",
+              "_key": "ChIJbUAr1r1F2YAR_3BRJ61LVI4"
+            }
+          ],
+          "subject": {
+            "rank": 14,
+            "name": "Aesthetic Dentistry of San Diego / Martin P. Abelar DDS",
+            "rating": 4.9,
+            "reviews": 448,
+            "review_velocity": 0.83,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJP-BcyDgG3IAR8yOdnrsJOlI"
+          },
+          "benchmarks": {
+            "avg_rating": 4.9,
+            "avg_reviews": 488,
+            "median_reviews": 351,
+            "typical_reviews": 488,
+            "skewed": false,
+            "your_reviews": 448,
+            "your_rating": 4.9,
+            "reviews_percentile": 60,
+            "pack_size": 20,
+            "top_reviews": 1873
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Dentique\u2122 Cosmetic Dentistry Studio",
+              "rating": 4.9,
+              "reviews": 200,
+              "review_velocity": 0.78,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJlSXTRkVV2YAR6O0B62lWadA",
+              "rank_delta": 7,
+              "review_gain": 14
+            },
+            {
+              "rank": 2,
+              "name": "Mesa Dental",
+              "rating": 4.9,
+              "reviews": 1873,
+              "review_velocity": 3.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJN1xwauL_24ARho0EDmozQRY",
+              "rank_delta": 2,
+              "review_gain": 62
+            },
+            {
+              "rank": 3,
+              "name": "Cosmetic Dentistry Center",
+              "rating": 4.6,
+              "reviews": 91,
+              "review_velocity": 0.39,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJK1YdDadU2YARErJEpHPpn5E",
+              "rank_delta": -2,
+              "review_gain": 7
+            },
+            {
+              "rank": 4,
+              "name": "David S Eshom, DDS",
+              "rating": 4.9,
+              "reviews": 517,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJuyZ7wNMG3IARw-j1YmP6ZCM",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 5,
+              "name": "La Jolla Cosmetic Dentistry and Orthodontics",
+              "rating": 4.9,
+              "reviews": 187,
+              "review_velocity": 1.22,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ2-JkWtMA3IAROtE7nl99DsE",
+              "rank_delta": 0,
+              "review_gain": 22
+            },
+            {
+              "rank": 6,
+              "name": "The Art of Dentistry",
+              "rating": 5.0,
+              "reviews": 323,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJcxTAErhU2YAR9GldeTgN37I",
+              "rank_delta": -4,
+              "review_gain": 18
+            },
+            {
+              "rank": 8,
+              "name": "Fifth Avenue Dental Arts",
+              "rating": 4.7,
+              "reviews": 941,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJD7BYFKZU2YARWRTPiGYHmKc",
+              "rank_delta": -2,
+              "review_gain": 9
+            },
+            {
+              "rank": 9,
+              "name": "Farshin Farokhian, DDS",
+              "rating": 4.9,
+              "reviews": 684,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJ0Vg678VU2YARTKC_xs3XwGE",
+              "rank_delta": 0,
+              "review_gain": 13
+            },
+            {
+              "rank": 10,
+              "name": "SmileStyle Dental Studio",
+              "rating": 4.9,
+              "reviews": 539,
+              "review_velocity": 3.94,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrVnkI3VV2YARVUiOMselsjM",
+              "rank_delta": 1,
+              "review_gain": 71
+            },
+            {
+              "rank": 11,
+              "name": "Dentist Marcos Ortega",
+              "rating": 5.0,
+              "reviews": 258,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJE7yfXM9U2YARm-ljtihgAj4",
+              "rank_delta": 3,
+              "review_gain": 18
+            },
+            {
+              "rank": 12,
+              "name": "Brighton Dental",
+              "rating": 4.9,
+              "reviews": 565,
+              "review_velocity": 0.11,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ18rncOpV2YARYmqOPbmtWvo",
+              "rank_delta": 6,
+              "review_gain": 2
+            },
+            {
+              "rank": 13,
+              "name": "Salt and Smile Dental Co.",
+              "rating": 5.0,
+              "reviews": 346,
+              "review_velocity": 5.44,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ45cqaCVV2YAR4vk1CYi90Ik",
+              "rank_delta": -6,
+              "review_gain": 98
+            },
+            {
+              "rank": 14,
+              "name": "Aesthetic Dentistry of San Diego / Martin P. Abelar DDS",
+              "rating": 4.9,
+              "reviews": 448,
+              "review_velocity": 0.83,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJP-BcyDgG3IAR8yOdnrsJOlI",
+              "rank_delta": -1,
+              "review_gain": 15
+            },
+            {
+              "rank": 15,
+              "name": "Marina District Dentistry",
+              "rating": 4.9,
+              "reviews": 244,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJz_psN1ZT2YARQZLOvNLvQgU",
+              "rank_delta": -3,
+              "review_gain": 9
+            },
+            {
+              "rank": 16,
+              "name": "Espire Dental Mission Valley",
+              "rating": 4.9,
+              "reviews": 334,
+              "review_velocity": 2.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJl3lCrDtV2YARvctFOJe8nss",
+              "rank_delta": 1,
+              "review_gain": 37
+            },
+            {
+              "rank": 17,
+              "name": "Signature Dental Studio",
+              "rating": 4.9,
+              "reviews": 583,
+              "review_velocity": 0.72,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJzQ_I1edV2YARh_rdD0U1lvA",
+              "rank_delta": -1,
+              "review_gain": 13
+            },
+            {
+              "rank": 18,
+              "name": "Coastal Dental Arts",
+              "rating": 4.8,
+              "reviews": 356,
+              "review_velocity": 1.22,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJsRClV6lU2YARbzQ2jmdDUA8",
+              "rank_delta": -8,
+              "review_gain": 22
+            },
+            {
+              "rank": 19,
+              "name": "Pearl Cosmetic and Family Dentistry",
+              "rating": 4.9,
+              "reviews": 255,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJH7qCe-3524ARRGGlhVo0y8o",
+              "rank_delta": -4,
+              "review_gain": 9
+            }
+          ],
+          "fastest_climber": {
+            "rank": 1,
+            "name": "Dentique\u2122 Cosmetic Dentistry Studio",
+            "rating": 4.9,
+            "reviews": 200,
+            "review_velocity": 0.78,
+            "website": true,
+            "type": "Cosmetic dentist",
+            "_key": "ChIJlSXTRkVV2YAR6O0B62lWadA",
+            "rank_delta": 7,
+            "review_gain": 14
+          },
+          "fastest_review_gainer": {
+            "rank": 13,
+            "name": "Salt and Smile Dental Co.",
+            "rating": 5.0,
+            "reviews": 346,
+            "review_velocity": 5.44,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJ45cqaCVV2YAR4vk1CYi90Ik",
+            "rank_delta": -6,
+            "review_gain": 98
+          },
+          "visibility": {
+            "current_rank": 14,
+            "best_rank": 2,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 22.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 21.3,
+            "lost_vs_best_rel": 96,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 448 vs a typical competitor's 488. Close the 40-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.9."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.83/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Salt and Smile Dental Co. added 98 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 14,
+          "start_rank": 13,
+          "net_change": -1,
+          "best_rank": 2,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 12, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-09T22:55:59.039754+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-12T20:44:21.102267+00:00",
+      "free_report_email": "office@keepsmilingsandiego.com"
     },
     {
       "id": "23038c6b8b01",
