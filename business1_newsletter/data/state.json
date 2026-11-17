@@ -1,18 +1,8 @@
 {
-  "last_run": "2026-11-10T15:22:42.843415+00:00",
-  "issues_published": 28,
+  "last_run": "2026-11-17T16:38:46.309263+00:00",
+  "issues_published": 29,
   "consecutive_failures": 0,
   "last_published_urls": [
-    "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-    "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-    "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-    "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-    "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-    "https://openai.com/index/research-acceleration-view-inside-openai",
-    "https://openai.com/index/ai-native-company-workflows",
-    "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
-    "https://www.producthunt.com/products/speakeasydev",
-    "https://www.producthunt.com/products/google",
     "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
     "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
     "https://openai.com/index/scaling-storage-one-billion-users-part-one",
@@ -102,11 +92,21 @@
     "https://openai.com/index/franklin-templeton",
     "https://openai.com/index/openai-to-acquire-pierre",
     "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-    "https://www.producthunt.com/products/gesso-2"
+    "https://www.producthunt.com/products/gesso-2",
+    "https://openai.com/index/science-at-the-frontier",
+    "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+    "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+    "https://openai.com/index/introducing-openai-for-chile",
+    "https://openai.com/index/lvmh-media-division-partnership",
+    "https://openai.com/business/customer-stories/shield",
+    "https://openai.com/business/customer-stories/amplitude",
+    "https://openai.com/business/customer-stories/gondola",
+    "https://openai.com/index/children-first-declaration",
+    "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/"
   ],
-  "affiliate_rotation_index": 62,
+  "affiliate_rotation_index": 64,
   "pending_retry": [],
   "total_subscribers_last_check": 2,
   "last_status": "OK",
-  "last_broadcast_id": "26929425"
+  "last_broadcast_id": "27116798"
 }
