@@ -84935,7 +84935,608 @@
             "category_avg_rating": 4.9,
             "position_summary": "competitive"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 16.0,
+          "n_snapshots": 10,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 11
+            },
+            {
+              "date": "Jul 20",
+              "rank": 20
+            },
+            {
+              "date": "Aug 03",
+              "rank": 13
+            },
+            {
+              "date": "Aug 17",
+              "rank": 13
+            },
+            {
+              "date": "Aug 31",
+              "rank": 12
+            },
+            {
+              "date": "Sep 14",
+              "rank": 12
+            },
+            {
+              "date": "Sep 28",
+              "rank": 11
+            },
+            {
+              "date": "Oct 12",
+              "rank": 19
+            },
+            {
+              "date": "Oct 26",
+              "rank": 13
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 122
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 122
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 124
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 124
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 124
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 124
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 125
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 128
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 131
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              11,
+              20,
+              13,
+              13,
+              12,
+              12,
+              11,
+              19,
+              13
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12",
+              "Oct 26"
+            ],
+            "direction": "declining",
+            "best_rank": 11,
+            "worst_rank": 20
+          },
+          "review_velocity": {
+            "per_week": 0.56,
+            "total_gained": 9,
+            "weeks": 16.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Ivory Dental Group",
+              "rating": 4.9,
+              "reviews": 434,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJMRW_45Yys1IRRGnrVCsnqWU"
+            },
+            {
+              "rank": 2,
+              "name": "Minneapolis Dental PA",
+              "rating": 4.9,
+              "reviews": 84,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJpX7Wtpsys1IRT5mbD-eFwk4"
+            },
+            {
+              "rank": 3,
+              "name": "J & D Dental",
+              "rating": 5.0,
+              "reviews": 732,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ90t95Jkys1IRhydLDGmRQsg"
+            },
+            {
+              "rank": 4,
+              "name": "Parkway Dental Center - Minneapolis",
+              "rating": 4.9,
+              "reviews": 677,
+              "review_velocity": 1.72,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQV9oj8on9ocR5lXl56PTIAs"
+            },
+            {
+              "rank": 5,
+              "name": "Linden Hills Dentistry",
+              "rating": 4.9,
+              "reviews": 336,
+              "review_velocity": 1.33,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJzxrzTxcn9ocRnUq7zuouA2I"
+            },
+            {
+              "rank": 6,
+              "name": "Dental Arts of Minneapolis",
+              "rating": 4.9,
+              "reviews": 422,
+              "review_velocity": 0.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRIDMvwAStVDM"
+            },
+            {
+              "rank": 7,
+              "name": "Diamond Lake Dental",
+              "rating": 4.9,
+              "reviews": 219,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB5kUDqUm9ocRYz-ZwbEF4cM"
+            },
+            {
+              "rank": 8,
+              "name": "Cosmetic, Family & Sports Dentistry",
+              "rating": 5.0,
+              "reviews": 190,
+              "review_velocity": 1.39,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB5kUDqUm9ocRlOau-lR4tBw"
+            },
+            {
+              "rank": 9,
+              "name": "Isles Dental",
+              "rating": 4.9,
+              "reviews": 546,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdfTKStQys1IRDr2OZYIS0cE"
+            },
+            {
+              "rank": 10,
+              "name": "Mill District Dental",
+              "rating": 4.9,
+              "reviews": 397,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJtzl3X2Yts1IRC-sYByhDCWs"
+            },
+            {
+              "rank": 11,
+              "name": "City Dental",
+              "rating": 4.9,
+              "reviews": 269,
+              "review_velocity": 2.17,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQcCP9l4n9ocRhnMvePSWlOI"
+            },
+            {
+              "rank": 12,
+              "name": "Holger Dental Group - Minneapolis",
+              "rating": 4.9,
+              "reviews": 167,
+              "review_velocity": 0.78,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRjwMR4wuSCQ4"
+            },
+            {
+              "rank": 13,
+              "name": "Le Centre Dentistry",
+              "rating": 4.8,
+              "reviews": 344,
+              "review_velocity": 0.43,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJM1j2eHkts1IRer2BZQP7OC0"
+            },
+            {
+              "rank": 14,
+              "name": "Minneapolis Dentistry Company",
+              "rating": 4.7,
+              "reviews": 140,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJkUjgOikn9ocR-jG3nC9m_Tc"
+            },
+            {
+              "rank": 15,
+              "name": "Onyx Dental",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJRTlYOi0zs1IRP0ldYFgi1bs"
+            },
+            {
+              "rank": 16,
+              "name": "Nicollet Station Dental",
+              "rating": 4.9,
+              "reviews": 372,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAdDfQJoys1IRlJOST_UGi2o"
+            },
+            {
+              "rank": 17,
+              "name": "Uptown Dental",
+              "rating": 4.9,
+              "reviews": 82,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJS9M6b9Uys1IR_wgwPtBNdUo"
+            },
+            {
+              "rank": 18,
+              "name": "Mill City Dental",
+              "rating": 4.9,
+              "reviews": 317,
+              "review_velocity": 0.42,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJGU3grxkzs1IRBJl0lVJU2PU"
+            },
+            {
+              "rank": 19,
+              "name": "CityTooth Ltd",
+              "rating": 4.9,
+              "reviews": 158,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJI2_P45Yys1IRp-jPU7fvdK8"
+            },
+            {
+              "rank": 20,
+              "name": "Nicollet Mall Dental Arts- Dr. Hoverson",
+              "rating": 4.9,
+              "reviews": 94,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRu3-RsGuMdQo"
+            }
+          ],
+          "subject": {
+            "rank": 19,
+            "name": "CityTooth Ltd",
+            "rating": 4.9,
+            "reviews": 158,
+            "review_velocity": 0.67,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJI2_P45Yys1IRp-jPU7fvdK8"
+          },
+          "benchmarks": {
+            "avg_rating": 4.9,
+            "avg_reviews": 299,
+            "median_reviews": 293,
+            "typical_reviews": 299,
+            "skewed": false,
+            "your_reviews": 158,
+            "your_rating": 4.9,
+            "reviews_percentile": 30,
+            "pack_size": 20,
+            "top_reviews": 732
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Ivory Dental Group",
+              "rating": 4.9,
+              "reviews": 434,
+              "review_velocity": 0.33,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJMRW_45Yys1IRRGnrVCsnqWU",
+              "rank_delta": 0,
+              "review_gain": 6
+            },
+            {
+              "rank": 2,
+              "name": "Minneapolis Dental PA",
+              "rating": 4.9,
+              "reviews": 84,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJpX7Wtpsys1IRT5mbD-eFwk4",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "J & D Dental",
+              "rating": 5.0,
+              "reviews": 732,
+              "review_velocity": 0.5,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJ90t95Jkys1IRhydLDGmRQsg",
+              "rank_delta": -1,
+              "review_gain": 9
+            },
+            {
+              "rank": 4,
+              "name": "Parkway Dental Center - Minneapolis",
+              "rating": 4.9,
+              "reviews": 677,
+              "review_velocity": 1.72,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQV9oj8on9ocR5lXl56PTIAs",
+              "rank_delta": 4,
+              "review_gain": 31
+            },
+            {
+              "rank": 5,
+              "name": "Linden Hills Dentistry",
+              "rating": 4.9,
+              "reviews": 336,
+              "review_velocity": 1.33,
+              "website": true,
+              "type": "Cosmetic dentist",
+              "_key": "ChIJzxrzTxcn9ocRnUq7zuouA2I",
+              "rank_delta": -1,
+              "review_gain": 24
+            },
+            {
+              "rank": 6,
+              "name": "Dental Arts of Minneapolis",
+              "rating": 4.9,
+              "reviews": 422,
+              "review_velocity": 0.83,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRIDMvwAStVDM",
+              "rank_delta": -1,
+              "review_gain": 15
+            },
+            {
+              "rank": 7,
+              "name": "Diamond Lake Dental",
+              "rating": 4.9,
+              "reviews": 219,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB5kUDqUm9ocRYz-ZwbEF4cM",
+              "rank_delta": 10,
+              "review_gain": 1
+            },
+            {
+              "rank": 8,
+              "name": "Cosmetic, Family & Sports Dentistry",
+              "rating": 5.0,
+              "reviews": 190,
+              "review_velocity": 1.39,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJB5kUDqUm9ocRlOau-lR4tBw",
+              "rank_delta": 4,
+              "review_gain": 25
+            },
+            {
+              "rank": 9,
+              "name": "Isles Dental",
+              "rating": 4.9,
+              "reviews": 546,
+              "review_velocity": -0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJdfTKStQys1IRDr2OZYIS0cE",
+              "rank_delta": -3,
+              "review_gain": -1
+            },
+            {
+              "rank": 10,
+              "name": "Mill District Dental",
+              "rating": 4.9,
+              "reviews": 397,
+              "review_velocity": 0.94,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJtzl3X2Yts1IRC-sYByhDCWs",
+              "rank_delta": -1,
+              "review_gain": 17
+            },
+            {
+              "rank": 11,
+              "name": "City Dental",
+              "rating": 4.9,
+              "reviews": 269,
+              "review_velocity": 2.17,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJQcCP9l4n9ocRhnMvePSWlOI",
+              "rank_delta": 2,
+              "review_gain": 39
+            },
+            {
+              "rank": 12,
+              "name": "Holger Dental Group - Minneapolis",
+              "rating": 4.9,
+              "reviews": 167,
+              "review_velocity": 0.78,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRjwMR4wuSCQ4",
+              "rank_delta": 8,
+              "review_gain": 14
+            },
+            {
+              "rank": 14,
+              "name": "Minneapolis Dentistry Company",
+              "rating": 4.7,
+              "reviews": 140,
+              "review_velocity": 0.22,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJkUjgOikn9ocR-jG3nC9m_Tc",
+              "rank_delta": -4,
+              "review_gain": 4
+            },
+            {
+              "rank": 16,
+              "name": "Nicollet Station Dental",
+              "rating": 4.9,
+              "reviews": 372,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJAdDfQJoys1IRlJOST_UGi2o",
+              "rank_delta": 0,
+              "review_gain": 1
+            },
+            {
+              "rank": 19,
+              "name": "CityTooth Ltd",
+              "rating": 4.9,
+              "reviews": 158,
+              "review_velocity": 0.67,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJI2_P45Yys1IRp-jPU7fvdK8",
+              "rank_delta": -1,
+              "review_gain": 12
+            },
+            {
+              "rank": 20,
+              "name": "Nicollet Mall Dental Arts- Dr. Hoverson",
+              "rating": 4.9,
+              "reviews": 94,
+              "review_velocity": 0.06,
+              "website": true,
+              "type": "Dentist",
+              "_key": "ChIJrd9SHJcys1IRu3-RsGuMdQo",
+              "rank_delta": -6,
+              "review_gain": 1
+            }
+          ],
+          "fastest_climber": {
+            "rank": 7,
+            "name": "Diamond Lake Dental",
+            "rating": 4.9,
+            "reviews": 219,
+            "review_velocity": 0.06,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJB5kUDqUm9ocRYz-ZwbEF4cM",
+            "rank_delta": 10,
+            "review_gain": 1
+          },
+          "fastest_review_gainer": {
+            "rank": 11,
+            "name": "City Dental",
+            "rating": 4.9,
+            "reviews": 269,
+            "review_velocity": 2.17,
+            "website": true,
+            "type": "Dentist",
+            "_key": "ChIJQcCP9l4n9ocRhnMvePSWlOI",
+            "rank_delta": 2,
+            "review_gain": 39
+          },
+          "visibility": {
+            "current_rank": 13,
+            "best_rank": 11,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 158 vs a typical competitor's 299. Close the 141-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.9."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.56/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "City Dental added 39 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 13,
+          "start_rank": 11,
+          "net_change": -2,
+          "best_rank": 11,
+          "worst_rank": 20
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 19, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-10-12T21:38:17.603000+00:00",
@@ -84954,7 +85555,9 @@
           "type": "followup_3",
           "sent_at": "2026-11-02T22:12:15.519353+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-11-19T21:20:38.116651+00:00",
+      "free_report_email": "info@cityscapedentalarts.com"
     },
     {
       "id": "c9a7cc6f25c4",
@@ -95465,7 +96068,610 @@
             "category_avg_rating": 4.7,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 20.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Jun 15",
+              "rank": 17
+            },
+            {
+              "date": "Jun 29",
+              "rank": 18
+            },
+            {
+              "date": "Jul 13",
+              "rank": 17
+            },
+            {
+              "date": "Jul 27",
+              "rank": 18
+            },
+            {
+              "date": "Aug 10",
+              "rank": 17
+            },
+            {
+              "date": "Sep 07",
+              "rank": 15
+            },
+            {
+              "date": "Oct 19",
+              "rank": 12
+            },
+            {
+              "date": "Nov 02",
+              "rank": 19
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jun 15",
+              "reviews": 50
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 50
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 51
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 55
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 55
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 58
+            },
+            {
+              "date": "Oct 19",
+              "reviews": 62
+            },
+            {
+              "date": "Nov 02",
+              "reviews": 63
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              17,
+              18,
+              17,
+              18,
+              17,
+              15,
+              12,
+              19
+            ],
+            "dates": [
+              "Jun 15",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Sep 07",
+              "Oct 19",
+              "Nov 02"
+            ],
+            "direction": "declining",
+            "best_rank": 12,
+            "worst_rank": 19
+          },
+          "review_velocity": {
+            "per_week": 0.65,
+            "total_gained": 13,
+            "weeks": 20.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Dallas Stem Cell Center",
+              "rating": 5.0,
+              "reviews": 19,
+              "review_velocity": 0.68,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJkx5vLw2fToYRLtjAnin-x80"
+            },
+            {
+              "rank": 2,
+              "name": "RegenOrthoSport Dallas",
+              "rating": 4.9,
+              "reviews": 139,
+              "review_velocity": 2.05,
+              "website": true,
+              "type": "Orthopedic clinic",
+              "_key": "ChIJsTdFUsKfToYRMBISPNn7Qmc"
+            },
+            {
+              "rank": 3,
+              "name": "Innovations Stem Cell Center",
+              "rating": 4.4,
+              "reviews": 31,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJh0KEqD8gTIYRyjWO7jQG4ZQ"
+            },
+            {
+              "rank": 4,
+              "name": "Innovare Tx Regenerative & Wellness Clinic",
+              "rating": 5.0,
+              "reviews": 75,
+              "review_velocity": 1.23,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJn_hozpUhTIYRKQoQN5LYKOo"
+            },
+            {
+              "rank": 5,
+              "name": "Dallas Regenerative & Anti-Aging",
+              "rating": 4.9,
+              "reviews": 26,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Wellness center",
+              "_key": "ChIJMRMhW1IhTIYRxPwJ4GZqJfE"
+            },
+            {
+              "rank": 6,
+              "name": "QC Kinetix - Dallas",
+              "rating": 4.8,
+              "reviews": 100,
+              "review_velocity": 0.09,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJO0qK8A2fToYR_Bhg0aBnKZI"
+            },
+            {
+              "rank": 7,
+              "name": "Dallas Regenerative Solutions",
+              "rating": 4.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Business to business service",
+              "_key": "ChIJnYn-yjyhToYRyjuvRUvqqJo"
+            },
+            {
+              "rank": 8,
+              "name": "ReMed Pain and Wellness Clinic",
+              "rating": 5.0,
+              "reviews": 101,
+              "review_velocity": 0.77,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJ0yOLJcghTIYRugBioxrmjk0"
+            },
+            {
+              "rank": 9,
+              "name": "Regenerative Medicine of Texas",
+              "rating": 4.9,
+              "reviews": 104,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ2yZHBdulToYRxs6qspJs26w"
+            },
+            {
+              "rank": 10,
+              "name": "Innovations Medical",
+              "rating": 4.5,
+              "reviews": 140,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Plastic surgery clinic",
+              "_key": "ChIJi27uqD8gTIYRR11w59NFkf0"
+            },
+            {
+              "rank": 11,
+              "name": "Principal Stem Cell Therapy and Wellness Institute",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJo9zedGIlTIYR7d6WfLmR0w8"
+            },
+            {
+              "rank": 12,
+              "name": "Apex Regenerative Institute",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJCSl_T_XVTYYRJmo15hEOVzM"
+            },
+            {
+              "rank": 13,
+              "name": "Dallas Vitality 360",
+              "rating": 5.0,
+              "reviews": 6,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJF2Lze0SeToYRVFS1iiPaJqw"
+            },
+            {
+              "rank": 14,
+              "name": "Regenerative Institute of America",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical Center",
+              "_key": "ChIJnTGr0WCfToYRo_QR6qAuPGk"
+            },
+            {
+              "rank": 15,
+              "name": "Regen Wellness",
+              "rating": 4.8,
+              "reviews": 61,
+              "review_velocity": 0.18,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJy1bxHkOfToYRt6JhIfJWz88"
+            },
+            {
+              "rank": 16,
+              "name": "RegenRx Medical",
+              "rating": 4.7,
+              "reviews": 69,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Medical Center",
+              "_key": "ChIJP8_PZJg7TIYRQk71SMSjUHU"
+            },
+            {
+              "rank": 17,
+              "name": "Advanced Regeneration",
+              "rating": 4.9,
+              "reviews": 78,
+              "review_velocity": 0.41,
+              "website": true,
+              "type": "Alternative medicine practitioner",
+              "_key": "ChIJCaBicLufToYRCLLUewVKaK0"
+            },
+            {
+              "rank": 18,
+              "name": "Legacy Pain and Regenerative Medicine: Trace Alexander, DC, FNP",
+              "rating": 5.0,
+              "reviews": 562,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Pain management physician",
+              "_key": "ChIJm_V8dHQjTIYRzpczCf09sq0"
+            },
+            {
+              "rank": 19,
+              "name": "Humanaut Health Dallas",
+              "rating": 4.4,
+              "reviews": 7,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJPZnfL_SfToYRaOO47xVXtI8"
+            },
+            {
+              "rank": 20,
+              "name": "Dr. J Regenerative Medicine",
+              "rating": 4.9,
+              "reviews": 27,
+              "review_velocity": 0.09,
+              "website": true,
+              "type": "Doctor",
+              "_key": "ChIJDZ1kFYrUTYYRNNbQDw_YykU"
+            }
+          ],
+          "subject": {
+            "rank": 19,
+            "name": "Humanaut Health Dallas",
+            "rating": 4.4,
+            "reviews": 7,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Medical clinic",
+            "_key": "ChIJPZnfL_SfToYRaOO47xVXtI8"
+          },
+          "benchmarks": {
+            "avg_rating": 4.79,
+            "avg_reviews": 78,
+            "median_reviews": 46,
+            "typical_reviews": 78,
+            "skewed": false,
+            "your_reviews": 7,
+            "your_rating": 4.4,
+            "reviews_percentile": 25,
+            "pack_size": 20,
+            "top_reviews": 562
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Dallas Stem Cell Center",
+              "rating": 5.0,
+              "reviews": 19,
+              "review_velocity": 0.68,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJkx5vLw2fToYRLtjAnin-x80",
+              "rank_delta": 3,
+              "review_gain": 15
+            },
+            {
+              "rank": 2,
+              "name": "RegenOrthoSport Dallas",
+              "rating": 4.9,
+              "reviews": 139,
+              "review_velocity": 2.05,
+              "website": true,
+              "type": "Orthopedic clinic",
+              "_key": "ChIJsTdFUsKfToYRMBISPNn7Qmc",
+              "rank_delta": -1,
+              "review_gain": 45
+            },
+            {
+              "rank": 3,
+              "name": "Innovations Stem Cell Center",
+              "rating": 4.4,
+              "reviews": 31,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJh0KEqD8gTIYRyjWO7jQG4ZQ",
+              "rank_delta": 0,
+              "review_gain": 6
+            },
+            {
+              "rank": 4,
+              "name": "Innovare Tx Regenerative & Wellness Clinic",
+              "rating": 5.0,
+              "reviews": 75,
+              "review_velocity": 1.23,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJn_hozpUhTIYRKQoQN5LYKOo",
+              "rank_delta": 4,
+              "review_gain": 27
+            },
+            {
+              "rank": 5,
+              "name": "Dallas Regenerative & Anti-Aging",
+              "rating": 4.9,
+              "reviews": 26,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Wellness center",
+              "_key": "ChIJMRMhW1IhTIYRxPwJ4GZqJfE",
+              "rank_delta": -3,
+              "review_gain": 6
+            },
+            {
+              "rank": 6,
+              "name": "QC Kinetix - Dallas",
+              "rating": 4.8,
+              "reviews": 100,
+              "review_velocity": 0.09,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJO0qK8A2fToYR_Bhg0aBnKZI",
+              "rank_delta": -1,
+              "review_gain": 2
+            },
+            {
+              "rank": 7,
+              "name": "Dallas Regenerative Solutions",
+              "rating": 4.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Business to business service",
+              "_key": "ChIJnYn-yjyhToYRyjuvRUvqqJo",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 8,
+              "name": "ReMed Pain and Wellness Clinic",
+              "rating": 5.0,
+              "reviews": 101,
+              "review_velocity": 0.77,
+              "website": true,
+              "type": "Pain control clinic",
+              "_key": "ChIJ0yOLJcghTIYRugBioxrmjk0",
+              "rank_delta": -2,
+              "review_gain": 17
+            },
+            {
+              "rank": 9,
+              "name": "Regenerative Medicine of Texas",
+              "rating": 4.9,
+              "reviews": 104,
+              "review_velocity": 0.32,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJ2yZHBdulToYRxs6qspJs26w",
+              "rank_delta": 0,
+              "review_gain": 7
+            },
+            {
+              "rank": 10,
+              "name": "Innovations Medical",
+              "rating": 4.5,
+              "reviews": 140,
+              "review_velocity": 0.27,
+              "website": true,
+              "type": "Plastic surgery clinic",
+              "_key": "ChIJi27uqD8gTIYRR11w59NFkf0",
+              "rank_delta": 1,
+              "review_gain": 6
+            },
+            {
+              "rank": 11,
+              "name": "Principal Stem Cell Therapy and Wellness Institute",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJo9zedGIlTIYR7d6WfLmR0w8",
+              "rank_delta": 1,
+              "review_gain": 0
+            },
+            {
+              "rank": 14,
+              "name": "Regenerative Institute of America",
+              "rating": 0.0,
+              "reviews": 0,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Medical Center",
+              "_key": "ChIJnTGr0WCfToYRo_QR6qAuPGk",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 15,
+              "name": "Regen Wellness",
+              "rating": 4.8,
+              "reviews": 61,
+              "review_velocity": 0.18,
+              "website": true,
+              "type": "Medical clinic",
+              "_key": "ChIJy1bxHkOfToYRt6JhIfJWz88",
+              "rank_delta": -5,
+              "review_gain": 4
+            },
+            {
+              "rank": 16,
+              "name": "RegenRx Medical",
+              "rating": 4.7,
+              "reviews": 69,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Medical Center",
+              "_key": "ChIJP8_PZJg7TIYRQk71SMSjUHU",
+              "rank_delta": -1,
+              "review_gain": 1
+            },
+            {
+              "rank": 17,
+              "name": "Advanced Regeneration",
+              "rating": 4.9,
+              "reviews": 78,
+              "review_velocity": 0.41,
+              "website": true,
+              "type": "Alternative medicine practitioner",
+              "_key": "ChIJCaBicLufToYRCLLUewVKaK0",
+              "rank_delta": -1,
+              "review_gain": 9
+            },
+            {
+              "rank": 18,
+              "name": "Legacy Pain and Regenerative Medicine: Trace Alexander, DC, FNP",
+              "rating": 5.0,
+              "reviews": 562,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Pain management physician",
+              "_key": "ChIJm_V8dHQjTIYRzpczCf09sq0",
+              "rank_delta": 1,
+              "review_gain": 22
+            },
+            {
+              "rank": 20,
+              "name": "Dr. J Regenerative Medicine",
+              "rating": 4.9,
+              "reviews": 27,
+              "review_velocity": 0.09,
+              "website": true,
+              "type": "Doctor",
+              "_key": "ChIJDZ1kFYrUTYYRNNbQDw_YykU",
+              "rank_delta": 0,
+              "review_gain": 2
+            }
+          ],
+          "fastest_climber": {
+            "rank": 4,
+            "name": "Innovare Tx Regenerative & Wellness Clinic",
+            "rating": 5.0,
+            "reviews": 75,
+            "review_velocity": 1.23,
+            "website": true,
+            "type": "Medical clinic",
+            "_key": "ChIJn_hozpUhTIYRKQoQN5LYKOo",
+            "rank_delta": 4,
+            "review_gain": 27
+          },
+          "fastest_review_gainer": {
+            "rank": 2,
+            "name": "RegenOrthoSport Dallas",
+            "rating": 4.9,
+            "reviews": 139,
+            "review_velocity": 2.05,
+            "website": true,
+            "type": "Orthopedic clinic",
+            "_key": "ChIJsTdFUsKfToYRMBISPNn7Qmc",
+            "rank_delta": -1,
+            "review_gain": 45
+          },
+          "visibility": {
+            "current_rank": 19,
+            "best_rank": 12,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 0.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 0.0,
+            "lost_vs_best_rel": 0,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 7 vs a typical competitor's 78. Close the 71-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.4 vs category 4.79. A 0.39-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.65/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "RegenOrthoSport Dallas added 45 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 19,
+          "start_rank": 17,
+          "net_change": -2,
+          "best_rank": 12,
+          "worst_rank": 19
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 19, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-02T22:12:13.094265+00:00",
@@ -95480,7 +96686,9 @@
           "type": "followup_2",
           "sent_at": "2026-11-16T22:46:01.025803+00:00"
         }
-      ]
+      ],
+      "free_report_sent": "2026-11-19T21:20:56.111159+00:00",
+      "free_report_email": "optimalpain@txhealthcare.com"
     },
     {
       "id": "338d56901b1d",
@@ -103650,12 +104858,645 @@
             "category_avg_rating": 4.9,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 22.0,
+          "n_snapshots": 12,
+          "rank_history": [
+            {
+              "date": "Jun 15",
+              "rank": 5
+            },
+            {
+              "date": "Jun 22",
+              "rank": 7
+            },
+            {
+              "date": "Jun 29",
+              "rank": 6
+            },
+            {
+              "date": "Jul 13",
+              "rank": 6
+            },
+            {
+              "date": "Jul 27",
+              "rank": 6
+            },
+            {
+              "date": "Aug 10",
+              "rank": 7
+            },
+            {
+              "date": "Aug 24",
+              "rank": 7
+            },
+            {
+              "date": "Sep 07",
+              "rank": 6
+            },
+            {
+              "date": "Sep 21",
+              "rank": 6
+            },
+            {
+              "date": "Oct 19",
+              "rank": 7
+            },
+            {
+              "date": "Nov 02",
+              "rank": 7
+            },
+            {
+              "date": "Nov 16",
+              "rank": 16
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jun 15",
+              "reviews": 548
+            },
+            {
+              "date": "Jun 22",
+              "reviews": 546
+            },
+            {
+              "date": "Jun 29",
+              "reviews": 546
+            },
+            {
+              "date": "Jul 13",
+              "reviews": 547
+            },
+            {
+              "date": "Jul 27",
+              "reviews": 549
+            },
+            {
+              "date": "Aug 10",
+              "reviews": 552
+            },
+            {
+              "date": "Aug 24",
+              "reviews": 552
+            },
+            {
+              "date": "Sep 07",
+              "reviews": 553
+            },
+            {
+              "date": "Sep 21",
+              "reviews": 553
+            },
+            {
+              "date": "Oct 19",
+              "reviews": 557
+            },
+            {
+              "date": "Nov 02",
+              "reviews": 556
+            },
+            {
+              "date": "Nov 16",
+              "reviews": 556
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              5,
+              7,
+              6,
+              6,
+              6,
+              7,
+              7,
+              6,
+              6,
+              7,
+              7,
+              16
+            ],
+            "dates": [
+              "Jun 15",
+              "Jun 22",
+              "Jun 29",
+              "Jul 13",
+              "Jul 27",
+              "Aug 10",
+              "Aug 24",
+              "Sep 07",
+              "Sep 21",
+              "Oct 19",
+              "Nov 02",
+              "Nov 16"
+            ],
+            "direction": "declining",
+            "best_rank": 5,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 0.36,
+            "total_gained": 8,
+            "weeks": 22.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Lawyer Furqan",
+              "rating": 5.0,
+              "reviews": 95,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJzz0SBNjLD4gRd-16nUvjQZ8"
+            },
+            {
+              "rank": 2,
+              "name": "Powell and Pisman",
+              "rating": 4.8,
+              "reviews": 461,
+              "review_velocity": 1.23,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ1Vtpk03TD4gRN_oPxUEQNVM"
+            },
+            {
+              "rank": 3,
+              "name": "TopDog Law Personal Injury Lawyers",
+              "rating": 4.8,
+              "reviews": 514,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJC4NsiTPLD4gRyJYR5A2Ey8s"
+            },
+            {
+              "rank": 4,
+              "name": "Mancini Law Group P.C.",
+              "rating": 4.8,
+              "reviews": 442,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJQT0nCubLD4gRCdGF8Plx_pQ"
+            },
+            {
+              "rank": 5,
+              "name": "Malman Law",
+              "rating": 4.8,
+              "reviews": 5440,
+              "review_velocity": 25.23,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJNX5Q7LksDogRyP2RQqDa4uk"
+            },
+            {
+              "rank": 6,
+              "name": "Abels & Annes, P.C.",
+              "rating": 5.0,
+              "reviews": 251,
+              "review_velocity": 0.68,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJp6pa2LosDogR18tVV9R9gQM"
+            },
+            {
+              "rank": 7,
+              "name": "Shea Law Group",
+              "rating": 4.9,
+              "reviews": 317,
+              "review_velocity": 0.91,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ3er_oJrSD4gReMs5rCvCOmo"
+            },
+            {
+              "rank": 8,
+              "name": "Attorneys of Chicago Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 140,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJL0Yu-oo_DogRD2GRrDdaw9U"
+            },
+            {
+              "rank": 9,
+              "name": "Midwest Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 140,
+              "review_velocity": 0.45,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJX5sP4sAtDogR_ShU3Rmr5pk"
+            },
+            {
+              "rank": 10,
+              "name": "Levin & Perconti",
+              "rating": 4.8,
+              "reviews": 605,
+              "review_velocity": -0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJVYFIH7EsDogR7qVPXG2TT4M"
+            },
+            {
+              "rank": 11,
+              "name": "Zayed Law Personal Injury Attorneys",
+              "rating": 5.0,
+              "reviews": 12,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJmewfk4DND4gRYnPtkwcRRCQ"
+            },
+            {
+              "rank": 12,
+              "name": "Morgan & Morgan",
+              "rating": 4.8,
+              "reviews": 2155,
+              "review_velocity": 1.41,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJl7dE1JstDogRiHSXrsFqFxU"
+            },
+            {
+              "rank": 13,
+              "name": "Zayed Law Personal Injury Attorneys",
+              "rating": 4.8,
+              "reviews": 607,
+              "review_velocity": 2.68,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJRym6wbssDogRbAhYrIj82h8"
+            },
+            {
+              "rank": 14,
+              "name": "Connolly Injury Law - Chicago Workers Comp Lawyer",
+              "rating": 5.0,
+              "reviews": 234,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJfaMs7RnTD4gRwm0KeOFE2Ow"
+            },
+            {
+              "rank": 15,
+              "name": "Willens & Baez Personal Injury Lawyers, P.C.",
+              "rating": 4.9,
+              "reviews": 163,
+              "review_velocity": -0.27,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJSwAazbssDogRz5Kw4LrDj4A"
+            },
+            {
+              "rank": 16,
+              "name": "The Kryder Law Group, LLC",
+              "rating": 4.9,
+              "reviews": 556,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ64RsIrosDogRm7DEZnr7-Vg"
+            },
+            {
+              "rank": 17,
+              "name": "McCreadyLaw Injury Attorneys",
+              "rating": 4.7,
+              "reviews": 944,
+              "review_velocity": 4.91,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJPWO5FjwlDogR1aT6WGSROVE"
+            },
+            {
+              "rank": 18,
+              "name": "Horwitz, Horwitz & Associates, Ltd.",
+              "rating": 4.9,
+              "reviews": 1131,
+              "review_velocity": 0.95,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJTZHMAqUsDogRTMUnm0mOjjg"
+            },
+            {
+              "rank": 19,
+              "name": "Rosenfeld Injury Lawyers LLC",
+              "rating": 4.8,
+              "reviews": 446,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJp6pa2LosDogRnEqIt5kGI94"
+            },
+            {
+              "rank": 20,
+              "name": "Gainsberg Injury and Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 522,
+              "review_velocity": 0.55,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJhYmczbosDogRwkmGwY0BUlo"
+            }
+          ],
+          "subject": {
+            "rank": 16,
+            "name": "The Kryder Law Group, LLC",
+            "rating": 4.9,
+            "reviews": 556,
+            "review_velocity": 0.36,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJ64RsIrosDogRm7DEZnr7-Vg"
+          },
+          "benchmarks": {
+            "avg_rating": 4.88,
+            "avg_reviews": 759,
+            "median_reviews": 454,
+            "typical_reviews": 759,
+            "skewed": false,
+            "your_reviews": 556,
+            "your_rating": 4.9,
+            "reviews_percentile": 70,
+            "pack_size": 20,
+            "top_reviews": 5440
+          },
+          "movement": [
+            {
+              "rank": 2,
+              "name": "Powell and Pisman",
+              "rating": 4.8,
+              "reviews": 461,
+              "review_velocity": 1.23,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ1Vtpk03TD4gRN_oPxUEQNVM",
+              "rank_delta": 8,
+              "review_gain": 27
+            },
+            {
+              "rank": 5,
+              "name": "Malman Law",
+              "rating": 4.8,
+              "reviews": 5440,
+              "review_velocity": 25.23,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJNX5Q7LksDogRyP2RQqDa4uk",
+              "rank_delta": -4,
+              "review_gain": 555
+            },
+            {
+              "rank": 6,
+              "name": "Abels & Annes, P.C.",
+              "rating": 5.0,
+              "reviews": 251,
+              "review_velocity": 0.68,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJp6pa2LosDogR18tVV9R9gQM",
+              "rank_delta": -4,
+              "review_gain": 15
+            },
+            {
+              "rank": 7,
+              "name": "Shea Law Group",
+              "rating": 4.9,
+              "reviews": 317,
+              "review_velocity": 0.91,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ3er_oJrSD4gReMs5rCvCOmo",
+              "rank_delta": 6,
+              "review_gain": 20
+            },
+            {
+              "rank": 8,
+              "name": "Attorneys of Chicago Personal Injury Lawyers",
+              "rating": 4.9,
+              "reviews": 140,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJL0Yu-oo_DogRD2GRrDdaw9U",
+              "rank_delta": -2,
+              "review_gain": 8
+            },
+            {
+              "rank": 9,
+              "name": "Midwest Injury Lawyers",
+              "rating": 5.0,
+              "reviews": 140,
+              "review_velocity": 0.45,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJX5sP4sAtDogR_ShU3Rmr5pk",
+              "rank_delta": 5,
+              "review_gain": 10
+            },
+            {
+              "rank": 10,
+              "name": "Levin & Perconti",
+              "rating": 4.8,
+              "reviews": 605,
+              "review_velocity": -0.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJVYFIH7EsDogR7qVPXG2TT4M",
+              "rank_delta": -7,
+              "review_gain": -3
+            },
+            {
+              "rank": 12,
+              "name": "Morgan & Morgan",
+              "rating": 4.8,
+              "reviews": 2155,
+              "review_velocity": 1.41,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJl7dE1JstDogRiHSXrsFqFxU",
+              "rank_delta": -3,
+              "review_gain": 31
+            },
+            {
+              "rank": 13,
+              "name": "Zayed Law Personal Injury Attorneys",
+              "rating": 4.8,
+              "reviews": 607,
+              "review_velocity": 2.68,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJRym6wbssDogRbAhYrIj82h8",
+              "rank_delta": -6,
+              "review_gain": 59
+            },
+            {
+              "rank": 14,
+              "name": "Connolly Injury Law - Chicago Workers Comp Lawyer",
+              "rating": 5.0,
+              "reviews": 234,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJfaMs7RnTD4gRwm0KeOFE2Ow",
+              "rank_delta": -6,
+              "review_gain": 0
+            },
+            {
+              "rank": 15,
+              "name": "Willens & Baez Personal Injury Lawyers, P.C.",
+              "rating": 4.9,
+              "reviews": 163,
+              "review_velocity": -0.27,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJSwAazbssDogRz5Kw4LrDj4A",
+              "rank_delta": 3,
+              "review_gain": -6
+            },
+            {
+              "rank": 16,
+              "name": "The Kryder Law Group, LLC",
+              "rating": 4.9,
+              "reviews": 556,
+              "review_velocity": 0.36,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJ64RsIrosDogRm7DEZnr7-Vg",
+              "rank_delta": -11,
+              "review_gain": 8
+            },
+            {
+              "rank": 17,
+              "name": "McCreadyLaw Injury Attorneys",
+              "rating": 4.7,
+              "reviews": 944,
+              "review_velocity": 4.91,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJPWO5FjwlDogR1aT6WGSROVE",
+              "rank_delta": -13,
+              "review_gain": 108
+            },
+            {
+              "rank": 18,
+              "name": "Horwitz, Horwitz & Associates, Ltd.",
+              "rating": 4.9,
+              "reviews": 1131,
+              "review_velocity": 0.95,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJTZHMAqUsDogRTMUnm0mOjjg",
+              "rank_delta": -1,
+              "review_gain": 21
+            },
+            {
+              "rank": 19,
+              "name": "Rosenfeld Injury Lawyers LLC",
+              "rating": 4.8,
+              "reviews": 446,
+              "review_velocity": 1.14,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJp6pa2LosDogRnEqIt5kGI94",
+              "rank_delta": 1,
+              "review_gain": 25
+            },
+            {
+              "rank": 20,
+              "name": "Gainsberg Injury and Accident Lawyers",
+              "rating": 4.9,
+              "reviews": 522,
+              "review_velocity": 0.55,
+              "website": true,
+              "type": "Personal injury attorney",
+              "_key": "ChIJhYmczbosDogRwkmGwY0BUlo",
+              "rank_delta": -4,
+              "review_gain": 12
+            }
+          ],
+          "fastest_climber": {
+            "rank": 2,
+            "name": "Powell and Pisman",
+            "rating": 4.8,
+            "reviews": 461,
+            "review_velocity": 1.23,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJ1Vtpk03TD4gRN_oPxUEQNVM",
+            "rank_delta": 8,
+            "review_gain": 27
+          },
+          "fastest_review_gainer": {
+            "rank": 5,
+            "name": "Malman Law",
+            "rating": 4.8,
+            "reviews": 5440,
+            "review_velocity": 25.23,
+            "website": true,
+            "type": "Personal injury attorney",
+            "_key": "ChIJNX5Q7LksDogRyP2RQqDa4uk",
+            "rank_delta": -4,
+            "review_gain": 555
+          },
+          "visibility": {
+            "current_rank": 16,
+            "best_rank": 5,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 4.8,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 4.0,
+            "lost_vs_best_rel": 83,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 556 vs a typical competitor's 759. Close the 203-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.9 vs category 4.88."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.36/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Malman Law added 555 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 16,
+          "start_rank": 5,
+          "net_change": -11,
+          "best_rank": 5,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 19, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-16T22:45:59.448399+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-19T21:20:19.944623+00:00",
+      "free_report_email": "akryder@kryderlaw.com"
     },
     {
       "id": "e3ebc691c14e",
