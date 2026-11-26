@@ -108638,12 +108638,551 @@
             "category_avg_rating": 5.0,
             "position_summary": "above average"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 16.0,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Aug 03",
+              "rank": 18
+            },
+            {
+              "date": "Aug 17",
+              "rank": 13
+            },
+            {
+              "date": "Oct 12",
+              "rank": 7
+            },
+            {
+              "date": "Nov 09",
+              "rank": 1
+            },
+            {
+              "date": "Nov 24",
+              "rank": 11
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Aug 03",
+              "reviews": 33
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 33
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 33
+            },
+            {
+              "date": "Nov 09",
+              "reviews": 33
+            },
+            {
+              "date": "Nov 24",
+              "reviews": 33
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              18,
+              13,
+              7,
+              1,
+              11
+            ],
+            "dates": [
+              "Aug 03",
+              "Aug 17",
+              "Oct 12",
+              "Nov 09",
+              "Nov 24"
+            ],
+            "direction": "improving",
+            "best_rank": 1,
+            "worst_rank": 18
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 16.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Miles Wright - Luxury Real Estate Advisor",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJEQJSs8l744kRkh0c_LVJ-y0"
+            },
+            {
+              "rank": 2,
+              "name": "Paul Whaley, Luxury Real Estate Agent, Boston, MA",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ17AZhQt644kRmGWwWGhx3ls"
+            },
+            {
+              "rank": 3,
+              "name": "CS Luxury Group | Keller Williams Realty",
+              "rating": 5.0,
+              "reviews": 29,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ1_N_Dv5744kRshLBvqGZYEE"
+            },
+            {
+              "rank": 4,
+              "name": "Hilary Dunlavey Homes",
+              "rating": 5.0,
+              "reviews": 88,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJyasiwd8L44kR5t_kiONu-j0"
+            },
+            {
+              "rank": 5,
+              "name": "Luxury Living Real Estate",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJTw6mOo9w44kRABsW7zSbiUE"
+            },
+            {
+              "rank": 6,
+              "name": "Luxury Living Boston Team at Regatta Realty",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJk_-Vzq1yv2QRVQHV21gpYZM"
+            },
+            {
+              "rank": 7,
+              "name": "Remmes & Co. Boston Real Estate",
+              "rating": 5.0,
+              "reviews": 121,
+              "review_velocity": -0.35,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJV4ZK7Ep744kR_aXDU8la8Q4"
+            },
+            {
+              "rank": 8,
+              "name": "Ricardo Rodriguez & Associates | Boston, MA Real Estate",
+              "rating": 5.0,
+              "reviews": 65,
+              "review_velocity": -0.45,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ13f9yt5744kRaTEZ0G9pRVI"
+            },
+            {
+              "rank": 9,
+              "name": "Concept Properties",
+              "rating": 4.8,
+              "reviews": 69,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ0SWNbRN644kRpNtU8JahO8Q"
+            },
+            {
+              "rank": 10,
+              "name": "Andrew McKinney Real Estate-Donnelly + Co.",
+              "rating": 5.0,
+              "reviews": 71,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJaYVe2Gp644kR2k1ZFGvvuNQ"
+            },
+            {
+              "rank": 11,
+              "name": "Cheri Meckley -Luxury Real Estate Boston",
+              "rating": 4.8,
+              "reviews": 33,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ80Igcwt644kRY6GbyEEcrB8"
+            },
+            {
+              "rank": 12,
+              "name": "Nexus Real Estate Group",
+              "rating": 5.0,
+              "reviews": 115,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJsVnmyfF744kR5D6WZUKybh8"
+            },
+            {
+              "rank": 13,
+              "name": "Amo Realty - Boston City Properties",
+              "rating": 4.9,
+              "reviews": 340,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJMR2XfQx644kRx88C86ylwbo"
+            },
+            {
+              "rank": 14,
+              "name": "Full Circle Realty",
+              "rating": 4.9,
+              "reviews": 129,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJu2UBegx644kRn9xivMmsX3A"
+            },
+            {
+              "rank": 15,
+              "name": "Jessica Later & JL+CoRE - Real Estate & Property Management Agency",
+              "rating": 4.9,
+              "reviews": 27,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ2dUJnN9744kRkrhbo9xcM9w"
+            },
+            {
+              "rank": 16,
+              "name": "Kaitlynn Milone Luxury Real Estate Specialist at Compass",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 1.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJIf732uJ744kRBVcewWgYpdU"
+            },
+            {
+              "rank": 17,
+              "name": "Jacob Realty",
+              "rating": 4.8,
+              "reviews": 361,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJa3denw9644kRcJTgLyE8m9k"
+            },
+            {
+              "rank": 18,
+              "name": "Live in Luxury Real Estate at Compass",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJJRNFV51w44kRDKdPKbm3XU4"
+            },
+            {
+              "rank": 19,
+              "name": "Daniela Cafaro | Top-Rated Real Estate Broker in Greater Boston, MA",
+              "rating": 4.9,
+              "reviews": 45,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ80Igcwt644kRlOGmjpkhQ1A"
+            },
+            {
+              "rank": 20,
+              "name": "Gibson Sotheby's International Realty",
+              "rating": 4.8,
+              "reviews": 22,
+              "review_velocity": -0.08,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJhdpKe25544kRjk3EDO50rcM"
+            }
+          ],
+          "subject": {
+            "rank": 11,
+            "name": "Cheri Meckley -Luxury Real Estate Boston",
+            "rating": 4.8,
+            "reviews": 33,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJ80Igcwt644kRY6GbyEEcrB8"
+          },
+          "benchmarks": {
+            "avg_rating": 4.94,
+            "avg_reviews": 78,
+            "median_reviews": 39,
+            "typical_reviews": 39,
+            "skewed": true,
+            "your_reviews": 33,
+            "your_rating": 4.8,
+            "reviews_percentile": 50,
+            "pack_size": 20,
+            "top_reviews": 361
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Miles Wright - Luxury Real Estate Advisor",
+              "rating": 4.9,
+              "reviews": 32,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJEQJSs8l744kRkh0c_LVJ-y0",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Paul Whaley, Luxury Real Estate Agent, Boston, MA",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ17AZhQt644kRmGWwWGhx3ls",
+              "rank_delta": 2,
+              "review_gain": 0
+            },
+            {
+              "rank": 3,
+              "name": "CS Luxury Group | Keller Williams Realty",
+              "rating": 5.0,
+              "reviews": 29,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ1_N_Dv5744kRshLBvqGZYEE",
+              "rank_delta": -2,
+              "review_gain": 2
+            },
+            {
+              "rank": 4,
+              "name": "Hilary Dunlavey Homes",
+              "rating": 5.0,
+              "reviews": 88,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJyasiwd8L44kR5t_kiONu-j0",
+              "rank_delta": 1,
+              "review_gain": -5
+            },
+            {
+              "rank": 5,
+              "name": "Luxury Living Real Estate",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJTw6mOo9w44kRABsW7zSbiUE",
+              "rank_delta": -3,
+              "review_gain": 0
+            },
+            {
+              "rank": 6,
+              "name": "Luxury Living Boston Team at Regatta Realty",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJk_-Vzq1yv2QRVQHV21gpYZM",
+              "rank_delta": 1,
+              "review_gain": 2
+            },
+            {
+              "rank": 7,
+              "name": "Remmes & Co. Boston Real Estate",
+              "rating": 5.0,
+              "reviews": 121,
+              "review_velocity": -0.35,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJV4ZK7Ep744kR_aXDU8la8Q4",
+              "rank_delta": -1,
+              "review_gain": -7
+            },
+            {
+              "rank": 8,
+              "name": "Ricardo Rodriguez & Associates | Boston, MA Real Estate",
+              "rating": 5.0,
+              "reviews": 65,
+              "review_velocity": -0.45,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ13f9yt5744kRaTEZ0G9pRVI",
+              "rank_delta": 0,
+              "review_gain": -9
+            },
+            {
+              "rank": 9,
+              "name": "Concept Properties",
+              "rating": 4.8,
+              "reviews": 69,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ0SWNbRN644kRpNtU8JahO8Q",
+              "rank_delta": 4,
+              "review_gain": 0
+            },
+            {
+              "rank": 10,
+              "name": "Andrew McKinney Real Estate-Donnelly + Co.",
+              "rating": 5.0,
+              "reviews": 71,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJaYVe2Gp644kR2k1ZFGvvuNQ",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 12,
+              "name": "Nexus Real Estate Group",
+              "rating": 5.0,
+              "reviews": 115,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJsVnmyfF744kR5D6WZUKybh8",
+              "rank_delta": -1,
+              "review_gain": 1
+            },
+            {
+              "rank": 15,
+              "name": "Jessica Later & JL+CoRE - Real Estate & Property Management Agency",
+              "rating": 4.9,
+              "reviews": 27,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ2dUJnN9744kRkrhbo9xcM9w",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 17,
+              "name": "Jacob Realty",
+              "rating": 4.8,
+              "reviews": 361,
+              "review_velocity": 0.15,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJa3denw9644kRcJTgLyE8m9k",
+              "rank_delta": 0,
+              "review_gain": 3
+            },
+            {
+              "rank": 18,
+              "name": "Live in Luxury Real Estate at Compass",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJJRNFV51w44kRDKdPKbm3XU4",
+              "rank_delta": -3,
+              "review_gain": 0
+            }
+          ],
+          "fastest_climber": {
+            "rank": 9,
+            "name": "Concept Properties",
+            "rating": 4.8,
+            "reviews": 69,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJ0SWNbRN644kRpNtU8JahO8Q",
+            "rank_delta": 4,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 17,
+            "name": "Jacob Realty",
+            "rating": 4.8,
+            "reviews": 361,
+            "review_velocity": 0.15,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJa3denw9644kRcJTgLyE8m9k",
+            "rank_delta": 0,
+            "review_gain": 3
+          },
+          "visibility": {
+            "current_rank": 11,
+            "best_rank": 1,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 33.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 32.3,
+            "lost_vs_best_rel": 98,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 33 vs a typical competitor's 39. Close the 6-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.8 vs category 4.94. A 0.14-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Jacob Realty added 3 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 11,
+          "start_rank": 18,
+          "net_change": 7,
+          "best_rank": 1,
+          "worst_rank": 18
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 26, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-24T00:37:26.389055+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-26T22:13:59.325591+00:00",
+      "free_report_email": "1099@compass.com"
     },
     {
       "id": "ffdfe01e69d9",
@@ -110283,12 +110822,623 @@
             "category_avg_rating": 4.9,
             "position_summary": "needs attention"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 20.0,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 5
+            },
+            {
+              "date": "Jul 20",
+              "rank": 5
+            },
+            {
+              "date": "Aug 03",
+              "rank": 5
+            },
+            {
+              "date": "Aug 17",
+              "rank": 6
+            },
+            {
+              "date": "Aug 31",
+              "rank": 5
+            },
+            {
+              "date": "Sep 14",
+              "rank": 6
+            },
+            {
+              "date": "Sep 28",
+              "rank": 6
+            },
+            {
+              "date": "Oct 12",
+              "rank": 7
+            },
+            {
+              "date": "Oct 26",
+              "rank": 7
+            },
+            {
+              "date": "Nov 09",
+              "rank": 4
+            },
+            {
+              "date": "Nov 24",
+              "rank": 13
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 4
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 4
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 4
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 4
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 4
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 4
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 4
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 4
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 4
+            },
+            {
+              "date": "Nov 09",
+              "reviews": 4
+            },
+            {
+              "date": "Nov 24",
+              "reviews": 4
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              5,
+              5,
+              5,
+              6,
+              5,
+              6,
+              6,
+              7,
+              7,
+              4,
+              13
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12",
+              "Oct 26",
+              "Nov 09",
+              "Nov 24"
+            ],
+            "direction": "declining",
+            "best_rank": 4,
+            "worst_rank": 13
+          },
+          "review_velocity": {
+            "per_week": 0.0,
+            "total_gained": 0,
+            "weeks": 20.0,
+            "verdict": "stalled"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Carolinas Luxury Realty",
+              "rating": 4.8,
+              "reviews": 23,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJoXmqf0UrJgURuHSz03lfiFs"
+            },
+            {
+              "rank": 2,
+              "name": "Luxe by Lee Real Estate & Investments",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.2,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJzTdSJL9ZVSwR9QF-f1vFlJg"
+            },
+            {
+              "rank": 3,
+              "name": "Castano Luxury Homes",
+              "rating": 5.0,
+              "reviews": 1,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJG5NRj9ydVogRYK1TRA1uZ2c"
+            },
+            {
+              "rank": 4,
+              "name": "High Performance Real Estate Advisors",
+              "rating": 4.9,
+              "reviews": 3083,
+              "review_velocity": 1.35,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJNaHRP9-cVogREiGwouOXNAw"
+            },
+            {
+              "rank": 5,
+              "name": "The Premier Team of RE/MAX Executive - Charlotte, NC",
+              "rating": 5.0,
+              "reviews": 672,
+              "review_velocity": 0.9,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJI3Bd-BedVogRDu9V3lzlryg"
+            },
+            {
+              "rank": 6,
+              "name": "Stone Realty Group",
+              "rating": 5.0,
+              "reviews": 679,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJwavGto-fVogRvImMeYFQ6KM"
+            },
+            {
+              "rank": 7,
+              "name": "Eli Magids Charlotte Luxury Homes",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJp3BzjxedVogRnzVfkHDEjl8"
+            },
+            {
+              "rank": 8,
+              "name": "Premier Sotheby's International Realty",
+              "rating": 4.9,
+              "reviews": 81,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUXkg_mieVogRU-BvddW92W4"
+            },
+            {
+              "rank": 9,
+              "name": "Jane Francis Cross - Carolina Luxury Realtor - a Christie's International Affiliate at Ivester Jackson",
+              "rating": 5.0,
+              "reviews": 24,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ_TRfhdEzYqERWMfT-5Fsg2I"
+            },
+            {
+              "rank": 10,
+              "name": "Tyler Goldsmith Real Estate",
+              "rating": 4.8,
+              "reviews": 89,
+              "review_velocity": -0.8,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJaar6GcqfVogRX80gcGVSGoA"
+            },
+            {
+              "rank": 11,
+              "name": "Ashley Horton | Top Charlotte Real Estate Agent | Premier Sotheby's International Realty",
+              "rating": 5.0,
+              "reviews": 52,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJqXqOJj-fVogROUN__aBz_8w"
+            },
+            {
+              "rank": 12,
+              "name": "Ivester Jackson Christie's International Real Estate",
+              "rating": 4.9,
+              "reviews": 137,
+              "review_velocity": 0.55,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJBRn8KmqeVogRRBvRLumUnBI"
+            },
+            {
+              "rank": 13,
+              "name": "John Deese REALTOR\u00ae | Charlotte Luxury Homes",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJD3sWDOyfVogRdwbkl6kJUWo"
+            },
+            {
+              "rank": 14,
+              "name": "Fagan Realty Group",
+              "rating": 5.0,
+              "reviews": 180,
+              "review_velocity": -0.8,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJk8rdY-mfVogRIL2Nnbk9lAY"
+            },
+            {
+              "rank": 15,
+              "name": "Dickens Mitchener Residential Real Estate",
+              "rating": 5.0,
+              "reviews": 232,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq-CBIuWfVogRsDe8i5vbwB0"
+            },
+            {
+              "rank": 16,
+              "name": "Ashley & Scott Sofsian Premier Sotheby's International Realty",
+              "rating": 5.0,
+              "reviews": 49,
+              "review_velocity": 0.3,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJJwuwQ0IfVGoRwOewystKGvM"
+            },
+            {
+              "rank": 17,
+              "name": "David Hoffman Realty",
+              "rating": 4.9,
+              "reviews": 228,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJEZqMlhedVogRcyU-DFTeqfc"
+            },
+            {
+              "rank": 18,
+              "name": "NOIRE Group LLC",
+              "rating": 4.8,
+              "reviews": 38,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJt7WbeFqfVogRfHJoZClPbpM"
+            },
+            {
+              "rank": 19,
+              "name": "Melissa Zimmerman - Realtor",
+              "rating": 5.0,
+              "reviews": 86,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ4zibKvupVogRc-XWx9Kzr-Q"
+            },
+            {
+              "rank": 20,
+              "name": "Carolina Realty Advisors",
+              "rating": 4.8,
+              "reviews": 93,
+              "review_velocity": -0.17,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJU5-_HyugVogRX8dN6P6Iog8"
+            }
+          ],
+          "subject": {
+            "rank": 13,
+            "name": "John Deese REALTOR\u00ae | Charlotte Luxury Homes",
+            "rating": 5.0,
+            "reviews": 4,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJD3sWDOyfVogRdwbkl6kJUWo"
+          },
+          "benchmarks": {
+            "avg_rating": 4.94,
+            "avg_reviews": 288,
+            "median_reviews": 84,
+            "typical_reviews": 84,
+            "skewed": true,
+            "your_reviews": 4,
+            "your_rating": 5.0,
+            "reviews_percentile": 15,
+            "pack_size": 20,
+            "top_reviews": 3083
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Carolinas Luxury Realty",
+              "rating": 4.8,
+              "reviews": 23,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJoXmqf0UrJgURuHSz03lfiFs",
+              "rank_delta": 0,
+              "review_gain": 0
+            },
+            {
+              "rank": 2,
+              "name": "Luxe by Lee Real Estate & Investments",
+              "rating": 5.0,
+              "reviews": 15,
+              "review_velocity": 0.2,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJzTdSJL9ZVSwR9QF-f1vFlJg",
+              "rank_delta": 0,
+              "review_gain": 4
+            },
+            {
+              "rank": 4,
+              "name": "High Performance Real Estate Advisors",
+              "rating": 4.9,
+              "reviews": 3083,
+              "review_velocity": 1.35,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJNaHRP9-cVogREiGwouOXNAw",
+              "rank_delta": -1,
+              "review_gain": 27
+            },
+            {
+              "rank": 5,
+              "name": "The Premier Team of RE/MAX Executive - Charlotte, NC",
+              "rating": 5.0,
+              "reviews": 672,
+              "review_velocity": 0.9,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJI3Bd-BedVogRDu9V3lzlryg",
+              "rank_delta": 6,
+              "review_gain": 18
+            },
+            {
+              "rank": 6,
+              "name": "Stone Realty Group",
+              "rating": 5.0,
+              "reviews": 679,
+              "review_velocity": -0.25,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJwavGto-fVogRvImMeYFQ6KM",
+              "rank_delta": 3,
+              "review_gain": -5
+            },
+            {
+              "rank": 7,
+              "name": "Eli Magids Charlotte Luxury Homes",
+              "rating": 5.0,
+              "reviews": 3,
+              "review_velocity": 0.0,
+              "website": false,
+              "type": "Real estate agency",
+              "_key": "ChIJp3BzjxedVogRnzVfkHDEjl8",
+              "rank_delta": -1,
+              "review_gain": 0
+            },
+            {
+              "rank": 8,
+              "name": "Premier Sotheby's International Realty",
+              "rating": 4.9,
+              "reviews": 81,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUXkg_mieVogRU-BvddW92W4",
+              "rank_delta": -4,
+              "review_gain": 1
+            },
+            {
+              "rank": 9,
+              "name": "Jane Francis Cross - Carolina Luxury Realtor - a Christie's International Affiliate at Ivester Jackson",
+              "rating": 5.0,
+              "reviews": 24,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ_TRfhdEzYqERWMfT-5Fsg2I",
+              "rank_delta": -2,
+              "review_gain": 0
+            },
+            {
+              "rank": 10,
+              "name": "Tyler Goldsmith Real Estate",
+              "rating": 4.8,
+              "reviews": 89,
+              "review_velocity": -0.8,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJaar6GcqfVogRX80gcGVSGoA",
+              "rank_delta": 5,
+              "review_gain": -16
+            },
+            {
+              "rank": 12,
+              "name": "Ivester Jackson Christie's International Real Estate",
+              "rating": 4.9,
+              "reviews": 137,
+              "review_velocity": 0.55,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJBRn8KmqeVogRRBvRLumUnBI",
+              "rank_delta": -2,
+              "review_gain": 11
+            },
+            {
+              "rank": 13,
+              "name": "John Deese REALTOR\u00ae | Charlotte Luxury Homes",
+              "rating": 5.0,
+              "reviews": 4,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJD3sWDOyfVogRdwbkl6kJUWo",
+              "rank_delta": -8,
+              "review_gain": 0
+            },
+            {
+              "rank": 14,
+              "name": "Fagan Realty Group",
+              "rating": 5.0,
+              "reviews": 180,
+              "review_velocity": -0.8,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJk8rdY-mfVogRIL2Nnbk9lAY",
+              "rank_delta": 0,
+              "review_gain": -16
+            },
+            {
+              "rank": 15,
+              "name": "Dickens Mitchener Residential Real Estate",
+              "rating": 5.0,
+              "reviews": 232,
+              "review_velocity": 1.3,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJq-CBIuWfVogRsDe8i5vbwB0",
+              "rank_delta": -3,
+              "review_gain": 26
+            },
+            {
+              "rank": 16,
+              "name": "Ashley & Scott Sofsian Premier Sotheby's International Realty",
+              "rating": 5.0,
+              "reviews": 49,
+              "review_velocity": 0.3,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJJwuwQ0IfVGoRwOewystKGvM",
+              "rank_delta": 1,
+              "review_gain": 6
+            },
+            {
+              "rank": 18,
+              "name": "NOIRE Group LLC",
+              "rating": 4.8,
+              "reviews": 38,
+              "review_velocity": -0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJt7WbeFqfVogRfHJoZClPbpM",
+              "rank_delta": -10,
+              "review_gain": -1
+            }
+          ],
+          "fastest_climber": {
+            "rank": 5,
+            "name": "The Premier Team of RE/MAX Executive - Charlotte, NC",
+            "rating": 5.0,
+            "reviews": 672,
+            "review_velocity": 0.9,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJI3Bd-BedVogRDu9V3lzlryg",
+            "rank_delta": 6,
+            "review_gain": 18
+          },
+          "fastest_review_gainer": {
+            "rank": 4,
+            "name": "High Performance Real Estate Advisors",
+            "rating": 4.9,
+            "reviews": 3083,
+            "review_velocity": 1.35,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJNaHRP9-cVogREiGwouOXNAw",
+            "rank_delta": -1,
+            "review_gain": 27
+          },
+          "visibility": {
+            "current_rank": 13,
+            "best_rank": 4,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 6.4,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 5.6,
+            "lost_vs_best_rel": 88,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 4 vs a typical competitor's 84. Close the 80-review gap to match the pack."
+            },
+            {
+              "ok": true,
+              "label": "Star rating at/above category average",
+              "detail": "Your 5.0 vs category 4.94."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.0/week (stalled). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "High Performance Real Estate Advisors added 27 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 13,
+          "start_rank": 5,
+          "net_change": -8,
+          "best_rank": 4,
+          "worst_rank": 13
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 26, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-24T00:37:26.389177+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-26T22:14:18.139370+00:00",
+      "free_report_email": "johnd@ivesterjackson.com"
     },
     {
       "id": "c75646137ed7",
@@ -110792,12 +111942,551 @@
             "category_avg_rating": 5.0,
             "position_summary": "needs attention"
           }
-        }
+        },
+        "_analytics": {
+          "has_history": true,
+          "weeks_span": 20.0,
+          "n_snapshots": 11,
+          "rank_history": [
+            {
+              "date": "Jul 06",
+              "rank": 4
+            },
+            {
+              "date": "Jul 20",
+              "rank": 11
+            },
+            {
+              "date": "Aug 03",
+              "rank": 3
+            },
+            {
+              "date": "Aug 17",
+              "rank": 2
+            },
+            {
+              "date": "Aug 31",
+              "rank": 4
+            },
+            {
+              "date": "Sep 14",
+              "rank": 4
+            },
+            {
+              "date": "Sep 28",
+              "rank": 5
+            },
+            {
+              "date": "Oct 12",
+              "rank": 5
+            },
+            {
+              "date": "Oct 26",
+              "rank": 5
+            },
+            {
+              "date": "Nov 09",
+              "rank": 2
+            },
+            {
+              "date": "Nov 24",
+              "rank": 16
+            }
+          ],
+          "review_history": [
+            {
+              "date": "Jul 06",
+              "reviews": 45
+            },
+            {
+              "date": "Jul 20",
+              "reviews": 46
+            },
+            {
+              "date": "Aug 03",
+              "reviews": 46
+            },
+            {
+              "date": "Aug 17",
+              "reviews": 46
+            },
+            {
+              "date": "Aug 31",
+              "reviews": 46
+            },
+            {
+              "date": "Sep 14",
+              "reviews": 46
+            },
+            {
+              "date": "Sep 28",
+              "reviews": 46
+            },
+            {
+              "date": "Oct 12",
+              "reviews": 46
+            },
+            {
+              "date": "Oct 26",
+              "reviews": 46
+            },
+            {
+              "date": "Nov 09",
+              "reviews": 46
+            },
+            {
+              "date": "Nov 24",
+              "reviews": 46
+            }
+          ],
+          "rank_trend": {
+            "history": [
+              4,
+              11,
+              3,
+              2,
+              4,
+              4,
+              5,
+              5,
+              5,
+              2,
+              16
+            ],
+            "dates": [
+              "Jul 06",
+              "Jul 20",
+              "Aug 03",
+              "Aug 17",
+              "Aug 31",
+              "Sep 14",
+              "Sep 28",
+              "Oct 12",
+              "Oct 26",
+              "Nov 09",
+              "Nov 24"
+            ],
+            "direction": "declining",
+            "best_rank": 2,
+            "worst_rank": 16
+          },
+          "review_velocity": {
+            "per_week": 0.05,
+            "total_gained": 1,
+            "weeks": 20.0,
+            "verdict": "slow"
+          },
+          "competitors": [
+            {
+              "rank": 1,
+              "name": "Stephen FitzMaurice, Portland Real Estate Agent",
+              "rating": 4.9,
+              "reviews": 203,
+              "review_velocity": 0.45,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ-7_h8sqglVQRVUjFCURVLvk"
+            },
+            {
+              "rank": 2,
+              "name": "Lovejoy Real Estate",
+              "rating": 5.0,
+              "reviews": 267,
+              "review_velocity": 0.2,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJgWUl5FgKlVQR7MKwaUMgQJk"
+            },
+            {
+              "rank": 3,
+              "name": "The Nick Shivers Team | eXp Realty",
+              "rating": 4.9,
+              "reviews": 764,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJD-gxNAh1lVQRbECxQm_4pyI"
+            },
+            {
+              "rank": 4,
+              "name": "Own It Northwest",
+              "rating": 5.0,
+              "reviews": 325,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJfX-GBbOglVQRRvGz6S5UOkc"
+            },
+            {
+              "rank": 5,
+              "name": "Juli Martin at LUXE | Forbes Global Properties",
+              "rating": 5.0,
+              "reviews": 10,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJixkZtvUJlVQRDK5Wk0lydks"
+            },
+            {
+              "rank": 6,
+              "name": "Allison Grice | KJK Properties, PC",
+              "rating": 5.0,
+              "reviews": 125,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJfe9I9AuhlVQRGa8D1OzeGxM"
+            },
+            {
+              "rank": 7,
+              "name": "The Dan Volkmer Team",
+              "rating": 5.0,
+              "reviews": 32,
+              "review_velocity": 0.44,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJufsyGvoJlVQR3t7JREci-N4"
+            },
+            {
+              "rank": 8,
+              "name": "The Sadle Home Selling Team, Rick Sadle",
+              "rating": 5.0,
+              "reviews": 1117,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJpdviuW8PlVQRHBtUa9Fyn7I"
+            },
+            {
+              "rank": 9,
+              "name": "Paris Group Realty, LLC",
+              "rating": 4.9,
+              "reviews": 85,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJs1-31wynlVQR70SXk8gVnBs"
+            },
+            {
+              "rank": 10,
+              "name": "PDX Property Group | Keller Williams",
+              "rating": 4.8,
+              "reviews": 192,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ3XW8H3sJlVQRNU2d9DkoiRA"
+            },
+            {
+              "rank": 11,
+              "name": "Michelle McCabe, Portland Real Estate Agent | McCabe & Co at Windermere Realty Trust",
+              "rating": 5.0,
+              "reviews": 23,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJJ846ErOglVQRIKJlRxejHh4"
+            },
+            {
+              "rank": 12,
+              "name": "Matin Real Estate",
+              "rating": 4.9,
+              "reviews": 1318,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJFYpu_LKglVQRIqQo0w8iqxI"
+            },
+            {
+              "rank": 13,
+              "name": "Tatiana Xenelis Real Estate Portland OR | Vancouver WA",
+              "rating": 5.0,
+              "reviews": 64,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJfUR5Y92nlVQRSZMOritIens"
+            },
+            {
+              "rank": 14,
+              "name": "Fox Real Estate Group",
+              "rating": 4.9,
+              "reviews": 520,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJW6XiUpNylVQR97ryzqiOakU"
+            },
+            {
+              "rank": 15,
+              "name": "Lauren Perreault, REALTOR, Managing Principal Broker | Fiv Realty Co",
+              "rating": 5.0,
+              "reviews": 25,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJyb-Qhv4JlVQRctOphyrR1qM"
+            },
+            {
+              "rank": 16,
+              "name": "RealEstatePDX.com - Harlan Mayer, Principal Broker",
+              "rating": 4.8,
+              "reviews": 46,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJjer3sU2nlVQR-_iMlUO8Hyw"
+            },
+            {
+              "rank": 17,
+              "name": "Darcie Alexander and Emily Michel, REALTORS | PDX Green Team",
+              "rating": 5.0,
+              "reviews": 98,
+              "review_velocity": 0.4,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUR9tcRqnlVQROrKSi1JXYoc"
+            },
+            {
+              "rank": 18,
+              "name": "PEGGY HOAG REAL ESTATE",
+              "rating": 4.8,
+              "reviews": 73,
+              "review_velocity": -0.15,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ-T7oE0UJlVQRWADWBcvCaAc"
+            },
+            {
+              "rank": 19,
+              "name": "We Know Portland",
+              "rating": 5.0,
+              "reviews": 69,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJkUH1JFAPlVQRFjxqSeFAP_0"
+            },
+            {
+              "rank": 20,
+              "name": "Lauren Goch\u00e9 - Realtor, Think Real Estate",
+              "rating": 5.0,
+              "reviews": 159,
+              "review_velocity": 0.42,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJ5QUIz4OglVQRhrQlnf4jIS4"
+            }
+          ],
+          "subject": {
+            "rank": 16,
+            "name": "RealEstatePDX.com - Harlan Mayer, Principal Broker",
+            "rating": 4.8,
+            "reviews": 46,
+            "review_velocity": 0.05,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJjer3sU2nlVQR-_iMlUO8Hyw"
+          },
+          "benchmarks": {
+            "avg_rating": 4.95,
+            "avg_reviews": 276,
+            "median_reviews": 112,
+            "typical_reviews": 112,
+            "skewed": true,
+            "your_reviews": 46,
+            "your_rating": 4.8,
+            "reviews_percentile": 25,
+            "pack_size": 20,
+            "top_reviews": 1318
+          },
+          "movement": [
+            {
+              "rank": 1,
+              "name": "Stephen FitzMaurice, Portland Real Estate Agent",
+              "rating": 4.9,
+              "reviews": 203,
+              "review_velocity": 0.45,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ-7_h8sqglVQRVUjFCURVLvk",
+              "rank_delta": 0,
+              "review_gain": 9
+            },
+            {
+              "rank": 2,
+              "name": "Lovejoy Real Estate",
+              "rating": 5.0,
+              "reviews": 267,
+              "review_velocity": 0.2,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJgWUl5FgKlVQR7MKwaUMgQJk",
+              "rank_delta": 7,
+              "review_gain": 4
+            },
+            {
+              "rank": 4,
+              "name": "Own It Northwest",
+              "rating": 5.0,
+              "reviews": 325,
+              "review_velocity": 0.6,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJfX-GBbOglVQRRvGz6S5UOkc",
+              "rank_delta": 3,
+              "review_gain": 12
+            },
+            {
+              "rank": 5,
+              "name": "Juli Martin at LUXE | Forbes Global Properties",
+              "rating": 5.0,
+              "reviews": 10,
+              "review_velocity": 0.0,
+              "website": true,
+              "type": "Real estate agent",
+              "_key": "ChIJixkZtvUJlVQRDK5Wk0lydks",
+              "rank_delta": 12,
+              "review_gain": 0
+            },
+            {
+              "rank": 9,
+              "name": "Paris Group Realty, LLC",
+              "rating": 4.9,
+              "reviews": 85,
+              "review_velocity": 0.25,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJs1-31wynlVQR70SXk8gVnBs",
+              "rank_delta": -6,
+              "review_gain": 5
+            },
+            {
+              "rank": 11,
+              "name": "Michelle McCabe, Portland Real Estate Agent | McCabe & Co at Windermere Realty Trust",
+              "rating": 5.0,
+              "reviews": 23,
+              "review_velocity": 0.1,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJJ846ErOglVQRIKJlRxejHh4",
+              "rank_delta": -5,
+              "review_gain": 2
+            },
+            {
+              "rank": 16,
+              "name": "RealEstatePDX.com - Harlan Mayer, Principal Broker",
+              "rating": 4.8,
+              "reviews": 46,
+              "review_velocity": 0.05,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJjer3sU2nlVQR-_iMlUO8Hyw",
+              "rank_delta": -12,
+              "review_gain": 1
+            },
+            {
+              "rank": 17,
+              "name": "Darcie Alexander and Emily Michel, REALTORS | PDX Green Team",
+              "rating": 5.0,
+              "reviews": 98,
+              "review_velocity": 0.4,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJUR9tcRqnlVQROrKSi1JXYoc",
+              "rank_delta": -3,
+              "review_gain": 8
+            },
+            {
+              "rank": 18,
+              "name": "PEGGY HOAG REAL ESTATE",
+              "rating": 4.8,
+              "reviews": 73,
+              "review_velocity": -0.15,
+              "website": true,
+              "type": "Real estate agency",
+              "_key": "ChIJ-T7oE0UJlVQRWADWBcvCaAc",
+              "rank_delta": 0,
+              "review_gain": -3
+            }
+          ],
+          "fastest_climber": {
+            "rank": 5,
+            "name": "Juli Martin at LUXE | Forbes Global Properties",
+            "rating": 5.0,
+            "reviews": 10,
+            "review_velocity": 0.0,
+            "website": true,
+            "type": "Real estate agent",
+            "_key": "ChIJixkZtvUJlVQRDK5Wk0lydks",
+            "rank_delta": 12,
+            "review_gain": 0
+          },
+          "fastest_review_gainer": {
+            "rank": 4,
+            "name": "Own It Northwest",
+            "rating": 5.0,
+            "reviews": 325,
+            "review_velocity": 0.6,
+            "website": true,
+            "type": "Real estate agency",
+            "_key": "ChIJfX-GBbOglVQRRvGz6S5UOkc",
+            "rank_delta": 3,
+            "review_gain": 12
+          },
+          "visibility": {
+            "current_rank": 16,
+            "best_rank": 2,
+            "your_ctr_pct": 0.8,
+            "best_ctr_pct": 22.1,
+            "top3_ctr_pct": 70.3,
+            "share_pct": 0.8,
+            "lost_vs_best_pct": 21.3,
+            "lost_vs_best_rel": 96,
+            "reach_vs_top3_x": 87.9
+          },
+          "gbp": [
+            {
+              "ok": true,
+              "label": "Website linked on Google Business Profile",
+              "detail": "Linked."
+            },
+            {
+              "ok": false,
+              "label": "Review volume at/above category average",
+              "detail": "You have 46 vs a typical competitor's 112. Close the 66-review gap to match the pack."
+            },
+            {
+              "ok": false,
+              "label": "Star rating at/above category average",
+              "detail": "Your 4.8 vs category 4.95. A 0.15-star gap costs trust at a glance."
+            },
+            {
+              "ok": false,
+              "label": "Adding >=1 review/week (recency signal)",
+              "detail": "You are at 0.05/week (slow). Listings that add 3+/week consistently outrank those below 1/week."
+            },
+            {
+              "ok": false,
+              "label": "Keeping pace with the fastest-gaining competitor",
+              "detail": "Own It Northwest added 12 reviews over the tracked window."
+            }
+          ],
+          "current_rank": 16,
+          "start_rank": 4,
+          "net_change": -12,
+          "best_rank": 2,
+          "worst_rank": 16
+        },
+        "_confidence_score": 10,
+        "_scan_date": "November 26, 2026"
       },
       "pdf_path": "",
       "created_at": "2026-11-24T00:37:26.389213+00:00",
       "status": "pending",
-      "delivered_at": null
+      "delivered_at": null,
+      "free_report_sent": "2026-11-26T22:13:40.446925+00:00",
+      "free_report_email": "harlan@realestatepdx.com"
     },
     {
       "id": "c983c574e43e",
